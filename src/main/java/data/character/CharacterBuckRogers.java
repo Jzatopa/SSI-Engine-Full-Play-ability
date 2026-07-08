@@ -184,12 +184,14 @@ public class CharacterBuckRogers extends AbstractCharacter {
 	}
 
 	public Seq<CharacterSkill> getSkills() {
-		return Array.of(CharacterSkillBuckRogers.PILOT_ROCKET).map(skill -> (CharacterSkill) skill);
+		return Array.of(CharacterSkillBuckRogers.values())
+			.filter(skill -> getSkillValue(skill) > 0)
+			.map(skill -> (CharacterSkill) skill);
 	}
 
 	public int getSkillValue(CharacterSkill skill) {
-		if (CharacterSkillBuckRogers.PILOT_ROCKET.equals(skill)) {
-			return read(CharacterValueType.SKILL_PILOT_ROCKET);
+		if (skill instanceof CharacterSkillBuckRogers buckSkill) {
+			return readFileUnsigned(buckSkill.getWhoOffset());
 		}
 		return 0;
 	}

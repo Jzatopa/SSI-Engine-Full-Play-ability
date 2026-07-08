@@ -10,7 +10,19 @@ import static character.buckrogers.AbilityScoreBuckRogers.WISDOM;
 import static character.buckrogers.CharacterClassBuckRogers.ROCKETJOCK;
 import static character.CharacterGender.MALE;
 import static character.buckrogers.CharacterRaceBuckRogers.TERRAN;
+import static character.buckrogers.CharacterSkillBuckRogers.ASTROGATION;
+import static character.buckrogers.CharacterSkillBuckRogers.BATTLE_TACTICS;
+import static character.buckrogers.CharacterSkillBuckRogers.BEFRIEND_ANIMAL;
+import static character.buckrogers.CharacterSkillBuckRogers.FAST_TALK_CONVINCE;
+import static character.buckrogers.CharacterSkillBuckRogers.FIRST_AID;
+import static character.buckrogers.CharacterSkillBuckRogers.MANEUVER_IN_ZERO_G;
+import static character.buckrogers.CharacterSkillBuckRogers.NOTICE;
 import static character.buckrogers.CharacterSkillBuckRogers.PILOT_ROCKET;
+import static character.buckrogers.CharacterSkillBuckRogers.TREAT_CRITICAL_WOUNDS;
+import static character.buckrogers.CharacterSkillBuckRogers.TREAT_LIGHT_WOUNDS;
+import static character.buckrogers.CharacterSkillBuckRogers.TREAT_POISONING;
+import static character.buckrogers.CharacterSkillBuckRogers.TREAT_SERIOUS_WOUNDS;
+import static character.buckrogers.CharacterSkillBuckRogers.TREAT_STUN_PARALYSIS;
 import static character.buckrogers.MoneyBuckRogers.CREDITS;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -47,7 +59,9 @@ public class CharacterBuckRogersTest {
 		data[0x38] = 24;
 		data[0x39] = (byte) 0xFF;
 		data[0x45] = 31;
+		data[0x59] = 25;
 		data[0x7F] = 85;
+		data[0x98] = 12;
 		data[0xE3] = 30;
 
 		CharacterBuckRogers character = character(data);
@@ -61,9 +75,14 @@ public class CharacterBuckRogersTest {
 		assertEquals(40000, character.getExperience());
 		assertEquals(31, character.getNaturalHP());
 		assertEquals(30, character.getCurrentHP());
+		assertEquals(25, character.getSkillValue(FIRST_AID));
 		assertEquals(85, character.getSkillValue(PILOT_ROCKET));
-		assertEquals(1, character.getSkills().size());
+		assertEquals(12, character.getSkillValue(FAST_TALK_CONVINCE));
+		assertEquals(0, character.getSkillValue(NOTICE));
+		assertEquals(3, character.getSkills().size());
+		assertTrue(character.getSkills().contains(FIRST_AID));
 		assertTrue(character.getSkills().contains(PILOT_ROCKET));
+		assertTrue(character.getSkills().contains(FAST_TALK_CONVINCE));
 
 		assertEquals(17, character.getNaturalStatValue(STRENGTH));
 		assertEquals(14, character.getNaturalStatValue(DEXTERITY));
@@ -100,7 +119,12 @@ public class CharacterBuckRogersTest {
 		assertEquals(40000, character.getExperience());
 		assertEquals(31, character.getNaturalHP());
 		assertEquals(31, character.getCurrentHP());
+		assertEquals(25, character.getSkillValue(FIRST_AID));
+		assertEquals(70, character.getSkillValue(ASTROGATION));
 		assertEquals(85, character.getSkillValue(PILOT_ROCKET));
+		assertEquals(85, character.getSkillValue(MANEUVER_IN_ZERO_G));
+		assertEquals(40, character.getSkillValue(NOTICE));
+		assertEquals(15, character.getSkills().size());
 		assertEquals(17, character.getNaturalStatValue(STRENGTH));
 		assertEquals(14, character.getNaturalStatValue(DEXTERITY));
 		assertEquals(13, character.getNaturalStatValue(CONSTITUTION));
@@ -115,6 +139,26 @@ public class CharacterBuckRogersTest {
 		assertEquals(15, character.getCurrentStatValue(WISDOM));
 		assertEquals(13, character.getCurrentStatValue(CHARISMA));
 		assertEquals(15, character.getCurrentStatValue(TECH));
+	}
+
+	@Test
+	public void readsCapturedMedicSkillSetFromCharacterRecord() {
+		byte[] data = readProjectFile("generated/liveplay/first_map_capture/pre_saves/CHRDATA1.SAV");
+
+		CharacterBuckRogers character = character(data);
+
+		assertEquals("CAR1", character.getName());
+		assertEquals(50, character.getSkillValue(TREAT_LIGHT_WOUNDS));
+		assertEquals(40, character.getSkillValue(TREAT_SERIOUS_WOUNDS));
+		assertEquals(75, character.getSkillValue(TREAT_CRITICAL_WOUNDS));
+		assertEquals(40, character.getSkillValue(TREAT_POISONING));
+		assertEquals(60, character.getSkillValue(TREAT_STUN_PARALYSIS));
+		assertEquals(5, character.getSkillValue(BATTLE_TACTICS));
+		assertEquals(80, character.getSkillValue(MANEUVER_IN_ZERO_G));
+		assertEquals(55, character.getSkillValue(BEFRIEND_ANIMAL));
+		assertEquals(9, character.getSkills().size());
+		assertTrue(character.getSkills().contains(TREAT_LIGHT_WOUNDS));
+		assertTrue(character.getSkills().contains(BEFRIEND_ANIMAL));
 	}
 
 	private CharacterBuckRogers character(byte[] data) {

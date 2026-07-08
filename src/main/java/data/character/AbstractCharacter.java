@@ -172,6 +172,10 @@ public abstract class AbstractCharacter extends Content {
 		return CHAR_VALUES.read(type, file, memoryMapping);
 	}
 
+	protected int readFileUnsigned(int offset) {
+		return file.getUnsigned(offset);
+	}
+
 	protected void write(CharacterValueType type, int value) {
 		CHAR_VALUES.write(type, file, memoryMapping, value);
 	}
