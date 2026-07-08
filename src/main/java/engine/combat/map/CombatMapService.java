@@ -1,7 +1,5 @@
 package engine.combat.map;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Objects;
 
 import engine.combat.BattlefieldBuffer;
@@ -39,12 +37,12 @@ public final class CombatMapService {
 	private static final int BOARD_CELLS = BattlefieldBuffer.WIDTH * BattlefieldBuffer.HEIGHT;
 
 	private final TileTraits tiles;
-	// COAB static MapReach[,,] mapReachCache (ovr032.cs). A HashMap keyed by
-	// (target index, attacker index, ignoreWalls) stands in for COAB's
-	// preallocated 50*25 x 50*25 x 2 array — a labeled deviation to avoid a
-	// ~3.1M-slot eager array allocation; behavior (lazily computed, then
-	// cached forever) is identical.
-	private final Map<Long, ReachResult> cache = new HashMap<>();
+	// COAB static MapReach[,,] mapReachCache (ovr032.cs): a preallocated
+	// (50*25) x (50*25) x 2 array of lazily filled entries; same shape here,
+	// flattened to one dimension. Deviation: COAB's cache is a process-wide
+	// static shared across battles (and never invalidated); this one is
+	// per-service-instance, so each battlefield builds its own service.
+	private final ReachResult[] cache = new ReachResult[BOARD_CELLS * BOARD_CELLS * 2];
 
 	public CombatMapService(TileTraits tiles) {
 		this.tiles = Objects.requireNonNull(tiles, "tiles");
@@ -92,14 +90,14 @@ public final class CombatMapService {
 		Objects.requireNonNull(attacker, "attacker");
 		Objects.requireNonNull(target, "target");
 
-		long key = cacheKey(attacker, target, ignoreWalls);
-		ReachResult cached = cache.get(key);
+		int key = cacheKey(attacker, target, ignoreWalls);
+		ReachResult cached = cache[key];
 		if (cached != null) {
 			return cached;
 		}
 
 		ReachResult computed = canReachTargetCalc(attacker, target, ignoreWalls);
-		cache.put(key, computed);
+		cache[key] = computed;
 		return computed;
 	}
 
@@ -277,12 +275,12 @@ public final class CombatMapService {
 		return new ReachResult(true, sightPath.steps, target);
 	}
 
-	private static long cacheKey(CombatPosition attacker, CombatPosition target, boolean ignoreWalls) {
+	private static int cacheKey(CombatPosition attacker, CombatPosition target, boolean ignoreWalls) {
 		int attackerIndex = attacker.y() * BattlefieldBuffer.WIDTH + attacker.x();
 		int targetIndex = target.y() * BattlefieldBuffer.WIDTH + target.x();
 		// Mirrors COAB's mapReachCache[(target...), (attacker...), ignoreWalls]
 		// index order.
-		long key = ((long) targetIndex * BOARD_CELLS + attackerIndex) * 2;
+		int key = (targetIndex * BOARD_CELLS + attackerIndex) * 2;
 		return ignoreWalls ? key + 1 : key;
 	}
 }

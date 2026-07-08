@@ -24,6 +24,21 @@ public interface NpcCharacter {
 	int npcId();
 
 	/**
+	 * Sets {@code Player.mod_id}; {@code ovr017.load_npc} stamps the requested
+	 * monster id onto the freshly loaded record ({@code player.mod_id =
+	 * (byte)monster_id}) before adding it to the party.
+	 */
+	void setNpcId(int npcId);
+
+	/**
+	 * COAB {@code Player.name}. Together with {@link #npcId()} this is the
+	 * duplicate-membership key: {@code ovr018}'s add-character gate rejects a
+	 * candidate when an existing member matches on both {@code name} and
+	 * {@code mod_id}.
+	 */
+	String name();
+
+	/**
 	 * COAB {@code Player.control_morale} (a byte, 0-255). Values
 	 * {@code >= NpcPartyService.NPC_CONTROL_BASE} (COAB {@code Control.NPC_Base = 0x80})
 	 * mark the member as NPC-controlled rather than player-controlled; the low

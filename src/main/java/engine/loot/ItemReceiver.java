@@ -3,8 +3,9 @@ package engine.loot;
 /**
  * Accepts (or rejects) a single item handed to it from a {@link TreasurePool}.
  *
- * <p>Ported from the accept/reject contract COAB's ovr006.cs
- * {@code take_items_treasure} (sub_2DDFC) uses around {@code ovr007.PlayerAddItem}:
+ * <p>Ported from COAB (https://github.com/simeonpilgrim/coab, commit 9dc46f1):
+ * the accept/reject contract ovr006.cs {@code take_items_treasure} (sub_2DDFC)
+ * uses around {@code ovr007.PlayerAddItem}:
  * {@code bool willOverload = ovr007.PlayerAddItem(item); if (willOverload == false) { items_pointer.Remove(item); }}
  * — an item is taken off the pool only if the recipient had room for it. This
  * interface flips the boolean's sense for Java readability ({@link #receive}

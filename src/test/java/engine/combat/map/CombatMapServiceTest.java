@@ -274,10 +274,6 @@ public class CombatMapServiceTest {
 	 * (6,4) must fall just outside.
 	 */
 	@Test
-	public void caseZeroBoundaryIsInclusiveExactlyAtTheEdgeAndExclusiveOneTileBeyond {
-	}
-
-	@Test
 	public void caseZeroBoundaryIsInclusiveExactlyAtTheEdgeAndExclusiveOneTilePastIt() {
 		CombatMapService service = new CombatMapService(new SyntheticBattlefield());
 		CombatPosition observer = CombatPosition.of(5, 5);
@@ -314,25 +310,30 @@ public class CombatMapServiceTest {
 		assertEquals(2, service.findCombatantDirection(target, attacker));
 	}
 
+	/**
+	 * Board-wide invariant of the ported scan: the returned direction is
+	 * always the first d in 0..8 whose {@code canSeeCombatant(d, ...)} is
+	 * true, and it always sees the target (direction 8 sees everything, so
+	 * COAB's fallback of returning 8 after a failed 0-7 scan preserves the
+	 * invariant even if the geometry ever left a gap).
+	 */
 	@Test
-	public void findCombatantDirectionFallsBackToOmnidirectionalWhenNeverVisible() {
-		// A same-tile pair is always visible, so a same-tile target can never
-		// exercise the fallback; instead force it via a stubbed service whose
-		// canSeeCombatant never returns true for 0-7, confirming the loop's
-		// termination/fallback behavior in isolation from the geometry.
-		CombatMapService service = new CombatMapService(new SyntheticBattlefield()) {
-			@Override
-			public boolean canSeeCombatant(int direction, CombatPosition playerA, CombatPosition playerB) {
-				if (direction == 8 || direction == 0xff) {
-					return true;
-				}
-				return false;
-			}
-		};
-		CombatPosition attacker = CombatPosition.of(5, 5);
-		CombatPosition target = CombatPosition.of(6, 5);
+	public void findCombatantDirectionAlwaysReturnsFirstSeeingDirectionAcrossTheBoard() {
+		CombatMapService service = new CombatMapService(new SyntheticBattlefield());
+		CombatPosition attacker = CombatPosition.of(25, 12);
 
-		assertEquals(8, service.findCombatantDirection(target, attacker));
+		for (int y = 0; y < 25; y++) {
+			for (int x = 0; x < 50; x++) {
+				CombatPosition target = CombatPosition.of(x, y);
+				int dir = service.findCombatantDirection(target, attacker);
+				assertTrue("dir in 0..8 for " + target, dir >= 0 && dir <= 8);
+				assertTrue("returned direction sees " + target, service.canSeeCombatant(dir, target, attacker));
+				for (int earlier = 0; earlier < dir; earlier++) {
+					assertFalse("direction " + earlier + " must not see " + target + " before " + dir,
+						service.canSeeCombatant(earlier, target, attacker));
+				}
+			}
+		}
 	}
 
 	// --- buildMapCache ---------------------------------------------------------

@@ -5,9 +5,11 @@ import java.util.List;
 
 /**
  * Outcome of {@link RobOperations#robItems}: which items survived and which
- * were stolen, in original iteration order. Ported (as a return value, in
- * place of COAB's in-place {@code List.RemoveAll}) from ovr008.cs
- * {@code RobItems} (sub_31F1C).
+ * were stolen, in original iteration order. Ported from COAB
+ * (https://github.com/simeonpilgrim/coab, commit 9dc46f1), ovr008.cs
+ * {@code RobItems} (sub_31F1C) — as a return value, a deliberate deviation
+ * from COAB's in-place {@code List.RemoveAll}, so callers keep ownership of
+ * their item list mutation.
  */
 public final class RobItemsResult<I extends LootItem> {
 

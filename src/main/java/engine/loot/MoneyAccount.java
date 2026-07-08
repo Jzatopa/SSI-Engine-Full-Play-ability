@@ -4,7 +4,8 @@ package engine.loot;
  * A party member's money-holding side, as seen by the pool distribution
  * operations in {@link TreasurePool}.
  *
- * <p>Ported from the {@code Player.Money} (a {@code MoneySet}) plus
+ * <p>Ported from COAB (https://github.com/simeonpilgrim/coab, commit 9dc46f1):
+ * the {@code Player.Money} (a {@code MoneySet}) plus
  * {@code Player.weight}/{@code AddWeight}/{@code RemoveWeight} pairing COAB
  * threads through ovr022.cs's money-transfer helpers ({@code willOverload},
  * {@code PickupCoins}, {@code share_pooled}, {@code poolMoney}): every coin
