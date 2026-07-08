@@ -16,6 +16,7 @@ import java.awt.event.WindowEvent;
 import java.io.File;
 import java.io.IOException;
 import java.nio.channels.FileChannel;
+import java.nio.file.Path;
 import java.util.Optional;
 
 import javax.annotation.Nonnull;
@@ -30,9 +31,11 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JRadioButtonMenuItem;
+import javax.swing.SwingUtilities;
 
 import common.FileMap;
 import engine.Engine;
+import main.CombatUiBridgeSelector;
 import shared.UserInterface;
 import ui.UISettings.ScaleMethod;
 import ui.UISettings.TextSpeed;
@@ -50,6 +53,7 @@ public class DesktopFrame implements ExceptionHandler {
 	private UIResourceConfiguration config;
 	private UISettings settings;
 
+	private Optional<Engine> engine = Optional.empty();
 	private Optional<UserInterface> ui = Optional.empty();
 
 	public DesktopFrame() {
@@ -76,8 +80,11 @@ public class DesktopFrame implements ExceptionHandler {
 			this.frame.add(getLogo(), BorderLayout.CENTER);
 			this.frame.pack();
 		});
+		engine = Optional.empty();
 		ui = Optional.empty();
 		init(gameDir);
+		engine.ifPresent(e -> CombatUiBridgeSelector.select(config.getGameName(), Path.of(gameDir))
+			.ifPresent(e::setCombatUiBridge));
 		ui.ifPresent(uiValue -> {
 			this.frame.remove(getLogo());
 			this.frame.setTitle(config.getGameName());
@@ -85,6 +92,11 @@ public class DesktopFrame implements ExceptionHandler {
 			this.frame.pack();
 			uiValue.start(showTitles);
 		});
+	}
+
+	public void startCombatDebug(@Nonnull String gameDir, int eclId, int address) {
+		startGame(gameDir, false);
+		SwingUtilities.invokeLater(() -> engine.ifPresent(e -> e.debugStartEclAtAddress(eclId, address)));
 	}
 
 	private void initFrame() {
@@ -237,6 +249,7 @@ public class DesktopFrame implements ExceptionHandler {
 		try {
 			FileMap fm = new FileMap(dir);
 			Engine engine = new Engine(fm);
+			this.engine = Optional.of(engine);
 			config = new UIResourceConfiguration(fm);
 			ui = Optional.of(new ClassicMode(fm, engine, config, settings, this));
 			resourceUi = new ResourceViewer(fm, config, settings, this, engine);

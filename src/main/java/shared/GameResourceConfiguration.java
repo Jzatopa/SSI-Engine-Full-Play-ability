@@ -13,6 +13,21 @@ import common.FileMap;
 import common.MD5Util;
 
 public class GameResourceConfiguration {
+	private static final String[] GAME_CONFIGS = {
+		"Buck Rogers - Countdown to Doomsday.properties",
+		"Buck Rogers - Matrix Cubed.properties",
+		"Champions of Krynn.properties",
+		"Curse of the Azure Bonds.properties",
+		"Death Knights of Krynn.properties",
+		"Forgotten Realm Unlimited Adventures.properties",
+		"Gateway to the Savage Frontier.properties",
+		"Neverwinter Nights.properties",
+		"Pool of Radiance.properties",
+		"Pools of Darkness.properties",
+		"Secret of the Silver Blades.properties",
+		"The Dark Queen of Krynn.properties",
+		"Treasures of the Savage Frontier.properties"
+	};
 
 	private FileMap filemap;
 
@@ -30,14 +45,14 @@ public class GameResourceConfiguration {
 	}
 
 	private void findConfig() throws Exception {
-		File cp = new File(ClassLoader.getSystemResource(".").toURI());
-		String[] propFiles = cp.list((dir, name) -> name.endsWith(".properties"));
-
-		for (String filename : propFiles) {
+		for (String filename : GAME_CONFIGS) {
 			String game = filename.replace(".properties", "");
 
 			Properties props = new Properties();
 			try (InputStream in = ClassLoader.getSystemResourceAsStream(filename)) {
+				if (in == null) {
+					continue;
+				}
 				props.load(in);
 			}
 

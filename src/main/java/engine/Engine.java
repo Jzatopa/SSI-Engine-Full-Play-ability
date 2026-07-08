@@ -47,6 +47,7 @@ import data.dungeon.DungeonMap2;
 import data.script.EclProgram;
 import engine.character.CharacterSheetImpl;
 import engine.character.PlayerDataFactory;
+import engine.combat.CombatUiBridge;
 import engine.input.MovementHandler;
 import engine.script.EclInstruction;
 import engine.text.GoldboxStringPartFactory;
@@ -92,7 +93,6 @@ public class Engine implements EngineCallback, EngineStub {
 		AbstractCharacter.configValues(cfg.getCharacterValues());
 
 		this.memory = new VirtualMemory(cfg);
-		this.vm = new VirtualMachine(this, this.memory, cfg.getCodeBase());
 		if (cfg.isUsingFeature(SPECIAL_CHARS_NOT_FROM_FONT))
 			this.stringPartFactory = new GoldboxStringPartFactory(cfg.getSpecialChar(UMLAUT_A),
 				cfg.getSpecialChar(UMLAUT_O), cfg.getSpecialChar(UMLAUT_U), cfg.getSpecialChar(SHARP_S));
@@ -100,12 +100,17 @@ public class Engine implements EngineCallback, EngineStub {
 			this.stringPartFactory = new GoldboxStringPartFactory();
 
 		this.playerDataFactory = new PlayerDataFactory(res, cfg);
+		this.vm = new VirtualMachine(this, this.memory, cfg.getCodeBase(), this.playerDataFactory::loadCharacter);
 	}
 
 	@Override
 	public void registerUI(@Nonnull UserInterface ui) {
 		this.ui = ui;
 		this.ui.setGlobalData(memory);
+	}
+
+	public void setCombatUiBridge(@Nonnull CombatUiBridge uiBridge) {
+		this.vm.setCombatUiBridge(uiBridge);
 	}
 
 	@Override
@@ -285,6 +290,23 @@ public class Engine implements EngineCallback, EngineStub {
 					this.currentMenuItem = null;
 					setShowGameMenu(true);
 					setInputStandard(null);
+				});
+			});
+	}
+
+	public void debugStartEclAtAddress(int eclId, int address) {
+		memory.setCurrentECL(eclId);
+		setNextTask(() -> {
+			clear();
+			res.find(eclId, EclProgram.class, ECL)
+				.ifFailure(this::handleException)
+				.ifPresentAndSuccess(ecl -> {
+					vm.newEcl(ecl);
+					vm.startAtAddress(address);
+					setInputStandard(null);
+					if (Boolean.getBoolean("matrix.combat.debugExitAfterEcl")) {
+						System.exit(0);
+					}
 				});
 		});
 	}

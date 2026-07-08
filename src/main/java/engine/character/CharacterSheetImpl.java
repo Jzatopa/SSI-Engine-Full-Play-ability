@@ -123,44 +123,37 @@ public class CharacterSheetImpl implements CharacterSheet {
 
 	@Override
 	public GoldboxString getMovementRateDescription() {
-		// TODO Auto-generated method stub
-		return new CustomGoldboxString("10");
+		return numericOrUnresolved(character.getMovementRate());
 	}
 
 	@Override
 	public GoldboxString getTHACODescription() {
-		// TODO Auto-generated method stub
-		return new CustomGoldboxString("10");
+		return numericOrUnresolved(character.getTHACO());
 	}
 
 	@Override
 	public GoldboxString getEncumbranceDescription() {
-		// TODO Auto-generated method stub
-		return new CustomGoldboxString("10");
+		return unresolved();
 	}
 
 	@Override
 	public GoldboxString getEquippedWeaponDescription() {
-		// TODO Auto-generated method stub
-		return new CustomGoldboxString("10");
+		return unresolved();
 	}
 
 	@Override
 	public GoldboxString getDamageDescription() {
-		// TODO Auto-generated method stub
-		return new CustomGoldboxString("10");
+		return unresolved();
 	}
 
 	@Override
 	public GoldboxString getEquippedArmorDescription() {
-		// TODO Auto-generated method stub
-		return new CustomGoldboxString("10");
+		return unresolved();
 	}
 
 	@Override
 	public GoldboxString getArmorClassDescription() {
-		// TODO Auto-generated method stub
-		return new CustomGoldboxString("10");
+		return unresolved();
 	}
 
 	@Override
@@ -176,7 +169,14 @@ public class CharacterSheetImpl implements CharacterSheet {
 
 	@Override
 	public Optional<WithSkills> withClassSkills() {
-		// TODO Auto-generated method stub
 		return Optional.empty();
+	}
+
+	private static GoldboxString numericOrUnresolved(int value) {
+		return value > 0 ? new CustomGoldboxString(Integer.toString(value)) : unresolved();
+	}
+
+	private static GoldboxString unresolved() {
+		return new CustomGoldboxString("UNRESOLVED");
 	}
 }

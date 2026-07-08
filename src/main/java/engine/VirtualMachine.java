@@ -13,10 +13,13 @@ import static shared.MenuType.HORIZONTAL;
 import static shared.MenuType.PARTY;
 import static shared.MenuType.VERTICAL;
 
+import java.util.ArrayList;
 import java.util.Deque;
+import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ConcurrentLinkedDeque;
 import java.util.function.Consumer;
+import java.util.function.Function;
 
 import io.vavr.collection.Array;
 import io.vavr.collection.HashMap;
@@ -24,6 +27,14 @@ import io.vavr.collection.Map;
 import io.vavr.collection.Seq;
 
 import common.ByteBufferWrapper;
+import data.Resource;
+import data.character.AbstractCharacter;
+import engine.character.CharacterSheetImpl;
+import engine.combat.CombatEncounterFactory;
+import engine.combat.CombatUiBridge;
+import engine.combat.EclCombatBridge;
+import engine.combat.EclCombatBridge.EclCombatResult;
+import engine.combat.SsiEclCombatAdapter;
 import data.script.EclProgram;
 import engine.script.EclArgument;
 import engine.script.EclInstruction;
@@ -40,6 +51,10 @@ public class VirtualMachine {
 	private Deque<Integer> gosubStack = new ConcurrentLinkedDeque<>();
 	private int compareResult = 0;
 	private Random rnd = new Random();
+	private Function<Integer, Resource<? extends AbstractCharacter>> characterLoader;
+	private Deque<AbstractCharacter> queuedMonsters = new ConcurrentLinkedDeque<>();
+	private SsiEclCombatAdapter combatAdapter = new SsiEclCombatAdapter();
+	private static final int MAX_QUEUED_MONSTERS = 63;
 
 	private int forLoopAddress;
 	private int forLoopMax;
@@ -55,14 +70,56 @@ public class VirtualMachine {
 	private EclInstruction onInit;
 
 	public VirtualMachine(EngineCallback engine, VirtualMemory memory, int eclCodeBaseAddress) {
+		this(engine, memory, eclCodeBaseAddress, id -> Resource.empty());
+	}
+
+	public VirtualMachine(EngineCallback engine, VirtualMemory memory, int eclCodeBaseAddress,
+		Function<Integer, Resource<? extends AbstractCharacter>> characterLoader) {
 		this.engine = engine;
 		this.memory = memory;
 		this.eclCodeBaseAddress = eclCodeBaseAddress;
+		this.characterLoader = characterLoader;
 		IMPL = initImpl();
 	}
 
 	VirtualMemory getMemory() {
 		return memory;
+	}
+
+	int queuedMonsterCount() {
+		return queuedMonsters.size();
+	}
+
+	int queueMonsterCopies(int monsterId, int requestedCopies) {
+		int copies = requestedCopies <= 0 ? 1 : requestedCopies;
+		int available = Math.max(0, MAX_QUEUED_MONSTERS - queuedMonsters.size());
+		int copiesToQueue = Math.min(copies, available);
+		if (copiesToQueue == 0) return 0;
+
+		final int[] added = { 0 };
+		characterLoader.apply(monsterId)
+			.ifPresentAndSuccess(monster -> {
+				for (int i = 0; i < copiesToQueue; i++) {
+					queuedMonsters.add(monster);
+					added[0]++;
+				}
+			})
+			.ifFailure(t -> engine.addText(new CustomGoldboxString("MONSTER LOAD FAILED: " + monsterId), true));
+		return added[0];
+	}
+
+	public void setCombatAdapter(SsiEclCombatAdapter combatAdapter) {
+		if (combatAdapter == null) {
+			throw new IllegalArgumentException("combatAdapter must not be null");
+		}
+		this.combatAdapter = combatAdapter;
+	}
+
+	public void setCombatUiBridge(CombatUiBridge uiBridge) {
+		if (uiBridge == null) {
+			throw new IllegalArgumentException("uiBridge must not be null");
+		}
+		this.combatAdapter = new SsiEclCombatAdapter(new EclCombatBridge(new CombatEncounterFactory(), uiBridge));
 	}
 
 	public void newEcl(EclProgram ecl) {
@@ -106,6 +163,19 @@ public class VirtualMachine {
 	private void startEvent(EclInstruction eventInst) {
 		stopped = false;
 		exec(eventInst, true);
+		runVM();
+	}
+
+	public void startAtAddress(int address) {
+		if (eclCode == null) {
+			throw new IllegalStateException("No ECL program loaded.");
+		}
+		int position = address - eclCodeBaseAddress;
+		if (position < 0 || position >= eclCode.limit()) {
+			throw new IllegalArgumentException("ECL address outside current program: " + Integer.toHexString(address));
+		}
+		eclCode.position(position);
+		stopped = false;
 		runVM();
 	}
 
@@ -231,7 +301,9 @@ public class VirtualMachine {
 				memory.setLoadedCharacter(intValue(inst.getArgument(0)));
 			}), //
 			entry(EclOpCode.LOAD_MON, inst -> {
-
+				int monsterId = intValue(inst.getArgument(0));
+				int copies = intValue(inst.getArgument(1));
+				queueMonsterCopies(monsterId, copies);
 			}), //
 			entry(EclOpCode.SPRITE_START3, inst -> {
 				engine.showSprite(intValue(inst.getArgument(0)), intValue(inst.getArgument(1)),
@@ -367,9 +439,27 @@ public class VirtualMachine {
 
 			}), //
 			entry(EclOpCode.COMBAT, inst -> {
-				// TODO: Implement combat
-				// For now set combat to success
-				memory.setCombatResult(0);
+				List<AbstractCharacter> monsters = new ArrayList<>();
+				AbstractCharacter monster;
+				while ((monster = queuedMonsters.poll()) != null) {
+					monsters.add(monster);
+				}
+				if (monsters.isEmpty()) {
+					engine.addText(new CustomGoldboxString("COMBAT: NO MONSTERS QUEUED."), true);
+					memory.setCombatResult(0);
+				} else {
+					List<CharacterSheetImpl> party = new ArrayList<>();
+					for (int i = 0; i < memory.getPartyMemberCount(); i++) {
+						party.add(memory.getPartyMemberAsCharacterSheet(i));
+					}
+					EclCombatResult result = combatAdapter.resolveQueued(monsters, party);
+					memory.setCombatResult(result.combatResult());
+					System.out.println("COMBAT_RESULT=" + result.combatResult() + " resolver=" + result.resolverName());
+					if (!Boolean.getBoolean("matrix.combat.debugAutoContinue")) {
+						engine.addText(new CustomGoldboxString(result.transcript()), true);
+						engine.setMenu(HORIZONTAL, CONTINUE_ACTION, null);
+					}
+				}
 			}), //
 			entry(EclOpCode.ON_GOTO, inst -> {
 				if (intValue(inst.getArgument(0)) >= intValue(inst.getArgument(1))

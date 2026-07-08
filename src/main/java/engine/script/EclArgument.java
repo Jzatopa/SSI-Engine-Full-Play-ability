@@ -59,7 +59,7 @@ public class EclArgument {
 	 * @param data
 	 * @return
 	 */
-	private static GoldboxString decompressString(byte[] data) {
+	static GoldboxString decompressString(byte[] data) {
 		int state = 1;
 		int lastByte = 0;
 

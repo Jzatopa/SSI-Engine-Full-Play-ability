@@ -1,6 +1,8 @@
 package engine.character;
 
 import static data.ContentType.MONCHA;
+import static data.ContentType.ITEM;
+import static data.ContentType.MONITM;
 import static java.nio.file.StandardOpenOption.READ;
 
 import java.io.File;
@@ -20,6 +22,8 @@ import data.Resource;
 import data.ResourceLoader;
 import data.character.AbstractCharacter;
 import data.character.CharacterBuckRogers;
+import data.character.BuckRogersItemCatalogBlock;
+import data.character.BuckRogersMonsterInventoryBlock;
 import data.character.CharacterForgottenRealms;
 import data.character.CharacterForgottenRealmsUnlimited;
 import engine.EngineConfiguration;
@@ -77,7 +81,12 @@ public class PlayerDataFactory {
 	public Resource<? extends AbstractCharacter> loadCharacter(int id) {
 		switch (cfg.getCharacterFormat()) {
 			case BUCK_ROGERS:
-				return res.find(id, CharacterBuckRogers.class, MONCHA);
+				return res.find(id, CharacterBuckRogers.class, MONCHA).map(character -> {
+					res.find(1, BuckRogersItemCatalogBlock.class, ITEM).ifPresentAndSuccess(catalog ->
+						res.find(id, BuckRogersMonsterInventoryBlock.class, MONITM).ifPresentAndSuccess(inventory ->
+							character.attachRecoveredItems(inventory.recoveredItems(catalog))));
+					return character;
+				});
 			case FORGOTTEN_REALMS:
 				return res.find(id, CharacterForgottenRealms.class, MONCHA);
 			case FORGOTTEN_REALMS_UNLIMITED:

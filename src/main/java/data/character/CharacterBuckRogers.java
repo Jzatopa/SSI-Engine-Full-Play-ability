@@ -8,6 +8,7 @@ import io.vavr.collection.Array;
 import io.vavr.collection.HashMap;
 import io.vavr.collection.Map;
 import io.vavr.collection.Seq;
+import java.util.List;
 
 import character.AbilityScore;
 import character.CharacterClass;
@@ -26,6 +27,7 @@ import common.ByteBufferWrapper;
 import data.ContentType;
 
 public class CharacterBuckRogers extends AbstractCharacter {
+	private Seq<Item> decodedItems = Array.empty();
 	private static final Map<AbilityScoreBuckRogers, CharacterValueType> STATS_CURRENT_MAPPING = HashMap.ofEntries( //
 		entry(AbilityScoreBuckRogers.STRENGTH, CharacterValueType.STR_CURRENT), //
 		entry(AbilityScoreBuckRogers.INTELLIGENCE, CharacterValueType.INT_CURRENT), //
@@ -168,13 +170,16 @@ public class CharacterBuckRogers extends AbstractCharacter {
 
 	@Override
 	public Seq<Item> getItems() {
-		return Array.empty();
+		return decodedItems;
 	}
 
 	@Override
 	public boolean isEquipped(Item item) {
-		// TODO Auto-generated method stub
-		return false;
+		return item instanceof BuckRogersEmbeddedItem embedded && embedded.isEquipped();
+	}
+
+	public void attachRecoveredItems(List<BuckRogersEmbeddedItem> items) {
+		decodedItems = Array.ofAll(items).map(item -> (Item) item);
 	}
 
 	public Seq<CharacterSkill> getSkills() {
