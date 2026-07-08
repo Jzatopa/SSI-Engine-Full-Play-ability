@@ -21,6 +21,7 @@ import character.Item;
 import character.Money;
 import character.buckrogers.AbilityScoreBuckRogers;
 import character.buckrogers.CharacterClassBuckRogers;
+import character.buckrogers.CharacterSkillBuckRogers;
 import character.buckrogers.CharacterStatusBuckRogers;
 import character.buckrogers.MoneyBuckRogers;
 import common.ByteBufferWrapper;
@@ -183,11 +184,13 @@ public class CharacterBuckRogers extends AbstractCharacter {
 	}
 
 	public Seq<CharacterSkill> getSkills() {
-		return Array.empty();
+		return Array.of(CharacterSkillBuckRogers.PILOT_ROCKET).map(skill -> (CharacterSkill) skill);
 	}
 
 	public int getSkillValue(CharacterSkill skill) {
-		// TODO Auto-generated method stub
+		if (CharacterSkillBuckRogers.PILOT_ROCKET.equals(skill)) {
+			return read(CharacterValueType.SKILL_PILOT_ROCKET);
+		}
 		return 0;
 	}
 }

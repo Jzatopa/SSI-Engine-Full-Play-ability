@@ -34,30 +34,30 @@ import common.ByteBufferWrapper;
 
 public enum CharacterValues {
 	BUCK_ROGERS(259, NAME_LENGTH_NAME, 0, BUCK_ROGERS_RACES, CLASS_SELECTION_BUCK_ROGERS, //
-		value(CharacterValueType.STR_CURRENT, 0x10), //
-		value(CharacterValueType.DEX_CURRENT, 0x11), //
-		value(CharacterValueType.CON_CURRENT, 0x12), //
-		value(CharacterValueType.INT_CURRENT, 0x13), //
-		value(CharacterValueType.WIS_CURRENT, 0x14), //
-		value(CharacterValueType.CHA_CURRENT, 0x15), //
-		value(CharacterValueType.TCH_CURRENT, 0x16), //
-		value(CharacterValueType.STR_NATURAL, 0x17), //
-		value(CharacterValueType.DEX_NATURAL, 0x18), //
-		value(CharacterValueType.CON_NATURAL, 0x19), //
-		value(CharacterValueType.INT_NATURAL, 0x1A), //
-		value(CharacterValueType.WIS_NATURAL, 0x19), //
-		value(CharacterValueType.CHA_NATURAL, 0x1C), //
-		value(CharacterValueType.TCH_NATURAL, 0x1D), //
+		value(CharacterValueType.STR_NATURAL, 0x10), //
+		value(CharacterValueType.DEX_NATURAL, 0x11), //
+		value(CharacterValueType.CON_NATURAL, 0x12), //
+		value(CharacterValueType.INT_NATURAL, 0x13), //
+		value(CharacterValueType.WIS_NATURAL, 0x14), //
+		value(CharacterValueType.CHA_NATURAL, 0x15), //
+		value(CharacterValueType.TCH_NATURAL, 0x16), //
+		value(CharacterValueType.STR_CURRENT, 0x17), //
+		value(CharacterValueType.DEX_CURRENT, 0x18), //
+		value(CharacterValueType.CON_CURRENT, 0x19), //
+		value(CharacterValueType.INT_CURRENT, 0x1A), //
+		value(CharacterValueType.WIS_CURRENT, 0x1B), //
+		value(CharacterValueType.CHA_CURRENT, 0x1C), //
+		value(CharacterValueType.TCH_CURRENT, 0x1D), //
 		value(CharacterValueType.HP_NATURAL, 0x45, 0x45), //
 		value(CharacterValueType.HP_CURRENT, 0xE3, 0x119), //
 
 		value(CharacterValueType.RACE, 0x27, 0x27), //
 		value(CharacterValueType.CLASS, 0x28, 0x28), //
-		value(CharacterValueType.AGE, 0x38), //
+		value(CharacterValueType.AGE, 0x38, DataType.BYTE), //
 		value(CharacterValueType.GENDER, 0x26, 0x26), //
 		value(CharacterValueType.NPC_FLAG, 0x4C, 0x4C), //
 
-		value(CharacterValueType.MONEY_CREDITS, 0x2B, 0x2B), //
+		value(CharacterValueType.MONEY_CREDITS, 0x2B, 0x2B, DataType.INT), //
 
 		value(CharacterValueType.LEVEL_BUCK_ROGERS, 0x29), //
 
