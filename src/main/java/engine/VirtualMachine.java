@@ -36,6 +36,8 @@ import engine.combat.EclCombatBridge;
 import engine.combat.EclCombatBridge.EclCombatResult;
 import engine.combat.SsiEclCombatAdapter;
 import data.script.EclProgram;
+import engine.rulesystem.GameMechanics;
+import engine.rulesystem.UnresolvedGameMechanics;
 import engine.script.EclArgument;
 import engine.script.EclInstruction;
 import engine.script.EclOpCode;
@@ -55,6 +57,7 @@ public class VirtualMachine {
 	private Deque<AbstractCharacter> queuedMonsters = new ConcurrentLinkedDeque<>();
 	private SsiEclCombatAdapter combatAdapter = new SsiEclCombatAdapter();
 	private static final int MAX_QUEUED_MONSTERS = 63;
+	private final GameMechanics gameMechanics;
 
 	private int forLoopAddress;
 	private int forLoopMax;
@@ -75,10 +78,28 @@ public class VirtualMachine {
 
 	public VirtualMachine(EngineCallback engine, VirtualMemory memory, int eclCodeBaseAddress,
 		Function<Integer, Resource<? extends AbstractCharacter>> characterLoader) {
+		this(engine, memory, eclCodeBaseAddress, characterLoader, new UnresolvedGameMechanics());
+	}
+
+	/**
+	 * @param gameMechanics title/ruleset mechanics boundary (see
+	 *                      engine.rulesystem.GameMechanics). Defaults to
+	 *                      {@link UnresolvedGameMechanics} via the other
+	 *                      constructors, which keeps every routed opcode a no-op
+	 *                      exactly as before this boundary was wired in.
+	 */
+	public VirtualMachine(EngineCallback engine, VirtualMemory memory, int eclCodeBaseAddress,
+		GameMechanics gameMechanics) {
+		this(engine, memory, eclCodeBaseAddress, id -> Resource.empty(), gameMechanics);
+	}
+
+	public VirtualMachine(EngineCallback engine, VirtualMemory memory, int eclCodeBaseAddress,
+		Function<Integer, Resource<? extends AbstractCharacter>> characterLoader, GameMechanics gameMechanics) {
 		this.engine = engine;
 		this.memory = memory;
 		this.eclCodeBaseAddress = eclCodeBaseAddress;
 		this.characterLoader = characterLoader;
+		this.gameMechanics = gameMechanics != null ? gameMechanics : new UnresolvedGameMechanics();
 		IMPL = initImpl();
 	}
 
@@ -251,6 +272,33 @@ public class VirtualMachine {
 		return a.isMemAddress() ? memory.readMemString(a) : a.valueAsString();
 	}
 
+	/** Live party members as the GameMechanics boundary type, for mechanic-stub routing. */
+	private List<AbstractCharacter> partyMembers() {
+		List<AbstractCharacter> party = new ArrayList<>();
+		for (int i = 0; i < memory.getPartyMemberCount(); i++) {
+			party.add(memory.getPartyMemberAsCharacterSheet(i).getCharacter());
+		}
+		return party;
+	}
+
+	/** Currently selected/loaded character, or null if none is selected (no bounds crash). */
+	private AbstractCharacter selectedCharacter() {
+		int index = memory.getLoadedCharacter();
+		if (index < 0 || index >= memory.getPartyMemberCount()) {
+			return null;
+		}
+		return memory.getPartyMemberAsCharacterSheet(index).getCharacter();
+	}
+
+	/** Resolved integer values of every fixed argument of {@code inst}, for GameMechanics routing. */
+	private List<Integer> argValues(EclInstruction inst) {
+		List<Integer> values = new ArrayList<>();
+		for (EclArgument a : inst.getArguments()) {
+			values.add(intValue(a));
+		}
+		return values;
+	}
+
 	private Map<EclOpCode, Consumer<EclInstruction>> initImpl() {
 		return HashMap.ofEntries( //
 			entry(EclOpCode.EXIT, inst -> {
@@ -390,11 +438,20 @@ public class VirtualMachine {
 			entry(EclOpCode.INPUT_RETURN_1D, inst -> {
 				engine.setMenu(HORIZONTAL, CONTINUE_ACTION, null);
 			}), //
+			entry(EclOpCode.UNUSED_1F, inst -> {
+				// No IMPL entry previously existed for this opcode id/arg-count combination;
+				// dispatch fell through to IMPL.get(...).get() and threw NoSuchElementException
+				// (live crash risk for Curse/Krynn/Pool profiles that select this form of 0x1F).
+				System.err.println("UNUSED_1F dispatched (opcode 0x1F, 0-arg form) — safe no-op.");
+			}), //
 			entry(EclOpCode.PARTY_STRENGTH, inst -> {
-
+				// Routing only: no confirmed destination argument for this opcode (see
+				// docs/coab-java-stub-audit.md). UnresolvedGameMechanics returns empty, so
+				// this stays a true no-op until a title mechanics provider is wired in.
+				gameMechanics.partyStrength(partyMembers(), intValue(inst.getArgument(0)));
 			}), //
 			entry(EclOpCode.PARTY_CHECK, inst -> {
-
+				gameMechanics.partyCheck(partyMembers(), argValues(inst));
 			}), //
 			entry(EclOpCode.JOURNAL_ENTRY, inst -> {
 				engine.addText(
@@ -422,10 +479,22 @@ public class VirtualMachine {
 				compareResult = memory.getMenuChoice();
 			}), //
 			entry(EclOpCode.PARTY_SKILL_CHECK2, inst -> {
-
+				gameMechanics.partySkillCheck(partyMembers(), argValues(inst));
 			}), //
 			entry(EclOpCode.PARTY_SKILL_CHECK3, inst -> {
-				memory.writeMemInt(inst.getArgument(2), 100);
+				// Was: unconditional memory.writeMemInt(arg2, 100) — a fabricated always-pass
+				// (evidence-discipline violation, see docs/coab-java-stub-audit.md and
+				// docs/engine-completion-plan-2026-07-09.md section 3). Investigated whether
+				// the literal 100 is load-bearing for the Matrix ECL flow exercised by
+				// scripts/run-combat-scene.sh (Caloris ECL 17, event 7): that harness never
+				// dispatches this opcode, and no test asserts on the written value, so there
+				// is no evidence it is load-bearing. Routed through GameMechanics instead;
+				// on empty (the UnresolvedGameMechanics default) this is now a true no-op,
+				// consistent with every other unresolved mechanic stub in this file.
+				gameMechanics
+					.partySkillCheck(partyMembers(),
+						java.util.List.of(intValue(inst.getArgument(0)), intValue(inst.getArgument(1))))
+					.ifPresent(result -> memory.writeMemInt(inst.getArgument(2), result));
 			}), //
 			entry(EclOpCode.STOP_MOVE_23, inst -> {
 				stopVM();
@@ -433,10 +502,19 @@ public class VirtualMachine {
 				engine.clear();
 			}), //
 			entry(EclOpCode.SURPRISE, inst -> {
-
+				gameMechanics.surprise(partyMembers(), argValues(inst));
 			}), //
 			entry(EclOpCode.SKILL_CHECK, inst -> {
-
+				// Destination argument (index 2) is inferred by analogy to the sibling
+				// three-argument opcode PARTY_SKILL_CHECK3 (same opcode-id family, same
+				// arg shape); not independently confirmed against Matrix ECL evidence.
+				AbstractCharacter character = selectedCharacter();
+				if (character != null) {
+					gameMechanics
+						.characterSkillCheck(character,
+							java.util.List.of(intValue(inst.getArgument(0)), intValue(inst.getArgument(1))))
+						.ifPresent(result -> memory.writeMemInt(inst.getArgument(2), result));
+				}
 			}), //
 			entry(EclOpCode.COMBAT, inst -> {
 				List<AbstractCharacter> monsters = new ArrayList<>();
@@ -479,16 +557,16 @@ public class VirtualMachine {
 				goTo(inst.getDynArgs().get(intValue(inst.getArgument(0))));
 			}), //
 			entry(EclOpCode.TREASURE, inst -> {
-
+				gameMechanics.treasure(partyMembers(), argValues(inst));
 			}), //
 			entry(EclOpCode.TREASURE_MULTICOIN, inst -> {
-
+				gameMechanics.treasure(partyMembers(), argValues(inst));
 			}), //
 			entry(EclOpCode.TREASURE_MULTICOIN4, inst -> {
-
+				gameMechanics.treasure(partyMembers(), argValues(inst));
 			}), //
 			entry(EclOpCode.ROB, inst -> {
-
+				gameMechanics.rob(partyMembers(), argValues(inst));
 			}), //
 			entry(EclOpCode.ENCOUNTER_MENU, inst -> {
 				// TODO Determine party movement rates
@@ -654,7 +732,7 @@ public class VirtualMachine {
 				}
 			}), //
 			entry(EclOpCode.DAMAGE, inst -> {
-
+				gameMechanics.damage(partyMembers(), argValues(inst));
 			}), //
 			entry(EclOpCode.AND, inst -> {
 				int result = intValue(inst.getArgument(0)) & intValue(inst.getArgument(1));
@@ -677,7 +755,7 @@ public class VirtualMachine {
 				memory.writeMemInt(inst.getArgument(0), memory.getMenuChoice());
 			}), //
 			entry(EclOpCode.FIND_ITEM, inst -> {
-
+				gameMechanics.findItem(partyMembers(), intValue(inst.getArgument(0)));
 			}), //
 			entry(EclOpCode.GTTSF_32, inst -> {
 
@@ -714,7 +792,10 @@ public class VirtualMachine {
 				engine.delayCurrentThread();
 			}), //
 			entry(EclOpCode.SPELL, inst -> {
-
+				AbstractCharacter character = selectedCharacter();
+				if (character != null) {
+					gameMechanics.castSpell(character, argValues(inst));
+				}
 			}), //
 			entry(EclOpCode.PRINT_RUNES, inst -> {
 				engine.addRunicText(memory.readMemString(inst.getArgument(0)));
@@ -732,7 +813,10 @@ public class VirtualMachine {
 				engine.removeNpc(memory.getLoadedCharacter());
 			}), //
 			entry(EclOpCode.HAS_EFFECT, inst -> {
-
+				AbstractCharacter character = selectedCharacter();
+				if (character != null) {
+					gameMechanics.hasEffect(character, intValue(inst.getArgument(0)));
+				}
 			}), //
 			entry(EclOpCode.LOGBOOK_ENTRY, inst -> {
 				engine.addText(new CustomGoldboxString(" AND YOU RECORD "), false);
@@ -742,13 +826,18 @@ public class VirtualMachine {
 				engine.setMenu(HORIZONTAL, CONTINUE_ACTION, null);
 			}), //
 			entry(EclOpCode.DESTROY_ITEM, inst -> {
-
+				gameMechanics.destroyItem(partyMembers(), intValue(inst.getArgument(0)));
 			}), //
 			entry(EclOpCode.GTTSF_40, inst -> {
 
 			}), //
 			entry(EclOpCode.GIVE_EXP, inst -> {
-
+				gameMechanics.giveExperience(partyMembers(), intValue(inst.getArgument(0)), intValue(inst.getArgument(1)));
+			}), //
+			entry(EclOpCode.UNUSED_42, inst -> {
+				// Same crash risk as UNUSED_1F: no IMPL entry previously existed for this
+				// opcode id/arg-count combination.
+				System.err.println("UNUSED_42 dispatched (opcode 0x42, 0-arg form) — safe no-op.");
 			}), //
 			entry(EclOpCode.STOP_MOVE_42, inst -> {
 				stopVM();

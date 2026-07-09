@@ -20,4 +20,8 @@ public final class UnresolvedGameMechanics implements GameMechanics {
 	@Override public OptionalInt castSpell(AbstractCharacter character, List<Integer> arguments) { return UNRESOLVED; }
 	@Override public OptionalInt giveExperience(List<? extends AbstractCharacter> party, int amount, int mode) { return UNRESOLVED; }
 	@Override public OptionalInt executeGameOpcode(int opcode, List<Integer> arguments) { return UNRESOLVED; }
+	@Override public OptionalInt surprise(List<? extends AbstractCharacter> party, List<Integer> arguments) { return UNRESOLVED; }
+	@Override public OptionalInt treasure(List<? extends AbstractCharacter> party, List<Integer> arguments) { return UNRESOLVED; }
+	@Override public OptionalInt rob(List<? extends AbstractCharacter> party, List<Integer> arguments) { return UNRESOLVED; }
+	@Override public OptionalInt damage(List<? extends AbstractCharacter> party, List<Integer> arguments) { return UNRESOLVED; }
 }
