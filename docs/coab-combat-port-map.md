@@ -132,6 +132,15 @@ primary combat-evidence method; captures remain the final validation.
 3. **Attack flow**: `CanHitTarget`/`AttackTarget` skeleton with
    ruleset-provided numbers; current THAC0 scaffold values become the Buck
    *candidate* flavor.
+   ✅ Ported (mega-pass track A) + WIRED (integration slice 1, 2026-07-08):
+   `CombatState.attack()` now routes through `AttackResolver` via
+   `Combatant`→AttackerView/DefenderView adapters. Descending Gold Box
+   thac0/AC are bridged to COAB's ascending comparison
+   (hitBonus=B-thac0, ac=B-AC, B=20 candidate & outcome-invariant),
+   reproducing d20>=thac0-AC exactly. 26-field view gap filled with
+   neutral/candidate values (NeutralAttackRuleset; no fabricated Buck
+   stats). Deferred: separate per-swing damage roll; ability/weapon/ranged
+   fields await decoded Combatant stats.
 4. **Movement + LOS/pathing**: `ovr032` + `calc_movement`/`CalcMoves`.
 5. **Effects service**: `ovr024` plumbing only.
 6. **Ghidra cross-check pass**: coverage table COAB ↔ GAME.OVR; promote or
