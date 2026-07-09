@@ -6,9 +6,9 @@ plus HANDOFF.md. Recommended model for the whole run: **Opus** (one model, must
 end in a green build). Work in the LOCAL fork; do not rely on any remote.
 
 ## Environment / preconditions
-- Repo: `/home/jzatopa/.openclaw/workspace/matrix-cubed-re`, nested Java fork at
+- Repo: `<project root>`, nested Java fork at
   `references/ssi-engine`, branch `matrix-cubed-fork` (local only — never push).
-- Build/test: `cd references/ssi-engine && /home/jzatopa/.openclaw/workspace/matrix-cubed-re/.tools/apache-maven-3.9.9/bin/mvn test`
+- Build/test: `cd references/ssi-engine && <project root>/.tools/apache-maven-3.9.9/bin/mvn test`
 - Harness: `references/ssi-engine/scripts/run-combat-scene.sh` (needs local
   MATRIX game dir; must end `Final COMBAT_RESULT=0`).
 - Baseline at start: **284 tests, 0 failures, 7 pre-existing skips**.

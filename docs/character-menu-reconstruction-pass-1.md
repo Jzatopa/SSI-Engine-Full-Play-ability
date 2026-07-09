@@ -77,7 +77,7 @@ Checks performed:
 
 Screenshot:
 
-- `/home/jzatopa/Downloads/matrix-cubed-assets/viewer-check/matrix_opening_character_options.png`
+- `<local viewer-check output>/matrix_opening_character_options.png`
 
 ## Next Step
 

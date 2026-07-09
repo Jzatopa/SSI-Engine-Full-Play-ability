@@ -28,15 +28,15 @@ Ghidra reports the combined language/compiler as `x86:LE:16:Real Mode:default`.
 START unpacked MZ import:
 
 ```bash
-/home/jzatopa/.openclaw/workspace/tools/ghidra/ghidra_12.1.2_PUBLIC/support/analyzeHeadless \
-  /home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-ghidra-project-deep \
+<OpenClaw workspace>/tools/ghidra/ghidra_12.1.2_PUBLIC/support/analyzeHeadless \
+  <local Ghidra project> \
   MatrixCubedDeep \
-  -import /home/jzatopa/.openclaw/workspaces/goldenbox/matrix-cubed-re/generated/reverse_engineering/imported/start/START.unpacked.exe \
+  -import <project root>/generated/reverse_engineering/imported/start/START.unpacked.exe \
   -processor 'x86:LE:16:Real Mode' \
   -cspec default \
-  -scriptPath /home/jzatopa/.openclaw/workspaces/goldenbox/matrix-cubed-re/scripts/ghidra \
+  -scriptPath <project root>/scripts/ghidra \
   -postScript DumpDeepProgramSummary.java \
-    /home/jzatopa/.openclaw/workspaces/goldenbox/matrix-cubed-re/generated/ghidra/deep_start_unpacked \
+    <project root>/generated/ghidra/deep_start_unpacked \
     800 \
   -overwrite
 ```
@@ -44,16 +44,16 @@ START unpacked MZ import:
 GAME.OVR raw payload import:
 
 ```bash
-/home/jzatopa/.openclaw/workspace/tools/ghidra/ghidra_12.1.2_PUBLIC/support/analyzeHeadless \
-  /home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-ghidra-project-deep \
+<OpenClaw workspace>/tools/ghidra/ghidra_12.1.2_PUBLIC/support/analyzeHeadless \
+  <local Ghidra project> \
   MatrixCubedDeep \
-  -import /home/jzatopa/.openclaw/workspaces/goldenbox/matrix-cubed-re/generated/reverse_engineering/imported/game_ovr/game_ovr_reverse_engineering/GAME.OVR.payload_after_fbov_header.bin \
+  -import <project root>/generated/reverse_engineering/imported/game_ovr/game_ovr_reverse_engineering/GAME.OVR.payload_after_fbov_header.bin \
   -loader BinaryLoader \
   -processor 'x86:LE:16:Real Mode' \
   -cspec default \
-  -scriptPath /home/jzatopa/.openclaw/workspaces/goldenbox/matrix-cubed-re/scripts/ghidra \
+  -scriptPath <project root>/scripts/ghidra \
   -postScript DumpDeepProgramSummary.java \
-    /home/jzatopa/.openclaw/workspaces/goldenbox/matrix-cubed-re/generated/ghidra/deep_game_ovr_payload \
+    <project root>/generated/ghidra/deep_game_ovr_payload \
     800 \
   -overwrite
 ```
@@ -75,7 +75,7 @@ GAME.OVR raw payload import:
 The Ghidra project is stored outside the hidden OpenClaw path:
 
 ```text
-/home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-ghidra-project-deep
+<local Ghidra project>
 ```
 
 ## START.unpacked.exe Results

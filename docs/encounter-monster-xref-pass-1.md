@@ -83,8 +83,8 @@ Checks performed:
 
 Screenshots:
 
-- `/home/jzatopa/Downloads/matrix-cubed-assets/viewer-check/matrix_runtime_monster_bridge.png`
-- `/home/jzatopa/Downloads/matrix-cubed-assets/viewer-check/matrix_runtime_monster_bridge_event.png`
+- `<local viewer-check output>/matrix_runtime_monster_bridge.png`
+- `<local viewer-check output>/matrix_runtime_monster_bridge_event.png`
 
 ## Next Step
 

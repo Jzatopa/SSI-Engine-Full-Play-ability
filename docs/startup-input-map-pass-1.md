@@ -100,7 +100,7 @@ Checks performed:
 
 Screenshot:
 
-- `/home/jzatopa/Downloads/matrix-cubed-assets/viewer-check/matrix_startup_input_map.png`
+- `<local viewer-check output>/matrix_startup_input_map.png`
 
 ## Next Step
 

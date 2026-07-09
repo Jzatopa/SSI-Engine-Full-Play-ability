@@ -43,13 +43,13 @@ If we decide to directly port substantial Java code, treat that as a licensing d
 Launch Java reference engine:
 
 ```bash
-cd /home/jzatopa/.openclaw/workspace/matrix-cubed-re
+cd <project root>
 ./scripts/run_ssi_engine_reference.sh
 ```
 
 Build/test Java reference:
 
 ```bash
-cd /home/jzatopa/.openclaw/workspace/matrix-cubed-re/references/ssi-engine
-/home/jzatopa/.openclaw/workspace/matrix-cubed-re/.tools/apache-maven-3.9.9/bin/mvn test
+cd <project root>/references/ssi-engine
+<project root>/.tools/apache-maven-3.9.9/bin/mvn test
 ```

@@ -19,7 +19,7 @@ The generated HTML is self-contained and embeds:
 - GEO map cells from `generated/geo1/geo1_maps.json`
 - decoded event hints from `generated/event_atlas/event_atlas.json`
 - inferred wallsets from `generated/geo1/wallsets.tsv`
-- a local asset thumbnail strip from `/home/jzatopa/Downloads/matrix-cubed-assets/images`
+- a local asset thumbnail strip from `<local extracted image gallery>`
 - links to structured and pseudocode event files
 
 The viewer now supports:
@@ -33,13 +33,13 @@ The viewer now supports:
 
 Validated with headless Chromium from the Documents mirror path:
 
-- `/home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-re/generated/viewer/matrix_cubed_map_viewer.html`
+- `<local durable mirror>/generated/viewer/matrix_cubed_map_viewer.html`
 
 The `.openclaw` workspace path is not suitable for Chromium snap validation because the browser denies direct file access to hidden path elements.
 
 Screenshot captured at:
 
-- `/home/jzatopa/Downloads/matrix-cubed-assets/viewer-check/matrix_viewer_docs_final.png`
+- `<local viewer-check output>/matrix_viewer_docs_final.png`
 
 ## Result
 

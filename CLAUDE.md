@@ -12,14 +12,14 @@ ported COAB behavior takes precedence over guesses.
 
 ## Start here
 
-1. Work in `/home/jzatopa/.openclaw/workspace/matrix-cubed-re`.
+1. Work in `<project root>`.
 2. Read `HANDOFF.md` and `COLLABORATION.md` before changing anything.
 3. Read the root workspace instructions:
-   - `/home/jzatopa/.openclaw/workspaces/goldenbox/SOUL.md`
-   - `/home/jzatopa/.openclaw/workspaces/goldenbox/USER.md`
-   - `/home/jzatopa/.openclaw/workspaces/goldenbox/TOOLS.md`
+   - `<OpenClaw GoldenBox workspace>/SOUL.md`
+   - `<OpenClaw GoldenBox workspace>/USER.md`
+   - `<OpenClaw GoldenBox workspace>/TOOLS.md`
 4. Run `git status --short -- matrix-cubed-re` from
-   `/home/jzatopa/.openclaw/workspace`. The Git root is the larger OpenClaw
+   `<OpenClaw workspace>`. The Git root is the larger OpenClaw
    workspace; unrelated changes outside this directory belong to the user.
 5. Add your task and intended files to `COLLABORATION.md` before editing. Do not
    edit files currently claimed by another agent.
@@ -74,7 +74,7 @@ must be reported separately from passing tests.
 Python:
 
 ```bash
-cd /home/jzatopa/.openclaw/workspace/matrix-cubed-re
+cd <project root>
 source .venv/bin/activate
 SDL_VIDEODRIVER=dummy SDL_AUDIODRIVER=dummy PYTHONPATH=src python3 -m pytest -q
 ```
@@ -82,7 +82,7 @@ SDL_VIDEODRIVER=dummy SDL_AUDIODRIVER=dummy PYTHONPATH=src python3 -m pytest -q
 Java SSI engine:
 
 ```bash
-cd /home/jzatopa/.openclaw/workspace/matrix-cubed-re/references/ssi-engine
+cd <project root>/references/ssi-engine
 ./mvnw test
 ```
 

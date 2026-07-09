@@ -56,7 +56,7 @@ The current event panel now shows:
 
 Validated from the Documents mirror path:
 
-- `/home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-re/generated/viewer/matrix_cubed_runtime_prototype.html`
+- `<local durable mirror>/generated/viewer/matrix_cubed_runtime_prototype.html`
 
 Checks performed:
 
@@ -68,7 +68,7 @@ Checks performed:
 
 Screenshot:
 
-- `/home/jzatopa/Downloads/matrix-cubed-assets/viewer-check/matrix_runtime_textured_event_inspector.png`
+- `<local viewer-check output>/matrix_runtime_textured_event_inspector.png`
 
 ## Next Step
 

@@ -6,7 +6,7 @@ Date: 2026-06-19
 
 Local game copy analyzed:
 
-`/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX`
+`$MATRIX_CUBED_GAME_DIR`
 
 ## File Inventory
 

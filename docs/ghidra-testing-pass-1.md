@@ -10,7 +10,7 @@ Test whether Ghidra can import and analyze the Matrix Cubed DOS executable enoug
 
 Installed the official Ghidra release locally under:
 
-- `/home/jzatopa/.openclaw/workspace/tools/ghidra/ghidra_12.1.2_PUBLIC`
+- `<OpenClaw workspace>/tools/ghidra/ghidra_12.1.2_PUBLIC`
 
 Downloaded asset:
 
@@ -28,7 +28,7 @@ Java was already available:
 
 Only one executable target was found in the Matrix Cubed folder:
 
-- `/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/START.EXE`
+- `$MATRIX_CUBED_GAME_DIR/START.EXE`
 
 Basic target facts:
 
@@ -42,7 +42,7 @@ The first import attempt failed because the project path was under `.openclaw`; 
 
 The successful project path is:
 
-- `/home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-re/ghidra-project/MatrixCubed.gpr`
+- `<local durable mirror>/ghidra-project/MatrixCubed.gpr`
 
 Import settings selected by Ghidra:
 

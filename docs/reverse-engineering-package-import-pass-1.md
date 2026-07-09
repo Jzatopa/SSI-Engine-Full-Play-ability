@@ -14,8 +14,8 @@ The importer is reproducible:
 ```bash
 source .venv/bin/activate
 PYTHONPATH=src python3 scripts/review_reverse_engineering_packages.py \
-  --start-zip /home/jzatopa/.openclaw/media/inbound/START_reverse_engineering_package---35e28ac5-a822-4a78-bfe6-e973e63fd973.zip \
-  --game-ovr-zip /home/jzatopa/.openclaw/media/inbound/GAME_OVR_reverse_engineering_package---5461e321-756c-48f6-a105-e13acb723264.zip
+  --start-zip <local inbound media>/START_reverse_engineering_package---35e28ac5-a822-4a78-bfe6-e973e63fd973.zip \
+  --game-ovr-zip <local inbound media>/GAME_OVR_reverse_engineering_package---5461e321-756c-48f6-a105-e13acb723264.zip
 ```
 
 ## Generated Artifacts

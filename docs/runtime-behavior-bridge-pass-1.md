@@ -44,7 +44,7 @@ These effects are intentionally simple. Their purpose is to create stable hooks 
 
 Validated from the Documents mirror path:
 
-- `/home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-re/generated/viewer/matrix_cubed_runtime_prototype.html`
+- `<local durable mirror>/generated/viewer/matrix_cubed_runtime_prototype.html`
 
 Checks performed:
 
@@ -56,7 +56,7 @@ Checks performed:
 
 Screenshot:
 
-- `/home/jzatopa/Downloads/matrix-cubed-assets/viewer-check/matrix_runtime_behavior_bridge.png`
+- `<local viewer-check output>/matrix_runtime_behavior_bridge.png`
 
 ## Next Step
 

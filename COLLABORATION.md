@@ -3,10 +3,10 @@
 This file coordinates GoldenBox/OpenAI and Claude Code in the same canonical
 project tree:
 
-`/home/jzatopa/.openclaw/workspace/matrix-cubed-re`
+`<project root>`
 
 The convenient OpenClaw path
-`/home/jzatopa/.openclaw/workspaces/goldenbox/matrix-cubed-re` is a symlink to
+`<project root>` is a symlink to
 that same directory. They are not separate copies.
 
 ## Protocol
@@ -111,10 +111,10 @@ label all new values candidate until validated.
 
 ## Shared environment
 
-- Canonical project: `/home/jzatopa/.openclaw/workspace/matrix-cubed-re`
-- OpenClaw symlink: `/home/jzatopa/.openclaw/workspaces/goldenbox/matrix-cubed-re`
-- Durable mirror: `/home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-re`
-- Matrix original files: `/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX`
+- Canonical project: `<project root>`
+- OpenClaw symlink: `<project root>`
+- Durable mirror: `<local durable mirror>`
+- Matrix original files: `$MATRIX_CUBED_GAME_DIR`
 - Python tests: activate `.venv`, set `PYTHONPATH=src`, and use dummy SDL drivers
 - Java project: `references/ssi-engine`, forked from upstream
   `https://gitlab.com/farmboy0/ssi-engine` at base commit `f10f96f` (GPL-3.0;

@@ -33,7 +33,7 @@ The runtime prototype is self-contained and embeds the compact runtime seed.
 
 Validated from the Documents mirror path because Chromium blocks direct access to hidden `.openclaw` paths:
 
-- `/home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-re/generated/viewer/matrix_cubed_runtime_prototype.html`
+- `<local durable mirror>/generated/viewer/matrix_cubed_runtime_prototype.html`
 
 Checks performed:
 
@@ -45,7 +45,7 @@ Checks performed:
 
 Screenshot:
 
-- `/home/jzatopa/Downloads/matrix-cubed-assets/viewer-check/matrix_runtime_prototype_documents.png`
+- `<local viewer-check output>/matrix_runtime_prototype_documents.png`
 
 ## Next Step
 
@@ -70,4 +70,4 @@ This pass uses canvas-drawn wall geometry from GEO wall data. The extracted PNG 
 
 Validation screenshot:
 
-- `/home/jzatopa/Downloads/matrix-cubed-assets/viewer-check/matrix_runtime_first_person_final2.png`
+- `<local viewer-check output>/matrix_runtime_first_person_final2.png`

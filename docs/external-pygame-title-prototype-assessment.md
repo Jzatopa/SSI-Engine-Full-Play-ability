@@ -13,7 +13,7 @@ Compare the separately supplied Matrix Cubed Pygame title/debug prototype agains
 - External handoff SHA-256: `c46fb644450942edcce79251ca1e4bca3bdef64dd815f945a1ae4be0d8ca349e`
 - Reference screenshot SHA-256: `fbe4b1df88aa7496257efd64b2c4b5e8393619bb3f9022386fae197ba680e651`
 - External project path inspected:
-  - `/home/jzatopa/Downloads/matrix_cubed_pygame_title_compare_controls_fixed_with_data/matrix_cubed_pygame_title_fixed_with_data`
+  - `<local external pygame title prototype>`
 
 ## Verdict
 

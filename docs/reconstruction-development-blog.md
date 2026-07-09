@@ -18,9 +18,9 @@ That lets a future project reuse the same ladder: asset extraction, map/event at
 
 ### 1. Source Inventory And Asset Extraction
 
-The extracted DOS game lives at `/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source`. The reverse-engineering workspace was created at `/home/jzatopa/.openclaw/workspace/matrix-cubed-re/` and mirrored to `/home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-re/`.
+The extracted DOS game lives at `<local Matrix Cubed source folder>`. The reverse-engineering workspace was created at `<project root>/` and mirrored to `<local durable mirror>/`.
 
-Image export work produced `/home/jzatopa/Downloads/matrix-cubed-assets/images` with a browsable gallery and thousands of PNGs. This established that the original DAX image assets could be reused as evidence and frontend material.
+Image export work produced `<local extracted image gallery>` with a browsable gallery and thousands of PNGs. This established that the original DAX image assets could be reused as evidence and frontend material.
 
 ### 2. DAX, ECL, And GEO Baseline
 

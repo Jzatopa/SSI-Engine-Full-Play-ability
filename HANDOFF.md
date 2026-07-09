@@ -58,13 +58,13 @@ release.
 ## Shared OpenAI / Claude Code Workspace (2026-07-07)
 
 - Both agents now work from the same canonical directory:
-  `/home/jzatopa/.openclaw/workspace/matrix-cubed-re`.
+  `<project root>`.
 - `CLAUDE.md` contains Claude Code startup, evidence, safety, validation, and
   completion instructions.
 - `COLLABORATION.md` is the live file-claim ledger. Each agent must claim narrow
   paths before editing, avoid concurrently claimed files, and move completed
   work into its completion table.
-- The project remains embedded in the larger `/home/jzatopa/.openclaw/workspace`
+- The project remains embedded in the larger `<OpenClaw workspace>`
   Git repository and contains nested reference repositories. No new Git repo or
   worktree was created; agents must scope Git inspection/checks to
   `matrix-cubed-re` and preserve unrelated parent-workspace changes.
@@ -462,7 +462,7 @@ candidate-generator with agent verification).
 ### Latest Pass: Python Original-Game-Directory Portability (2026-07-07, Claude/Cowork)
 - Scope: infrastructure/portability only. No evidence, offsets, formulas, or generated data were changed.
 - Problem: ~13 scripts and 2 tests hardcoded the same literal absolute path
-  (`/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX`) to locate
+  (`$MATRIX_CUBED_GAME_DIR`) to locate
   the original (uncommitted) game files. This made the Python evidence
   pipeline unrunnable in any environment where that exact path doesn't exist
   (for example, this pass was done from a sandboxed session where the folder
@@ -863,7 +863,7 @@ candidate-generator with agent verification).
   - if no VM party is loaded, combat still falls back to the six-member `CAR1..CAR6` scaffold party.
 - Validation:
   - Focused combat tests -> `BUILD SUCCESS`, 17 tests, 0 failures, 1 skipped.
-  - `xvfb-run -a ./scripts/run-matrix-cubed-combat-debug-autowin.sh "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX"` -> exits 0 after actual ECL `COMBAT()`, prints `COMBAT_RESULT=0 resolver=SwingCombatUiBridge`, executes `0x8CEB OR`, and reaches `0x8CF4 EXIT`.
+  - `xvfb-run -a ./scripts/run-matrix-cubed-combat-debug-autowin.sh "$MATRIX_CUBED_GAME_DIR"` -> exits 0 after actual ECL `COMBAT()`, prints `COMBAT_RESULT=0 resolver=SwingCombatUiBridge`, executes `0x8CEB OR`, and reaches `0x8CF4 EXIT`.
   - Full Java `mvn test -q` in `references/ssi-engine` -> success.
   - `java -cp "target/classes:target/*" main.MatrixCubedCombatScene` -> still reaches `Final COMBAT_RESULT=0`.
 
@@ -882,8 +882,8 @@ candidate-generator with agent verification).
   - Focused Java tests: `CombatEncounterFactoryTest,CombatStateTest,RecoveredBattlefieldGeneratorTest` -> success.
   - Full Java `mvn test -q` in `references/ssi-engine` with project-local Maven 3.9.9 -> success.
   - Full Python `PYTHONPATH=src python3 -m pytest -q` in the project venv -> 185 passed.
-  - `xvfb-run -a ./scripts/run-matrix-cubed-combat-debug-autowin.sh "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX"` -> exits 0, reaches original ECL `COMBAT()`, prints `COMBAT_RESULT=0 resolver=SwingCombatUiBridge`, executes `0x8CEB OR`, and reaches `0x8CF4 EXIT`.
-  - `./scripts/run-playable-combat-assets.sh "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX" --venus --screenshot=../../generated/validation/java_combat_venus_terrain_snapshot.png` -> writes a nonblank Venus terrain screenshot, decodes 44 Venus terrain tiles and 108 CPIC sprites.
+  - `xvfb-run -a ./scripts/run-matrix-cubed-combat-debug-autowin.sh "$MATRIX_CUBED_GAME_DIR"` -> exits 0, reaches original ECL `COMBAT()`, prints `COMBAT_RESULT=0 resolver=SwingCombatUiBridge`, executes `0x8CEB OR`, and reaches `0x8CF4 EXIT`.
+  - `./scripts/run-playable-combat-assets.sh "$MATRIX_CUBED_GAME_DIR" --venus --screenshot=../../generated/validation/java_combat_venus_terrain_snapshot.png` -> writes a nonblank Venus terrain screenshot, decodes 44 Venus terrain tiles and 108 CPIC sprites.
 
 ### Latest Pass: Production Swing VM Combat Bridge (2026-07-01)
 - Added production bridge injection:
@@ -908,7 +908,7 @@ candidate-generator with agent verification).
 
 ### Latest Pass: Interactive VM Combat Handoff Scaffold Import (2026-07-01)
 - Imported from the local handoff package at:
-  - `/home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-re-java-combat-interactive-vm-handoff-scaffold-pass-1-20260701`
+  - `<local durable mirror>-java-combat-interactive-vm-handoff-scaffold-pass-1-20260701`
 - Added/updated Java combat bridge files under `references/ssi-engine`:
   - `engine/combat/CombatSession.java`,
   - `engine/combat/CombatSessionResult.java`,
@@ -930,8 +930,8 @@ candidate-generator with agent verification).
   - queued SSI Engine monster resources are converted to `MonsterSeed` records,
   - the default resolver remains deterministic/headless for tests and CLI validation.
 - Validation:
-  - `/home/jzatopa/.openclaw/workspace/matrix-cubed-re/.tools/apache-maven-3.9.9/bin/mvn test -q` in `references/ssi-engine` → success, 30 tests, 0 failures, 7 skipped.
-  - `JAVA_TOOL_OPTIONS=-Djava.awt.headless=true ./scripts/run-interactive-combat-handoff-demo.sh "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX"` → resolved the four-Ratwurst bridge demo through `HeadlessCombatUiBridge`, with `COMBAT_RESULT=0`.
+  - `<project root>/.tools/apache-maven-3.9.9/bin/mvn test -q` in `references/ssi-engine` → success, 30 tests, 0 failures, 7 skipped.
+  - `JAVA_TOOL_OPTIONS=-Djava.awt.headless=true ./scripts/run-interactive-combat-handoff-demo.sh "$MATRIX_CUBED_GAME_DIR"` → resolved the four-Ratwurst bridge demo through `HeadlessCombatUiBridge`, with `COMBAT_RESULT=0`.
   - `timeout 30s ./scripts/run-combat-scene.sh` → original ECL 17 scene reaches `LOAD_MON(47,4,47)`, `LOAD_MON(52,3,52)`, and `COMBAT()`; bridge resolves both `RAM G.D. GENNIE` and `RAM WARRIOR`; final `COMBAT_RESULT=0`.
   - `timeout 12s xvfb-run -a ./scripts/run-combat-battlefield.sh` → recovered battlefield renderer still loads original `MARSCOM.DAX` block `1` and starts cleanly.
 - Notes:
@@ -958,13 +958,13 @@ candidate-generator with agent verification).
   - renders the resulting tile-code buffer through original `MARSCOM.DAX` or `VENUSCOM.DAX` block `1` decoded by the Java DAX/VGA path,
   - prints a tile histogram and evidence/boundary notes before opening Swing.
 - CLI:
-  - `cd /home/jzatopa/.openclaw/workspaces/goldenbox/matrix-cubed-re/references/ssi-engine`
+  - `cd <project root>/references/ssi-engine`
   - `./scripts/run-combat-battlefield.sh`
   - optional examples:
     - `./scripts/run-combat-battlefield.sh "$MATRIX_CUBED_GAME_DIR" --terrain=venus --global-4007=1`
     - `./scripts/run-combat-battlefield.sh "$MATRIX_CUBED_GAME_DIR" --sector-x=1 --sector-y=1`
 - Validation:
-  - `/home/jzatopa/.openclaw/workspace/matrix-cubed-re/.tools/apache-maven-3.9.9/bin/mvn test -q` in `references/ssi-engine` → success, 17 tests, 0 failures, 6 skipped.
+  - `<project root>/.tools/apache-maven-3.9.9/bin/mvn test -q` in `references/ssi-engine` → success, 17 tests, 0 failures, 6 skipped.
   - `timeout 12s xvfb-run -a ./scripts/run-combat-battlefield.sh` → printed recovered-buffer report, loaded `MARSCOM.DAX` block `1` with 42 decoded tile images, and stayed open until timeout with no startup/decode crash.
   - Venus smoke: `./scripts/run-combat-battlefield.sh ... --terrain=venus --global-4007=1` → loaded `VENUSCOM.DAX` block `1` with 44 decoded tile images and printed the recovered tile histogram.
 - Boundary:
@@ -983,10 +983,10 @@ candidate-generator with agent verification).
   - decodes both through existing Java `ContentFile`/`VGAImage` paths,
   - draws a fixed Swing combat-board proof using original asset images.
 - Validation:
-  - `/home/jzatopa/.openclaw/workspace/matrix-cubed-re/.tools/apache-maven-3.9.9/bin/mvn test` → `BUILD SUCCESS`, 15 tests, 0 failures, 6 skipped.
+  - `<project root>/.tools/apache-maven-3.9.9/bin/mvn test` → `BUILD SUCCESS`, 15 tests, 0 failures, 6 skipped.
   - `timeout 12s xvfb-run -a ./scripts/run-combat-static-screen.sh` → stayed open until timeout with no startup/decode crash.
 - CLI:
-  - `cd /home/jzatopa/.openclaw/workspaces/goldenbox/matrix-cubed-re/references/ssi-engine`
+  - `cd <project root>/references/ssi-engine`
   - `./scripts/run-combat-static-screen.sh`
 - Boundary:
   - this is not the original tactical layout,
@@ -1011,10 +1011,10 @@ candidate-generator with agent verification).
   - jumps to ECL `17` address `0x8CBD` (post-choice combat branch),
   - lets the user press Enter/Space through continue prompts to reach the scaffold combat transcript.
 - Validation:
-  - `/home/jzatopa/.openclaw/workspace/matrix-cubed-re/.tools/apache-maven-3.9.9/bin/mvn test` → `BUILD SUCCESS`, 15 tests, 0 failures, 6 skipped.
+  - `<project root>/.tools/apache-maven-3.9.9/bin/mvn test` → `BUILD SUCCESS`, 15 tests, 0 failures, 6 skipped.
   - `timeout 12s xvfb-run -a ./scripts/run-matrix-cubed-combat-debug.sh` → reached Matrix Cubed property detection and stayed open until timeout, with no startup crash.
 - CLI:
-  - `cd /home/jzatopa/.openclaw/workspaces/goldenbox/matrix-cubed-re/references/ssi-engine`
+  - `cd <project root>/references/ssi-engine`
   - `./scripts/run-matrix-cubed-combat-debug.sh`
 - Boundary:
   - this validates startup, not the visual combat text yet,
@@ -1044,10 +1044,10 @@ candidate-generator with agent verification).
   - exits with `Final COMBAT_RESULT=0`.
 - Also hardened `SimpleCombat` level derivation to use each monster's decoded class selection instead of assuming WARRIOR.
 - Validation:
-  - `/home/jzatopa/.openclaw/workspace/matrix-cubed-re/.tools/apache-maven-3.9.9/bin/mvn test` → `BUILD SUCCESS`, 15 tests, 0 failures, 6 skipped.
+  - `<project root>/.tools/apache-maven-3.9.9/bin/mvn test` → `BUILD SUCCESS`, 15 tests, 0 failures, 6 skipped.
   - `timeout 20s ./scripts/run-combat-scene.sh` → completed successfully and reached `COMBAT_RESULT=0`.
 - CLI:
-  - `cd /home/jzatopa/.openclaw/workspaces/goldenbox/matrix-cubed-re/references/ssi-engine`
+  - `cd <project root>/references/ssi-engine`
   - `./scripts/run-combat-scene.sh`
 - Boundary:
   - this proves original ECL can drive the Java VM into the new combat scaffold,
@@ -1070,7 +1070,7 @@ candidate-generator with agent verification).
   - ECL `COMBAT` consumes the queued monster, prints a deterministic scaffold transcript via story text, waits for continue, and writes `COMBAT_RESULT`.
 - Kept `main.MatrixCubedCombatSlice` as the console regression harness.
 - Validation:
-  - `/home/jzatopa/.openclaw/workspace/matrix-cubed-re/.tools/apache-maven-3.9.9/bin/mvn test` → `BUILD SUCCESS`, 15 tests, 0 failures, 6 skipped.
+  - `<project root>/.tools/apache-maven-3.9.9/bin/mvn test` → `BUILD SUCCESS`, 15 tests, 0 failures, 6 skipped.
   - `./scripts/run-combat-slice.sh` → still loads `RAM WARRIOR` from `MON0CHA.DAX` block `52`, resolves victory in 7 rounds with seed `52017`.
 - Boundary:
   - combat is still a scaffold, not original-validated tactical combat,
@@ -1089,14 +1089,14 @@ candidate-generator with agent verification).
   - `src/test/java/main/MatrixCubedCombatSliceTest.java`,
   - `scripts/run-combat-slice.sh`.
 - The slice:
-  - reads original game files from `/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX` by default,
+  - reads original game files from `$MATRIX_CUBED_GAME_DIR` by default,
   - loads `MON0CHA.DAX` block `52`,
   - decodes enemy name `RAM WARRIOR`,
   - prints HP/AC/THAC0/damage scaffold fields,
   - runs a deterministic console combat transcript against a fixed test hero,
   - reports `COMBAT_RESULT would be 0` on victory.
 - Validation:
-  - `/home/jzatopa/.openclaw/workspace/matrix-cubed-re/.tools/apache-maven-3.9.9/bin/mvn test` → `BUILD SUCCESS`, 15 tests, 0 failures, 6 skipped.
+  - `<project root>/.tools/apache-maven-3.9.9/bin/mvn test` → `BUILD SUCCESS`, 15 tests, 0 failures, 6 skipped.
   - `./scripts/run-combat-slice.sh` → loaded `RAM WARRIOR` from `MON0CHA.DAX` block `52`, resolved victory in 7 rounds with seed `52017`.
 - Boundary:
   - monster identity and basic fields are read from original files,
@@ -1104,7 +1104,7 @@ candidate-generator with agent verification).
   - this is not yet wired into the Swing engine/ECL `COMBAT` opcode,
   - original combat formulas remain unproven.
 - CLI:
-  - `cd /home/jzatopa/.openclaw/workspaces/goldenbox/matrix-cubed-re/references/ssi-engine`
+  - `cd <project root>/references/ssi-engine`
   - `./scripts/run-combat-slice.sh`
 - Next Java combat work:
   - make `LOAD_MON` queue decoded monsters inside the engine,
@@ -1125,12 +1125,12 @@ candidate-generator with agent verification).
   - `references/ssi-engine/docs/matrix-cubed-fork-plan.md`,
   - README note documenting the Matrix Cubed fork direction.
 - Launcher behavior:
-  - default game dir: `/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX`,
+  - default game dir: `$MATRIX_CUBED_GAME_DIR`,
   - accepts an explicit path argument or `MATRIX_CUBED_GAME_DIR`,
   - uses `mvn` from `PATH` or the project-local Maven at `.tools/apache-maven-3.9.9/bin/mvn`,
   - launches with `java -cp "target/classes:target/*" main.Goldbox "$GAME_DIR" --no-title` to avoid the current jar classpath issue.
 - Validation:
-  - `/home/jzatopa/.openclaw/workspace/matrix-cubed-re/.tools/apache-maven-3.9.9/bin/mvn test` → `BUILD SUCCESS`, 14 tests, 0 failures, 6 skipped.
+  - `<project root>/.tools/apache-maven-3.9.9/bin/mvn test` → `BUILD SUCCESS`, 14 tests, 0 failures, 6 skipped.
   - `timeout 12s xvfb-run -a ./scripts/run-matrix-cubed.sh` → timed out as expected with the UI still running after printing `Reading game properties: Buck Rogers - Matrix Cubed`.
 - Boundaries:
   - `ssi-engine` is GPLv3; distributing modified fork builds must respect GPLv3.
@@ -1206,7 +1206,7 @@ candidate-generator with agent verification).
   - autodoc dialog: position `(4,5)`, text `THE AUTODOCS HUM SOOTHINGLY. 'DO YOU NEED HEALING?'`, choice `SOMEONE ELSE?`,
   - combat: `COMBAT`, `Turn 1 | HP: 100 | RAM WARRIOR(35)`, `Combat! RAM WARRIOR`, `RAM WARRIOR: d20 3+2 vs AC 10 = miss`.
 - Created non-Pygame review package:
-  - `/home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-re-openclaw-runtime-evidence-2026-06-30.zip`
+  - `<local durable mirror>-openclaw-runtime-evidence-2026-06-30.zip`
   - size: 193K,
   - `zip -T` passed.
 - Package contents include:
@@ -1221,7 +1221,7 @@ candidate-generator with agent verification).
   - `openclaw infer model run --model ollama/qwen3.6:latest --file generated/runtime_validation/pygame_reference_bundle/screens/caloris_romney_dialog.png ...` → OCR succeeded.
   - `openclaw infer model run --model ollama/qwen3.6:latest --file generated/runtime_validation/pygame_reference_bundle/screens/caloris_autodoc_dialog.png ...` → OCR succeeded.
   - `openclaw infer model run --model ollama/qwen3.6:latest --file generated/runtime_validation/pygame_reference_bundle/screens/caloris_combat.png ...` → OCR succeeded.
-  - `zip -T /home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-re-openclaw-runtime-evidence-2026-06-30.zip` → OK.
+  - `zip -T <local durable mirror>-openclaw-runtime-evidence-2026-06-30.zip` → OK.
 - Boundary:
   - this package is for review on systems that cannot run Pygame,
   - it does not replace runtime validation,
@@ -1272,8 +1272,8 @@ candidate-generator with agent verification).
   - `generated/validation/original_capture_target_audit.json`
   - `generated/validation/original_capture_target_audit.md`
 - Audited local game directories:
-  - `/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX`
-  - `/home/jzatopa/Downloads/matrix-cubed-liveplay`
+  - `$MATRIX_CUBED_GAME_DIR`
+  - `<local Matrix Cubed liveplay capture folder>`
 - Verified present archive names in both audited directories:
   - `GEO1.DAX`
   - `ECL1.DAX`
@@ -1320,7 +1320,7 @@ candidate-generator with agent verification).
   - made unsupported hypotheses about missing archives being required and anchor mismatch; those were not accepted into project facts.
 
 ### Latest Pass: Combat Runtime Validation Evidence (2026-06-30)
-- Incoming pass at `/home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-re-openclaw-pygame-validated-2026-06-29 (2)/matrix-cubed-re` matched the active project tree after excluding `.git`, `.venv`, caches, and bytecode; no separate patch set was present to merge.
+- Incoming pass at `<local durable mirror>-openclaw-pygame-validated-2026-06-29 (2)/matrix-cubed-re` matched the active project tree after excluding `.git`, `.venv`, caches, and bytecode; no separate patch set was present to merge.
 - Followed the documented next priority for combat validation.
 - Added `scripts/validate_combat_runtime.py`.
 - Added `tests/test_combat_runtime_validation.py`.
@@ -1442,7 +1442,7 @@ candidate-generator with agent verification).
   - agreed with the main risks: 20/25 loaded maps covered, no DOS coordinate OCR, and no full ECL instruction-range execution yet.
 
 ### Latest Pass: Phase B Transition Runtime Integration (2026-06-29)
-- Reviewed external agent-mode drop at `/home/jzatopa/Downloads/matrix-cubed-re-phase-b-transition-pass-1-updated`.
+- Reviewed external agent-mode drop at `<local external phase-B handoff folder>`.
 - Integrated the useful runtime changes without overwriting newer source-recovery work.
 - Added transition evidence models in `src/matrix_cubed/data/repository.py`:
   - `CellTransitionRef` for promoted cell-edge transitions from `generated/traversal/map_traversal_reference.json`.
@@ -1799,7 +1799,7 @@ candidate-generator with agent verification).
   - Create a compact Caloris route-validation dataset that ties walkthrough coordinates to decoded GEO event cells and ECL branch targets, then verify with DOS captures.
 
 ### Latest Pass: Gold Box Explorer Map Audit (2026-06-29)
-- Tried the local Gold Box Explorer source from `/home/jzatopa/Downloads/goldboxexplorer`.
+- Tried the local Gold Box Explorer source from `<local Gold Box Explorer checkout>`.
 - `dotnet`, `msbuild`, `xbuild`, `mcs`, and `mono` were not available, so the Windows GUI/editor could not be run directly in this environment.
 - Used Gold Box Explorer's source table instead:
   - `Common/Plugins/GeoDax/GeoDaxFile.cs`
@@ -1821,7 +1821,7 @@ candidate-generator with agent verification).
   - Gold Box Explorer does not provide evidence for missing Matrix Cubed `GEO2-4` archives or additional named maps.
   - Future "more maps" work should switch from assumed numbered-archive recovery to either finding a different original disk/install source or validating all 25 maps via event/ship/world traversal.
 - Commands run:
-  - `find /home/jzatopa ... GEO/ECL/archive scan` → only `GEO1.DAX`/`ECL1.DAX` found in Matrix Cubed source/prototype copies; source zips list only those GEO/ECL archives.
+  - `find <local user home> ... GEO/ECL/archive scan` → only `GEO1.DAX`/`ECL1.DAX` found in Matrix Cubed source/prototype copies; source zips list only those GEO/ECL archives.
   - `source .venv/bin/activate && PYTHONPATH=src python3 -m pytest -q tests/test_goldbox_explorer_map_audit.py tests/test_game_ovr_map_scan.py` → 4 passed.
   - `PYTHONPATH=src python3 scripts/audit_goldbox_explorer_maps.py` → 25 local GEO blocks, 24 GBE named maps, 0 GBE named maps missing locally.
 
@@ -1885,7 +1885,7 @@ candidate-generator with agent verification).
   - `generated/ghidra/comparison/ghidra_evidence_comparison.md`
 - Added `docs/ghidra-evidence-comparison-pass-1.md`.
 - Moved durable Ghidra project outside the mirrored repo so `rsync --delete` will not remove it:
-  - `/home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-ghidra-project-deep`
+  - `<local Ghidra project>`
 - Verified address mapping for the raw GAME.OVR import:
   - `linear = segment * 16 + offset`
   - `original GAME.OVR file offset = linear + 8`
@@ -1967,7 +1967,7 @@ candidate-generator with agent verification).
   - 623 decompiled functions exported, 0 timeouts
   - Output: `generated/ghidra/deep_game_ovr_payload/`
 - Added `docs/ghidra-deep-pass-1.md`.
-- Ghidra project path: `/home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-ghidra-project-deep`.
+- Ghidra project path: `<local Ghidra project>`.
 - Interpretation:
   - The START unpacked pass gives a useful segmented function map and startup call chain.
   - The GAME.OVR raw pass is useful for rough function discovery but still lacks overlay manager segment/relocation context; do not treat anonymous C-like snippets as source-equivalent.
@@ -2061,7 +2061,7 @@ candidate-generator with agent verification).
 - ⚠️ Corrected: the shop had invented item names. It now displays names decoded from ITEM0 name-code triples and the START.EXE item-name literal table.
 - ⚠️ Corrected: `GameState.add_credits()` mutated frozen `CharacterRecord` instances directly. Credits now update via `dataclasses.replace()` and keep roster/active party/legacy PartyState in sync.
 - ⚠️ Corrected: Continue now applies loaded SAVGAMA credits through `set_credits()` after loading characters, so the UI does not fall back to stale per-character credits.
-- ⚠️ Corrected: `GAME.OVR` is available locally at `/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/GAME.OVR`; the earlier "no binary" note was stale.
+- ⚠️ Corrected: `GAME.OVR` is available locally at `$MATRIX_CUBED_GAME_DIR/GAME.OVR`; the earlier "no binary" note was stale.
 
 ---
 
@@ -2232,7 +2232,7 @@ Immutability prevents accidental mutation. Level-up creates new instances via `d
    permission errors, and `repo.maven.apache.org` is blocked by the sandbox's
    network allowlist. Full working recipe, no admin/network-policy change
    needed, just three folder shares from James (`request_cowork_directory`):
-   1. Share `/home/jzatopa/.m2` — James's real machine already has a
+   1. Share `<local Maven cache>` — James's real machine already has a
       populated Maven local repo. Run Maven with
       `-Dmaven.repo.local=<mounted path>/repository -o` and all plugin/
       dependency resolution works fully offline.
@@ -2271,7 +2271,7 @@ Immutability prevents accidental mutation. Level-up creates new instances via `d
      Failures: 0, Errors: 7, Skipped: 12`. Of the 7 errors, 2
      (`OriginalItemCombatTableTest`) are the exact same class of problem
      fixed for Python earlier today: a hardcoded
-     `/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/ITEMS`
+     `$MATRIX_CUBED_GAME_DIR/ITEMS`
      path that doesn't exist verbatim in the sandbox — Java scripts/tests
      never got the `MATRIX_CUBED_GAME_DIR`-style treatment `scripts/game_paths.py`
      gave the Python side; that's a reasonable follow-up task. The other 5
@@ -2322,7 +2322,7 @@ Immutability prevents accidental mutation. Level-up creates new instances via `d
      DOSBox-X build. Headless Java/Swing/AWT capture via `Xvfb`/`xvfb-run`
      (both present in the sandbox) is unaffected by this and still works.
    - Found (not yet reviewed) a real license file for the local COAB checkout
-     at `/home/jzatopa/.local/opt/coab/Installer/CotAB License.rtf` — prior
+     at `<local COAB checkout>/Installer/CotAB License.rtf` — prior
      passes stated COAB "has no root license file" and treated it as
      unlicensed; that claim should be revisited against this file before
      leaning further on James's 2026-07-07 "reuse now, resolve licensing
@@ -2338,15 +2338,15 @@ Immutability prevents accidental mutation. Level-up creates new instances via `d
 
 5. **Qwen wrapper**: `qwen-ollama-agent.sh` has a `--DIRECT` mode for code generation but was removed from the workflow. The hardening changes (no fixed seed, 32K tokens, looser guard) are still in place if needed.
 
-6. **GAME.OVR / item names**: The original game binary is available outside the repo at `/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/GAME.OVR` (SHA-256 `d40f0309a114dbf2d9155c68404b0fb57cadb00e4841b3bfc335075a72296f67`). `scripts/analyze_game_ovr.py` writes `generated/game_ovr/` with 1007 ASCII strings, 724 Pascal-style candidates, key anchors, and the separate 351-byte `ITEMS` file decoded as 39 9-byte records. Real item names are now resolved by `scripts/analyze_item_name_mapping.py` using ITEM0 name-code bytes and the START.EXE literal table. `ITEMS` is now aligned as a 1-based `itemptr` detail table and attached to `ItemTemplate` as raw evidence; damage/range/effect byte semantics remain candidate-only until combat validation.
+6. **GAME.OVR / item names**: The original game binary is available outside the repo at `$MATRIX_CUBED_GAME_DIR/GAME.OVR` (SHA-256 `d40f0309a114dbf2d9155c68404b0fb57cadb00e4841b3bfc335075a72296f67`). `scripts/analyze_game_ovr.py` writes `generated/game_ovr/` with 1007 ASCII strings, 724 Pascal-style candidates, key anchors, and the separate 351-byte `ITEMS` file decoded as 39 9-byte records. Real item names are now resolved by `scripts/analyze_item_name_mapping.py` using ITEM0 name-code bytes and the START.EXE literal table. `ITEMS` is now aligned as a 1-based `itemptr` detail table and attached to `ItemTemplate` as raw evidence; damage/range/effect byte semantics remain candidate-only until combat validation.
 
-7. **Original file structural decode**: `scripts/decode_original_files.py` writes `generated/original_files/` with per-file JSON for all 43 original files in `/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX`. It expands all 611 DAX blocks and records block IDs, offsets, packed/raw sizes, decoded SHA-256 hashes, head/tail hex, ASCII/Pascal candidates, byte histograms, and record-size hints. This is structural evidence, not proof of semantic field names; use `generated/original_files/undecoded_files.json` to pick the next per-format parser target.
+7. **Original file structural decode**: `scripts/decode_original_files.py` writes `generated/original_files/` with per-file JSON for all 43 original files in `$MATRIX_CUBED_GAME_DIR`. It expands all 611 DAX blocks and records block IDs, offsets, packed/raw sizes, decoded SHA-256 hashes, head/tail hex, ASCII/Pascal candidates, byte histograms, and record-size hints. This is structural evidence, not proof of semantic field names; use `generated/original_files/undecoded_files.json` to pick the next per-format parser target.
 
 8. **Map expansion evidence**: `scripts/scan_game_ovr_maps.py` writes `generated/game_ovr/map_scan.json` and `.md`. Current result: no exact decoded GEO1 block copies in `GAME.OVR`, no accepted raw 1026-byte GEO-shaped overlay windows, and only two rejected header hits. Do not claim GEO2-4 are embedded plainly in `GAME.OVR`; trace `Load3DMap` near `0x30AC5` or obtain missing numbered GEO/ECL source files.
 
 9. **ECL text context evidence**: `scripts/contextualize_goldbox_ecl_text.py` writes `generated/ecl_text_goldbox/goldbox_ecl_text_context.{json,tsv,md}`. It maps Gold Box whole-block text hits that are still absent after substring comparison to `0x8000 + offset` VM-style addresses and nearest decoded ECL rows. Current result: 123 hit-level contexts across 27 ECL blocks, mostly short choice/label fragments. Treat nearest-row linkage as heuristic until a data-flow/control-flow pass confirms ownership.
 
-10. **ssi-engine external reference**: `references/ssi-engine/` is a local clone of `https://gitlab.com/farmboy0/ssi-engine` at commit `f10f96f277dbe27f75a39d87de8c4cc0f662155f`. Local Maven 3.9.9 is installed at `.tools/apache-maven-3.9.9/`; `mvn clean package` succeeds under Java 21. The upstream jar contains Matrix Cubed resources but its jar-mode config discovery assumes a directory classpath, so launch it from `target/classes` instead: `java -cp 'target/classes:target/*' main.Goldbox '/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX' --no-title`. Xvfb validation opened a `Buck Rogers - Matrix Cubed` Swing window and detected the original `TITLE.DAX` MD5 `f8881eac363f723ea44109bb6117fa26`.
+10. **ssi-engine external reference**: `references/ssi-engine/` is a local clone of `https://gitlab.com/farmboy0/ssi-engine` at commit `f10f96f277dbe27f75a39d87de8c4cc0f662155f`. Local Maven 3.9.9 is installed at `.tools/apache-maven-3.9.9/`; `mvn clean package` succeeds under Java 21. The upstream jar contains Matrix Cubed resources but its jar-mode config discovery assumes a directory classpath, so launch it from `target/classes` instead: `java -cp 'target/classes:target/*' main.Goldbox '$MATRIX_CUBED_GAME_DIR' --no-title`. Xvfb validation opened a `Buck Rogers - Matrix Cubed` Swing window and detected the original `TITLE.DAX` MD5 `f8881eac363f723ea44109bb6117fa26`.
 
 11. **ssi-engine acceleration path**: `scripts/run_ssi_engine_reference.sh` is the repo-local launcher for the Java reference engine. `docs/ssi-engine-reference-acceleration-plan.md` records what can be used immediately: runtime comparison, DAX/GEO/WALLDEF/ECL reference behavior, Matrix Cubed address names, renderer parity, combat state checks, and space/ship recovery. Boundary: `ssi-engine` is GPL-3.0, so direct Python ports of substantial Java code need attribution/license handling; prefer evidence-driven reimplementation through tests unless the project intentionally adopts compatible terms.
 

@@ -100,8 +100,8 @@ Observed sizes:
 
 - `PYTHONPATH=src python3 -m pytest -q`: 7 passed
 - `python3 -m compileall -q src tests`: passed
-- `PYTHONPATH=src python3 -m matrix_cubed.tools.save_probe /home/jzatopa/Downloads/matrix-cubed-liveplay/MATRIX/SAVE`: decoded `TST1` and `TST2`
-- `python3 scripts/analyze_save_samples.py /home/jzatopa/Downloads/matrix-cubed-liveplay/MATRIX/SAVE generated/liveplay`: generated controlled-sample summary
+- `PYTHONPATH=src python3 -m matrix_cubed.tools.save_probe <local Matrix Cubed liveplay capture folder>/MATRIX/SAVE`: decoded `TST1` and `TST2`
+- `python3 scripts/analyze_save_samples.py <local Matrix Cubed liveplay capture folder>/MATRIX/SAVE generated/liveplay`: generated controlled-sample summary
 
 ## Next
 

@@ -12,7 +12,7 @@ Run:
 
 ```bash
 python3 scripts/ecl_disassemble.py \
-  "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/ECL1.DAX" \
+  "$MATRIX_CUBED_GAME_DIR/ECL1.DAX" \
   generated/ecl1_disasm
 ```
 

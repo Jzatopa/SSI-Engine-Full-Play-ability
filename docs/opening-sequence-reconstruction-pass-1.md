@@ -69,7 +69,7 @@ The initial game menu entries are a reconstruction seed, not yet confirmed from 
 
 Validated from the Documents mirror path:
 
-- `/home/jzatopa/Documents/jameszatopaworkspace/matrix-cubed-re/generated/opening/matrix_cubed_opening_sequence.html`
+- `<local durable mirror>/generated/opening/matrix_cubed_opening_sequence.html`
 
 Checks performed:
 
@@ -81,7 +81,7 @@ Checks performed:
 
 Screenshot:
 
-- `/home/jzatopa/Downloads/matrix-cubed-assets/viewer-check/matrix_opening_sequence.png`
+- `<local viewer-check output>/matrix_opening_sequence.png`
 
 ## Next Step
 

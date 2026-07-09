@@ -8,7 +8,7 @@ Validate the desktop Pygame runtime in the OpenClaw workspace with Pygame instal
 
 ## Environment
 
-- Workspace: `/home/jzatopa/.openclaw/workspaces/goldenbox/matrix-cubed-re`
+- Workspace: `<project root>`
 - Python: project `.venv`
 - Pygame: 2.6.1, SDL 2.28.4
 - Xvfb: `/usr/bin/xvfb-run`

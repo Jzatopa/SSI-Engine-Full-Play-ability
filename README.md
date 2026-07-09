@@ -1,24 +1,32 @@
-# Buck Rogers: Matrix Cubed Reverse Engineering Workspace
+# SSI Engine Full Play-ability
 
-Private preservation and analysis workspace for James's local copy of Buck Rogers: Matrix Cubed.
+Near-preservation-level Java SSI Gold Box engine reconstruction work. Buck
+Rogers: Matrix Cubed is the first proof target, with the architecture intended
+to support the broader SSI Gold Box catalog.
 
-## Local Source Material
-
-- Game folder: `/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX`
-- Archive: `/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source.7z`
-- Extracted image gallery: `/home/jzatopa/Downloads/matrix-cubed-assets/images/index.html`
+Original game files are not included in this repository. Local validation uses
+user-provided installs through paths such as `MATRIX_CUBED_GAME_DIR`.
 
 ## Goals
 
-1. Document the local file formats and data layout.
-2. Recover source-like structure from `START.EXE`, `GAME.OVR`, and data-driven ECL/DAX content.
-3. Build clean-room-style, readable reimplementation notes and scaffolding for private learning/preservation.
+1. Build a universal Java SSI Gold Box engine core.
+2. Keep gameplay logic UI-neutral, with Swing/AWT as the first desktop frontend
+   adapter.
+3. Port and test relevant COAB behavior into Java while citing source
+   repo/commit/file.
+4. Validate first against Buck Rogers: Matrix Cubed, then other locally
+   available Gold Box titles.
+5. Preserve original gameplay quirks when known and document them for possible
+   later optional cleanup.
 
 ## Boundaries
 
-- Do not publish or redistribute copyrighted code, assets, or a playable copy.
-- Treat any reconstructed source as private research unless James separately clears rights.
-- Prefer documented behavior and clean reimplementation over copying binary-derived code verbatim.
+- Do not commit or redistribute original game binaries, save files, screenshots,
+  extracted art, or a playable game copy.
+- Keep original game installs external and user-provided.
+- Do not promote title-specific values from another game or source until they
+  are validated against local original files or runtime behavior.
+- Licensing and attribution cleanup is required before any public release.
 
 ## Current Findings
 

@@ -10,8 +10,8 @@ Run:
 
 ```bash
 python3 scripts/geo_inspect.py \
-  "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/GEO1.DAX" \
-  "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/ECL1.DAX" \
+  "$MATRIX_CUBED_GAME_DIR/GEO1.DAX" \
+  "$MATRIX_CUBED_GAME_DIR/ECL1.DAX" \
   generated/geo1
 ```
 

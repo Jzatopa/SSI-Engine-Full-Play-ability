@@ -16,7 +16,7 @@ scaffold, and defines the port order.
 
 | Source | Location | Version | Role |
 |---|---|---|---|
-| COAB (Simeon Pilgrim et al.) | `/home/jzatopa/.local/opt/coab` | commit `9dc46f1` | Combat flow blueprint + AD&D reference flavor. No root license file; provenance must be recorded per ported unit; compliance pass deferred. |
+| COAB (Simeon Pilgrim et al.) | `<local COAB checkout>` | commit `9dc46f1` | Combat flow blueprint + AD&D reference flavor. No root license file; provenance must be recorded per ported unit; compliance pass deferred. |
 | Matrix Cubed Ghidra deep export | `generated/ghidra/deep_game_ovr_payload/` (624 functions, decompiled) | see `docs/ghidra-deep-pass-1.md` | Buck Rogers-specific rules/values; validation oracle for what carries over. |
 | Existing Java scaffold | `references/ssi-engine/src/main/java/engine/combat/` | uncommitted on `matrix-cubed-fork` | Target; parts survive, parts are replaced (see below). |
 
