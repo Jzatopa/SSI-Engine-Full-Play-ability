@@ -6,6 +6,11 @@ import java.util.Optional;
 import java.util.Random;
 
 import engine.combat.Combatant.Side;
+import engine.combat.ai.CombatStateQuickFightView;
+import engine.combat.ai.DiceRoller;
+import engine.combat.ai.QuickFightCombatantView;
+import engine.combat.ai.QuickFightIntent;
+import engine.combat.ai.QuickFightPlanner;
 
 /**
  * Thin command/controller layer for interactive Java combat.
@@ -13,7 +18,7 @@ import engine.combat.Combatant.Side;
  * <p>This class is the bridge between a UI (Swing for now, the SSI Engine UI
  * later) and {@link CombatState}.  It owns a cursor, applies keyboard-style
  * commands, performs contextual move/attack actions, and advances monster
- * turns with a deterministic placeholder AI.  The controller is designed so
+ * turns with the ported COAB quick-fight planner.  The controller is designed so
  * the same state can later be driven by recovered ECL/VM combat callbacks.</p>
  */
 public final class CombatController {
@@ -29,7 +34,8 @@ public final class CombatController {
 
 	private final CombatState state;
 	private final Random random;
-	private final RecoveredEnemyTactics enemyTactics;
+	private final CombatStateQuickFightView quickFightView;
+	private final QuickFightPlanner quickFightPlanner;
 	private CombatPosition cursor;
 
 	public CombatController(CombatState state) {
@@ -39,8 +45,9 @@ public final class CombatController {
 	public CombatController(CombatState state, long seed) {
 		this.state = state;
 		this.random = new Random(seed);
-		this.enemyTactics = new RecoveredEnemyTactics();
-		this.state.addEvidence("RecoveredEnemyTactics: original target memory and 20-attempt candidate bound; distance/HP/id ordering remains an explicit fallback until GAME.OVR scoring tables are decoded.");
+		this.quickFightView = new CombatStateQuickFightView(state);
+		this.quickFightPlanner = new QuickFightPlanner(quickFightView, DiceRoller.seeded(seed ^ 0x3504BL));
+		this.state.addEvidence("QuickFightPlanner live AI wire: COAB ovr010 PlayerQuickFight decision planner drives monster turns through CombatStateQuickFightView; spells, items, morale/flee/surrender and ranged weapon execution stay neutral/deferred until Combatant exposes title evidence.");
 		Combatant current = state.current();
 		this.cursor = current == null ? CombatPosition.of(0, 0) : current.position();
 	}
@@ -163,35 +170,9 @@ public final class CombatController {
 		if (monster == null || monster.side() != Side.MONSTER) {
 			return Action.BLOCKED;
 		}
-		Optional<Combatant> target = enemyTactics.selectTarget(state, monster);
-		if (target.isEmpty()) {
-			state.endTurn();
-			syncCursorToCurrent();
-			return Action.MONSTER_ACTED;
-		}
-		Combatant enemy = target.get();
-		if (monster.position().manhattanDistance(enemy.position()) <= 1) {
-			cursor = enemy.position();
-			state.attack(enemy, rollD20());
-			state.endTurn();
-			syncCursorToCurrent();
-			return Action.MONSTER_ACTED;
-		}
-		CombatPosition step = stepToward(monster.position(), enemy.position());
-		if (!state.moveCurrentTo(step)) {
-			// If blocked, try a small orthogonal fallback.  This is intentionally
-			// simple until original pathfinding/morale routines are recovered.
-			int dx = Integer.compare(enemy.position().x(), monster.position().x());
-			int dy = Integer.compare(enemy.position().y(), monster.position().y());
-			CombatPosition alt = tryPosition(monster.position().x() + dx, monster.position().y()).orElse(null);
-			if (alt == null || !state.moveCurrentTo(alt)) {
-				alt = tryPosition(monster.position().x(), monster.position().y() + dy).orElse(null);
-				if (alt != null) {
-					state.moveCurrentTo(alt);
-				}
-			}
-		}
-		state.endTurn();
+		QuickFightCombatantView monsterView = quickFightView.viewFor(monster).orElseThrow();
+		QuickFightIntent intent = quickFightPlanner.plan(monsterView);
+		executeQuickFightIntent(monster, intent);
 		syncCursorToCurrent();
 		return Action.MONSTER_ACTED;
 	}
@@ -208,10 +189,46 @@ public final class CombatController {
 			|| state.phase() == CombatState.Phase.EXPIRED;
 	}
 
-	private Optional<Combatant> nearestLivingEnemy(Combatant source) {
-		return state.livingCombatants().stream()
-			.filter(c -> c.side() != source.side())
-			.min(Comparator.comparingInt(c -> c.position().manhattanDistance(source.position())));
+	private void executeQuickFightIntent(Combatant monster, QuickFightIntent intent) {
+		switch (intent.kind()) {
+			case ATTACK -> executeQuickFightAttack(intent);
+			case MOVE_TOWARD -> executeQuickFightMoveToward(monster, intent);
+			case END_TURN, GUARD -> state.endTurn();
+			case FLEE, SURRENDER, BANDAGE, TURN_UNDEAD, CAST_QUEUED_SPELL, CAST_SPELL, USE_ITEM_SPELL, SWITCH_WEAPON ->
+				state.endTurn();
+		}
+	}
+
+	private void executeQuickFightAttack(QuickFightIntent intent) {
+		Optional<Combatant> target = intent.target().flatMap(quickFightView::combatantFor);
+		if (target.isPresent() && target.get().isAlive() && target.get().side() != state.current().side()) {
+			cursor = target.get().position();
+			state.attack(target.get(), rollD20());
+		}
+		state.endTurn();
+	}
+
+	private void executeQuickFightMoveToward(Combatant monster, QuickFightIntent intent) {
+		Optional<Combatant> target = intent.target().flatMap(quickFightView::combatantFor);
+		if (target.isPresent()) {
+			CombatPosition step = stepToward(monster.position(), target.get().position());
+			if (!state.moveCurrentTo(step)) {
+				tryOrthogonalFallback(monster, target.get());
+			}
+		}
+		state.endTurn();
+	}
+
+	private void tryOrthogonalFallback(Combatant monster, Combatant target) {
+		int dx = Integer.compare(target.position().x(), monster.position().x());
+		int dy = Integer.compare(target.position().y(), monster.position().y());
+		CombatPosition alt = tryPosition(monster.position().x() + dx, monster.position().y()).orElse(null);
+		if (alt == null || !state.moveCurrentTo(alt)) {
+			alt = tryPosition(monster.position().x(), monster.position().y() + dy).orElse(null);
+			if (alt != null) {
+				state.moveCurrentTo(alt);
+			}
+		}
 	}
 
 	private CombatPosition stepToward(CombatPosition from, CombatPosition to) {

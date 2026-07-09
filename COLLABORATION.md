@@ -65,6 +65,7 @@ time, cheapest adequate model; commit before/after agent rounds; quarantine
 
 | Agent | Task | Changed paths | Completed / validation |
 |---|---|---|---|
+| GoldenBox (+ Qwen3-Coder sidecar) | Combat slice 2: wired live monster/auto turns to the ported COAB `QuickFightPlanner` through `CombatStateQuickFightView`, replacing `RecoveredEnemyTactics` in the runtime path while keeping unsupported spells/items/morale/flee/ranged hooks neutral/deferred | `references/ssi-engine/src/main/java/engine/combat/CombatController.java`, `references/ssi-engine/src/main/java/engine/combat/ai/CombatStateQuickFightView.java`, `references/ssi-engine/src/test/java/engine/combat/CombatControllerTest.java`, `references/ssi-engine/src/test/java/engine/combat/ai/CombatStateQuickFightViewTest.java`, `references/ssi-engine/docs/coab-combat-port-map.md`, `references/ssi-engine/docs/night-work-order-2026-07-09.md`, `HANDOFF.md`, `COLLABORATION.md` | 2026-07-09; focused Java `CombatControllerTest,CombatStateQuickFightViewTest,QuickFightPlannerTest` passed; full Java 288 tests / 0 failures / 0 errors / 7 pre-existing skips; `run-combat-scene.sh` reaches `Final COMBAT_RESULT=0`; Qwen3-Coder advisory accepted only for high-level adapter/test mapping |
 | GoldenBox | Reframed project docs around universal near-preservation Java Gold Box engine, COAB-as-porting-source, Buck Rogers first validation, Curse of the Azure Bonds secondary validation target, UI-neutral core, and Swing/AWT frontend adapter | `CLAUDE.md`, `HANDOFF.md`, `COLLABORATION.md` | 2026-07-09; docs-only; `git diff --check` run on changed docs |
 | GoldenBox (+ Qwen-Coder sidecar) | Matrix skill-check opcode recovery: generated repeatable opcode `0x23` callsite evidence, mapped the one constant first operand to recovered skill id 79 / `Etiquette` / `.WHO 0x9B`, captured WHO prompt contexts, and ran Qwen advisory without VM/combat integration edits | `scripts/recover_skill_check_opcodes.py`, `scripts/qwen_skill_check_advisory.py`, `generated/skill_check_recovery/2026-07-08/`, `docs/matrix-skill-check-recovery-2026-07-08.md`, `tests/test_skill_check_recovery.py`, `HANDOFF.md`, `COLLABORATION.md` | 2026-07-08; recovery script wrote 3 opcode `0x23` callsites and 3 WHO contexts; Qwen skill-check jobs 3/3 returncode 0; focused pytest 4 passed; full Python suite 197 passed |
 | GoldenBox (+ Qwen-Coder sidecar) | Matrix skill-table recovery: recovered START.EXE skill id/name table, validated GAME.OVR `0x4C + skill_id` character-byte accessors, generated local/Qwen advisory artifacts, and wired all 84 recovered Buck skills into Java non-zero skill decoding | `scripts/recover_matrix_skills.py`, `scripts/qwen_skill_recovery_advisory.py`, `generated/skill_recovery/2026-07-08/`, `docs/matrix-skill-recovery-2026-07-08.md`, `references/ssi-engine/src/main/java/character/buckrogers/CharacterSkillBuckRogers.java`, `references/ssi-engine/src/main/java/data/character/AbstractCharacter.java`, `references/ssi-engine/src/main/java/data/character/CharacterBuckRogers.java`, `references/ssi-engine/src/test/java/data/character/CharacterBuckRogersTest.java`, `HANDOFF.md`, `COLLABORATION.md` | 2026-07-08; nested `ssi-engine` commit `fdddd9f`; Qwen skill jobs 3/3 returncode 0; focused `CharacterBuckRogersTest` passed; full Java `mvn test` passed; `run-combat-scene.sh` reaches `Final COMBAT_RESULT=0`; skill-check opcode semantics remain future work |
@@ -85,10 +86,10 @@ time, cheapest adequate model; commit before/after agent rounds; quarantine
 
 High-value work, in priority order:
 
-1. **Combat slice 2 / QuickFightPlanner live AI wire**: follow
-   `references/ssi-engine/docs/night-work-order-2026-07-09.md`. Review slice-1
-   attack wiring, then replace the live monster/auto-turn scaffold with the
-   ported COAB `QuickFightPlanner` through UI-neutral adapters and tests.
+1. **Combat movement/LOS validation slice**: replace the QuickFight adapter's
+   open-field neutral `TileTraits` with Matrix Cubed wall/height traits once
+   decoded, then compare pathing/visibility against local original-game/DOS
+   captures.
 2. **Character and combat-stat validation**: continue Buck Rogers character
    field/stat recovery only from local evidence. Keep unknown combat stats
    neutral/candidate until verified.

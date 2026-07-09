@@ -5,6 +5,14 @@ Self-contained: an agent starting cold should be able to execute from this file
 plus HANDOFF.md. Recommended model for the whole run: **Opus** (one model, must
 end in a green build). Work in the LOCAL fork; do not rely on any remote.
 
+Status update 2026-07-09: Phase 3 was completed by GoldenBox with a
+Qwen3-Coder sidecar. The live monster path now uses `QuickFightPlanner` through
+`CombatStateQuickFightView`; full Java validation is 288 tests / 0 failures /
+0 errors / 7 pre-existing skips, and `run-combat-scene.sh` ends
+`Final COMBAT_RESULT=0`. Remaining deferred work is Matrix-specific wall/height
+traits, movement costs, morale/flee/surrender, guarding effects, spells/items,
+ranged weapons, and original-game AI parity capture.
+
 ## Environment / preconditions
 - Repo: `<project root>`, nested Java fork at
   `references/ssi-engine`, branch `matrix-cubed-fork` (local only — never push).

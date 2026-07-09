@@ -64,6 +64,25 @@ public class CombatControllerTest {
 		CombatController.Action action = controller.resolveMonsterTurn();
 
 		assertEquals(CombatController.Action.MONSTER_ACTED, action);
+		assertTrue(controller.state().evidence().stream().anyMatch(s -> s.contains("QuickFightPlanner live AI wire")));
+	}
+
+	@Test
+	public void monsterTurnUsesQuickFightPlannerAttackIntentWhenAdjacent() {
+		CombatController controller = new CombatController(CombatState.ratwurstVerticalSlice(), 52017L);
+		int guard = 0;
+		while (controller.state().current().side() != Side.MONSTER && guard++ < 50) {
+			controller.endTurn();
+		}
+		Combatant monster = controller.state().current();
+		Combatant target = controller.state().livingParty().get(0);
+		monster.moveTo(adjacentFreeCell(controller.state(), target));
+
+		CombatController.Action action = controller.resolveMonsterTurn();
+
+		assertEquals(CombatController.Action.MONSTER_ACTED, action);
+		assertTrue(controller.state().log().stream().anyMatch(s -> s.startsWith("ATTACK: " + monster.name())));
+		assertNotEquals(monster, controller.state().current());
 	}
 
 	@Test

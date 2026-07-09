@@ -73,6 +73,48 @@ release.
 
 ## 1. Project Overview
 
+### Latest Pass: Combat Slice 2 QuickFightPlanner Live AI Wire (2026-07-09, GoldenBox + Qwen3-Coder sidecar)
+
+- Replaced the live monster-turn `RecoveredEnemyTactics` scaffold in
+  `CombatController.resolveMonsterTurn()` with one persistent COAB
+  `QuickFightPlanner` per combat controller, preserving the planner's
+  remembered-target state across turns.
+- Added `engine.combat.ai.CombatStateQuickFightView`, a UI-neutral adapter from
+  `CombatState`/`Combatant` into `QuickFightBattleView` and
+  `QuickFightCombatantView`. Geometry delegates to the already-ported
+  `CombatMapService` with open-field neutral `TileTraits` until Matrix Cubed
+  tile height/wall traits are decoded.
+- Implemented live intent execution for `ATTACK`, `MOVE_TOWARD`, `GUARD`, and
+  `END_TURN`. Unsupported COAB intents (`FLEE`, `SURRENDER`, `BANDAGE`,
+  `TURN_UNDEAD`, spell/item use, weapon switching) intentionally end the turn
+  for now and are documented as deferred rather than faked.
+- Kept missing `Combatant` facts neutral in the adapter: no spells, items,
+  morale/NPC control, ranged weapon, undead/turning, held, forced-fleeing, or
+  Buck-specific stat values are invented.
+- Added focused tests:
+  `CombatStateQuickFightViewTest` covers team mapping, map-service geometry,
+  enemy filtering, and neutral unsupported capability hooks;
+  `CombatControllerTest` now proves an adjacent monster uses the planner path
+  to execute a real attack intent.
+- Qwen3-Coder sidecar ran via `ollama/qwen3-coder:30b` with a 300s timeout for
+  adapter/test design. Useful high-level advice accepted: keep a persistent
+  adapter/planner, map attack/move/end-turn directly, and test unsupported
+  intent degradation. Invented method/API names from the advisory were ignored.
+- Boundary: live monster AI now uses the ported COAB decision planner, but
+  Matrix-specific movement costs, wall traits, morale/flee/surrender,
+  spells/items/skills, ranged weapons, guarding effects, and DOS/original-game
+  AI parity validation remain future work.
+- Validation:
+  - focused Java
+    `<project root>/.tools/apache-maven-3.9.9/bin/mvn -q -Dtest=CombatControllerTest,CombatStateQuickFightViewTest,QuickFightPlannerTest test`
+    -> pass;
+  - full Java
+    `<project root>/.tools/apache-maven-3.9.9/bin/mvn -q test`
+    -> 288 tests / 0 failures / 0 errors / 7 pre-existing skips;
+  - `references/ssi-engine/scripts/run-combat-scene.sh` ->
+    `Final COMBAT_RESULT=0`, with monster moves/attacks and the
+    `QuickFightPlanner live AI wire` evidence line in the transcript.
+
 ### Latest Pass: Matrix Skill-Check Opcode Evidence (2026-07-08, GoldenBox + Qwen-Coder sidecar)
 
 - Added repeatable Matrix skill-check opcode evidence generation in
