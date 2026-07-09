@@ -16,7 +16,7 @@ reference evidence, tests, and decoded-data notes, not the new runtime base.
 - Java target: 17
 - License: GPLv3
 - Local original game path:
-  `/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX`
+  `$MATRIX_CUBED_GAME_DIR`
 
 ## First Validation Targets
 

@@ -16,7 +16,7 @@ scaffold, and defines the port order.
 
 | Source | Location | Version | Role |
 |---|---|---|---|
-| COAB (Simeon Pilgrim et al.) | `/home/jzatopa/.local/opt/coab` | commit `9dc46f1` | Combat flow blueprint + AD&D reference flavor. No root license file; provenance must be recorded per ported unit; compliance pass deferred. |
+| COAB (Simeon Pilgrim et al.) | `<local COAB checkout>` | commit `9dc46f1` | Combat flow blueprint + AD&D reference flavor. No root license file; provenance must be recorded per ported unit; compliance pass deferred. |
 | Matrix Cubed Ghidra deep export | `generated/ghidra/deep_game_ovr_payload/` (624 functions, decompiled) | see `docs/ghidra-deep-pass-1.md` | Buck Rogers-specific rules/values; validation oracle for what carries over. |
 | Existing Java scaffold | `references/ssi-engine/src/main/java/engine/combat/` | uncommitted on `matrix-cubed-fork` | Target; parts survive, parts are replaced (see below). |
 
@@ -148,6 +148,17 @@ primary combat-evidence method; captures remain the final validation.
 7. **Interactive wiring + smoke**: quick-fight AI (`ovr010.PlayerQuickFight`)
    and `combat_menu` parity in `SwingCombatUiBridge`; headless end-to-end
    smoke (new game → dungeon → ECL combat → save → load).
+   ✅ Quick-fight live AI wired (combat slice 2, 2026-07-09):
+   `CombatController.resolveMonsterTurn()` now drives monsters through one
+   persistent COAB `QuickFightPlanner` per combat via
+   `CombatStateQuickFightView`. Implemented intent execution covers melee
+   `ATTACK`, `MOVE_TOWARD`, `GUARD`, and `END_TURN`; unsupported intents
+   (`FLEE`, `SURRENDER`, `BANDAGE`, `TURN_UNDEAD`, spell/item use, ranged
+   weapon switching) are deliberately neutral/deferred until the engine exposes
+   evidence-backed state for those systems. Geometry delegates to
+   `CombatMapService` with open-field neutral tile traits pending Matrix
+   wall/height table recovery. Full Java suite: 288 tests, 0 failures, 7
+   pre-existing skips; `run-combat-scene.sh` ends `Final COMBAT_RESULT=0`.
 
 Prerequisite feeding 3/4: decode `CharacterBuckRogers` movement/THAC0-analog/
 skills (currently hardcoded 0) — `reclac_player_values` tells us exactly
