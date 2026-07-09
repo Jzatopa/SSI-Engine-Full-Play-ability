@@ -73,6 +73,43 @@ release.
 
 ## 1. Project Overview
 
+### Latest Pass: VM CLOCK2 GameClock Integration (2026-07-09, GoldenBox + Qwen3-Coder sidecar)
+
+- Re-reviewed the current Java `ssi-engine` fork against local COAB for
+  low-hanging transfers. The best small slice was VM clock integration:
+  `engine.time.GameClock` was already ported from COAB `ovr021`, but
+  `VirtualMachine` still left `CLOCK2` empty.
+- Wired `EclOpCode.CLOCK2` to `VirtualMemory.stepClock(slot, amount)` using
+  COAB `ovr003.CMD_EclClock` argument order:
+  argument 1 = time step amount, argument 2 = time slot.
+- Added COAB-backed clock storage in `VirtualMemory`: ECL clock ids
+  `0x4BC6..0x4BCC` map to the original backing word offsets
+  `(0x6A00 + ecl_id * 2) & 0xFFFF`, matching COAB
+  `ovr021.step_game_time`'s `field_6A00_Get/Set` pattern. `readMemInt` and
+  `writeMemInt` now route those ids through the clock slots so script reads and
+  writes see the same clock values.
+- Added a VM conformance test that executes a tiny in-memory ECL program:
+  `onInit -> GOTO body -> CLOCK2(5, SLOT_MINUTES_ONES) -> EXIT`, proving
+  `00:08` advances to `00:13` through the VM opcode path. The test also pins
+  direct ECL-id read/write mapping for `0x4BC7`.
+- Qwen3-Coder sidecar (`ollama/qwen3-coder:30b`, 300s timeout) reviewed the
+  slice. Useful advice accepted: add a mapping-focused test. Advice about
+  `CLOCK1` inconsistency reinforced leaving `CLOCK1` unresolved rather than
+  guessing its one-argument semantics.
+- Boundary: `CLOCK2` is wired; `CLOCK1`, effect timeout processing
+  (`CheckAffectsTimingOut`), rest-time UI/logic, and party aging hooks remain
+  future work. `GameClock` exposes the needed hooks, but they are not connected
+  to party/effect state yet.
+- Validation:
+  - focused Java
+    `MATRIX_CUBED_GAME_DIR=<local Matrix install> <project root>/.tools/apache-maven-3.9.9/bin/mvn -q -Dtest=VirtualMachineEclConformanceTest,GameClockTest test`
+    -> pass;
+  - full Java
+    `MATRIX_CUBED_GAME_DIR=<local Matrix install> <project root>/.tools/apache-maven-3.9.9/bin/mvn -q test`
+    -> 289 tests / 0 failures / 0 errors / 7 pre-existing skips;
+  - `references/ssi-engine/scripts/run-combat-scene.sh` ->
+    `Final COMBAT_RESULT=0`.
+
 ### Latest Pass: Combat Slice 2 QuickFightPlanner Live AI Wire (2026-07-09, GoldenBox + Qwen3-Coder sidecar)
 
 - Replaced the live monster-turn `RecoveredEnemyTactics` scaffold in

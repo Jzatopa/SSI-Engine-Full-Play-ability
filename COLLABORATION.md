@@ -65,6 +65,7 @@ time, cheapest adequate model; commit before/after agent rounds; quarantine
 
 | Agent | Task | Changed paths | Completed / validation |
 |---|---|---|---|
+| GoldenBox (+ Qwen3-Coder sidecar) | COAB/SSI low-hanging review + VM clock integration: wired already-ported `GameClock` into the VM `CLOCK2` opcode with COAB word-backed ECL clock slots, leaving `CLOCK1` and effect/party hooks unresolved | `references/ssi-engine/src/main/java/engine/VirtualMachine.java`, `references/ssi-engine/src/main/java/engine/VirtualMemory.java`, `references/ssi-engine/src/test/java/engine/VirtualMachineEclConformanceTest.java`, `references/ssi-engine/docs/coab-java-stub-audit.md`, `HANDOFF.md`, `COLLABORATION.md` | 2026-07-09; focused `VirtualMachineEclConformanceTest,GameClockTest` passed with local Matrix dir; full Java 289 tests / 0 failures / 0 errors / 7 pre-existing skips; `run-combat-scene.sh` reaches `Final COMBAT_RESULT=0`; Qwen3-Coder advisory accepted for mapping-test coverage only |
 | GoldenBox (+ Qwen3-Coder sidecar) | Combat slice 2: wired live monster/auto turns to the ported COAB `QuickFightPlanner` through `CombatStateQuickFightView`, replacing `RecoveredEnemyTactics` in the runtime path while keeping unsupported spells/items/morale/flee/ranged hooks neutral/deferred | `references/ssi-engine/src/main/java/engine/combat/CombatController.java`, `references/ssi-engine/src/main/java/engine/combat/ai/CombatStateQuickFightView.java`, `references/ssi-engine/src/test/java/engine/combat/CombatControllerTest.java`, `references/ssi-engine/src/test/java/engine/combat/ai/CombatStateQuickFightViewTest.java`, `references/ssi-engine/docs/coab-combat-port-map.md`, `references/ssi-engine/docs/night-work-order-2026-07-09.md`, `HANDOFF.md`, `COLLABORATION.md` | 2026-07-09; focused Java `CombatControllerTest,CombatStateQuickFightViewTest,QuickFightPlannerTest` passed; full Java 288 tests / 0 failures / 0 errors / 7 pre-existing skips; `run-combat-scene.sh` reaches `Final COMBAT_RESULT=0`; Qwen3-Coder advisory accepted only for high-level adapter/test mapping |
 | GoldenBox | Reframed project docs around universal near-preservation Java Gold Box engine, COAB-as-porting-source, Buck Rogers first validation, Curse of the Azure Bonds secondary validation target, UI-neutral core, and Swing/AWT frontend adapter | `CLAUDE.md`, `HANDOFF.md`, `COLLABORATION.md` | 2026-07-09; docs-only; `git diff --check` run on changed docs |
 | GoldenBox (+ Qwen-Coder sidecar) | Matrix skill-check opcode recovery: generated repeatable opcode `0x23` callsite evidence, mapped the one constant first operand to recovered skill id 79 / `Etiquette` / `.WHO 0x9B`, captured WHO prompt contexts, and ran Qwen advisory without VM/combat integration edits | `scripts/recover_skill_check_opcodes.py`, `scripts/qwen_skill_check_advisory.py`, `generated/skill_check_recovery/2026-07-08/`, `docs/matrix-skill-check-recovery-2026-07-08.md`, `tests/test_skill_check_recovery.py`, `HANDOFF.md`, `COLLABORATION.md` | 2026-07-08; recovery script wrote 3 opcode `0x23` callsites and 3 WHO contexts; Qwen skill-check jobs 3/3 returncode 0; focused pytest 4 passed; full Python suite 197 passed |
@@ -90,18 +91,21 @@ High-value work, in priority order:
    open-field neutral `TileTraits` with Matrix Cubed wall/height traits once
    decoded, then compare pathing/visibility against local original-game/DOS
    captures.
-2. **Character and combat-stat validation**: continue Buck Rogers character
+2. **Clock/effect integration follow-up**: resolve `CLOCK1` per-title
+   semantics, then connect `GameClock` party-aging and effect-timeout hooks to
+   real party/effect state instead of leaving them as standalone services.
+3. **Character and combat-stat validation**: continue Buck Rogers character
    field/stat recovery only from local evidence. Keep unknown combat stats
    neutral/candidate until verified.
-3. **DOS/original-game validation targets**: capture Matrix Cubed combat
+4. **DOS/original-game validation targets**: capture Matrix Cubed combat
    behavior for initiative, attacks, damage ranges, NPC join flow, and AI
    decisions. Add Curse of the Azure Bonds as a secondary local validation
    target after the Matrix path is stable.
-4. **Skill-check opcode dataflow**: use
+5. **Skill-check opcode dataflow**: use
    `generated/skill_check_recovery/2026-07-08/skill_check_opcodes.tsv` as the
    queue. ECL95 has constant skill id 79 / `Etiquette` / `.WHO 0x9B`; ECL34 and
    ECL98 variable operands still need local dataflow and runtime validation.
-5. **Licensing/attribution cleanup before public release**: COAB and other
+6. **Licensing/attribution cleanup before public release**: COAB and other
    reconstruction sources may be ported now, but attribution and license
    compatibility need a dedicated pass before any public distribution.
 
