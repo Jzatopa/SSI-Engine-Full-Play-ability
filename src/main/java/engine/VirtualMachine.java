@@ -505,9 +505,13 @@ public class VirtualMachine {
 				gameMechanics.surprise(partyMembers(), argValues(inst));
 			}), //
 			entry(EclOpCode.SKILL_CHECK, inst -> {
-				// Destination argument (index 2) is inferred by analogy to the sibling
-				// three-argument opcode PARTY_SKILL_CHECK3 (same opcode-id family, same
-				// arg shape); not independently confirmed against Matrix ECL evidence.
+				// Destination argument (index 2) is CONFIRMED against real Matrix ECL
+				// evidence, not just analogy to PARTY_SKILL_CHECK3: ECL17 0x893D
+				// (SKILL_CHECK(0:76, 1:0x7F79, 1:0x7F7A)) is immediately followed by
+				// COMPARE(0x7F7A, 0:2); IF_LESS() -> fail-branch, i.e. arg(2) is
+				// written by the check and then compared. See
+				// engine.rulesystem.MatrixGameMechanics javadoc for the full evidence
+				// trail and the result-encoding candidate status.
 				AbstractCharacter character = selectedCharacter();
 				if (character != null) {
 					gameMechanics
@@ -832,7 +836,14 @@ public class VirtualMachine {
 
 			}), //
 			entry(EclOpCode.GIVE_EXP, inst -> {
-				gameMechanics.giveExperience(partyMembers(), intValue(inst.getArgument(0)), intValue(inst.getArgument(1)));
+				// Argument order confirmed against real Matrix ECL evidence (see
+				// engine.rulesystem.MatrixGameMechanics javadoc): arg(0) is a small
+				// mode flag (observed values 0/1), arg(1) is the XP amount (either a
+				// literal like 1000/5000/30000, or an ECL1 QA-menu variable filled
+				// from "HOW MANY EXPERIENCE POINTS FOR THE PARTY?"). This is the
+				// reverse of the (amount, mode) parameter order the arguments used to
+				// be passed in.
+				gameMechanics.giveExperience(partyMembers(), intValue(inst.getArgument(1)), intValue(inst.getArgument(0)));
 			}), //
 			entry(EclOpCode.UNUSED_42, inst -> {
 				// Same crash risk as UNUSED_1F: no IMPL entry previously existed for this

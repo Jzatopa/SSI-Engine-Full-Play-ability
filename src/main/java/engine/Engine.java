@@ -100,7 +100,8 @@ public class Engine implements EngineCallback, EngineStub {
 			this.stringPartFactory = new GoldboxStringPartFactory();
 
 		this.playerDataFactory = new PlayerDataFactory(res, cfg);
-		this.vm = new VirtualMachine(this, this.memory, cfg.getCodeBase(), this.playerDataFactory::loadCharacter);
+		this.vm = new VirtualMachine(this, this.memory, cfg.getCodeBase(), this.playerDataFactory::loadCharacter,
+			engine.rulesystem.GameMechanicsSelector.select(cfg.getGameName()));
 	}
 
 	@Override
