@@ -1,0 +1,69 @@
+[state-migrations] Legacy state migration warnings:
+- Skipped Memory Core legacy memory index import for agent main because legacy rows could not be imported: Error: legacy memory meta rows conflict with canonical memory index rows
+│
+◇  Doctor warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - Skipped Memory Core legacy memory index import for agent main         │
+│    because legacy rows could not be imported: Error: legacy memory meta  │
+│    rows conflict with canonical memory index rows                        │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+model.run via local
+provider: ollama
+model: qwen3-coder:30b
+outputs: 1
+# Matrix Cubed Skill-Check Opcode 0x23 Advisory
+
+## VERIFIED_FROM_PROMPT
+
+This advisory reviews whether the provided callsite evidence supports treating ECL opcode `0x23` as a SKILL_CHECK candidate. Evidence confirms three callsites, all labeled `SURPRISE` in the original listing and promoted to `SKILL_CHECK`. Two show variable first operands; one shows a constant operand (79) mapping to skill ID 79 / Etiquette (.WHO 0x9B). The callsites are from regions 0xA131, 0x96F9, and 0xA202.
+
+## CANDIDATES
+
+- **Callsite 1** (block 34): `area2.event_scratch1, area2.event_scratch2, area2.event_scratch3, area2.word_002`
+  - First operand variable.
+  - No skill ID resolved; operand roles unconfirmed.
+
+- **Callsite 2** (block 95): `79, area2.event_scratch0, area2.event_scratch1, scratch.word_0002`
+  - First operand constant: `79` = Etiquette.
+  - Candidate skill identified.
+  - Operand roles require local validation.
+
+- **Callsite 3** (block 98): `area2.event_scratch1, area2.event_scratch2, area2.event_scratch3`
+  - First operand variable.
+  - No skill ID resolved; operand roles unconfirmed.
+
+## RISKS
+
+- **Operand Role Ambiguity**: For variable operands, local dataflow through SAVEs and RANDOMs must be validated to assign roles like skill ID, roll threshold, or result destination.
+- **Skill Mapping Uncertainty**: Only one callsite maps a constant to a known skill; others require forward/backward analysis of operand values.
+- **Result Handling**: The fourth operand (result target) is identified for one case but not for the rest; local validation is needed to determine success/failure writeback behavior.
+
+## LOCAL_VALIDATION_STEPS
+
+1. **Operand Role Assignment**:
+   - For each callsite, trace dataflow of first operand back to initialization points (SAVE/RANDOM).
+   - Confirm if `area2.event_scratch1` or similar holds skill ID, roll threshold, or other rule parameters.
+
+2. **Skill ID Correlation**:
+   - Validate that `79` maps to the correct skill entry in the recovered table.
+   - Check for any hardcoded lookups or conditional assignments to the first operand.
+
+3. **Result Destination Verification**:
+   - Determine if result writeback (success/failure) goes into a designated operand (e.g., `scratch.word_0002`).
+   - Confirm that the output is not overwritten or consumed by subsequent operations.
+
+4. **Control Flow Contextualization**:
+   - Analyze `branch_region_target`, `previous_rows`, and `following_rows` for any conditional logic tied to skill-check success.
+   - Ensure that a successful check leads to expected outcomes (e.g., progression, reward).
+
+5. **VM/DOS Integration Check**:
+   - Confirm local behavior matches expected SKILL_CHECK semantics without external VM integration.
+
+## UNSUPPORTED_CLAIMS
+
+- No runtime opcode behavior or roll/threshold logic is provided in evidence.
+- No information exists regarding selected-character rule or advancement rules for skill checks.
+- No success/failure writeback rules are defined in the provided data.
+- No VM or DOS-level behavior is validated; claims about execution semantics remain unverified.
+- No assertion that all three callsites perform identical SKILL_CHECK logic; variation in operand handling implies differing roles per site.

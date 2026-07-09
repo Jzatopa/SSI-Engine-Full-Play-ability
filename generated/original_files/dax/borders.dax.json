@@ -1,0 +1,59 @@
+{
+  "valid": true,
+  "file": "BORDERS.DAX",
+  "bytes": 671,
+  "sha256": "7c79b1bb4a09ef783ec1d00bf7856972e18a9caad98f33cab4cc5e64543b068d",
+  "toc_len": 9,
+  "data_offset": 11,
+  "block_count": 1,
+  "semantic_status": "structural decode only: semantic format not yet named",
+  "warnings": [],
+  "blocks": [
+    {
+      "id": 0,
+      "toc_entry_offset": 2,
+      "packed_relative_offset": 0,
+      "packed_absolute_offset": 11,
+      "raw_size": 838,
+      "packed_size": 660,
+      "decoded_size": 838,
+      "decoded_sha256": "a5b781b47d89f02440187deaed8e03f51fb2be6393ea680020350605f156d666",
+      "packed_sha256": "c0babf308a09f67835ad114fbb47471ab5fd58ba56adf4319c2f544485710561",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.7876,
+      "record_size_divisors": [
+        2
+      ],
+      "known_record_hints": [],
+      "head_hex": "08 01 00 00 00 00 0c 00 10 0f 18 0d 00 20 16 05 29 21 0e 32 2d 19 3b 39 27 0e 09 0f 26 26 26 21 21 21 1d 1d 1d 19 19 19 15 15 15 11 11 11 0d 0d 0d 08 08 08 18 0d 00 3b 3a 27 19 3b f8 77 88 88",
+      "tail_hex": "11 12 13 14 13 12 11 00 10 11 12 13 12 11 10 00 11 12 13 14 13 12 11 00 10 11 12 13 12 11 10 00",
+      "ascii_candidates": [
+        {
+          "offset": 28,
+          "length": 6,
+          "text": "&&&!!!"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "12": 208,
+        "11": 195,
+        "10": 161,
+        "13": 118,
+        "00": 89,
+        "14": 9,
+        "0d": 5,
+        "19": 5,
+        "08": 4,
+        "21": 4,
+        "3b": 3,
+        "26": 3,
+        "1d": 3,
+        "15": 3,
+        "0f": 2,
+        "18": 2
+      },
+      "warnings": []
+    }
+  ]
+}

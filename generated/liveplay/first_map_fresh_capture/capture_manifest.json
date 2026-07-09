@@ -1,0 +1,451 @@
+{
+  "source": "scripts/capture_first_map_liveplay.py",
+  "source_game": "/home/jzatopa/Downloads/matrix-cubed-liveplay",
+  "copied_game": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/game",
+  "dosbox_conf": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/dosbox.conf",
+  "mode": "fresh",
+  "save_seed": null,
+  "screens": [
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/00_boot.png",
+      "exists": true,
+      "size": 19312,
+      "sha256": "00f8cff643f885469aff2e0aee8822d86d6eb3dfadb8e3e6ec8e0380175d0b9e",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "boot"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/01_after_escape.png",
+      "exists": true,
+      "size": 4835,
+      "sha256": "f3988a1de7d3e4bc347c8a9f28183c5bcd68a21cab123051f6bad672e0cb193b",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 5,
+      "label": "after_escape"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/02_after_title_sequence.png",
+      "exists": true,
+      "size": 15557,
+      "sha256": "65081d8431134b9e19b8250f9c80de957db64bb83eea276d0572873de4410b01",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "after_title_sequence"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/03_create_character.png",
+      "exists": true,
+      "size": 15557,
+      "sha256": "65081d8431134b9e19b8250f9c80de957db64bb83eea276d0572873de4410b01",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "create_character"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/04_race_default.png",
+      "exists": true,
+      "size": 19437,
+      "sha256": "44753aeb5009a1705bc7b57c2a164a9e7398b13f8d041e28ee9157e3d3d04ead",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "race_default"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/05_gender_default.png",
+      "exists": true,
+      "size": 18849,
+      "sha256": "1e5f79a59bb4c8a44a55ca75ae74b9ff9bc0a535b08e06d4ef7e490516cb6e6c",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "gender_default"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/06_career_default.png",
+      "exists": true,
+      "size": 18849,
+      "sha256": "1e5f79a59bb4c8a44a55ca75ae74b9ff9bc0a535b08e06d4ef7e490516cb6e6c",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "career_default"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/07_rolled_stats.png",
+      "exists": true,
+      "size": 18849,
+      "sha256": "1e5f79a59bb4c8a44a55ca75ae74b9ff9bc0a535b08e06d4ef7e490516cb6e6c",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "rolled_stats"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/08_skills_done.png",
+      "exists": true,
+      "size": 19437,
+      "sha256": "44753aeb5009a1705bc7b57c2a164a9e7398b13f8d041e28ee9157e3d3d04ead",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "skills_done"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/09_named_character.png",
+      "exists": true,
+      "size": 19437,
+      "sha256": "44753aeb5009a1705bc7b57c2a164a9e7398b13f8d041e28ee9157e3d3d04ead",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "named_character"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/10_add_to_team.png",
+      "exists": true,
+      "size": 19437,
+      "sha256": "44753aeb5009a1705bc7b57c2a164a9e7398b13f8d041e28ee9157e3d3d04ead",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "add_to_team"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/11_team_roster.png",
+      "exists": true,
+      "size": 18726,
+      "sha256": "1a3ee883bca61f483942f54be2c465bcb92cd1633b040fa215bdccbb7683db91",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "team_roster"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/12_first_map_world.png",
+      "exists": true,
+      "size": 19437,
+      "sha256": "44753aeb5009a1705bc7b57c2a164a9e7398b13f8d041e28ee9157e3d3d04ead",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "first_map_world"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/13_search.png",
+      "exists": true,
+      "size": 19448,
+      "sha256": "6f5286924a22ee36b680d8c7cf3dd358df73d8feb8a7df8e425015687d42dfe6",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "search"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/14_inspect_space.png",
+      "exists": true,
+      "size": 19419,
+      "sha256": "733d042979b3490df6d88e80d23a4f736fd5d50d765084f2c3bdcbda8d97f29d",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "inspect_space"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/15_step_forward_1.png",
+      "exists": true,
+      "size": 19863,
+      "sha256": "db3f9bb13e80b8f85338d5d1cf443569efbecf65496ce3897feeb103a1ee646c",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "step_forward_1"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/16_step_forward_2.png",
+      "exists": true,
+      "size": 19645,
+      "sha256": "462859a875c050e01c47ca887a23e262e5653f34c03c676aee51804efd8f62f3",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "step_forward_2"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/17_turn_right.png",
+      "exists": true,
+      "size": 19645,
+      "sha256": "462859a875c050e01c47ca887a23e262e5653f34c03c676aee51804efd8f62f3",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "turn_right"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/18_step_after_turn.png",
+      "exists": true,
+      "size": 18891,
+      "sha256": "17de5e26db50ef81b57ea66c8e3c5246e37772771289624fb16a309c26117ad2",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "step_after_turn"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/19_search_after_walk.png",
+      "exists": true,
+      "size": 18887,
+      "sha256": "1e319bd46f1f33a3ee295e348bae1edfa711bcacca988e00fc412e9d47a3a5c6",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "search_after_walk"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/20_turn_left.png",
+      "exists": true,
+      "size": 18887,
+      "sha256": "1e319bd46f1f33a3ee295e348bae1edfa711bcacca988e00fc412e9d47a3a5c6",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "turn_left"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/21_step_left_route.png",
+      "exists": true,
+      "size": 19045,
+      "sha256": "31c1a59cda02b5038210e0c466910ce1cc797c7e1e27853d08852095a81dc41e",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "step_left_route"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/22_open_command_menu.png",
+      "exists": true,
+      "size": 19045,
+      "sha256": "31c1a59cda02b5038210e0c466910ce1cc797c7e1e27853d08852095a81dc41e",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "open_command_menu"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/23_close_command_menu.png",
+      "exists": true,
+      "size": 18468,
+      "sha256": "0f707d4a068328abbfd676c033f966e94c4a14ded4b587ce74e1a062b315d685",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "close_command_menu"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/24_save_menu.png",
+      "exists": true,
+      "size": 18468,
+      "sha256": "0f707d4a068328abbfd676c033f966e94c4a14ded4b587ce74e1a062b315d685",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "save_menu"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture/screens/25_after_save.png",
+      "exists": true,
+      "size": 19045,
+      "sha256": "31c1a59cda02b5038210e0c466910ce1cc797c7e1e27853d08852095a81dc41e",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "after_save"
+    }
+  ],
+  "keys": [
+    {
+      "key": "Escape",
+      "time": 1782831314.724
+    },
+    {
+      "key": "Return",
+      "time": 1782831315.935
+    },
+    {
+      "key": "Return",
+      "time": 1782831317.018
+    },
+    {
+      "key": "Return",
+      "time": 1782831318.101
+    },
+    {
+      "key": "Return",
+      "time": 1782831319.185
+    },
+    {
+      "key": "Return",
+      "time": 1782831320.268
+    },
+    {
+      "key": "Return",
+      "time": 1782831321.351
+    },
+    {
+      "key": "Return",
+      "time": 1782831322.434
+    },
+    {
+      "key": "Return",
+      "time": 1782831323.518
+    },
+    {
+      "key": "Return",
+      "time": 1782831324.601
+    },
+    {
+      "key": "Return",
+      "time": 1782831325.684
+    },
+    {
+      "key": "Return",
+      "time": 1782831326.768
+    },
+    {
+      "key": "Return",
+      "time": 1782831327.851
+    },
+    {
+      "key": "1",
+      "time": 1782831329.064
+    },
+    {
+      "key": "Return",
+      "time": 1782831331.269
+    },
+    {
+      "key": "Return",
+      "time": 1782831332.975
+    },
+    {
+      "key": "Return",
+      "time": 1782831334.68
+    },
+    {
+      "key": "Return",
+      "time": 1782831336.385
+    },
+    {
+      "key": "Tab",
+      "time": 1782831338.59
+    },
+    {
+      "key": "Return",
+      "time": 1782831339.473
+    },
+    {
+      "type": "HERO",
+      "time": 1782831341.723
+    },
+    {
+      "key": "Return",
+      "time": 1782831342.606
+    },
+    {
+      "key": "6",
+      "time": 1782831344.812
+    },
+    {
+      "key": "Return",
+      "time": 1782831347.017
+    },
+    {
+      "key": "A",
+      "time": 1782831349.223
+    },
+    {
+      "key": "s",
+      "time": 1782831354.427
+    },
+    {
+      "key": "Return",
+      "time": 1782831355.711
+    },
+    {
+      "key": "space",
+      "time": 1782831357.117
+    },
+    {
+      "key": "Return",
+      "time": 1782831358.4
+    },
+    {
+      "key": "Up",
+      "time": 1782831359.805
+    },
+    {
+      "key": "Up",
+      "time": 1782831361.213
+    },
+    {
+      "key": "Right",
+      "time": 1782831362.622
+    },
+    {
+      "key": "Up",
+      "time": 1782831364.027
+    },
+    {
+      "key": "s",
+      "time": 1782831365.433
+    },
+    {
+      "key": "Return",
+      "time": 1782831366.716
+    },
+    {
+      "key": "Left",
+      "time": 1782831368.121
+    },
+    {
+      "key": "Up",
+      "time": 1782831369.525
+    },
+    {
+      "key": "F10",
+      "time": 1782831370.929
+    },
+    {
+      "key": "Escape",
+      "time": 1782831372.334
+    },
+    {
+      "key": "F10",
+      "time": 1782831373.739
+    },
+    {
+      "key": "s",
+      "time": 1782831375.322
+    },
+    {
+      "key": "A",
+      "time": 1782831377.032
+    },
+    {
+      "key": "Return",
+      "time": 1782831378.615
+    }
+  ],
+  "pre_saves": [],
+  "post_saves": [],
+  "summary": {
+    "screen_count": 26,
+    "nonblank_screen_count": 26,
+    "save_file_count": 0
+  }
+}

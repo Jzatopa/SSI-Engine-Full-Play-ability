@@ -1,0 +1,2186 @@
+[
+  {
+    "index": 0,
+    "location": 1,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 1,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 10
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "01 00 00 01 00 00 20 00 01 00 00 0a 00 00 00 00"
+  },
+  {
+    "index": 1,
+    "location": 2,
+    "hands": 0,
+    "damage_large": {
+      "dice": 1,
+      "sides": 2,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -56
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "02 00 01 02 00 00 20 00 01 00 00 c8 00 00 00 00"
+  },
+  {
+    "index": 2,
+    "location": 3,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 3,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 4,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 100
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "03 00 00 03 00 00 20 00 04 00 00 64 00 00 00 00"
+  },
+  {
+    "index": 3,
+    "location": 4,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 4,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 6,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -106
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "04 00 00 04 00 00 20 00 06 00 00 96 00 00 00 00"
+  },
+  {
+    "index": 4,
+    "location": 5,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 5,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 4,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": 110
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "05 00 00 05 00 00 20 00 04 00 0a 6e 00 00 00 00"
+  },
+  {
+    "index": 5,
+    "location": 6,
+    "hands": 0,
+    "damage_large": {
+      "dice": 7,
+      "sides": 6,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 3,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": -46
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "06 00 07 06 00 00 20 00 03 00 0a d2 00 00 00 00"
+  },
+  {
+    "index": 6,
+    "location": 7,
+    "hands": 0,
+    "damage_large": {
+      "dice": 7,
+      "sides": 8,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 2,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": -46
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "07 00 07 08 00 00 20 00 02 00 0a d2 00 00 00 00"
+  },
+  {
+    "index": 7,
+    "location": 8,
+    "hands": 0,
+    "damage_large": {
+      "dice": 4,
+      "sides": 2,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -24
+    },
+    "range": 3,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "08 00 04 02 00 00 20 00 01 00 00 e8 03 00 00 00"
+  },
+  {
+    "index": 8,
+    "location": 9,
+    "hands": 0,
+    "damage_large": {
+      "dice": 10,
+      "sides": 9,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": 79
+    },
+    "range": 1,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "09 00 0a 09 00 00 20 00 01 00 0a 4f 01 00 00 00"
+  },
+  {
+    "index": 9,
+    "location": 10,
+    "hands": 0,
+    "damage_large": {
+      "dice": 10,
+      "sides": 11,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 3,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": -112
+    },
+    "range": 1,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0a 00 0a 0b 00 00 20 00 03 00 0a 90 01 00 00 00"
+  },
+  {
+    "index": 10,
+    "location": 11,
+    "hands": 0,
+    "damage_large": {
+      "dice": 13,
+      "sides": 11,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 6,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": 88
+    },
+    "range": 2,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0b 00 0d 0b 00 00 20 00 06 00 0a 58 02 00 00 00"
+  },
+  {
+    "index": 11,
+    "location": 12,
+    "hands": 0,
+    "damage_large": {
+      "dice": 7,
+      "sides": 12,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 2,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": -112
+    },
+    "range": 1,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0c 00 07 0c 00 00 20 00 02 00 0a 90 01 00 00 00"
+  },
+  {
+    "index": 12,
+    "location": 13,
+    "hands": 0,
+    "damage_large": {
+      "dice": 13,
+      "sides": 9,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 5,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": 123
+    },
+    "range": 2,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0d 00 0d 09 00 00 20 00 05 00 0a 7b 02 00 00 00"
+  },
+  {
+    "index": 13,
+    "location": 14,
+    "hands": 0,
+    "damage_large": {
+      "dice": 7,
+      "sides": 14,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 2,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": -12
+    },
+    "range": 1,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0e 00 07 0e 00 00 20 00 02 00 0a f4 01 00 00 00"
+  },
+  {
+    "index": 14,
+    "location": 15,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 15,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 2,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": 124
+    },
+    "range": 1,
+    "class_restrictions": 0,
+    "ammo_type": 17,
+    "unknown": 128,
+    "raw_hex": "0f 00 00 0f 00 00 20 00 02 00 0a 7c 01 00 11 80"
+  },
+  {
+    "index": 15,
+    "location": 16,
+    "hands": 0,
+    "damage_large": {
+      "dice": 17,
+      "sides": 16,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 3,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -12
+    },
+    "range": 1,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "10 00 11 10 00 00 20 00 03 00 00 f4 01 00 00 00"
+  },
+  {
+    "index": 16,
+    "location": 17,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 18,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 75,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": 64
+    },
+    "range": 6,
+    "class_restrictions": 0,
+    "ammo_type": 10,
+    "unknown": 128,
+    "raw_hex": "11 00 00 12 00 00 20 00 4b 00 0a 40 06 00 0a 80"
+  },
+  {
+    "index": 17,
+    "location": 18,
+    "hands": 0,
+    "damage_large": {
+      "dice": 17,
+      "sides": 11,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 50,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": -48
+    },
+    "range": 7,
+    "class_restrictions": 0,
+    "ammo_type": 11,
+    "unknown": 128,
+    "raw_hex": "12 00 11 0b 00 00 20 00 32 00 0a d0 07 00 0b 80"
+  },
+  {
+    "index": 18,
+    "location": 19,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 43,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 4,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 120
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "13 00 00 2b 00 00 20 00 04 00 00 78 00 00 00 00"
+  },
+  {
+    "index": 19,
+    "location": 20,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 23,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 25,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -12
+    },
+    "range": 1,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "14 00 00 17 00 00 20 00 19 00 00 f4 01 00 00 00"
+  },
+  {
+    "index": 20,
+    "location": 21,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 24,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 30,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -80
+    },
+    "range": 4,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "15 00 00 18 00 00 20 00 1e 00 00 b0 04 00 00 00"
+  },
+  {
+    "index": 21,
+    "location": 22,
+    "hands": 0,
+    "damage_large": {
+      "dice": 26,
+      "sides": 25,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 35,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -92
+    },
+    "range": 6,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "16 00 1a 19 00 00 20 00 23 00 00 a4 06 00 00 00"
+  },
+  {
+    "index": 22,
+    "location": 23,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 27,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 75,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -60
+    },
+    "range": 9,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "17 00 00 1b 00 00 20 00 4b 00 00 c4 09 00 00 00"
+  },
+  {
+    "index": 23,
+    "location": 24,
+    "hands": 0,
+    "damage_large": {
+      "dice": 28,
+      "sides": 27,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 80,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -72
+    },
+    "range": 11,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "18 00 1c 1b 00 00 20 00 50 00 00 b8 0b 00 00 00"
+  },
+  {
+    "index": 24,
+    "location": 25,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 35,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 0,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 1,
+      "bonus": 100
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "19 00 00 23 00 00 00 00 01 00 01 64 00 00 00 00"
+  },
+  {
+    "index": 25,
+    "location": 26,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 36,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 50
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "1a 00 00 24 00 00 20 00 01 00 00 32 00 00 00 00"
+  },
+  {
+    "index": 26,
+    "location": 27,
+    "hands": 0,
+    "damage_large": {
+      "dice": 38,
+      "sides": 37,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 10
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "1b 00 26 25 00 00 20 00 01 00 00 0a 00 00 00 00"
+  },
+  {
+    "index": 27,
+    "location": 28,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 39,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 40
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "1c 00 00 27 00 00 20 00 01 00 00 28 00 00 00 00"
+  },
+  {
+    "index": 28,
+    "location": 29,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 40,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 0,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 1,
+      "bonus": 25
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "1d 00 00 28 00 00 00 00 01 00 01 19 00 00 00 00"
+  },
+  {
+    "index": 29,
+    "location": 30,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 41,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 10,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -24
+    },
+    "range": 3,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "1e 00 00 29 00 00 20 00 0a 00 00 e8 03 00 00 00"
+  },
+  {
+    "index": 30,
+    "location": 31,
+    "hands": 0,
+    "damage_large": {
+      "dice": 0,
+      "sides": 42,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 0,
+    "damage_type": 0,
+    "melee_flag": 0,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 1,
+      "bonus": -112
+    },
+    "range": 1,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "1f 00 00 2a 00 00 00 00 00 00 01 90 01 00 00 00"
+  },
+  {
+    "index": 31,
+    "location": 32,
+    "hands": 16,
+    "damage_large": {
+      "dice": 29,
+      "sides": 44,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 0,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 1,
+      "bonus": 50
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 6,
+    "unknown": 128,
+    "raw_hex": "20 10 1d 2c 00 00 00 00 01 00 01 32 00 00 06 80"
+  },
+  {
+    "index": 32,
+    "location": 33,
+    "hands": 0,
+    "damage_large": {
+      "dice": 16,
+      "sides": 29,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 0,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 1,
+      "bonus": 50
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 6,
+    "unknown": 128,
+    "raw_hex": "21 00 10 1d 00 00 00 00 01 00 01 32 00 00 06 80"
+  },
+  {
+    "index": 33,
+    "location": 34,
+    "hands": 0,
+    "damage_large": {
+      "dice": 16,
+      "sides": 30,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 0,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 1,
+      "bonus": 50
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 7,
+    "unknown": 128,
+    "raw_hex": "22 00 10 1e 00 00 00 00 01 00 01 32 00 00 07 80"
+  },
+  {
+    "index": 34,
+    "location": 35,
+    "hands": 0,
+    "damage_large": {
+      "dice": 16,
+      "sides": 31,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 0,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 1,
+      "bonus": 50
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 12,
+    "unknown": 128,
+    "raw_hex": "23 00 10 1f 00 00 00 00 01 00 01 32 00 00 0c 80"
+  },
+  {
+    "index": 35,
+    "location": 36,
+    "hands": 0,
+    "damage_large": {
+      "dice": 16,
+      "sides": 32,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 0,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 1,
+      "bonus": 50
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 5,
+    "unknown": 128,
+    "raw_hex": "24 00 10 20 00 00 00 00 01 00 01 32 00 00 05 80"
+  },
+  {
+    "index": 36,
+    "location": 37,
+    "hands": 0,
+    "damage_large": {
+      "dice": 16,
+      "sides": 33,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 0,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 1,
+      "bonus": 50
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 8,
+    "unknown": 128,
+    "raw_hex": "25 00 10 21 00 00 00 00 01 00 01 32 00 00 08 80"
+  },
+  {
+    "index": 37,
+    "location": 38,
+    "hands": 0,
+    "damage_large": {
+      "dice": 16,
+      "sides": 34,
+      "bonus": 0
+    },
+    "rate": 0,
+    "protection": 0,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 1,
+      "bonus": 50
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 9,
+    "unknown": 128,
+    "raw_hex": "26 00 10 22 00 00 00 00 01 00 01 32 00 00 09 80"
+  },
+  {
+    "index": 38,
+    "location": 2,
+    "hands": 1,
+    "damage_large": {
+      "dice": 2,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -112
+    },
+    "range": 1,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "02 01 02 13 01 00 20 00 01 00 00 90 01 00 00 00"
+  },
+  {
+    "index": 39,
+    "location": 3,
+    "hands": 0,
+    "damage_large": {
+      "dice": 3,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 4,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -56
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "03 00 03 13 01 00 20 00 04 00 00 c8 00 00 00 00"
+  },
+  {
+    "index": 40,
+    "location": 4,
+    "hands": 0,
+    "damage_large": {
+      "dice": 4,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 6,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 44
+    },
+    "range": 1,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "04 00 04 13 01 00 20 00 06 00 00 2c 01 00 00 00"
+  },
+  {
+    "index": 41,
+    "location": 8,
+    "hands": 4,
+    "damage_large": {
+      "dice": 2,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -48
+    },
+    "range": 7,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "08 04 02 13 01 00 20 00 01 00 00 d0 07 00 00 00"
+  },
+  {
+    "index": 42,
+    "location": 6,
+    "hands": 7,
+    "damage_large": {
+      "dice": 6,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 3,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": -92
+    },
+    "range": 1,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "06 07 06 13 01 00 20 00 03 00 0a a4 01 00 00 00"
+  },
+  {
+    "index": 43,
+    "location": 7,
+    "hands": 7,
+    "damage_large": {
+      "dice": 8,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 2,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": -92
+    },
+    "range": 1,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "07 07 08 13 01 00 20 00 02 00 0a a4 01 00 00 00"
+  },
+  {
+    "index": 44,
+    "location": 9,
+    "hands": 10,
+    "damage_large": {
+      "dice": 9,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": -98
+    },
+    "range": 2,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "09 0a 09 13 01 00 20 00 01 00 0a 9e 02 00 00 00"
+  },
+  {
+    "index": 45,
+    "location": 10,
+    "hands": 10,
+    "damage_large": {
+      "dice": 11,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 3,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": -24
+    },
+    "range": 3,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0a 0a 0b 13 01 00 20 00 03 00 0a e8 03 00 00 00"
+  },
+  {
+    "index": 46,
+    "location": 12,
+    "hands": 7,
+    "damage_large": {
+      "dice": 12,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 2,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": 32
+    },
+    "range": 3,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0c 07 0c 13 01 00 20 00 02 00 0a 20 03 00 00 00"
+  },
+  {
+    "index": 47,
+    "location": 13,
+    "hands": 13,
+    "damage_large": {
+      "dice": 9,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 5,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": -10
+    },
+    "range": 4,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0d 0d 09 13 01 00 20 00 05 00 0a f6 04 00 00 00"
+  },
+  {
+    "index": 48,
+    "location": 14,
+    "hands": 7,
+    "damage_large": {
+      "dice": 4,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 2,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": -24
+    },
+    "range": 3,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0e 07 04 13 01 00 20 00 02 00 0a e8 03 00 00 00"
+  },
+  {
+    "index": 49,
+    "location": 11,
+    "hands": 13,
+    "damage_large": {
+      "dice": 11,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 6,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": -80
+    },
+    "range": 4,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0b 0d 0b 13 01 00 20 00 06 00 0a b0 04 00 00 00"
+  },
+  {
+    "index": 50,
+    "location": 15,
+    "hands": 0,
+    "damage_large": {
+      "dice": 15,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 2,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 10,
+      "bonus": -8
+    },
+    "range": 2,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0f 00 0f 13 01 00 20 00 02 00 0a f8 02 00 00 00"
+  },
+  {
+    "index": 51,
+    "location": 2,
+    "hands": 1,
+    "damage_large": {
+      "dice": 2,
+      "sides": 20,
+      "bonus": 2
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 32
+    },
+    "range": 3,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "02 01 02 14 02 00 20 00 01 00 00 20 03 00 00 00"
+  },
+  {
+    "index": 52,
+    "location": 4,
+    "hands": 0,
+    "damage_large": {
+      "dice": 4,
+      "sides": 20,
+      "bonus": 2
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 6,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 88
+    },
+    "range": 2,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "04 00 04 14 02 00 20 00 06 00 00 58 02 00 00 00"
+  },
+  {
+    "index": 53,
+    "location": 8,
+    "hands": 4,
+    "damage_large": {
+      "dice": 2,
+      "sides": 20,
+      "bonus": 2
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -96
+    },
+    "range": 15,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "08 04 02 14 02 00 20 00 01 00 00 a0 0f 00 00 00"
+  },
+  {
+    "index": 54,
+    "location": 6,
+    "hands": 7,
+    "damage_large": {
+      "dice": 6,
+      "sides": 20,
+      "bonus": 2
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 3,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": 72
+    },
+    "range": 3,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "06 07 06 14 02 00 20 00 03 00 64 48 03 00 00 00"
+  },
+  {
+    "index": 55,
+    "location": 7,
+    "hands": 7,
+    "damage_large": {
+      "dice": 8,
+      "sides": 20,
+      "bonus": 2
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 2,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": 72
+    },
+    "range": 3,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "07 07 08 14 02 00 20 00 02 00 64 48 03 00 00 00"
+  },
+  {
+    "index": 56,
+    "location": 9,
+    "hands": 10,
+    "damage_large": {
+      "dice": 9,
+      "sides": 20,
+      "bonus": 2
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": 60
+    },
+    "range": 5,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "09 0a 09 14 02 00 20 00 01 00 64 3c 05 00 00 00"
+  },
+  {
+    "index": 57,
+    "location": 13,
+    "hands": 13,
+    "damage_large": {
+      "dice": 9,
+      "sides": 20,
+      "bonus": 2
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 5,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": -20
+    },
+    "range": 9,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0d 0d 09 14 02 00 20 00 05 00 64 ec 09 00 00 00"
+  },
+  {
+    "index": 58,
+    "location": 14,
+    "hands": 7,
+    "damage_large": {
+      "dice": 14,
+      "sides": 20,
+      "bonus": 2
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 2,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": -48
+    },
+    "range": 7,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0e 07 0e 14 02 00 20 00 02 00 64 d0 07 00 00 00"
+  },
+  {
+    "index": 59,
+    "location": 6,
+    "hands": 7,
+    "damage_large": {
+      "dice": 6,
+      "sides": 21,
+      "bonus": 3
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 3,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": 74
+    },
+    "range": 6,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "06 07 06 15 03 00 20 00 03 00 64 4a 06 00 00 00"
+  },
+  {
+    "index": 60,
+    "location": 8,
+    "hands": 8,
+    "damage_large": {
+      "dice": 2,
+      "sides": 21,
+      "bonus": 3
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 64
+    },
+    "range": 31,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "08 08 02 15 03 00 20 00 01 00 00 40 1f 00 00 00"
+  },
+  {
+    "index": 61,
+    "location": 3,
+    "hands": 0,
+    "damage_large": {
+      "dice": 3,
+      "sides": 21,
+      "bonus": 3
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 4,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 32
+    },
+    "range": 3,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "03 00 03 15 03 00 20 00 04 00 00 20 03 00 00 00"
+  },
+  {
+    "index": 62,
+    "location": 19,
+    "hands": 0,
+    "damage_large": {
+      "dice": 43,
+      "sides": 21,
+      "bonus": 3
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 4,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -64
+    },
+    "range": 3,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "13 00 2b 15 03 00 20 00 04 00 00 c0 03 00 00 00"
+  },
+  {
+    "index": 63,
+    "location": 12,
+    "hands": 7,
+    "damage_large": {
+      "dice": 12,
+      "sides": 21,
+      "bonus": 3
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 2,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": 34
+    },
+    "range": 11,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0c 07 0c 15 03 00 20 00 02 00 64 22 0b 00 00 00"
+  },
+  {
+    "index": 64,
+    "location": 9,
+    "hands": 10,
+    "damage_large": {
+      "dice": 9,
+      "sides": 21,
+      "bonus": 3
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": 120
+    },
+    "range": 10,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "09 0a 09 15 03 00 20 00 01 00 64 78 0a 00 00 00"
+  },
+  {
+    "index": 65,
+    "location": 13,
+    "hands": 13,
+    "damage_large": {
+      "dice": 9,
+      "sides": 21,
+      "bonus": 3
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 5,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": -40
+    },
+    "range": 19,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0d 0d 09 15 03 00 20 00 05 00 64 d8 13 00 00 00"
+  },
+  {
+    "index": 66,
+    "location": 10,
+    "hands": 10,
+    "damage_large": {
+      "dice": 11,
+      "sides": 21,
+      "bonus": 3
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 3,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": -96
+    },
+    "range": 15,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0a 0a 0b 15 03 00 20 00 03 00 64 a0 0f 00 00 00"
+  },
+  {
+    "index": 67,
+    "location": 14,
+    "hands": 7,
+    "damage_large": {
+      "dice": 14,
+      "sides": 21,
+      "bonus": 3
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 2,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": -96
+    },
+    "range": 15,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0e 07 0e 15 03 00 20 00 02 00 64 a0 0f 00 00 00"
+  },
+  {
+    "index": 68,
+    "location": 1,
+    "hands": 0,
+    "damage_large": {
+      "dice": 1,
+      "sides": 22,
+      "bonus": 4
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -96
+    },
+    "range": 0,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "01 00 01 16 04 00 20 00 01 00 00 a0 00 00 00 00"
+  },
+  {
+    "index": 69,
+    "location": 8,
+    "hands": 4,
+    "damage_large": {
+      "dice": 2,
+      "sides": 22,
+      "bonus": 4
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -128
+    },
+    "range": 62,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "08 04 02 16 04 00 20 00 01 00 00 80 3e 00 00 00"
+  },
+  {
+    "index": 70,
+    "location": 7,
+    "hands": 7,
+    "damage_large": {
+      "dice": 8,
+      "sides": 22,
+      "bonus": 4
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 2,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": 32
+    },
+    "range": 13,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "07 07 08 16 04 00 20 00 02 00 64 20 0d 00 00 00"
+  },
+  {
+    "index": 71,
+    "location": 9,
+    "hands": 10,
+    "damage_large": {
+      "dice": 9,
+      "sides": 22,
+      "bonus": 4
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 1,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": -16
+    },
+    "range": 20,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "09 0a 09 16 04 00 20 00 01 00 64 f0 14 00 00 00"
+  },
+  {
+    "index": 72,
+    "location": 13,
+    "hands": 13,
+    "damage_large": {
+      "dice": 9,
+      "sides": 22,
+      "bonus": 4
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 5,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": -80
+    },
+    "range": 39,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0d 0d 09 16 04 00 20 00 05 00 64 b0 27 00 00 00"
+  },
+  {
+    "index": 73,
+    "location": 14,
+    "hands": 7,
+    "damage_large": {
+      "dice": 14,
+      "sides": 22,
+      "bonus": 4
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 2,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": 64
+    },
+    "range": 31,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0e 07 0e 16 04 00 20 00 02 00 64 40 1f 00 00 00"
+  },
+  {
+    "index": 74,
+    "location": 15,
+    "hands": 0,
+    "damage_large": {
+      "dice": 15,
+      "sides": 22,
+      "bonus": 4
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 2,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 100,
+      "bonus": -64
+    },
+    "range": 23,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "0f 00 0f 16 04 00 20 00 02 00 64 c0 17 00 00 00"
+  },
+  {
+    "index": 75,
+    "location": 20,
+    "hands": 0,
+    "damage_large": {
+      "dice": 23,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 25,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -24
+    },
+    "range": 3,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "14 00 17 13 01 00 20 00 19 00 00 e8 03 00 00 00"
+  },
+  {
+    "index": 76,
+    "location": 21,
+    "hands": 0,
+    "damage_large": {
+      "dice": 24,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 30,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 96
+    },
+    "range": 9,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "15 00 18 13 01 00 20 00 1e 00 00 60 09 00 00 00"
+  },
+  {
+    "index": 77,
+    "location": 22,
+    "hands": 26,
+    "damage_large": {
+      "dice": 25,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 35,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 72
+    },
+    "range": 13,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "16 1a 19 13 01 00 20 00 23 00 00 48 0d 00 00 00"
+  },
+  {
+    "index": 78,
+    "location": 23,
+    "hands": 0,
+    "damage_large": {
+      "dice": 27,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 75,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -120
+    },
+    "range": 19,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "17 00 1b 13 01 00 20 00 4b 00 00 88 13 00 00 00"
+  },
+  {
+    "index": 79,
+    "location": 24,
+    "hands": 28,
+    "damage_large": {
+      "dice": 27,
+      "sides": 19,
+      "bonus": 1
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 80,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 112
+    },
+    "range": 23,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "18 1c 1b 13 01 00 20 00 50 00 00 70 17 00 00 00"
+  },
+  {
+    "index": 80,
+    "location": 20,
+    "hands": 0,
+    "damage_large": {
+      "dice": 23,
+      "sides": 20,
+      "bonus": 2
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 25,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -48
+    },
+    "range": 7,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "14 00 17 14 02 00 20 00 19 00 00 d0 07 00 00 00"
+  },
+  {
+    "index": 81,
+    "location": 21,
+    "hands": 0,
+    "damage_large": {
+      "dice": 24,
+      "sides": 20,
+      "bonus": 2
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 30,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -64
+    },
+    "range": 18,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "15 00 18 14 02 00 20 00 1e 00 00 c0 12 00 00 00"
+  },
+  {
+    "index": 82,
+    "location": 22,
+    "hands": 26,
+    "damage_large": {
+      "dice": 25,
+      "sides": 20,
+      "bonus": 2
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 35,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -112
+    },
+    "range": 26,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "16 1a 19 14 02 00 20 00 23 00 00 90 1a 00 00 00"
+  },
+  {
+    "index": 83,
+    "location": 23,
+    "hands": 0,
+    "damage_large": {
+      "dice": 27,
+      "sides": 20,
+      "bonus": 2
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 75,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 16
+    },
+    "range": 39,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "17 00 1b 14 02 00 20 00 4b 00 00 10 27 00 00 00"
+  },
+  {
+    "index": 84,
+    "location": 20,
+    "hands": 0,
+    "damage_large": {
+      "dice": 23,
+      "sides": 21,
+      "bonus": 3
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 25,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -96
+    },
+    "range": 15,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "14 00 17 15 03 00 20 00 19 00 00 a0 0f 00 00 00"
+  },
+  {
+    "index": 85,
+    "location": 21,
+    "hands": 0,
+    "damage_large": {
+      "dice": 24,
+      "sides": 21,
+      "bonus": 3
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 30,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": -128
+    },
+    "range": 37,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "15 00 18 15 03 00 20 00 1e 00 00 80 25 00 00 00"
+  },
+  {
+    "index": 86,
+    "location": 22,
+    "hands": 26,
+    "damage_large": {
+      "dice": 25,
+      "sides": 21,
+      "bonus": 3
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 35,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 32
+    },
+    "range": 53,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "16 1a 19 15 03 00 20 00 23 00 00 20 35 00 00 00"
+  },
+  {
+    "index": 87,
+    "location": 23,
+    "hands": 0,
+    "damage_large": {
+      "dice": 27,
+      "sides": 21,
+      "bonus": 3
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 75,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 32
+    },
+    "range": 78,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "17 00 1b 15 03 00 20 00 4b 00 00 20 4e 00 00 00"
+  },
+  {
+    "index": 88,
+    "location": 20,
+    "hands": 0,
+    "damage_large": {
+      "dice": 23,
+      "sides": 22,
+      "bonus": 4
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 25,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 64
+    },
+    "range": 31,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "14 00 17 16 04 00 20 00 19 00 00 40 1f 00 00 00"
+  },
+  {
+    "index": 89,
+    "location": 21,
+    "hands": 0,
+    "damage_large": {
+      "dice": 24,
+      "sides": 22,
+      "bonus": 4
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 30,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 0
+    },
+    "range": 75,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "15 00 18 16 04 00 20 00 1e 00 00 00 4b 00 00 00"
+  },
+  {
+    "index": 90,
+    "location": 22,
+    "hands": 26,
+    "damage_large": {
+      "dice": 25,
+      "sides": 22,
+      "bonus": 4
+    },
+    "rate": 0,
+    "protection": 32,
+    "damage_type": 0,
+    "melee_flag": 35,
+    "damage_medium": {
+      "dice": 0,
+      "sides": 0,
+      "bonus": 64
+    },
+    "range": 106,
+    "class_restrictions": 0,
+    "ammo_type": 0,
+    "unknown": 0,
+    "raw_hex": "16 1a 19 16 04 00 20 00 23 00 00 40 6a 00 00 00"
+  }
+]

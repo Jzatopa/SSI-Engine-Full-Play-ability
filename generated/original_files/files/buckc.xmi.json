@@ -1,0 +1,498 @@
+{
+  "file": "BUCKC.XMI",
+  "kind": "audio/music/driver data",
+  "bytes": 2242,
+  "sha256": "94a4a0991bbab9afe17aa53435cc39b164365a790915c41fde293b48cb6951a2",
+  "head_hex": "46 4f 52 4d 00 00 00 0e 58 44 49 52 49 4e 46 4f 00 00 00 02 07 00 43 41 54 20 00 00 08 a4 58 4d 49 44 46 4f 52 4d 00 00 03 16 58 4d 49 44 45 56 4e 54 00 00 03 0a ff 58 04 04 02 18 08 ff 01 08 20 20 20 20 20 20 20 20 ff 20 01 01 ff 51 03 0a e6 2d ff 01 08 43 68 61 6e 6e 65 6c 32 91 49 7f 2a 55 91 49 69 0e 1d 91 49 7f 0e 1c 91 49 6f 0f 1d 91 4e 7f 52 56 91 4d 6c 52 55 91 4c 7f 52 56",
+  "ascii_candidates": [
+    {
+      "offset": 0,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 8,
+      "length": 8,
+      "text": "XDIRINFO"
+    },
+    {
+      "offset": 22,
+      "length": 4,
+      "text": "CAT "
+    },
+    {
+      "offset": 30,
+      "length": 8,
+      "text": "XMIDFORM"
+    },
+    {
+      "offset": 42,
+      "length": 8,
+      "text": "XMIDEVNT"
+    },
+    {
+      "offset": 64,
+      "length": 8,
+      "text": "        "
+    },
+    {
+      "offset": 85,
+      "length": 8,
+      "text": "Channel2"
+    },
+    {
+      "offset": 119,
+      "length": 4,
+      "text": "MlRU"
+    },
+    {
+      "offset": 149,
+      "length": 4,
+      "text": "KuSV"
+    },
+    {
+      "offset": 154,
+      "length": 4,
+      "text": "Lo'+"
+    },
+    {
+      "offset": 164,
+      "length": 4,
+      "text": "K~'+"
+    },
+    {
+      "offset": 174,
+      "length": 4,
+      "text": "Ll'*"
+    },
+    {
+      "offset": 250,
+      "length": 4,
+      "text": "Ku$0"
+    },
+    {
+      "offset": 275,
+      "length": 4,
+      "text": "DQ$0"
+    },
+    {
+      "offset": 280,
+      "length": 4,
+      "text": "Df$0"
+    },
+    {
+      "offset": 295,
+      "length": 4,
+      "text": "FM.0"
+    },
+    {
+      "offset": 345,
+      "length": 4,
+      "text": "F]$0"
+    },
+    {
+      "offset": 415,
+      "length": 4,
+      "text": "KJ$0"
+    },
+    {
+      "offset": 445,
+      "length": 4,
+      "text": "DJL`"
+    },
+    {
+      "offset": 470,
+      "length": 4,
+      "text": "F=.0"
+    },
+    {
+      "offset": 475,
+      "length": 4,
+      "text": "IH.0"
+    },
+    {
+      "offset": 505,
+      "length": 4,
+      "text": "FO.0"
+    },
+    {
+      "offset": 550,
+      "length": 4,
+      "text": "Dx.0"
+    },
+    {
+      "offset": 620,
+      "length": 4,
+      "text": "NQ 0"
+    },
+    {
+      "offset": 625,
+      "length": 4,
+      "text": "M| 0"
+    },
+    {
+      "offset": 660,
+      "length": 4,
+      "text": "LM:H"
+    },
+    {
+      "offset": 695,
+      "length": 4,
+      "text": "8@*0"
+    },
+    {
+      "offset": 700,
+      "length": 4,
+      "text": "=Y*0"
+    },
+    {
+      "offset": 705,
+      "length": 4,
+      "text": "?B*0"
+    },
+    {
+      "offset": 710,
+      "length": 4,
+      "text": "@Y*0"
+    },
+    {
+      "offset": 715,
+      "length": 4,
+      "text": "B{*0"
+    },
+    {
+      "offset": 720,
+      "length": 4,
+      "text": "DiV`"
+    },
+    {
+      "offset": 725,
+      "length": 4,
+      "text": "Fx4@"
+    },
+    {
+      "offset": 740,
+      "length": 4,
+      "text": "F}^`"
+    },
+    {
+      "offset": 832,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 840,
+      "length": 8,
+      "text": "XMIDTIMB"
+    },
+    {
+      "offset": 856,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 886,
+      "length": 4,
+      "text": "Io%K"
+    },
+    {
+      "offset": 941,
+      "length": 4,
+      "text": ">uWd"
+    },
+    {
+      "offset": 956,
+      "length": 4,
+      "text": "AcWd"
+    },
+    {
+      "offset": 971,
+      "length": 4,
+      "text": "F}Wd"
+    },
+    {
+      "offset": 1004,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 1011,
+      "length": 9,
+      "text": "fXMIDTIMB"
+    },
+    {
+      "offset": 1028,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 1153,
+      "length": 4,
+      "text": "@746"
+    },
+    {
+      "offset": 1158,
+      "length": 4,
+      "text": "BQ47"
+    },
+    {
+      "offset": 1163,
+      "length": 4,
+      "text": "D]36"
+    },
+    {
+      "offset": 1313,
+      "length": 4,
+      "text": "Oo)7"
+    },
+    {
+      "offset": 1318,
+      "length": 4,
+      "text": "No(6"
+    },
+    {
+      "offset": 1323,
+      "length": 4,
+      "text": "Mx46"
+    },
+    {
+      "offset": 1343,
+      "length": 4,
+      "text": "9Oll"
+    },
+    {
+      "offset": 1353,
+      "length": 4,
+      "text": "9#46"
+    },
+    {
+      "offset": 1358,
+      "length": 4,
+      "text": "=&47"
+    },
+    {
+      "offset": 1370,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 1378,
+      "length": 8,
+      "text": "XMIDTIMB"
+    },
+    {
+      "offset": 1394,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 1556,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 1564,
+      "length": 8,
+      "text": "XMIDTIMB"
+    },
+    {
+      "offset": 1580,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 1618,
+      "length": 4,
+      "text": "(],0"
+    },
+    {
+      "offset": 1638,
+      "length": 4,
+      "text": "%++/"
+    },
+    {
+      "offset": 1658,
+      "length": 4,
+      "text": ",#,0"
+    },
+    {
+      "offset": 1673,
+      "length": 4,
+      "text": "A#+/"
+    },
+    {
+      "offset": 1714,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 1721,
+      "length": 9,
+      "text": "TXMIDTIMB"
+    },
+    {
+      "offset": 1738,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 1768,
+      "length": 4,
+      "text": ")`WZ"
+    },
+    {
+      "offset": 1781,
+      "length": 4,
+      "text": "+cWZ"
+    },
+    {
+      "offset": 1786,
+      "length": 4,
+      "text": ")cWZ"
+    },
+    {
+      "offset": 1806,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 1814,
+      "length": 8,
+      "text": "XMIDTIMB"
+    },
+    {
+      "offset": 1830,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 1880,
+      "length": 4,
+      "text": "N{$/"
+    },
+    {
+      "offset": 1885,
+      "length": 4,
+      "text": "Mo$0"
+    },
+    {
+      "offset": 1910,
+      "length": 4,
+      "text": "8}$0"
+    },
+    {
+      "offset": 1940,
+      "length": 4,
+      "text": "Qx$0"
+    },
+    {
+      "offset": 1960,
+      "length": 4,
+      "text": ";E]_"
+    },
+    {
+      "offset": 1965,
+      "length": 4,
+      "text": ":`.0"
+    },
+    {
+      "offset": 1970,
+      "length": 4,
+      "text": "8Y.0"
+    },
+    {
+      "offset": 1975,
+      "length": 4,
+      "text": ":`-/"
+    },
+    {
+      "offset": 1980,
+      "length": 4,
+      "text": ";B]_"
+    },
+    {
+      "offset": 1985,
+      "length": 4,
+      "text": "6T.0"
+    },
+    {
+      "offset": 1990,
+      "length": 4,
+      "text": ";+]_"
+    },
+    {
+      "offset": 1995,
+      "length": 4,
+      "text": "@3.0"
+    },
+    {
+      "offset": 2000,
+      "length": 4,
+      "text": "?M$0"
+    },
+    {
+      "offset": 2055,
+      "length": 4,
+      "text": "0=^`"
+    },
+    {
+      "offset": 2060,
+      "length": 4,
+      "text": "/J-/"
+    },
+    {
+      "offset": 2065,
+      "length": 4,
+      "text": "-E.0"
+    },
+    {
+      "offset": 2070,
+      "length": 4,
+      "text": "/M.0"
+    },
+    {
+      "offset": 2075,
+      "length": 4,
+      "text": "0M-/"
+    },
+    {
+      "offset": 2110,
+      "length": 4,
+      "text": "2@]_"
+    },
+    {
+      "offset": 2115,
+      "length": 4,
+      "text": "1`-/"
+    },
+    {
+      "offset": 2120,
+      "length": 4,
+      "text": "/B.0"
+    },
+    {
+      "offset": 2125,
+      "length": 4,
+      "text": "1[.0"
+    },
+    {
+      "offset": 2130,
+      "length": 4,
+      "text": "2`-/"
+    },
+    {
+      "offset": 2165,
+      "length": 4,
+      "text": "Pc//"
+    }
+  ],
+  "pascal_candidates": [
+    {
+      "offset": 84,
+      "length": 8,
+      "text": "Channel2"
+    }
+  ],
+  "record_hints": [],
+  "semantic_status": "file-level structural evidence only"
+}

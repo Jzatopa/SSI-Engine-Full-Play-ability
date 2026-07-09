@@ -1,0 +1,2525 @@
+[
+  {
+    "start": 0,
+    "end": 4095,
+    "count": 36,
+    "sample": [
+      {
+        "offset": 0,
+        "length": 6,
+        "text": "FBOV)>",
+        "terminator": 3
+      },
+      {
+        "offset": 9,
+        "length": 66,
+        "text": "WARNING: Insufficient Memory$Insufficient Memory. Exiting ProgramU",
+        "terminator": 137
+      },
+      {
+        "offset": 393,
+        "length": 37,
+        "text": "$CREATED BY:SSI SPECIAL PROJECTS TEAM",
+        "terminator": 17
+      },
+      {
+        "offset": 431,
+        "length": 17,
+        "text": "GAME DEVELOPMENT:",
+        "terminator": 12
+      },
+      {
+        "offset": 449,
+        "length": 12,
+        "text": "PROGRAMMING:",
+        "terminator": 14
+      },
+      {
+        "offset": 462,
+        "length": 14,
+        "text": "Rhonda Gilbert",
+        "terminator": 10
+      },
+      {
+        "offset": 477,
+        "length": 10,
+        "text": "Russ Brown",
+        "terminator": 11
+      },
+      {
+        "offset": 488,
+        "length": 11,
+        "text": "Kerry Bonin",
+        "terminator": 15
+      }
+    ]
+  },
+  {
+    "start": 4096,
+    "end": 8191,
+    "count": 7,
+    "sample": [
+      {
+        "offset": 5003,
+        "length": 4,
+        "text": "PICU",
+        "terminator": 137
+      },
+      {
+        "offset": 5701,
+        "length": 4,
+        "text": "Bvt>",
+        "terminator": 196
+      },
+      {
+        "offset": 5706,
+        "length": 4,
+        "text": ">@v&",
+        "terminator": 139
+      },
+      {
+        "offset": 5716,
+        "length": 4,
+        "text": ">@v&",
+        "terminator": 139
+      },
+      {
+        "offset": 6219,
+        "length": 6,
+        "text": ">Ov!u[",
+        "terminator": 198
+      },
+      {
+        "offset": 6641,
+        "length": 5,
+        "text": ">Ov/u",
+        "terminator": 11
+      },
+      {
+        "offset": 7302,
+        "length": 15,
+        "text": "what do you do?",
+        "terminator": 1
+      }
+    ]
+  },
+  {
+    "start": 8192,
+    "end": 12287,
+    "count": 10,
+    "sample": [
+      {
+        "offset": 8294,
+        "length": 4,
+        "text": "E':F",
+        "terminator": 251
+      },
+      {
+        "offset": 8459,
+        "length": 12,
+        "text": "succeeds at ",
+        "terminator": 5
+      },
+      {
+        "offset": 8472,
+        "length": 5,
+        "text": "party",
+        "terminator": 10
+      },
+      {
+        "offset": 8478,
+        "length": 11,
+        "text": " fails at U",
+        "terminator": 137
+      },
+      {
+        "offset": 9677,
+        "length": 6,
+        "text": ">Ov%u$",
+        "terminator": 138
+      },
+      {
+        "offset": 10506,
+        "length": 5,
+        "text": "&:E.u",
+        "terminator": 14
+      },
+      {
+        "offset": 10585,
+        "length": 28,
+        "text": "The entire party is killed!U",
+        "terminator": 137
+      },
+      {
+        "offset": 12091,
+        "length": 4,
+        "text": "\t<\tu",
+        "terminator": 5
+      }
+    ]
+  },
+  {
+    "start": 12288,
+    "end": 16383,
+    "count": 16,
+    "sample": [
+      {
+        "offset": 12570,
+        "length": 6,
+        "text": "&:E.uc",
+        "terminator": 196
+      },
+      {
+        "offset": 12581,
+        "length": 4,
+        "text": "E4$ ",
+        "terminator": 8
+      },
+      {
+        "offset": 12762,
+        "length": 37,
+        "text": "$Congrats. The team gains experience!",
+        "terminator": 10
+      },
+      {
+        "offset": 12800,
+        "length": 10,
+        "text": "Congrats. ",
+        "terminator": 18
+      },
+      {
+        "offset": 12811,
+        "length": 19,
+        "text": " gains experience!U",
+        "terminator": 137
+      },
+      {
+        "offset": 14485,
+        "length": 5,
+        "text": ">8D\tu",
+        "terminator": 5
+      },
+      {
+        "offset": 15212,
+        "length": 4,
+        "text": "v<Au",
+        "terminator": 6
+      },
+      {
+        "offset": 15222,
+        "length": 4,
+        "text": "l<Bu",
+        "terminator": 6
+      }
+    ]
+  },
+  {
+    "start": 16384,
+    "end": 20479,
+    "count": 38,
+    "sample": [
+      {
+        "offset": 16521,
+        "length": 12,
+        "text": "(\t-\t>\t[\tg\tz\t",
+        "terminator": 172
+      },
+      {
+        "offset": 16928,
+        "length": 7,
+        "text": " O c { ",
+        "terminator": 192
+      },
+      {
+        "offset": 16940,
+        "length": 9,
+        "text": " \"!X!j!w!",
+        "terminator": 222
+      },
+      {
+        "offset": 16956,
+        "length": 11,
+        "text": "\",\">\"F\"Q\"a\"",
+        "terminator": 145
+      },
+      {
+        "offset": 16978,
+        "length": 13,
+        "text": "#!#)#5#=#k#x#",
+        "terminator": 138
+      },
+      {
+        "offset": 17006,
+        "length": 9,
+        "text": "$)$.$E$|$",
+        "terminator": 132
+      },
+      {
+        "offset": 17030,
+        "length": 17,
+        "text": "$.%6%J%T%^%m%r%|%",
+        "terminator": 139
+      },
+      {
+        "offset": 17080,
+        "length": 5,
+        "text": "'s(}(",
+        "terminator": 135
+      }
+    ]
+  },
+  {
+    "start": 20480,
+    "end": 24575,
+    "count": 24,
+    "sample": [
+      {
+        "offset": 20703,
+        "length": 5,
+        "text": "PSu4;",
+        "terminator": 6
+      },
+      {
+        "offset": 20709,
+        "length": 4,
+        "text": "NSu.",
+        "terminator": 196
+      },
+      {
+        "offset": 20789,
+        "length": 5,
+        "text": "LSu,;",
+        "terminator": 6
+      },
+      {
+        "offset": 20795,
+        "length": 4,
+        "text": "JSu&",
+        "terminator": 139
+      },
+      {
+        "offset": 21339,
+        "length": 10,
+        "text": "\thits for ",
+        "terminator": 18
+      },
+      {
+        "offset": 21350,
+        "length": 18,
+        "text": " points of damage!",
+        "terminator": 7
+      },
+      {
+        "offset": 21369,
+        "length": 7,
+        "text": "misses.",
+        "terminator": 16
+      },
+      {
+        "offset": 21377,
+        "length": 16,
+        "text": " attacks with a ",
+        "terminator": 5
+      }
+    ]
+  },
+  {
+    "start": 24576,
+    "end": 28671,
+    "count": 40,
+    "sample": [
+      {
+        "offset": 24591,
+        "length": 4,
+        "text": "JSuy",
+        "terminator": 141
+      },
+      {
+        "offset": 24618,
+        "length": 4,
+        "text": "<Yu^",
+        "terminator": 176
+      },
+      {
+        "offset": 24726,
+        "length": 27,
+        "text": " attempts to ram!\tYour ship",
+        "terminator": 23
+      },
+      {
+        "offset": 24754,
+        "length": 23,
+        "text": " dodges out of the way!",
+        "terminator": 19
+      },
+      {
+        "offset": 24778,
+        "length": 20,
+        "text": "Ramming successful!U",
+        "terminator": 137
+      },
+      {
+        "offset": 25114,
+        "length": 13,
+        "text": " is closing.U",
+        "terminator": 137
+      },
+      {
+        "offset": 25240,
+        "length": 16,
+        "text": " is retreating.U",
+        "terminator": 137
+      },
+      {
+        "offset": 25508,
+        "length": 24,
+        "text": "Select weapon to reload:",
+        "terminator": 1
+      }
+    ]
+  },
+  {
+    "start": 28672,
+    "end": 32767,
+    "count": 41,
+    "sample": [
+      {
+        "offset": 29285,
+        "length": 4,
+        "text": ">JS&",
+        "terminator": 131
+      },
+      {
+        "offset": 29351,
+        "length": 4,
+        "text": ">JS&",
+        "terminator": 131
+      },
+      {
+        "offset": 29430,
+        "length": 56,
+        "text": "7You close with the injured vessel and attempt to board!",
+        "terminator": 21
+      },
+      {
+        "offset": 29487,
+        "length": 21,
+        "text": " takes over as pilot.",
+        "terminator": 1
+      },
+      {
+        "offset": 29511,
+        "length": 20,
+        "text": "Target which system?",
+        "terminator": 4
+      },
+      {
+        "offset": 29532,
+        "length": 4,
+        "text": "Ram ",
+        "terminator": 2
+      },
+      {
+        "offset": 29540,
+        "length": 8,
+        "text": "succeeds",
+        "terminator": 5
+      },
+      {
+        "offset": 29549,
+        "length": 5,
+        "text": "fails",
+        "terminator": 21
+      }
+    ]
+  },
+  {
+    "start": 32768,
+    "end": 36863,
+    "count": 15,
+    "sample": [
+      {
+        "offset": 33345,
+        "length": 4,
+        "text": "E!PU",
+        "terminator": 14
+      },
+      {
+        "offset": 33984,
+        "length": 4,
+        "text": "E4$@",
+        "terminator": 8
+      },
+      {
+        "offset": 34934,
+        "length": 4,
+        "text": "d)P1",
+        "terminator": 192
+      },
+      {
+        "offset": 35602,
+        "length": 18,
+        "text": "The team has fled.",
+        "terminator": 17
+      },
+      {
+        "offset": 35621,
+        "length": 17,
+        "text": "The team has won.",
+        "terminator": 24
+      },
+      {
+        "offset": 35639,
+        "length": 24,
+        "text": "Each character receives ",
+        "terminator": 18
+      },
+      {
+        "offset": 35664,
+        "length": 18,
+        "text": "experience points.",
+        "terminator": 3
+      },
+      {
+        "offset": 35683,
+        "length": 4,
+        "text": "no U",
+        "terminator": 137
+      }
+    ]
+  },
+  {
+    "start": 36864,
+    "end": 40959,
+    "count": 28,
+    "sample": [
+      {
+        "offset": 36943,
+        "length": 16,
+        "text": "  Repairing Ship",
+        "terminator": 0
+      },
+      {
+        "offset": 36960,
+        "length": 39,
+        "text": "&Engineer         System         Result",
+        "terminator": 1
+      },
+      {
+        "offset": 37002,
+        "length": 48,
+        "text": " fixed) units of fuel plundered from enemy ship!",
+        "terminator": 24
+      },
+      {
+        "offset": 37051,
+        "length": 25,
+        "text": "  All repairs completed.U",
+        "terminator": 137
+      },
+      {
+        "offset": 38129,
+        "length": 4,
+        "text": ">NS&",
+        "terminator": 247
+      },
+      {
+        "offset": 38167,
+        "length": 4,
+        "text": ">JS&",
+        "terminator": 139
+      },
+      {
+        "offset": 38175,
+        "length": 6,
+        "text": ">JS&+E",
+        "terminator": 30
+      },
+      {
+        "offset": 38203,
+        "length": 4,
+        "text": ">JS&",
+        "terminator": 139
+      }
+    ]
+  },
+  {
+    "start": 40960,
+    "end": 45055,
+    "count": 14,
+    "sample": [
+      {
+        "offset": 40962,
+        "length": 21,
+        "text": "Enemy ship destroyed.",
+        "terminator": 8
+      },
+      {
+        "offset": 40984,
+        "length": 8,
+        "text": "~Yes ~No",
+        "terminator": 28
+      },
+      {
+        "offset": 40993,
+        "length": 66,
+        "text": "There is still booty left.  $Do you want to go back and claim it?U",
+        "terminator": 137
+      },
+      {
+        "offset": 41278,
+        "length": 4,
+        "text": "PSt*",
+        "terminator": 141
+      },
+      {
+        "offset": 41487,
+        "length": 4,
+        "text": "<SuM",
+        "terminator": 198
+      },
+      {
+        "offset": 42151,
+        "length": 21,
+        "text": "Your team has met an ",
+        "terminator": 16
+      },
+      {
+        "offset": 42173,
+        "length": 17,
+        "text": "unfortunate end.U",
+        "terminator": 137
+      },
+      {
+        "offset": 42727,
+        "length": 11,
+        "text": "\t=\tG\tQ\tV\t[\t",
+        "terminator": 169
+      }
+    ]
+  },
+  {
+    "start": 45056,
+    "end": 49151,
+    "count": 30,
+    "sample": [
+      {
+        "offset": 45165,
+        "length": 4,
+        "text": "x<Eu",
+        "terminator": 16
+      },
+      {
+        "offset": 45185,
+        "length": 5,
+        "text": "d< u`",
+        "terminator": 161
+      },
+      {
+        "offset": 45388,
+        "length": 4,
+        "text": "\"<-u",
+        "terminator": 30
+      },
+      {
+        "offset": 45488,
+        "length": 5,
+        "text": "Move ",
+        "terminator": 12
+      },
+      {
+        "offset": 45494,
+        "length": 12,
+        "text": "Target View ",
+        "terminator": 11
+      },
+      {
+        "offset": 45507,
+        "length": 11,
+        "text": "Intimidate ",
+        "terminator": 6
+      },
+      {
+        "offset": 45519,
+        "length": 6,
+        "text": "Quick ",
+        "terminator": 4
+      },
+      {
+        "offset": 45526,
+        "length": 4,
+        "text": "Aid ",
+        "terminator": 7
+      }
+    ]
+  },
+  {
+    "start": 49152,
+    "end": 53247,
+    "count": 12,
+    "sample": [
+      {
+        "offset": 49470,
+        "length": 5,
+        "text": "E.<%t",
+        "terminator": 4
+      },
+      {
+        "offset": 49476,
+        "length": 4,
+        "text": "<&u)",
+        "terminator": 138
+      },
+      {
+        "offset": 49520,
+        "length": 5,
+        "text": "G<#u,",
+        "terminator": 255
+      },
+      {
+        "offset": 50414,
+        "length": 5,
+        "text": "E.<%u",
+        "terminator": 19
+      },
+      {
+        "offset": 50438,
+        "length": 4,
+        "text": "r<&u",
+        "terminator": 18
+      },
+      {
+        "offset": 50460,
+        "length": 4,
+        "text": "\\<!u",
+        "terminator": 7
+      },
+      {
+        "offset": 50471,
+        "length": 4,
+        "text": "Q<\"u",
+        "terminator": 7
+      },
+      {
+        "offset": 50482,
+        "length": 4,
+        "text": "F<$u",
+        "terminator": 21
+      }
+    ]
+  },
+  {
+    "start": 53248,
+    "end": 57343,
+    "count": 2,
+    "sample": [
+      {
+        "offset": 54193,
+        "length": 23,
+        "text": "readies a heavy weaponU",
+        "terminator": 137
+      },
+      {
+        "offset": 54505,
+        "length": 4,
+        "text": "EH$@",
+        "terminator": 8
+      }
+    ]
+  },
+  {
+    "start": 57344,
+    "end": 61439,
+    "count": 2,
+    "sample": [
+      {
+        "offset": 60739,
+        "length": 26,
+        "text": "Cant identify wild terrain",
+        "terminator": 0
+      },
+      {
+        "offset": 60872,
+        "length": 4,
+        "text": "<\tu?",
+        "terminator": 176
+      }
+    ]
+  },
+  {
+    "start": 61440,
+    "end": 65535,
+    "count": 5,
+    "sample": [
+      {
+        "offset": 61865,
+        "length": 7,
+        "text": "marscom",
+        "terminator": 8
+      },
+      {
+        "offset": 61873,
+        "length": 8,
+        "text": "venuscom",
+        "terminator": 5
+      },
+      {
+        "offset": 61882,
+        "length": 5,
+        "text": "lotek",
+        "terminator": 5
+      },
+      {
+        "offset": 61888,
+        "length": 6,
+        "text": "hitekU",
+        "terminator": 137
+      },
+      {
+        "offset": 65336,
+        "length": 19,
+        "text": "A battle begins...U",
+        "terminator": 137
+      }
+    ]
+  },
+  {
+    "start": 65536,
+    "end": 69631,
+    "count": 6,
+    "sample": [
+      {
+        "offset": 66015,
+        "length": 13,
+        "text": "#P$Z$d$n$s$x$",
+        "terminator": 145
+      },
+      {
+        "offset": 66041,
+        "length": 7,
+        "text": "%%%>%t%",
+        "terminator": 139
+      },
+      {
+        "offset": 66309,
+        "length": 6,
+        "text": "COMSPR",
+        "terminator": 6
+      },
+      {
+        "offset": 66316,
+        "length": 6,
+        "text": "cursor",
+        "terminator": 5
+      },
+      {
+        "offset": 66323,
+        "length": 6,
+        "text": "ITEMSU",
+        "terminator": 137
+      },
+      {
+        "offset": 66675,
+        "length": 4,
+        "text": ">N@A",
+        "terminator": 1
+      }
+    ]
+  },
+  {
+    "start": 69632,
+    "end": 73727,
+    "count": 20,
+    "sample": [
+      {
+        "offset": 69737,
+        "length": 4,
+        "text": "}.$u",
+        "terminator": 7
+      },
+      {
+        "offset": 69817,
+        "length": 4,
+        "text": "}.#u",
+        "terminator": 7
+      },
+      {
+        "offset": 69987,
+        "length": 11,
+        "text": "\tdodges itU",
+        "terminator": 137
+      },
+      {
+        "offset": 70357,
+        "length": 11,
+        "text": "is poisoned",
+        "terminator": 8
+      },
+      {
+        "offset": 70369,
+        "length": 9,
+        "text": "is dizzyU",
+        "terminator": 137
+      },
+      {
+        "offset": 70589,
+        "length": 12,
+        "text": "is poisonedU",
+        "terminator": 137
+      },
+      {
+        "offset": 71813,
+        "length": 15,
+        "text": "\t+\t8\tE\tR\t_\tl\ty\t",
+        "terminator": 134
+      },
+      {
+        "offset": 72516,
+        "length": 4,
+        "text": "EH$ ",
+        "terminator": 8
+      }
+    ]
+  },
+  {
+    "start": 73728,
+    "end": 77823,
+    "count": 12,
+    "sample": [
+      {
+        "offset": 74436,
+        "length": 8,
+        "text": "Got Away",
+        "terminator": 17
+      },
+      {
+        "offset": 74445,
+        "length": 18,
+        "text": "Escape is blockedU",
+        "terminator": 137
+      },
+      {
+        "offset": 74798,
+        "length": 5,
+        "text": "&:E8v",
+        "terminator": 10
+      },
+      {
+        "offset": 74943,
+        "length": 11,
+        "text": "is stunnedU",
+        "terminator": 137
+      },
+      {
+        "offset": 76719,
+        "length": 4,
+        "text": "?<\tt",
+        "terminator": 4
+      },
+      {
+        "offset": 77491,
+        "length": 21,
+        "text": "launches a missile...",
+        "terminator": 19
+      },
+      {
+        "offset": 77513,
+        "length": 19,
+        "text": "throws a grenade...",
+        "terminator": 14
+      },
+      {
+        "offset": 77533,
+        "length": 14,
+        "text": "It goes astray",
+        "terminator": 4
+      }
+    ]
+  },
+  {
+    "start": 77824,
+    "end": 81919,
+    "count": 4,
+    "sample": [
+      {
+        "offset": 79635,
+        "length": 4,
+        "text": "/<\tu",
+        "terminator": 11
+      },
+      {
+        "offset": 80616,
+        "length": 34,
+        "text": " Weapon specials incorrectly set!U",
+        "terminator": 137
+      },
+      {
+        "offset": 81256,
+        "length": 4,
+        "text": "&(E8",
+        "terminator": 196
+      },
+      {
+        "offset": 81699,
+        "length": 21,
+        "text": "fails at use jetpackU",
+        "terminator": 137
+      }
+    ]
+  },
+  {
+    "start": 81920,
+    "end": 86015,
+    "count": 19,
+    "sample": [
+      {
+        "offset": 82675,
+        "length": 9,
+        "text": "GuardingU",
+        "terminator": 137
+      },
+      {
+        "offset": 82963,
+        "length": 4,
+        "text": "h<\tt",
+        "terminator": 4
+      },
+      {
+        "offset": 83621,
+        "length": 14,
+        "text": "Attack Ally: U",
+        "terminator": 137
+      },
+      {
+        "offset": 83858,
+        "length": 7,
+        "text": "(short)",
+        "terminator": 8
+      },
+      {
+        "offset": 83866,
+        "length": 8,
+        "text": "(medium)",
+        "terminator": 6
+      },
+      {
+        "offset": 83875,
+        "length": 6,
+        "text": "(long)",
+        "terminator": 8
+      },
+      {
+        "offset": 83882,
+        "length": 8,
+        "text": "Range = ",
+        "terminator": 1
+      },
+      {
+        "offset": 84115,
+        "length": 17,
+        "text": "Next Prev Manual ",
+        "terminator": 7
+      }
+    ]
+  },
+  {
+    "start": 86016,
+    "end": 90111,
+    "count": 11,
+    "sample": [
+      {
+        "offset": 86233,
+        "length": 18,
+        "text": "NumTargets < 1!!!U",
+        "terminator": 137
+      },
+      {
+        "offset": 88088,
+        "length": 4,
+        "text": "<Cu2",
+        "terminator": 196
+      },
+      {
+        "offset": 88141,
+        "length": 5,
+        "text": "U<Eu ",
+        "terminator": 196
+      },
+      {
+        "offset": 88309,
+        "length": 31,
+        "text": "Life was empty til I met buck!U",
+        "terminator": 137
+      },
+      {
+        "offset": 88849,
+        "length": 21,
+        "text": " looks real menacing.",
+        "terminator": 21
+      },
+      {
+        "offset": 88871,
+        "length": 21,
+        "text": " fails to intimidate.",
+        "terminator": 14
+      },
+      {
+        "offset": 88893,
+        "length": 15,
+        "text": "is intimidatedU",
+        "terminator": 137
+      },
+      {
+        "offset": 89193,
+        "length": 24,
+        "text": "  Using Leadership Skill",
+        "terminator": 0
+      }
+    ]
+  },
+  {
+    "start": 90112,
+    "end": 94207,
+    "count": 47,
+    "sample": [
+      {
+        "offset": 90262,
+        "length": 5,
+        "text": "made ",
+        "terminator": 7
+      },
+      {
+        "offset": 90268,
+        "length": 7,
+        "text": "failed ",
+        "terminator": 3
+      },
+      {
+        "offset": 90288,
+        "length": 18,
+        "text": "Zero-G skill rollU",
+        "terminator": 137
+      },
+      {
+        "offset": 90836,
+        "length": 4,
+        "text": "Y\tw\t",
+        "terminator": 141
+      },
+      {
+        "offset": 91066,
+        "length": 4,
+        "text": "d i ",
+        "terminator": 199
+      },
+      {
+        "offset": 91073,
+        "length": 5,
+        "text": " 2!b!",
+        "terminator": 203
+      },
+      {
+        "offset": 91091,
+        "length": 7,
+        "text": "#.#K#i#",
+        "terminator": 136
+      },
+      {
+        "offset": 91109,
+        "length": 9,
+        "text": "$\"$.$:$F$",
+        "terminator": 6
+      }
+    ]
+  },
+  {
+    "start": 94208,
+    "end": 98303,
+    "count": 48,
+    "sample": [
+      {
+        "offset": 94330,
+        "length": 4,
+        "text": "t<Hu",
+        "terminator": 6
+      },
+      {
+        "offset": 94489,
+        "length": 12,
+        "text": "Animation on",
+        "terminator": 13
+      },
+      {
+        "offset": 94502,
+        "length": 14,
+        "text": "Animation offU",
+        "terminator": 137
+      },
+      {
+        "offset": 94546,
+        "length": 5,
+        "text": ">8D\tu",
+        "terminator": 6
+      },
+      {
+        "offset": 94697,
+        "length": 4,
+        "text": "a<Pu",
+        "terminator": 7
+      },
+      {
+        "offset": 94708,
+        "length": 4,
+        "text": "V<Mu",
+        "terminator": 6
+      },
+      {
+        "offset": 94718,
+        "length": 5,
+        "text": "L<Au@",
+        "terminator": 128
+      },
+      {
+        "offset": 94803,
+        "length": 17,
+        "text": "En route. Fuel = ",
+        "terminator": 1
+      }
+    ]
+  },
+  {
+    "start": 98304,
+    "end": 102399,
+    "count": 18,
+    "sample": [
+      {
+        "offset": 98840,
+        "length": 4,
+        "text": "<Vu$",
+        "terminator": 128
+      },
+      {
+        "offset": 98898,
+        "length": 4,
+        "text": "<RuV",
+        "terminator": 128
+      },
+      {
+        "offset": 99007,
+        "length": 4,
+        "text": "<Su#",
+        "terminator": 128
+      },
+      {
+        "offset": 99046,
+        "length": 4,
+        "text": "<Bu7",
+        "terminator": 128
+      },
+      {
+        "offset": 99121,
+        "length": 5,
+        "text": "u<Euq",
+        "terminator": 128
+      },
+      {
+        "offset": 99509,
+        "length": 10,
+        "text": "\tPick Race",
+        "terminator": 2
+      },
+      {
+        "offset": 99524,
+        "length": 6,
+        "text": "Select",
+        "terminator": 11
+      },
+      {
+        "offset": 99531,
+        "length": 11,
+        "text": "Pick Gender",
+        "terminator": 10
+      }
+    ]
+  },
+  {
+    "start": 102400,
+    "end": 106495,
+    "count": 20,
+    "sample": [
+      {
+        "offset": 102724,
+        "length": 4,
+        "text": "$<Pu",
+        "terminator": 15
+      },
+      {
+        "offset": 103142,
+        "length": 5,
+        "text": "&;EEv",
+        "terminator": 23
+      },
+      {
+        "offset": 103188,
+        "length": 5,
+        "text": "&;EEs",
+        "terminator": 21
+      },
+      {
+        "offset": 103302,
+        "length": 5,
+        "text": "&;EEs",
+        "terminator": 21
+      },
+      {
+        "offset": 103346,
+        "length": 5,
+        "text": "&;EEv",
+        "terminator": 21
+      },
+      {
+        "offset": 103974,
+        "length": 5,
+        "text": "Drop ",
+        "terminator": 10
+      },
+      {
+        "offset": 103980,
+        "length": 10,
+        "text": " forever? ",
+        "terminator": 14
+      },
+      {
+        "offset": 103991,
+        "length": 14,
+        "text": "Are you sure? ",
+        "terminator": 15
+      }
+    ]
+  },
+  {
+    "start": 106496,
+    "end": 110591,
+    "count": 25,
+    "sample": [
+      {
+        "offset": 107563,
+        "length": 14,
+        "text": "ready   action",
+        "terminator": 3
+      },
+      {
+        "offset": 107582,
+        "length": 20,
+        "text": "Select a body icon. ",
+        "terminator": 4
+      },
+      {
+        "offset": 107603,
+        "length": 4,
+        "text": "Done",
+        "terminator": 17
+      },
+      {
+        "offset": 107608,
+        "length": 18,
+        "text": "Is this icon ok? U",
+        "terminator": 137
+      },
+      {
+        "offset": 108131,
+        "length": 4,
+        "text": "t<Gu",
+        "terminator": 17
+      },
+      {
+        "offset": 108300,
+        "length": 4,
+        "text": "<!us",
+        "terminator": 196
+      },
+      {
+        "offset": 108418,
+        "length": 4,
+        "text": "\"<Du",
+        "terminator": 6
+      },
+      {
+        "offset": 109065,
+        "length": 69,
+        "text": "we only train conscious people&maximum level in game has been reached",
+        "terminator": 21
+      }
+    ]
+  },
+  {
+    "start": 110592,
+    "end": 114687,
+    "count": 24,
+    "sample": [
+      {
+        "offset": 111718,
+        "length": 73,
+        "text": "%Push JOYSTICK #1 to the extreme upper\"left position and press button #1.",
+        "terminator": 23
+      },
+      {
+        "offset": 111792,
+        "length": 98,
+        "text": "Unable to read joystick%Push JOYSTICK #1 to the extreme lower#right position and press button #1.U",
+        "terminator": 137
+      },
+      {
+        "offset": 112140,
+        "length": 4,
+        "text": " Nv=",
+        "terminator": 176
+      },
+      {
+        "offset": 112627,
+        "length": 4,
+        "text": " Nv=",
+        "terminator": 176
+      },
+      {
+        "offset": 113071,
+        "length": 9,
+        "text": "\t'\t5\tc\tr\t",
+        "terminator": 156
+      },
+      {
+        "offset": 113340,
+        "length": 4,
+        "text": "U o ",
+        "terminator": 166
+      },
+      {
+        "offset": 113377,
+        "length": 5,
+        "text": "#*$L$",
+        "terminator": 136
+      },
+      {
+        "offset": 113419,
+        "length": 7,
+        "text": "(D(T(_(",
+        "terminator": 177
+      }
+    ]
+  },
+  {
+    "start": 114688,
+    "end": 118783,
+    "count": 35,
+    "sample": [
+      {
+        "offset": 114891,
+        "length": 6,
+        "text": " buys ",
+        "terminator": 8
+      },
+      {
+        "offset": 114898,
+        "length": 8,
+        "text": " buys a ",
+        "terminator": 17
+      },
+      {
+        "offset": 114907,
+        "length": 18,
+        "text": "Not enough Money.U",
+        "terminator": 137
+      },
+      {
+        "offset": 115046,
+        "length": 6,
+        "text": "W&;U-|",
+        "terminator": 14
+      },
+      {
+        "offset": 115058,
+        "length": 5,
+        "text": "&;E+v",
+        "terminator": 3
+      },
+      {
+        "offset": 115097,
+        "length": 6,
+        "text": "W&)E+&",
+        "terminator": 25
+      },
+      {
+        "offset": 115222,
+        "length": 4,
+        "text": "U-;V",
+        "terminator": 248
+      },
+      {
+        "offset": 115276,
+        "length": 4,
+        "text": "U-)F",
+        "terminator": 246
+      }
+    ]
+  },
+  {
+    "start": 118784,
+    "end": 122879,
+    "count": 5,
+    "sample": [
+      {
+        "offset": 118818,
+        "length": 4,
+        "text": "2D@@",
+        "terminator": 196
+      },
+      {
+        "offset": 119689,
+        "length": 5,
+        "text": ".daxU",
+        "terminator": 137
+      },
+      {
+        "offset": 119885,
+        "length": 4,
+        "text": "MONU",
+        "terminator": 137
+      },
+      {
+        "offset": 120176,
+        "length": 5,
+        "text": "SPRIT",
+        "terminator": 3
+      },
+      {
+        "offset": 120182,
+        "length": 4,
+        "text": "PICU",
+        "terminator": 137
+      }
+    ]
+  },
+  {
+    "start": 122880,
+    "end": 126975,
+    "count": 20,
+    "sample": [
+      {
+        "offset": 124299,
+        "length": 4,
+        "text": "=~ur",
+        "terminator": 196
+      },
+      {
+        "offset": 124738,
+        "length": 7,
+        "text": "SelectU",
+        "terminator": 137
+      },
+      {
+        "offset": 125263,
+        "length": 4,
+        "text": "Bvu ",
+        "terminator": 184
+      },
+      {
+        "offset": 125284,
+        "length": 4,
+        "text": ">@v1",
+        "terminator": 192
+      },
+      {
+        "offset": 125337,
+        "length": 4,
+        "text": ">@v&",
+        "terminator": 137
+      },
+      {
+        "offset": 125352,
+        "length": 4,
+        "text": ">@v&",
+        "terminator": 137
+      },
+      {
+        "offset": 125845,
+        "length": 17,
+        "text": "t,< t(<-t$<2t <4t",
+        "terminator": 28
+      },
+      {
+        "offset": 125907,
+        "length": 7,
+        "text": "t,<\tt(<",
+        "terminator": 15
+      }
+    ]
+  },
+  {
+    "start": 126976,
+    "end": 131071,
+    "count": 21,
+    "sample": [
+      {
+        "offset": 127424,
+        "length": 4,
+        "text": ".SAV",
+        "terminator": 16
+      },
+      {
+        "offset": 127429,
+        "length": 17,
+        "text": "from saved game U",
+        "terminator": 137
+      },
+      {
+        "offset": 128374,
+        "length": 6,
+        "text": "*.whoU",
+        "terminator": 137
+      },
+      {
+        "offset": 128544,
+        "length": 4,
+        "text": "BUCK",
+        "terminator": 1
+      },
+      {
+        "offset": 128551,
+        "length": 27,
+        "text": "Is your save disk in drive ",
+        "terminator": 3
+      },
+      {
+        "offset": 128583,
+        "length": 31,
+        "text": "Unexpected error during save: !",
+        "terminator": 0
+      },
+      {
+        "offset": 128894,
+        "length": 4,
+        "text": "<Csz",
+        "terminator": 141
+      },
+      {
+        "offset": 129072,
+        "length": 4,
+        "text": "<Cs<",
+        "terminator": 176
+      }
+    ]
+  },
+  {
+    "start": 131072,
+    "end": 135167,
+    "count": 14,
+    "sample": [
+      {
+        "offset": 133074,
+        "length": 5,
+        "text": "CHARS",
+        "terminator": 4
+      },
+      {
+        "offset": 133080,
+        "length": 5,
+        "text": "CPICU",
+        "terminator": 137
+      },
+      {
+        "offset": 133199,
+        "length": 4,
+        "text": "<lu\t",
+        "terminator": 196
+      },
+      {
+        "offset": 133309,
+        "length": 4,
+        "text": ".dax",
+        "terminator": 22
+      },
+      {
+        "offset": 133314,
+        "length": 22,
+        "text": "Unable to load Monster",
+        "terminator": 3
+      },
+      {
+        "offset": 133341,
+        "length": 4,
+        "text": "ITMU",
+        "terminator": 137
+      },
+      {
+        "offset": 134492,
+        "length": 10,
+        "text": "load from:",
+        "terminator": 16
+      },
+      {
+        "offset": 134503,
+        "length": 16,
+        "text": "Matrix Countdown",
+        "terminator": 4
+      }
+    ]
+  },
+  {
+    "start": 135168,
+    "end": 139263,
+    "count": 20,
+    "sample": [
+      {
+        "offset": 136472,
+        "length": 17,
+        "text": "Save Which Game: ",
+        "terminator": 19
+      },
+      {
+        "offset": 136490,
+        "length": 19,
+        "text": "A B C D E F G H I J",
+        "terminator": 1
+      },
+      {
+        "offset": 136542,
+        "length": 39,
+        "text": ".dat\"Can't save.  No room on this disk.",
+        "terminator": 5
+      },
+      {
+        "offset": 136616,
+        "length": 65,
+        "text": "Unexpected error during save: \"WARNING: Problem Saving Characters",
+        "terminator": 6
+      },
+      {
+        "offset": 136682,
+        "length": 7,
+        "text": "CHRDATU",
+        "terminator": 137
+      },
+      {
+        "offset": 137074,
+        "length": 4,
+        "text": "<Cs;",
+        "terminator": 176
+      },
+      {
+        "offset": 137925,
+        "length": 5,
+        "text": "ships",
+        "terminator": 4
+      },
+      {
+        "offset": 137931,
+        "length": 4,
+        "text": ".dax",
+        "terminator": 15
+      }
+    ]
+  },
+  {
+    "start": 139264,
+    "end": 143359,
+    "count": 26,
+    "sample": [
+      {
+        "offset": 139303,
+        "length": 7,
+        "text": "name  :",
+        "terminator": 3
+      },
+      {
+        "offset": 139315,
+        "length": 7,
+        "text": "race  :",
+        "terminator": 3
+      },
+      {
+        "offset": 139327,
+        "length": 7,
+        "text": "gender:",
+        "terminator": 6
+      },
+      {
+        "offset": 139335,
+        "length": 6,
+        "text": "thaco:",
+        "terminator": 7
+      },
+      {
+        "offset": 139342,
+        "length": 7,
+        "text": "career:",
+        "terminator": 6
+      },
+      {
+        "offset": 139350,
+        "length": 6,
+        "text": "level:",
+        "terminator": 7
+      },
+      {
+        "offset": 139357,
+        "length": 7,
+        "text": "status:",
+        "terminator": 11
+      },
+      {
+        "offset": 139365,
+        "length": 11,
+        "text": "experience:",
+        "terminator": 7
+      }
+    ]
+  },
+  {
+    "start": 143360,
+    "end": 147455,
+    "count": 44,
+    "sample": [
+      {
+        "offset": 143652,
+        "length": 4,
+        "text": "3<Tu",
+        "terminator": 6
+      },
+      {
+        "offset": 143662,
+        "length": 4,
+        "text": ")<Su",
+        "terminator": 19
+      },
+      {
+        "offset": 143755,
+        "length": 18,
+        "text": "Must be unreadiedU",
+        "terminator": 137
+      },
+      {
+        "offset": 143848,
+        "length": 14,
+        "text": "itemptr:      ",
+        "terminator": 14
+      },
+      {
+        "offset": 143863,
+        "length": 14,
+        "text": "namenum(1):   ",
+        "terminator": 14
+      },
+      {
+        "offset": 143878,
+        "length": 14,
+        "text": "namenum(2):   ",
+        "terminator": 14
+      },
+      {
+        "offset": 143893,
+        "length": 14,
+        "text": "namenum(3):   ",
+        "terminator": 14
+      },
+      {
+        "offset": 143908,
+        "length": 14,
+        "text": "plus:         ",
+        "terminator": 14
+      }
+    ]
+  },
+  {
+    "start": 147456,
+    "end": 151551,
+    "count": 39,
+    "sample": [
+      {
+        "offset": 147668,
+        "length": 16,
+        "text": "Trade with Whom?",
+        "terminator": 10
+      },
+      {
+        "offset": 147685,
+        "length": 11,
+        "text": "OverloadedU",
+        "terminator": 137
+      },
+      {
+        "offset": 148003,
+        "length": 17,
+        "text": "Can't halve thatU",
+        "terminator": 137
+      },
+      {
+        "offset": 148044,
+        "length": 4,
+        "text": "E4$ ",
+        "terminator": 8
+      },
+      {
+        "offset": 148233,
+        "length": 4,
+        "text": "E4$ ",
+        "terminator": 8
+      },
+      {
+        "offset": 148361,
+        "length": 5,
+        "text": "&:E/t",
+        "terminator": 3
+      },
+      {
+        "offset": 148380,
+        "length": 5,
+        "text": "&:E0t",
+        "terminator": 3
+      },
+      {
+        "offset": 148399,
+        "length": 5,
+        "text": "&:E1t",
+        "terminator": 3
+      }
+    ]
+  },
+  {
+    "start": 151552,
+    "end": 155647,
+    "count": 22,
+    "sample": [
+      {
+        "offset": 151698,
+        "length": 5,
+        "text": "t<Pu+",
+        "terminator": 196
+      },
+      {
+        "offset": 151969,
+        "length": 4,
+        "text": "tVu/",
+        "terminator": 161
+      },
+      {
+        "offset": 152279,
+        "length": 10,
+        "text": "-\tL\tc\ti\tx\t",
+        "terminator": 134
+      },
+      {
+        "offset": 152670,
+        "length": 5,
+        "text": " )!8!",
+        "terminator": 145
+      },
+      {
+        "offset": 152720,
+        "length": 11,
+        "text": "'$'V'`'j'o'",
+        "terminator": 130
+      },
+      {
+        "offset": 152750,
+        "length": 11,
+        "text": "( (1(6(I(q(",
+        "terminator": 183
+      },
+      {
+        "offset": 152764,
+        "length": 5,
+        "text": ")')M)",
+        "terminator": 162
+      },
+      {
+        "offset": 152770,
+        "length": 7,
+        "text": ")d+s+~+",
+        "terminator": 149
+      }
+    ]
+  },
+  {
+    "start": 155648,
+    "end": 159743,
+    "count": 22,
+    "sample": [
+      {
+        "offset": 155769,
+        "length": 4,
+        "text": "<&u%",
+        "terminator": 196
+      },
+      {
+        "offset": 155809,
+        "length": 5,
+        "text": "g<Du(",
+        "terminator": 196
+      },
+      {
+        "offset": 155853,
+        "length": 4,
+        "text": ";<Ju",
+        "terminator": 13
+      },
+      {
+        "offset": 155870,
+        "length": 5,
+        "text": "*<Mu&",
+        "terminator": 196
+      },
+      {
+        "offset": 156149,
+        "length": 23,
+        "text": " has no general skills.",
+        "terminator": 13
+      },
+      {
+        "offset": 156173,
+        "length": 13,
+        "text": "Add Subtract ",
+        "terminator": 10
+      },
+      {
+        "offset": 156187,
+        "length": 10,
+        "text": "Prev Next ",
+        "terminator": 4
+      },
+      {
+        "offset": 156198,
+        "length": 4,
+        "text": "Done",
+        "terminator": 0
+      }
+    ]
+  },
+  {
+    "start": 159744,
+    "end": 163839,
+    "count": 12,
+    "sample": [
+      {
+        "offset": 159811,
+        "length": 5,
+        "text": "&;EEv",
+        "terminator": 15
+      },
+      {
+        "offset": 160354,
+        "length": 6,
+        "text": "=&)E+&",
+        "terminator": 25
+      },
+      {
+        "offset": 160875,
+        "length": 10,
+        "text": "Credits : ",
+        "terminator": 14
+      },
+      {
+        "offset": 160886,
+        "length": 48,
+        "text": "               How many credits will you take? U",
+        "terminator": 137
+      },
+      {
+        "offset": 162062,
+        "length": 4,
+        "text": "<\tu?",
+        "terminator": 196
+      },
+      {
+        "offset": 162336,
+        "length": 12,
+        "text": "is helplessU",
+        "terminator": 137
+      },
+      {
+        "offset": 162675,
+        "length": 6,
+        "text": "thac0U",
+        "terminator": 137
+      },
+      {
+        "offset": 163537,
+        "length": 6,
+        "text": "takes ",
+        "terminator": 18
+      }
+    ]
+  },
+  {
+    "start": 163840,
+    "end": 167935,
+    "count": 15,
+    "sample": [
+      {
+        "offset": 164094,
+        "length": 14,
+        "text": "is UnaffectedU",
+        "terminator": 137
+      },
+      {
+        "offset": 164516,
+        "length": 27,
+        "text": "The air clears a little...U",
+        "terminator": 137
+      },
+      {
+        "offset": 165433,
+        "length": 6,
+        "text": " Yes  ",
+        "terminator": 6
+      },
+      {
+        "offset": 165440,
+        "length": 7,
+        "text": " No   U",
+        "terminator": 137
+      },
+      {
+        "offset": 165584,
+        "length": 4,
+        "text": "E4$ ",
+        "terminator": 8
+      },
+      {
+        "offset": 165892,
+        "length": 5,
+        "text": ">8D\tt",
+        "terminator": 14
+      },
+      {
+        "offset": 166106,
+        "length": 4,
+        "text": " <3r",
+        "terminator": 10
+      },
+      {
+        "offset": 166297,
+        "length": 11,
+        "text": " \tHitpoints",
+        "terminator": 2
+      }
+    ]
+  },
+  {
+    "start": 167936,
+    "end": 172031,
+    "count": 1,
+    "sample": [
+      {
+        "offset": 170334,
+        "length": 4,
+        "text": "E4$ ",
+        "terminator": 8
+      }
+    ]
+  },
+  {
+    "start": 172032,
+    "end": 176127,
+    "count": 19,
+    "sample": [
+      {
+        "offset": 172588,
+        "length": 5,
+        "text": " tons",
+        "terminator": 5
+      },
+      {
+        "offset": 172594,
+        "length": 6,
+        "text": " feetU",
+        "terminator": 137
+      },
+      {
+        "offset": 172624,
+        "length": 5,
+        "text": "PSu*;",
+        "terminator": 6
+      },
+      {
+        "offset": 172630,
+        "length": 4,
+        "text": "NSu$",
+        "terminator": 128
+      },
+      {
+        "offset": 172984,
+        "length": 4,
+        "text": ">JS&",
+        "terminator": 131
+      },
+      {
+        "offset": 173005,
+        "length": 5,
+        "text": "LSu%;",
+        "terminator": 6
+      },
+      {
+        "offset": 173143,
+        "length": 5,
+        "text": "LSuD;",
+        "terminator": 6
+      },
+      {
+        "offset": 173149,
+        "length": 4,
+        "text": "JSu>",
+        "terminator": 138
+      }
+    ]
+  },
+  {
+    "start": 176128,
+    "end": 180223,
+    "count": 51,
+    "sample": [
+      {
+        "offset": 176652,
+        "length": 4,
+        "text": "}M(r",
+        "terminator": 4
+      },
+      {
+        "offset": 176714,
+        "length": 4,
+        "text": "}^(r",
+        "terminator": 4
+      },
+      {
+        "offset": 176813,
+        "length": 4,
+        "text": "}<+u",
+        "terminator": 16
+      },
+      {
+        "offset": 176833,
+        "length": 4,
+        "text": "i<.u",
+        "terminator": 26
+      },
+      {
+        "offset": 176863,
+        "length": 4,
+        "text": "K</u",
+        "terminator": 26
+      },
+      {
+        "offset": 176893,
+        "length": 4,
+        "text": "-<Ku",
+        "terminator": 17
+      },
+      {
+        "offset": 177650,
+        "length": 19,
+        "text": " slips into a coma!",
+        "terminator": 5
+      },
+      {
+        "offset": 177670,
+        "length": 5,
+        "text": "s are",
+        "terminator": 3
+      }
+    ]
+  },
+  {
+    "start": 180224,
+    "end": 184319,
+    "count": 5,
+    "sample": [
+      {
+        "offset": 180385,
+        "length": 6,
+        "text": "shipsU",
+        "terminator": 137
+      },
+      {
+        "offset": 180533,
+        "length": 6,
+        "text": "shipsU",
+        "terminator": 137
+      },
+      {
+        "offset": 180779,
+        "length": 4,
+        "text": ">`S&",
+        "terminator": 138
+      },
+      {
+        "offset": 180949,
+        "length": 4,
+        "text": ">`S&",
+        "terminator": 138
+      },
+      {
+        "offset": 182774,
+        "length": 4,
+        "text": "u:6;",
+        "terminator": 133
+      }
+    ]
+  },
+  {
+    "start": 184320,
+    "end": 188415,
+    "count": 8,
+    "sample": [
+      {
+        "offset": 184885,
+        "length": 6,
+        "text": ">8D\tu3",
+        "terminator": 128
+      },
+      {
+        "offset": 184963,
+        "length": 4,
+        "text": "Aim:",
+        "terminator": 0
+      },
+      {
+        "offset": 185331,
+        "length": 4,
+        "text": "WtPU",
+        "terminator": 14
+      },
+      {
+        "offset": 185648,
+        "length": 4,
+        "text": "t<Ku",
+        "terminator": 7
+      },
+      {
+        "offset": 186158,
+        "length": 4,
+        "text": "WtPU",
+        "terminator": 14
+      },
+      {
+        "offset": 188095,
+        "length": 5,
+        "text": " Next",
+        "terminator": 5
+      },
+      {
+        "offset": 188101,
+        "length": 5,
+        "text": " Prev",
+        "terminator": 5
+      },
+      {
+        "offset": 188107,
+        "length": 6,
+        "text": " ExitU",
+        "terminator": 137
+      }
+    ]
+  },
+  {
+    "start": 188416,
+    "end": 192511,
+    "count": 31,
+    "sample": [
+      {
+        "offset": 188472,
+        "length": 4,
+        "text": "6UtU",
+        "terminator": 14
+      },
+      {
+        "offset": 188536,
+        "length": 4,
+        "text": "Ut~/",
+        "terminator": 141
+      },
+      {
+        "offset": 188768,
+        "length": 4,
+        "text": "t<Hu",
+        "terminator": 10
+      },
+      {
+        "offset": 188782,
+        "length": 4,
+        "text": "6<Pu",
+        "terminator": 10
+      },
+      {
+        "offset": 188796,
+        "length": 4,
+        "text": "(<Iu",
+        "terminator": 17
+      },
+      {
+        "offset": 188842,
+        "length": 5,
+        "text": "t<Pu ",
+        "terminator": 128
+      },
+      {
+        "offset": 188879,
+        "length": 4,
+        "text": "<Nu ",
+        "terminator": 128
+      },
+      {
+        "offset": 189226,
+        "length": 6,
+        "text": "Yes No",
+        "terminator": 0
+      }
+    ]
+  },
+  {
+    "start": 192512,
+    "end": 196607,
+    "count": 4,
+    "sample": [
+      {
+        "offset": 194162,
+        "length": 6,
+        "text": ">8D\tu%",
+        "terminator": 176
+      },
+      {
+        "offset": 194513,
+        "length": 31,
+        "text": "Illegal range in Show3DSprite.U",
+        "terminator": 137
+      },
+      {
+        "offset": 194672,
+        "length": 7,
+        "text": "bigpicU",
+        "terminator": 137
+      },
+      {
+        "offset": 194690,
+        "length": 4,
+        "text": "Nt:F",
+        "terminator": 6
+      }
+    ]
+  },
+  {
+    "start": 196608,
+    "end": 200703,
+    "count": 6,
+    "sample": [
+      {
+        "offset": 198704,
+        "length": 5,
+        "text": "backU",
+        "terminator": 137
+      },
+      {
+        "offset": 198845,
+        "length": 7,
+        "text": "WALLDEF",
+        "terminator": 4
+      },
+      {
+        "offset": 198853,
+        "length": 4,
+        "text": ".dax",
+        "terminator": 15
+      },
+      {
+        "offset": 198858,
+        "length": 15,
+        "text": "Unable to load ",
+        "terminator": 13
+      },
+      {
+        "offset": 198874,
+        "length": 13,
+        "text": " from WALLDEF",
+        "terminator": 1
+      },
+      {
+        "offset": 199338,
+        "length": 38,
+        "text": ".dax Unable to load geo in Load3DMap.U",
+        "terminator": 137
+      }
+    ]
+  },
+  {
+    "start": 204800,
+    "end": 208895,
+    "count": 2,
+    "sample": [
+      {
+        "offset": 206358,
+        "length": 4,
+        "text": "u\t;F",
+        "terminator": 6
+      },
+      {
+        "offset": 207760,
+        "length": 4,
+        "text": "uI;F",
+        "terminator": 12
+      }
+    ]
+  },
+  {
+    "start": 208896,
+    "end": 212991,
+    "count": 11,
+    "sample": [
+      {
+        "offset": 209446,
+        "length": 35,
+        "text": "!Start range error in Load24x24SetU",
+        "terminator": 137
+      },
+      {
+        "offset": 209782,
+        "length": 6,
+        "text": "COMSPR",
+        "terminator": 4
+      },
+      {
+        "offset": 209789,
+        "length": 4,
+        "text": "ICON",
+        "terminator": 5
+      },
+      {
+        "offset": 209794,
+        "length": 5,
+        "text": "CHARS",
+        "terminator": 4
+      },
+      {
+        "offset": 209800,
+        "length": 5,
+        "text": "CPICU",
+        "terminator": 137
+      },
+      {
+        "offset": 210843,
+        "length": 4,
+        "text": " , U",
+        "terminator": 137
+      },
+      {
+        "offset": 211127,
+        "length": 10,
+        "text": "slotnum = ",
+        "terminator": 127
+      },
+      {
+        "offset": 211170,
+        "length": 7,
+        "text": "borders",
+        "terminator": 4
+      }
+    ]
+  }
+]

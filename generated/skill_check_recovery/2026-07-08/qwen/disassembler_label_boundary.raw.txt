@@ -1,0 +1,64 @@
+[state-migrations] Legacy state migration warnings:
+- Skipped Memory Core legacy memory index import for agent main because legacy rows could not be imported: Error: legacy memory meta rows conflict with canonical memory index rows
+│
+◇  Doctor warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - Skipped Memory Core legacy memory index import for agent main         │
+│    because legacy rows could not be imported: Error: legacy memory meta  │
+│    rows conflict with canonical memory index rows                        │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+model.run via local
+provider: ollama
+model: qwen3-coder:30b
+outputs: 1
+# Matrix Cubed ECL Disassembler Advisory: Opcode 0x23 Boundary
+
+## VERIFIED_FROM_PROMPT
+
+The prompt specifies that opcode 0x23 is currently labeled as "SURPRISE" in the disassembler and should be evaluated for renaming to "SKILL_CHECK" under Matrix profile gating. Evidence includes three callsites showing 0x23 usage with operands matching skill check patterns (target value, difficulty, success/failure handling). The callsites demonstrate consistent branching logic around comparison operations that suggest conditional success/failure based on random roll vs target.
+
+## CANDIDATES
+
+Three callsites confirm opcode 0x23 usage as skill check:
+- **Block 34** (0xA13D): Uses area2.event_scratch1-3 as operands, branches on compare flags
+- **Block 95** (0x9705): Uses constant 79 + scratch variables, conditional random roll success
+- **Block 98** (0xA21C): Uses event_scratch1-3, complex branching with multiple comparisons
+
+All three show identical opcode structure with:
+1. Random value generation
+2. Comparison against target/difficulty
+3. Conditional branching on comparison result
+4. Success/failure state changes
+
+## RISKS
+
+**Immediate Rename Risk**: Renaming 0x23 to "SKILL_CHECK" globally would mislabel non-skill-check uses in non-Matrix profiles, potentially breaking existing analysis or tools expecting "SURPRISE" semantics.
+
+**Validation Risk**: Without VM/DOS testing, the exact operand roles and success/failure logic cannot be confirmed. The current evidence only shows structural similarity to skill checks, not definitive confirmation.
+
+## LOCAL_VALIDATION_STEPS
+
+1. **VM Execution Test**: Run each callsite in DOS environment with debug output to verify:
+   - Operand interpretation (which variables are target vs roll)
+   - Success condition logic
+   - Branch targets for success/failure paths
+
+2. **Profile-Gated Rename Testing**: 
+   - Implement Matrix profile detection in disassembler
+   - Conditionally label 0x23 as "SKILL_CHECK" only when Matrix profile detected
+   - Verify existing "SURPRISE" usage remains unchanged in other profiles
+
+3. **Cross-Reference Verification**:
+   - Check if any non-Matrix ECL files use 0x23 for non-skill-check purposes
+   - Confirm all 0x23 uses in Matrix files follow same pattern
+
+## UNSUPPORTED_CLAIMS
+
+- **No evidence** that 0x23 is universally skill check across all profiles or games
+- **No confirmation** of operand roles (which values are target, roll, success state)
+- **No verification** that success/failure conditions match documented skill check logic
+- **No DOS behavior** evidence for how 0x23 actually executes in original game
+- **No test results** confirming random generation and comparison mechanics
+
+The current disassembler should leave 0x23 as "SURPRISE" with generated evidence docs. Future changes require VM/DOS validation and profile-specific conditional renaming.

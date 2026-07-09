@@ -1,0 +1,38 @@
+/*
+ * Matrix Cubed source recovery corpus
+ * Program: GAME.OVR payload
+ * Ghidra entry: 2000:db38
+ * Ghidra name: FUN_2000_db38
+ * Linear address: 0x2DB38
+ * Original GAME.OVR file offset: 187200
+ * Body addresses: 241
+ * Calling convention: unknown
+ * Evidence limit: Imported as raw overlay payload. Original GAME.OVR file offset is Ghidra linear + 8; relocation and overlay-manager context are not recovered.
+ */
+
+void FUN_2000_db38(undefined2 param_1,int param_2,undefined2 param_3)
+
+{
+  uint uVar1;
+  undefined2 unaff_SS;
+  undefined1 local_108 [256];
+  undefined1 local_8;
+  undefined1 local_7;
+  undefined4 local_6;
+  
+  local_6 = FUN_2000_c3ce(*(undefined2 *)(param_2 + 0x14),*(undefined2 *)(param_2 + 0x16),param_3);
+  local_7 = FUN_2000_da08();
+  uVar1 = FUN_2000_da54();
+  uVar1 = ((uVar1 & 0xff) - param_2) + 1;
+  local_8 = (undefined1)uVar1;
+  if (*(char *)((int)local_6 + 0x29) != '\0') {
+    FUN_0000_d70e(uVar1 & 0xff,local_7,local_6,local_108);
+                    /* WARNING: Subroutine does not return */
+    FUN_0000_643a(0xcc0);
+  }
+  FUN_0000_d70e(uVar1 & 0xff,local_7,local_6,local_108);
+                    /* WARNING: Subroutine does not return */
+  FUN_0000_643a(0xcc0);
+}
+
+

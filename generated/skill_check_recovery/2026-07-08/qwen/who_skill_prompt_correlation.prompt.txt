@@ -1,0 +1,110 @@
+Matrix Cubed skill-check opcode Qwen-Coder advisory job: WHO prompt and skill table correlation
+
+Use only the supplied evidence. Do not invent paths, offsets, APIs,
+opcode names, skill names, test results, DOS behavior, or original-game
+facts.
+
+Return compact Markdown, maximum 700 words, with these sections:
+VERIFIED_FROM_PROMPT, CANDIDATES, RISKS, LOCAL_VALIDATION_STEPS,
+UNSUPPORTED_CLAIMS.
+
+Treat all output as advisory. Local bytes, generated artifacts, source
+review, and tests decide what is accepted.
+
+Goal: correlate WHO prompt rows, nearby ECL context, and recovered skill names. Return only candidates and validation steps; do not assign definitive skill checks from prompt wording alone.
+
+WHO contexts TSV:
+block_id	address	address_hex	prompt	row	branch_region_target	branch_region_incoming	previous_rows	following_rows
+35	36533	0x8EB5	WHO WILL REPROGRAM?	0x8EB5 0x39 WHO <select player> 'WHO WILL REPROGRAM?'	0x8EB5	0x8ECE GOTO 0x8EB5	"0x8E5A 0x12 PRINTCLEAR ""MAVROUDIS' OFFICE IS IMMACULATE, AND SMELLS STRONGLY OF LEATHER. AGAINST THE EAST WALL IS A COMPUTER."" | 0x8EA9 0x00 EXIT | 0x8EAA 0x2F AND area2.event_scratch0 = area1.event_word_3AE & 128 | 0x8EB3 0x17 IF <> <if compare flag is false, skip next op> | 0x8EB4 0x00 EXIT"	0x8EC7 0x03 COMPARE Values: 1 == area2.selected_player_in_combat | 0x8ECD 0x17 IF <> <if compare flag is false, skip next op> | 0x8ECE 0x01 GOTO 0x8EB5 | 0x8ED2 0x02 GOSUB 0x9EBF | 0x8ED6 0x03 COMPARE Values: 2 == area2.event_scratch2
+35	41320	0xA168	WHO WILL FAST TALK?	0xA168 0x39 WHO <select player> 'WHO WILL FAST TALK?'	0xA168	0x9FC3 ON GOTO area2.event_scratch0 choice 2	0xA107 0x12 PRINTCLEAR 'YOU LEAVE, MAKING THE GUARDS MORE SUSPICIOUS.' | 0xA12C 0x04 ADD area1.event_word_204 = area1.event_word_204 + 1 | 0xA137 0x12 PRINTCLEAR 'YOU ATTEMPT TO SURRENDER, BUT THE GUARDS ATTACK!' | 0xA15E 0x09 SAVE area2.surprise_result = 1 | 0xA164 0x01 GOTO 0xA0AC	0xA17A 0x09 SAVE area2.event_scratch1 = 0 | 0xA180 0x09 SAVE area2.event_scratch2 = 2 | 0xA186 0x22 PARTY SURPRISE zone: 76, result: area2.event_scratch1 | 0xA18F 0x03 COMPARE Values: 2 == area2.event_scratch2 | 0xA195 0x18 IF < <if compare flag is false, skip next op>
+82	36021	0x8CB5	WHO MAKES THE ATTEMPT?	0x8CB5 0x39 WHO <select player> 'WHO MAKES THE ATTEMPT?'	0x8CB5	0x8CD0 GOTO 0x8CB5	"0x8C7D 0x11 PRINT ""'ARE YOU ZACHARY?'"" | 0x8C8E 0x2B HORIZONTAL MENU area2.event_scratch0 = <selected index from menu> MENU: 'FAST TALK', 'TELL THE TRUTH' | 0x8CAA 0x03 COMPARE Values: 1 == area2.event_scratch0 | 0x8CB0 0x16 IF = <if compare flag is false, skip next op> | 0x8CB1 0x01 GOTO 0x8DD1"	0x8CC9 0x03 COMPARE Values: 1 == area2.selected_player_in_combat | 0x8CCF 0x17 IF <> <if compare flag is false, skip next op> | 0x8CD0 0x01 GOTO 0x8CB5 | 0x8CD4 0x09 SAVE area2.event_scratch0 = 0 | 0x8CDA 0x09 SAVE area2.event_scratch1 = 3
+
+
+Recovered skill table:
+skill_id	who_offset	start_exe_offset	text
+0		62241	technical Skills
+1	77	62262	Repair Electrical
+2	78	62289	Repair Mechanical
+3	79	62316	Repair Nuclear Engine
+4	80	62343	Repair Life Support
+5	81	62370	Repair Rocket Hull
+6	82	62397	Jury Rig
+7	83	62415	Bypass Security
+8	84	62440	Open Lock
+9	85	62459	Commo Operation
+10	86	62484	Sensor Operation
+11	87	62510	Demolitions
+12	88	62531	Cook
+13	89	62544	First Aid
+14	90	62563	Repair Weapon
+15	91	62586	Repair Computer
+16	92	62610	Life Suspension Tech
+17	93	62637	Treat Light Wounds
+18	94	62664	Treat Serious Wounds
+19	95	62691	Treat Critical Wounds
+20	96	62718	Treat Poisoning
+21	97	62743	Treat Stun/Paralysis
+22	98	62770	Treat Disease
+23	99	62793	Diagnose
+24	100	62811	General Knowledge
+25	101	62837	Ship Lore
+26	102	62855	Composition
+27	103	62875	Mathematics
+28	104	62896	Physics
+29	105	62912	Geology
+30	106	62928	Planetology
+31	107	62949	Battle Tactics
+32	108	62973	Chemistry
+33	109	62991	Biology
+34	110	63007	Design Engineering
+35	111	63034	History
+36	112	63050	Astronomy
+37	113	63069	Botany
+38	114	63084	Literature
+39	115	63103	Economics
+40	116	63121	Metallurgy
+41	117	63140	Speak/Read Lang.
+42	118	63165	Law
+43	119	63177	Programming
+44	120	63198	Crytography
+45	121	63218	Library Search
+46	122	63242	Astrogation
+47	123	63263	Navigation
+48	124	63283	Mimic
+49	125	63297	Memorize
+50	126	63314	Disguise
+51	127	63332	Pilot Rocket
+52	128	63354	Pilot Fixed Wing
+53	129	63380	Drive Ground Car
+54	130	63406	Pilot Rotor Wing
+55	131	63432	Drive Motorcycle
+56	132	63457	Use Jetpack
+57	133	63478	Pilot Ship/Sub
+58	134	63501	Drive Hvy Grnd Vehc
+59	135	63528	Drive Jetcar
+60	136	63550	Animal Riding
+61	137	63572	Hide in Shadows
+62	138	63597	Move Silently
+63	139	63620	Pick Pockets
+64	140	63642	Acrobatics
+65	141	63662	Climb
+66	142	63677	Swimming
+67	143	63694	Maneuver in 0G
+68	144	63718	Play Instrumnt
+69	145	63741	Paint/Draw
+70	146	63760	Hypnosis
+71	147	63777	Act
+72	148	63790	Intimidate
+73	149	63810	Leadership
+74	150	63830	Befriend Animal
+75	151	63855	Animal Training
+76	152	63879	Fast Talk/Convince
+77	153	63906	Singing
+78	154	63923	Distract
+79	155	63941	Etiquette
+80	156	63960	Tracking
+81	157	63978	Shadowing
+82	158	63997	Read Lips
+83	159	64015	Notice
+84	160	64031	Planetary Survival
+

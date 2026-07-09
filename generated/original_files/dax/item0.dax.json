@@ -1,0 +1,64 @@
+{
+  "valid": true,
+  "file": "ITEM0.DAX",
+  "bytes": 1534,
+  "sha256": "030793591f1b48ea23d5f866b8d14964a39caed68d333e1e4edf3698385b77dc",
+  "toc_len": 9,
+  "data_offset": 11,
+  "block_count": 1,
+  "semantic_status": "partially decoded: 91 item templates parsed",
+  "warnings": [],
+  "blocks": [
+    {
+      "id": 1,
+      "toc_entry_offset": 2,
+      "packed_relative_offset": 0,
+      "packed_absolute_offset": 11,
+      "raw_size": 1456,
+      "packed_size": 1523,
+      "decoded_size": 1456,
+      "decoded_sha256": "65d52e9689a454769116b00aa44d131e67be68b2c8127e597b70b2b26f61a1d2",
+      "packed_sha256": "77d86e1eb13b270225da9773620a7cb9d439dcec9b4a4fb168e17ca8c3807378",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.046,
+      "record_size_divisors": [
+        2,
+        4,
+        7,
+        8,
+        14,
+        16,
+        91
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 16,
+          "basis": "existing data_model item template decoder"
+        }
+      ],
+      "head_hex": "01 00 00 01 00 00 20 00 01 00 00 0a 00 00 00 00 02 00 01 02 00 00 20 00 01 00 00 c8 00 00 00 00 03 00 00 03 00 00 20 00 04 00 00 64 00 00 00 00 04 00 00 04 00 00 20 00 06 00 00 96 00 00 00 00",
+      "tail_hex": "15 00 18 16 04 00 20 00 1e 00 00 00 4b 00 00 00 16 1a 19 16 04 00 20 00 23 00 00 40 6a 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 714,
+        "20": 89,
+        "01": 74,
+        "02": 43,
+        "03": 38,
+        "0a": 37,
+        "04": 30,
+        "07": 25,
+        "13": 22,
+        "09": 19,
+        "64": 18,
+        "06": 18,
+        "14": 18,
+        "15": 18,
+        "16": 15,
+        "0d": 14
+      },
+      "warnings": []
+    }
+  ]
+}

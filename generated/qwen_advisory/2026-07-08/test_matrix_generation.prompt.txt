@@ -1,0 +1,726 @@
+Matrix Cubed reconstruction Qwen-Coder advisory job: Test matrix generation
+
+Use only the supplied evidence. Do not invent paths, offsets, APIs,
+names, source files, test results, or original-game facts.
+
+Return compact Markdown, maximum 700 words, with these sections:
+VERIFIED_FROM_PROMPT, CANDIDATES, RISKS, LOCAL_VALIDATION_STEPS,
+UNSUPPORTED_CLAIMS.
+
+Treat every match/name as a candidate until a local agent verifies it
+against original bytes, generated artifacts, source code, and tests.
+
+Goal: propose a prioritized test matrix for the next Matrix Cubed Java passes. Group by character fields, skill checks, VM opcodes, combat integration, party/NPC/clock, save/load, and cross-game compatibility. For each test include fixture/evidence needed and what must remain unresolved.
+
+Evidence:
+## references/ssi-engine/docs/coab-java-stub-audit.md
+# COAB-to-Java Stub Audit
+
+## Scope and evidence boundary
+
+Audited against Java fork `f10f96f` plus the local Matrix Cubed changes and
+COAB commit `9dc46f1`. COAB is evidence for Gold Box control flow and subsystem
+shape. It is not evidence that AD&D record offsets, spell tables, item layouts,
+or formulas apply to Matrix Cubed. The inspected COAB checkout has no root
+license file, so no COAB source is copied here.
+
+`GameMechanics` is the universal extension boundary. An empty `OptionalInt`
+means unresolved; it must not silently become a successful zero.
+
+## VM stubs COAB can clarify
+
+| Java gap | COAB evidence | Clarification | Matrix status / next evidence |
+|---|---|---|---|
+| `PARTY_STRENGTH` | `ovr025.player_strength_group`, effective-stat/affect code | Aggregate an effective strength measure, not raw bytes blindly. | Universal stub. Recover Matrix opcode semantics and strength modifiers from `GAME.OVR`. |
+| `PARTY_CHECK` | COAB party/player iteration and status logic | A predicate over eligible party members with title-specific selectors. | Universal stub; Matrix opcode profile does not select it. |
+| `PARTY_SKILL_CHECK2/3` | `Player.SkillLevel`, COAB command dispatch | Resolve eligible members, skill id, roll/threshold, and output destination separately. | Matrix uses three-argument form. Skill records beyond proven pilot-rocket byte remain undecoded. |
+| `SURPRISE` | `ovr003.CMD_PartySurprise` / `CMD_Surprise` | Encounter initiative state, not a UI-only flag. | Universal stub; Matrix maps opcode `23` to `SKILL_CHECK`. |
+| `SKILL_CHECK` | COAB skill access and command framework | Title rules choose skill namespace and success convention. | Matrix-specific stub; decode skill table and opcode result convention. |
+| `SPACE_COMBAT` | no portable COAB equivalent | Game-specific encounter subsystem. | Matrix-only unresolved handler; recover from `GAME.OVR`. |
+| `TREASURE*` | `ovr003.CMD_Treasure`, `ovr006` distribution, `MoneySet` | Build a temporary treasure pool, then explicitly take/share/discard. | Universal inventory/treasure stub; Matrix ITEM0/MON0ITM layout differs. |
+| `ROB` | `ovr008.RobMoney` / `RobItems` | Money scaling and probabilistic item loss are separate operations. | Universal stub; Matrix credits and item weight semantics need recovery. |
+| encounter movement constants | `ovr008.calc_group_movement` | Min/max come from effective member movement, including effects. | Replaces hard-coded `6/12` once movement fields/effects are decoded. |
+| `FIND_ITEM` | `ovr003.CMD_FindItem` | Search party inventories by script item identity and set selected-character state. | Universal stub; Matrix item identity/name is partly decoded, inventory chains are not complete. |
+| `DESTROY_ITEM` | `ovr003.CMD_DestroyItems` | Remove matching items according to title quantity/equipped rules. | Universal stub; must not mutate recovered raw items yet. |
+| `CLOCK1/2` | `ovr003.CMD_EclClock`, `ovr021.NormalizeClock` | Normalize minute/hour/day/year carries and process timed effects/rest. | Universal time service; Matrix clock addresses are configured but effect hooks are missing. |
+| `NPC_ADD/FIND/REMOVE` | `ovr003.CMD_AddNPC`, `ovr017.load_npc` | NPC lifecycle includes load, party limits, morale/control, and treasure share. | Universal party service with title character decoder. |
+| `WHO` | COAB selected-player and eligibility patterns | Select a party member and update selected-character memory consistently. | Existing Java UI path needs conforma
+
+[TRUNCATED at 3500 chars from /home/jzatopa/.openclaw/workspace/matrix-cubed-re/references/ssi-engine/docs/coab-java-stub-audit.md]
+
+
+## references/ssi-engine/docs/coab-combat-port-map.md
+# COAB → Java Combat Port Map
+
+Date: 2026-07-07
+Author: Claude Code (survey pass; docs only, no source changes)
+
+## Purpose
+
+Combat is the main missing subsystem between the current ssi-engine fork and a
+fully playable game. Per James's 2026-07-07 reuse policy, COAB may be ported
+directly into the universal engine layer (record provenance, defer licensing).
+This document maps COAB's combat subsystem — a complete, working, per-overlay
+C# translation of the original Gold Box engine — onto the existing Java combat
+scaffold, and defines the port order.
+
+## Sources
+
+| Source | Location | Version | Role |
+|---|---|---|---|
+| COAB (Simeon Pilgrim et al.) | `/home/jzatopa/.local/opt/coab` | commit `9dc46f1` | Combat flow blueprint + AD&D reference flavor. No root license file; provenance must be recorded per ported unit; compliance pass deferred. |
+| Matrix Cubed Ghidra deep export | `generated/ghidra/deep_game_ovr_payload/` (624 functions, decompiled) | see `docs/ghidra-deep-pass-1.md` | Buck Rogers-specific rules/values; validation oracle for what carries over. |
+| Existing Java scaffold | `references/ssi-engine/src/main/java/engine/combat/` | uncommitted on `matrix-cubed-fork` | Target; parts survive, parts are replaced (see below). |
+
+Evidence rule: everything ported from COAB is labeled **ported (AD&D/COAB)**
+until independently confirmed against Matrix Cubed files or the GAME.OVR
+decompile. COAB values must not be promoted as Matrix evidence.
+
+## COAB combat call graph (verified by reading the C#)
+
+Confidence: read directly from `ovr009.cs`, `ovr014.cs` this pass; other
+overlays surveyed by function inventory only (marked *inventory*).
+
+- **`ovr009.MainCombatLoop`** (`sub_33100`): `ovr011.BattleSetup()` → loop
+  until one side is empty:
+  `ovr025.CountCombatTeamMembers()` → per-combatant
+  `ovr014.CalculateInitiative()` → `FindNextCombatant()` yields turn order →
+  `DoPlayerCombatTurn()` per combatant → `BattleRoundChecks()` → repeat.
+  Ends with `free_combat_stuff()`.
+- **Initiative** (`ovr014.CalculateInitiative`, `sub_3E000`):
+  `delay = 1d6 + DexReactionAdj(player)`, min 1; a surprise flag
+  (`area2_ptr.field_596` vs combat team) subtracts 6; result clamped to
+  0..20; `delay == 0` means no turn this round. Also resets per-round action
+  state and recalculates attacks (`reclac_attacks`) and half-moves.
+- **Turn order** (`ovr009.FindNextCombatant`, `sub_331BC`): repeatedly scans
+  all combatants, picks highest remaining `delay`, ties broken by a fresh
+  1d100 per scan; yields combatants until all delays are consumed. Note:
+  order is dynamic within the round, not a pre-sorted list.
+- **Per-turn** (`ovr009.DoPlayerCombatTurn`, `sub_33281`): resets
+  AttacksReceived / directionChanges / guarding, checks restrained affect,
+  `ovr025.reclac_player_values` (effective values recomputed every turn),
+  then either `ovr010.PlayerQuickFight` (AI) or `combat_menu` (interactive).
+- **Round end** (`ovr009.BattleRoundChecks`, `battle01`): steps game time,
+  increments `combat_round`, per-combatant affect ticks + poison cloud,
+  dying combatants accumulate `bleeding` (dead when > 9), bandage prompt,
+  recount teams; battle over when either side is empty or
+  `combat_round >= combat_round_no_action_limit`.
+- **Attack resolution** (*inventory*): `ovr014.AttackTarget` /
+  `can_attack_target` / `TrySweepAttack` / `RangedDefenseBonus`;
+  `ovr024.CanHitTarget`, `RollSavingThrow`, `roll_dice`;
+  `ovr025.CalculateAttackValues`, `strengthHitBonus`, `strengthD
+
+[TRUNCATED at 3500 chars from /home/jzatopa/.openclaw/workspace/matrix-cubed-re/references/ssi-engine/docs/coab-combat-port-map.md]
+
+
+## HANDOFF.md
+# Matrix Cubed Reconstruction — Handoff Record
+
+> Created: 2026-06-21 21:13 CDT
+> Updated: 2026-07-08 CDT
+> Purpose: Full context for any agent continuing this work
+
+## Policy Update: External Gold Box Code Reuse (2026-07-07, James's direction)
+
+James confirmed the end goal: the Java `ssi-engine` fork should become a
+universal engine that can play any Gold Box game, Buck Rogers: Matrix Cubed
+is the first game to bring to full playability, and agents should reuse
+already-built code from COAB / Gold Box Explorer / similar community
+reconstructions where it saves time rather than re-deriving everything from
+scratch. This updates the prior `CLAUDE.md` stance (which restricted COAB to
+secondary evidence only, citing its unclear local license). His explicit
+choice was "reuse now, sort licensing later" — see the updated `CLAUDE.md`
+working rules for the guardrails that still apply (record source/commit,
+keep reused logic behind the universal engine boundary, don't promote a
+reused project's game-specific values as confirmed Matrix Cubed evidence
+without independent validation). Licensing/attribution compliance is
+explicitly deferred and will need a dedicated pass before any public
+release.
+
+## Shared OpenAI / Claude Code Workspace (2026-07-07)
+
+- Both agents now work from the same canonical directory:
+  `/home/jzatopa/.openclaw/workspace/matrix-cubed-re`.
+- `CLAUDE.md` contains Claude Code startup, evidence, safety, validation, and
+  completion instructions.
+- `COLLABORATION.md` is the live file-claim ledger. Each agent must claim narrow
+  paths before editing, avoid concurrently claimed files, and move completed
+  work into its completion table.
+- The project remains embedded in the larger `/home/jzatopa/.openclaw/workspace`
+  Git repository and contains nested reference repositories. No new Git repo or
+  worktree was created; agents must scope Git inspection/checks to
+  `matrix-cubed-re` and preserve unrelated parent-workspace changes.
+
+---
+
+## 1. Project Overview
+
+### Latest Pass: Java CharacterBuckRogers WHO Decode Alignment (2026-07-08, GoldenBox + Qwen-Coder sidecar)
+
+- Ported verified Python `.WHO`/CHRDATA offset evidence into the Java
+  Buck Rogers character mapping:
+  - natural/base abilities are `0x10..0x16` in order
+    `str,dex,con,int,wis,cha,tech`;
+  - current abilities are `0x17..0x1D` in the same order;
+  - age is a single byte at `0x38`;
+  - credits are 32-bit little-endian at `0x2B`;
+  - natural/current HP remain `0x45` / `0xE3` as supported by live save
+    captures.
+- Fixed the prior Java mapping bugs in `CharacterValues.BUCK_ROGERS`:
+  current/natural abilities had been swapped, `WIS_NATURAL` was aliased to
+  `0x19`, Buck age used the shared short mapping, and credits used the shared
+  short money mapping.
+- Added `character.buckrogers.CharacterSkillBuckRogers` with only the
+  currently mapped/proven skill surface, `PILOT_ROCKET`, and made
+  `CharacterBuckRogers.getSkillValue(PILOT_ROCKET)` read `0x7F`. Complete
+  skill naming/order remains unresolved because `.STF` skill bytes and the
+  in-record `0x7F..` cluster still need a dedicated recovery pass.
+- Left `getMovementRate()` and `getTHACO()` returning `0` intentionally. The
+  handoff and validation artifacts still label movement/THAC0/AC/player
+  combat formulas as unresolved scaffolding, so this pass does not invent
+  combat formulas or field names.
+- Added `CharacterBuckRogersTest` with a synthetic 259-byte record that catches
+  natural/current swaps, the `WIS_NATURAL
+
+[TRUNCATED at 3500 chars from /home/jzatopa/.openclaw/workspace/matrix-cubed-re/HANDOFF.md]
+
+
+## references/ssi-engine/src/test/java/data/character/CharacterBuckRogersTest.java
+package data.character;
+
+import static character.buckrogers.AbilityScoreBuckRogers.CHARISMA;
+import static character.buckrogers.AbilityScoreBuckRogers.CONSTITUTION;
+import static character.buckrogers.AbilityScoreBuckRogers.DEXTERITY;
+import static character.buckrogers.AbilityScoreBuckRogers.INTELLIGENCE;
+import static character.buckrogers.AbilityScoreBuckRogers.STRENGTH;
+import static character.buckrogers.AbilityScoreBuckRogers.TECH;
+import static character.buckrogers.AbilityScoreBuckRogers.WISDOM;
+import static character.buckrogers.CharacterClassBuckRogers.ROCKETJOCK;
+import static character.CharacterGender.MALE;
+import static character.buckrogers.CharacterRaceBuckRogers.TERRAN;
+import static character.buckrogers.CharacterSkillBuckRogers.PILOT_ROCKET;
+import static character.buckrogers.MoneyBuckRogers.CREDITS;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+import common.ByteBufferWrapper;
+import data.ContentType;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class CharacterBuckRogersTest {
+	@Before
+	public void setUp() {
+		AbstractCharacter.configValues(CharacterValues.BUCK_ROGERS);
+	}
+
+	@Test
+	public void readsPythonVerifiedWhoOffsetsFromSyntheticRecord() {
+		byte[] data = new byte[259];
+		writeName(data, "TST2");
+		writeNaturalStats(data, 17, 14, 13, 14, 15, 13, 15);
+		writeCurrentStats(data, 7, 8, 9, 10, 11, 12, 13);
+		data[0x26] = (byte) MALE.getValue();
+		data[0x27] = (byte) TERRAN.getValue();
+		data[0x28] = (byte) ROCKETJOCK.ordinal();
+		data[0x29] = 7;
+		writeIntLE(data, 0x2B, 0x01020304);
+		writeIntLE(data, 0x2F, 40000);
+		data[0x38] = 24;
+		data[0x39] = (byte) 0xFF;
+		data[0x45] = 31;
+		data[0x7F] = 85;
+		data[0xE3] = 30;
+
+		CharacterBuckRogers character = character(data);
+
+		assertEquals("TST2", character.getName());
+		assertEquals(TERRAN, character.getRace());
+		assertTrue(character.getClassSelection().contains(ROCKETJOCK));
+		assertEquals(7, character.getLevel(ROCKETJOCK));
+		assertEquals(24, character.getAge());
+		assertEquals(0x01020304, character.getMoneyValue(CREDITS));
+		assertEquals(40000, character.getExperience());
+		assertEquals(31, character.getNaturalHP());
+		assertEquals(30, character.getCurrentHP());
+		assertEquals(85, character.getSkillValue(PILOT_ROCKET));
+		assertEquals(1, character.getSkills().size());
+		assertTrue(character.getSkills().contains(PILOT_ROCKET));
+
+		assertEquals(17, character.getNaturalStatValue(STRENGTH));
+		assertEquals(14, character.getNaturalStatValue(DEXTERITY));
+		assertEquals(13, character.getNaturalStatValue(CONSTITUTION));
+		assertEquals(14, character.getNaturalStatValue(INTELLIGENCE));
+		assertEquals(15, character.getNaturalStatValue(WISDOM));
+		assertEquals(13, character.getNaturalStatValue(CHARISMA));
+		assertEquals(15, character.getNaturalStatValue(TECH));
+
+		assertEquals(7, character.getCurrentStatValue(STRENGTH));
+		assertEquals(8, character.getCurrentStatValue(DEXTERITY));
+		assertEquals(9, character.getCurrentStatValue(CONSTITUTION));
+		assertEquals(10, character.getCurrentStatValue(INTELLIGENCE));
+		assertEquals(11, character.getCurrentStatValue(WISDOM));
+		assertEquals(12, character.getCurrentStatValue(CHARISMA));
+		assertEquals(13, character.getCurrentStatValue(TECH));
+
+		assertEquals(0, character.getMovementRate());
+		assertEquals(0, character.getTHACO());
+	}
+
+	@Test
+	public void readsCapturedTst2WhoRecordConsi
+
+[TRUNCATED at 3500 chars from /home/jzatopa/.openclaw/workspace/matrix-cubed-re/references/ssi-engine/src/test/java/data/character/CharacterBuckRogersTest.java]
+
+
+## references/ssi-engine/src/test/java/engine/combat/ai/QuickFightPlannerTest.java
+package engine.combat.ai;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Deque;
+import java.util.List;
+import java.util.OptionalInt;
+
+import org.junit.Test;
+
+/**
+ * Pins {@link QuickFightPlanner} to the COAB decision branches it ports
+ * (https://github.com/simeonpilgrim/coab, commit 9dc46f1). Each test names
+ * the engine/ovr010.cs or engine/ovr014.cs branch it exercises. Dice are a
+ * scripted queue (default roll 1) and geometry is stubbed per enemy, so every
+ * test is deterministic.
+ */
+public class QuickFightPlannerTest {
+
+	/** Scripted dice: pops the queue, defaulting to 1, capped at {@code sides}. */
+	private static final class ScriptedDice implements DiceRoller {
+		private final Deque<Integer> rolls = new ArrayDeque<>();
+
+		ScriptedDice(int... scripted) {
+			for (int roll : scripted) {
+				rolls.add(roll);
+			}
+		}
+
+		@Override
+		public int roll(int sides) {
+			int roll = rolls.isEmpty() ? 1 : rolls.poll();
+			return Math.min(roll, sides);
+		}
+	}
+
+	private static final class StubCombatant implements QuickFightCombatantView {
+		final int id;
+		QuickFightTeam team;
+		boolean inCombat = true;
+		int hitPointsCurrent = 10;
+		int hitPointsMax = 10;
+		int movementPoints = 6;
+		int movePointsLeft = 6;
+		int delayLeft = 5;
+		boolean forcedFleeing;
+		boolean held;
+		int intelligence = 10;
+		boolean npcControlled;
+		int moraleScore;
+		boolean wearsArmor;
+		boolean fragileCaster;
+		boolean canTurnUndead;
+		boolean hasTurnedUndead;
+		int undeadRank;
+		int queuedSpellId;
+		boolean canCastSpells;
+		boolean canUseItems;
+		boolean hasRangedWeapon;
+		boolean hasRangedMeleeWeapon;
+		int primaryWeaponRawRange;
+		int[] learntSpellIds = new int[0];
+		int[] readiedItemSpellIds = new int[0];
+		/** Squares from the acting combatant, walls respected; null = unreachable. */
+		Integer distWalls;
+		/** Squares from the acting combatant, walls ignored; null = unreachable. */
+		Integer distNoWalls;
+		boolean visible = true;
+
+		StubCombatant(int id, QuickFightTeam team) {
+			this.id = id;
+			this.team = team;
+		}
+
+		StubCombatant at(int walkDistance) {
+			this.distWalls = walkDistance;
+			this.distNoWalls = walkDistance;
+			return this;
+		}
+
+		@Override
+		public int id() {
+			return id;
+		}
+
+		@Override
+		public boolean inCombat() {
+			return inCombat;
+		}
+
+		@Override
+		public QuickFightTeam team() {
+			return team;
+		}
+
+		@Override
+		public int hitPointsCurrent() {
+			return hitPointsCurrent;
+		}
+
+		@Override
+		public int hitPointsMax() {
+			return hitPointsMax;
+		}
+
+		@Override
+		public int movementPoints() {
+			return movementPoints;
+		}
+
+		@Override
+		public int movePointsLeft() {
+			return movePointsLeft;
+		}
+
+		@Override
+		public int delayLeft() {
+			return delayLeft;
+		}
+
+		@Override
+		public boolean forcedFleeing() {
+			return forcedFleeing;
+		}
+
+		@Override
+		public boolean held() {
+			return held;
+		}
+
+		@Override
+		public int intelligence() {
+			return intelligence;
+		}
+
+		@Override
+		public boolean npcControlled() {
+			return npcControlled;
+		}
+
+		@Override
+		public int moraleScore() {
+			return moraleScore;
+		}
+
+		@Override
+		public boolean wearsArmor() {
+			return wearsArmor;
+		}
+
+		@Override
+		public boolean fragileCaster() {
+			return fragileCaster;
+		}
+
+		@Override
+		public boolean canTurnUndead() {
+			return canTurnUndead;
+		}
+
+		@Override
+		public boolean hasTurnedUndead() {
+			return hasTurnedUnd
+
+[TRUNCATED at 3500 chars from /home/jzatopa/.openclaw/workspace/matrix-cubed-re/references/ssi-engine/src/test/java/engine/combat/ai/QuickFightPlannerTest.java]
+
+
+## references/ssi-engine/src/test/java/engine/party/NpcPartyServiceTest.java
+package engine.party;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+
+import org.junit.Test;
+
+import engine.party.NpcPartyService.AddNpcResult;
+import engine.party.NpcPartyService.JoinCheck;
+
+/**
+ * Conformance tests for the COAB-ported NPC party lifecycle
+ * (ovr003.CMD_AddNPC/CMD_Dump, ovr017.load_npc/AssignPlayerIconId,
+ * ovr018.FreeCurrentPlayer and add-character gate, coab commit 9dc46f1).
+ */
+public class NpcPartyServiceTest {
+
+	private static final class FakeCharacter implements NpcCharacter {
+		private int npcId;
+		private final String name;
+		private int controlMorale;
+		private int iconId = NpcPartyService.UNASSIGNED_ICON_ID;
+		private int shareCount;
+		private boolean healthy = true;
+
+		private FakeCharacter(int npcId, String name, int controlMorale) {
+			this.npcId = npcId;
+			this.name = name;
+			this.controlMorale = controlMorale;
+		}
+
+		@Override
+		public int npcId() {
+			return npcId;
+		}
+
+		@Override
+		public void setNpcId(int npcId) {
+			this.npcId = npcId;
+		}
+
+		@Override
+		public String name() {
+			return name;
+		}
+
+		@Override
+		public int controlMorale() {
+			return controlMorale;
+		}
+
+		@Override
+		public void setControlMorale(int controlMorale) {
+			this.controlMorale = controlMorale;
+		}
+
+		@Override
+		public int iconId() {
+			return iconId;
+		}
+
+		@Override
+		public void setIconId(int iconId) {
+			this.iconId = iconId;
+		}
+
+		@Override
+		public int npcTreasureShareCount() {
+			return shareCount;
+		}
+
+		@Override
+		public boolean isHealthy() {
+			return healthy;
+		}
+	}
+
+	private static final class FakeRoster implements PartyRoster {
+		private final List<NpcCharacter> members = new ArrayList<>();
+		private NpcCharacter current;
+
+		@Override
+		public List<NpcCharacter> members() {
+			return members;
+		}
+
+		@Override
+		public void add(NpcCharacter member) {
+			members.add(member);
+		}
+
+		@Override
+		public void remove(NpcCharacter member) {
+			members.remove(member);
+		}
+
+		@Override
+		public NpcCharacter current() {
+			return current;
+		}
+
+		@Override
+		public void setCurrent(NpcCharacter member) {
+			current = member;
+		}
+	}
+
+	private static final class FakeSource implements NpcCharacterSource {
+		private final Map<Integer, String> records = new HashMap<>();
+
+		private FakeSource with(int id, String name) {
+			records.put(id, name);
+			return this;
+		}
+
+		@Override
+		public Optional<FakeCharacter> load(int npcId) {
+			String name = records.get(npcId);
+			if (name == null) {
+				return Optional.empty();
+			}
+			// A fresh record per load, like COAB's load_mob decoding a new Player.
+			return Optional.of(new FakeCharacter(0, name, 0));
+		}
+	}
+
+	private static FakeCharacter pc(String name) {
+		return new FakeCharacter(0, name, 0x30);
+	}
+
+	private static FakeCharacter npc(int id, String name) {
+		return new FakeCharacter(id, name, NpcPartyService.NPC_CONTROL_BASE + 3);
+	}
+
+	@Test
+	public void addNpcLoadsStampsIdAssignsIconMoraleAndSelection() {
+		FakeRoster roster = new FakeRoster();
+		FakeSource source = new FakeSource().with(5, "TALON");
+		NpcPartyService service = new NpcPartyService(roster, source);
+
+		assertEquals(AddNpcResult.ADDED, service.addNpc(5, 6));
+
+		assertEquals(1, roster.members().size());
+		NpcCharacter a
+
+[TRUNCATED at 3500 chars from /home/jzatopa/.openclaw/workspace/matrix-cubed-re/references/ssi-engine/src/test/java/engine/party/NpcPartyServiceTest.java]
+
+
+## references/ssi-engine/src/test/java/engine/time/GameClockTest.java
+package engine.time;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+/**
+ * Conformance tests for the COAB-ported game clock semantics
+ * (ovr021.NormalizeClock + ovr021.step_game_time, coab commit 9dc46f1).
+ */
+public class GameClockTest {
+
+	@Test
+	public void minuteOnesCarryIntoMinuteTens() {
+		GameClock clock = new GameClock();
+		clock.set(GameClock.SLOT_MINUTES_ONES, 9);
+
+		clock.stepGameTime(GameClock.SLOT_MINUTES_ONES, 1);
+
+		assertEquals(0, clock.get(GameClock.SLOT_MINUTES_ONES));
+		assertEquals(1, clock.get(GameClock.SLOT_MINUTES_TENS));
+		assertEquals(10, clock.minutes());
+	}
+
+	@Test
+	public void minuteCarryCascadesThroughHourIntoDayInOnePass() {
+		// 23:59 + 1 minute = day+1, 00:00 -- the ascending pass carries all the way up.
+		GameClock clock = new GameClock();
+		clock.set(GameClock.SLOT_MINUTES_ONES, 9);
+		clock.set(GameClock.SLOT_MINUTES_TENS, 5);
+		clock.set(GameClock.SLOT_HOURS, 23);
+		clock.set(GameClock.SLOT_DAYS, 4);
+
+		clock.stepGameTime(GameClock.SLOT_MINUTES_ONES, 1);
+
+		assertEquals(0, clock.minutes());
+		assertEquals(0, clock.hours());
+		assertEquals(5, clock.get(GameClock.SLOT_DAYS));
+	}
+
+	@Test
+	public void dayCarriesIntoSlot5AtRadix30AndSlot5CarriesIntoSlot6AtRadix12() {
+		GameClock clock = new GameClock();
+		clock.set(GameClock.SLOT_DAYS, 29);
+		clock.set(GameClock.SLOT_YEARS, 11);
+
+		clock.stepGameTime(GameClock.SLOT_DAYS, 1);
+
+		assertEquals(0, clock.get(GameClock.SLOT_DAYS));
+		assertEquals(0, clock.get(GameClock.SLOT_YEARS));
+		assertEquals(1, clock.get(GameClock.SLOT_FIELD_198));
+	}
+
+	@Test
+	public void slot6ReachingItsRadixAgesThePartyWithoutResetting() {
+		int[] aged = { 0 };
+		GameClock clock = new GameClock(() -> aged[0]++);
+		clock.set(GameClock.SLOT_FIELD_198, 0xFF);
+
+		clock.stepGameTime(GameClock.SLOT_FIELD_198, 1);
+
+		assertEquals(1, aged[0]);
+		// Faithful to the C#: slot 6 is not reduced when it triggers aging...
+		assertEquals(0x100, clock.get(GameClock.SLOT_FIELD_198));
+
+		// ...so every further normalize pass ages the party again.
+		clock.normalize();
+		assertEquals(2, aged[0]);
+		assertEquals(0x100, clock.get(GameClock.SLOT_FIELD_198));
+	}
+
+	@Test
+	public void agingHookNotFiredBelowSlot6Radix() {
+		int[] aged = { 0 };
+		GameClock clock = new GameClock(() -> aged[0]++);
+		clock.set(GameClock.SLOT_FIELD_198, 0xFE);
+
+		clock.stepGameTime(GameClock.SLOT_FIELD_198, 1);
+
+		assertEquals(0, aged[0]);
+		assertEquals(0xFF, clock.get(GameClock.SLOT_FIELD_198));
+	}
+
+	@Test
+	public void normalizeSubtractsOnlyOneRadixPerPass() {
+		// A slot more than one radix over its limit needs multiple passes;
+		// NormalizeClock's single ascending pass subtracts once per slot.
+		GameClock clock = new GameClock();
+		clock.set(GameClock.SLOT_TICKS, 25);
+
+		clock.normalize();
+		assertEquals(15, clock.get(GameClock.SLOT_TICKS));
+		assertEquals(1, clock.get(GameClock.SLOT_MINUTES_ONES));
+
+		clock.normalize();
+		assertEquals(5, clock.get(GameClock.SLOT_TICKS));
+		assertEquals(2, clock.get(GameClock.SLOT_MINUTES_ONES));
+	}
+
+	@Test
+	public void stepGameTimeNormalizesAfterEveryIncrement() {
+		// step_game_time(1, 5) from 00:08: per-increment normalization keeps
+		// each slot within one radix at all times -- ends at 00:13.
+		GameClock clock = new GameClock();
+		clock.set(GameClock.SLOT_MINUTES_ONES, 8);
+
+		clock.stepGameTime(GameClock.SLOT_MINUTES_ONES, 5);
+
+		assertEquals(3, clock.get(GameClock.SLOT_MINUTES_ONES));
+		assertEquals(1, clock.get(GameClock.SLOT_MINUTES_TENS));
+		assertEquals(13, clock.mi
+
+[TRUNCATED at 3500 chars from /home/jzatopa/.openclaw/workspace/matrix-cubed-re/references/ssi-engine/src/test/java/engine/time/GameClockTest.java]
+

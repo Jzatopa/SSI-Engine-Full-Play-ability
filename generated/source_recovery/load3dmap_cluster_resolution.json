@@ -1,0 +1,2294 @@
+{
+  "description": "Byte-level resolution of the Load3DMap/WALLDEF cluster.",
+  "address_rules": {
+    "payload_linear_to_original_game_ovr_offset": "original_offset = payload_linear + 8",
+    "ghidra_segmented_to_payload_linear": "linear = segment * 16 + offset"
+  },
+  "facts": [
+    {
+      "id": "load3dmap_anchor_is_string_data",
+      "confidence_percent": 99,
+      "evidence": "Raw disassembly at 0x30AAF-0x30ACF decodes ASCII bytes for 'Unable to load geo in Load3DMap.'; instruction mnemonics there are ASCII-as-code artifacts."
+    },
+    {
+      "id": "post_string_code_is_loader_shaped",
+      "confidence_percent": 90,
+      "evidence": "Code resumes at 0x30AD0 with a stack frame, builds GEO filename text, checks loaded size 0x402, copies four 0x100-byte chunks from global buffer 0x7360, closes/releases the loaded buffer, and writes the selected map byte to active state at *(0x4418)+0xC5."
+    },
+    {
+      "id": "ghidra_3000_0c04_is_misaligned_epilogue",
+      "confidence_percent": 99,
+      "evidence": "Ghidra entry 3000:0c04 maps to payload 0x30C04, which is inside instruction '26 88 85 c5 00' beginning at 0x30C01; the actual epilogue is 0x30C06-0x30C10."
+    },
+    {
+      "id": "ghidra_3000_006f_not_load3dmap",
+      "confidence_percent": 85,
+      "evidence": "3000:006f remains a behavior-rich wall/span emit candidate, but the raw Load3DMap-shaped loader code is at 0x30AD0-0x30C10, after the embedded error string."
+    }
+  ],
+  "resolved_roles": {
+    "load3dmap_loader_code_window": {
+      "payload_start": "0x30AD0",
+      "payload_end": "0x30C10",
+      "original_file_start": 199384,
+      "original_file_end": 199704,
+      "confidence_percent": 90,
+      "role": "GEO Load3DMap file-load/copy routine candidate"
+    },
+    "3000:0c04": {
+      "payload_linear": "0x30C04",
+      "original_file_offset": 199692,
+      "confidence_percent": 99,
+      "role": "misaligned Ghidra function entry inside Load3DMap epilogue instruction"
+    },
+    "3000:006f": {
+      "payload_linear": "0x3006F",
+      "original_file_offset": 196727,
+      "confidence_percent": 85,
+      "role": "wall/span emit routine candidate, not the Load3DMap loader"
+    }
+  },
+  "windows": {
+    "pre_string_loader_code": [
+      {
+        "address": 198940,
+        "address_hex": "0x3091C",
+        "bytes": "0e",
+        "instruction": "push   cs",
+        "line": "   3091c:\t0e                   \tpush   cs"
+      },
+      {
+        "address": 198941,
+        "address_hex": "0x3091D",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   3091d:\t57                   \tpush   di"
+      },
+      {
+        "address": 198942,
+        "address_hex": "0x3091E",
+        "bytes": "9a c2 0a c0 0c",
+        "instruction": "call   0xcc0:0xac2",
+        "line": "   3091e:\t9a c2 0a c0 0c       \tcall   0xcc0:0xac2"
+      },
+      {
+        "address": 198947,
+        "address_hex": "0x30923",
+        "bytes": "8d 7e ee",
+        "instruction": "lea    di,[bp-0x12]",
+        "line": "   30923:\t8d 7e ee             \tlea    di,[bp-0x12]"
+      },
+      {
+        "address": 198950,
+        "address_hex": "0x30926",
+        "bytes": "16",
+        "instruction": "push   ss",
+        "line": "   30926:\t16                   \tpush   ss"
+      },
+      {
+        "address": 198951,
+        "address_hex": "0x30927",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30927:\t57                   \tpush   di"
+      },
+      {
+        "address": 198952,
+        "address_hex": "0x30928",
+        "bytes": "9a 4f 0b c0 0c",
+        "instruction": "call   0xcc0:0xb4f",
+        "line": "   30928:\t9a 4f 0b c0 0c       \tcall   0xcc0:0xb4f"
+      },
+      {
+        "address": 198957,
+        "address_hex": "0x3092D",
+        "bytes": "8d be e8 fe",
+        "instruction": "lea    di,[bp-0x118]",
+        "line": "   3092d:\t8d be e8 fe          \tlea    di,[bp-0x118]"
+      },
+      {
+        "address": 198961,
+        "address_hex": "0x30931",
+        "bytes": "16",
+        "instruction": "push   ss",
+        "line": "   30931:\t16                   \tpush   ss"
+      },
+      {
+        "address": 198962,
+        "address_hex": "0x30932",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30932:\t57                   \tpush   di"
+      },
+      {
+        "address": 198963,
+        "address_hex": "0x30933",
+        "bytes": "bf a5 0e",
+        "instruction": "mov    di,0xea5",
+        "line": "   30933:\tbf a5 0e             \tmov    di,0xea5"
+      },
+      {
+        "address": 198966,
+        "address_hex": "0x30936",
+        "bytes": "0e",
+        "instruction": "push   cs",
+        "line": "   30936:\t0e                   \tpush   cs"
+      },
+      {
+        "address": 198967,
+        "address_hex": "0x30937",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30937:\t57                   \tpush   di"
+      },
+      {
+        "address": 198968,
+        "address_hex": "0x30938",
+        "bytes": "9a c2 0a c0 0c",
+        "instruction": "call   0xcc0:0xac2",
+        "line": "   30938:\t9a c2 0a c0 0c       \tcall   0xcc0:0xac2"
+      },
+      {
+        "address": 198973,
+        "address_hex": "0x3093D",
+        "bytes": "8a 46 08",
+        "instruction": "mov    al,BYTE PTR [bp+0x8]",
+        "line": "   3093d:\t8a 46 08             \tmov    al,BYTE PTR [bp+0x8]"
+      },
+      {
+        "address": 198976,
+        "address_hex": "0x30940",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30940:\t50                   \tpush   ax"
+      },
+      {
+        "address": 198977,
+        "address_hex": "0x30941",
+        "bytes": "8d 7e fe",
+        "instruction": "lea    di,[bp-0x2]",
+        "line": "   30941:\t8d 7e fe             \tlea    di,[bp-0x2]"
+      },
+      {
+        "address": 198980,
+        "address_hex": "0x30944",
+        "bytes": "16",
+        "instruction": "push   ss",
+        "line": "   30944:\t16                   \tpush   ss"
+      },
+      {
+        "address": 198981,
+        "address_hex": "0x30945",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30945:\t57                   \tpush   di"
+      },
+      {
+        "address": 198982,
+        "address_hex": "0x30946",
+        "bytes": "8d 7e fa",
+        "instruction": "lea    di,[bp-0x6]",
+        "line": "   30946:\t8d 7e fa             \tlea    di,[bp-0x6]"
+      },
+      {
+        "address": 198985,
+        "address_hex": "0x30949",
+        "bytes": "16",
+        "instruction": "push   ss",
+        "line": "   30949:\t16                   \tpush   ss"
+      },
+      {
+        "address": 198986,
+        "address_hex": "0x3094A",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   3094a:\t57                   \tpush   di"
+      },
+      {
+        "address": 198987,
+        "address_hex": "0x3094B",
+        "bytes": "9a e8 08 8b 07",
+        "instruction": "call   0x78b:0x8e8",
+        "line": "   3094b:\t9a e8 08 8b 07       \tcall   0x78b:0x8e8"
+      },
+      {
+        "address": 198992,
+        "address_hex": "0x30950",
+        "bytes": "83 7e fe 00",
+        "instruction": "cmp    WORD PTR [bp-0x2],0x0",
+        "line": "   30950:\t83 7e fe 00          \tcmp    WORD PTR [bp-0x2],0x0"
+      },
+      {
+        "address": 198996,
+        "address_hex": "0x30954",
+        "bytes": "74 18",
+        "instruction": "je     0x3096e",
+        "line": "   30954:\t74 18                \tje     0x3096e"
+      },
+      {
+        "address": 198998,
+        "address_hex": "0x30956",
+        "bytes": "8a 46 06",
+        "instruction": "mov    al,BYTE PTR [bp+0x6]",
+        "line": "   30956:\t8a 46 06             \tmov    al,BYTE PTR [bp+0x6]"
+      },
+      {
+        "address": 199001,
+        "address_hex": "0x30959",
+        "bytes": "30 e4",
+        "instruction": "xor    ah,ah",
+        "line": "   30959:\t30 e4                \txor    ah,ah"
+      },
+      {
+        "address": 199003,
+        "address_hex": "0x3095B",
+        "bytes": "8b d8",
+        "instruction": "mov    bx,ax",
+        "line": "   3095b:\t8b d8                \tmov    bx,ax"
+      },
+      {
+        "address": 199005,
+        "address_hex": "0x3095D",
+        "bytes": "8b 46 fe",
+        "instruction": "mov    ax,WORD PTR [bp-0x2]",
+        "line": "   3095d:\t8b 46 fe             \tmov    ax,WORD PTR [bp-0x2]"
+      },
+      {
+        "address": 199008,
+        "address_hex": "0x30960",
+        "bytes": "31 d2",
+        "instruction": "xor    dx,dx",
+        "line": "   30960:\t31 d2                \txor    dx,dx"
+      },
+      {
+        "address": 199010,
+        "address_hex": "0x30962",
+        "bytes": "b9 0c 03",
+        "instruction": "mov    cx,0x30c",
+        "line": "   30962:\tb9 0c 03             \tmov    cx,0x30c"
+      },
+      {
+        "address": 199013,
+        "address_hex": "0x30965",
+        "bytes": "f7 f1",
+        "instruction": "div    cx",
+        "line": "   30965:\tf7 f1                \tdiv    cx"
+      },
+      {
+        "address": 199015,
+        "address_hex": "0x30967",
+        "bytes": "03 c3",
+        "instruction": "add    ax,bx",
+        "line": "   30967:\t03 c3                \tadd    ax,bx"
+      },
+      {
+        "address": 199017,
+        "address_hex": "0x30969",
+        "bytes": "3d 04 00",
+        "instruction": "cmp    ax,0x4",
+        "line": "   30969:\t3d 04 00             \tcmp    ax,0x4"
+      },
+      {
+        "address": 199020,
+        "address_hex": "0x3096C",
+        "bytes": "76 6b",
+        "instruction": "jbe    0x309d9",
+        "line": "   3096c:\t76 6b                \tjbe    0x309d9"
+      },
+      {
+        "address": 199022,
+        "address_hex": "0x3096E",
+        "bytes": "9a dd 00 1a 02",
+        "instruction": "call   0x21a:0xdd",
+        "line": "   3096e:\t9a dd 00 1a 02       \tcall   0x21a:0xdd"
+      },
+      {
+        "address": 199027,
+        "address_hex": "0x30973",
+        "bytes": "bf 4e a0",
+        "instruction": "mov    di,0xa04e",
+        "line": "   30973:\tbf 4e a0             \tmov    di,0xa04e"
+      },
+      {
+        "address": 199030,
+        "address_hex": "0x30976",
+        "bytes": "1e",
+        "instruction": "push   ds",
+        "line": "   30976:\t1e                   \tpush   ds"
+      },
+      {
+        "address": 199031,
+        "address_hex": "0x30977",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30977:\t57                   \tpush   di"
+      },
+      {
+        "address": 199032,
+        "address_hex": "0x30978",
+        "bytes": "bf aa 0e",
+        "instruction": "mov    di,0xeaa",
+        "line": "   30978:\tbf aa 0e             \tmov    di,0xeaa"
+      },
+      {
+        "address": 199035,
+        "address_hex": "0x3097B",
+        "bytes": "0e",
+        "instruction": "push   cs",
+        "line": "   3097b:\t0e                   \tpush   cs"
+      },
+      {
+        "address": 199036,
+        "address_hex": "0x3097C",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   3097c:\t57                   \tpush   di"
+      },
+      {
+        "address": 199037,
+        "address_hex": "0x3097D",
+        "bytes": "31 c0",
+        "instruction": "xor    ax,ax",
+        "line": "   3097d:\t31 c0                \txor    ax,ax"
+      },
+      {
+        "address": 199039,
+        "address_hex": "0x3097F",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   3097f:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199040,
+        "address_hex": "0x30980",
+        "bytes": "9a 17 09 c0 0c",
+        "instruction": "call   0xcc0:0x917",
+        "line": "   30980:\t9a 17 09 c0 0c       \tcall   0xcc0:0x917"
+      },
+      {
+        "address": 199045,
+        "address_hex": "0x30985",
+        "bytes": "8a 46 08",
+        "instruction": "mov    al,BYTE PTR [bp+0x8]",
+        "line": "   30985:\t8a 46 08             \tmov    al,BYTE PTR [bp+0x8]"
+      },
+      {
+        "address": 199048,
+        "address_hex": "0x30988",
+        "bytes": "30 e4",
+        "instruction": "xor    ah,ah",
+        "line": "   30988:\t30 e4                \txor    ah,ah"
+      },
+      {
+        "address": 199050,
+        "address_hex": "0x3098A",
+        "bytes": "31 d2",
+        "instruction": "xor    dx,dx",
+        "line": "   3098a:\t31 d2                \txor    dx,dx"
+      },
+      {
+        "address": 199052,
+        "address_hex": "0x3098C",
+        "bytes": "52",
+        "instruction": "push   dx",
+        "line": "   3098c:\t52                   \tpush   dx"
+      },
+      {
+        "address": 199053,
+        "address_hex": "0x3098D",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   3098d:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199054,
+        "address_hex": "0x3098E",
+        "bytes": "31 c0",
+        "instruction": "xor    ax,ax",
+        "line": "   3098e:\t31 c0                \txor    ax,ax"
+      },
+      {
+        "address": 199056,
+        "address_hex": "0x30990",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30990:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199057,
+        "address_hex": "0x30991",
+        "bytes": "9a ad 09 c0 0c",
+        "instruction": "call   0xcc0:0x9ad",
+        "line": "   30991:\t9a ad 09 c0 0c       \tcall   0xcc0:0x9ad"
+      },
+      {
+        "address": 199062,
+        "address_hex": "0x30996",
+        "bytes": "8d be ed fe",
+        "instruction": "lea    di,[bp-0x113]",
+        "line": "   30996:\t8d be ed fe          \tlea    di,[bp-0x113]"
+      },
+      {
+        "address": 199066,
+        "address_hex": "0x3099A",
+        "bytes": "16",
+        "instruction": "push   ss",
+        "line": "   3099a:\t16                   \tpush   ss"
+      },
+      {
+        "address": 199067,
+        "address_hex": "0x3099B",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   3099b:\t57                   \tpush   di"
+      },
+      {
+        "address": 199068,
+        "address_hex": "0x3099C",
+        "bytes": "bf ba 0e",
+        "instruction": "mov    di,0xeba",
+        "line": "   3099c:\tbf ba 0e             \tmov    di,0xeba"
+      },
+      {
+        "address": 199071,
+        "address_hex": "0x3099F",
+        "bytes": "0e",
+        "instruction": "push   cs",
+        "line": "   3099f:\t0e                   \tpush   cs"
+      },
+      {
+        "address": 199072,
+        "address_hex": "0x309A0",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   309a0:\t57                   \tpush   di"
+      },
+      {
+        "address": 199073,
+        "address_hex": "0x309A1",
+        "bytes": "9a c2 0a c0 0c",
+        "instruction": "call   0xcc0:0xac2",
+        "line": "   309a1:\t9a c2 0a c0 0c       \tcall   0xcc0:0xac2"
+      },
+      {
+        "address": 199078,
+        "address_hex": "0x309A6",
+        "bytes": "8d 7e ee",
+        "instruction": "lea    di,[bp-0x12]",
+        "line": "   309a6:\t8d 7e ee             \tlea    di,[bp-0x12]"
+      },
+      {
+        "address": 199081,
+        "address_hex": "0x309A9",
+        "bytes": "16",
+        "instruction": "push   ss",
+        "line": "   309a9:\t16                   \tpush   ss"
+      },
+      {
+        "address": 199082,
+        "address_hex": "0x309AA",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   309aa:\t57                   \tpush   di"
+      },
+      {
+        "address": 199083,
+        "address_hex": "0x309AB",
+        "bytes": "9a 4f 0b c0 0c",
+        "instruction": "call   0xcc0:0xb4f",
+        "line": "   309ab:\t9a 4f 0b c0 0c       \tcall   0xcc0:0xb4f"
+      },
+      {
+        "address": 199088,
+        "address_hex": "0x309B0",
+        "bytes": "bf c8 0e",
+        "instruction": "mov    di,0xec8",
+        "line": "   309b0:\tbf c8 0e             \tmov    di,0xec8"
+      },
+      {
+        "address": 199091,
+        "address_hex": "0x309B3",
+        "bytes": "0e",
+        "instruction": "push   cs",
+        "line": "   309b3:\t0e                   \tpush   cs"
+      },
+      {
+        "address": 199092,
+        "address_hex": "0x309B4",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   309b4:\t57                   \tpush   di"
+      },
+      {
+        "address": 199093,
+        "address_hex": "0x309B5",
+        "bytes": "9a 4f 0b c0 0c",
+        "instruction": "call   0xcc0:0xb4f",
+        "line": "   309b5:\t9a 4f 0b c0 0c       \tcall   0xcc0:0xb4f"
+      },
+      {
+        "address": 199098,
+        "address_hex": "0x309BA",
+        "bytes": "31 c0",
+        "instruction": "xor    ax,ax",
+        "line": "   309ba:\t31 c0                \txor    ax,ax"
+      },
+      {
+        "address": 199100,
+        "address_hex": "0x309BC",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   309bc:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199101,
+        "address_hex": "0x309BD",
+        "bytes": "9a 17 09 c0 0c",
+        "instruction": "call   0xcc0:0x917",
+        "line": "   309bd:\t9a 17 09 c0 0c       \tcall   0xcc0:0x917"
+      },
+      {
+        "address": 199106,
+        "address_hex": "0x309C2",
+        "bytes": "9a 48 08 c0 0c",
+        "instruction": "call   0xcc0:0x848",
+        "line": "   309c2:\t9a 48 08 c0 0c       \tcall   0xcc0:0x848"
+      },
+      {
+        "address": 199111,
+        "address_hex": "0x309C7",
+        "bytes": "9a c7 01 36 08",
+        "instruction": "call   0x836:0x1c7",
+        "line": "   309c7:\t9a c7 01 36 08       \tcall   0x836:0x1c7"
+      },
+      {
+        "address": 199116,
+        "address_hex": "0x309CC",
+        "bytes": "88 46 ed",
+        "instruction": "mov    BYTE PTR [bp-0x13],al",
+        "line": "   309cc:\t88 46 ed             \tmov    BYTE PTR [bp-0x13],al"
+      },
+      {
+        "address": 199119,
+        "address_hex": "0x309CF",
+        "bytes": "9a dd 00 1a 02",
+        "instruction": "call   0x21a:0xdd",
+        "line": "   309cf:\t9a dd 00 1a 02       \tcall   0x21a:0xdd"
+      },
+      {
+        "address": 199124,
+        "address_hex": "0x309D4",
+        "bytes": "9a 00 00 36 08",
+        "instruction": "call   0x836:0x0",
+        "line": "   309d4:\t9a 00 00 36 08       \tcall   0x836:0x0"
+      },
+      {
+        "address": 199129,
+        "address_hex": "0x309D9",
+        "bytes": "8a 46 06",
+        "instruction": "mov    al,BYTE PTR [bp+0x6]",
+        "line": "   309d9:\t8a 46 06             \tmov    al,BYTE PTR [bp+0x6]"
+      },
+      {
+        "address": 199132,
+        "address_hex": "0x309DC",
+        "bytes": "30 e4",
+        "instruction": "xor    ah,ah",
+        "line": "   309dc:\t30 e4                \txor    ah,ah"
+      },
+      {
+        "address": 199134,
+        "address_hex": "0x309DE",
+        "bytes": "8b f8",
+        "instruction": "mov    di,ax",
+        "line": "   309de:\t8b f8                \tmov    di,ax"
+      },
+      {
+        "address": 199136,
+        "address_hex": "0x309E0",
+        "bytes": "d1 e7",
+        "instruction": "shl    di,1",
+        "line": "   309e0:\td1 e7                \tshl    di,1"
+      },
+      {
+        "address": 199138,
+        "address_hex": "0x309E2",
+        "bytes": "8b 85 ae 26",
+        "instruction": "mov    ax,WORD PTR [di+0x26ae]",
+        "line": "   309e2:\t8b 85 ae 26          \tmov    ax,WORD PTR [di+0x26ae]"
+      },
+      {
+        "address": 199142,
+        "address_hex": "0x309E6",
+        "bytes": "2b 06 b0 26",
+        "instruction": "sub    ax,WORD PTR ds:0x26b0",
+        "line": "   309e6:\t2b 06 b0 26          \tsub    ax,WORD PTR ds:0x26b0"
+      },
+      {
+        "address": 199146,
+        "address_hex": "0x309EA",
+        "bytes": "89 46 f6",
+        "instruction": "mov    WORD PTR [bp-0xa],ax",
+        "line": "   309ea:\t89 46 f6             \tmov    WORD PTR [bp-0xa],ax"
+      },
+      {
+        "address": 199149,
+        "address_hex": "0x309ED",
+        "bytes": "31 c0",
+        "instruction": "xor    ax,ax",
+        "line": "   309ed:\t31 c0                \txor    ax,ax"
+      },
+      {
+        "address": 199151,
+        "address_hex": "0x309EF",
+        "bytes": "89 46 f8",
+        "instruction": "mov    WORD PTR [bp-0x8],ax",
+        "line": "   309ef:\t89 46 f8             \tmov    WORD PTR [bp-0x8],ax"
+      },
+      {
+        "address": 199154,
+        "address_hex": "0x309F2",
+        "bytes": "c7 46 f3 01 00",
+        "instruction": "mov    WORD PTR [bp-0xd],0x1",
+        "line": "   309f2:\tc7 46 f3 01 00       \tmov    WORD PTR [bp-0xd],0x1"
+      },
+      {
+        "address": 199159,
+        "address_hex": "0x309F7",
+        "bytes": "8b 46 f8",
+        "instruction": "mov    ax,WORD PTR [bp-0x8]",
+        "line": "   309f7:\t8b 46 f8             \tmov    ax,WORD PTR [bp-0x8]"
+      },
+      {
+        "address": 199162,
+        "address_hex": "0x309FA",
+        "bytes": "c4 7e fa",
+        "instruction": "les    di,DWORD PTR [bp-0x6]",
+        "line": "   309fa:\tc4 7e fa             \tles    di,DWORD PTR [bp-0x6]"
+      },
+      {
+        "address": 199165,
+        "address_hex": "0x309FD",
+        "bytes": "03 f8",
+        "instruction": "add    di,ax",
+        "line": "   309fd:\t03 f8                \tadd    di,ax"
+      },
+      {
+        "address": 199167,
+        "address_hex": "0x309FF",
+        "bytes": "06",
+        "instruction": "push   es",
+        "line": "   309ff:\t06                   \tpush   es"
+      },
+      {
+        "address": 199168,
+        "address_hex": "0x30A00",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30a00:\t57                   \tpush   di"
+      },
+      {
+        "address": 199169,
+        "address_hex": "0x30A01",
+        "bytes": "8a 46 06",
+        "instruction": "mov    al,BYTE PTR [bp+0x6]",
+        "line": "   30a01:\t8a 46 06             \tmov    al,BYTE PTR [bp+0x6]"
+      },
+      {
+        "address": 199172,
+        "address_hex": "0x30A04",
+        "bytes": "30 e4",
+        "instruction": "xor    ah,ah",
+        "line": "   30a04:\t30 e4                \txor    ah,ah"
+      },
+      {
+        "address": 199174,
+        "address_hex": "0x30A06",
+        "bytes": "03 46 f3",
+        "instruction": "add    ax,WORD PTR [bp-0xd]",
+        "line": "   30a06:\t03 46 f3             \tadd    ax,WORD PTR [bp-0xd]"
+      },
+      {
+        "address": 199177,
+        "address_hex": "0x30A09",
+        "bytes": "ba 0c 03",
+        "instruction": "mov    dx,0x30c",
+        "line": "   30a09:\tba 0c 03             \tmov    dx,0x30c"
+      },
+      {
+        "address": 199180,
+        "address_hex": "0x30A0C",
+        "bytes": "f7 e2",
+        "instruction": "mul    dx",
+        "line": "   30a0c:\tf7 e2                \tmul    dx"
+      },
+      {
+        "address": 199182,
+        "address_hex": "0x30A0E",
+        "bytes": "c4 3e 5c 73",
+        "instruction": "les    di,DWORD PTR ds:0x735c",
+        "line": "   30a0e:\tc4 3e 5c 73          \tles    di,DWORD PTR ds:0x735c"
+      },
+      {
+        "address": 199186,
+        "address_hex": "0x30A12",
+        "bytes": "03 f8",
+        "instruction": "add    di,ax",
+        "line": "   30a12:\t03 f8                \tadd    di,ax"
+      },
+      {
+        "address": 199188,
+        "address_hex": "0x30A14",
+        "bytes": "81 c7 f4 fc",
+        "instruction": "add    di,0xfcf4",
+        "line": "   30a14:\t81 c7 f4 fc          \tadd    di,0xfcf4"
+      },
+      {
+        "address": 199192,
+        "address_hex": "0x30A18",
+        "bytes": "06",
+        "instruction": "push   es",
+        "line": "   30a18:\t06                   \tpush   es"
+      },
+      {
+        "address": 199193,
+        "address_hex": "0x30A19",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30a19:\t57                   \tpush   di"
+      },
+      {
+        "address": 199194,
+        "address_hex": "0x30A1A",
+        "bytes": "b8 0c 03",
+        "instruction": "mov    ax,0x30c",
+        "line": "   30a1a:\tb8 0c 03             \tmov    ax,0x30c"
+      },
+      {
+        "address": 199197,
+        "address_hex": "0x30A1D",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30a1d:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199198,
+        "address_hex": "0x30A1E",
+        "bytes": "9a af 1a c0 0c",
+        "instruction": "call   0xcc0:0x1aaf",
+        "line": "   30a1e:\t9a af 1a c0 0c       \tcall   0xcc0:0x1aaf"
+      },
+      {
+        "address": 199203,
+        "address_hex": "0x30A23",
+        "bytes": "81 46 f8 0c 03",
+        "instruction": "add    WORD PTR [bp-0x8],0x30c",
+        "line": "   30a23:\t81 46 f8 0c 03       \tadd    WORD PTR [bp-0x8],0x30c"
+      },
+      {
+        "address": 199208,
+        "address_hex": "0x30A28",
+        "bytes": "ff 46 f3",
+        "instruction": "inc    WORD PTR [bp-0xd]",
+        "line": "   30a28:\tff 46 f3             \tinc    WORD PTR [bp-0xd]"
+      },
+      {
+        "address": 199211,
+        "address_hex": "0x30A2B",
+        "bytes": "8b 46 f8",
+        "instruction": "mov    ax,WORD PTR [bp-0x8]",
+        "line": "   30a2b:\t8b 46 f8             \tmov    ax,WORD PTR [bp-0x8]"
+      },
+      {
+        "address": 199214,
+        "address_hex": "0x30A2E",
+        "bytes": "3b 46 fe",
+        "instruction": "cmp    ax,WORD PTR [bp-0x2]",
+        "line": "   30a2e:\t3b 46 fe             \tcmp    ax,WORD PTR [bp-0x2]"
+      },
+      {
+        "address": 199217,
+        "address_hex": "0x30A31",
+        "bytes": "72 c4",
+        "instruction": "jb     0x309f7",
+        "line": "   30a31:\t72 c4                \tjb     0x309f7"
+      },
+      {
+        "address": 199219,
+        "address_hex": "0x30A33",
+        "bytes": "ff 76 fc",
+        "instruction": "push   WORD PTR [bp-0x4]",
+        "line": "   30a33:\tff 76 fc             \tpush   WORD PTR [bp-0x4]"
+      },
+      {
+        "address": 199222,
+        "address_hex": "0x30A36",
+        "bytes": "ff 76 fa",
+        "instruction": "push   WORD PTR [bp-0x6]",
+        "line": "   30a36:\tff 76 fa             \tpush   WORD PTR [bp-0x6]"
+      },
+      {
+        "address": 199225,
+        "address_hex": "0x30A39",
+        "bytes": "ff 76 fe",
+        "instruction": "push   WORD PTR [bp-0x2]",
+        "line": "   30a39:\tff 76 fe             \tpush   WORD PTR [bp-0x2]"
+      },
+      {
+        "address": 199228,
+        "address_hex": "0x30A3C",
+        "bytes": "9a 54 02 c0 0c",
+        "instruction": "call   0xcc0:0x254",
+        "line": "   30a3c:\t9a 54 02 c0 0c       \tcall   0xcc0:0x254"
+      },
+      {
+        "address": 199233,
+        "address_hex": "0x30A41",
+        "bytes": "8b 46 f3",
+        "instruction": "mov    ax,WORD PTR [bp-0xd]",
+        "line": "   30a41:\t8b 46 f3             \tmov    ax,WORD PTR [bp-0xd]"
+      },
+      {
+        "address": 199236,
+        "address_hex": "0x30A44",
+        "bytes": "48",
+        "instruction": "dec    ax",
+        "line": "   30a44:\t48                   \tdec    ax"
+      },
+      {
+        "address": 199237,
+        "address_hex": "0x30A45",
+        "bytes": "88 46 f0",
+        "instruction": "mov    BYTE PTR [bp-0x10],al",
+        "line": "   30a45:\t88 46 f0             \tmov    BYTE PTR [bp-0x10],al"
+      },
+      {
+        "address": 199240,
+        "address_hex": "0x30A48",
+        "bytes": "8a 46 08",
+        "instruction": "mov    al,BYTE PTR [bp+0x8]",
+        "line": "   30a48:\t8a 46 08             \tmov    al,BYTE PTR [bp+0x8]"
+      },
+      {
+        "address": 199243,
+        "address_hex": "0x30A4B",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30a4b:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199244,
+        "address_hex": "0x30A4C",
+        "bytes": "8a 46 06",
+        "instruction": "mov    al,BYTE PTR [bp+0x6]",
+        "line": "   30a4c:\t8a 46 06             \tmov    al,BYTE PTR [bp+0x6]"
+      },
+      {
+        "address": 199247,
+        "address_hex": "0x30A4F",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30a4f:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199248,
+        "address_hex": "0x30A50",
+        "bytes": "9a 25 00 39 01",
+        "instruction": "call   0x139:0x25",
+        "line": "   30a50:\t9a 25 00 39 01       \tcall   0x139:0x25"
+      },
+      {
+        "address": 199253,
+        "address_hex": "0x30A55",
+        "bytes": "c6 06 d7 9e 01",
+        "instruction": "mov    BYTE PTR ds:0x9ed7,0x1",
+        "line": "   30a55:\tc6 06 d7 9e 01       \tmov    BYTE PTR ds:0x9ed7,0x1"
+      },
+      {
+        "address": 199258,
+        "address_hex": "0x30A5A",
+        "bytes": "8a 46 08",
+        "instruction": "mov    al,BYTE PTR [bp+0x8]",
+        "line": "   30a5a:\t8a 46 08             \tmov    al,BYTE PTR [bp+0x8]"
+      },
+      {
+        "address": 199261,
+        "address_hex": "0x30A5D",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30a5d:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199262,
+        "address_hex": "0x30A5E",
+        "bytes": "0e",
+        "instruction": "push   cs",
+        "line": "   30a5e:\t0e                   \tpush   cs"
+      },
+      {
+        "address": 199263,
+        "address_hex": "0x30A5F",
+        "bytes": "e8 d2 fd",
+        "instruction": "call   0x30834",
+        "line": "   30a5f:\te8 d2 fd             \tcall   0x30834"
+      },
+      {
+        "address": 199266,
+        "address_hex": "0x30A62",
+        "bytes": "b0 20",
+        "instruction": "mov    al,0x20",
+        "line": "   30a62:\tb0 20                \tmov    al,0x20"
+      },
+      {
+        "address": 199268,
+        "address_hex": "0x30A64",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30a64:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199269,
+        "address_hex": "0x30A65",
+        "bytes": "b8 94 00",
+        "instruction": "mov    ax,0x94",
+        "line": "   30a65:\tb8 94 00             \tmov    ax,0x94"
+      },
+      {
+        "address": 199272,
+        "address_hex": "0x30A68",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30a68:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199273,
+        "address_hex": "0x30A69",
+        "bytes": "bf c7 96",
+        "instruction": "mov    di,0x96c7",
+        "line": "   30a69:\tbf c7 96             \tmov    di,0x96c7"
+      },
+      {
+        "address": 199276,
+        "address_hex": "0x30A6C",
+        "bytes": "1e",
+        "instruction": "push   ds",
+        "line": "   30a6c:\t1e                   \tpush   ds"
+      },
+      {
+        "address": 199277,
+        "address_hex": "0x30A6D",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30a6d:\t57                   \tpush   di"
+      },
+      {
+        "address": 199278,
+        "address_hex": "0x30A6E",
+        "bytes": "9a fa 27 1a 02",
+        "instruction": "call   0x21a:0x27fa",
+        "line": "   30a6e:\t9a fa 27 1a 02       \tcall   0x21a:0x27fa"
+      },
+      {
+        "address": 199283,
+        "address_hex": "0x30A73",
+        "bytes": "8a 46 08",
+        "instruction": "mov    al,BYTE PTR [bp+0x8]",
+        "line": "   30a73:\t8a 46 08             \tmov    al,BYTE PTR [bp+0x8]"
+      },
+      {
+        "address": 199286,
+        "address_hex": "0x30A76",
+        "bytes": "30 e4",
+        "instruction": "xor    ah,ah",
+        "line": "   30a76:\t30 e4                \txor    ah,ah"
+      },
+      {
+        "address": 199288,
+        "address_hex": "0x30A78",
+        "bytes": "8b d0",
+        "instruction": "mov    dx,ax",
+        "line": "   30a78:\t8b d0                \tmov    dx,ax"
+      },
+      {
+        "address": 199290,
+        "address_hex": "0x30A7A",
+        "bytes": "8a 46 06",
+        "instruction": "mov    al,BYTE PTR [bp+0x6]",
+        "line": "   30a7a:\t8a 46 06             \tmov    al,BYTE PTR [bp+0x6]"
+      },
+      {
+        "address": 199293,
+        "address_hex": "0x30A7D",
+        "bytes": "30 e4",
+        "instruction": "xor    ah,ah",
+        "line": "   30a7d:\t30 e4                \txor    ah,ah"
+      },
+      {
+        "address": 199295,
+        "address_hex": "0x30A7F",
+        "bytes": "8b f8",
+        "instruction": "mov    di,ax",
+        "line": "   30a7f:\t8b f8                \tmov    di,ax"
+      },
+      {
+        "address": 199297,
+        "address_hex": "0x30A81",
+        "bytes": "d1 e7",
+        "instruction": "shl    di,1",
+        "line": "   30a81:\td1 e7                \tshl    di,1"
+      },
+      {
+        "address": 199299,
+        "address_hex": "0x30A83",
+        "bytes": "d1 e7",
+        "instruction": "shl    di,1",
+        "line": "   30a83:\td1 e7                \tshl    di,1"
+      },
+      {
+        "address": 199301,
+        "address_hex": "0x30A85",
+        "bytes": "89 95 6e 73",
+        "instruction": "mov    WORD PTR [di+0x736e],dx",
+        "line": "   30a85:\t89 95 6e 73          \tmov    WORD PTR [di+0x736e],dx"
+      },
+      {
+        "address": 199305,
+        "address_hex": "0x30A89",
+        "bytes": "8a 46 06",
+        "instruction": "mov    al,BYTE PTR [bp+0x6]",
+        "line": "   30a89:\t8a 46 06             \tmov    al,BYTE PTR [bp+0x6]"
+      },
+      {
+        "address": 199308,
+        "address_hex": "0x30A8C",
+        "bytes": "30 e4",
+        "instruction": "xor    ah,ah",
+        "line": "   30a8c:\t30 e4                \txor    ah,ah"
+      },
+      {
+        "address": 199310,
+        "address_hex": "0x30A8E",
+        "bytes": "8b d0",
+        "instruction": "mov    dx,ax",
+        "line": "   30a8e:\t8b d0                \tmov    dx,ax"
+      },
+      {
+        "address": 199312,
+        "address_hex": "0x30A90",
+        "bytes": "8a 46 06",
+        "instruction": "mov    al,BYTE PTR [bp+0x6]",
+        "line": "   30a90:\t8a 46 06             \tmov    al,BYTE PTR [bp+0x6]"
+      },
+      {
+        "address": 199315,
+        "address_hex": "0x30A93",
+        "bytes": "30 e4",
+        "instruction": "xor    ah,ah",
+        "line": "   30a93:\t30 e4                \txor    ah,ah"
+      },
+      {
+        "address": 199317,
+        "address_hex": "0x30A95",
+        "bytes": "8b f8",
+        "instruction": "mov    di,ax",
+        "line": "   30a95:\t8b f8                \tmov    di,ax"
+      },
+      {
+        "address": 199319,
+        "address_hex": "0x30A97",
+        "bytes": "d1 e7",
+        "instruction": "shl    di,1",
+        "line": "   30a97:\td1 e7                \tshl    di,1"
+      },
+      {
+        "address": 199321,
+        "address_hex": "0x30A99",
+        "bytes": "d1 e7",
+        "instruction": "shl    di,1",
+        "line": "   30a99:\td1 e7                \tshl    di,1"
+      },
+      {
+        "address": 199323,
+        "address_hex": "0x30A9B",
+        "bytes": "89 95 70 73",
+        "instruction": "mov    WORD PTR [di+0x7370],dx",
+        "line": "   30a9b:\t89 95 70 73          \tmov    WORD PTR [di+0x7370],dx"
+      },
+      {
+        "address": 199327,
+        "address_hex": "0x30A9F",
+        "bytes": "89 ec",
+        "instruction": "mov    sp,bp",
+        "line": "   30a9f:\t89 ec                \tmov    sp,bp"
+      },
+      {
+        "address": 199329,
+        "address_hex": "0x30AA1",
+        "bytes": "5d",
+        "instruction": "pop    bp",
+        "line": "   30aa1:\t5d                   \tpop    bp"
+      },
+      {
+        "address": 199330,
+        "address_hex": "0x30AA2",
+        "bytes": "ca 04 00",
+        "instruction": "retf   0x4",
+        "line": "   30aa2:\tca 04 00             \tretf   0x4"
+      }
+    ],
+    "embedded_load3dmap_strings": [
+      {
+        "address": 199333,
+        "address_hex": "0x30AA5",
+        "bytes": "03 47 45",
+        "instruction": "add    ax,WORD PTR [bx+0x45]",
+        "line": "   30aa5:\t03 47 45             \tadd    ax,WORD PTR [bx+0x45]"
+      },
+      {
+        "address": 199336,
+        "address_hex": "0x30AA8",
+        "bytes": "4f",
+        "instruction": "dec    di",
+        "line": "   30aa8:\t4f                   \tdec    di"
+      },
+      {
+        "address": 199337,
+        "address_hex": "0x30AA9",
+        "bytes": "04 2e",
+        "instruction": "add    al,0x2e",
+        "line": "   30aa9:\t04 2e                \tadd    al,0x2e"
+      },
+      {
+        "address": 199339,
+        "address_hex": "0x30AAB",
+        "bytes": "64 61",
+        "instruction": "fs popa",
+        "line": "   30aab:\t64 61                \tfs popa"
+      },
+      {
+        "address": 199341,
+        "address_hex": "0x30AAD",
+        "bytes": "78 20",
+        "instruction": "js     0x30acf",
+        "line": "   30aad:\t78 20                \tjs     0x30acf"
+      },
+      {
+        "address": 199343,
+        "address_hex": "0x30AAF",
+        "bytes": "55",
+        "instruction": "push   bp",
+        "line": "   30aaf:\t55                   \tpush   bp"
+      },
+      {
+        "address": 199344,
+        "address_hex": "0x30AB0",
+        "bytes": "6e",
+        "instruction": "outs   dx,BYTE PTR ds:[si]",
+        "line": "   30ab0:\t6e                   \touts   dx,BYTE PTR ds:[si]"
+      },
+      {
+        "address": 199345,
+        "address_hex": "0x30AB1",
+        "bytes": "61",
+        "instruction": "popa",
+        "line": "   30ab1:\t61                   \tpopa"
+      },
+      {
+        "address": 199346,
+        "address_hex": "0x30AB2",
+        "bytes": "62 6c 65",
+        "instruction": "bound  bp,DWORD PTR [si+0x65]",
+        "line": "   30ab2:\t62 6c 65             \tbound  bp,DWORD PTR [si+0x65]"
+      },
+      {
+        "address": 199349,
+        "address_hex": "0x30AB5",
+        "bytes": "20 74 6f",
+        "instruction": "and    BYTE PTR [si+0x6f],dh",
+        "line": "   30ab5:\t20 74 6f             \tand    BYTE PTR [si+0x6f],dh"
+      },
+      {
+        "address": 199352,
+        "address_hex": "0x30AB8",
+        "bytes": "20 6c 6f",
+        "instruction": "and    BYTE PTR [si+0x6f],ch",
+        "line": "   30ab8:\t20 6c 6f             \tand    BYTE PTR [si+0x6f],ch"
+      },
+      {
+        "address": 199355,
+        "address_hex": "0x30ABB",
+        "bytes": "61",
+        "instruction": "popa",
+        "line": "   30abb:\t61                   \tpopa"
+      },
+      {
+        "address": 199356,
+        "address_hex": "0x30ABC",
+        "bytes": "64 20 67 65",
+        "instruction": "and    BYTE PTR fs:[bx+0x65],ah",
+        "line": "   30abc:\t64 20 67 65          \tand    BYTE PTR fs:[bx+0x65],ah"
+      },
+      {
+        "address": 199360,
+        "address_hex": "0x30AC0",
+        "bytes": "6f",
+        "instruction": "outs   dx,WORD PTR ds:[si]",
+        "line": "   30ac0:\t6f                   \touts   dx,WORD PTR ds:[si]"
+      },
+      {
+        "address": 199361,
+        "address_hex": "0x30AC1",
+        "bytes": "20 69 6e",
+        "instruction": "and    BYTE PTR [bx+di+0x6e],ch",
+        "line": "   30ac1:\t20 69 6e             \tand    BYTE PTR [bx+di+0x6e],ch"
+      },
+      {
+        "address": 199364,
+        "address_hex": "0x30AC4",
+        "bytes": "20 4c 6f",
+        "instruction": "and    BYTE PTR [si+0x6f],cl",
+        "line": "   30ac4:\t20 4c 6f             \tand    BYTE PTR [si+0x6f],cl"
+      },
+      {
+        "address": 199367,
+        "address_hex": "0x30AC7",
+        "bytes": "61",
+        "instruction": "popa",
+        "line": "   30ac7:\t61                   \tpopa"
+      },
+      {
+        "address": 199368,
+        "address_hex": "0x30AC8",
+        "bytes": "64 33 44 4d",
+        "instruction": "xor    ax,WORD PTR fs:[si+0x4d]",
+        "line": "   30ac8:\t64 33 44 4d          \txor    ax,WORD PTR fs:[si+0x4d]"
+      },
+      {
+        "address": 199372,
+        "address_hex": "0x30ACC",
+        "bytes": "61",
+        "instruction": "popa",
+        "line": "   30acc:\t61                   \tpopa"
+      },
+      {
+        "address": 199373,
+        "address_hex": "0x30ACD",
+        "bytes": "70 2e",
+        "instruction": "jo     0x30afd",
+        "line": "   30acd:\t70 2e                \tjo     0x30afd"
+      },
+      {
+        "address": 199375,
+        "address_hex": "0x30ACF",
+        "bytes": "55",
+        "instruction": "push   bp",
+        "line": "   30acf:\t55                   \tpush   bp"
+      }
+    ],
+    "post_string_loader_code": [
+      {
+        "address": 199376,
+        "address_hex": "0x30AD0",
+        "bytes": "89 e5",
+        "instruction": "mov    bp,sp",
+        "line": "   30ad0:\t89 e5                \tmov    bp,sp"
+      },
+      {
+        "address": 199378,
+        "address_hex": "0x30AD2",
+        "bytes": "81 ec 10 01",
+        "instruction": "sub    sp,0x110",
+        "line": "   30ad2:\t81 ec 10 01          \tsub    sp,0x110"
+      },
+      {
+        "address": 199382,
+        "address_hex": "0x30AD6",
+        "bytes": "a0 d2 50",
+        "instruction": "mov    al,ds:0x50d2",
+        "line": "   30ad6:\ta0 d2 50             \tmov    al,ds:0x50d2"
+      },
+      {
+        "address": 199385,
+        "address_hex": "0x30AD9",
+        "bytes": "30 e4",
+        "instruction": "xor    ah,ah",
+        "line": "   30ad9:\t30 e4                \txor    ah,ah"
+      },
+      {
+        "address": 199387,
+        "address_hex": "0x30ADB",
+        "bytes": "31 d2",
+        "instruction": "xor    dx,dx",
+        "line": "   30adb:\t31 d2                \txor    dx,dx"
+      },
+      {
+        "address": 199389,
+        "address_hex": "0x30ADD",
+        "bytes": "52",
+        "instruction": "push   dx",
+        "line": "   30add:\t52                   \tpush   dx"
+      },
+      {
+        "address": 199390,
+        "address_hex": "0x30ADE",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30ade:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199391,
+        "address_hex": "0x30ADF",
+        "bytes": "31 c0",
+        "instruction": "xor    ax,ax",
+        "line": "   30adf:\t31 c0                \txor    ax,ax"
+      },
+      {
+        "address": 199393,
+        "address_hex": "0x30AE1",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30ae1:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199394,
+        "address_hex": "0x30AE2",
+        "bytes": "8d 7e f6",
+        "instruction": "lea    di,[bp-0xa]",
+        "line": "   30ae2:\t8d 7e f6             \tlea    di,[bp-0xa]"
+      },
+      {
+        "address": 199397,
+        "address_hex": "0x30AE5",
+        "bytes": "16",
+        "instruction": "push   ss",
+        "line": "   30ae5:\t16                   \tpush   ss"
+      },
+      {
+        "address": 199398,
+        "address_hex": "0x30AE6",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30ae6:\t57                   \tpush   di"
+      },
+      {
+        "address": 199399,
+        "address_hex": "0x30AE7",
+        "bytes": "b8 01 00",
+        "instruction": "mov    ax,0x1",
+        "line": "   30ae7:\tb8 01 00             \tmov    ax,0x1"
+      },
+      {
+        "address": 199402,
+        "address_hex": "0x30AEA",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30aea:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199403,
+        "address_hex": "0x30AEB",
+        "bytes": "9a 90 17 c0 0c",
+        "instruction": "call   0xcc0:0x1790",
+        "line": "   30aeb:\t9a 90 17 c0 0c       \tcall   0xcc0:0x1790"
+      },
+      {
+        "address": 199408,
+        "address_hex": "0x30AF0",
+        "bytes": "8d be f5 fe",
+        "instruction": "lea    di,[bp-0x10b]",
+        "line": "   30af0:\t8d be f5 fe          \tlea    di,[bp-0x10b]"
+      },
+      {
+        "address": 199412,
+        "address_hex": "0x30AF4",
+        "bytes": "16",
+        "instruction": "push   ss",
+        "line": "   30af4:\t16                   \tpush   ss"
+      },
+      {
+        "address": 199413,
+        "address_hex": "0x30AF5",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30af5:\t57                   \tpush   di"
+      },
+      {
+        "address": 199414,
+        "address_hex": "0x30AF6",
+        "bytes": "bf 86 10",
+        "instruction": "mov    di,0x1086",
+        "line": "   30af6:\tbf 86 10             \tmov    di,0x1086"
+      },
+      {
+        "address": 199417,
+        "address_hex": "0x30AF9",
+        "bytes": "0e",
+        "instruction": "push   cs",
+        "line": "   30af9:\t0e                   \tpush   cs"
+      },
+      {
+        "address": 199418,
+        "address_hex": "0x30AFA",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30afa:\t57                   \tpush   di"
+      },
+      {
+        "address": 199419,
+        "address_hex": "0x30AFB",
+        "bytes": "9a c2 0a c0 0c",
+        "instruction": "call   0xcc0:0xac2",
+        "line": "   30afb:\t9a c2 0a c0 0c       \tcall   0xcc0:0xac2"
+      },
+      {
+        "address": 199424,
+        "address_hex": "0x30B00",
+        "bytes": "8d 7e f6",
+        "instruction": "lea    di,[bp-0xa]",
+        "line": "   30b00:\t8d 7e f6             \tlea    di,[bp-0xa]"
+      },
+      {
+        "address": 199427,
+        "address_hex": "0x30B03",
+        "bytes": "16",
+        "instruction": "push   ss",
+        "line": "   30b03:\t16                   \tpush   ss"
+      },
+      {
+        "address": 199428,
+        "address_hex": "0x30B04",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30b04:\t57                   \tpush   di"
+      },
+      {
+        "address": 199429,
+        "address_hex": "0x30B05",
+        "bytes": "9a 4f 0b c0 0c",
+        "instruction": "call   0xcc0:0xb4f",
+        "line": "   30b05:\t9a 4f 0b c0 0c       \tcall   0xcc0:0xb4f"
+      },
+      {
+        "address": 199434,
+        "address_hex": "0x30B0A",
+        "bytes": "8d be f0 fe",
+        "instruction": "lea    di,[bp-0x110]",
+        "line": "   30b0a:\t8d be f0 fe          \tlea    di,[bp-0x110]"
+      },
+      {
+        "address": 199438,
+        "address_hex": "0x30B0E",
+        "bytes": "16",
+        "instruction": "push   ss",
+        "line": "   30b0e:\t16                   \tpush   ss"
+      },
+      {
+        "address": 199439,
+        "address_hex": "0x30B0F",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30b0f:\t57                   \tpush   di"
+      },
+      {
+        "address": 199440,
+        "address_hex": "0x30B10",
+        "bytes": "bf 8a 10",
+        "instruction": "mov    di,0x108a",
+        "line": "   30b10:\tbf 8a 10             \tmov    di,0x108a"
+      },
+      {
+        "address": 199443,
+        "address_hex": "0x30B13",
+        "bytes": "0e",
+        "instruction": "push   cs",
+        "line": "   30b13:\t0e                   \tpush   cs"
+      },
+      {
+        "address": 199444,
+        "address_hex": "0x30B14",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30b14:\t57                   \tpush   di"
+      },
+      {
+        "address": 199445,
+        "address_hex": "0x30B15",
+        "bytes": "9a c2 0a c0 0c",
+        "instruction": "call   0xcc0:0xac2",
+        "line": "   30b15:\t9a c2 0a c0 0c       \tcall   0xcc0:0xac2"
+      },
+      {
+        "address": 199450,
+        "address_hex": "0x30B1A",
+        "bytes": "8a 46 06",
+        "instruction": "mov    al,BYTE PTR [bp+0x6]",
+        "line": "   30b1a:\t8a 46 06             \tmov    al,BYTE PTR [bp+0x6]"
+      },
+      {
+        "address": 199453,
+        "address_hex": "0x30B1D",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30b1d:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199454,
+        "address_hex": "0x30B1E",
+        "bytes": "8d 7e fe",
+        "instruction": "lea    di,[bp-0x2]",
+        "line": "   30b1e:\t8d 7e fe             \tlea    di,[bp-0x2]"
+      },
+      {
+        "address": 199457,
+        "address_hex": "0x30B21",
+        "bytes": "16",
+        "instruction": "push   ss",
+        "line": "   30b21:\t16                   \tpush   ss"
+      },
+      {
+        "address": 199458,
+        "address_hex": "0x30B22",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30b22:\t57                   \tpush   di"
+      },
+      {
+        "address": 199459,
+        "address_hex": "0x30B23",
+        "bytes": "8d 7e fa",
+        "instruction": "lea    di,[bp-0x6]",
+        "line": "   30b23:\t8d 7e fa             \tlea    di,[bp-0x6]"
+      },
+      {
+        "address": 199462,
+        "address_hex": "0x30B26",
+        "bytes": "16",
+        "instruction": "push   ss",
+        "line": "   30b26:\t16                   \tpush   ss"
+      },
+      {
+        "address": 199463,
+        "address_hex": "0x30B27",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30b27:\t57                   \tpush   di"
+      },
+      {
+        "address": 199464,
+        "address_hex": "0x30B28",
+        "bytes": "9a e8 08 8b 07",
+        "instruction": "call   0x78b:0x8e8",
+        "line": "   30b28:\t9a e8 08 8b 07       \tcall   0x78b:0x8e8"
+      },
+      {
+        "address": 199469,
+        "address_hex": "0x30B2D",
+        "bytes": "83 7e fe 00",
+        "instruction": "cmp    WORD PTR [bp-0x2],0x0",
+        "line": "   30b2d:\t83 7e fe 00          \tcmp    WORD PTR [bp-0x2],0x0"
+      },
+      {
+        "address": 199473,
+        "address_hex": "0x30B31",
+        "bytes": "74 07",
+        "instruction": "je     0x30b3a",
+        "line": "   30b31:\t74 07                \tje     0x30b3a"
+      },
+      {
+        "address": 199475,
+        "address_hex": "0x30B33",
+        "bytes": "81 7e fe 02 04",
+        "instruction": "cmp    WORD PTR [bp-0x2],0x402",
+        "line": "   30b33:\t81 7e fe 02 04       \tcmp    WORD PTR [bp-0x2],0x402"
+      },
+      {
+        "address": 199480,
+        "address_hex": "0x30B38",
+        "bytes": "74 2e",
+        "instruction": "je     0x30b68",
+        "line": "   30b38:\t74 2e                \tje     0x30b68"
+      },
+      {
+        "address": 199482,
+        "address_hex": "0x30B3A",
+        "bytes": "9a dd 00 1a 02",
+        "instruction": "call   0x21a:0xdd",
+        "line": "   30b3a:\t9a dd 00 1a 02       \tcall   0x21a:0xdd"
+      },
+      {
+        "address": 199487,
+        "address_hex": "0x30B3F",
+        "bytes": "bf 4e a0",
+        "instruction": "mov    di,0xa04e",
+        "line": "   30b3f:\tbf 4e a0             \tmov    di,0xa04e"
+      },
+      {
+        "address": 199490,
+        "address_hex": "0x30B42",
+        "bytes": "1e",
+        "instruction": "push   ds",
+        "line": "   30b42:\t1e                   \tpush   ds"
+      },
+      {
+        "address": 199491,
+        "address_hex": "0x30B43",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30b43:\t57                   \tpush   di"
+      },
+      {
+        "address": 199492,
+        "address_hex": "0x30B44",
+        "bytes": "bf 8f 10",
+        "instruction": "mov    di,0x108f",
+        "line": "   30b44:\tbf 8f 10             \tmov    di,0x108f"
+      },
+      {
+        "address": 199495,
+        "address_hex": "0x30B47",
+        "bytes": "0e",
+        "instruction": "push   cs",
+        "line": "   30b47:\t0e                   \tpush   cs"
+      },
+      {
+        "address": 199496,
+        "address_hex": "0x30B48",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30b48:\t57                   \tpush   di"
+      },
+      {
+        "address": 199497,
+        "address_hex": "0x30B49",
+        "bytes": "31 c0",
+        "instruction": "xor    ax,ax",
+        "line": "   30b49:\t31 c0                \txor    ax,ax"
+      },
+      {
+        "address": 199499,
+        "address_hex": "0x30B4B",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30b4b:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199500,
+        "address_hex": "0x30B4C",
+        "bytes": "9a 17 09 c0 0c",
+        "instruction": "call   0xcc0:0x917",
+        "line": "   30b4c:\t9a 17 09 c0 0c       \tcall   0xcc0:0x917"
+      },
+      {
+        "address": 199505,
+        "address_hex": "0x30B51",
+        "bytes": "9a 48 08 c0 0c",
+        "instruction": "call   0xcc0:0x848",
+        "line": "   30b51:\t9a 48 08 c0 0c       \tcall   0xcc0:0x848"
+      },
+      {
+        "address": 199510,
+        "address_hex": "0x30B56",
+        "bytes": "9a c7 01 36 08",
+        "instruction": "call   0x836:0x1c7",
+        "line": "   30b56:\t9a c7 01 36 08       \tcall   0x836:0x1c7"
+      },
+      {
+        "address": 199515,
+        "address_hex": "0x30B5B",
+        "bytes": "88 46 f5",
+        "instruction": "mov    BYTE PTR [bp-0xb],al",
+        "line": "   30b5b:\t88 46 f5             \tmov    BYTE PTR [bp-0xb],al"
+      },
+      {
+        "address": 199518,
+        "address_hex": "0x30B5E",
+        "bytes": "9a dd 00 1a 02",
+        "instruction": "call   0x21a:0xdd",
+        "line": "   30b5e:\t9a dd 00 1a 02       \tcall   0x21a:0xdd"
+      },
+      {
+        "address": 199523,
+        "address_hex": "0x30B63",
+        "bytes": "9a 00 00 36 08",
+        "instruction": "call   0x836:0x0",
+        "line": "   30b63:\t9a 00 00 36 08       \tcall   0x836:0x0"
+      },
+      {
+        "address": 199528,
+        "address_hex": "0x30B68",
+        "bytes": "c7 46 f8 02 00",
+        "instruction": "mov    WORD PTR [bp-0x8],0x2",
+        "line": "   30b68:\tc7 46 f8 02 00       \tmov    WORD PTR [bp-0x8],0x2"
+      },
+      {
+        "address": 199533,
+        "address_hex": "0x30B6D",
+        "bytes": "8b 46 f8",
+        "instruction": "mov    ax,WORD PTR [bp-0x8]",
+        "line": "   30b6d:\t8b 46 f8             \tmov    ax,WORD PTR [bp-0x8]"
+      },
+      {
+        "address": 199536,
+        "address_hex": "0x30B70",
+        "bytes": "c4 7e fa",
+        "instruction": "les    di,DWORD PTR [bp-0x6]",
+        "line": "   30b70:\tc4 7e fa             \tles    di,DWORD PTR [bp-0x6]"
+      },
+      {
+        "address": 199539,
+        "address_hex": "0x30B73",
+        "bytes": "03 f8",
+        "instruction": "add    di,ax",
+        "line": "   30b73:\t03 f8                \tadd    di,ax"
+      },
+      {
+        "address": 199541,
+        "address_hex": "0x30B75",
+        "bytes": "06",
+        "instruction": "push   es",
+        "line": "   30b75:\t06                   \tpush   es"
+      },
+      {
+        "address": 199542,
+        "address_hex": "0x30B76",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30b76:\t57                   \tpush   di"
+      },
+      {
+        "address": 199543,
+        "address_hex": "0x30B77",
+        "bytes": "c4 3e 60 73",
+        "instruction": "les    di,DWORD PTR ds:0x7360",
+        "line": "   30b77:\tc4 3e 60 73          \tles    di,DWORD PTR ds:0x7360"
+      },
+      {
+        "address": 199547,
+        "address_hex": "0x30B7B",
+        "bytes": "06",
+        "instruction": "push   es",
+        "line": "   30b7b:\t06                   \tpush   es"
+      },
+      {
+        "address": 199548,
+        "address_hex": "0x30B7C",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30b7c:\t57                   \tpush   di"
+      },
+      {
+        "address": 199549,
+        "address_hex": "0x30B7D",
+        "bytes": "b8 00 01",
+        "instruction": "mov    ax,0x100",
+        "line": "   30b7d:\tb8 00 01             \tmov    ax,0x100"
+      },
+      {
+        "address": 199552,
+        "address_hex": "0x30B80",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30b80:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199553,
+        "address_hex": "0x30B81",
+        "bytes": "9a af 1a c0 0c",
+        "instruction": "call   0xcc0:0x1aaf",
+        "line": "   30b81:\t9a af 1a c0 0c       \tcall   0xcc0:0x1aaf"
+      },
+      {
+        "address": 199558,
+        "address_hex": "0x30B86",
+        "bytes": "81 46 f8 00 01",
+        "instruction": "add    WORD PTR [bp-0x8],0x100",
+        "line": "   30b86:\t81 46 f8 00 01       \tadd    WORD PTR [bp-0x8],0x100"
+      },
+      {
+        "address": 199563,
+        "address_hex": "0x30B8B",
+        "bytes": "8b 46 f8",
+        "instruction": "mov    ax,WORD PTR [bp-0x8]",
+        "line": "   30b8b:\t8b 46 f8             \tmov    ax,WORD PTR [bp-0x8]"
+      },
+      {
+        "address": 199566,
+        "address_hex": "0x30B8E",
+        "bytes": "c4 7e fa",
+        "instruction": "les    di,DWORD PTR [bp-0x6]",
+        "line": "   30b8e:\tc4 7e fa             \tles    di,DWORD PTR [bp-0x6]"
+      },
+      {
+        "address": 199569,
+        "address_hex": "0x30B91",
+        "bytes": "03 f8",
+        "instruction": "add    di,ax",
+        "line": "   30b91:\t03 f8                \tadd    di,ax"
+      },
+      {
+        "address": 199571,
+        "address_hex": "0x30B93",
+        "bytes": "06",
+        "instruction": "push   es",
+        "line": "   30b93:\t06                   \tpush   es"
+      },
+      {
+        "address": 199572,
+        "address_hex": "0x30B94",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30b94:\t57                   \tpush   di"
+      },
+      {
+        "address": 199573,
+        "address_hex": "0x30B95",
+        "bytes": "c4 3e 60 73",
+        "instruction": "les    di,DWORD PTR ds:0x7360",
+        "line": "   30b95:\tc4 3e 60 73          \tles    di,DWORD PTR ds:0x7360"
+      },
+      {
+        "address": 199577,
+        "address_hex": "0x30B99",
+        "bytes": "81 c7 00 01",
+        "instruction": "add    di,0x100",
+        "line": "   30b99:\t81 c7 00 01          \tadd    di,0x100"
+      },
+      {
+        "address": 199581,
+        "address_hex": "0x30B9D",
+        "bytes": "06",
+        "instruction": "push   es",
+        "line": "   30b9d:\t06                   \tpush   es"
+      },
+      {
+        "address": 199582,
+        "address_hex": "0x30B9E",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30b9e:\t57                   \tpush   di"
+      },
+      {
+        "address": 199583,
+        "address_hex": "0x30B9F",
+        "bytes": "b8 00 01",
+        "instruction": "mov    ax,0x100",
+        "line": "   30b9f:\tb8 00 01             \tmov    ax,0x100"
+      },
+      {
+        "address": 199586,
+        "address_hex": "0x30BA2",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30ba2:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199587,
+        "address_hex": "0x30BA3",
+        "bytes": "9a af 1a c0 0c",
+        "instruction": "call   0xcc0:0x1aaf",
+        "line": "   30ba3:\t9a af 1a c0 0c       \tcall   0xcc0:0x1aaf"
+      },
+      {
+        "address": 199592,
+        "address_hex": "0x30BA8",
+        "bytes": "81 46 f8 00 01",
+        "instruction": "add    WORD PTR [bp-0x8],0x100",
+        "line": "   30ba8:\t81 46 f8 00 01       \tadd    WORD PTR [bp-0x8],0x100"
+      },
+      {
+        "address": 199597,
+        "address_hex": "0x30BAD",
+        "bytes": "8b 46 f8",
+        "instruction": "mov    ax,WORD PTR [bp-0x8]",
+        "line": "   30bad:\t8b 46 f8             \tmov    ax,WORD PTR [bp-0x8]"
+      },
+      {
+        "address": 199600,
+        "address_hex": "0x30BB0",
+        "bytes": "c4 7e fa",
+        "instruction": "les    di,DWORD PTR [bp-0x6]",
+        "line": "   30bb0:\tc4 7e fa             \tles    di,DWORD PTR [bp-0x6]"
+      },
+      {
+        "address": 199603,
+        "address_hex": "0x30BB3",
+        "bytes": "03 f8",
+        "instruction": "add    di,ax",
+        "line": "   30bb3:\t03 f8                \tadd    di,ax"
+      },
+      {
+        "address": 199605,
+        "address_hex": "0x30BB5",
+        "bytes": "06",
+        "instruction": "push   es",
+        "line": "   30bb5:\t06                   \tpush   es"
+      },
+      {
+        "address": 199606,
+        "address_hex": "0x30BB6",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30bb6:\t57                   \tpush   di"
+      },
+      {
+        "address": 199607,
+        "address_hex": "0x30BB7",
+        "bytes": "c4 3e 60 73",
+        "instruction": "les    di,DWORD PTR ds:0x7360",
+        "line": "   30bb7:\tc4 3e 60 73          \tles    di,DWORD PTR ds:0x7360"
+      },
+      {
+        "address": 199611,
+        "address_hex": "0x30BBB",
+        "bytes": "81 c7 00 02",
+        "instruction": "add    di,0x200",
+        "line": "   30bbb:\t81 c7 00 02          \tadd    di,0x200"
+      },
+      {
+        "address": 199615,
+        "address_hex": "0x30BBF",
+        "bytes": "06",
+        "instruction": "push   es",
+        "line": "   30bbf:\t06                   \tpush   es"
+      },
+      {
+        "address": 199616,
+        "address_hex": "0x30BC0",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30bc0:\t57                   \tpush   di"
+      },
+      {
+        "address": 199617,
+        "address_hex": "0x30BC1",
+        "bytes": "b8 00 01",
+        "instruction": "mov    ax,0x100",
+        "line": "   30bc1:\tb8 00 01             \tmov    ax,0x100"
+      },
+      {
+        "address": 199620,
+        "address_hex": "0x30BC4",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30bc4:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199621,
+        "address_hex": "0x30BC5",
+        "bytes": "9a af 1a c0 0c",
+        "instruction": "call   0xcc0:0x1aaf",
+        "line": "   30bc5:\t9a af 1a c0 0c       \tcall   0xcc0:0x1aaf"
+      },
+      {
+        "address": 199626,
+        "address_hex": "0x30BCA",
+        "bytes": "81 46 f8 00 01",
+        "instruction": "add    WORD PTR [bp-0x8],0x100",
+        "line": "   30bca:\t81 46 f8 00 01       \tadd    WORD PTR [bp-0x8],0x100"
+      },
+      {
+        "address": 199631,
+        "address_hex": "0x30BCF",
+        "bytes": "8b 46 f8",
+        "instruction": "mov    ax,WORD PTR [bp-0x8]",
+        "line": "   30bcf:\t8b 46 f8             \tmov    ax,WORD PTR [bp-0x8]"
+      },
+      {
+        "address": 199634,
+        "address_hex": "0x30BD2",
+        "bytes": "c4 7e fa",
+        "instruction": "les    di,DWORD PTR [bp-0x6]",
+        "line": "   30bd2:\tc4 7e fa             \tles    di,DWORD PTR [bp-0x6]"
+      },
+      {
+        "address": 199637,
+        "address_hex": "0x30BD5",
+        "bytes": "03 f8",
+        "instruction": "add    di,ax",
+        "line": "   30bd5:\t03 f8                \tadd    di,ax"
+      },
+      {
+        "address": 199639,
+        "address_hex": "0x30BD7",
+        "bytes": "06",
+        "instruction": "push   es",
+        "line": "   30bd7:\t06                   \tpush   es"
+      },
+      {
+        "address": 199640,
+        "address_hex": "0x30BD8",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30bd8:\t57                   \tpush   di"
+      },
+      {
+        "address": 199641,
+        "address_hex": "0x30BD9",
+        "bytes": "c4 3e 60 73",
+        "instruction": "les    di,DWORD PTR ds:0x7360",
+        "line": "   30bd9:\tc4 3e 60 73          \tles    di,DWORD PTR ds:0x7360"
+      },
+      {
+        "address": 199645,
+        "address_hex": "0x30BDD",
+        "bytes": "81 c7 00 03",
+        "instruction": "add    di,0x300",
+        "line": "   30bdd:\t81 c7 00 03          \tadd    di,0x300"
+      },
+      {
+        "address": 199649,
+        "address_hex": "0x30BE1",
+        "bytes": "06",
+        "instruction": "push   es",
+        "line": "   30be1:\t06                   \tpush   es"
+      },
+      {
+        "address": 199650,
+        "address_hex": "0x30BE2",
+        "bytes": "57",
+        "instruction": "push   di",
+        "line": "   30be2:\t57                   \tpush   di"
+      },
+      {
+        "address": 199651,
+        "address_hex": "0x30BE3",
+        "bytes": "b8 00 01",
+        "instruction": "mov    ax,0x100",
+        "line": "   30be3:\tb8 00 01             \tmov    ax,0x100"
+      },
+      {
+        "address": 199654,
+        "address_hex": "0x30BE6",
+        "bytes": "50",
+        "instruction": "push   ax",
+        "line": "   30be6:\t50                   \tpush   ax"
+      },
+      {
+        "address": 199655,
+        "address_hex": "0x30BE7",
+        "bytes": "9a af 1a c0 0c",
+        "instruction": "call   0xcc0:0x1aaf",
+        "line": "   30be7:\t9a af 1a c0 0c       \tcall   0xcc0:0x1aaf"
+      },
+      {
+        "address": 199660,
+        "address_hex": "0x30BEC",
+        "bytes": "ff 76 fc",
+        "instruction": "push   WORD PTR [bp-0x4]",
+        "line": "   30bec:\tff 76 fc             \tpush   WORD PTR [bp-0x4]"
+      },
+      {
+        "address": 199663,
+        "address_hex": "0x30BEF",
+        "bytes": "ff 76 fa",
+        "instruction": "push   WORD PTR [bp-0x6]",
+        "line": "   30bef:\tff 76 fa             \tpush   WORD PTR [bp-0x6]"
+      },
+      {
+        "address": 199666,
+        "address_hex": "0x30BF2",
+        "bytes": "ff 76 fe",
+        "instruction": "push   WORD PTR [bp-0x2]",
+        "line": "   30bf2:\tff 76 fe             \tpush   WORD PTR [bp-0x2]"
+      },
+      {
+        "address": 199669,
+        "address_hex": "0x30BF5",
+        "bytes": "9a 54 02 c0 0c",
+        "instruction": "call   0xcc0:0x254",
+        "line": "   30bf5:\t9a 54 02 c0 0c       \tcall   0xcc0:0x254"
+      },
+      {
+        "address": 199674,
+        "address_hex": "0x30BFA",
+        "bytes": "8a 46 06",
+        "instruction": "mov    al,BYTE PTR [bp+0x6]",
+        "line": "   30bfa:\t8a 46 06             \tmov    al,BYTE PTR [bp+0x6]"
+      },
+      {
+        "address": 199677,
+        "address_hex": "0x30BFD",
+        "bytes": "c4 3e 18 44",
+        "instruction": "les    di,DWORD PTR ds:0x4418",
+        "line": "   30bfd:\tc4 3e 18 44          \tles    di,DWORD PTR ds:0x4418"
+      },
+      {
+        "address": 199681,
+        "address_hex": "0x30C01",
+        "bytes": "26 88 85 c5 00",
+        "instruction": "mov    BYTE PTR es:[di+0xc5],al",
+        "line": "   30c01:\t26 88 85 c5 00       \tmov    BYTE PTR es:[di+0xc5],al"
+      },
+      {
+        "address": 199686,
+        "address_hex": "0x30C06",
+        "bytes": "89 ec",
+        "instruction": "mov    sp,bp",
+        "line": "   30c06:\t89 ec                \tmov    sp,bp"
+      },
+      {
+        "address": 199688,
+        "address_hex": "0x30C08",
+        "bytes": "5d",
+        "instruction": "pop    bp",
+        "line": "   30c08:\t5d                   \tpop    bp"
+      },
+      {
+        "address": 199689,
+        "address_hex": "0x30C09",
+        "bytes": "ca 02 00",
+        "instruction": "retf   0x2",
+        "line": "   30c09:\tca 02 00             \tretf   0x2"
+      },
+      {
+        "address": 199692,
+        "address_hex": "0x30C0C",
+        "bytes": "55",
+        "instruction": "push   bp",
+        "line": "   30c0c:\t55                   \tpush   bp"
+      },
+      {
+        "address": 199693,
+        "address_hex": "0x30C0D",
+        "bytes": "89 e5",
+        "instruction": "mov    bp,sp",
+        "line": "   30c0d:\t89 e5                \tmov    bp,sp"
+      },
+      {
+        "address": 199695,
+        "address_hex": "0x30C0F",
+        "bytes": "5d",
+        "instruction": "pop    bp",
+        "line": "   30c0f:\t5d                   \tpop    bp"
+      },
+      {
+        "address": 199696,
+        "address_hex": "0x30C10",
+        "bytes": "cb",
+        "instruction": "retf",
+        "line": "   30c10:\tcb                   \tretf"
+      }
+    ],
+    "epilogue_and_following_table": [
+      {
+        "address": 199674,
+        "address_hex": "0x30BFA",
+        "bytes": "8a 46 06",
+        "instruction": "mov    al,BYTE PTR [bp+0x6]",
+        "line": "   30bfa:\t8a 46 06             \tmov    al,BYTE PTR [bp+0x6]"
+      },
+      {
+        "address": 199677,
+        "address_hex": "0x30BFD",
+        "bytes": "c4 3e 18 44",
+        "instruction": "les    di,DWORD PTR ds:0x4418",
+        "line": "   30bfd:\tc4 3e 18 44          \tles    di,DWORD PTR ds:0x4418"
+      },
+      {
+        "address": 199681,
+        "address_hex": "0x30C01",
+        "bytes": "26 88 85 c5 00",
+        "instruction": "mov    BYTE PTR es:[di+0xc5],al",
+        "line": "   30c01:\t26 88 85 c5 00       \tmov    BYTE PTR es:[di+0xc5],al"
+      },
+      {
+        "address": 199686,
+        "address_hex": "0x30C06",
+        "bytes": "89 ec",
+        "instruction": "mov    sp,bp",
+        "line": "   30c06:\t89 ec                \tmov    sp,bp"
+      },
+      {
+        "address": 199688,
+        "address_hex": "0x30C08",
+        "bytes": "5d",
+        "instruction": "pop    bp",
+        "line": "   30c08:\t5d                   \tpop    bp"
+      },
+      {
+        "address": 199689,
+        "address_hex": "0x30C09",
+        "bytes": "ca 02 00",
+        "instruction": "retf   0x2",
+        "line": "   30c09:\tca 02 00             \tretf   0x2"
+      },
+      {
+        "address": 199692,
+        "address_hex": "0x30C0C",
+        "bytes": "55",
+        "instruction": "push   bp",
+        "line": "   30c0c:\t55                   \tpush   bp"
+      },
+      {
+        "address": 199693,
+        "address_hex": "0x30C0D",
+        "bytes": "89 e5",
+        "instruction": "mov    bp,sp",
+        "line": "   30c0d:\t89 e5                \tmov    bp,sp"
+      },
+      {
+        "address": 199695,
+        "address_hex": "0x30C0F",
+        "bytes": "5d",
+        "instruction": "pop    bp",
+        "line": "   30c0f:\t5d                   \tpop    bp"
+      },
+      {
+        "address": 199696,
+        "address_hex": "0x30C10",
+        "bytes": "cb",
+        "instruction": "retf",
+        "line": "   30c10:\tcb                   \tretf"
+      },
+      {
+        "address": 199697,
+        "address_hex": "0x30C11",
+        "bytes": "0f 01 49 01",
+        "instruction": "sidtw  [bx+di+0x1]",
+        "line": "   30c11:\t0f 01 49 01          \tsidtw  [bx+di+0x1]"
+      },
+      {
+        "address": 199701,
+        "address_hex": "0x30C15",
+        "bytes": "4e",
+        "instruction": "dec    si",
+        "line": "   30c15:\t4e                   \tdec    si"
+      },
+      {
+        "address": 199702,
+        "address_hex": "0x30C16",
+        "bytes": "01 9f 01 c5",
+        "instruction": "add    WORD PTR [bx-0x3aff],bx",
+        "line": "   30c16:\t01 9f 01 c5          \tadd    WORD PTR [bx-0x3aff],bx"
+      },
+      {
+        "address": 199706,
+        "address_hex": "0x30C1A",
+        "bytes": "01 eb",
+        "instruction": "add    bx,bp",
+        "line": "   30c1a:\t01 eb                \tadd    bx,bp"
+      },
+      {
+        "address": 199708,
+        "address_hex": "0x30C1C",
+        "bytes": "01 34",
+        "instruction": "add    WORD PTR [si],si",
+        "line": "   30c1c:\t01 34                \tadd    WORD PTR [si],si"
+      },
+      {
+        "address": 199710,
+        "address_hex": "0x30C1E",
+        "bytes": "02 66 02",
+        "instruction": "add    ah,BYTE PTR [bp+0x2]",
+        "line": "   30c1e:\t02 66 02             \tadd    ah,BYTE PTR [bp+0x2]"
+      },
+      {
+        "address": 199713,
+        "address_hex": "0x30C21",
+        "bytes": "59",
+        "instruction": "pop    cx",
+        "line": "   30c21:\t59                   \tpop    cx"
+      }
+    ]
+  }
+}

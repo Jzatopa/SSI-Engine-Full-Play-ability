@@ -1,0 +1,922 @@
+{
+  "address_rules": {
+    "game_ovr_payload_to_original_file_offset": "original_file_offset = ghidra_linear + 8",
+    "segmented_to_linear": "linear = segment * 16 + offset"
+  },
+  "start": {
+    "function_count": 358,
+    "decompile": {
+      "attempted": 358,
+      "completed": 358,
+      "timed_out": 0,
+      "errors": 0
+    }
+  },
+  "game_ovr": {
+    "function_count": 623,
+    "decompile": {
+      "attempted": 623,
+      "completed": 623,
+      "timed_out": 0,
+      "errors": 0
+    },
+    "anchors": [
+      {
+        "name": "overlay_magic",
+        "offset": 0,
+        "source": "generated/game_ovr/anchors.json",
+        "note": "FBOV overlay marker",
+        "payload_linear": -8,
+        "payload_linear_hex": null,
+        "ghidra_address": null,
+        "nearest_functions": {
+          "previous": null,
+          "next": null
+        }
+      },
+      {
+        "name": "credits",
+        "offset": 393,
+        "source": "generated/game_ovr/anchors.json",
+        "note": "credits text starts",
+        "payload_linear": 385,
+        "payload_linear_hex": "0x00181",
+        "ghidra_address": "0018:0001",
+        "nearest_functions": {
+          "previous": {
+            "entry": "0000:016c",
+            "name": "FUN_0000_016c",
+            "linear": 364,
+            "linear_hex": "0x0016C",
+            "distance": 21,
+            "body_addresses": 21,
+            "calling_convention": "__cdecl16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/0000_016c_FUN_0000_016c.c"
+          },
+          "next": {
+            "entry": "0000:0385",
+            "name": "FUN_0000_0385",
+            "linear": 901,
+            "linear_hex": "0x00385",
+            "distance": 516,
+            "body_addresses": 42,
+            "calling_convention": "unknown",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/0000_0385_FUN_0000_0385.c"
+          }
+        }
+      },
+      {
+        "name": "combat_start",
+        "offset": 65336,
+        "source": "generated/game_ovr/anchors.json",
+        "note": "A battle begins...",
+        "payload_linear": 65328,
+        "payload_linear_hex": "0x0FF30",
+        "ghidra_address": "0ff3:0000",
+        "nearest_functions": {
+          "previous": {
+            "entry": "0000:fb92",
+            "name": "FUN_0000_fb92",
+            "linear": 64402,
+            "linear_hex": "0x0FB92",
+            "distance": 926,
+            "body_addresses": 925,
+            "calling_convention": "__cdecl16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/0000_fb92_FUN_0000_fb92.c"
+          },
+          "next": {
+            "entry": "1000:0131",
+            "name": "FUN_1000_0131",
+            "linear": 65841,
+            "linear_hex": "0x10131",
+            "distance": 513,
+            "body_addresses": 5,
+            "calling_convention": "__cdecl16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/1000_0131_FUN_1000_0131.c"
+          }
+        }
+      },
+      {
+        "name": "character_creation",
+        "offset": 99509,
+        "source": "generated/game_ovr/anchors.json",
+        "note": "Pick Race / Pick Gender / Pick Class",
+        "payload_linear": 99501,
+        "payload_linear_hex": "0x184AD",
+        "ghidra_address": "184a:000d",
+        "nearest_functions": {
+          "previous": {
+            "entry": "1000:8467",
+            "name": "FUN_1000_8467",
+            "linear": 99431,
+            "linear_hex": "0x18467",
+            "distance": 70,
+            "body_addresses": 70,
+            "calling_convention": "__stdcall16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/1000_8467_FUN_1000_8467.c"
+          },
+          "next": {
+            "entry": "1000:8e7d",
+            "name": "FUN_1000_8e7d",
+            "linear": 102013,
+            "linear_hex": "0x18E7D",
+            "distance": 2512,
+            "body_addresses": 151,
+            "calling_convention": "__stdcall16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/1000_8e7d_FUN_1000_8e7d.c"
+          }
+        }
+      },
+      {
+        "name": "shop_menu",
+        "offset": 117370,
+        "source": "generated/game_ovr/anchors.json",
+        "note": "Buy Sell Ammo View Pool",
+        "payload_linear": 117362,
+        "payload_linear_hex": "0x1CA72",
+        "ghidra_address": "1ca7:0002",
+        "nearest_functions": {
+          "previous": {
+            "entry": "1000:c010",
+            "name": "FUN_1000_c010",
+            "linear": 114704,
+            "linear_hex": "0x1C010",
+            "distance": 2658,
+            "body_addresses": 178,
+            "calling_convention": "__cdecl16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/1000_c010_FUN_1000_c010.c"
+          },
+          "next": {
+            "entry": "1000:ce56",
+            "name": "FUN_1000_ce56",
+            "linear": 118358,
+            "linear_hex": "0x1CE56",
+            "distance": 996,
+            "body_addresses": 5,
+            "calling_convention": "__cdecl16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/1000_ce56_FUN_1000_ce56.c"
+          }
+        }
+      },
+      {
+        "name": "item0_loader",
+        "offset": 126462,
+        "source": "generated/game_ovr/anchors.json",
+        "note": "ITEM0.dax loader/error strings",
+        "payload_linear": 126454,
+        "payload_linear_hex": "0x1EDF6",
+        "ghidra_address": "1edf:0006",
+        "nearest_functions": {
+          "previous": {
+            "entry": "1000:eb60",
+            "name": "FUN_1000_eb60",
+            "linear": 125792,
+            "linear_hex": "0x1EB60",
+            "distance": 662,
+            "body_addresses": 276,
+            "calling_convention": "__cdecl16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/1000_eb60_FUN_1000_eb60.c"
+          },
+          "next": {
+            "entry": "1000:eeec",
+            "name": "FUN_1000_eeec",
+            "linear": 126700,
+            "linear_hex": "0x1EEEC",
+            "distance": 246,
+            "body_addresses": 133,
+            "calling_convention": "__cdecl16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/1000_eeec_FUN_1000_eeec.c"
+          }
+        }
+      },
+      {
+        "name": "save_character",
+        "offset": 129547,
+        "source": "generated/game_ovr/anchors.json",
+        "note": "Lose character / save prompts",
+        "payload_linear": 129539,
+        "payload_linear_hex": "0x1FA03",
+        "ghidra_address": "1fa0:0003",
+        "nearest_functions": {
+          "previous": {
+            "entry": "1000:f67d",
+            "name": "FUN_1000_f67d",
+            "linear": 128637,
+            "linear_hex": "0x1F67D",
+            "distance": 902,
+            "body_addresses": 380,
+            "calling_convention": "__cdecl16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/1000_f67d_FUN_1000_f67d.c"
+          },
+          "next": {
+            "entry": "1000:fad0",
+            "name": "FUN_1000_fad0",
+            "linear": 129744,
+            "linear_hex": "0x1FAD0",
+            "distance": 205,
+            "body_addresses": 193,
+            "calling_convention": "__cdecl16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/1000_fad0_FUN_1000_fad0.c"
+          }
+        }
+      },
+      {
+        "name": "load_game",
+        "offset": 134527,
+        "source": "generated/game_ovr/anchors.json",
+        "note": "Load Which Game",
+        "payload_linear": 134519,
+        "payload_linear_hex": "0x20D77",
+        "ghidra_address": "20d7:0007",
+        "nearest_functions": {
+          "previous": {
+            "entry": "1000:fb92",
+            "name": "FUN_1000_fb92",
+            "linear": 129938,
+            "linear_hex": "0x1FB92",
+            "distance": 4581,
+            "body_addresses": 252,
+            "calling_convention": "unknown",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/1000_fb92_FUN_1000_fb92.c"
+          },
+          "next": {
+            "entry": "2000:13fd",
+            "name": "FUN_2000_13fd",
+            "linear": 136189,
+            "linear_hex": "0x213FD",
+            "distance": 1670,
+            "body_addresses": 274,
+            "calling_convention": "__stdcall16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/2000_13fd_FUN_2000_13fd.c"
+          }
+        }
+      },
+      {
+        "name": "save_game",
+        "offset": 136472,
+        "source": "generated/game_ovr/anchors.json",
+        "note": "Save Which Game",
+        "payload_linear": 136464,
+        "payload_linear_hex": "0x21510",
+        "ghidra_address": "2151:0000",
+        "nearest_functions": {
+          "previous": {
+            "entry": "2000:13fd",
+            "name": "FUN_2000_13fd",
+            "linear": 136189,
+            "linear_hex": "0x213FD",
+            "distance": 275,
+            "body_addresses": 274,
+            "calling_convention": "__stdcall16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/2000_13fd_FUN_2000_13fd.c"
+          },
+          "next": {
+            "entry": "2000:1c53",
+            "name": "FUN_2000_1c53",
+            "linear": 138323,
+            "linear_hex": "0x21C53",
+            "distance": 1859,
+            "body_addresses": 5,
+            "calling_convention": "__cdecl16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/2000_1c53_FUN_2000_1c53.c"
+          }
+        }
+      },
+      {
+        "name": "character_sheet_labels",
+        "offset": 139303,
+        "source": "generated/game_ovr/anchors.json",
+        "note": "name/race/gender/thaco/career labels",
+        "payload_linear": 139295,
+        "payload_linear_hex": "0x2201F",
+        "ghidra_address": "2201:000f",
+        "nearest_functions": {
+          "previous": {
+            "entry": "2000:1fd4",
+            "name": "FUN_2000_1fd4",
+            "linear": 139220,
+            "linear_hex": "0x21FD4",
+            "distance": 75,
+            "body_addresses": 74,
+            "calling_convention": "__stdcall16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/2000_1fd4_FUN_2000_1fd4.c"
+          },
+          "next": {
+            "entry": "2000:25a1",
+            "name": "FUN_2000_25a1",
+            "linear": 140705,
+            "linear_hex": "0x225A1",
+            "distance": 1410,
+            "body_addresses": 45,
+            "calling_convention": "unknown",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/2000_25a1_FUN_2000_25a1.c"
+          }
+        }
+      },
+      {
+        "name": "item_debug_fields",
+        "offset": 143848,
+        "source": "generated/game_ovr/anchors.json",
+        "note": "itemptr/namenum/plus/ready fields",
+        "payload_linear": 143840,
+        "payload_linear_hex": "0x231E0",
+        "ghidra_address": "231e:0000",
+        "nearest_functions": {
+          "previous": {
+            "entry": "2000:2986",
+            "name": "FUN_2000_2986",
+            "linear": 141702,
+            "linear_hex": "0x22986",
+            "distance": 2138,
+            "body_addresses": 90,
+            "calling_convention": "unknown",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/2000_2986_FUN_2000_2986.c"
+          },
+          "next": {
+            "entry": "2000:3ea6",
+            "name": "FUN_2000_3ea6",
+            "linear": 147110,
+            "linear_hex": "0x23EA6",
+            "distance": 3270,
+            "body_addresses": 124,
+            "calling_convention": "__stdcall16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/2000_3ea6_FUN_2000_3ea6.c"
+          }
+        }
+      },
+      {
+        "name": "gear_menu",
+        "offset": 145587,
+        "source": "generated/game_ovr/anchors.json",
+        "note": "gear ready/trade/drop/sell menu",
+        "payload_linear": 145579,
+        "payload_linear_hex": "0x238AB",
+        "ghidra_address": "238a:000b",
+        "nearest_functions": {
+          "previous": {
+            "entry": "2000:2986",
+            "name": "FUN_2000_2986",
+            "linear": 141702,
+            "linear_hex": "0x22986",
+            "distance": 3877,
+            "body_addresses": 90,
+            "calling_convention": "unknown",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/2000_2986_FUN_2000_2986.c"
+          },
+          "next": {
+            "entry": "2000:3ea6",
+            "name": "FUN_2000_3ea6",
+            "linear": 147110,
+            "linear_hex": "0x23EA6",
+            "distance": 1531,
+            "body_addresses": 124,
+            "calling_convention": "__stdcall16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/2000_3ea6_FUN_2000_3ea6.c"
+          }
+        }
+      },
+      {
+        "name": "ship_stats",
+        "offset": 178171,
+        "source": "generated/game_ovr/anchors.json",
+        "note": "ship name/type/range labels",
+        "payload_linear": 178163,
+        "payload_linear_hex": "0x2B7F3",
+        "ghidra_address": "2b7f:0003",
+        "nearest_functions": {
+          "previous": {
+            "entry": "2000:b749",
+            "name": "FUN_2000_b749",
+            "linear": 177993,
+            "linear_hex": "0x2B749",
+            "distance": 170,
+            "body_addresses": 169,
+            "calling_convention": "__stdcall16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/2000_b749_FUN_2000_b749.c"
+          },
+          "next": {
+            "entry": "2000:b876",
+            "name": "FUN_2000_b876",
+            "linear": 178294,
+            "linear_hex": "0x2B876",
+            "distance": 131,
+            "body_addresses": 108,
+            "calling_convention": "unknown",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/2000_b876_FUN_2000_b876.c"
+          }
+        }
+      },
+      {
+        "name": "wall_loader_wall_def_1",
+        "offset": 198845,
+        "source": "generated/game_ovr/map_scan.json ascii_anchors",
+        "note": "WALLDEF near first wall loader string",
+        "payload_linear": 198837,
+        "payload_linear_hex": "0x308B5",
+        "ghidra_address": "308b:0005",
+        "nearest_functions": {
+          "previous": {
+            "entry": "3000:006f",
+            "name": "FUN_3000_006f",
+            "linear": 196719,
+            "linear_hex": "0x3006F",
+            "distance": 2118,
+            "body_addresses": 1976,
+            "calling_convention": "__stdcall16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/3000_006f_FUN_3000_006f.c"
+          },
+          "next": {
+            "entry": "3000:0c04",
+            "name": "FUN_3000_0c04",
+            "linear": 199684,
+            "linear_hex": "0x30C04",
+            "distance": 847,
+            "body_addresses": 5,
+            "calling_convention": "__cdecl16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/3000_0c04_FUN_3000_0c04.c"
+          }
+        }
+      },
+      {
+        "name": "wall_loader_wall_def_2",
+        "offset": 198880,
+        "source": "generated/game_ovr/map_scan.json ascii_anchors",
+        "note": "WALLDEF near second wall loader string",
+        "payload_linear": 198872,
+        "payload_linear_hex": "0x308D8",
+        "ghidra_address": "308d:0008",
+        "nearest_functions": {
+          "previous": {
+            "entry": "3000:006f",
+            "name": "FUN_3000_006f",
+            "linear": 196719,
+            "linear_hex": "0x3006F",
+            "distance": 2153,
+            "body_addresses": 1976,
+            "calling_convention": "__stdcall16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/3000_006f_FUN_3000_006f.c"
+          },
+          "next": {
+            "entry": "3000:0c04",
+            "name": "FUN_3000_0c04",
+            "linear": 199684,
+            "linear_hex": "0x30C04",
+            "distance": 812,
+            "body_addresses": 5,
+            "calling_convention": "__cdecl16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/3000_0c04_FUN_3000_0c04.c"
+          }
+        }
+      },
+      {
+        "name": "load3dmap_geo",
+        "offset": 199334,
+        "source": "generated/game_ovr/map_scan.json ascii_anchors",
+        "note": "GEO string before Load3DMap error",
+        "payload_linear": 199326,
+        "payload_linear_hex": "0x30A9E",
+        "ghidra_address": "30a9:000e",
+        "nearest_functions": {
+          "previous": {
+            "entry": "3000:006f",
+            "name": "FUN_3000_006f",
+            "linear": 196719,
+            "linear_hex": "0x3006F",
+            "distance": 2607,
+            "body_addresses": 1976,
+            "calling_convention": "__stdcall16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/3000_006f_FUN_3000_006f.c"
+          },
+          "next": {
+            "entry": "3000:0c04",
+            "name": "FUN_3000_0c04",
+            "linear": 199684,
+            "linear_hex": "0x30C04",
+            "distance": 358,
+            "body_addresses": 5,
+            "calling_convention": "__cdecl16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/3000_0c04_FUN_3000_0c04.c"
+          }
+        }
+      },
+      {
+        "name": "load3dmap_error",
+        "offset": 199365,
+        "source": "generated/game_ovr/map_scan.json ascii_anchors",
+        "note": "Load3DMap string",
+        "payload_linear": 199357,
+        "payload_linear_hex": "0x30ABD",
+        "ghidra_address": "30ab:000d",
+        "nearest_functions": {
+          "previous": {
+            "entry": "3000:006f",
+            "name": "FUN_3000_006f",
+            "linear": 196719,
+            "linear_hex": "0x3006F",
+            "distance": 2638,
+            "body_addresses": 1976,
+            "calling_convention": "__stdcall16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/3000_006f_FUN_3000_006f.c"
+          },
+          "next": {
+            "entry": "3000:0c04",
+            "name": "FUN_3000_0c04",
+            "linear": 199684,
+            "linear_hex": "0x30C04",
+            "distance": 327,
+            "body_addresses": 5,
+            "calling_convention": "__cdecl16far",
+            "is_thunk": false,
+            "decompiled_file": "generated/ghidra/deep_game_ovr_payload/decompiled/3000_0c04_FUN_3000_0c04.c"
+          }
+        }
+      }
+    ]
+  },
+  "strings": {
+    "game_ovr_ghidra_defined_string_count": 13,
+    "game_ovr_ghidra_strings": [
+      {
+        "ghidra_address": "0000:6ded",
+        "payload_linear": 28141,
+        "file_offset": 28149,
+        "text": " is your pilot.",
+        "exact_offset_match_in_ascii_artifact": true,
+        "ascii_artifact_text": " is your pilot."
+      },
+      {
+        "ghidra_address": "0000:9047",
+        "payload_linear": 36935,
+        "file_offset": 36943,
+        "text": "  Repairing Ship",
+        "exact_offset_match_in_ascii_artifact": true,
+        "ascii_artifact_text": "  Repairing Ship"
+      },
+      {
+        "ghidra_address": "0000:9776",
+        "payload_linear": 38774,
+        "file_offset": 38782,
+        "text": " slips into a coma.2",
+        "exact_offset_match_in_ascii_artifact": true,
+        "ascii_artifact_text": " slips into a coma.2"
+      },
+      {
+        "ghidra_address": "0000:b1db",
+        "payload_linear": 45531,
+        "file_offset": 45539,
+        "text": "Dodge ",
+        "exact_offset_match_in_ascii_artifact": true,
+        "ascii_artifact_text": "Dodge "
+      },
+      {
+        "ghidra_address": "0000:ed3b",
+        "payload_linear": 60731,
+        "file_offset": 60739,
+        "text": "Cant identify wild terrain",
+        "exact_offset_match_in_ascii_artifact": true,
+        "ascii_artifact_text": "Cant identify wild terrain"
+      },
+      {
+        "ghidra_address": "1000:5c61",
+        "payload_linear": 89185,
+        "file_offset": 89193,
+        "text": "  Using Leadership Skill",
+        "exact_offset_match_in_ascii_artifact": true,
+        "ascii_artifact_text": "  Using Leadership Skill"
+      },
+      {
+        "ghidra_address": "1000:6db4",
+        "payload_linear": 93620,
+        "file_offset": 93628,
+        "text": "lost olddude in alterpartyorder",
+        "exact_offset_match_in_ascii_artifact": true,
+        "ascii_artifact_text": "lost olddude in alterpartyorder"
+      },
+      {
+        "ghidra_address": "1000:7f2f",
+        "payload_linear": 98095,
+        "file_offset": 98103,
+        "text": "Select ",
+        "exact_offset_match_in_ascii_artifact": true,
+        "ascii_artifact_text": "Select "
+      },
+      {
+        "ghidra_address": "1000:8f15",
+        "payload_linear": 102165,
+        "file_offset": 102173,
+        "text": " can't be modified.",
+        "exact_offset_match_in_ascii_artifact": true,
+        "ascii_artifact_text": " can't be modified."
+      },
+      {
+        "ghidra_address": "1000:c45a",
+        "payload_linear": 115802,
+        "file_offset": 115810,
+        "text": "Weapon\\nClip  Fill",
+        "exact_offset_match_in_ascii_artifact": true,
+        "ascii_artifact_text": "Weapon"
+      },
+      {
+        "ghidra_address": "1000:f63f",
+        "payload_linear": 128575,
+        "file_offset": 128583,
+        "text": "Unexpected error during save: !",
+        "exact_offset_match_in_ascii_artifact": true,
+        "ascii_artifact_text": "Unexpected error during save: !"
+      },
+      {
+        "ghidra_address": "2000:0d77",
+        "payload_linear": 134519,
+        "file_offset": 134527,
+        "text": "Load Which Game: ",
+        "exact_offset_match_in_ascii_artifact": true,
+        "ascii_artifact_text": "Load Which Game: "
+      },
+      {
+        "ghidra_address": "2000:e322",
+        "payload_linear": 189218,
+        "file_offset": 189226,
+        "text": "Yes No",
+        "exact_offset_match_in_ascii_artifact": true,
+        "ascii_artifact_text": "Yes No"
+      }
+    ],
+    "start_unpacked_ghidra_defined_string_count": 243,
+    "start_original_string_count": 482,
+    "start_exact_text_overlap_count": 166,
+    "start_exact_text_overlap_sample": [
+      {
+        "address": "1cc0:01f1",
+        "data_type": "string",
+        "length": "31",
+        "text": "!#$456789:;<=>?uRuntime error "
+      },
+      {
+        "address": "1e87:068b",
+        "data_type": "string",
+        "length": "21",
+        "text": "The team has found "
+      },
+      {
+        "address": "1e87:0a4c",
+        "data_type": "string",
+        "length": "16",
+        "text": "Order Purge "
+      },
+      {
+        "address": "1e87:0a74",
+        "data_type": "string",
+        "length": "40",
+        "text": "%Novice Cadet Trooper Veteran Ace Exit"
+      },
+      {
+        "address": "1e87:0b81",
+        "data_type": "string",
+        "length": "19",
+        "text": "Purge Character"
+      },
+      {
+        "address": "1e87:0bab",
+        "data_type": "string",
+        "length": "17",
+        "text": "Modify Character"
+      },
+      {
+        "address": "1e87:0bd5",
+        "data_type": "string",
+        "length": "15",
+        "text": "Icon Select"
+      },
+      {
+        "address": "1e87:0bff",
+        "data_type": "string",
+        "length": "17",
+        "text": "Train Character"
+      },
+      {
+        "address": "1e87:0c29",
+        "data_type": "string",
+        "length": "15",
+        "text": "View Character"
+      },
+      {
+        "address": "1e87:0c53",
+        "data_type": "string",
+        "length": "25",
+        "text": "Add Character to Team"
+      },
+      {
+        "address": "1e87:0c7d",
+        "data_type": "string",
+        "length": "27",
+        "text": "Remove Character from Team"
+      },
+      {
+        "address": "1e87:0ca7",
+        "data_type": "string",
+        "length": "17",
+        "text": "Load Saved Game"
+      },
+      {
+        "address": "1e87:0cd1",
+        "data_type": "string",
+        "length": "19",
+        "text": "Save Current Game"
+      },
+      {
+        "address": "1e87:0cfb",
+        "data_type": "string",
+        "length": "21",
+        "text": "Begin Adventuring"
+      },
+      {
+        "address": "1e87:0d25",
+        "data_type": "string",
+        "length": "27",
+        "text": "JoyStick/Mouse Initialize"
+      },
+      {
+        "address": "1e87:0d4f",
+        "data_type": "string",
+        "length": "13",
+        "text": "Exit to DOS"
+      },
+      {
+        "address": "1e87:1070",
+        "data_type": "string",
+        "length": "8",
+        "text": "Hubble"
+      },
+      {
+        "address": "1e87:1086",
+        "data_type": "string",
+        "length": "10",
+        "text": "Kepler"
+      },
+      {
+        "address": "1e87:1091",
+        "data_type": "string",
+        "length": "8",
+        "text": "Goddard"
+      },
+      {
+        "address": "1e87:109c",
+        "data_type": "string",
+        "length": "8",
+        "text": "Adder"
+      },
+      {
+        "address": "1e87:10a7",
+        "data_type": "string",
+        "length": "9",
+        "text": "Viper"
+      },
+      {
+        "address": "1e87:10b2",
+        "data_type": "string",
+        "length": "10",
+        "text": "Anaconda"
+      },
+      {
+        "address": "1e87:10d3",
+        "data_type": "string",
+        "length": "9",
+        "text": "Mohave"
+      },
+      {
+        "address": "1e87:10de",
+        "data_type": "string",
+        "length": "10",
+        "text": "Sahara"
+      },
+      {
+        "address": "1e87:10f4",
+        "data_type": "string",
+        "length": "8",
+        "text": "Outback"
+      },
+      {
+        "address": "1e87:10ff",
+        "data_type": "string",
+        "length": "9",
+        "text": "Kalihari"
+      },
+      {
+        "address": "1e87:110a",
+        "data_type": "string",
+        "length": "6",
+        "text": "Flare"
+      },
+      {
+        "address": "1e87:1115",
+        "data_type": "string",
+        "length": "7",
+        "text": "Corona"
+      },
+      {
+        "address": "1e87:1120",
+        "data_type": "string",
+        "length": "8",
+        "text": "Hermes"
+      },
+      {
+        "address": "1e87:112b",
+        "data_type": "string",
+        "length": "9",
+        "text": "Osiris"
+      },
+      {
+        "address": "1e87:1136",
+        "data_type": "string",
+        "length": "10",
+        "text": "Apollo"
+      },
+      {
+        "address": "1e87:114c",
+        "data_type": "string",
+        "length": "8",
+        "text": "Eclipse"
+      },
+      {
+        "address": "1e87:1162",
+        "data_type": "string",
+        "length": "10",
+        "text": "Gambit"
+      },
+      {
+        "address": "1e87:116d",
+        "data_type": "string",
+        "length": "8",
+        "text": "Dervish"
+      },
+      {
+        "address": "1e87:1178",
+        "data_type": "string",
+        "length": "8",
+        "text": "Laser"
+      },
+      {
+        "address": "1e87:1181",
+        "data_type": "string",
+        "length": "8",
+        "text": "P-laser"
+      },
+      {
+        "address": "1e87:1193",
+        "data_type": "string",
+        "length": "8",
+        "text": "Missile"
+      },
+      {
+        "address": "1e87:11f5",
+        "data_type": "string",
+        "length": "11",
+        "text": "Sensors"
+      },
+      {
+        "address": "1e87:1207",
+        "data_type": "string",
+        "length": "17",
+        "text": "Control systems"
+      },
+      {
+        "address": "1e87:1219",
+        "data_type": "string",
+        "length": "15",
+        "text": "Life support"
+      }
+    ],
+    "interpretation": "Ghidra-defined strings are a subset of the project string extractors. For GAME.OVR, convert Ghidra payload linear offsets back to original file offsets by adding 8 bytes."
+  }
+}

@@ -1,0 +1,4890 @@
+[
+  {
+    "file": "8X8D0.DAX",
+    "id": 1,
+    "raw_size": 6206,
+    "packed_size": 4560,
+    "decoded_sha256": "22cff5b9a2447fac0dc79fcecebf6c2a22ed910df686eb455cf979147eeced71",
+    "warnings": ""
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 1,
+    "raw_size": 16818,
+    "packed_size": 15066,
+    "decoded_sha256": "d87c0fe5d02ba7da89110aa2c81b5956f84711d0d3a7dc8713acf79d1d0ce336",
+    "warnings": ""
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 3,
+    "raw_size": 16818,
+    "packed_size": 14867,
+    "decoded_sha256": "1338bb17cc6f0fe36cb7f943fdf6d2eaec1175389ff7c7924bd8e1a79246f6c3",
+    "warnings": ""
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 5,
+    "raw_size": 16818,
+    "packed_size": 15215,
+    "decoded_sha256": "cbb2a1620debcc25eba0444d8f58139b0b39a7bd4bb4b039e5d6b743a09c5c8f",
+    "warnings": ""
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 7,
+    "raw_size": 16818,
+    "packed_size": 14874,
+    "decoded_sha256": "f5a2bed09f3e59b1302138ef3b7ac4817033fa19217aacf3d370427d511c7f2f",
+    "warnings": ""
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 9,
+    "raw_size": 16818,
+    "packed_size": 14286,
+    "decoded_sha256": "a30f4d3894f393fd303c2297b5677bd8a8d20aa9b1cf06cb71ff066e9dce47f6",
+    "warnings": ""
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 11,
+    "raw_size": 16818,
+    "packed_size": 15651,
+    "decoded_sha256": "6a2f8ec534ba54c022f744ef3661703a29a770503008fa56d4352727a4319263",
+    "warnings": ""
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 13,
+    "raw_size": 16818,
+    "packed_size": 16109,
+    "decoded_sha256": "c92e79fecf801ce62f6cca475b03ac252739bfee8b12e5e1b580c3d80091ea59",
+    "warnings": ""
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 15,
+    "raw_size": 16818,
+    "packed_size": 16004,
+    "decoded_sha256": "49ecd021869c4b634443a7a9c7baefd16524f92b33c865867da3bbba70fdd827",
+    "warnings": ""
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 17,
+    "raw_size": 16818,
+    "packed_size": 16330,
+    "decoded_sha256": "68a09844620b8338b9a9f8f6b07678291691457c4c3bbb6398d3a602b7a02c34",
+    "warnings": ""
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 19,
+    "raw_size": 16818,
+    "packed_size": 14906,
+    "decoded_sha256": "7c974256928e57f3042e5ef8859f5b211180f6f095eb89bf4faa555e27a1a5a6",
+    "warnings": ""
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 22,
+    "raw_size": 16818,
+    "packed_size": 14349,
+    "decoded_sha256": "20a3ef0f0aa0c49e29489386a8c63acd3dcb67743bebe3e4caddb4a81eb6691d",
+    "warnings": ""
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 201,
+    "raw_size": 2048,
+    "packed_size": 580,
+    "decoded_sha256": "158f32ca1976a9d0d087a12d75d2b746a053673e614c6b2ad6299eeb4e060728",
+    "warnings": ""
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 202,
+    "raw_size": 1350,
+    "packed_size": 540,
+    "decoded_sha256": "8be3b6825e042101d0b4295e2abbd0be46e14fcf91a9be629c16a324ea4ad81b",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 1,
+    "raw_size": 7870,
+    "packed_size": 3906,
+    "decoded_sha256": "9680e092cae5e4ed13f5b18972d7a403b2677fb565bd7de174872a581705cb1d",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 129,
+    "raw_size": 7870,
+    "packed_size": 4234,
+    "decoded_sha256": "7e43ec50f60a456a46242943f33307de7436985027fb4d97981b34a9c82b1386",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 3,
+    "raw_size": 7870,
+    "packed_size": 4574,
+    "decoded_sha256": "13d2ece4411854da245fbcac4fc7a83762d0ac0f754d8c2bf7272af32856ceb7",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 131,
+    "raw_size": 7870,
+    "packed_size": 3314,
+    "decoded_sha256": "17601ebb6b1945be54c72ec08d64cfa9eefa05a5f3d4a620d53c86074a0ff067",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 5,
+    "raw_size": 7870,
+    "packed_size": 3166,
+    "decoded_sha256": "91835fed9a124c8a31a75644da7ebadc65b2270c31b26bfdd4006ead93391006",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 133,
+    "raw_size": 7870,
+    "packed_size": 3954,
+    "decoded_sha256": "d92f11d7649b3365676bab676e630e06af7bbf7e4b25734698ea8ff001ff8da9",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 7,
+    "raw_size": 7870,
+    "packed_size": 3907,
+    "decoded_sha256": "3583d060209b7aef1cf1089263b4ccca6141cef32d53a8b3b68c5a7e60c68b77",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 135,
+    "raw_size": 7870,
+    "packed_size": 4865,
+    "decoded_sha256": "01869a99db20fa52d04624de679b6ac9a14ad9ef372cdc6eb2a31c274deacbfb",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 9,
+    "raw_size": 7870,
+    "packed_size": 8062,
+    "decoded_sha256": "e73e42db11f8a0da169d887807325870e2932a6ebf2500d69c8c6d0ef2f7035a",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 11,
+    "raw_size": 7870,
+    "packed_size": 2926,
+    "decoded_sha256": "4bf0589f06af90ee0278067da8d0b6c603748cfb533082775ef10dc85d26e0be",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 139,
+    "raw_size": 7870,
+    "packed_size": 6845,
+    "decoded_sha256": "b555d8ce3b4c272da0df8299d6378f048c1fa6e3aa22dbb392f8716aa929afc5",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 13,
+    "raw_size": 7870,
+    "packed_size": 6359,
+    "decoded_sha256": "766b1b63b9f109150ffe77caa6b3762d4a24661123a375a5d007e0b0ce61b99d",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 141,
+    "raw_size": 7870,
+    "packed_size": 6827,
+    "decoded_sha256": "2c09465c3270a5fd7fc669746b9ecee1058cc25e0c1f6aa03b37292b8932ccda",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 15,
+    "raw_size": 7870,
+    "packed_size": 7093,
+    "decoded_sha256": "e99d851b95bffea582cda31050830bf34af65ccea3d0e014b89d2876cc96996d",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 143,
+    "raw_size": 7870,
+    "packed_size": 6928,
+    "decoded_sha256": "7d4b6eb6c4a0c63adad8721617030d9dcb2a76a585951541068a9c16b271a991",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 17,
+    "raw_size": 7870,
+    "packed_size": 8059,
+    "decoded_sha256": "4821f77b5824e00032b432ba49a3f218a8f3f221ee956740b690620e1adc1507",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 19,
+    "raw_size": 7870,
+    "packed_size": 4476,
+    "decoded_sha256": "749693557eb40c3a69187848f0006020c9f52b65b4af83683601cbfe21ca2604",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 147,
+    "raw_size": 7870,
+    "packed_size": 7459,
+    "decoded_sha256": "31c4ddbaecb85a2235de558fe99407ae6ae8f19c208199f23e3840f47cb885e6",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 22,
+    "raw_size": 7870,
+    "packed_size": 2679,
+    "decoded_sha256": "7ae525472e3a28da3753ad5cb19df27166df53824afe23c25f72c4a5bebd5329",
+    "warnings": ""
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 150,
+    "raw_size": 7870,
+    "packed_size": 5145,
+    "decoded_sha256": "5e2430affc6b0bb2037548540ee30f6a0a743e01eb20483dbd6fa47a1680f679",
+    "warnings": ""
+  },
+  {
+    "file": "BIGPIC1.DAX",
+    "id": 112,
+    "raw_size": 37278,
+    "packed_size": 37238,
+    "decoded_sha256": "98e10a8eb3dd73d598731c2b3a84c8f8be329c8055ab24ff35e2c8d8e552b283",
+    "warnings": ""
+  },
+  {
+    "file": "BIGPIC1.DAX",
+    "id": 113,
+    "raw_size": 37278,
+    "packed_size": 38399,
+    "decoded_sha256": "917f94fb9f737728c86090999cc6aa5256169d137ea4739d08810a701031acc2",
+    "warnings": ""
+  },
+  {
+    "file": "BIGPIC1.DAX",
+    "id": 114,
+    "raw_size": 37278,
+    "packed_size": 27332,
+    "decoded_sha256": "814d18164920a419d88b0d3d7ed98af35890c9b30e57469ce0db0ced9f0d8b2e",
+    "warnings": ""
+  },
+  {
+    "file": "BIGPIC1.DAX",
+    "id": 115,
+    "raw_size": 37278,
+    "packed_size": 32287,
+    "decoded_sha256": "d4843be556ec6d9dc66da6cde0725ff5f9fa69a2bb4e999c78c0a9e64d7ffc50",
+    "warnings": ""
+  },
+  {
+    "file": "BIGPIC1.DAX",
+    "id": 116,
+    "raw_size": 37278,
+    "packed_size": 37171,
+    "decoded_sha256": "fc609a3539ef330e56947b1435ec935298c309063cae06986240f107e57028fd",
+    "warnings": ""
+  },
+  {
+    "file": "BIGPIC1.DAX",
+    "id": 117,
+    "raw_size": 37278,
+    "packed_size": 31000,
+    "decoded_sha256": "5f88ab7cc3337a300439415a1120bfc3893b9eb81af78a1c1c820d6dea05ea89",
+    "warnings": ""
+  },
+  {
+    "file": "BORDERS.DAX",
+    "id": 0,
+    "raw_size": 838,
+    "packed_size": 660,
+    "decoded_sha256": "a5b781b47d89f02440187deaed8e03f51fb2be6393ea680020350605f156d666",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 0,
+    "raw_size": 758,
+    "packed_size": 439,
+    "decoded_sha256": "7b994f5eeab06b2ed5a581bd15626a0725c586b0868ad057280c19989f0d597c",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 128,
+    "raw_size": 758,
+    "packed_size": 428,
+    "decoded_sha256": "fd8e24067fd67d3f349f741ca0d0157eb4674663fd1e33cc2494c3badb786512",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 1,
+    "raw_size": 758,
+    "packed_size": 440,
+    "decoded_sha256": "068d6d6d10e9ae0b6338504c6da44102647bdef495e5172d3cd1c78f234ae4f4",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 129,
+    "raw_size": 758,
+    "packed_size": 436,
+    "decoded_sha256": "b00ca86e1b2a6de87341fcb9bd29bb25f1b02ed288aa0dbe6ddac90f814fdeb3",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 2,
+    "raw_size": 758,
+    "packed_size": 431,
+    "decoded_sha256": "23695c9274b2443ae9b3935f0c253008b2d5499fbf37586742dee836c7dad825",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 130,
+    "raw_size": 758,
+    "packed_size": 423,
+    "decoded_sha256": "e8557ef74c33cfa84a1a1c4bdf3a68e1a8b595b0b6483bda9de63deb89ead671",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 3,
+    "raw_size": 758,
+    "packed_size": 461,
+    "decoded_sha256": "6ba56f8e5ea6c5c16099e308727c003d0702f431becac7bb34f5c930ce4c8dcd",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 131,
+    "raw_size": 758,
+    "packed_size": 455,
+    "decoded_sha256": "6130b7cfcc912b9054ab26fb75f47a4a142cd5b3c344dd1a3a220e5e87bb6c36",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 4,
+    "raw_size": 758,
+    "packed_size": 441,
+    "decoded_sha256": "ccb90d6fcd113b26e64b583f0d5482179306a9eb86f0d460783031e99c65514d",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 132,
+    "raw_size": 758,
+    "packed_size": 427,
+    "decoded_sha256": "f928e5ee37d4964aa56b2b1e8888e0d343c76fb28703be27c0589a4fe9291fea",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 5,
+    "raw_size": 758,
+    "packed_size": 444,
+    "decoded_sha256": "1b929b2848dedb7996540136f4f9243ef1949ef0de8b41c16da44c1e2b34c347",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 133,
+    "raw_size": 758,
+    "packed_size": 425,
+    "decoded_sha256": "3e728717a848051470097adb957f17911fc70305fb060c50b99e472a4f406bff",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 6,
+    "raw_size": 758,
+    "packed_size": 458,
+    "decoded_sha256": "adb582ec09ed4b2729be9e62ca27dda61518f670ee2eac44ac508e7a6dd4df2b",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 134,
+    "raw_size": 758,
+    "packed_size": 463,
+    "decoded_sha256": "7585b65ca51e3c19b22b94d1923747043257d123790b3722a8dea4c2060e74b8",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 7,
+    "raw_size": 758,
+    "packed_size": 429,
+    "decoded_sha256": "6f28bea5c885a4c33a784ca70b53268c5a66c42813f681daeaa5847772db4e5e",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 135,
+    "raw_size": 758,
+    "packed_size": 427,
+    "decoded_sha256": "de1129609bfa08b966248df3cf2fab3fb19c3954c84bbdedbfc9b33785535623",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 8,
+    "raw_size": 758,
+    "packed_size": 435,
+    "decoded_sha256": "db6cb706bfa64fae0deebc5c916262daa8d7bb7fbc806cb5c50e430ded65ca58",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 136,
+    "raw_size": 758,
+    "packed_size": 428,
+    "decoded_sha256": "5581c2b5986eb77b8067bc2ec01175c05cd30faddc3a6d878a8160662bdfb922",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 9,
+    "raw_size": 758,
+    "packed_size": 444,
+    "decoded_sha256": "ecfbd0c603d3451de247d52134cd1129afbdb0c802c6ccbd92df4ec2480c0e1b",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 137,
+    "raw_size": 758,
+    "packed_size": 425,
+    "decoded_sha256": "9e3723198c6be29e6d1e9a561a871ce4a6bdeaba39f7d8b9ba5abd2710edb675",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 10,
+    "raw_size": 758,
+    "packed_size": 425,
+    "decoded_sha256": "07abe471213e9686260a331a754d11f7f9c3257c6f4c0ecf752d3f95a7b60e4b",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 138,
+    "raw_size": 758,
+    "packed_size": 418,
+    "decoded_sha256": "b836166eb7833bd078a7701d79896abdc2845f4eb27491dfa58f68d9bfb4d6ed",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 11,
+    "raw_size": 758,
+    "packed_size": 436,
+    "decoded_sha256": "7681f0f8f4b38ebfcecc6d9fea054a35d77edddf9aceeb594e8b2a8c2022b24d",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 139,
+    "raw_size": 758,
+    "packed_size": 422,
+    "decoded_sha256": "859423cc8ab2f814a6e313dbce241740ea566267fc92adbb87ee0918538ce0c7",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 12,
+    "raw_size": 758,
+    "packed_size": 433,
+    "decoded_sha256": "5d58daa67c2a0056ea2805d77fc36f7af39e83783c0ce8ee200d92c4e31c7bb2",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 140,
+    "raw_size": 758,
+    "packed_size": 436,
+    "decoded_sha256": "b43180ef04f8ae351dc6253a987465f1c299f179ee149d519e724dea0855acbd",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 13,
+    "raw_size": 758,
+    "packed_size": 427,
+    "decoded_sha256": "68d280d5af902b4af3a4fc8198b11a738240169bd623dd5db84cc25f72ea6d42",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 141,
+    "raw_size": 758,
+    "packed_size": 422,
+    "decoded_sha256": "93769329f7b9085d3cb703e3ef88a1f866a942b124af582715856b13ce229366",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 14,
+    "raw_size": 758,
+    "packed_size": 427,
+    "decoded_sha256": "1e4d1acba44806418044405800e9a563828d8ac86549b82f6021f03fe6bf75a4",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 142,
+    "raw_size": 758,
+    "packed_size": 425,
+    "decoded_sha256": "828eabe4899b5fc81948ed2104f62931df89a396c082f52f13f6e79392572364",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 15,
+    "raw_size": 758,
+    "packed_size": 422,
+    "decoded_sha256": "4eb2d41ef42b91f33aeb450429955b35479862658ed02638b7b1d9b427be946e",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 143,
+    "raw_size": 758,
+    "packed_size": 425,
+    "decoded_sha256": "7ac1fb594406d2f6e1d750fa5e186572ba720e9dc9b560dc33a20f70130b5490",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 16,
+    "raw_size": 758,
+    "packed_size": 464,
+    "decoded_sha256": "ec87dea6998086c6c4401b618c7c0fb1c0050880ba2e9c0fede42f670c7bd43b",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 144,
+    "raw_size": 758,
+    "packed_size": 452,
+    "decoded_sha256": "e3d010473ce6abfda38ec7ff7449691931f09a21e81ab766d5318b290283c25e",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 17,
+    "raw_size": 758,
+    "packed_size": 376,
+    "decoded_sha256": "b67b61216a4f1b875b3f2cece35841a390fc44d956dcfeedb3ac7d3092ebf149",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 145,
+    "raw_size": 758,
+    "packed_size": 373,
+    "decoded_sha256": "4905123c75520e4093757e65e5d2ef13b50bd5cf332c7caba9c6615708cc220e",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 18,
+    "raw_size": 758,
+    "packed_size": 411,
+    "decoded_sha256": "c81927cb2454cc242aa70b50bca4eae753a67bfc527a382fd58646af33332370",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 146,
+    "raw_size": 758,
+    "packed_size": 385,
+    "decoded_sha256": "083f99188afca2d814b501883f65cf7347dc5baeb5741d359e7dc8e2a882af31",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 19,
+    "raw_size": 758,
+    "packed_size": 417,
+    "decoded_sha256": "4e65d466a329add0db10a5ed115cb8fce76aac871c2d635b861ada92f3b644be",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 147,
+    "raw_size": 758,
+    "packed_size": 404,
+    "decoded_sha256": "ce61c05aee5a84c4f0034564ccc44976eb2ddb8bdce95a3141cc0c877f36b9f4",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 20,
+    "raw_size": 758,
+    "packed_size": 415,
+    "decoded_sha256": "3b7e48de213727f1e968bfc4091deb748dd9d0bfd1167f955c2cd49624e7c1c1",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 148,
+    "raw_size": 758,
+    "packed_size": 399,
+    "decoded_sha256": "4d3042f20ad8c05cd467133b15e1e4334efb390a2569bf7528d6cd0d681464c6",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 21,
+    "raw_size": 758,
+    "packed_size": 450,
+    "decoded_sha256": "f3d555327902e3d66f11547dd3b854576b52a22bbfc5c1e5d0ef24797825d869",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 149,
+    "raw_size": 758,
+    "packed_size": 424,
+    "decoded_sha256": "53196851ecc59dd8118ef76e7df3fdcda19489bc86ee114b5a193c93e010eef8",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 22,
+    "raw_size": 758,
+    "packed_size": 474,
+    "decoded_sha256": "af6eaab20e1d4cf89685afe11d50d14dfec7363922f60186ceade3dbd241cc7d",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 150,
+    "raw_size": 758,
+    "packed_size": 441,
+    "decoded_sha256": "2a7c000f296d8ea341b59343d6144200aa36aef490c2a5fad63db400cde7f76c",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 23,
+    "raw_size": 758,
+    "packed_size": 524,
+    "decoded_sha256": "83d22621bafa872a77956c8e691d55a14f65f633854c181032cecc9ee0eb7232",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 151,
+    "raw_size": 758,
+    "packed_size": 485,
+    "decoded_sha256": "16e8756b234978f8b226829d6412b88727ffe348491fe6fae5a7680e627ed06b",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 24,
+    "raw_size": 758,
+    "packed_size": 459,
+    "decoded_sha256": "4f1db79cb295cc59dc080acaf63ace5fa39a40b1ac98c9c372cd034113c28193",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 152,
+    "raw_size": 758,
+    "packed_size": 426,
+    "decoded_sha256": "054508144b07a9812f3974a783abc7171a976d3e6b27821571abe6ee04af6938",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 25,
+    "raw_size": 758,
+    "packed_size": 410,
+    "decoded_sha256": "14b724993ded8c80a8a2ddf1201428384cc9f1c1d0b701c2fec219ad3a26d7b6",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 153,
+    "raw_size": 758,
+    "packed_size": 412,
+    "decoded_sha256": "53c314db713fd39bdb73b5b8be91ecc781d725b58d3400a81e790799222ba3ce",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 26,
+    "raw_size": 758,
+    "packed_size": 462,
+    "decoded_sha256": "a8382cd207d98d923abfc8e4bfa19bb34ac03e152d86512f8646f4bb05cd7a00",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 154,
+    "raw_size": 758,
+    "packed_size": 424,
+    "decoded_sha256": "24bd76f2af898e21c6dea69ee07aa9b3ec31d3540475952b4d5a3d9a1c79de05",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 27,
+    "raw_size": 758,
+    "packed_size": 470,
+    "decoded_sha256": "e59fe63ecda5b365dbdd5cca76e7eaf0431ecfb5bcea815ea03b10d831f655db",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 155,
+    "raw_size": 758,
+    "packed_size": 477,
+    "decoded_sha256": "0fcd1078ccc4481b69ef3dee4883c57cbd9b426a3f07d2cc6e3beb9786c3a3af",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 28,
+    "raw_size": 758,
+    "packed_size": 485,
+    "decoded_sha256": "4c86c358e3d3b489a0e97f1c87fdc3bff18d76d5b52d201b6d1e3d545a1eeebb",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 156,
+    "raw_size": 758,
+    "packed_size": 456,
+    "decoded_sha256": "38ff23d3d74f7f1bb4b7e319eb81eee69490407f237525480bd006fad8dfa680",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 29,
+    "raw_size": 758,
+    "packed_size": 417,
+    "decoded_sha256": "f1b01856eb7f10a8a59fee796000755b75c07d715686fbcbf05ed4ed288eb2ee",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 157,
+    "raw_size": 758,
+    "packed_size": 398,
+    "decoded_sha256": "fdaf3652ddccaca341739c5fdc12d1188daf7589887419c22d92b7203732dd72",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 30,
+    "raw_size": 758,
+    "packed_size": 407,
+    "decoded_sha256": "f5da0edf97d80b761d119b1f56a781120d23f0055b8d06580c7aeb1aac47a4d7",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 158,
+    "raw_size": 758,
+    "packed_size": 367,
+    "decoded_sha256": "19aab0172790cc97d0a694c4d0d2b53a1cd57becaebe24c582f6d4f8d3502ae5",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 31,
+    "raw_size": 758,
+    "packed_size": 487,
+    "decoded_sha256": "34bef0f9237d7da89b89ec63d76938b6f26778bc48e4dfc981bdc70f88745bc3",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 159,
+    "raw_size": 758,
+    "packed_size": 493,
+    "decoded_sha256": "4a0dcd79735a34c3bc879ef981de520e5177300cb0fbbbc53af43864ffcfd906",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 32,
+    "raw_size": 758,
+    "packed_size": 467,
+    "decoded_sha256": "68c66a4f48b0a92e2df5a06aa31cd4aff3247a7e9a0f891abbbcdb42d4be3567",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 160,
+    "raw_size": 758,
+    "packed_size": 457,
+    "decoded_sha256": "dcb6123881a7ec4727128e794d485d0e49a26f5bff3091e8e1b6c8b1f5f571ab",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 33,
+    "raw_size": 758,
+    "packed_size": 460,
+    "decoded_sha256": "1b464d54d14c0a6c32f3fa087e9bf99fdbd650ffe633d895669e55199978e1be",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 161,
+    "raw_size": 758,
+    "packed_size": 444,
+    "decoded_sha256": "c5952c902825ed8e8c72829a229dc773c263814f5107dc779872c4d50221a3ae",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 34,
+    "raw_size": 758,
+    "packed_size": 436,
+    "decoded_sha256": "aa0a558573cce37c5819e0e4a4e3c6d5d8ffdb1b5035b439d0cd1aeab3f2e051",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 162,
+    "raw_size": 758,
+    "packed_size": 437,
+    "decoded_sha256": "cd7df5a487cfe0b290efd81a1f4d3949bdf4700b8ab6eb2d68fa314b7cd9cdca",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 35,
+    "raw_size": 758,
+    "packed_size": 460,
+    "decoded_sha256": "ca80e7659b11f2872be8334be1a2c63bd4324722638157e72471ea55eafe15c0",
+    "warnings": ""
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 163,
+    "raw_size": 758,
+    "packed_size": 438,
+    "decoded_sha256": "7147f1c803222a78c23e5bc5e58385d261c5ff322371eff25d8e5ecebb92833c",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 1,
+    "raw_size": 702,
+    "packed_size": 429,
+    "decoded_sha256": "e0cb04ff84373b3fac1d4dd5c0a74f47386e8f1993f375607eb6cd971210ac82",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 129,
+    "raw_size": 702,
+    "packed_size": 429,
+    "decoded_sha256": "7724696fb857a0dffea83f40d76d2c87966c52dfaae8662589ebcbff0bb03720",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 2,
+    "raw_size": 702,
+    "packed_size": 417,
+    "decoded_sha256": "87c2d551635f9a2a032c91a428cd3a2535295e8092c6bcb2561b96e2c92ebc76",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 130,
+    "raw_size": 702,
+    "packed_size": 417,
+    "decoded_sha256": "0d626015cc656a94e9214762087fff0bd5a702d75edb55bb201c6c6e0645b812",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 3,
+    "raw_size": 702,
+    "packed_size": 362,
+    "decoded_sha256": "e9f6e5ae63e8542347233ea1a5ad43e4bfbc5631f4a094454a93f98d49764c89",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 131,
+    "raw_size": 702,
+    "packed_size": 360,
+    "decoded_sha256": "8b52e0b8ea59036304f9de27975f2999a679b4ae11dfe76c5574d12c1c82374b",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 4,
+    "raw_size": 702,
+    "packed_size": 218,
+    "decoded_sha256": "aed292eb0c3b05b8bc5f5d5c77194a20ad7937f254e590a7eb4eaa65e324aadb",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 132,
+    "raw_size": 702,
+    "packed_size": 218,
+    "decoded_sha256": "aed292eb0c3b05b8bc5f5d5c77194a20ad7937f254e590a7eb4eaa65e324aadb",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 5,
+    "raw_size": 702,
+    "packed_size": 196,
+    "decoded_sha256": "7017018ff62899c500b68ca932326ea4814cf9a70a03eb2051ceeea0fac4180d",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 133,
+    "raw_size": 702,
+    "packed_size": 196,
+    "decoded_sha256": "b68cb7838da0cd25860faef6dad1fc7c94aaa5b33d70fe220443e10a49b5359d",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 6,
+    "raw_size": 702,
+    "packed_size": 152,
+    "decoded_sha256": "a68c99aa5a7979789c11c783f503b4697f561ee4a578d8838b34bf5ab9bd8f28",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 134,
+    "raw_size": 702,
+    "packed_size": 152,
+    "decoded_sha256": "ddbe6cc9452a917c7126821e11516e0c0ae9f974228deb20bd022ac01b1bce1a",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 7,
+    "raw_size": 702,
+    "packed_size": 228,
+    "decoded_sha256": "8ee3c1ce6cf950543210b40d1c1c97462819d83760df5cc10cb4ab2f48af4768",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 135,
+    "raw_size": 702,
+    "packed_size": 228,
+    "decoded_sha256": "7b69c3cc85fa887e321a3f54b2303ded774c1cfa2c4dd239703a9de2f1008aab",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 8,
+    "raw_size": 702,
+    "packed_size": 226,
+    "decoded_sha256": "e1b81b905d526b17b6fa71d287d93f96bf402a097a69003f5bb6453364b6bd73",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 136,
+    "raw_size": 702,
+    "packed_size": 223,
+    "decoded_sha256": "02f27e29b2e2346251a60d355a53a18d9c49804510edd752af63a324ad025783",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 9,
+    "raw_size": 702,
+    "packed_size": 207,
+    "decoded_sha256": "509d8b303665c01b742409c6e9e3d03d14569c7d7927456d9f92bbd863b9af59",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 137,
+    "raw_size": 702,
+    "packed_size": 207,
+    "decoded_sha256": "7bcf9ce0adc9e2f1d1fc73bef269c09063510404b90746d1ba0aae7c73f3fd9c",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 10,
+    "raw_size": 702,
+    "packed_size": 198,
+    "decoded_sha256": "70fccc39cf012101b27bc67910357240dd7ad29be6bbd5ac906e92f8aa209608",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 138,
+    "raw_size": 702,
+    "packed_size": 198,
+    "decoded_sha256": "e024dd21bc3d9d9de60fd9fb01ed758ac050a5f384b7c60d4ed35d47bfd9bdbe",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 11,
+    "raw_size": 702,
+    "packed_size": 198,
+    "decoded_sha256": "b010389e04d31741e0c4d45e9de3f02579de22efd5efed37ac0478f659a88af5",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 139,
+    "raw_size": 702,
+    "packed_size": 198,
+    "decoded_sha256": "bd1c0141a5d97a0b8c563190f4f9a458731796990db0696de8163a7182f9221d",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 12,
+    "raw_size": 702,
+    "packed_size": 182,
+    "decoded_sha256": "830424451ea46be5fdaa135d96fad412c0f354c9689a45740b132e9e5ec7a926",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 140,
+    "raw_size": 702,
+    "packed_size": 182,
+    "decoded_sha256": "8ffe8d3d7eade669f3326c83532a7d4d1b556aeeb949d7a0d6d8a06609ceae14",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 13,
+    "raw_size": 702,
+    "packed_size": 256,
+    "decoded_sha256": "62cef7e34602a7a7c36dd6f137e7852e377aeaec07da86111db4bfecc51fca3b",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 141,
+    "raw_size": 702,
+    "packed_size": 256,
+    "decoded_sha256": "edd1e1dac700b7cd1bcd9c0e435e9e8392cfdd82d855f7c2107f9facd93623f9",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 14,
+    "raw_size": 702,
+    "packed_size": 256,
+    "decoded_sha256": "a310d1d1c70f85d4e89e387e278af5b54cdf264d49405c0ad43a5d69cfe6d1db",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 142,
+    "raw_size": 702,
+    "packed_size": 254,
+    "decoded_sha256": "542dfc1a33f302c7f9b3665cff06181a9ca9a294fced5289bc3f628896bbb709",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 15,
+    "raw_size": 702,
+    "packed_size": 206,
+    "decoded_sha256": "e08e7c81794718db246b9ed6e3319a8bc9cdea66013fa0c6e348e30d8f52b0a9",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 143,
+    "raw_size": 702,
+    "packed_size": 206,
+    "decoded_sha256": "b6244867575d720ea855272bb5cc20a62b30cc4c22adc88b99d4879b39a296a0",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 16,
+    "raw_size": 702,
+    "packed_size": 451,
+    "decoded_sha256": "bd07f67947ec8f412155be7f2e755488fd19f52aafc9677a7608a257e5c74d86",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 144,
+    "raw_size": 702,
+    "packed_size": 705,
+    "decoded_sha256": "9419fc08c53fa64a02a6222d46c5a86211dfcae3751e3ed579ab527a6b53fbb6",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 17,
+    "raw_size": 702,
+    "packed_size": 331,
+    "decoded_sha256": "a2a080ed3a27bd1b36c9a9e6848d3771999d7e98f7aff6591a0f13fc5303d22b",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 145,
+    "raw_size": 702,
+    "packed_size": 552,
+    "decoded_sha256": "ffa8ce18faad35e449c6ddd00c9b5f364b752c18a64cc9634277f12a06cef0c1",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 18,
+    "raw_size": 702,
+    "packed_size": 550,
+    "decoded_sha256": "b28b57017c7770d9b4a2a6833f161c09424ddd83bd8fe5bf3ccbd8f1508d6f77",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 146,
+    "raw_size": 702,
+    "packed_size": 550,
+    "decoded_sha256": "cdc86b7362cde4b31ee0d903414d8c6d96f0a2e424b7d6477776da595fdfa372",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 19,
+    "raw_size": 702,
+    "packed_size": 493,
+    "decoded_sha256": "0607ccfc21ab344dbeffd7326b469814c0315db7d308b078790f7fe01aa9ef7c",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 147,
+    "raw_size": 702,
+    "packed_size": 506,
+    "decoded_sha256": "02ebc72f245af3778afa1b6f5308af60325fefe4608f76e5e542a010249974ca",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 20,
+    "raw_size": 702,
+    "packed_size": 226,
+    "decoded_sha256": "e8267db3f432b016e6787c29b2ecad43f0e1192b441cd955f6ff6a2589fd5e57",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 148,
+    "raw_size": 702,
+    "packed_size": 226,
+    "decoded_sha256": "e8267db3f432b016e6787c29b2ecad43f0e1192b441cd955f6ff6a2589fd5e57",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 21,
+    "raw_size": 702,
+    "packed_size": 658,
+    "decoded_sha256": "4a7427508cdea1823e4b33a16ea295c4d7b8164aa509ed99b9c875eb7880dad9",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 149,
+    "raw_size": 702,
+    "packed_size": 688,
+    "decoded_sha256": "20b69373bd311cc6526706227aa53e8a781979ecefa7e7924db5492cbe69456f",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 22,
+    "raw_size": 702,
+    "packed_size": 689,
+    "decoded_sha256": "91a2c77ae7e7c2a775501ff0ed78676bce33d15e69b34a789a9064f462703cb4",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 150,
+    "raw_size": 702,
+    "packed_size": 641,
+    "decoded_sha256": "78cf07d9436721a1b55b36380608a4c3fc5f83dadc75aec07cce806d3ec57740",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 23,
+    "raw_size": 702,
+    "packed_size": 348,
+    "decoded_sha256": "923ef82b27103df4b05a27aada97880ee71863c6f6f0c29b3f02e9a81470cc0b",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 151,
+    "raw_size": 702,
+    "packed_size": 146,
+    "decoded_sha256": "def3e692227e0a30b59b076c8ed74133114060746322384f43300393155c06c4",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 24,
+    "raw_size": 702,
+    "packed_size": 532,
+    "decoded_sha256": "dec2e749417a3c661883669761e2c3b3856a89af6e43284f040e0e3dc83487c0",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 152,
+    "raw_size": 702,
+    "packed_size": 372,
+    "decoded_sha256": "fdb5d9d8df64801602c0190bbf7a96440dc9f72b61229c57d0f3e0ae7479189a",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 25,
+    "raw_size": 702,
+    "packed_size": 205,
+    "decoded_sha256": "5f43e8b93c6a20f351476bc7d8f0e4d6e1fab7034252633f6fa18fce9547a13a",
+    "warnings": ""
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 153,
+    "raw_size": 702,
+    "packed_size": 204,
+    "decoded_sha256": "7b9ab98ea43f44e89a7cba972d7ea5671f61d0262359347b19005995a58208db",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 1,
+    "raw_size": 982,
+    "packed_size": 633,
+    "decoded_sha256": "aba282281d2676c111f77d00c62e35b4ce3d043d5534540cd6894758a2e88d7b",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 129,
+    "raw_size": 982,
+    "packed_size": 615,
+    "decoded_sha256": "0d156b07a0988c9ce9e8fd781742974a427bb644326306ad9e55ed17025498aa",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 2,
+    "raw_size": 982,
+    "packed_size": 635,
+    "decoded_sha256": "fcbdcdea72c4d766f0d5c0977b1ac2c2792003f8f3159ea20ac61c9c68c2119c",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 130,
+    "raw_size": 982,
+    "packed_size": 617,
+    "decoded_sha256": "b6bb6c9e8fc9ee7fa91ab4534f721d18a539c1f4905baeb0e746b1417fdd72b6",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 3,
+    "raw_size": 982,
+    "packed_size": 635,
+    "decoded_sha256": "4dab426aa3f6623abb4ac949b07ec05cbc06889b4764d7e834b0308b7a296a36",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 131,
+    "raw_size": 982,
+    "packed_size": 613,
+    "decoded_sha256": "014255c5cff727b59805a48e3a5e34aa79c6f64e897ad8763e204fd9ac8e4764",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 4,
+    "raw_size": 982,
+    "packed_size": 627,
+    "decoded_sha256": "144f59a27446627b2a4d7212290dab91f61567f50db088321099e9e5e7ce5813",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 132,
+    "raw_size": 982,
+    "packed_size": 610,
+    "decoded_sha256": "958bca372cfdceb34436ea2019338dae30b33ebf6cd121dc15e64802c3b3a4b6",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 5,
+    "raw_size": 982,
+    "packed_size": 650,
+    "decoded_sha256": "3730a76c49f518a79ee1fa9b6f3be84860fd9193a24075ce79a1a12df0db1f20",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 133,
+    "raw_size": 982,
+    "packed_size": 642,
+    "decoded_sha256": "8ef7b0a8529a2e78fee255bfb4afc57dc959157b7bcbeb8e0008661f82593b3e",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 8,
+    "raw_size": 982,
+    "packed_size": 643,
+    "decoded_sha256": "c3e19b6b76bc79d38d10d02df94f48f25e13c6097b908c5f747c94d1e61b685b",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 136,
+    "raw_size": 982,
+    "packed_size": 631,
+    "decoded_sha256": "197a53606f6255a4d12447a638d8d14868ab0244d9f8c99caff2427ce1401360",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 9,
+    "raw_size": 982,
+    "packed_size": 804,
+    "decoded_sha256": "92e2747213decbae60351dbcec3fc007de339e86ef00e6000a665c3c15ce54d3",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 137,
+    "raw_size": 982,
+    "packed_size": 827,
+    "decoded_sha256": "9e8bed84274361f1b43f516890c3f520b49719e43266fd197dac8d942ca50bfa",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 10,
+    "raw_size": 1558,
+    "packed_size": 928,
+    "decoded_sha256": "5ca6fd80edd8d34742cfe5e97b3b63fa64564473679235b7d024eff780530625",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 138,
+    "raw_size": 1558,
+    "packed_size": 952,
+    "decoded_sha256": "bac6a3d1f26f437c2a5b9a3471276ccb96e122e6c682e258c7befd4935a2d02a",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 11,
+    "raw_size": 982,
+    "packed_size": 778,
+    "decoded_sha256": "581d12cfbd3529211f074743359adca28fb6011db650161d967e4f99e89ea60e",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 139,
+    "raw_size": 982,
+    "packed_size": 755,
+    "decoded_sha256": "2f20c6f463c73836feed2bb183ea8788b7526237ab9e2803a98228ff8eabf84c",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 12,
+    "raw_size": 982,
+    "packed_size": 676,
+    "decoded_sha256": "f6d2fd026141e49a52fa0079c9b21fc4cf5fb62d2ab6062312ae180f11c9fb5a",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 140,
+    "raw_size": 982,
+    "packed_size": 702,
+    "decoded_sha256": "c7bc7aa2696d7013e9cc996780f58fe7818b91f1a582a9a4b8ff54c4016043dd",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 13,
+    "raw_size": 982,
+    "packed_size": 678,
+    "decoded_sha256": "6bedef64f670b5cbf245317d56a235c4d998b584c9eab77c2bf276a91d1b7167",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 141,
+    "raw_size": 982,
+    "packed_size": 703,
+    "decoded_sha256": "d16d13492fa2da472fa73e5668ead28c2f118eabbf0869f1f3878bfc94273887",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 14,
+    "raw_size": 982,
+    "packed_size": 671,
+    "decoded_sha256": "628bc2bf70dfa83e3b84f4e97fdac4456dfd827d76fe6f7d38a853fc506d20f4",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 142,
+    "raw_size": 982,
+    "packed_size": 616,
+    "decoded_sha256": "bf277cbf5344d631fbf337d56bcf9064f0276e44353979eca3efae9193dc46fc",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 17,
+    "raw_size": 982,
+    "packed_size": 696,
+    "decoded_sha256": "105bd15133235a65a50208643b4c2cc1738581cbded41094b2a0f9cfd9d0f376",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 145,
+    "raw_size": 982,
+    "packed_size": 728,
+    "decoded_sha256": "96ac8b3c737be4561e5b1385fff6d4321d270b09a31f0e5775b7bf7fb81b4ce9",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 18,
+    "raw_size": 2710,
+    "packed_size": 2290,
+    "decoded_sha256": "d698c424fab404903fe1bc60512747dd0d55a4556b35dbb090e0c25ce3ac29a0",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 146,
+    "raw_size": 2710,
+    "packed_size": 2135,
+    "decoded_sha256": "c1e57c372645d94b1ffbb096164073251339e49783a7643ed0eb2dbe251323b4",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 19,
+    "raw_size": 982,
+    "packed_size": 682,
+    "decoded_sha256": "a77deb63aeefeeb4b2da775914b1956757c5409357fc9ec8a4bfd4168efe9439",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 147,
+    "raw_size": 982,
+    "packed_size": 634,
+    "decoded_sha256": "86797df6b0c35671f2c0754d46fe97917be03cddfd82efce04ec31bf94b0eaca",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 21,
+    "raw_size": 2710,
+    "packed_size": 1613,
+    "decoded_sha256": "2467db6e3899238b4427c5f07f8080b37280b0dbfb073701975573c9ee29c92c",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 149,
+    "raw_size": 2710,
+    "packed_size": 1625,
+    "decoded_sha256": "def11fc6abd2431a3551d642d7c4293050e28a6a3346ab5ca4080c8ce91a317f",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 22,
+    "raw_size": 2710,
+    "packed_size": 1783,
+    "decoded_sha256": "ac66d4a265ee09b3827e0f6073233d563661dc205c48d19ec431a96a291bdc2c",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 150,
+    "raw_size": 2710,
+    "packed_size": 1688,
+    "decoded_sha256": "e7f8d2cf2623177e0d075b69c6a6ab7c9b1f07eefccad1215a67d9dd5e665537",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 23,
+    "raw_size": 982,
+    "packed_size": 642,
+    "decoded_sha256": "b3c23a5dc513f338d70f40ca6b73c573ddcb026d9d04e2f4fa3dfe790660a63f",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 151,
+    "raw_size": 982,
+    "packed_size": 590,
+    "decoded_sha256": "5d1ca3273878e332c25c03f735de8252b516d23a5a784beceadd9e339b835c0b",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 24,
+    "raw_size": 982,
+    "packed_size": 763,
+    "decoded_sha256": "8e725703c4b7a51a73cf27426af23d084c52e6db51ff024d690dac46c6a4bd8b",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 152,
+    "raw_size": 982,
+    "packed_size": 717,
+    "decoded_sha256": "5ba21e3e82e9fefef7a3d8e38530a81e956764d35dd852fc537ce56f88de173e",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 25,
+    "raw_size": 982,
+    "packed_size": 713,
+    "decoded_sha256": "8d29efae6244fa2739820f48e3860ecaf62354da20b6f30b1022b4fad91e23e2",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 153,
+    "raw_size": 982,
+    "packed_size": 670,
+    "decoded_sha256": "da124276a593c1d25599bb7ee887bee62ebdea2f390e87143eb489b5925708c6",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 26,
+    "raw_size": 982,
+    "packed_size": 650,
+    "decoded_sha256": "4a2ddef99f8f50afdc19f1beca98b05d2056685d534d2fe32dc4f91466c55512",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 154,
+    "raw_size": 982,
+    "packed_size": 667,
+    "decoded_sha256": "2eebf0c43d9c9667fa5a861542f9d20166094440c9057d611317ed37a9042e20",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 29,
+    "raw_size": 2710,
+    "packed_size": 1244,
+    "decoded_sha256": "4aee1bb3115e63c81019820c86c02df80cde5ab811870b1e39936004255d604b",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 157,
+    "raw_size": 2710,
+    "packed_size": 1296,
+    "decoded_sha256": "39d2c6e027f57f3fee6e094c63943f2b999ca1cbfb49ff5c8ed592852ab268c4",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 30,
+    "raw_size": 982,
+    "packed_size": 655,
+    "decoded_sha256": "a7df321bc2afbc14602ba49e9c2839aa7b4af67a4ce14eb251a376c405c3f513",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 158,
+    "raw_size": 982,
+    "packed_size": 659,
+    "decoded_sha256": "f331f35d6ad4f8480bcbf54206fd399e6acd2014553ac36721c8be01e8959236",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 31,
+    "raw_size": 982,
+    "packed_size": 622,
+    "decoded_sha256": "136cd272459d92a878609adf12b95cbaca1b5d0afaf5bde8e9a4b4cf96524d97",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 159,
+    "raw_size": 982,
+    "packed_size": 613,
+    "decoded_sha256": "0cb08b76dedad13b43bca67cac5b93da802d2483db452f258887cd66f9452769",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 32,
+    "raw_size": 2710,
+    "packed_size": 1787,
+    "decoded_sha256": "ff12dc84429912d0ec0b949ec524ddedf01fcec7e02eb21ca92a5fc51c2d8981",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 160,
+    "raw_size": 2710,
+    "packed_size": 1839,
+    "decoded_sha256": "3ccb6f918c120f59858489f459f38587cf78aec58d4df6bbb2a8cdd750b33533",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 33,
+    "raw_size": 982,
+    "packed_size": 600,
+    "decoded_sha256": "7b3b01b68a4d33df1a5df6ccc16d8b918dbfc530029dac7ad92d745a8c0a6b2c",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 161,
+    "raw_size": 982,
+    "packed_size": 634,
+    "decoded_sha256": "57b5f80e84141ac2975cc91a1a0e4e71b249c07be816d4d82e9e6a9463eba009",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 35,
+    "raw_size": 982,
+    "packed_size": 683,
+    "decoded_sha256": "f09338f07ac59fdfd407dd7288d5c68ca6a9705def2a0639efadc3a2cc12cf7b",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 163,
+    "raw_size": 982,
+    "packed_size": 712,
+    "decoded_sha256": "494e4ef9a966789c21172b052787b72173878d8baab45d94e356a413165b5786",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 36,
+    "raw_size": 982,
+    "packed_size": 658,
+    "decoded_sha256": "d423e13075d8bd54498e65567b759938f4b3f16d2efbcab16adf0c3b3b66870a",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 164,
+    "raw_size": 982,
+    "packed_size": 653,
+    "decoded_sha256": "06b15903885329523c4baacb10d4098493a446b1fa6c97b579e0f63e94a9fa4e",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 37,
+    "raw_size": 982,
+    "packed_size": 609,
+    "decoded_sha256": "69a5b9debfb33d4863a005b9fcfa2810bce504eb6bf56f9b3141031f73a97f91",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 165,
+    "raw_size": 982,
+    "packed_size": 673,
+    "decoded_sha256": "de6906ec14463d8e73cb66d6f3055495f58eb6e1cada5e85919c2edd4a211a5b",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 39,
+    "raw_size": 1558,
+    "packed_size": 1022,
+    "decoded_sha256": "a30a3258526fb6f8f6490fbf472754c953a240b9ef0269ccdf670ebd544fe2a8",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 167,
+    "raw_size": 1558,
+    "packed_size": 1134,
+    "decoded_sha256": "34f1235ae9eb7fbd3aa900fe3e2d08a6c4086e829cf02d2095a8353dc157229c",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 40,
+    "raw_size": 1558,
+    "packed_size": 1021,
+    "decoded_sha256": "5d4e571ce647554d36340185285e70c6f1c7e762bcb89347ac4cb480d40ef678",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 168,
+    "raw_size": 1558,
+    "packed_size": 1071,
+    "decoded_sha256": "0df2859f357c71044a194ba291e204d5df0f9e77488bf5e159c852b449ef5abd",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 41,
+    "raw_size": 982,
+    "packed_size": 755,
+    "decoded_sha256": "33259dc8e9b99abb4740ec7916b783dd72d79dc43b8e98d37f96b12f512792a2",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 169,
+    "raw_size": 982,
+    "packed_size": 780,
+    "decoded_sha256": "4488d8d0738a9411242322ab47c1464d08046423e14b8a993116520fd45e6002",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 42,
+    "raw_size": 1558,
+    "packed_size": 1310,
+    "decoded_sha256": "1e1c2c827048ad7960f0f0bb2593f01e2a73071946da60311f06fe3c8f343589",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 170,
+    "raw_size": 1558,
+    "packed_size": 1351,
+    "decoded_sha256": "1814a0884e8ba7cfa3ba643a14c1b76eb5cfe4a86843c708fe65883f86ac115d",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 43,
+    "raw_size": 982,
+    "packed_size": 724,
+    "decoded_sha256": "48a25a0ed8f79648f007bcb471ca15b9f08e407e7eaed3ec04691a5d421f3012",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 171,
+    "raw_size": 982,
+    "packed_size": 697,
+    "decoded_sha256": "77440bfba12e122648cadd1d4ea5d56dea79000ab35349acaa530e4496539581",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 44,
+    "raw_size": 982,
+    "packed_size": 809,
+    "decoded_sha256": "57382104e7aadfbcafdde270e6ab1339d1c474f82f50b8126d07fba69f2dd048",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 172,
+    "raw_size": 982,
+    "packed_size": 718,
+    "decoded_sha256": "3fd34ca656b4d9aa254e87f6883d38a2b3ddffcc61a1de7e18e00502bd6ea212",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 45,
+    "raw_size": 982,
+    "packed_size": 805,
+    "decoded_sha256": "7d3e3206a2f62b39047000396947557e931eb31af8e4570ff072b12320aa68c3",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 173,
+    "raw_size": 982,
+    "packed_size": 802,
+    "decoded_sha256": "a6fe9187cc380c5291fe727f2c3967c3d75b774d892bce368e828bb7f944b515",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 46,
+    "raw_size": 982,
+    "packed_size": 636,
+    "decoded_sha256": "b2e2ad4c17b319e33ec60a627e693c6e96a38099dfc407f6d229ca39eb01a3e2",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 174,
+    "raw_size": 982,
+    "packed_size": 635,
+    "decoded_sha256": "454329e1a2f88ed80f47271fd04c396a9d88c9741efe9a8bb82bb671912c1d1d",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 47,
+    "raw_size": 1558,
+    "packed_size": 1056,
+    "decoded_sha256": "b253a7895de996aa6d42ded6650b128e499a371363ede961bb3990130b7c0dc2",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 175,
+    "raw_size": 1558,
+    "packed_size": 1260,
+    "decoded_sha256": "ef9ae1dfd19ffa10acf5eb1eb539ca52f6014d0c6969e0b2dcf5563c2e54ffc7",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 48,
+    "raw_size": 1558,
+    "packed_size": 1147,
+    "decoded_sha256": "2a93d9be022d5a909decd2ebe39d9c2ad999dd29c33248056fbb4a5a0a626d2c",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 176,
+    "raw_size": 1558,
+    "packed_size": 1186,
+    "decoded_sha256": "c0b79d475ac3318a049e3d7bcf0aa64dfa3f13b06f07ce98598fdfc27d8cda5b",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 49,
+    "raw_size": 1558,
+    "packed_size": 1197,
+    "decoded_sha256": "9f1042c5c2cee76b33f357aa03a44bddbf0ffd54cc9be279ea438fd5f1fd4999",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 177,
+    "raw_size": 1558,
+    "packed_size": 1275,
+    "decoded_sha256": "856dc26c07eeab5ca228795a09f0f6ece7c9c9588892d07a48de3e596cef6c26",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 50,
+    "raw_size": 982,
+    "packed_size": 703,
+    "decoded_sha256": "2a992c238fd8957d5e0deb27d1980bcbd14df3a02a738d7c2a7f5042c3bfd76b",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 178,
+    "raw_size": 982,
+    "packed_size": 697,
+    "decoded_sha256": "a39ebbfd818a9f9ff0b57b34f7fc06a945a1b9c400615a4225aa6084c3b5e600",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 51,
+    "raw_size": 982,
+    "packed_size": 778,
+    "decoded_sha256": "f62f404c4613ef4f9197d3786a947f41bd655cce69ba48290bcc5342f0b0e07b",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 179,
+    "raw_size": 982,
+    "packed_size": 784,
+    "decoded_sha256": "fbd1d6602320f53907386eae37777b949cd77907b193672618ffc1c1de43b971",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 52,
+    "raw_size": 982,
+    "packed_size": 697,
+    "decoded_sha256": "c3a608761cb843776a47c60fbfab53dadf8e266537681e24dfa906ad7a29f0db",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 180,
+    "raw_size": 982,
+    "packed_size": 708,
+    "decoded_sha256": "9ea7ca8957b8dc01f4cc1820a68b13337b353b4741280736395302af1dd123a6",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 53,
+    "raw_size": 982,
+    "packed_size": 711,
+    "decoded_sha256": "be25a3014cee2c8ecd98c658fe489423741af83e1070890aea28d03b3b6a13de",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 181,
+    "raw_size": 982,
+    "packed_size": 695,
+    "decoded_sha256": "f7172b46a3736fe519b94b026bc86b82d9cfa1458994b28648ee973b6a6b9eb9",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 54,
+    "raw_size": 982,
+    "packed_size": 780,
+    "decoded_sha256": "fc53890cd3dc00226b970eb18a62816ffbed8ad7ba00ef83cd5da0cbf15c349b",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 182,
+    "raw_size": 982,
+    "packed_size": 774,
+    "decoded_sha256": "3564b7bd46e2a4dbbff458491d57d694d88805395688d8533f21b19c2b2f0370",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 55,
+    "raw_size": 982,
+    "packed_size": 591,
+    "decoded_sha256": "3cb5f65aab0a7ef01e41f6eb9d4b978197cb2d5f28739d7f2b98aead5f37294f",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 183,
+    "raw_size": 982,
+    "packed_size": 591,
+    "decoded_sha256": "7ee9b885402270d376799e407d57d088bc70d942c3b583056ca26606191b2fad",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 56,
+    "raw_size": 982,
+    "packed_size": 548,
+    "decoded_sha256": "47590f3337b5059756d4cf22f9b47cb32c82e2ffcbc3ab996b5cafe0fe383e64",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 184,
+    "raw_size": 982,
+    "packed_size": 521,
+    "decoded_sha256": "9d6372aa08cfd14f2e2c3eb66265b0e141b6778b237a58adf3d0858c7a730806",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 57,
+    "raw_size": 982,
+    "packed_size": 636,
+    "decoded_sha256": "3a4933ff766ade916dd61deb0dadd39ccfc0c9faf15f7fa0a21a7a7d47e58a99",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 185,
+    "raw_size": 982,
+    "packed_size": 626,
+    "decoded_sha256": "c7dc4439985fff3098adf0f767dfc8b222a704778cd07e9a4fd535c6035e601e",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 58,
+    "raw_size": 982,
+    "packed_size": 676,
+    "decoded_sha256": "0d72810da4a64c227815deaeaced2f49b67ee0dadaef4df9453640450348c74e",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 186,
+    "raw_size": 982,
+    "packed_size": 699,
+    "decoded_sha256": "beae123c392b75d2a0e2c89a44883266d6d2118f9181a5e0a55fb083ce2258d4",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 59,
+    "raw_size": 982,
+    "packed_size": 675,
+    "decoded_sha256": "964d16301d0677ddfed791c996ad1dbb9555501fe017560ca2d5a7630f85f1ca",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 187,
+    "raw_size": 982,
+    "packed_size": 699,
+    "decoded_sha256": "3fbf673411c5319c32fa83a25f75fad000f4633bbf3f14d50208c771cbde0895",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 60,
+    "raw_size": 982,
+    "packed_size": 676,
+    "decoded_sha256": "010fb703e3fcceddd568d52c3a540cd3a5ac01a5700a1322392eb55b8a619167",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 188,
+    "raw_size": 982,
+    "packed_size": 688,
+    "decoded_sha256": "f4430373a7584ab8a31052d734d280cae0fb477bd0d25a02343dbf4a92a194a5",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 61,
+    "raw_size": 982,
+    "packed_size": 746,
+    "decoded_sha256": "4681673848dd8f47bd4202a66556214da5bdabdfe8ecb3115970b5401a4f07e0",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 189,
+    "raw_size": 982,
+    "packed_size": 650,
+    "decoded_sha256": "aec376b2388cd5bbcef8ce57378f43c09662701a3eac1a3940db771ef562e22a",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 63,
+    "raw_size": 1558,
+    "packed_size": 1147,
+    "decoded_sha256": "d0311243209ccde03a7aa5ac7c6b0ee2586abb708bdd851b88011b212e3292a6",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 191,
+    "raw_size": 1558,
+    "packed_size": 1208,
+    "decoded_sha256": "b1d5b2a6a18e88af8ac2688ad963959ebad3eb3d49f3aea694627173e47505f4",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 64,
+    "raw_size": 982,
+    "packed_size": 699,
+    "decoded_sha256": "7f9bcc37ba7e7525b376511d26047b5a0d4ef677a6f71f60bf7dd35b527f625a",
+    "warnings": ""
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 192,
+    "raw_size": 982,
+    "packed_size": 633,
+    "decoded_sha256": "0f671de5e0cdfb7ecb748d2955580895347292d48d583d45ad4268e40aea535c",
+    "warnings": ""
+  },
+  {
+    "file": "CURSOR.DAX",
+    "id": 1,
+    "raw_size": 134,
+    "packed_size": 121,
+    "decoded_sha256": "04c21162911af7c5b13b034b0c87851f8d4e4f31c7995f481df039f2809e00ed",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 1,
+    "raw_size": 3702,
+    "packed_size": 3850,
+    "decoded_sha256": "28e54899758b8328afe0c872cbc37b50c0e774f82ace26e0d7240f5593dd6fba",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 2,
+    "raw_size": 764,
+    "packed_size": 796,
+    "decoded_sha256": "6abcae7a84a64ba677edfc7c4b0351772afe1268ab07e2c1ac65603183e20604",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 16,
+    "raw_size": 33,
+    "packed_size": 40,
+    "decoded_sha256": "1d27c8648684f5213c22ed10a0f37cb7d595f346de99ce0a4b3d3eef1592279f",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 17,
+    "raw_size": 9008,
+    "packed_size": 9235,
+    "decoded_sha256": "babce349df94ca9c8fcb80d6537e422d7c7f165de878ac485022ce5830a8564b",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 18,
+    "raw_size": 8537,
+    "packed_size": 8755,
+    "decoded_sha256": "81a994f2a3bd1130dcfa2d0b4071cba2735cace826770210c38053744ec3089b",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 19,
+    "raw_size": 9210,
+    "packed_size": 9644,
+    "decoded_sha256": "5c92dced4c656a97bae9629b0e0eefb7e72e2e6b729ebabd6f3129d9dbccc05b",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 20,
+    "raw_size": 7483,
+    "packed_size": 7836,
+    "decoded_sha256": "a6adfcab8f122c2ca36a64d67efafe85c6fff3c8388dbe67c179822f5305b966",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 21,
+    "raw_size": 4320,
+    "packed_size": 4418,
+    "decoded_sha256": "c335622de4b3850f562cb1fd4924650923da703bd6b64c1d8e8534bc554d2c10",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 24,
+    "raw_size": 622,
+    "packed_size": 619,
+    "decoded_sha256": "dd01e341ecfec622154620d182b43d5514e10cf9ddd8db6014577510a16ed2b8",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 32,
+    "raw_size": 8407,
+    "packed_size": 8334,
+    "decoded_sha256": "f7186bac629a6a05b4d7e78b7c821945aa1132e8443504eb67b2aba5f39ee544",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 33,
+    "raw_size": 8954,
+    "packed_size": 9156,
+    "decoded_sha256": "28be49a16e72dda0a88a00c080b860a94d847615fa48554af786c64883efb3ba",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 34,
+    "raw_size": 8967,
+    "packed_size": 9207,
+    "decoded_sha256": "bb5c1e646c848d1c2f8780aefa7c0cccf4815449887586684bdef9106df2a9f0",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 35,
+    "raw_size": 9212,
+    "packed_size": 9430,
+    "decoded_sha256": "1c0fa5e663c29471154e10cd3ec0a682f5c69225e09a07a00b29bc64f5c5c6da",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 36,
+    "raw_size": 7777,
+    "packed_size": 7974,
+    "decoded_sha256": "cb4bf6cd575b710393e11e5116a2d8db444518e09217d97e2ee5d074fdb1f2ab",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 37,
+    "raw_size": 9205,
+    "packed_size": 9437,
+    "decoded_sha256": "62b2b73e9dd6eedd829d62f5bc085aec151f0b8340af7cdcc76cdcfd577a66f4",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 38,
+    "raw_size": 8978,
+    "packed_size": 9224,
+    "decoded_sha256": "7a00e86a7d8e885f84457a06d2dff3cb28021d599eb6b4973f1bf8e11bac1ed3",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 48,
+    "raw_size": 8884,
+    "packed_size": 8900,
+    "decoded_sha256": "1adf6637269b5bf24e4f075126ee8e6281cca00040e2c48ef1f5a40ec965f823",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 49,
+    "raw_size": 9130,
+    "packed_size": 9318,
+    "decoded_sha256": "d0ba4e95f3bf3135a722dc6698ed95391b7d8699bfdcd361cf2ff599ddae7bea",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 50,
+    "raw_size": 9158,
+    "packed_size": 9401,
+    "decoded_sha256": "9abe28afda749381fad7ebb65dadb757495286884756be8bce33ea3a8897c8f4",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 64,
+    "raw_size": 9208,
+    "packed_size": 9489,
+    "decoded_sha256": "9e479b646d2e5a127fa6f986e99b930771f865ce76acec1f7d0085f2855795c5",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 65,
+    "raw_size": 6027,
+    "packed_size": 6189,
+    "decoded_sha256": "2a3c275d2073d7cc998e18ecdfd5cbd0f293ae55f6741741687b15f8e693c444",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 66,
+    "raw_size": 8804,
+    "packed_size": 8986,
+    "decoded_sha256": "452a68db17a1a449b1b1f57512877bcabcfb142e59ad6410ddb0c1e757212569",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 80,
+    "raw_size": 9193,
+    "packed_size": 9397,
+    "decoded_sha256": "d941cb12732869eab875f2c2e97803476fe161b3933c6c9f1500d66c879a490f",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 81,
+    "raw_size": 5942,
+    "packed_size": 6094,
+    "decoded_sha256": "1733c47a8a8cbd058c05d1220d36510a9e0eac6a156cf3ba122b694244cafa1f",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 82,
+    "raw_size": 8084,
+    "packed_size": 8272,
+    "decoded_sha256": "0f955eab20e8ce7f4ce5ea381c8289f2d1119049cb86ca1b9b0b6be260133747",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 84,
+    "raw_size": 8896,
+    "packed_size": 9095,
+    "decoded_sha256": "f7f04efafeefd0a5ce0dd3d9c99e14866a7ec11f72e2e53bcf199764638d4946",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 95,
+    "raw_size": 6136,
+    "packed_size": 6369,
+    "decoded_sha256": "78b614fea201df6ac633fa68cdce71fc74bcaed16420b733b287e52b2a23636c",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 96,
+    "raw_size": 9212,
+    "packed_size": 9489,
+    "decoded_sha256": "cffb41f2fbc70bdf4fcf218a3218c107e525a65cfadf142e6eebda3ad57eaae2",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 97,
+    "raw_size": 7360,
+    "packed_size": 7564,
+    "decoded_sha256": "e3f8b169ed1d8f3b0005ff2d610a1ce5046085c962c59f5577b38dd6871ad41a",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 98,
+    "raw_size": 9167,
+    "packed_size": 9441,
+    "decoded_sha256": "257d956988e46e898d4e9b0712c98fe12518f92cb6d7524566d9db664327bcf9",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 112,
+    "raw_size": 9216,
+    "packed_size": 9444,
+    "decoded_sha256": "407cef7314c7f398114205c93053e8dae9976d8e24a6f9cb69ffd7235e9a569a",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 113,
+    "raw_size": 8787,
+    "packed_size": 8955,
+    "decoded_sha256": "1506b9b8a2388447d738d5268dac50f565c96219830a29811c4014d27181947e",
+    "warnings": ""
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 114,
+    "raw_size": 9190,
+    "packed_size": 9375,
+    "decoded_sha256": "282b15418cabed84f3420ae32cbfba6926ac66ea868847895ccb41d71abb46ba",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 1,
+    "raw_size": 1026,
+    "packed_size": 887,
+    "decoded_sha256": "f6834b9ebf40531e37106d6cc91d9bcce5a1374ecc9b5c7c3e5b8211b9cb69f3",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 17,
+    "raw_size": 1026,
+    "packed_size": 794,
+    "decoded_sha256": "bc4155fec9ad332ed44c91042c935fe0f8d39f352515750f81a1bbbe57cc5c40",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 18,
+    "raw_size": 1026,
+    "packed_size": 207,
+    "decoded_sha256": "7840523b2a3795abfc242a9756eb713cbf58594697f625bb1d413b9f3e289320",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 21,
+    "raw_size": 1026,
+    "packed_size": 840,
+    "decoded_sha256": "abe180d47034b60b22f976c72f33000a7859e63fd508ddbaaae3a9d28b298684",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 33,
+    "raw_size": 1026,
+    "packed_size": 983,
+    "decoded_sha256": "9c15794f8d8e020c6b1ce59d1c2f7a9b69e9194363155b14dfd74450470db852",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 34,
+    "raw_size": 1026,
+    "packed_size": 967,
+    "decoded_sha256": "16bba6405bfd7112e22377d3b305ac3cbe8f65325d441963d362d8e57a86b447",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 35,
+    "raw_size": 1026,
+    "packed_size": 876,
+    "decoded_sha256": "af06cb6dbdbe8cb4ee9720058558a8f337c7878d0d7097b3a7aab2a5e71343f4",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 38,
+    "raw_size": 1026,
+    "packed_size": 908,
+    "decoded_sha256": "5f1d7bb043dbaf4d84f83008b85ac6f83a5d86ea87606f3a589eaf516a1e4874",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 49,
+    "raw_size": 1026,
+    "packed_size": 790,
+    "decoded_sha256": "04994e0e636f5969044e1224342969dbefbfabbbcb98348ddecc40620cc552b3",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 50,
+    "raw_size": 1026,
+    "packed_size": 752,
+    "decoded_sha256": "d54e68d751eca02902f805f9d88f69795b4f09fdecaefc48e3a73bfcad57239e",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 51,
+    "raw_size": 1026,
+    "packed_size": 803,
+    "decoded_sha256": "e39f38aa98e3a97f40bc3d3ce3e4a47bd0b4175b31bd36f020c81c04ecb9ab9f",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 52,
+    "raw_size": 1026,
+    "packed_size": 871,
+    "decoded_sha256": "69c23ffb52e44fdf323535ba4ee23ad36dd3bbf74accd1d2d8a7839d202a58ad",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 64,
+    "raw_size": 1026,
+    "packed_size": 887,
+    "decoded_sha256": "f6834b9ebf40531e37106d6cc91d9bcce5a1374ecc9b5c7c3e5b8211b9cb69f3",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 65,
+    "raw_size": 1026,
+    "packed_size": 891,
+    "decoded_sha256": "beb3a21ff92f03e3fe5c46da23f985daf8fe8b0ecf97f7753be1a903385b122a",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 66,
+    "raw_size": 1026,
+    "packed_size": 993,
+    "decoded_sha256": "732eeec02f8bab97272a562407d38c8444fd59ae70e3873df919fd1221e1c345",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 80,
+    "raw_size": 1026,
+    "packed_size": 1023,
+    "decoded_sha256": "bd73588a390c9c66aa1b0ac6baf20dff499ac2aee5f9718b6047d90e8e5ce52d",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 81,
+    "raw_size": 1026,
+    "packed_size": 947,
+    "decoded_sha256": "06558fa826b7ee8861e3ede09f43c898e4f65f5faab6752685eca2a6d7e70a4e",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 82,
+    "raw_size": 1026,
+    "packed_size": 890,
+    "decoded_sha256": "debb1a321da5ee8b3c63b5b2c606de8d164f2c957e49ffa9e78d619f732f736f",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 84,
+    "raw_size": 1026,
+    "packed_size": 840,
+    "decoded_sha256": "5e6d064653015f70d14eed2766db70595141b625056b93d03fe282528e53342c",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 96,
+    "raw_size": 1026,
+    "packed_size": 955,
+    "decoded_sha256": "2ed487e2e1313c19a13cb3663a3a41eccc4ca37872dc78d5069b2c0bdec5d919",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 97,
+    "raw_size": 1026,
+    "packed_size": 949,
+    "decoded_sha256": "723cdce4f64ac08dbf85e8ef969e4b014e0c5cc8837c099282ca3f060008734d",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 112,
+    "raw_size": 1026,
+    "packed_size": 939,
+    "decoded_sha256": "3488d971a9b9e3d5efefbadd02aa7717274492a9ecb696464ae870719f6e53c9",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 113,
+    "raw_size": 1026,
+    "packed_size": 917,
+    "decoded_sha256": "79de9489961ba69e9f2cba97159cb416f999175e11e63c1c958b486350237e1e",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 114,
+    "raw_size": 1026,
+    "packed_size": 819,
+    "decoded_sha256": "1ed5be3d8ec6657e0a783d603691627bccce0e6068c397cd0ad53a974cc6e992",
+    "warnings": ""
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 115,
+    "raw_size": 1026,
+    "packed_size": 325,
+    "decoded_sha256": "58bfdf02db1e844813d439d57eed1c112f74060be017102e3b24fb3586ec4a9e",
+    "warnings": ""
+  },
+  {
+    "file": "HITEK.DAX",
+    "id": 1,
+    "raw_size": 30654,
+    "packed_size": 16512,
+    "decoded_sha256": "ffcb12ebf9015e45499a452f1e03235923767bbdea8f93def8bacc894ef58ab6",
+    "warnings": ""
+  },
+  {
+    "file": "ITEM0.DAX",
+    "id": 1,
+    "raw_size": 1456,
+    "packed_size": 1523,
+    "decoded_sha256": "65d52e9689a454769116b00aa44d131e67be68b2c8127e597b70b2b26f61a1d2",
+    "warnings": ""
+  },
+  {
+    "file": "LOTEK.DAX",
+    "id": 1,
+    "raw_size": 30078,
+    "packed_size": 16256,
+    "decoded_sha256": "02a0dc0e3507502a961eeb44d0c80c594293486abbcca6131165f7bc1d63f4fb",
+    "warnings": ""
+  },
+  {
+    "file": "MARSCOM.DAX",
+    "id": 1,
+    "raw_size": 24318,
+    "packed_size": 15730,
+    "decoded_sha256": "6fb92250998e65cb200ac413280bb5176475e46d7f39ecf04eb8a1ccd6a00fb1",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 1,
+    "raw_size": 259,
+    "packed_size": 105,
+    "decoded_sha256": "423b0cc3b19906a1c388e891fccb9ba3b206f3e607086dd937e7db05b3f8a0ab",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 2,
+    "raw_size": 259,
+    "packed_size": 95,
+    "decoded_sha256": "7b994430cdcadb4492f214cbeb1e74a662bc641c05ae21669ad4d78a5ba5a3ec",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 3,
+    "raw_size": 259,
+    "packed_size": 95,
+    "decoded_sha256": "86c0df6f4cea8641b48cfee9ba29080d4fd353f33c3a658f9138c57381190b8d",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 4,
+    "raw_size": 259,
+    "packed_size": 94,
+    "decoded_sha256": "d0cf808324dd414976c8ec679b5d962856341b646acb23858ac75ef84a9361a6",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 5,
+    "raw_size": 259,
+    "packed_size": 104,
+    "decoded_sha256": "74f4f18a8290c1b02286bc2a5a4312f3886811416a37d7927683e8993472e15c",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 6,
+    "raw_size": 259,
+    "packed_size": 103,
+    "decoded_sha256": "992bfe934f9212d8f7094d7dda9f0be8817b6ba80afa1c88c49d7111be439b9f",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 7,
+    "raw_size": 259,
+    "packed_size": 107,
+    "decoded_sha256": "41adb5ed0093d096399da5de654d3f2a5c9b3b43eefb57fed9dc26c083faf337",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 8,
+    "raw_size": 259,
+    "packed_size": 108,
+    "decoded_sha256": "68e049242dc672ec9f280dcbab9037b3a30c8b409dcd1885474e04b17b925a98",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 9,
+    "raw_size": 259,
+    "packed_size": 84,
+    "decoded_sha256": "e675c7072a101fc26f7f75fd8da72820bb4ceb20bdc0f3a6d21c5c22ff2d5106",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 10,
+    "raw_size": 259,
+    "packed_size": 87,
+    "decoded_sha256": "7fec30965a8720c0c70eefd9b2f948129af0f19233f8f8f58b9bd8bbcc298724",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 11,
+    "raw_size": 259,
+    "packed_size": 83,
+    "decoded_sha256": "fec690cdf22d7ffd11e5e0087fe27e7734e6db40387a523b40647db4ea888805",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 12,
+    "raw_size": 259,
+    "packed_size": 108,
+    "decoded_sha256": "63cb70612b734ecb019252465768d06a7f63ae47e8a4e219921c9f9657f1ecf4",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 13,
+    "raw_size": 259,
+    "packed_size": 112,
+    "decoded_sha256": "05185f25f4aebd48f88eb9ddb0371bbf683081163c4811515eca4f75c0d7e0b3",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 14,
+    "raw_size": 259,
+    "packed_size": 109,
+    "decoded_sha256": "0fe5ed2b1f7f24ae638a174cf16c9a16574993257f4a7e91fa22774cd08edd5e",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 15,
+    "raw_size": 259,
+    "packed_size": 162,
+    "decoded_sha256": "8e28fa83f993d9bec4613f2bb00fdced64d186b5ae31c589c337d04b9198ebe4",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 16,
+    "raw_size": 259,
+    "packed_size": 107,
+    "decoded_sha256": "992cbc2d573666880fb4f66d837cd3830f7d24d83d5408a6b37a223b0273426e",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 17,
+    "raw_size": 259,
+    "packed_size": 105,
+    "decoded_sha256": "348c1c0c6d65ece37960bf46a7fc4f072ccad4743fb68bbaeb26ad8223049a6d",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 18,
+    "raw_size": 259,
+    "packed_size": 96,
+    "decoded_sha256": "b14e0fb547037857d0b4922d7abaf9ed59a91cdfcb97bbc5e68c6a619b5ddd7f",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 19,
+    "raw_size": 259,
+    "packed_size": 108,
+    "decoded_sha256": "e3ccc0d620f07c7cc1847b4d74e1e11e5f2b271805fe6ca23fd2f53b67d14052",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 20,
+    "raw_size": 259,
+    "packed_size": 107,
+    "decoded_sha256": "f9e417423fa5cd66947a0544efe236543c4be1c20e8dc05bfdce4ef2d91f4e05",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 21,
+    "raw_size": 259,
+    "packed_size": 105,
+    "decoded_sha256": "60876ece6bd0150109c99db1156af42d9b5782327688641f04693df46533dc4d",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 22,
+    "raw_size": 259,
+    "packed_size": 95,
+    "decoded_sha256": "6bb29a59916a292fe3dce220d373a05d246c8c1085fec5bb625ab4e5537ed4eb",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 23,
+    "raw_size": 259,
+    "packed_size": 100,
+    "decoded_sha256": "b1629f103b3cd5f4e854555a19550a0e39632df39b6c614d8ce20871a22a47cd",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 24,
+    "raw_size": 259,
+    "packed_size": 103,
+    "decoded_sha256": "9fb87227719a19d9e3e63cfb1ef071cb755d03b09d88e931e66a27883895edf8",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 25,
+    "raw_size": 259,
+    "packed_size": 74,
+    "decoded_sha256": "9684c648af4730025ce9006d840dbbcacb6ec7742771aa4caefae8d476d81896",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 26,
+    "raw_size": 259,
+    "packed_size": 100,
+    "decoded_sha256": "1292e0a058132c409dd7091e326edba4101041f58ac4c3b1c99fdd6460218981",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 27,
+    "raw_size": 259,
+    "packed_size": 121,
+    "decoded_sha256": "09c68757882e14899ff0b32e89a44b1142e499c2571ab5529857606ae486bfa2",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 28,
+    "raw_size": 259,
+    "packed_size": 138,
+    "decoded_sha256": "83efcf66cf17d00f554abdc9442c49320ebac4de26d5ec2a5cf30fe5287898f8",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 29,
+    "raw_size": 259,
+    "packed_size": 149,
+    "decoded_sha256": "94705a6f1552b69953be9dd0cd4bf49307751407c961ea574db8a60b33251b05",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 30,
+    "raw_size": 259,
+    "packed_size": 170,
+    "decoded_sha256": "4bf90fb58c98cfe904168aef211cbca591f4a67522507603f754fea19be26de1",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 31,
+    "raw_size": 259,
+    "packed_size": 106,
+    "decoded_sha256": "b40170c8e2d11c50bdf373dd5d1cb25050c36618b82e49fd513ad5e80f302288",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 32,
+    "raw_size": 259,
+    "packed_size": 98,
+    "decoded_sha256": "2532873f454cdfecd3711790b40d5e9532927767fe6918f1caad7aa1efea6c2d",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 33,
+    "raw_size": 259,
+    "packed_size": 102,
+    "decoded_sha256": "9b9644db50dae90d75fb6ce38d53f037db021dbc87f99146e5fd7b485f6acf61",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 35,
+    "raw_size": 259,
+    "packed_size": 111,
+    "decoded_sha256": "370e269006d6a0c7ff48429854ceb044984c45dd5c83d5d8e2f9b7e3eeb15894",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 36,
+    "raw_size": 259,
+    "packed_size": 92,
+    "decoded_sha256": "7d775b4c680869ea3f2ca74e9eb2b7c7f26a49b735c1d64d10d0e293d3f18eaf",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 37,
+    "raw_size": 259,
+    "packed_size": 92,
+    "decoded_sha256": "368e802540ce3b12ccd3ad45402e93ad5931ed6b724856c4c7688259e277416f",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 38,
+    "raw_size": 259,
+    "packed_size": 90,
+    "decoded_sha256": "e8d19c2b293fcd35b8fcd7c1a098912cdabc8d8ad2e9076a6a55516e6c9bf434",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 39,
+    "raw_size": 259,
+    "packed_size": 104,
+    "decoded_sha256": "25b3cae2ccd88020a1ac8ad3357ed6bb2bc58a7530fb627ddc6c6cd9c0344c92",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 40,
+    "raw_size": 259,
+    "packed_size": 93,
+    "decoded_sha256": "a679972bb5ef2cf4d564b8618b76b49735635de6a7390bfb408929caa2dd3d53",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 41,
+    "raw_size": 259,
+    "packed_size": 91,
+    "decoded_sha256": "f9d2aa94359c0e4a619358b57654c58f9e08c03b68b1540929620aa5f863030d",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 42,
+    "raw_size": 259,
+    "packed_size": 94,
+    "decoded_sha256": "5cccb4483697578ba5b8a8e930dbd58524703b5b8c27f19a4cdb8dd57cf41ee1",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 43,
+    "raw_size": 259,
+    "packed_size": 116,
+    "decoded_sha256": "ca00229f3bc18bc73ff0c206fabbbf8d93140658db3a3fdffc31212a21953b05",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 44,
+    "raw_size": 259,
+    "packed_size": 123,
+    "decoded_sha256": "5dd9b782f48093ce50c08952c45ddfb734da843ecaaecbccdbe07c7d10f77322",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 45,
+    "raw_size": 259,
+    "packed_size": 102,
+    "decoded_sha256": "09ffdcd04005b97086435bb26209df92583d2700931659b0a877bf128a5c2728",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 46,
+    "raw_size": 259,
+    "packed_size": 117,
+    "decoded_sha256": "bd0f612eb07606038029c8319aa52ae26901cc624e9542252e9cbb56253c6704",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 47,
+    "raw_size": 259,
+    "packed_size": 101,
+    "decoded_sha256": "c6ca149addba93fb741573d19b55d7da0a35e0b5c82b3ebad9b988411bbfa78f",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 48,
+    "raw_size": 259,
+    "packed_size": 107,
+    "decoded_sha256": "ef455a860db59ba7b12972f771654dae8c1b64c95ebbe2b2dcead13943009884",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 49,
+    "raw_size": 259,
+    "packed_size": 101,
+    "decoded_sha256": "33ddcf191589a097bb1c4dd349b0af59d547f0a073e5945308c0cf331b219cf7",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 50,
+    "raw_size": 259,
+    "packed_size": 103,
+    "decoded_sha256": "6df9c03e35b846f66ac855d694eca0303a1f7374c3928338cd9d835decbb9c15",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 51,
+    "raw_size": 259,
+    "packed_size": 106,
+    "decoded_sha256": "665774df006c2518163dedf4a6872db45ae65d7ab295393e38dc12c87cd52089",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 52,
+    "raw_size": 259,
+    "packed_size": 114,
+    "decoded_sha256": "9efd4250c56c9084be820cbf04dbc86973e447e821c97791ea9870631c24932c",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 53,
+    "raw_size": 259,
+    "packed_size": 104,
+    "decoded_sha256": "e6c00257d2481f577494d02fe1ac7e0a0dcf599bd90c77ec9902edffb050a26f",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 54,
+    "raw_size": 259,
+    "packed_size": 121,
+    "decoded_sha256": "b6dc1770603eae8070db39e9dd1b675316565a2a7a3f14f45895dea48af4495b",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 55,
+    "raw_size": 259,
+    "packed_size": 144,
+    "decoded_sha256": "8297a72c8bec5a63ab6ee557c97759936fbed0eab0fc8ae1a2d1f6c88af95e68",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 56,
+    "raw_size": 259,
+    "packed_size": 125,
+    "decoded_sha256": "48bb8f8f410633335e7ac4f0039d7a9d0a7ee266f9516ce25c91e827503215e1",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 57,
+    "raw_size": 259,
+    "packed_size": 168,
+    "decoded_sha256": "3e314572b015dce16470bff6a778d3af9bb406c98966832c31368f76062c2944",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 58,
+    "raw_size": 259,
+    "packed_size": 109,
+    "decoded_sha256": "9baa97855aaa73200d6f595909820a1e3179f163e06ac5a52932464a8a1cf3a6",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 59,
+    "raw_size": 259,
+    "packed_size": 107,
+    "decoded_sha256": "bafef1a4a0a4a54b79f270e68709fc37237ef8d7a0feedb52fae18847021e929",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 60,
+    "raw_size": 259,
+    "packed_size": 144,
+    "decoded_sha256": "409db6ce5f3519a00f713a09b3313deb5267f8e08f596545f1496d7fd80010fc",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 61,
+    "raw_size": 259,
+    "packed_size": 113,
+    "decoded_sha256": "73e3f9f566b2854a3b8c38bd9e93e4842aa920c536e71ba92b3991c7b80fa6a5",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 62,
+    "raw_size": 259,
+    "packed_size": 155,
+    "decoded_sha256": "aa2c738470cdfc33c012ef8aa6441b33830db95b50ee0ef4bdf80177a646aa59",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 63,
+    "raw_size": 259,
+    "packed_size": 96,
+    "decoded_sha256": "64468f3838bee61afdb7ec2e9121ee41bc76f9c82fe9c744858ff750f611e978",
+    "warnings": ""
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 64,
+    "raw_size": 259,
+    "packed_size": 103,
+    "decoded_sha256": "9aaf9ff3ee2e99a74405ee89683238cb3f6246c43bf0fc47b8c1ba82075da15f",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 1,
+    "raw_size": 372,
+    "packed_size": 375,
+    "decoded_sha256": "cefa166fb94b7a5fbdef9055242146a7dc7a55c8033f9c0008df233018431e9f",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 2,
+    "raw_size": 124,
+    "packed_size": 124,
+    "decoded_sha256": "4cc48c531fc219a36059f63447ef2b8fa7720d1fda3d95f1b2cd5f8731336a8e",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 3,
+    "raw_size": 124,
+    "packed_size": 118,
+    "decoded_sha256": "f66fd8c92d53421c95e9525273daf6f566d852829efc641292c220e66462f58e",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 4,
+    "raw_size": 62,
+    "packed_size": 63,
+    "decoded_sha256": "6d9394adc2bad8c367f2f504d88f9f36ee8dac780e349acd324f36d303d4478f",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 5,
+    "raw_size": 434,
+    "packed_size": 167,
+    "decoded_sha256": "024c3f23fe0ebdbe2c3516a0d3816873406d8cc60c3bf11ba242e5ddaa6cb139",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 6,
+    "raw_size": 372,
+    "packed_size": 219,
+    "decoded_sha256": "fb1d1631b69ee9cbb1ec4d02e87eaacfd7833e7d80b5233da02689137ceb5974",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 7,
+    "raw_size": 186,
+    "packed_size": 187,
+    "decoded_sha256": "0eb210f4cabddc3911e7e1b97e18ec36969572524eb92132acc7ea0b9315f53a",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 8,
+    "raw_size": 186,
+    "packed_size": 165,
+    "decoded_sha256": "dfcb2e40a50cceefd25e86c0f3f014fb4bc9aeb334183ba53e3bbd4bdf4df31b",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 12,
+    "raw_size": 186,
+    "packed_size": 185,
+    "decoded_sha256": "41d95a8d0be0708bc76a1a02c25a2611dfab360b7aa01a534dc4ca0223423744",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 13,
+    "raw_size": 248,
+    "packed_size": 252,
+    "decoded_sha256": "e61adf1bd899485d4c6ed49187c999b11f23988f89c49420150efb7c5b1fd6e0",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 14,
+    "raw_size": 248,
+    "packed_size": 250,
+    "decoded_sha256": "7e26afdd040ea2b1988357ff8ffbaab8820fee86aa2f1efc02bc871b789a52d6",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 15,
+    "raw_size": 248,
+    "packed_size": 224,
+    "decoded_sha256": "99f8356f8b431897727ef410f0550fbf613f327f1b4ed9232a90cecd4db47c58",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 16,
+    "raw_size": 248,
+    "packed_size": 225,
+    "decoded_sha256": "2836bba3f7e6c596204fdf21a8aac820219b2e881b2d7338a89cc7679858f166",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 17,
+    "raw_size": 124,
+    "packed_size": 125,
+    "decoded_sha256": "af12cadc096e3ea9c980d8b9837be266e9d918a8c3d2c29197fbbff15d82b9f4",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 19,
+    "raw_size": 248,
+    "packed_size": 252,
+    "decoded_sha256": "123f0002956b05546308e5710ab7605a8ddec3c303505265ae3e1a4bd05a9697",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 20,
+    "raw_size": 248,
+    "packed_size": 250,
+    "decoded_sha256": "0bf3075fa28a46eaf1622254f0fdebe05fc5706778a00819332c78f65c739395",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 21,
+    "raw_size": 124,
+    "packed_size": 124,
+    "decoded_sha256": "c1719e5efce60cbc421b8c68d6c6398275091849a86b037901c3d16ea99da878",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 23,
+    "raw_size": 186,
+    "packed_size": 187,
+    "decoded_sha256": "c4340edfb5f37515b5d7f2c2f75a2e21f9e705d4f567097a14b27d6fa933f1b8",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 29,
+    "raw_size": 186,
+    "packed_size": 70,
+    "decoded_sha256": "430624cc39a235d2047187a807c6a8b411ae57665e0380172bc3a5f26c6df9ed",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 30,
+    "raw_size": 62,
+    "packed_size": 16,
+    "decoded_sha256": "15c1ad00b7cf5ebfce60acb6d24c7062a8dbd4914d38582dbed8edb5fef1d38c",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 31,
+    "raw_size": 186,
+    "packed_size": 191,
+    "decoded_sha256": "5f72c57a53d446f15560fec9abf1570a44e713363ef308af6752ffeb0848a1c2",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 33,
+    "raw_size": 310,
+    "packed_size": 315,
+    "decoded_sha256": "bd15d48c3995bcd69e728e4fb2c42e0bdd5014d43d7d9e0af96dd9a3adf8c05c",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 35,
+    "raw_size": 248,
+    "packed_size": 248,
+    "decoded_sha256": "f3d5135cf655b1276ed73ca947634d8a57fee9f20c74d30f91d7663bebfc5e5d",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 38,
+    "raw_size": 124,
+    "packed_size": 105,
+    "decoded_sha256": "04d9e67f3074f21f19192410bfaaad5b5dd8318aef1846808432c224e9dd9d4c",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 43,
+    "raw_size": 248,
+    "packed_size": 251,
+    "decoded_sha256": "84c7de7c5c8ce612c38842dfbdf4fca590df98ff3b55916468b2de80616e46b4",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 44,
+    "raw_size": 310,
+    "packed_size": 312,
+    "decoded_sha256": "3243071ef1c6a68dc5658fbc7a87af12e54a357abac29b68ccab58fe758fc0a9",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 45,
+    "raw_size": 186,
+    "packed_size": 177,
+    "decoded_sha256": "7ce2ef9f656d3ad5e93dc34b1d2060b89957c95cae226c88a67c0dff7a22a58e",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 46,
+    "raw_size": 186,
+    "packed_size": 188,
+    "decoded_sha256": "f700e69edf796ddc6f6cf7f2e5483a86df17deab7a3cd75b77d9fca048c6d6ca",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 48,
+    "raw_size": 124,
+    "packed_size": 128,
+    "decoded_sha256": "ac45610191174c9f8a42f75818fd5f19cbd4bd8ad55d02d5fec2c117317ebf24",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 49,
+    "raw_size": 248,
+    "packed_size": 252,
+    "decoded_sha256": "86b109a7e998295bfb43c6a95e8141cd8b7c20ea412854e84e73614d2b5bb9b8",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 50,
+    "raw_size": 186,
+    "packed_size": 190,
+    "decoded_sha256": "325469731ccf5494f3b4eaa3fea0629b321e9294a53f977a40dd0dfe79d68037",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 51,
+    "raw_size": 248,
+    "packed_size": 255,
+    "decoded_sha256": "f1a90c957b37e756997b505fa5cb62309471d19c074a588ee330b05526956761",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 52,
+    "raw_size": 310,
+    "packed_size": 310,
+    "decoded_sha256": "4da6398ccd5aef867643a4274fc7be8903386042609bca99d184a57b94f9e188",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 53,
+    "raw_size": 124,
+    "packed_size": 125,
+    "decoded_sha256": "da6366e2e151469b2447d1177fa95c84e0a76d2af81b540b361ac840036cd93e",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 54,
+    "raw_size": 248,
+    "packed_size": 251,
+    "decoded_sha256": "08e253ee20d1c4e92a53db8647f2ff3c76daa2ddaf68cbd134d0e26021acb09d",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 55,
+    "raw_size": 186,
+    "packed_size": 190,
+    "decoded_sha256": "5184b742c4d8a2a7c827947a80dbada0b6991f48ea984a7690545da0cc464e30",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 57,
+    "raw_size": 62,
+    "packed_size": 62,
+    "decoded_sha256": "37e8dfd4d89d19d5de2470788dfca366410a743da686ea823d6fbcb71fe6d9d7",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 58,
+    "raw_size": 310,
+    "packed_size": 312,
+    "decoded_sha256": "1f638596b1761cdd5e0ccc8caaadd4a03508898c223a6414237f72c3bfc2344c",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 59,
+    "raw_size": 248,
+    "packed_size": 250,
+    "decoded_sha256": "49586c2904eda59801e8718dfa8ad447b5c04d33f9ae46c499d4cb617e37c5fa",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 60,
+    "raw_size": 186,
+    "packed_size": 189,
+    "decoded_sha256": "a8a4acee54d25701710d8d78e2f1fd09f0df4d7864045a12bd934b8287409c52",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 61,
+    "raw_size": 186,
+    "packed_size": 189,
+    "decoded_sha256": "aecfc6f9286e52205acda405be824d229d86659d89fecf5c179cc263ae17b39c",
+    "warnings": ""
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 62,
+    "raw_size": 186,
+    "packed_size": 188,
+    "decoded_sha256": "a30744ef1b67f57ec108162323a9769d3d1db0f221825b07b508e5b43d24fb88",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 2,
+    "raw_size": 45,
+    "packed_size": 48,
+    "decoded_sha256": "6f121a67e570f738e28eb872b49f2fad8f38fa0eb88cefa9da16988f29472ceb",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 3,
+    "raw_size": 45,
+    "packed_size": 48,
+    "decoded_sha256": "d30da030bde35672a944e485f8d662e3800c49d222db97b3f0090715cb2b249b",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 4,
+    "raw_size": 54,
+    "packed_size": 58,
+    "decoded_sha256": "c4942f60f9c239e15940945d2a883fc6c6e0010931454175d5324f19ef593e17",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 8,
+    "raw_size": 45,
+    "packed_size": 48,
+    "decoded_sha256": "cfe00d626e02ba827c52d7d2cf32b095953470219270a8ee06f49ba4c77ab783",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 9,
+    "raw_size": 18,
+    "packed_size": 18,
+    "decoded_sha256": "9808e569c1d23b38840421e64eb1d21bc013a189e8ffe41e48f9784d215fde9b",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 10,
+    "raw_size": 9,
+    "packed_size": 8,
+    "decoded_sha256": "720ebdae1b34e6baba558dc3bd6d2d978493a729f09f50eaf1f7e3b3db74b673",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 11,
+    "raw_size": 9,
+    "packed_size": 8,
+    "decoded_sha256": "720ebdae1b34e6baba558dc3bd6d2d978493a729f09f50eaf1f7e3b3db74b673",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 17,
+    "raw_size": 45,
+    "packed_size": 48,
+    "decoded_sha256": "2015b689239d3fbf3bb0ddfbea96795aacd0d29448d713cfd0f4c55f8198d394",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 18,
+    "raw_size": 27,
+    "packed_size": 28,
+    "decoded_sha256": "3b8875d874f86eae7478b32cebed682d4a39b6332ef11699e7df60f01bfed207",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 21,
+    "raw_size": 45,
+    "packed_size": 48,
+    "decoded_sha256": "7ea36f7ee90d550afa5eee3a4b19563965a6c25fea3c3521be8aa6ebaa7ad598",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 22,
+    "raw_size": 9,
+    "packed_size": 8,
+    "decoded_sha256": "3d1465775e490bdcf22852cd840c1a7b893f8dc7beed2ea3afee910d29e6ece3",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 29,
+    "raw_size": 18,
+    "packed_size": 18,
+    "decoded_sha256": "37cf01d523cca779adec20077d7b36a843f2ca10146ff318a0465c5c3d0c252f",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 32,
+    "raw_size": 45,
+    "packed_size": 48,
+    "decoded_sha256": "a450a1bfcf685f18ed0676c17bfd1ffa9e3f6fe38e1a30bac0f34ad66da21fa3",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 35,
+    "raw_size": 45,
+    "packed_size": 48,
+    "decoded_sha256": "8e9027b9cc16c5c7176638fbaab87b3809cf630ba62e136af9f92bac4eb14264",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 36,
+    "raw_size": 9,
+    "packed_size": 8,
+    "decoded_sha256": "fa2e06695c0431dcfef95aee8bddf333c9e933574a48795617049310771a2198",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 37,
+    "raw_size": 36,
+    "packed_size": 38,
+    "decoded_sha256": "ca1a57036660f5cd365446ec28fc6c9665016e89bd9c140fa2f4fab103f99506",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 38,
+    "raw_size": 18,
+    "packed_size": 18,
+    "decoded_sha256": "59507b3a7ba140900918df69cfe419a547d25a8619658b0d275856a35d2a5b15",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 39,
+    "raw_size": 18,
+    "packed_size": 18,
+    "decoded_sha256": "bcfee324d9b07b0f51d06f33beff6f9fde19ebcf58c3eab2536a0f0ce5f2882a",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 40,
+    "raw_size": 18,
+    "packed_size": 18,
+    "decoded_sha256": "3e9acb44aa141dafa6111d0e13ad5862efdb3ac2b4f9b1b185a54d54bd59b8fa",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 41,
+    "raw_size": 18,
+    "packed_size": 18,
+    "decoded_sha256": "ae438361d26072804db4a5025908635d36262d77e929c7bd9229564ffcfbc21e",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 42,
+    "raw_size": 27,
+    "packed_size": 28,
+    "decoded_sha256": "590ec251f0a5308a10110c42d2492dd2b04113201a1a68f2452a1ebd41cc67e3",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 44,
+    "raw_size": 9,
+    "packed_size": 8,
+    "decoded_sha256": "3d1465775e490bdcf22852cd840c1a7b893f8dc7beed2ea3afee910d29e6ece3",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 45,
+    "raw_size": 63,
+    "packed_size": 68,
+    "decoded_sha256": "8d1b75c5a6ba664c054b73840f6ea303a66eccdec1ee08ab51652afb16d8dc81",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 46,
+    "raw_size": 27,
+    "packed_size": 28,
+    "decoded_sha256": "4ceef89685ec9bbf5fe4e5c3e2adcf6cf2d4a9331a7feb3fdfccd59477c935c4",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 47,
+    "raw_size": 18,
+    "packed_size": 18,
+    "decoded_sha256": "731113f538d59f9884d6ce1849984dac671fc97e9c700029fcf32c38d966aa44",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 48,
+    "raw_size": 45,
+    "packed_size": 48,
+    "decoded_sha256": "416d9147e0a5f5db8382ac34d569c20903b183977f845516472835c199e431a6",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 49,
+    "raw_size": 45,
+    "packed_size": 48,
+    "decoded_sha256": "86550d9912d8f23dbcb769abe7ef8e66634bee21f941372b59e2825a4f788d35",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 50,
+    "raw_size": 45,
+    "packed_size": 48,
+    "decoded_sha256": "8c0746a90678c7ef1128038f4e4014c96355dc46da57af0df796ded87ab92f95",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 51,
+    "raw_size": 45,
+    "packed_size": 48,
+    "decoded_sha256": "9e276b9a2b9ab4b457a9d1c20d725869b6b1971adc19ba82d249b875415e1d64",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 52,
+    "raw_size": 9,
+    "packed_size": 8,
+    "decoded_sha256": "3d1465775e490bdcf22852cd840c1a7b893f8dc7beed2ea3afee910d29e6ece3",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 54,
+    "raw_size": 18,
+    "packed_size": 18,
+    "decoded_sha256": "c5da885775550029bbca50383bb20188784993872329c4af5489520a26337dbe",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 56,
+    "raw_size": 27,
+    "packed_size": 28,
+    "decoded_sha256": "010097d0eeb3e5b6dd04d934fb2e29a9f11d662d65ae0a81b5f1d1fa6a0cd250",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 57,
+    "raw_size": 72,
+    "packed_size": 78,
+    "decoded_sha256": "f548bbc7c4d8519b221489f5734b9dc4625120723b9df57f9cab482f6c731d09",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 63,
+    "raw_size": 27,
+    "packed_size": 28,
+    "decoded_sha256": "6d659ce3db81f924233d13dafc10d8a8a0cfb6d01f072990238eb24e858b8026",
+    "warnings": ""
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 64,
+    "raw_size": 9,
+    "packed_size": 8,
+    "decoded_sha256": "fa2e06695c0431dcfef95aee8bddf333c9e933574a48795617049310771a2198",
+    "warnings": ""
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 1,
+    "raw_size": 11358,
+    "packed_size": 11489,
+    "decoded_sha256": "463c42eadee1de625661094a74a9bb31928bea0cc47324281f23d499e68a9313",
+    "warnings": ""
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 2,
+    "raw_size": 2082,
+    "packed_size": 2107,
+    "decoded_sha256": "6c22834e71cf7ce2ab1e222695d8ca569e7240c40dab2342ac6710a489f4a23a",
+    "warnings": ""
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 3,
+    "raw_size": 1044,
+    "packed_size": 1060,
+    "decoded_sha256": "079e158f6b5c21c611be8f40c16203eff1aae9347d6ee859694a08af8f8c97db",
+    "warnings": ""
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 4,
+    "raw_size": 862,
+    "packed_size": 876,
+    "decoded_sha256": "724fd88ea0a0d70079485d03956d7d5c42e8f184375f0d27d7ad9bdb57eaf409",
+    "warnings": ""
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 5,
+    "raw_size": 626,
+    "packed_size": 635,
+    "decoded_sha256": "b4d922031ee02e438b9686fd624108206b23ced6b80c24b8ec4f941c2d717f20",
+    "warnings": ""
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 6,
+    "raw_size": 720,
+    "packed_size": 724,
+    "decoded_sha256": "d9ae6aa46f43066c1d11e1fe3ea517e2a7903f48bda16c39e9ead49baa9591d9",
+    "warnings": ""
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 7,
+    "raw_size": 624,
+    "packed_size": 636,
+    "decoded_sha256": "6b996b66329988477529bc15f69b76664b3cfc097e8f5c7b2c1175dcf497c94d",
+    "warnings": ""
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 8,
+    "raw_size": 720,
+    "packed_size": 734,
+    "decoded_sha256": "53262ef74af013d9c3898cc9272384fb568e72297e181b1cc5eca5ddc4a61b96",
+    "warnings": ""
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 9,
+    "raw_size": 1078,
+    "packed_size": 1097,
+    "decoded_sha256": "757a9b0fbaaf45c7244e3be6a24d6f1c868f59740941549c45efea92182d0824",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 1,
+    "raw_size": 7751,
+    "packed_size": 7813,
+    "decoded_sha256": "49669f0f31f81bba506e694c7899ddb1a26caef3b55fefd18e2eaf43ee52ad4e",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 2,
+    "raw_size": 7562,
+    "packed_size": 7623,
+    "decoded_sha256": "11d363d96e3344f9cf53919998fe88af7790ccc2edd05dc039f517d18c026d42",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 4,
+    "raw_size": 7850,
+    "packed_size": 7915,
+    "decoded_sha256": "2f52b5a725f10d384e8fd2008820c1dbc79533114310d4194a96a9dd381988f5",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 11,
+    "raw_size": 7548,
+    "packed_size": 7353,
+    "decoded_sha256": "5d47cd201744f84ddb399c115b2299f47e85fb420cc93126c3bedf84abdc67c8",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 18,
+    "raw_size": 8552,
+    "packed_size": 8479,
+    "decoded_sha256": "894c75ffdd47d4b72726c3652ef86546e2e84c54afd875cbccdd2e0b818eb433",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 23,
+    "raw_size": 8257,
+    "packed_size": 8336,
+    "decoded_sha256": "2ea3ac461e326746adc52b2af5a9cd6a41c33bc60ebaea28c45ebfffe5a98f44",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 24,
+    "raw_size": 6989,
+    "packed_size": 6838,
+    "decoded_sha256": "06f63774a3a9eddd6327876a0c56d247e5dd861de1ef10a21422d7a760664c6a",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 29,
+    "raw_size": 7950,
+    "packed_size": 7429,
+    "decoded_sha256": "e3f2d4fc95eafc48dea79aeac02ccc92c35df13002c8ea2c2b6a48c047e2685f",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 30,
+    "raw_size": 7527,
+    "packed_size": 7092,
+    "decoded_sha256": "d506a1874657e36d77b41ea52743e72ec865393e3fd0fff88d1995c7191a92b6",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 31,
+    "raw_size": 7496,
+    "packed_size": 7123,
+    "decoded_sha256": "b71c33acd9f76d2b9163ad17676e755d2d8fd34ca1cab82bd93b9054f475c355",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 32,
+    "raw_size": 8542,
+    "packed_size": 8111,
+    "decoded_sha256": "3da399f886663645c3c1dd1f6ac9e3e8803bf61a565e34c91d85ae6b3b98f438",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 39,
+    "raw_size": 22049,
+    "packed_size": 22569,
+    "decoded_sha256": "e88980f2b4af24db4ae80e446f4a37b44e15a53653a5547a22eb1460fcc6bd5c",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 41,
+    "raw_size": 20811,
+    "packed_size": 21068,
+    "decoded_sha256": "f8250559ba6b6a133c7bd9cf08e3539ca13071cfc2704b757a24f5b932dd831a",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 42,
+    "raw_size": 8152,
+    "packed_size": 8138,
+    "decoded_sha256": "854903040f42286903579c06ad64695aae2a9592e8e6b9f58a0a67bf9ba8d9e5",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 55,
+    "raw_size": 8358,
+    "packed_size": 8076,
+    "decoded_sha256": "95fc4f42ab89b8cae1ad48ca750aa4211daac4097c08b4af4888f22eb86f8504",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 56,
+    "raw_size": 6278,
+    "packed_size": 6043,
+    "decoded_sha256": "0fb73cc3c6615166a533f972aec9970b809c2db63b9291f0cee07f586318797a",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 57,
+    "raw_size": 8368,
+    "packed_size": 8060,
+    "decoded_sha256": "801db07d6cc6b5bc2a893b928d14f78e074371d1eaf85109fc702f08cabe8f4f",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 60,
+    "raw_size": 7402,
+    "packed_size": 7043,
+    "decoded_sha256": "47506a9788f62c01c50b626fbea4eb2564a8d3b753bc84b344b6bc49b01cc3ed",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 80,
+    "raw_size": 7148,
+    "packed_size": 7161,
+    "decoded_sha256": "7a8a1abf70a6127500d4f70da89191925cbab105306600817a774ae5ffcf503c",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 81,
+    "raw_size": 7528,
+    "packed_size": 7600,
+    "decoded_sha256": "610449bee4db4be29546ffb9fb13717519c6433465715cfb7e794897f1d45223",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 82,
+    "raw_size": 9334,
+    "packed_size": 9215,
+    "decoded_sha256": "b14707595ac5bd23e766a4f88210b64893790bc388c09b00bd82029e5109f14f",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 83,
+    "raw_size": 14100,
+    "packed_size": 14043,
+    "decoded_sha256": "4c2ef5aa89ca79083724d70e227701ea78be3f1baa180ce7e33eedd498030823",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 84,
+    "raw_size": 8048,
+    "packed_size": 7702,
+    "decoded_sha256": "c4e8f21d92ed2a8e37ba5a4aa920f797bce87347760a7af99430b46f95d43878",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 85,
+    "raw_size": 6387,
+    "packed_size": 6083,
+    "decoded_sha256": "785fb4d420ee0c97612e8820190eaa22de5ca63e1c8e7fc162d502b63ee57a91",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 86,
+    "raw_size": 8253,
+    "packed_size": 8054,
+    "decoded_sha256": "ec33e5c1c8146151039b820f6375b928d4a25f5f601595676b5d4a15d8ab5370",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 87,
+    "raw_size": 18790,
+    "packed_size": 18742,
+    "decoded_sha256": "ded974dbcd17ac651159b8db189c67856371fbc0fac640dea4c2824002c5cf71",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 89,
+    "raw_size": 8714,
+    "packed_size": 8467,
+    "decoded_sha256": "a138c429d7a47172a21e75f0185f6585ccf0814ca396004eff94cede10a061a4",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 91,
+    "raw_size": 8067,
+    "packed_size": 8158,
+    "decoded_sha256": "25cad1d8a2da7bd51a7d88af83a82fa1a944d2e488278918e51024edca124b00",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 93,
+    "raw_size": 8323,
+    "packed_size": 8005,
+    "decoded_sha256": "30e28be4e093dc60f1ee8b04e74ac187dca8e8b48613fa1b4635d8f8e4eb5de9",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 94,
+    "raw_size": 7929,
+    "packed_size": 7652,
+    "decoded_sha256": "b63fdd04c85973294f5e1bfba22179194f6d5fca3ef2eefd5141aaa879f25202",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 95,
+    "raw_size": 8448,
+    "packed_size": 8374,
+    "decoded_sha256": "1af044b5ef8c77d1ff77bdeb1ae3816ab7850aa0f7321e6c28cc8f86e17ec5a2",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 96,
+    "raw_size": 7573,
+    "packed_size": 7625,
+    "decoded_sha256": "e007169f3d94a7763dfd38f6a690afda2b9a378682e661e21140b41942679223",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 97,
+    "raw_size": 6888,
+    "packed_size": 6973,
+    "decoded_sha256": "60a5c5faac3df0773b6e0aace0a79aa27c40ed2ac0ae93a1131042cf10466688",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 98,
+    "raw_size": 7402,
+    "packed_size": 7542,
+    "decoded_sha256": "5d0fc79fc10ddc6d3abcbd031b235676765e56df431e2c171453f3af7a1c737e",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 99,
+    "raw_size": 7502,
+    "packed_size": 7570,
+    "decoded_sha256": "373fa0d889a20814a24d06363231696b3439ccdcac8a2962e52eba1ed86b63f9",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 100,
+    "raw_size": 12042,
+    "packed_size": 12235,
+    "decoded_sha256": "58bad08997759f169f27e278f036943d5a990d8fa3e148d5328876159ab00073",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 101,
+    "raw_size": 6100,
+    "packed_size": 6277,
+    "decoded_sha256": "389ad3b413ceb79ca09be7d35612bb8385fa33f200142c6ac4a3d4895f3f3fef",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 102,
+    "raw_size": 6410,
+    "packed_size": 6545,
+    "decoded_sha256": "53984b5a7b7ab7066bfa6fdaa55ab198523d4000932a2cf47a363f63ba7cde7f",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 103,
+    "raw_size": 4782,
+    "packed_size": 4862,
+    "decoded_sha256": "c253fbafee507a56f19babde2c5ac59f9d8a367fe3c8e444361fcf44ebad33ff",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 104,
+    "raw_size": 6171,
+    "packed_size": 6288,
+    "decoded_sha256": "0848bbb97600d8b5cbd150f4559c426537a52ff6df6a51004bab307473c00b97",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 106,
+    "raw_size": 8156,
+    "packed_size": 7973,
+    "decoded_sha256": "5993717f0b61cb1d8b655e9181e31b6f0629f88a2b7d1e57fbdad1c7a5b2cbd8",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 107,
+    "raw_size": 7539,
+    "packed_size": 7273,
+    "decoded_sha256": "d53263fd79b6eee4458d6f0c166c71bace0f1b6d3a7cefd93065111eb3a2b68d",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 108,
+    "raw_size": 6869,
+    "packed_size": 6921,
+    "decoded_sha256": "8dbf0f2b7d206df212c83f8ef9591e838fb978f59178baa79c46422c356761eb",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 109,
+    "raw_size": 7803,
+    "packed_size": 7834,
+    "decoded_sha256": "61185cee256969f21971ebdc746dbe396856cab7b3eca8516cb2c90f79b55bbf",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 110,
+    "raw_size": 9199,
+    "packed_size": 9469,
+    "decoded_sha256": "acfcdc7802b7c0ff3ba2b6397d4c19f55b2b18b45e402bacd5f5db353f5b1821",
+    "warnings": ""
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 111,
+    "raw_size": 6957,
+    "packed_size": 6762,
+    "decoded_sha256": "d68f7636c63ecda344b507c4ecc7ec69e7067058c464a751bbbdb94a1829f17b",
+    "warnings": ""
+  },
+  {
+    "file": "PIC7.DAX",
+    "id": 105,
+    "raw_size": 7659,
+    "packed_size": 7694,
+    "decoded_sha256": "ad367902d7b3b31493ff3fac85fd910e99ed7165c9027782211d3b8101a6d452",
+    "warnings": ""
+  },
+  {
+    "file": "PIC8.DAX",
+    "id": 92,
+    "raw_size": 6499,
+    "packed_size": 6178,
+    "decoded_sha256": "648bf9d48eac7a30cc2ed9a495da5936af7c78e5df5a27be7b58e8181ffe593b",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 0,
+    "raw_size": 17582,
+    "packed_size": 6955,
+    "decoded_sha256": "a97550d1445ab651572bc4179ef1199d32fec9c4117b81ee3a3d687f6f8ed52b",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 1,
+    "raw_size": 17582,
+    "packed_size": 6859,
+    "decoded_sha256": "43c7351a2d7bfe8c49e4b4e19e8199c691e90df0125aa310cf017f9c6945b370",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 2,
+    "raw_size": 17582,
+    "packed_size": 7008,
+    "decoded_sha256": "e66bf726a8edd5d886f043d304b3067d874acb539210b9be05a2ef45440dc0e4",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 3,
+    "raw_size": 17582,
+    "packed_size": 6302,
+    "decoded_sha256": "6f9d913da49bd1a48370451707fcb7ca1ddad27e27ecd390eb71ca51d8d47e92",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 4,
+    "raw_size": 17582,
+    "packed_size": 5721,
+    "decoded_sha256": "4f0ede9de565bcc54f0caa89716282b3e9f395fdc8f8fabf7a9f0d9d5e5d87f0",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 10,
+    "raw_size": 9342,
+    "packed_size": 2981,
+    "decoded_sha256": "42e2b3f0a53f4a84a5f2855cafb946b5ce5a81d646e0c5f3aae8db561006b400",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 11,
+    "raw_size": 5830,
+    "packed_size": 815,
+    "decoded_sha256": "2d4d1f722cb434689886eeccb6f8cfa2b97e067f70ed004096cbd5883275565b",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 12,
+    "raw_size": 3910,
+    "packed_size": 453,
+    "decoded_sha256": "ba439ede631aa1fc9829f4c64df5b3ca650fa9cec1880f53dddb2657aea8d0c2",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 13,
+    "raw_size": 3910,
+    "packed_size": 600,
+    "decoded_sha256": "6e10cc08f78d7ad099dafbb1ce1db2ca698a2c9e328dbf9f5e46af1ed8702ca5",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 14,
+    "raw_size": 2310,
+    "packed_size": 877,
+    "decoded_sha256": "2d730f24db3df4031101c66b7b24de3dea918d4a3698af0e0d36d0b1e741bcc0",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 15,
+    "raw_size": 2630,
+    "packed_size": 711,
+    "decoded_sha256": "c0a09f447c8488cfb7dacc795a08b115245d96b749eb8a836ef6fd06bb5ddc19",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 16,
+    "raw_size": 2118,
+    "packed_size": 1204,
+    "decoded_sha256": "1ff8374d169d2fce97e2f0171d7a82b31ff7bcb83bc0cb6633394c481a0bb820",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 17,
+    "raw_size": 1350,
+    "packed_size": 459,
+    "decoded_sha256": "2831ad0410a223029044b4fa9cfbcd65b799c090a38ad5519c92c4741c661cbe",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 18,
+    "raw_size": 1030,
+    "packed_size": 369,
+    "decoded_sha256": "62424c015448e856abdadc9bbe321d5542100ee8463ebe714a8d54aeca7a7a2d",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 19,
+    "raw_size": 1030,
+    "packed_size": 632,
+    "decoded_sha256": "48a82ba4374dc390c6075188a29a79d9b1ce5511539870ff3398324773887aa3",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 20,
+    "raw_size": 838,
+    "packed_size": 359,
+    "decoded_sha256": "87096c4867f87c38678b3c943ed8d64390a2c3f9460d17d2dc6de2e061662a93",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 21,
+    "raw_size": 838,
+    "packed_size": 249,
+    "decoded_sha256": "368a26af97ec86663fbdc7b0a077d8a0e509912f3badfa9213e8647e47a98a36",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 22,
+    "raw_size": 582,
+    "packed_size": 356,
+    "decoded_sha256": "3ad81d707ce64d702d5f7efbe076925ed2544b23b0f970a6b40e9e9c4c595bf6",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 23,
+    "raw_size": 326,
+    "packed_size": 209,
+    "decoded_sha256": "e1646ce16619e49b6a7d1516d74ee21aeb3bb24dfabb014255cf84e6e273cbce",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 24,
+    "raw_size": 646,
+    "packed_size": 203,
+    "decoded_sha256": "e124313c72079072aca3e3922200be51ca4d8ec6aabac367f744c1d4c532cb03",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 25,
+    "raw_size": 326,
+    "packed_size": 165,
+    "decoded_sha256": "f09962f64fb21dddf81fe2fa6d62b0bbb2ebbab84b09b7e390dc25455a2e974d",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 26,
+    "raw_size": 894,
+    "packed_size": 643,
+    "decoded_sha256": "36803ca9becd90c103c61716c587394125e6f78b11276c5255baaf706f60304c",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 27,
+    "raw_size": 510,
+    "packed_size": 268,
+    "decoded_sha256": "ff23a7f6504b165e86c786c09dddef3d3ef7f9474b1e1a4088031a377f433b87",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 28,
+    "raw_size": 510,
+    "packed_size": 388,
+    "decoded_sha256": "9fac06e566e2514233dac4fd44a5654ca90c996630102903dd459e77770b3c31",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 29,
+    "raw_size": 510,
+    "packed_size": 375,
+    "decoded_sha256": "18fd0194cb1b197130225c37fd77a120b111c00bd64fd1bca2433fafd5228945",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 30,
+    "raw_size": 510,
+    "packed_size": 395,
+    "decoded_sha256": "2dcdceaf87b774cf946b67fa9e40dc39f9f5d69f83fb178202c869ee331196ee",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 31,
+    "raw_size": 510,
+    "packed_size": 426,
+    "decoded_sha256": "ef90728dd287831b5c4a57262cf137bb07f4db5b6130ac27fde39a871f20f04e",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 32,
+    "raw_size": 510,
+    "packed_size": 355,
+    "decoded_sha256": "c8743503e377afb30056b6b1d1798f9091689183e1cbee26a2fd77dcdba20bb2",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 33,
+    "raw_size": 254,
+    "packed_size": 202,
+    "decoded_sha256": "eac4822452e7e467e1d2146e5faea68a6d46ddffd21d9d3f0d199e8a07dff5ae",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 34,
+    "raw_size": 254,
+    "packed_size": 226,
+    "decoded_sha256": "5f39c72e72603015d0236dcdc688148df95ca87f64702129d8e2de8551907f22",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 35,
+    "raw_size": 254,
+    "packed_size": 225,
+    "decoded_sha256": "d97ff2ed5545326416cab69a0c1c02639ac9ae29c1bb1872950186ff98b3845f",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 36,
+    "raw_size": 254,
+    "packed_size": 230,
+    "decoded_sha256": "9839aee301f4ab30261b15bb289ea098b838ba5c4f93eed035d435a3def99d2c",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 37,
+    "raw_size": 254,
+    "packed_size": 243,
+    "decoded_sha256": "a01f7df50b9c3e604f05d59b8bbf66f01019eeab1b7c878307c60d93588a99fb",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 38,
+    "raw_size": 254,
+    "packed_size": 230,
+    "decoded_sha256": "de9b3ff292e5028faf03855b00aa0b76d5d7fc60347e2e02d5ff81490c90ac95",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 40,
+    "raw_size": 108,
+    "packed_size": 79,
+    "decoded_sha256": "4e3aca90cf4229b825840fc80299f5a9bc18e76504e855f9a09be204fa9ac01b",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 41,
+    "raw_size": 108,
+    "packed_size": 93,
+    "decoded_sha256": "cc439f49b8ff2bd8579da3ac3ba359c8d7c9cda00ac4f09432bac618c1df85b0",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 42,
+    "raw_size": 108,
+    "packed_size": 93,
+    "decoded_sha256": "a5bebd6449bed3da463ec49dbd2490619e8d9fbbf81e0b79e8cf7057be6c2224",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 43,
+    "raw_size": 108,
+    "packed_size": 85,
+    "decoded_sha256": "676a9a0d2cab62ab05c4987d5d2e2bc9df3733bd4cc7ab2f50f40c4c49a3435b",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 44,
+    "raw_size": 108,
+    "packed_size": 78,
+    "decoded_sha256": "ac9bd1ae16222d2dc7b27fa1ad2fb3fd97dfc151a4e77b12c9975cd8f2ce70fb",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 50,
+    "raw_size": 108,
+    "packed_size": 82,
+    "decoded_sha256": "e3cce0342f64286d886b180aa7bc646aa7c518c94774b7f2a93dc3c3edaa9414",
+    "warnings": ""
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 128,
+    "raw_size": 31102,
+    "packed_size": 2187,
+    "decoded_sha256": "cb1b1f8147e75ccc59c1c37f39ea741b550b1b7bc169e7ca24770c268dea2aa7",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 5,
+    "raw_size": 2565,
+    "packed_size": 1978,
+    "decoded_sha256": "6a2d76af20c0a0f82911c74a956151f990c8e81ecae859cd6290c2c43faaaab9",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 9,
+    "raw_size": 3926,
+    "packed_size": 3481,
+    "decoded_sha256": "6489baaaa4110fe9faeefce6a6eefe8c2fb300bdf599e70d65ba30699c51c5fe",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 12,
+    "raw_size": 2868,
+    "packed_size": 2218,
+    "decoded_sha256": "02f682b1ce5364e378a233954ee1a6dd4358fa3cf6a292c1f84e3d847842659b",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 14,
+    "raw_size": 2725,
+    "packed_size": 2086,
+    "decoded_sha256": "3f8022c6106384d057eed43f1da4f9dfb44cd8de4f4f6ba3ef5666013e0be055",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 19,
+    "raw_size": 2815,
+    "packed_size": 2184,
+    "decoded_sha256": "538c3e3beb18de4de4ec04a14edd06ef7aceeacb0bd9c30a0fbc19e25f268c0d",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 26,
+    "raw_size": 2873,
+    "packed_size": 2433,
+    "decoded_sha256": "2ca5b6203202bfba221e32ed3f179fb6e342885179896dfadab0708102b53964",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 33,
+    "raw_size": 2973,
+    "packed_size": 2512,
+    "decoded_sha256": "144d99ce1ed05ebfb8e83dd5ae724148c357373f7ddc0300515ce4e0e9535a81",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 36,
+    "raw_size": 3658,
+    "packed_size": 3200,
+    "decoded_sha256": "1b3516bd0eddd356b9ea9cb286f1990c9f690cb0dca64748eb6bfa0b236a1f8f",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 37,
+    "raw_size": 2962,
+    "packed_size": 2520,
+    "decoded_sha256": "7bf07227ef537e027762ad01becfa893cefdfb97c30198a2f7bffb140e6659a6",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 40,
+    "raw_size": 2145,
+    "packed_size": 1543,
+    "decoded_sha256": "cf8c509dc60173642e4a1be1ce8990794f69dc395e37a5274baead68de99fe47",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 41,
+    "raw_size": 2497,
+    "packed_size": 2019,
+    "decoded_sha256": "1ecf2b4262da9a431e84de2a6570248acabd77b7e5ee9b181fd6d47d88c2ddba",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 42,
+    "raw_size": 2577,
+    "packed_size": 2101,
+    "decoded_sha256": "d16a6bf24e2df9d0b1364302f07caf531599fb5e18751e066d0d4642c4a35fa3",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 44,
+    "raw_size": 2600,
+    "packed_size": 2117,
+    "decoded_sha256": "2838d8803d17f6fd7118f9bed0fdba59c74a943c3f75584edebdc1082e01557d",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 45,
+    "raw_size": 4503,
+    "packed_size": 4055,
+    "decoded_sha256": "fcee0743edec5a8b886f83ea054451043f458a1412d1ec943f038f61295e001f",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 47,
+    "raw_size": 2534,
+    "packed_size": 2064,
+    "decoded_sha256": "bc3947b210aa83aa62afdf8d6724c6b0138d03dbeb5a28ebb84f80c784be65f5",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 49,
+    "raw_size": 4527,
+    "packed_size": 4094,
+    "decoded_sha256": "57a2aa447c43fe69fc5931cd1bb1dc587e9c3c82783e18c397f1c261a1239c4a",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 50,
+    "raw_size": 3541,
+    "packed_size": 3098,
+    "decoded_sha256": "2a92769e99f7f926e7001363eba6eae2305747be23ac5436b02c5eca99749a9b",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 51,
+    "raw_size": 4746,
+    "packed_size": 4318,
+    "decoded_sha256": "1b30f46fc46dea4b066f8b0188b2b986973bb10670dc21f512ad45f5478884fd",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 52,
+    "raw_size": 2524,
+    "packed_size": 2003,
+    "decoded_sha256": "6ce8bac30857979da19458380607b7d612d682c8b28be5563df8926c04d82cf8",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 60,
+    "raw_size": 2688,
+    "packed_size": 2245,
+    "decoded_sha256": "60af5c842753030e39711e9e755720cfea9a4450e1e66e7079ab7e0f40d1f906",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 61,
+    "raw_size": 2741,
+    "packed_size": 2282,
+    "decoded_sha256": "ec9d46354d8199951a554d29c1a2806abe1ecc9956cc34edda24c9d8dbfdbfef",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 63,
+    "raw_size": 4547,
+    "packed_size": 4115,
+    "decoded_sha256": "1038b82522accbc7dd5f514753dbcfc15bd51225f1ece8d7d5f2f004b0dcdd33",
+    "warnings": ""
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 64,
+    "raw_size": 2341,
+    "packed_size": 1895,
+    "decoded_sha256": "e3988dce83f98a5d23d0b3504a995c876ca30134a2b11aae942726351091568c",
+    "warnings": ""
+  },
+  {
+    "file": "TITLE.DAX",
+    "id": 1,
+    "raw_size": 23894,
+    "packed_size": 3725,
+    "decoded_sha256": "78d6957d8b982a28d02387238f372a80414f12c803b0eb60d97eaa467e27611a",
+    "warnings": ""
+  },
+  {
+    "file": "TITLE.DAX",
+    "id": 2,
+    "raw_size": 42326,
+    "packed_size": 11336,
+    "decoded_sha256": "ffb4985524348e82fb1572365d104bbecb4e22b2e5bc178c52c190fb4769c502",
+    "warnings": ""
+  },
+  {
+    "file": "TITLE.DAX",
+    "id": 3,
+    "raw_size": 9558,
+    "packed_size": 3306,
+    "decoded_sha256": "d3e7f5ad096805d92016d05bc0d6948371a2a503f7635552612116ec7b82610e",
+    "warnings": ""
+  },
+  {
+    "file": "TITLE.DAX",
+    "id": 4,
+    "raw_size": 59734,
+    "packed_size": 43637,
+    "decoded_sha256": "5bc96ed5e45c33754681f34d7d29287922b0a59903a38d481fe4fc3167306499",
+    "warnings": ""
+  },
+  {
+    "file": "VENUSCOM.DAX",
+    "id": 1,
+    "raw_size": 25470,
+    "packed_size": 16248,
+    "decoded_sha256": "54fdaada38d7639d23b2a4dcba38a0c5712162fce81188ba715ba07c8491a9d8",
+    "warnings": ""
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 1,
+    "raw_size": 2340,
+    "packed_size": 1613,
+    "decoded_sha256": "183baad77be1a551a1c38a581ecaf10c2fcdef17fbb94c40fb2e9cac0cbc8786",
+    "warnings": ""
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 3,
+    "raw_size": 2340,
+    "packed_size": 1331,
+    "decoded_sha256": "b56bf6221ab8c56a7c90bfb098de49f583441c0940869dc9f33ec97794c277af",
+    "warnings": ""
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 5,
+    "raw_size": 2340,
+    "packed_size": 1591,
+    "decoded_sha256": "db0765a753036b44d5142b7dc36eabc159ff50fe040facce54bc39baea0397bb",
+    "warnings": ""
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 7,
+    "raw_size": 2340,
+    "packed_size": 1682,
+    "decoded_sha256": "09a0bef6d9f92f2b2e840573e2b1b50b0cd874d1a3182e702c90f1ac19bf34be",
+    "warnings": ""
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 9,
+    "raw_size": 2340,
+    "packed_size": 1224,
+    "decoded_sha256": "bf39c080569e1f0be56207edcaf1d9047c48ed1c99834e710cd29cbb135b5c66",
+    "warnings": ""
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 11,
+    "raw_size": 2340,
+    "packed_size": 1728,
+    "decoded_sha256": "8523745e0b754c12428e81779e7a0783f1367d7ac677a38a531b7cfc78e5bbd2",
+    "warnings": ""
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 13,
+    "raw_size": 2340,
+    "packed_size": 2140,
+    "decoded_sha256": "b8f1c415ed9a605c7ac5ee8116be7804344f01ec1d1ca4816f941df06b074761",
+    "warnings": ""
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 15,
+    "raw_size": 2340,
+    "packed_size": 1781,
+    "decoded_sha256": "64b6690dc4146ebfa5c66ba9a63291975c34162255a13a57fc59cf351bf1a089",
+    "warnings": ""
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 17,
+    "raw_size": 2340,
+    "packed_size": 1444,
+    "decoded_sha256": "ca0b4d4402896e7848b5a3bb6ba1093a5aeb01a702bf6d54f4eaf429c8712826",
+    "warnings": ""
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 19,
+    "raw_size": 2340,
+    "packed_size": 1767,
+    "decoded_sha256": "7f8a525627f2e2dca6fb0ac2906dbef34760208bd6795bf38554c532b1751f01",
+    "warnings": ""
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 22,
+    "raw_size": 2340,
+    "packed_size": 1515,
+    "decoded_sha256": "55f709478e6125cd1738c3005c84ca835b022e54880e6e55b997f70bb5773c7b",
+    "warnings": ""
+  }
+]

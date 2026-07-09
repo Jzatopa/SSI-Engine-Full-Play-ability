@@ -1,0 +1,108 @@
+# Memory Reference Summary
+
+Generated from structured event pseudocode.
+
+Total unique references: 143
+
+## Top 100
+
+- `area2.event_scratch0`: 1699 refs; top file `geo_082_neo-installation.structured.md` (341); example: `area2.event_scratch0 = 4 & area1.event_word_25E;  // 0x880A`
+- `area2.event_scratch1`: 184 refs; top file `geo_096_living-ship.structured.md` (82); example: `gettable(area2.event_scratch1 = abs_A2F0[area1.event_word_21C]);  // 0x852B`
+- `area1.event_word_2C0`: 107 refs; top file `geo_034_historical-museum-levels-2-1.structured.md` (107); example: `area2.event_scratch0 = 4 & area1.event_word_2C0;  // 0x860E`
+- `area1.event_word_21A`: 72 refs; top file `geo_066_ram-battler-deimos-level-19-41.structured.md` (32); example: `if (0 != area1.event_word_21A) {`
+- `area1.event_word_20A`: 67 refs; top file `geo_034_historical-museum-levels-2-1.structured.md` (18); example: `if (area1.event_word_20A == area1.event_word_20C) {`
+- `area1.event_word_214`: 66 refs; top file `geo_064_luna-base.structured.md` (20); example: `mapPosX = area1.event_word_214;  // 0x84E7`
+- `area1.event_word_372`: 65 refs; top file `geo_112_stormrider-university.structured.md` (65); example: `switch (area1.event_word_372) {`
+- `area1.event_word_218`: 62 refs; top file `geo_034_historical-museum-levels-2-1.structured.md` (45); example: `area2.event_scratch0 = area1.event_word_218 & 32;  // 0x86C5`
+- `area1.event_word_2BE`: 60 refs; top file `geo_034_historical-museum-levels-2-1.structured.md` (60); example: `area2.event_scratch0 = 16 & area1.event_word_2BE;  // 0x8659`
+- `area1.event_word_376`: 57 refs; top file `geo_112_stormrider-university.structured.md` (57); example: `area2.event_scratch0 = 128 & area1.event_word_376;  // 0x88CE`
+- `area2.event_scratch2`: 53 refs; top file `geo_034_historical-museum-levels-2-1.structured.md` (18); example: `add(area2.event_scratch2 = 4 + area2.event_scratch8);  // 0x86D9`
+- `area1.event_word_204`: 53 refs; top file `geo_081_purge-headquarters-floors-ground-upper.structured.md` (17); example: `and(area1.event_word_204 = 63 & abs_C04F);  // 0x83F4`
+- `area1.event_word_206`: 52 refs; top file `geo_049_lowlander-village.structured.md` (24); example: `if (39 < area1.event_word_206) {`
+- `area1.event_word_34E`: 51 refs; top file `geo_082_neo-installation.structured.md` (51); example: `area2.event_scratch0 = 64 & area1.event_word_34E;  // 0x87E7`
+- `area1.event_word_24A`: 51 refs; top file `geo_096_living-ship.structured.md` (51); example: `area2.event_scratch0 = 8 & area1.event_word_24A;  // 0xA14E`
+- `area1.event_word_34A`: 47 refs; top file `geo_082_neo-installation.structured.md` (47); example: `area2.event_scratch0 = 32 & area1.event_word_34A;  // 0x8978`
+- `area1.event_word_20C`: 45 refs; top file `geo_064_luna-base.structured.md` (19); example: `if (1 == area1.event_word_20C) {`
+- `area1.event_word_21C`: 44 refs; top file `geo_034_historical-museum-levels-2-1.structured.md` (27); example: `random(area1.event_word_21C = random 1..3);  // 0x8525`
+- `area1.event_word_200`: 42 refs; top file `geo_064_luna-base.structured.md` (42); example: `area2.event_scratch0 = area1.event_word_200 & 1;  // 0x819C`
+- `area1.event_word_2EC`: 40 refs; top file `geo_049_lowlander-village.structured.md` (40); example: `add(area1.event_word_2EC = 1 + area1.event_word_2EC);  // 0x9015`
+- `scratch.word_0258`: 39 refs; top file `geo_064_luna-base.structured.md` (39); example: `scratch.word_0258 = abs_000C;  // 0x822D`
+- `area1.event_word_370`: 38 refs; top file `geo_112_stormrider-university.structured.md` (38); example: `area2.event_scratch0 = 1 & area1.event_word_370;  // 0x864A`
+- `scratch.word_0208`: 37 refs; top file `geo_017_caloris-space-port.structured.md` (37); example: `scratch.word_0208 = abs_0007;  // 0x88D7`
+- `area1.event_word_210`: 36 refs; top file `geo_034_historical-museum-levels-2-1.structured.md` (24); example: `compare_and(Values: area1.event_word_210 == mapPosX && area1.event_word_212 == mapPosY);  // 0x83BC`
+- `area1.event_word_348`: 33 refs; top file `geo_082_neo-installation.structured.md` (33); example: `area2.event_scratch0 = 8 & area1.event_word_348;  // 0x8855`
+- `abs_C04E`: 32 refs; top file `geo_034_historical-museum-levels-2-1.structured.md` (13); example: `if (0 != abs_C04E) {`
+- `area1.event_word_20E`: 32 refs; top file `geo_034_historical-museum-levels-2-1.structured.md` (9); example: `area1.event_word_20E = 2;  // 0x8F2F`
+- `area1.event_word_386`: 32 refs; top file `geo_113_genetics-foundation-building-levels-1-4.structured.md` (32); example: `area2.event_scratch0 = 4 & area1.event_word_386;  // 0x8D4A`
+- `area1.event_word_2C2`: 31 refs; top file `geo_034_historical-museum-levels-2-1.structured.md` (31); example: `area2.event_scratch0 = 4 & area1.event_word_2C2;  // 0x875A`
+- `area1.event_word_2E6`: 30 refs; top file `geo_052_lowlander-mines.structured.md` (20); example: `area2.event_scratch0 = 64 & area1.event_word_2E6;  // 0x8CCB`
+- `area1.event_word_234`: 30 refs; top file `geo_080_mars-prison-level-1.structured.md` (28); example: `mapPosY = area1.event_word_234;  // 0x9B1A`
+- `area1.event_word_242`: 30 refs; top file `geo_096_living-ship.structured.md` (30); example: `area2.event_scratch1 = 15 & area1.event_word_242;  // 0x8F5B`
+- `area1.event_word_208`: 29 refs; top file `geo_112_stormrider-university.structured.md` (10); example: `if (1 == area1.event_word_208) {`
+- `area1.event_word_298`: 28 refs; top file `geo_038_losangelorg-sprawls.structured.md` (28); example: `area2.event_scratch0 = 1 & area1.event_word_298;  // 0x8BB9`
+- `area1.event_word_384`: 28 refs; top file `geo_113_genetics-foundation-building-levels-1-4.structured.md` (28); example: `area2.event_scratch0 = 1 & area1.event_word_384;  // 0x8F12`
+- `area1.event_word_212`: 27 refs; top file `geo_066_ram-battler-deimos-level-19-41.structured.md` (17); example: `compare_and(Values: area1.event_word_210 == mapPosX && area1.event_word_212 == mapPosY);  // 0x83BC`
+- `area1.event_word_2BC`: 27 refs; top file `geo_034_historical-museum-levels-2-1.structured.md` (27); example: `if (8 > area1.event_word_2BC) {`
+- `area1.event_word_2EA`: 24 refs; top file `geo_049_lowlander-village.structured.md` (24); example: `area2.event_scratch0 = area1.event_word_206 & area1.event_word_2EA;  // 0x8D72`
+- `area1.event_word_246`: 24 refs; top file `geo_096_living-ship.structured.md` (24); example: `area2.event_scratch0 = 8 & area1.event_word_246;  // 0x8ED1`
+- `area1.event_word_22A`: 22 refs; top file `geo_017_caloris-space-port.structured.md` (15); example: `area1.event_word_22A = abs_0001;  // 0x88B8`
+- `area1.event_word_3AC`: 22 refs; top file `geo_035_asteroid-base.structured.md` (22); example: `area2.event_scratch0 = area1.event_word_3AC & 8;  // 0x85B4`
+- `area1.event_word_31E`: 22 refs; top file `geo_081_purge-headquarters-floors-ground-upper.structured.md` (20); example: `if (area1.event_word_31E == 1) {`
+- `area1.event_word_202`: 21 refs; top file `geo_112_stormrider-university.structured.md` (12); example: `area1.event_word_202 = 0;  // 0x83B6`
+- `area1.event_word_3B0`: 21 refs; top file `geo_035_asteroid-base.structured.md` (21); example: `area2.event_scratch0 = area1.event_word_3B0 & 1;  // 0x85BF`
+- `area2.event_scratch3`: 21 refs; top file `geo_051_venus-laboratory-level-2.structured.md` (10); example: `area2.event_scratch3 = 2;  // 0x9657`
+- `area1.event_word_226`: 20 refs; top file `geo_017_caloris-space-port.structured.md` (15); example: `area1.event_word_226 = 0;  // 0x88BF`
+- `area2.selected_player_name`: 20 refs; top file `geo_017_caloris-space-port.structured.md` (6); example: `- Text hint: "A DISEMBODIED VOICE ECHOES THROUGH THE HALL, '" '<string at area2.selected_player_name>' '<string at scratch.word_0208>'`
+- `area1.event_word_216`: 19 refs; top file `geo_080_mars-prison-level-1.structured.md` (8); example: `mapPosY = area1.event_word_216;  // 0x84EE`
+- `area1.event_word_2E4`: 19 refs; top file `geo_049_lowlander-village.structured.md` (18); example: `area2.event_scratch0 = 8 & area1.event_word_2E4;  // 0x9028`
+- `area1.event_word_3E4`: 19 refs; top file `geo_096_living-ship.structured.md` (19); example: `if (255 == area1.event_word_3E4) {`
+- `area2.selected_player_in_combat`: 18 refs; top file `geo_082_neo-installation.structured.md` (16); example: `if (1 != area2.selected_player_in_combat) {`
+- `area1.event_word_232`: 18 refs; top file `geo_080_mars-prison-level-1.structured.md` (16); example: `mapPosX = area1.event_word_232;  // 0x9B13`
+- `area1.event_word_34C`: 18 refs; top file `geo_082_neo-installation.structured.md` (18); example: `area2.event_scratch0 = 2 & area1.event_word_34C;  // 0x8F92`
+- `area1.event_word_2FE`: 17 refs; top file `geo_050_venus-laboratory-level-1.structured.md` (14); example: `area2.event_scratch0 = 1 & area1.event_word_2FE;  // 0x844F`
+- `area1.event_word_2FC`: 16 refs; top file `geo_051_venus-laboratory-level-2.structured.md` (10); example: `if (area1.event_word_2FC == 1) {`
+- `area2.event_scratch7`: 14 refs; top file `geo_021_21.structured.md` (14); example: `gettable(area2.event_scratch7 = ecl.byte_0FCD[area2.event_scratch2]);  // 0x86E2`
+- `area1.event_word_352`: 14 refs; top file `geo_082_neo-installation.structured.md` (14); example: `if (1 != area1.event_word_352) {`
+- `area1.event_word_25E`: 13 refs; top file `geo_017_caloris-space-port.structured.md` (13); example: `area2.event_scratch0 = 4 & area1.event_word_25E;  // 0x880A`
+- `scratch.word_0000`: 13 refs; top file `geo_017_caloris-space-port.structured.md` (13); example: `scratch.word_0000 = abs_000C;  // 0x88C5`
+- `abs_0004`: 13 refs; top file `geo_082_neo-installation.structured.md` (11); example: `scratch.word_0208 = abs_0004;  // 0x89D9`
+- `area1.event_word_3AE`: 13 refs; top file `geo_035_asteroid-base.structured.md` (13); example: `area2.event_scratch0 = area1.event_word_3AE & 2;  // 0x8DDE`
+- `area1.event_word_306`: 13 refs; top file `geo_051_venus-laboratory-level-2.structured.md` (11); example: `area2.event_scratch0 = 128 & area1.event_word_306;  // 0x8C39`
+- `area2.event_scratch6`: 13 refs; top file `geo_096_living-ship.structured.md` (13); example: `area2.event_scratch6 = 23;  // 0xA07D`
+- `area1.event_word_314`: 11 refs; top file `geo_038_losangelorg-sprawls.structured.md` (5); example: `area2.event_scratch0 = 16 & area1.event_word_314;  // 0x9B3A`
+- `area1.event_word_350`: 11 refs; top file `geo_082_neo-installation.structured.md` (11); example: `if (4 == area1.event_word_350) {`
+- `area1.event_word_248`: 11 refs; top file `geo_096_living-ship.structured.md` (11); example: `area2.event_scratch1 = area2.event_scratch0 & area1.event_word_248;  // 0xA0C3`
+- `area1.event_word_308`: 10 refs; top file `geo_051_venus-laboratory-level-2.structured.md` (8); example: `area2.event_scratch0 = 64 & area1.event_word_308;  // 0x8832`
+- `area1.event_word_30E`: 10 refs; top file `geo_081_purge-headquarters-floors-ground-upper.structured.md` (10); example: `area2.event_scratch0 = 4 & area1.event_word_30E;  // 0x87E0`
+- `abs_0001`: 9 refs; top file `geo_017_caloris-space-port.structured.md` (9); example: `area1.event_word_22A = abs_0001;  // 0x88B8`
+- `area1.event_word_25C`: 9 refs; top file `geo_017_caloris-space-port.structured.md` (9); example: `area2.event_scratch0 = 1 & area1.event_word_25C;  // 0x8DD2`
+- `abs_A2F0`: 9 refs; top file `geo_034_historical-museum-levels-2-1.structured.md` (9); example: `gettable(area2.event_scratch1 = abs_A2F0[area1.event_word_21C]);  // 0x852B`
+- `abs_A2EC`: 9 refs; top file `geo_034_historical-museum-levels-2-1.structured.md` (9); example: `gettable(area2.event_scratch2 = abs_A2EC[area1.event_word_21C]);  // 0x8535`
+- `area1.event_word_29A`: 9 refs; top file `geo_038_losangelorg-sprawls.structured.md` (9); example: `area2.event_scratch0 = 1 & area1.event_word_29A;  // 0x9C81`
+- `area1.event_word_312`: 9 refs; top file `geo_081_purge-headquarters-floors-ground-upper.structured.md` (9); example: `if (area1.event_word_312 == 1) {`
+- `area1.event_word_31C`: 9 refs; top file `geo_084_mars-prison-level-2.structured.md` (8); example: `area2.event_scratch0 = 64 & area1.event_word_31C;  // 0x8D30`
+- `area1.event_word_356`: 9 refs; top file `geo_082_neo-installation.structured.md` (9); example: `area2.event_scratch0 = 1 & area1.event_word_356;  // 0x8C43`
+- `abs_000C`: 8 refs; top file `geo_017_caloris-space-port.structured.md` (4); example: `scratch.word_0000 = abs_000C;  // 0x88C5`
+- `area1.event_word_3B6`: 8 refs; top file `geo_035_asteroid-base.structured.md` (8); example: `area2.event_scratch0 = area1.event_word_3B6 & 8;  // 0x9A85`
+- `area1.event_word_2E8`: 8 refs; top file `geo_052_lowlander-mines.structured.md` (6); example: `area2.event_scratch0 = 2 & area1.event_word_2E8;  // 0x8D0B`
+- `abs_A370`: 8 refs; top file `geo_049_lowlander-village.structured.md` (8); example: `gettable(area1.event_word_20A = abs_A370[area2.event_scratch1]);  // 0x8D55`
+- `abs_A378`: 8 refs; top file `geo_049_lowlander-village.structured.md` (8); example: `gettable(area1.event_word_206 = abs_A378[area2.event_scratch1]);  // 0x8D5F`
+- `area1.event_word_222`: 8 refs; top file `geo_066_ram-battler-deimos-level-19-41.structured.md` (8); example: `area1.event_word_222 = 0;  // 0x9101`
+- `area1.event_word_23A`: 8 refs; top file `geo_080_mars-prison-level-1.structured.md` (8); example: `load_monster(monster_id: area1.event_word_23A copies: area2.event_scratch0 cpic_id: area1.event_word_23A);  // 0x863E`
+- `abs_0006`: 7 refs; top file `geo_017_caloris-space-port.structured.md` (5); example: `scratch.word_0000 = abs_0006;  // 0x89CD`
+- `abs_0009`: 7 refs; top file `geo_017_caloris-space-port.structured.md` (4); example: `scratch.word_0208 = abs_0009;  // 0x8A76`
+- `area2.event_scratch8`: 7 refs; top file `geo_021_21.structured.md` (7); example: `add(area2.event_scratch2 = 4 + area2.event_scratch8);  // 0x86D9`
+- `area1.event_word_300`: 7 refs; top file `geo_050_venus-laboratory-level-1.structured.md` (7); example: `if (area1.event_word_300 == 1) {`
+- `area1.event_word_230`: 7 refs; top file `geo_066_ram-battler-deimos-level-19-41.structured.md` (7); example: `if (area1.event_word_230 == 1) {`
+- `area1.event_word_224`: 7 refs; top file `geo_066_ram-battler-deimos-level-19-41.structured.md` (7); example: `area1.event_word_224 = 0;  // 0x90FB`
+- `area1.event_word_258`: 6 refs; top file `geo_017_caloris-space-port.structured.md` (6); example: `if (0 == area1.event_word_258) {`
+- `area1.event_word_2EE`: 6 refs; top file `geo_052_lowlander-mines.structured.md` (5); example: `if (area1.event_word_2EE == 1) {`
+- `area1.event_word_304`: 6 refs; top file `geo_050_venus-laboratory-level-1.structured.md` (6); example: `if (area1.event_word_304 <= 5) {`
+- `area1.event_word_316`: 6 refs; top file `geo_081_purge-headquarters-floors-ground-upper.structured.md` (6); example: `if (area1.event_word_316 < 3) {`
+- `area1.event_word_26A`: 6 refs; top file `geo_096_living-ship.structured.md` (6); example: `area2.event_scratch0 = 105 & area1.event_word_26A;  // 0x839A`
+- `area1.event_word_38C`: 6 refs; top file `geo_113_genetics-foundation-building-levels-1-4.structured.md` (6); example: `area2.event_scratch0 = 1 & area1.event_word_38C;  // 0x9F2C`
+- `abs_000B`: 5 refs; top file `geo_064_luna-base.structured.md` (3); example: `scratch.word_0208 = abs_000B;  // 0xA04A`
+- `area2.surprise_result`: 5 refs; top file `geo_035_asteroid-base.structured.md` (3); example: `area2.surprise_result = 2;  // 0x9C86`
+- `area2.word_58E`: 5 refs; top file `geo_080_mars-prison-level-1.structured.md` (4); example: `if (area2.word_58E <= 128) {`
+- `abs_000E`: 5 refs; top file `geo_064_luna-base.structured.md` (4); example: `scratch.word_0258 = abs_000E;  // 0x8A44`
+- `abs_000A`: 5 refs; top file `geo_064_luna-base.structured.md` (3); example: `scratch.word_0258 = abs_000A;  // 0x9472`

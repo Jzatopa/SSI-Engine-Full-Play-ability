@@ -1,0 +1,26 @@
+geo_id	name	bytes	highest_event	event_count	door_count	referenced_by_ecl	wallsets_seen_in_ecl
+1	Luna Base	1026	40	49	67	1,50	7/127/127;11/127/127
+17	Caloris Space Port	1026	32	50	85	17,19	5/127/127
+18	Asteroid	1026	0	0	19	18,33	5/127/127;15/127/127
+21	21	1026	9	34	60	21	22/127/127
+33	Losangelorg Sprawls	1026	21	47	119	19,33	5/127/127;15/127/127
+34	Historical Museum, Levels 2-1	1026	38	135	88	34	15/127/127
+35	Asteroid Base	1026	37	43	48	35	11/255/255
+38	Losangelorg Sprawls	1026	23	24	88	38	
+49	Lowlander Village	1026	24	28	62	49	9/127/127;11/127/127;13/127/127
+50	Venus Laboratory, Level 1	1026	24	122	51	50	11/127/127
+51	Venus Laboratory, Level 2	1026	45	26	47	50	11/127/127
+52	Lowlander Mines	1026	38	45	38	49	9/127/127;11/127/127;13/127/127
+64	Luna Base	1026	40	49	67	24,64	7/127/127;7/127/255
+65	Tsai Weaponry Labs	1026	32	35	66	65	7/127/255
+66	RAM Battler, Deimos Level 19-41	1026	23	76	143	66	3/255/255
+80	Mars Prison, Level 1	1026	9	157	73	80	5/127/127
+81	PURGE Headquarters, Floors Ground-Upper	1026	25	91	102	81	3/127/127
+82	NEO Installation	1026	38	63	129	82	22/127/127
+84	Mars Prison, Level 2	1026	24	51	84	80	5/127/127
+96	Living Ship	1026	30	48	97	96,97	17/127/127;19/127/127
+97	Living Ship	1026	17	56	116	97	17/127/127;19/127/127
+112	Stormrider University	1026	36	123	72	112	19/127/127
+113	Genetics Foundation Building, Levels 1-4	1026	31	39	137	113	22/127/127
+114	Jupiter Finale	1026	40	139	69	114	3/127/127;17/127/127
+115	Jupiter Aircar	1026	17	18	10		

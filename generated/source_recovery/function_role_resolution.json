@@ -1,0 +1,739 @@
+{
+  "description": "Static resolution pass for the 23 GAME.OVR source-recovery role hypotheses.",
+  "limits": [
+    "Resolved means removed from the unknown queue by static evidence.",
+    "Resolved does not mean runtime-validated or original-name recovery.",
+    "Stub/boundary and bad-decode resolutions are intentionally not liftable into runtime behavior."
+  ],
+  "summary": {
+    "candidate_count": 23,
+    "resolved_count": 23,
+    "status_counts": {
+      "resolved_bad_decode": 2,
+      "resolved_static": 18,
+      "resolved_stub_or_boundary": 3
+    }
+  },
+  "resolutions": [
+    {
+      "status": "resolved_static",
+      "resolved_role": "overlay_startup_state_init",
+      "summary": "Calls a shared initializer, sets global flag 0x4417, and copies global mode/state byte 0x3ddb into 0x50d2.",
+      "implementation_use": "Use as evidence for overlay/global state initialization, not as a credits routine.",
+      "next_validation": "Find callers around overlay entry and compare 0x4417/0x50d2 meanings against runtime state transitions.",
+      "entry": "0000:016c",
+      "name": "FUN_0000_016c",
+      "previous_likely_roles": [
+        "anchor"
+      ],
+      "previous_confidence": "high",
+      "original_file_offset": 372,
+      "body_addresses": 21,
+      "outbound_call_count": 1,
+      "memory_ref_count": 3,
+      "anchor_evidence": [
+        {
+          "anchor": "credits",
+          "role": "anchor",
+          "side": "previous",
+          "distance": 21,
+          "file_offset": 393,
+          "ghidra_address": "0018:0001"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/0000_016c_FUN_0000_016c.c"
+    },
+    {
+      "status": "resolved_bad_decode",
+      "resolved_role": "bad_decode_or_mixed_code_data_near_credits_anchor",
+      "summary": "Ghidra reports overlapping instructions, bad instruction data, abnormal stack setup, and removed blocks.",
+      "implementation_use": "Do not lift this pseudocode; treat the address as a bad entry or mixed code/data island.",
+      "next_validation": "Inspect raw bytes and Ghidra disassembly manually before assigning any behavior.",
+      "entry": "0000:0385",
+      "name": "FUN_0000_0385",
+      "previous_likely_roles": [
+        "anchor"
+      ],
+      "previous_confidence": "medium",
+      "original_file_offset": 909,
+      "body_addresses": 42,
+      "outbound_call_count": 5,
+      "memory_ref_count": 0,
+      "anchor_evidence": [
+        {
+          "anchor": "credits",
+          "role": "anchor",
+          "side": "next",
+          "distance": 516,
+          "file_offset": 393,
+          "ghidra_address": "0018:0001"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/0000_0385_FUN_0000_0385.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "combat_roster_and_battlefield_setup",
+      "summary": "Initializes combat tables, walks the party linked list, records combatant pointers, status/facing, visibility, and battlefield placement entries.",
+      "implementation_use": "Use to validate combat start roster construction and initial placement logic.",
+      "next_validation": "Compare combatant table counts and positions against a DOS combat capture.",
+      "entry": "0000:fb92",
+      "name": "FUN_0000_fb92",
+      "previous_likely_roles": [
+        "combat"
+      ],
+      "previous_confidence": "medium",
+      "original_file_offset": 64410,
+      "body_addresses": 925,
+      "outbound_call_count": 9,
+      "memory_ref_count": 31,
+      "anchor_evidence": [
+        {
+          "anchor": "combat_start",
+          "role": "combat",
+          "side": "previous",
+          "distance": 926,
+          "file_offset": 65336,
+          "ghidra_address": "0ff3:0000"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/0000_fb92_FUN_0000_fb92.c"
+    },
+    {
+      "status": "resolved_stub_or_boundary",
+      "resolved_role": "empty_combat_boundary_candidate",
+      "summary": "Decompiles to a tiny return-only function near the combat_start anchor.",
+      "implementation_use": "Do not lift as combat logic; keep as possible boundary, padding, or misidentified function start.",
+      "next_validation": "Check neighboring raw bytes and cross-references before deleting from the combat cluster.",
+      "entry": "1000:0131",
+      "name": "FUN_1000_0131",
+      "previous_likely_roles": [
+        "combat"
+      ],
+      "previous_confidence": "low",
+      "original_file_offset": 65849,
+      "body_addresses": 5,
+      "outbound_call_count": 0,
+      "memory_ref_count": 0,
+      "anchor_evidence": [
+        {
+          "anchor": "combat_start",
+          "role": "combat",
+          "side": "next",
+          "distance": 513,
+          "file_offset": 65336,
+          "ghidra_address": "0ff3:0000"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/1000_0131_FUN_1000_0131.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "character_record_initial_field_fill",
+      "summary": "Loops 0x55 bytes, calls a byte-producing helper, and writes into the active character record at offset +0x4d onward.",
+      "implementation_use": "Use to validate character-creation default/stat/equipment field initialization.",
+      "next_validation": "Compare generated character records after DOS character creation with reconstructed defaults.",
+      "entry": "1000:8467",
+      "name": "FUN_1000_8467",
+      "previous_likely_roles": [
+        "character_creation"
+      ],
+      "previous_confidence": "high",
+      "original_file_offset": 99439,
+      "body_addresses": 70,
+      "outbound_call_count": 1,
+      "memory_ref_count": 3,
+      "anchor_evidence": [
+        {
+          "anchor": "character_creation",
+          "role": "character_creation",
+          "side": "previous",
+          "distance": 70,
+          "file_offset": 99509,
+          "ghidra_address": "184a:000d"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/1000_8467_FUN_1000_8467.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "character_roster_remove_and_compact",
+      "summary": "If a roster/entry marker equals 7, removes an entry and compacts subsequent character indices while decrementing the active count.",
+      "implementation_use": "Use to validate character removal or rejected-created-character roster compaction.",
+      "next_validation": "Capture DOS behavior for deleting/dropping a created character and compare roster order.",
+      "entry": "1000:8e7d",
+      "name": "FUN_1000_8e7d",
+      "previous_likely_roles": [
+        "character_creation"
+      ],
+      "previous_confidence": "low",
+      "original_file_offset": 102021,
+      "body_addresses": 151,
+      "outbound_call_count": 0,
+      "memory_ref_count": 10,
+      "anchor_evidence": [
+        {
+          "anchor": "character_creation",
+          "role": "character_creation",
+          "side": "next",
+          "distance": 2512,
+          "file_offset": 99509,
+          "ghidra_address": "184a:000d"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/1000_8e7d_FUN_1000_8e7d.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "shop_item_grant_or_inventory_insert",
+      "summary": "Builds item records from table bytes, links them into the active character inventory list, and marks an item flag bit.",
+      "implementation_use": "Use to validate shop purchase/reward item insertion.",
+      "next_validation": "Compare inventory linked-list changes after buying known shop items.",
+      "entry": "1000:c010",
+      "name": "FUN_1000_c010",
+      "previous_likely_roles": [
+        "shop"
+      ],
+      "previous_confidence": "low",
+      "original_file_offset": 114712,
+      "body_addresses": 178,
+      "outbound_call_count": 2,
+      "memory_ref_count": 6,
+      "anchor_evidence": [
+        {
+          "anchor": "shop_menu",
+          "role": "shop",
+          "side": "previous",
+          "distance": 2658,
+          "file_offset": 117370,
+          "ghidra_address": "1ca7:0002"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/1000_c010_FUN_1000_c010.c"
+    },
+    {
+      "status": "resolved_stub_or_boundary",
+      "resolved_role": "empty_shop_boundary_candidate",
+      "summary": "Decompiles to a tiny return-only function near the shop_menu anchor.",
+      "implementation_use": "Do not lift as shop logic; likely boundary/padding or bad function start.",
+      "next_validation": "Inspect neighboring shop-menu code and xrefs.",
+      "entry": "1000:ce56",
+      "name": "FUN_1000_ce56",
+      "previous_likely_roles": [
+        "shop"
+      ],
+      "previous_confidence": "low",
+      "original_file_offset": 118366,
+      "body_addresses": 5,
+      "outbound_call_count": 0,
+      "memory_ref_count": 0,
+      "anchor_evidence": [
+        {
+          "anchor": "shop_menu",
+          "role": "shop",
+          "side": "next",
+          "distance": 996,
+          "file_offset": 117370,
+          "ghidra_address": "1ca7:0002"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/1000_ce56_FUN_1000_ce56.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "item_type_classification_dispatch",
+      "summary": "Reads an item type byte from the loaded item table and dispatches item classes 1..6 through FUN_1000_cf61; otherwise advances the item pointer.",
+      "implementation_use": "Use to validate ITEM0 category mapping and item-detail decode.",
+      "next_validation": "Compare dispatch buckets against decoded ITEM0 names and item detail records.",
+      "entry": "1000:eb60",
+      "name": "FUN_1000_eb60",
+      "previous_likely_roles": [
+        "items"
+      ],
+      "previous_confidence": "medium",
+      "original_file_offset": 125800,
+      "body_addresses": 276,
+      "outbound_call_count": 6,
+      "memory_ref_count": 7,
+      "anchor_evidence": [
+        {
+          "anchor": "item0_loader",
+          "role": "items",
+          "side": "previous",
+          "distance": 662,
+          "file_offset": 126462,
+          "ghidra_address": "1edf:0006"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/1000_eb60_FUN_1000_eb60.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "equipment_flag_postprocess_or_active_item_refresh",
+      "summary": "Checks equipment/status flags at 0x8c33..0x8c3a, clears them, updates globals, and calls display/result helpers.",
+      "implementation_use": "Use as evidence for post-item/equipment state refresh, not base item loading.",
+      "next_validation": "Trigger equip/unequip/use flows in DOS and compare flags/UI side effects.",
+      "entry": "1000:eeec",
+      "name": "FUN_1000_eeec",
+      "previous_likely_roles": [
+        "items"
+      ],
+      "previous_confidence": "high",
+      "original_file_offset": 126708,
+      "body_addresses": 133,
+      "outbound_call_count": 5,
+      "memory_ref_count": 16,
+      "anchor_evidence": [
+        {
+          "anchor": "item0_loader",
+          "role": "items",
+          "side": "next",
+          "distance": 246,
+          "file_offset": 126462,
+          "ghidra_address": "1edf:0006"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/1000_eeec_FUN_1000_eeec.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "save_slot_or_filename_selection_validation",
+      "summary": "Uses large stack buffers, menu/input/file helper calls, and returns a success flag after validating selected save/character output.",
+      "implementation_use": "Use to validate save-character/save-slot prompting and file validation.",
+      "next_validation": "Compare DOS save prompts and invalid-slot behavior.",
+      "entry": "1000:f67d",
+      "name": "FUN_1000_f67d",
+      "previous_likely_roles": [
+        "save_load"
+      ],
+      "previous_confidence": "medium",
+      "original_file_offset": 128645,
+      "body_addresses": 380,
+      "outbound_call_count": 17,
+      "memory_ref_count": 3,
+      "anchor_evidence": [
+        {
+          "anchor": "save_character",
+          "role": "save_load",
+          "side": "previous",
+          "distance": 902,
+          "file_offset": 129547,
+          "ghidra_address": "1fa0:0003"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/1000_f67d_FUN_1000_f67d.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "save_character_or_save_game_writer_preflight",
+      "summary": "Calls the save selection helper, computes serialized linked-list sizes, copies party/character state, checks output size, and branches into write/error routines.",
+      "implementation_use": "Use to validate save serialization sizing and character-state fields.",
+      "next_validation": "Compare produced SAVGAMA/character-save byte lengths and selected offsets.",
+      "entry": "1000:fad0",
+      "name": "FUN_1000_fad0",
+      "previous_likely_roles": [
+        "save_load"
+      ],
+      "previous_confidence": "high",
+      "original_file_offset": 129752,
+      "body_addresses": 193,
+      "outbound_call_count": 10,
+      "memory_ref_count": 19,
+      "anchor_evidence": [
+        {
+          "anchor": "save_character",
+          "role": "save_load",
+          "side": "next",
+          "distance": 205,
+          "file_offset": 129547,
+          "ghidra_address": "1fa0:0003"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/1000_fad0_FUN_1000_fad0.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "save_linked_item_chain_writer_continuation",
+      "summary": "Walks a linked chain at character offsets 0xfb/0xfd in 9-byte increments and calls save/write helpers, including the save writer.",
+      "implementation_use": "Use to validate serialized item-chain layout.",
+      "next_validation": "Compare saved inventory/equipment item-chain bytes against DOS saves.",
+      "entry": "1000:fb92",
+      "name": "FUN_1000_fb92",
+      "previous_likely_roles": [
+        "save_load"
+      ],
+      "previous_confidence": "low",
+      "original_file_offset": 129946,
+      "body_addresses": 252,
+      "outbound_call_count": 9,
+      "memory_ref_count": 1,
+      "anchor_evidence": [
+        {
+          "anchor": "load_game",
+          "role": "save_load",
+          "side": "previous",
+          "distance": 4581,
+          "file_offset": 134527,
+          "ghidra_address": "20d7:0007"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/1000_fb92_FUN_1000_fb92.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "save_serialized_party_size_calculator",
+      "summary": "Walks party members and nested linked item/equipment chains to compute serialized save size using 0x103, 0x3e, and 9-byte record increments.",
+      "implementation_use": "Use to validate save sizing before save/load byte-format work.",
+      "next_validation": "Assert computed size against known DOS save samples.",
+      "entry": "2000:13fd",
+      "name": "FUN_2000_13fd",
+      "previous_likely_roles": [
+        "save_load"
+      ],
+      "previous_confidence": "medium",
+      "original_file_offset": 136197,
+      "body_addresses": 274,
+      "outbound_call_count": 0,
+      "memory_ref_count": 2,
+      "anchor_evidence": [
+        {
+          "anchor": "load_game",
+          "role": "save_load",
+          "side": "next",
+          "distance": 1670,
+          "file_offset": 134527,
+          "ghidra_address": "20d7:0007"
+        },
+        {
+          "anchor": "save_game",
+          "role": "save_load",
+          "side": "previous",
+          "distance": 275,
+          "file_offset": 136472,
+          "ghidra_address": "2151:0000"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/2000_13fd_FUN_2000_13fd.c"
+    },
+    {
+      "status": "resolved_stub_or_boundary",
+      "resolved_role": "empty_save_boundary_candidate",
+      "summary": "Decompiles to a tiny return-only function near the save_game anchor.",
+      "implementation_use": "Do not lift as save logic; keep as boundary/padding candidate.",
+      "next_validation": "Inspect adjacent save-game bytes and xrefs.",
+      "entry": "2000:1c53",
+      "name": "FUN_2000_1c53",
+      "previous_likely_roles": [
+        "save_load"
+      ],
+      "previous_confidence": "low",
+      "original_file_offset": 138331,
+      "body_addresses": 5,
+      "outbound_call_count": 0,
+      "memory_ref_count": 0,
+      "anchor_evidence": [
+        {
+          "anchor": "save_game",
+          "role": "save_load",
+          "side": "next",
+          "distance": 1859,
+          "file_offset": 136472,
+          "ghidra_address": "2151:0000"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/2000_1c53_FUN_2000_1c53.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "character_inventory_chain_count",
+      "summary": "Counts linked records from a character pointer at offsets 0xf7/0xf9 by following +0x2a/+0x2c next pointers.",
+      "implementation_use": "Use to validate character sheet inventory counts.",
+      "next_validation": "Compare count with visible character sheet inventory slots.",
+      "entry": "2000:1fd4",
+      "name": "FUN_2000_1fd4",
+      "previous_likely_roles": [
+        "character_sheet"
+      ],
+      "previous_confidence": "high",
+      "original_file_offset": 139228,
+      "body_addresses": 74,
+      "outbound_call_count": 0,
+      "memory_ref_count": 0,
+      "anchor_evidence": [
+        {
+          "anchor": "character_sheet_labels",
+          "role": "character_sheet",
+          "side": "previous",
+          "distance": 75,
+          "file_offset": 139303,
+          "ghidra_address": "2201:000f"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/2000_1fd4_FUN_2000_1fd4.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "character_sheet_text_or_buffer_emit_helper",
+      "summary": "Calls a display/setup helper and copies up to 0xff bytes into a local text/display buffer.",
+      "implementation_use": "Use as character-sheet display helper evidence only.",
+      "next_validation": "Trace caller context and compare emitted text in DOS character sheet.",
+      "entry": "2000:25a1",
+      "name": "FUN_2000_25a1",
+      "previous_likely_roles": [
+        "character_sheet"
+      ],
+      "previous_confidence": "low",
+      "original_file_offset": 140713,
+      "body_addresses": 45,
+      "outbound_call_count": 2,
+      "memory_ref_count": 0,
+      "anchor_evidence": [
+        {
+          "anchor": "character_sheet_labels",
+          "role": "character_sheet",
+          "side": "next",
+          "distance": 1410,
+          "file_offset": 139303,
+          "ghidra_address": "2201:000f"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/2000_25a1_FUN_2000_25a1.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "inventory_item_line_formatter",
+      "summary": "Chooses display attribute 0x0d/0x0f, fetches item-related text/data through FUN_0000_733e, and writes a short display buffer.",
+      "implementation_use": "Use to validate inventory/gear list line rendering.",
+      "next_validation": "Compare inventory line highlighting/equipped markers in DOS.",
+      "entry": "2000:2986",
+      "name": "FUN_2000_2986",
+      "previous_likely_roles": [
+        "inventory",
+        "items"
+      ],
+      "previous_confidence": "low",
+      "original_file_offset": 141710,
+      "body_addresses": 90,
+      "outbound_call_count": 3,
+      "memory_ref_count": 1,
+      "anchor_evidence": [
+        {
+          "anchor": "item_debug_fields",
+          "role": "items",
+          "side": "previous",
+          "distance": 2138,
+          "file_offset": 143848,
+          "ghidra_address": "231e:0000"
+        },
+        {
+          "anchor": "gear_menu",
+          "role": "inventory",
+          "side": "previous",
+          "distance": 3877,
+          "file_offset": 145587,
+          "ghidra_address": "238a:000b"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/2000_2986_FUN_2000_2986.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "equipped_item_category_search",
+      "summary": "Walks a character item chain, filters equipped/flagged records, and returns the first item whose category table entry matches the requested category.",
+      "implementation_use": "Use to validate equipped item lookup by item category.",
+      "next_validation": "Compare weapon/armor selection effects against item category table.",
+      "entry": "2000:3ea6",
+      "name": "FUN_2000_3ea6",
+      "previous_likely_roles": [
+        "inventory",
+        "items"
+      ],
+      "previous_confidence": "low",
+      "original_file_offset": 147118,
+      "body_addresses": 124,
+      "outbound_call_count": 0,
+      "memory_ref_count": 0,
+      "anchor_evidence": [
+        {
+          "anchor": "item_debug_fields",
+          "role": "items",
+          "side": "next",
+          "distance": 3270,
+          "file_offset": 143848,
+          "ghidra_address": "231e:0000"
+        },
+        {
+          "anchor": "gear_menu",
+          "role": "inventory",
+          "side": "next",
+          "distance": 1531,
+          "file_offset": 145587,
+          "ghidra_address": "238a:000b"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/2000_3ea6_FUN_2000_3ea6.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "ship_effective_rating_with_damage_penalties",
+      "summary": "Checks whether a ship/vehicle record is valid, adds active/alternate modifiers, applies damage penalties, and clamps the result to at least 1.",
+      "implementation_use": "Use to validate ship movement/maneuver/status derived values.",
+      "next_validation": "Compare ship stats before and after hull/system damage in DOS.",
+      "entry": "2000:b749",
+      "name": "FUN_2000_b749",
+      "previous_likely_roles": [
+        "ship"
+      ],
+      "previous_confidence": "high",
+      "original_file_offset": 178001,
+      "body_addresses": 169,
+      "outbound_call_count": 1,
+      "memory_ref_count": 4,
+      "anchor_evidence": [
+        {
+          "anchor": "ship_stats",
+          "role": "ship",
+          "side": "previous",
+          "distance": 170,
+          "file_offset": 178171,
+          "ghidra_address": "2b7f:0003"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/2000_b749_FUN_2000_b749.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "ship_status_flag_and_message_emit",
+      "summary": "Sets global ship status flag 0x535b based on mode and ship record state, calls a UI helper, then emits a message/display block.",
+      "implementation_use": "Use to validate ship status UI and travel gating.",
+      "next_validation": "Compare status/message display for active ship versus alternate target.",
+      "entry": "2000:b876",
+      "name": "FUN_2000_b876",
+      "previous_likely_roles": [
+        "ship"
+      ],
+      "previous_confidence": "high",
+      "original_file_offset": 178302,
+      "body_addresses": 108,
+      "outbound_call_count": 2,
+      "memory_ref_count": 4,
+      "anchor_evidence": [
+        {
+          "anchor": "ship_stats",
+          "role": "ship",
+          "side": "next",
+          "distance": 131,
+          "file_offset": 178171,
+          "ghidra_address": "2b7f:0003"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/2000_b876_FUN_2000_b876.c"
+    },
+    {
+      "status": "resolved_static",
+      "resolved_role": "wall_segment_decode_or_emit_routine",
+      "summary": "Runs repeated 4/3/2-count loops over byte-producing helpers and emit helpers, matching a span/segment decode pattern before the WALLDEF/Load3DMap string/data region.",
+      "implementation_use": "Use as candidate wall segment decoder/emitter. Raw disassembly resolves it as not the Load3DMap file-load/copy routine.",
+      "next_validation": "Trace helper xrefs and compare emitted sequence against WALLDEF rendering artifacts.",
+      "entry": "3000:006f",
+      "name": "FUN_3000_006f",
+      "previous_likely_roles": [
+        "map_loader",
+        "wall_loader"
+      ],
+      "previous_confidence": "low",
+      "original_file_offset": 196727,
+      "body_addresses": 1976,
+      "outbound_call_count": 39,
+      "memory_ref_count": 0,
+      "anchor_evidence": [
+        {
+          "anchor": "wall_loader_wall_def_1",
+          "role": "wall_loader",
+          "side": "previous",
+          "distance": 2118,
+          "file_offset": 198845,
+          "ghidra_address": "308b:0005"
+        },
+        {
+          "anchor": "wall_loader_wall_def_2",
+          "role": "wall_loader",
+          "side": "previous",
+          "distance": 2153,
+          "file_offset": 198880,
+          "ghidra_address": "308d:0008"
+        },
+        {
+          "anchor": "load3dmap_geo",
+          "role": "map_loader",
+          "side": "previous",
+          "distance": 2607,
+          "file_offset": 199334,
+          "ghidra_address": "30a9:000e"
+        },
+        {
+          "anchor": "load3dmap_error",
+          "role": "map_loader",
+          "side": "previous",
+          "distance": 2638,
+          "file_offset": 199365,
+          "ghidra_address": "30ab:000d"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/3000_006f_FUN_3000_006f.c"
+    },
+    {
+      "status": "resolved_bad_decode",
+      "resolved_role": "misaligned_load3dmap_epilogue_entry",
+      "summary": "Ghidra entry 3000:0c04 lands inside the instruction at payload 0x30C01 in the Load3DMap-shaped routine epilogue, so the tiny return decompile is a misaligned-entry artifact.",
+      "implementation_use": "Do not lift as a function. The resolved Load3DMap-shaped code window is payload 0x30AD0-0x30C10.",
+      "next_validation": "Use generated/source_recovery/load3dmap_cluster_resolution.md before making map-loader runtime changes.",
+      "entry": "3000:0c04",
+      "name": "FUN_3000_0c04",
+      "previous_likely_roles": [
+        "map_loader",
+        "wall_loader"
+      ],
+      "previous_confidence": "low",
+      "original_file_offset": 199692,
+      "body_addresses": 5,
+      "outbound_call_count": 0,
+      "memory_ref_count": 0,
+      "anchor_evidence": [
+        {
+          "anchor": "wall_loader_wall_def_1",
+          "role": "wall_loader",
+          "side": "next",
+          "distance": 847,
+          "file_offset": 198845,
+          "ghidra_address": "308b:0005"
+        },
+        {
+          "anchor": "wall_loader_wall_def_2",
+          "role": "wall_loader",
+          "side": "next",
+          "distance": 812,
+          "file_offset": 198880,
+          "ghidra_address": "308d:0008"
+        },
+        {
+          "anchor": "load3dmap_geo",
+          "role": "map_loader",
+          "side": "next",
+          "distance": 358,
+          "file_offset": 199334,
+          "ghidra_address": "30a9:000e"
+        },
+        {
+          "anchor": "load3dmap_error",
+          "role": "map_loader",
+          "side": "next",
+          "distance": 327,
+          "file_offset": 199365,
+          "ghidra_address": "30ab:000d"
+        }
+      ],
+      "recovered_file": "generated/source_recovery/game_ovr_payload/3000_0c04_FUN_3000_0c04.c"
+    }
+  ]
+}

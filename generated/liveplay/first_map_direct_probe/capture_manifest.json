@@ -1,0 +1,33 @@
+{
+  "source": "scripts/capture_first_map_liveplay.py",
+  "source_game": "/home/jzatopa/Downloads/matrix-cubed-liveplay",
+  "copied_game": "/home/jzatopa/Downloads/matrix-cubed-liveplay",
+  "dosbox_conf": "/home/jzatopa/Downloads/matrix-cubed-liveplay/dosbox-conf/start.conf",
+  "mode": "load_seed",
+  "save_seed": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/pre_combat",
+  "screens": [
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_direct_probe/screens/00_boot.png",
+      "exists": true,
+      "size": 19312,
+      "sha256": "00f8cff643f885469aff2e0aee8822d86d6eb3dfadb8e3e6ec8e0380175d0b9e",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "boot"
+    }
+  ],
+  "keys": [
+    {
+      "probe_only": true,
+      "time": 1782831661.439
+    }
+  ],
+  "pre_saves": [],
+  "post_saves": [],
+  "summary": {
+    "screen_count": 1,
+    "nonblank_screen_count": 1,
+    "save_file_count": 0
+  }
+}

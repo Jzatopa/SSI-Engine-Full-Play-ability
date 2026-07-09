@@ -1,0 +1,421 @@
+{
+  "source": "scripts/capture_first_map_liveplay.py",
+  "source_game": "/home/jzatopa/Downloads/matrix-cubed-liveplay",
+  "copied_game": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/game",
+  "dosbox_conf": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/dosbox.conf",
+  "mode": "fresh",
+  "save_seed": null,
+  "screens": [
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/00_boot.png",
+      "exists": true,
+      "size": 19312,
+      "sha256": "00f8cff643f885469aff2e0aee8822d86d6eb3dfadb8e3e6ec8e0380175d0b9e",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "boot"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/01_after_title_sequence.png",
+      "exists": true,
+      "size": 17449,
+      "sha256": "e83470a2d661c21a860929c12447191ab8a9f631b3e7bcb9ef747dc5ba1203ed",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "after_title_sequence"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/02_create_character.png",
+      "exists": true,
+      "size": 15573,
+      "sha256": "074a795cbe17a1a0afd757a67d91bcb97b7196c85841bffb2cf936cd20d3b1fd",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "create_character"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/03_race_default.png",
+      "exists": true,
+      "size": 18873,
+      "sha256": "08ba6e7c0e06dc2038c3dfaa14e2ca177f36e65875aab77d6db12098f2ec40fb",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "race_default"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/04_gender_default.png",
+      "exists": true,
+      "size": 19475,
+      "sha256": "7539a5bd12ade674d691186f936ad002932872f27ce632ca9279702104cd0688",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "gender_default"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/05_career_default.png",
+      "exists": true,
+      "size": 19475,
+      "sha256": "7539a5bd12ade674d691186f936ad002932872f27ce632ca9279702104cd0688",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "career_default"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/06_rolled_stats.png",
+      "exists": true,
+      "size": 19475,
+      "sha256": "7539a5bd12ade674d691186f936ad002932872f27ce632ca9279702104cd0688",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "rolled_stats"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/07_skills_done.png",
+      "exists": true,
+      "size": 18873,
+      "sha256": "08ba6e7c0e06dc2038c3dfaa14e2ca177f36e65875aab77d6db12098f2ec40fb",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "skills_done"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/08_named_character.png",
+      "exists": true,
+      "size": 18873,
+      "sha256": "08ba6e7c0e06dc2038c3dfaa14e2ca177f36e65875aab77d6db12098f2ec40fb",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "named_character"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/09_add_to_team.png",
+      "exists": true,
+      "size": 18873,
+      "sha256": "08ba6e7c0e06dc2038c3dfaa14e2ca177f36e65875aab77d6db12098f2ec40fb",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "add_to_team"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/10_team_roster.png",
+      "exists": true,
+      "size": 18774,
+      "sha256": "8ad136153b332be489129f5aa46ce373701b8bc80567b6caed9d9e81e4acc229",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "team_roster"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/11_first_map_world.png",
+      "exists": true,
+      "size": 19475,
+      "sha256": "7539a5bd12ade674d691186f936ad002932872f27ce632ca9279702104cd0688",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "first_map_world"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/12_search.png",
+      "exists": true,
+      "size": 19465,
+      "sha256": "6873ecb7098814d47b6146c493503efb0b98aa3577c78cee95a489f6e781a821",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "search"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/13_inspect_space.png",
+      "exists": true,
+      "size": 19485,
+      "sha256": "b70332d18f96672c365b377ff15b62d7eb8e0cb672116f5fc7b38efe57776c9c",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "inspect_space"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/14_step_forward_1.png",
+      "exists": true,
+      "size": 20123,
+      "sha256": "c61470aa2e7657fca6572d0be92346c53f0af4f315af1d4eec74ca245edb8868",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "step_forward_1"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/15_step_forward_2.png",
+      "exists": true,
+      "size": 19904,
+      "sha256": "ee2239d082c807ce92928157a066a881b6a910461ff0011ecd0393b9fe8897c9",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "step_forward_2"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/16_turn_right.png",
+      "exists": true,
+      "size": 19400,
+      "sha256": "7e8cfdc22fc275688f4932aa3795b773e48d034246bf52acd11a87cdcf601a5d",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "turn_right"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/17_step_after_turn.png",
+      "exists": true,
+      "size": 18506,
+      "sha256": "afcfdf89afdae23e42f55969ed71f05abe3d6014b2564b55eb93df4d7238b5b1",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "step_after_turn"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/18_search_after_walk.png",
+      "exists": true,
+      "size": 18519,
+      "sha256": "d8157090e80ac87ea476721aca0da0846809bc00ea1b909637e9c73e1a35b90e",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "search_after_walk"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/19_turn_left.png",
+      "exists": true,
+      "size": 18519,
+      "sha256": "d8157090e80ac87ea476721aca0da0846809bc00ea1b909637e9c73e1a35b90e",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "turn_left"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/20_step_left_route.png",
+      "exists": true,
+      "size": 18730,
+      "sha256": "23b287636aa44ea76d62bc9301fc86dcd480b8377832036f5a88b210f4d115ca",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "step_left_route"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/21_open_command_menu.png",
+      "exists": true,
+      "size": 18730,
+      "sha256": "23b287636aa44ea76d62bc9301fc86dcd480b8377832036f5a88b210f4d115ca",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "open_command_menu"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/22_close_command_menu.png",
+      "exists": true,
+      "size": 19307,
+      "sha256": "ab535c330a00512c4c3e95f760d13388c159a4326d7539d7ab138d6e58b218ad",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "close_command_menu"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/23_save_menu.png",
+      "exists": true,
+      "size": 19307,
+      "sha256": "ab535c330a00512c4c3e95f760d13388c159a4326d7539d7ab138d6e58b218ad",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "save_menu"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_fresh_capture_noescape/screens/24_after_save.png",
+      "exists": true,
+      "size": 18730,
+      "sha256": "23b287636aa44ea76d62bc9301fc86dcd480b8377832036f5a88b210f4d115ca",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "after_save"
+    }
+  ],
+  "keys": [
+    {
+      "key": "Return",
+      "time": 1782831461.924
+    },
+    {
+      "key": "Return",
+      "time": 1782831463.031
+    },
+    {
+      "key": "Return",
+      "time": 1782831464.138
+    },
+    {
+      "key": "Return",
+      "time": 1782831465.245
+    },
+    {
+      "key": "Return",
+      "time": 1782831466.353
+    },
+    {
+      "key": "Return",
+      "time": 1782831467.46
+    },
+    {
+      "key": "Return",
+      "time": 1782831468.568
+    },
+    {
+      "key": "Return",
+      "time": 1782831469.676
+    },
+    {
+      "key": "1",
+      "time": 1782831470.911
+    },
+    {
+      "key": "Return",
+      "time": 1782831473.149
+    },
+    {
+      "key": "Return",
+      "time": 1782831474.878
+    },
+    {
+      "key": "Return",
+      "time": 1782831476.606
+    },
+    {
+      "key": "Return",
+      "time": 1782831478.333
+    },
+    {
+      "key": "Tab",
+      "time": 1782831480.561
+    },
+    {
+      "key": "Return",
+      "time": 1782831481.468
+    },
+    {
+      "type": "HERO",
+      "time": 1782831483.716
+    },
+    {
+      "key": "Return",
+      "time": 1782831484.623
+    },
+    {
+      "key": "6",
+      "time": 1782831486.849
+    },
+    {
+      "key": "Return",
+      "time": 1782831489.079
+    },
+    {
+      "key": "A",
+      "time": 1782831491.308
+    },
+    {
+      "key": "s",
+      "time": 1782831496.537
+    },
+    {
+      "key": "Return",
+      "time": 1782831497.844
+    },
+    {
+      "key": "space",
+      "time": 1782831499.273
+    },
+    {
+      "key": "Return",
+      "time": 1782831500.581
+    },
+    {
+      "key": "Up",
+      "time": 1782831502.011
+    },
+    {
+      "key": "Up",
+      "time": 1782831503.441
+    },
+    {
+      "key": "Right",
+      "time": 1782831504.871
+    },
+    {
+      "key": "Up",
+      "time": 1782831506.303
+    },
+    {
+      "key": "s",
+      "time": 1782831507.736
+    },
+    {
+      "key": "Return",
+      "time": 1782831509.044
+    },
+    {
+      "key": "Left",
+      "time": 1782831510.477
+    },
+    {
+      "key": "Up",
+      "time": 1782831511.905
+    },
+    {
+      "key": "F10",
+      "time": 1782831513.335
+    },
+    {
+      "key": "Escape",
+      "time": 1782831514.764
+    },
+    {
+      "key": "F10",
+      "time": 1782831516.193
+    },
+    {
+      "key": "s",
+      "time": 1782831517.799
+    },
+    {
+      "key": "A",
+      "time": 1782831519.528
+    },
+    {
+      "key": "Return",
+      "time": 1782831521.136
+    }
+  ],
+  "pre_saves": [],
+  "post_saves": [],
+  "summary": {
+    "screen_count": 25,
+    "nonblank_screen_count": 25,
+    "save_file_count": 0
+  }
+}

@@ -1,0 +1,1182 @@
+[
+  {
+    "block_id": 2,
+    "record_index": 0,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 950075392,
+    "raw_hex": "13 00 00 ff 00 00 00 a1 38"
+  },
+  {
+    "block_id": 2,
+    "record_index": 1,
+    "effect_code": 20,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 950140928,
+    "raw_hex": "14 00 00 ff 00 00 00 a2 38"
+  },
+  {
+    "block_id": 2,
+    "record_index": 2,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 950206464,
+    "raw_hex": "15 00 00 ff 00 00 00 a3 38"
+  },
+  {
+    "block_id": 2,
+    "record_index": 3,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 950272000,
+    "raw_hex": "16 00 00 ff 00 00 00 a4 38"
+  },
+  {
+    "block_id": 2,
+    "record_index": 4,
+    "effect_code": 23,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "17 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 3,
+    "record_index": 0,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 951779328,
+    "raw_hex": "13 00 00 ff 00 00 00 bb 38"
+  },
+  {
+    "block_id": 3,
+    "record_index": 1,
+    "effect_code": 20,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 951844864,
+    "raw_hex": "14 00 00 ff 00 00 00 bc 38"
+  },
+  {
+    "block_id": 3,
+    "record_index": 2,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 951910400,
+    "raw_hex": "15 00 00 ff 00 00 00 bd 38"
+  },
+  {
+    "block_id": 3,
+    "record_index": 3,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 951975936,
+    "raw_hex": "16 00 00 ff 00 00 00 be 38"
+  },
+  {
+    "block_id": 3,
+    "record_index": 4,
+    "effect_code": 24,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "18 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 4,
+    "record_index": 0,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 922353664,
+    "raw_hex": "13 00 00 ff 00 00 00 fa 36"
+  },
+  {
+    "block_id": 4,
+    "record_index": 1,
+    "effect_code": 20,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 922419200,
+    "raw_hex": "14 00 00 ff 00 00 00 fb 36"
+  },
+  {
+    "block_id": 4,
+    "record_index": 2,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 922484736,
+    "raw_hex": "15 00 00 ff 00 00 00 fc 36"
+  },
+  {
+    "block_id": 4,
+    "record_index": 3,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 922550272,
+    "raw_hex": "16 00 00 ff 00 00 00 fd 36"
+  },
+  {
+    "block_id": 4,
+    "record_index": 4,
+    "effect_code": 24,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 922615808,
+    "raw_hex": "18 00 00 ff 00 00 00 fe 36"
+  },
+  {
+    "block_id": 4,
+    "record_index": 5,
+    "effect_code": 25,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "19 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 8,
+    "record_index": 0,
+    "effect_code": 18,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 946601984,
+    "raw_hex": "12 00 00 ff 00 00 00 6c 38"
+  },
+  {
+    "block_id": 8,
+    "record_index": 1,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 946667520,
+    "raw_hex": "13 00 00 ff 00 00 00 6d 38"
+  },
+  {
+    "block_id": 8,
+    "record_index": 2,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 946733056,
+    "raw_hex": "15 00 00 ff 00 00 00 6e 38"
+  },
+  {
+    "block_id": 8,
+    "record_index": 3,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 946798592,
+    "raw_hex": "16 00 00 ff 00 00 00 6f 38"
+  },
+  {
+    "block_id": 8,
+    "record_index": 4,
+    "effect_code": 25,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "19 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 9,
+    "record_index": 0,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 964165632,
+    "raw_hex": "15 00 00 ff 00 00 00 78 39"
+  },
+  {
+    "block_id": 9,
+    "record_index": 1,
+    "effect_code": 30,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "1e 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 10,
+    "record_index": 0,
+    "effect_code": 25,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "19 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 11,
+    "record_index": 0,
+    "effect_code": 25,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "19 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 17,
+    "record_index": 0,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 975437824,
+    "raw_hex": "10 00 00 ff 00 00 00 24 3a"
+  },
+  {
+    "block_id": 17,
+    "record_index": 1,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 975503360,
+    "raw_hex": "13 00 00 ff 00 00 00 25 3a"
+  },
+  {
+    "block_id": 17,
+    "record_index": 2,
+    "effect_code": 20,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 975568896,
+    "raw_hex": "14 00 00 ff 00 00 00 26 3a"
+  },
+  {
+    "block_id": 17,
+    "record_index": 3,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 975634432,
+    "raw_hex": "15 00 00 ff 00 00 00 27 3a"
+  },
+  {
+    "block_id": 17,
+    "record_index": 4,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "16 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 18,
+    "record_index": 0,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 944373760,
+    "raw_hex": "10 00 00 ff 00 00 00 4a 38"
+  },
+  {
+    "block_id": 18,
+    "record_index": 1,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 944439296,
+    "raw_hex": "13 00 00 ff 00 00 00 4b 38"
+  },
+  {
+    "block_id": 18,
+    "record_index": 2,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "16 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 21,
+    "record_index": 0,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 983629824,
+    "raw_hex": "10 00 00 ff 00 00 00 a1 3a"
+  },
+  {
+    "block_id": 21,
+    "record_index": 1,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 983695360,
+    "raw_hex": "13 00 00 ff 00 00 00 a2 3a"
+  },
+  {
+    "block_id": 21,
+    "record_index": 2,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 983760896,
+    "raw_hex": "15 00 00 ff 00 00 00 a3 3a"
+  },
+  {
+    "block_id": 21,
+    "record_index": 3,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 983826432,
+    "raw_hex": "16 00 00 ff 00 00 00 a4 3a"
+  },
+  {
+    "block_id": 21,
+    "record_index": 4,
+    "effect_code": 24,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "18 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 22,
+    "record_index": 0,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "10 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 29,
+    "record_index": 0,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 922615808,
+    "raw_hex": "13 00 00 ff 00 00 00 fe 36"
+  },
+  {
+    "block_id": 29,
+    "record_index": 1,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "15 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 32,
+    "record_index": 0,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 989921280,
+    "raw_hex": "10 00 00 ff 00 00 00 01 3b"
+  },
+  {
+    "block_id": 32,
+    "record_index": 1,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 989986816,
+    "raw_hex": "13 00 00 ff 00 00 00 02 3b"
+  },
+  {
+    "block_id": 32,
+    "record_index": 2,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 990052352,
+    "raw_hex": "15 00 00 ff 00 00 00 03 3b"
+  },
+  {
+    "block_id": 32,
+    "record_index": 3,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 990117888,
+    "raw_hex": "16 00 00 ff 00 00 00 04 3b"
+  },
+  {
+    "block_id": 32,
+    "record_index": 4,
+    "effect_code": 25,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "19 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 35,
+    "record_index": 0,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 923074560,
+    "raw_hex": "10 00 00 ff 00 00 00 05 37"
+  },
+  {
+    "block_id": 35,
+    "record_index": 1,
+    "effect_code": 18,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 923140096,
+    "raw_hex": "12 00 00 ff 00 00 00 06 37"
+  },
+  {
+    "block_id": 35,
+    "record_index": 2,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 923205632,
+    "raw_hex": "13 00 00 ff 00 00 00 07 37"
+  },
+  {
+    "block_id": 35,
+    "record_index": 3,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 923271168,
+    "raw_hex": "15 00 00 ff 00 00 00 08 37"
+  },
+  {
+    "block_id": 35,
+    "record_index": 4,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "16 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 36,
+    "record_index": 0,
+    "effect_code": 30,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "1e 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 37,
+    "record_index": 0,
+    "effect_code": 18,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 998637568,
+    "raw_hex": "12 00 00 ff 00 00 00 86 3b"
+  },
+  {
+    "block_id": 37,
+    "record_index": 1,
+    "effect_code": 20,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 998703104,
+    "raw_hex": "14 00 00 ff 00 00 00 87 3b"
+  },
+  {
+    "block_id": 37,
+    "record_index": 2,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 998768640,
+    "raw_hex": "15 00 00 ff 00 00 00 88 3b"
+  },
+  {
+    "block_id": 37,
+    "record_index": 3,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "16 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 38,
+    "record_index": 0,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 944832512,
+    "raw_hex": "15 00 00 ff 00 00 00 51 38"
+  },
+  {
+    "block_id": 38,
+    "record_index": 1,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "16 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 39,
+    "record_index": 0,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 999030784,
+    "raw_hex": "10 00 00 ff 00 00 00 8c 3b"
+  },
+  {
+    "block_id": 39,
+    "record_index": 1,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "13 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 40,
+    "record_index": 0,
+    "effect_code": 23,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 999292928,
+    "raw_hex": "17 00 00 ff 00 00 00 90 3b"
+  },
+  {
+    "block_id": 40,
+    "record_index": 1,
+    "effect_code": 30,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "1e 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 41,
+    "record_index": 0,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 999555072,
+    "raw_hex": "10 00 00 ff 00 00 00 94 3b"
+  },
+  {
+    "block_id": 41,
+    "record_index": 1,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "13 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 42,
+    "record_index": 0,
+    "effect_code": 32,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 999882752,
+    "raw_hex": "20 00 00 ff 00 00 00 99 3b"
+  },
+  {
+    "block_id": 42,
+    "record_index": 1,
+    "effect_code": 23,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 999948288,
+    "raw_hex": "17 00 00 ff 00 00 00 9a 3b"
+  },
+  {
+    "block_id": 42,
+    "record_index": 2,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "13 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 44,
+    "record_index": 0,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "10 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 45,
+    "record_index": 0,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1006174208,
+    "raw_hex": "13 00 00 ff 00 00 00 f9 3b"
+  },
+  {
+    "block_id": 45,
+    "record_index": 1,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1006239744,
+    "raw_hex": "10 00 00 ff 00 00 00 fa 3b"
+  },
+  {
+    "block_id": 45,
+    "record_index": 2,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1006305280,
+    "raw_hex": "15 00 00 ff 00 00 00 fb 3b"
+  },
+  {
+    "block_id": 45,
+    "record_index": 3,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1006370816,
+    "raw_hex": "16 00 00 ff 00 00 00 fc 3b"
+  },
+  {
+    "block_id": 45,
+    "record_index": 4,
+    "effect_code": 20,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1006436352,
+    "raw_hex": "14 00 00 ff 00 00 00 fd 3b"
+  },
+  {
+    "block_id": 45,
+    "record_index": 5,
+    "effect_code": 18,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1006501888,
+    "raw_hex": "12 00 00 ff 00 00 00 fe 3b"
+  },
+  {
+    "block_id": 45,
+    "record_index": 6,
+    "effect_code": 24,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "18 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 46,
+    "record_index": 0,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1009385472,
+    "raw_hex": "15 00 00 ff 00 00 00 2a 3c"
+  },
+  {
+    "block_id": 46,
+    "record_index": 1,
+    "effect_code": 27,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1009451008,
+    "raw_hex": "1b 00 00 ff 00 00 00 2b 3c"
+  },
+  {
+    "block_id": 46,
+    "record_index": 2,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "10 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 47,
+    "record_index": 0,
+    "effect_code": 28,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1010499584,
+    "raw_hex": "1c 00 00 ff 00 00 00 3b 3c"
+  },
+  {
+    "block_id": 47,
+    "record_index": 1,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "10 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 48,
+    "record_index": 0,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1011482624,
+    "raw_hex": "15 00 00 ff 00 00 00 4a 3c"
+  },
+  {
+    "block_id": 48,
+    "record_index": 1,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1011548160,
+    "raw_hex": "16 00 00 ff 00 00 00 4b 3c"
+  },
+  {
+    "block_id": 48,
+    "record_index": 2,
+    "effect_code": 18,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1011613696,
+    "raw_hex": "12 00 00 ff 00 00 00 4c 3c"
+  },
+  {
+    "block_id": 48,
+    "record_index": 3,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1011679232,
+    "raw_hex": "10 00 00 ff 00 00 00 4d 3c"
+  },
+  {
+    "block_id": 48,
+    "record_index": 4,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "13 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 49,
+    "record_index": 0,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 926285824,
+    "raw_hex": "15 00 00 ff 00 00 00 36 37"
+  },
+  {
+    "block_id": 49,
+    "record_index": 1,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 926351360,
+    "raw_hex": "10 00 00 ff 00 00 00 37 37"
+  },
+  {
+    "block_id": 49,
+    "record_index": 2,
+    "effect_code": 18,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 926416896,
+    "raw_hex": "12 00 00 ff 00 00 00 38 37"
+  },
+  {
+    "block_id": 49,
+    "record_index": 3,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 926482432,
+    "raw_hex": "13 00 00 ff 00 00 00 39 37"
+  },
+  {
+    "block_id": 49,
+    "record_index": 4,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "16 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 50,
+    "record_index": 0,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1017053184,
+    "raw_hex": "10 00 00 ff 00 00 00 9f 3c"
+  },
+  {
+    "block_id": 50,
+    "record_index": 1,
+    "effect_code": 18,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1017118720,
+    "raw_hex": "12 00 00 ff 00 00 00 a0 3c"
+  },
+  {
+    "block_id": 50,
+    "record_index": 2,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1017184256,
+    "raw_hex": "13 00 00 ff 00 00 00 a1 3c"
+  },
+  {
+    "block_id": 50,
+    "record_index": 3,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1017249792,
+    "raw_hex": "15 00 00 ff 00 00 00 a2 3c"
+  },
+  {
+    "block_id": 50,
+    "record_index": 4,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "16 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 51,
+    "record_index": 0,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1019543552,
+    "raw_hex": "10 00 00 ff 00 00 00 c5 3c"
+  },
+  {
+    "block_id": 51,
+    "record_index": 1,
+    "effect_code": 18,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1019609088,
+    "raw_hex": "12 00 00 ff 00 00 00 c6 3c"
+  },
+  {
+    "block_id": 51,
+    "record_index": 2,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1019674624,
+    "raw_hex": "13 00 00 ff 00 00 00 c7 3c"
+  },
+  {
+    "block_id": 51,
+    "record_index": 3,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1019740160,
+    "raw_hex": "15 00 00 ff 00 00 00 c8 3c"
+  },
+  {
+    "block_id": 51,
+    "record_index": 4,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "16 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 52,
+    "record_index": 0,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "10 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 54,
+    "record_index": 0,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1025900544,
+    "raw_hex": "10 00 00 ff 00 00 00 26 3d"
+  },
+  {
+    "block_id": 54,
+    "record_index": 1,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "16 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 56,
+    "record_index": 0,
+    "effect_code": 25,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 923467776,
+    "raw_hex": "19 00 00 ff 00 00 00 0b 37"
+  },
+  {
+    "block_id": 56,
+    "record_index": 1,
+    "effect_code": 26,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 923533312,
+    "raw_hex": "1a 00 00 ff 00 00 00 0c 37"
+  },
+  {
+    "block_id": 56,
+    "record_index": 2,
+    "effect_code": 27,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "1b 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 57,
+    "record_index": 0,
+    "effect_code": 3,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 923009024,
+    "raw_hex": "03 00 00 ff 00 00 00 04 37"
+  },
+  {
+    "block_id": 57,
+    "record_index": 1,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 923074560,
+    "raw_hex": "10 00 00 ff 00 00 00 05 37"
+  },
+  {
+    "block_id": 57,
+    "record_index": 2,
+    "effect_code": 18,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 923140096,
+    "raw_hex": "12 00 00 ff 00 00 00 06 37"
+  },
+  {
+    "block_id": 57,
+    "record_index": 3,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 923205632,
+    "raw_hex": "13 00 00 ff 00 00 00 07 37"
+  },
+  {
+    "block_id": 57,
+    "record_index": 4,
+    "effect_code": 21,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 923271168,
+    "raw_hex": "15 00 00 ff 00 00 00 08 37"
+  },
+  {
+    "block_id": 57,
+    "record_index": 5,
+    "effect_code": 22,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 923336704,
+    "raw_hex": "16 00 00 ff 00 00 00 09 37"
+  },
+  {
+    "block_id": 57,
+    "record_index": 6,
+    "effect_code": 23,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 923402240,
+    "raw_hex": "17 00 00 ff 00 00 00 0a 37"
+  },
+  {
+    "block_id": 57,
+    "record_index": 7,
+    "effect_code": 24,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "18 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 63,
+    "record_index": 0,
+    "effect_code": 16,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1039990784,
+    "raw_hex": "10 00 00 ff 00 00 00 fd 3d"
+  },
+  {
+    "block_id": 63,
+    "record_index": 1,
+    "effect_code": 23,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 1040056320,
+    "raw_hex": "17 00 00 ff 00 00 00 fe 3d"
+  },
+  {
+    "block_id": 63,
+    "record_index": 2,
+    "effect_code": 19,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "13 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "block_id": 64,
+    "record_index": 0,
+    "effect_code": 30,
+    "duration": 0,
+    "effect_data": 255,
+    "effect_table_flag": 0,
+    "next_effect_ptr": 0,
+    "raw_hex": "1e 00 00 ff 00 00 00 00 00"
+  }
+]

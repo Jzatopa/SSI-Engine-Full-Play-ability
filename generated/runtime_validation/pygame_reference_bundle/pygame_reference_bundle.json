@@ -1,0 +1,590 @@
+{
+  "source": "scripts/capture_pygame_reference_bundle.py",
+  "status": "pass",
+  "screenshots": {
+    "caloris_world": {
+      "path": "generated/runtime_validation/pygame_reference_bundle/screens/caloris_world.png",
+      "size": 17661,
+      "sha256": "f9f2c40ae3c2971ffdd717da4c2a3309922e9acb43d90fc1bb2cdca640e8058e",
+      "width": 1024,
+      "height": 768,
+      "unique_colors": 242,
+      "nonblack_pixels": 641125
+    },
+    "inventory_overlay": {
+      "path": "generated/runtime_validation/pygame_reference_bundle/screens/inventory_overlay.png",
+      "size": 21194,
+      "sha256": "e2b92bf050422c774382989f8e59bcd3e3c5b04cd294e579496675a955cf437f",
+      "width": 1024,
+      "height": 768,
+      "unique_colors": 567,
+      "nonblack_pixels": 641125
+    },
+    "character_overlay": {
+      "path": "generated/runtime_validation/pygame_reference_bundle/screens/character_overlay.png",
+      "size": 38046,
+      "sha256": "4c825a768a453f4e9c0e84eb43d556ae41994c88dc3adf4c2db81f965b63400d",
+      "width": 1024,
+      "height": 768,
+      "unique_colors": 829,
+      "nonblack_pixels": 641713
+    },
+    "caloris_romney_dialog": {
+      "path": "generated/runtime_validation/pygame_reference_bundle/screens/caloris_romney_dialog.png",
+      "size": 25447,
+      "sha256": "29c130affbf684294c4bacbd7d07fca6087048cb76201258670205b939b55976",
+      "width": 1024,
+      "height": 768,
+      "unique_colors": 616,
+      "nonblack_pixels": 638758
+    },
+    "caloris_autodoc_dialog": {
+      "path": "generated/runtime_validation/pygame_reference_bundle/screens/caloris_autodoc_dialog.png",
+      "size": 24248,
+      "sha256": "23be60fb4d197307d37e57bb8301cc0436dc4a81b5b7467bb41e8218f04d3f94",
+      "width": 1024,
+      "height": 768,
+      "unique_colors": 588,
+      "nonblack_pixels": 613883
+    },
+    "caloris_combat": {
+      "path": "generated/runtime_validation/pygame_reference_bundle/screens/caloris_combat.png",
+      "size": 20778,
+      "sha256": "19a722e5bf250f166de3f2d0d7ad2ffa9e0b5c822253e8195e91470f6d456ffb",
+      "width": 1024,
+      "height": 768,
+      "unique_colors": 736,
+      "nonblack_pixels": 786432
+    }
+  },
+  "states": {
+    "caloris_world": {
+      "map_id": 17,
+      "map_name": "Caloris Space Port",
+      "row": 0,
+      "col": 1,
+      "facing": "south",
+      "steps": 0,
+      "active_event_id": 4,
+      "active_event_type": "condition",
+      "active_encounter": null,
+      "active_combat": null,
+      "last_execution": null,
+      "last_dialog_selection": null,
+      "party": {
+        "hp": 100,
+        "credits": 100,
+        "inventory": [],
+        "flags": []
+      },
+      "active_party": {
+        "count": 1,
+        "members": [
+          "CAR1"
+        ],
+        "member_hp": [
+          38
+        ],
+        "total_hp": 38
+      },
+      "event_text": "'THE TELLTALE ON THE DOOR READS,'",
+      "encounters": [],
+      "log": [
+        "entered map: GEO 017 event 4"
+      ]
+    },
+    "caloris_romney_dialog": {
+      "snapshot": {
+        "map_id": 17,
+        "map_name": "Caloris Space Port",
+        "row": 0,
+        "col": 4,
+        "facing": "south",
+        "steps": 0,
+        "active_event_id": 20,
+        "active_event_type": "condition",
+        "active_encounter": null,
+        "active_combat": null,
+        "last_execution": {
+          "map_id": 17,
+          "event_id": 20,
+          "event_type": "condition",
+          "summary": "show_text, offer_dialog_choices, mark_condition_checked",
+          "commands": [
+            {
+              "kind": "show_text",
+              "label": "Show decoded event text",
+              "payload": {
+                "text": "\"A MAN CARRYING A BUNDLE OF PAPERS RUSHES UP TO YOU. HE GRABS YOUR ARM DESPERATELY. 'I AM DR. ROMNEY. PLEASE HELP ME GET TO THE SUN KING. IT IS MOST URGENT.'\""
+              },
+              "evidence": "event_atlas text extraction"
+            },
+            {
+              "kind": "offer_dialog_choices",
+              "label": "Offer decoded ECL dialog choices",
+              "payload": {
+                "target": 38607,
+                "target_hex": "0x96CF",
+                "incoming": [
+                  "0x8510 ON GOTO area2.event_scratch1 choice 20"
+                ],
+                "summary": "0x96DD 0x12 PRINTCLEAR \"A MAN CARRYING A BUNDLE OF PAPERS RUSHES UP TO YOU. HE GRABS YOUR ARM DESPERATELY. 'I AM DR. ROMNEY. PLEASE HELP ME GET TO THE SUN KING. IT IS MOST URGENT.'\"",
+                "choices": [
+                  {
+                    "label": "HELP ROMNEY",
+                    "choice_index": 0,
+                    "branch_target": null,
+                    "branch_target_hex": "",
+                    "selector": "",
+                    "evidence": "0x96DD 0x12 PRINTCLEAR \"A MAN CARRYING A BUNDLE OF PAPERS RUSHES UP TO YOU. HE GRABS YOUR ARM DESPERATELY. 'I AM DR. ROMNEY. PLEASE HELP ME GET TO THE SUN KING. IT IS MOST URGENT.'\""
+                  }
+                ]
+              },
+              "evidence": "generated ECL dialog reference branch-target attachment"
+            },
+            {
+              "kind": "mark_condition_checked",
+              "label": "Record condition evaluation placeholder",
+              "payload": {
+                "target": 38607
+              },
+              "evidence": "event classification until branch conditions are promoted"
+            }
+          ]
+        },
+        "last_dialog_selection": null,
+        "party": {
+          "hp": 100,
+          "credits": 100,
+          "inventory": [],
+          "flags": [
+            "checked:17:20"
+          ]
+        },
+        "active_party": {
+          "count": 1,
+          "members": [
+            "CAR1"
+          ],
+          "member_hp": [
+            38
+          ],
+          "total_hp": 38
+        },
+        "event_text": "\"A MAN CARRYING A BUNDLE OF PAPERS RUSHES UP TO YOU. HE GRABS YOUR ARM DESPERATELY. 'I AM DR. ROMNEY. PLEASE HELP ME GET TO THE SUN KING. IT IS MOST URGENT.'\"",
+        "encounters": [],
+        "log": [
+          "entered map: GEO 017 event 4",
+          "reference capture: GEO 017 event 20"
+        ]
+      },
+      "commands": [
+        {
+          "kind": "show_text",
+          "label": "Show decoded event text",
+          "payload": {
+            "text": "\"A MAN CARRYING A BUNDLE OF PAPERS RUSHES UP TO YOU. HE GRABS YOUR ARM DESPERATELY. 'I AM DR. ROMNEY. PLEASE HELP ME GET TO THE SUN KING. IT IS MOST URGENT.'\""
+          },
+          "evidence": "event_atlas text extraction"
+        },
+        {
+          "kind": "offer_dialog_choices",
+          "label": "Offer decoded ECL dialog choices",
+          "payload": {
+            "target": 38607,
+            "target_hex": "0x96CF",
+            "incoming": [
+              "0x8510 ON GOTO area2.event_scratch1 choice 20"
+            ],
+            "summary": "0x96DD 0x12 PRINTCLEAR \"A MAN CARRYING A BUNDLE OF PAPERS RUSHES UP TO YOU. HE GRABS YOUR ARM DESPERATELY. 'I AM DR. ROMNEY. PLEASE HELP ME GET TO THE SUN KING. IT IS MOST URGENT.'\"",
+            "choices": [
+              {
+                "label": "HELP ROMNEY",
+                "choice_index": 0,
+                "branch_target": null,
+                "branch_target_hex": "",
+                "selector": "",
+                "evidence": "0x96DD 0x12 PRINTCLEAR \"A MAN CARRYING A BUNDLE OF PAPERS RUSHES UP TO YOU. HE GRABS YOUR ARM DESPERATELY. 'I AM DR. ROMNEY. PLEASE HELP ME GET TO THE SUN KING. IT IS MOST URGENT.'\""
+              }
+            ]
+          },
+          "evidence": "generated ECL dialog reference branch-target attachment"
+        },
+        {
+          "kind": "mark_condition_checked",
+          "label": "Record condition evaluation placeholder",
+          "payload": {
+            "target": 38607
+          },
+          "evidence": "event classification until branch conditions are promoted"
+        }
+      ],
+      "choices": [
+        "HELP ROMNEY"
+      ]
+    },
+    "caloris_autodoc_dialog": {
+      "snapshot": {
+        "map_id": 17,
+        "map_name": "Caloris Space Port",
+        "row": 5,
+        "col": 4,
+        "facing": "south",
+        "steps": 0,
+        "active_event_id": 28,
+        "active_event_type": "condition",
+        "active_encounter": null,
+        "active_combat": null,
+        "last_execution": {
+          "map_id": 17,
+          "event_id": 28,
+          "event_type": "condition",
+          "summary": "show_text, offer_dialog_choices, mark_condition_checked",
+          "commands": [
+            {
+              "kind": "show_text",
+              "label": "Show decoded event text",
+              "payload": {
+                "text": "\"THE AUTODOCS HUM SOOTHINGLY. 'DO YOU NEED HEALING?'\""
+              },
+              "evidence": "event_atlas text extraction"
+            },
+            {
+              "kind": "offer_dialog_choices",
+              "label": "Offer decoded ECL dialog choices",
+              "payload": {
+                "target": 41130,
+                "target_hex": "0xA0AA",
+                "incoming": [
+                  "0x8510 ON GOTO area2.event_scratch1 choice 28"
+                ],
+                "summary": "0xA0AA 0x12 PRINTCLEAR \"THE AUTODOCS HUM SOOTHINGLY. 'DO YOU NEED HEALING?'\"",
+                "choices": [
+                  {
+                    "label": "SOMEONE ELSE?",
+                    "choice_index": 0,
+                    "branch_target": null,
+                    "branch_target_hex": "",
+                    "selector": "",
+                    "evidence": "0xA0AA 0x12 PRINTCLEAR \"THE AUTODOCS HUM SOOTHINGLY. 'DO YOU NEED HEALING?'\""
+                  }
+                ]
+              },
+              "evidence": "generated ECL dialog reference branch-target attachment"
+            },
+            {
+              "kind": "mark_condition_checked",
+              "label": "Record condition evaluation placeholder",
+              "payload": {
+                "target": 41130
+              },
+              "evidence": "event classification until branch conditions are promoted"
+            }
+          ]
+        },
+        "last_dialog_selection": null,
+        "party": {
+          "hp": 100,
+          "credits": 100,
+          "inventory": [],
+          "flags": [
+            "checked:17:28"
+          ]
+        },
+        "active_party": {
+          "count": 1,
+          "members": [
+            "CAR1"
+          ],
+          "member_hp": [
+            38
+          ],
+          "total_hp": 38
+        },
+        "event_text": "\"THE AUTODOCS HUM SOOTHINGLY. 'DO YOU NEED HEALING?'\"",
+        "encounters": [],
+        "log": [
+          "entered map: GEO 017 event 4",
+          "reference capture: GEO 017 event 28"
+        ]
+      },
+      "commands": [
+        {
+          "kind": "show_text",
+          "label": "Show decoded event text",
+          "payload": {
+            "text": "\"THE AUTODOCS HUM SOOTHINGLY. 'DO YOU NEED HEALING?'\""
+          },
+          "evidence": "event_atlas text extraction"
+        },
+        {
+          "kind": "offer_dialog_choices",
+          "label": "Offer decoded ECL dialog choices",
+          "payload": {
+            "target": 41130,
+            "target_hex": "0xA0AA",
+            "incoming": [
+              "0x8510 ON GOTO area2.event_scratch1 choice 28"
+            ],
+            "summary": "0xA0AA 0x12 PRINTCLEAR \"THE AUTODOCS HUM SOOTHINGLY. 'DO YOU NEED HEALING?'\"",
+            "choices": [
+              {
+                "label": "SOMEONE ELSE?",
+                "choice_index": 0,
+                "branch_target": null,
+                "branch_target_hex": "",
+                "selector": "",
+                "evidence": "0xA0AA 0x12 PRINTCLEAR \"THE AUTODOCS HUM SOOTHINGLY. 'DO YOU NEED HEALING?'\""
+              }
+            ]
+          },
+          "evidence": "generated ECL dialog reference branch-target attachment"
+        },
+        {
+          "kind": "mark_condition_checked",
+          "label": "Record condition evaluation placeholder",
+          "payload": {
+            "target": 41130
+          },
+          "evidence": "event classification until branch conditions are promoted"
+        }
+      ],
+      "choices": [
+        "SOMEONE ELSE?"
+      ]
+    },
+    "caloris_combat": {
+      "probe": {
+        "snapshot": {
+          "map_id": 17,
+          "map_name": "Caloris Space Port",
+          "row": 0,
+          "col": 13,
+          "facing": "south",
+          "steps": 0,
+          "active_event_id": 7,
+          "active_event_type": "combat",
+          "active_encounter": "GEO 017 event 7: RAM WARRIOR",
+          "active_combat": {
+            "map_id": 17,
+            "event_id": 7,
+            "summary": "GEO 017 event 7: RAM WARRIOR",
+            "monster_names": [
+              "RAM WARRIOR"
+            ],
+            "candidate_monster_names": [],
+            "unresolved_monster_refs": [],
+            "encounters": [
+              {
+                "monster_id": 52,
+                "monster_ref": "52",
+                "monster_name": "RAM WARRIOR",
+                "address": "0x8C54",
+                "kind": "setup_monster",
+                "resolution": "constant",
+                "max_distance": "0",
+                "copies": null,
+                "pic_ref": "255",
+                "stats": {
+                  "strength": 18,
+                  "intelligence": 17,
+                  "wisdom": 10,
+                  "dexterity": 10,
+                  "constitution": 10,
+                  "charisma": 10,
+                  "extraordinary_strength": 10
+                },
+                "candidate_resolution": null
+              }
+            ]
+          },
+          "last_execution": {
+            "map_id": 17,
+            "event_id": 7,
+            "event_type": "combat",
+            "summary": "show_text, queue_combat",
+            "commands": [
+              {
+                "kind": "show_text",
+                "label": "Show decoded event text",
+                "payload": {
+                  "text": "'THE TELLTALE ON THE DOOR READS,' RETURN"
+                },
+                "evidence": "event_atlas text extraction"
+              },
+              {
+                "kind": "queue_combat",
+                "label": "Queue decoded encounter",
+                "payload": {
+                  "encounters": [
+                    {
+                      "monster_id": 52,
+                      "monster_ref": "52",
+                      "monster_name": "RAM WARRIOR",
+                      "address": "0x8C54",
+                      "kind": "setup_monster",
+                      "resolution": "constant",
+                      "max_distance": "0",
+                      "copies": null,
+                      "pic_ref": "255",
+                      "stats": {
+                        "strength": 18,
+                        "intelligence": 17,
+                        "wisdom": 10,
+                        "dexterity": 10,
+                        "constitution": 10,
+                        "charisma": 10,
+                        "extraordinary_strength": 10
+                      },
+                      "candidate_resolution": null
+                    }
+                  ],
+                  "monster_names": [
+                    "RAM WARRIOR"
+                  ],
+                  "unresolved_monster_refs": [],
+                  "candidate_monster_names": []
+                },
+                "evidence": "SETUP_MONSTER operands cross-referenced to MON0CHA.DAX"
+              }
+            ]
+          },
+          "last_dialog_selection": null,
+          "party": {
+            "hp": 100,
+            "credits": 100,
+            "inventory": [],
+            "flags": []
+          },
+          "active_party": {
+            "count": 1,
+            "members": [
+              "CAR1"
+            ],
+            "member_hp": [
+              38
+            ],
+            "total_hp": 38
+          },
+          "event_text": "'THE TELLTALE ON THE DOOR READS,' RETURN",
+          "encounters": [
+            {
+              "monster_id": 52,
+              "monster_ref": "52",
+              "monster_name": "RAM WARRIOR",
+              "address": "0x8C54",
+              "kind": "setup_monster",
+              "resolution": "constant",
+              "candidate_resolution": null
+            }
+          ],
+          "log": [
+            "entered map: GEO 017 event 4",
+            "reference capture: GEO 017 event 7",
+            "combat queued GEO 017 event 7: RAM WARRIOR"
+          ]
+        },
+        "commands": [
+          {
+            "kind": "show_text",
+            "label": "Show decoded event text",
+            "payload": {
+              "text": "'THE TELLTALE ON THE DOOR READS,' RETURN"
+            },
+            "evidence": "event_atlas text extraction"
+          },
+          {
+            "kind": "queue_combat",
+            "label": "Queue decoded encounter",
+            "payload": {
+              "encounters": [
+                {
+                  "monster_id": 52,
+                  "monster_ref": "52",
+                  "monster_name": "RAM WARRIOR",
+                  "address": "0x8C54",
+                  "kind": "setup_monster",
+                  "resolution": "constant",
+                  "max_distance": "0",
+                  "copies": null,
+                  "pic_ref": "255",
+                  "stats": {
+                    "strength": 18,
+                    "intelligence": 17,
+                    "wisdom": 10,
+                    "dexterity": 10,
+                    "constitution": 10,
+                    "charisma": 10,
+                    "extraordinary_strength": 10
+                  },
+                  "candidate_resolution": null
+                }
+              ],
+              "monster_names": [
+                "RAM WARRIOR"
+              ],
+              "unresolved_monster_refs": [],
+              "candidate_monster_names": []
+            },
+            "evidence": "SETUP_MONSTER operands cross-referenced to MON0CHA.DAX"
+          }
+        ],
+        "choices": []
+      },
+      "combat_status": {
+        "phase": "combat",
+        "turn": 1,
+        "player_hp": 100,
+        "player_thac0": 17,
+        "monster_names": [
+          "RAM WARRIOR"
+        ],
+        "monster_hp": [
+          35
+        ],
+        "alive_count": 1,
+        "log": [
+          "Combat! RAM WARRIOR",
+          "RAM WARRIOR: d20 3+2 vs AC 10 = miss"
+        ]
+      },
+      "queued": {
+        "map_id": 17,
+        "event_id": 7,
+        "summary": "GEO 017 event 7: RAM WARRIOR",
+        "monster_names": [
+          "RAM WARRIOR"
+        ],
+        "candidate_monster_names": [],
+        "unresolved_monster_refs": [],
+        "encounters": [
+          {
+            "monster_id": 52,
+            "monster_ref": "52",
+            "monster_name": "RAM WARRIOR",
+            "address": "0x8C54",
+            "kind": "setup_monster",
+            "resolution": "constant",
+            "max_distance": "0",
+            "copies": null,
+            "pic_ref": "255",
+            "stats": {
+              "strength": 18,
+              "intelligence": 17,
+              "wisdom": 10,
+              "dexterity": 10,
+              "constitution": 10,
+              "charisma": 10,
+              "extraordinary_strength": 10
+            },
+            "candidate_resolution": null
+          }
+        ]
+      }
+    }
+  },
+  "summary": {
+    "screenshot_count": 6,
+    "all_nonblank": true
+  }
+}

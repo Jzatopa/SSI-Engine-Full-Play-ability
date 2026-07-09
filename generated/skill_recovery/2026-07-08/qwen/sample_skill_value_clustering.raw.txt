@@ -1,0 +1,47 @@
+[state-migrations] Legacy state migration warnings:
+- Skipped Memory Core legacy memory index import for agent main because legacy rows could not be imported: Error: legacy memory meta rows conflict with canonical memory index rows
+│
+◇  Doctor warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - Skipped Memory Core legacy memory index import for agent main         │
+│    because legacy rows could not be imported: Error: legacy memory meta  │
+│    rows conflict with canonical memory index rows                        │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+model.run via local
+provider: ollama
+model: qwen3-coder:30b
+outputs: 1
+# Matrix Cubed Skill Recovery Advisory
+
+## VERIFIED_FROM_PROMPT
+- Non-zero skill values extracted from 259-byte `.WHO`/`.SAV` files
+- Career IDs and sample names identified from file paths
+- WHO offset mapping confirmed via START.EXE Pascal strings
+- Skill value offsets derived from GAME.OVR decompiled accessors using `character + 0x4C + skill_id`
+- No inferred careers or unobserved skill combinations
+
+## CANDIDATES
+- **Career 1 (GEN1, RAC1, TST1, TST2)**: Sampled across multiple files, contains First Aid, Mathematics, Astronomy, Astrogation, Pilot Rocket, Drive Ground Car, Use Jetpack, Maneuver in 0G, Notice skills
+- **Career 2 (CHRDATA1)**: Sampled across multiple files, contains Treat Light Wounds, Treat Serious Wounds, Treat Critical Wounds, Treat Poisoning, Treat Stun/Paralysis, Diagnose, Battle Tactics, Maneuver in 0G, Befriend Animal skills
+
+## RISKS
+- Skill values may vary between pre/post combat states
+- Some samples lack comprehensive skill coverage for all 84 skills
+- No evidence of career 3 or higher careers in provided data
+- Sample size limited to 5 character files (GEN1, RAC1, TST1, TST2, CHRDATA1)
+- No evidence of career-specific skill distributions beyond listed samples
+
+## LOCAL_VALIDATION_STEPS
+1. Confirm WHO offset matches START.EXE string offsets for each skill name
+2. Validate character + 0x4C + skill_id calculation against observed data
+3. Verify sample file paths match expected `.WHO`/`.SAV` formats
+4. Cross-check skill values across pre/post combat states for same character
+5. Confirm no duplicate or conflicting skill entries in samples
+
+## UNSUPPORTED_CLAIMS
+- No evidence of career 3 or higher careers beyond listed samples
+- No data to support skill value ranges beyond observed non-zero values (10-85)
+- No evidence that all 84 skills are present in any character sample
+- No claims about career-specific skill distributions outside provided samples
+- No inference about skill value persistence across different game states or files

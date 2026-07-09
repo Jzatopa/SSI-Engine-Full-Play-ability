@@ -1,0 +1,4727 @@
+[
+  {
+    "id": 1,
+    "name": "SID REFUGE",
+    "record_size": 259,
+    "stats": {
+      "strength": 16,
+      "intelligence": 14,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 12,
+      "offset_0x33": 50,
+      "offset_0x36": 9,
+      "offset_0x37": 50,
+      "offset_0x45": 84,
+      "offset_0x6B": 55,
+      "offset_0x8A": 50,
+      "offset_0x8F": 50,
+      "offset_0xB2": 208,
+      "offset_0xE3": 84
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 256,
+      "bonus_xp_per_hp": 6
+    },
+    "visuals": {
+      "head_portrait": 6,
+      "body_portrait": 8,
+      "head_icon": 8,
+      "weapon_icon": 8,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0a 53 49 44 20 52 45 46 55 47 45 00 00 00 00 00 10 0e 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 2,
+    "name": "SID REFUGE",
+    "record_size": 259,
+    "stats": {
+      "strength": 17,
+      "intelligence": 16,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 13,
+      "offset_0x33": 51,
+      "offset_0x36": 9,
+      "offset_0x37": 58,
+      "offset_0x45": 91,
+      "offset_0x6B": 0,
+      "offset_0x8A": 0,
+      "offset_0x8F": 0,
+      "offset_0xB2": 96,
+      "offset_0xE3": 91
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 512,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0a 53 49 44 20 52 45 46 55 47 45 00 00 00 00 00 11 10 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 3,
+    "name": "SID REFUGE",
+    "record_size": 259,
+    "stats": {
+      "strength": 18,
+      "intelligence": 17,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 14,
+      "offset_0x33": 51,
+      "offset_0x36": 18,
+      "offset_0x37": 60,
+      "offset_0x45": 98,
+      "offset_0x6B": 0,
+      "offset_0x8A": 0,
+      "offset_0x8F": 0,
+      "offset_0xB2": 184,
+      "offset_0xE3": 98
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 768,
+      "bonus_xp_per_hp": 25
+    },
+    "visuals": {
+      "head_portrait": 25,
+      "body_portrait": 25,
+      "head_icon": 25,
+      "weapon_icon": 25,
+      "icon_size": 25,
+      "colors": {
+        "body": 25,
+        "arm": 25,
+        "leg": 25,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0a 53 49 44 20 52 45 46 55 47 45 00 00 00 00 00 12 11 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 4,
+    "name": "SID REFUGE",
+    "record_size": 259,
+    "stats": {
+      "strength": 18,
+      "intelligence": 18,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 15,
+      "offset_0x33": 52,
+      "offset_0x36": 18,
+      "offset_0x37": 60,
+      "offset_0x45": 105,
+      "offset_0x6B": 0,
+      "offset_0x8A": 0,
+      "offset_0x8F": 0,
+      "offset_0xB2": 172,
+      "offset_0xE3": 105
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 768,
+      "bonus_xp_per_hp": 25
+    },
+    "visuals": {
+      "head_portrait": 25,
+      "body_portrait": 25,
+      "head_icon": 25,
+      "weapon_icon": 25,
+      "icon_size": 25,
+      "colors": {
+        "body": 25,
+        "arm": 25,
+        "leg": 25,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0a 53 49 44 20 52 45 46 55 47 45 00 00 00 00 00 12 12 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 5,
+    "name": "PURGE COMMANDO",
+    "record_size": 259,
+    "stats": {
+      "strength": 14,
+      "intelligence": 10,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 8,
+      "offset_0x33": 47,
+      "offset_0x36": 12,
+      "offset_0x37": 51,
+      "offset_0x45": 56,
+      "offset_0x6B": 60,
+      "offset_0x8A": 50,
+      "offset_0x8F": 50,
+      "offset_0xB2": 113,
+      "offset_0xE3": 56
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 1280,
+      "bonus_xp_per_hp": 25
+    },
+    "visuals": {
+      "head_portrait": 25,
+      "body_portrait": 25,
+      "head_icon": 25,
+      "weapon_icon": 25,
+      "icon_size": 25,
+      "colors": {
+        "body": 25,
+        "arm": 25,
+        "leg": 25,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0e 50 55 52 47 45 20 43 4f 4d 4d 41 4e 44 4f 00 0e 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 6,
+    "name": "PURGE WARRIOR",
+    "record_size": 259,
+    "stats": {
+      "strength": 10,
+      "intelligence": 10,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 6,
+      "offset_0x33": 45,
+      "offset_0x36": 12,
+      "offset_0x37": 51,
+      "offset_0x45": 42,
+      "offset_0x6B": 50,
+      "offset_0x8A": 50,
+      "offset_0x8F": 50,
+      "offset_0xB2": 44,
+      "offset_0xE3": 42
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 1280,
+      "bonus_xp_per_hp": 25
+    },
+    "visuals": {
+      "head_portrait": 25,
+      "body_portrait": 25,
+      "head_icon": 25,
+      "weapon_icon": 25,
+      "icon_size": 25,
+      "colors": {
+        "body": 25,
+        "arm": 25,
+        "leg": 25,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0d 50 55 52 47 45 20 57 41 52 52 49 4f 52 00 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 7,
+    "name": "WARRIOR",
+    "record_size": 259,
+    "stats": {
+      "strength": 18,
+      "intelligence": 17,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 7,
+      "offset_0x33": 48,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 63,
+      "offset_0x6B": 40,
+      "offset_0x8A": 50,
+      "offset_0x8F": 75,
+      "offset_0xB2": 194,
+      "offset_0xE3": 63
+    },
+    "identity": {
+      "race": 0,
+      "class": 232,
+      "age": 3,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 0,
+      "bonus_xp_per_hp": 6
+    },
+    "visuals": {
+      "head_portrait": 6,
+      "body_portrait": 2,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "07 57 41 52 52 49 4f 52 00 00 00 00 00 00 00 00 12 11 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0d 0c"
+  },
+  {
+    "id": 8,
+    "name": "PURGE SEC ROBOT",
+    "record_size": 259,
+    "stats": {
+      "strength": 10,
+      "intelligence": 18,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 8,
+      "offset_0x33": 47,
+      "offset_0x36": 24,
+      "offset_0x37": 62,
+      "offset_0x45": 60,
+      "offset_0x6B": 40,
+      "offset_0x8A": 35,
+      "offset_0x8F": 75,
+      "offset_0xB2": 113,
+      "offset_0xE3": 60
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 2048,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0f 50 55 52 47 45 20 53 45 43 20 52 4f 42 4f 54 0a 12 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0e 0d"
+  },
+  {
+    "id": 9,
+    "name": "ORG SKORP",
+    "record_size": 259,
+    "stats": {
+      "strength": 10,
+      "intelligence": 10,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 8,
+      "offset_0x33": 47,
+      "offset_0x36": 15,
+      "offset_0x37": 58,
+      "offset_0x45": 56,
+      "offset_0x6B": 0,
+      "offset_0x8A": 0,
+      "offset_0x8F": 0,
+      "offset_0xB2": 113,
+      "offset_0xE3": 56
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 2304,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "09 4f 52 47 20 53 4b 4f 52 50 00 00 00 00 00 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 10,
+    "name": "COYODORG",
+    "record_size": 259,
+    "stats": {
+      "strength": 14,
+      "intelligence": 15,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 7,
+      "offset_0x33": 49,
+      "offset_0x36": 18,
+      "offset_0x37": 56,
+      "offset_0x45": 49,
+      "offset_0x6B": 0,
+      "offset_0x8A": 0,
+      "offset_0x8F": 0,
+      "offset_0xB2": 194,
+      "offset_0xE3": 49
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 2560,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "08 43 4f 59 4f 44 4f 52 47 00 00 00 00 00 00 00 0e 0f 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 11,
+    "name": "RATWURST",
+    "record_size": 259,
+    "stats": {
+      "strength": 10,
+      "intelligence": 10,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 7,
+      "offset_0x33": 50,
+      "offset_0x36": 18,
+      "offset_0x37": 56,
+      "offset_0x45": 52,
+      "offset_0x6B": 0,
+      "offset_0x8A": 0,
+      "offset_0x8F": 0,
+      "offset_0xB2": 194,
+      "offset_0xE3": 52
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 2816,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "08 52 41 54 57 55 52 53 54 00 00 00 00 00 00 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 12,
+    "name": "GANG LEADER",
+    "record_size": 259,
+    "stats": {
+      "strength": 18,
+      "intelligence": 16,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 11,
+      "offset_0x33": 50,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 77,
+      "offset_0x6B": 60,
+      "offset_0x8A": 60,
+      "offset_0x8F": 45,
+      "offset_0xB2": 220,
+      "offset_0xE3": 77
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 3072,
+      "bonus_xp_per_hp": 8
+    },
+    "visuals": {
+      "head_portrait": 8,
+      "body_portrait": 5,
+      "head_icon": 5,
+      "weapon_icon": 13,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0b 47 41 4e 47 20 4c 45 41 44 45 52 00 00 00 00 12 10 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 13,
+    "name": "GANG VETERAN",
+    "record_size": 259,
+    "stats": {
+      "strength": 18,
+      "intelligence": 16,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 8,
+      "offset_0x33": 48,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 56,
+      "offset_0x6B": 35,
+      "offset_0x8A": 50,
+      "offset_0x8F": 40,
+      "offset_0xB2": 113,
+      "offset_0xE3": 56
+    },
+    "identity": {
+      "race": 0,
+      "class": 232,
+      "age": 3,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 3328,
+      "bonus_xp_per_hp": 8
+    },
+    "visuals": {
+      "head_portrait": 8,
+      "body_portrait": 8,
+      "head_icon": 2,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0c 47 41 4e 47 20 56 45 54 45 52 41 4e 00 00 00 12 10 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 14,
+    "name": "LUNARIAN WARR",
+    "record_size": 259,
+    "stats": {
+      "strength": 10,
+      "intelligence": 10,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 8,
+      "offset_0x33": 47,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 56,
+      "offset_0x6B": 35,
+      "offset_0x8A": 50,
+      "offset_0x8F": 55,
+      "offset_0xB2": 113,
+      "offset_0xE3": 56
+    },
+    "identity": {
+      "race": 0,
+      "class": 232,
+      "age": 3,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 3584,
+      "bonus_xp_per_hp": 1
+    },
+    "visuals": {
+      "head_portrait": 1,
+      "body_portrait": 1,
+      "head_icon": 4,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0d 4c 55 4e 41 52 49 41 4e 20 57 41 52 52 00 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0f"
+  },
+  {
+    "id": 15,
+    "name": "LUNARIAN WARR",
+    "record_size": 259,
+    "stats": {
+      "strength": 15,
+      "intelligence": 17,
+      "wisdom": 14,
+      "dexterity": 17,
+      "constitution": 15,
+      "charisma": 13,
+      "extraordinary_strength": 16
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 8,
+      "offset_0x33": 47,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 56,
+      "offset_0x6B": 45,
+      "offset_0x8A": 40,
+      "offset_0x8F": 60,
+      "offset_0xB2": 113,
+      "offset_0xE3": 56
+    },
+    "identity": {
+      "race": 0,
+      "class": 194,
+      "age": 501,
+      "gender": 0,
+      "monster_type": 73,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 3584,
+      "bonus_xp_per_hp": 12
+    },
+    "visuals": {
+      "head_portrait": 12,
+      "body_portrait": 7,
+      "head_icon": 7,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0d 4c 55 4e 41 52 49 41 4e 20 57 41 52 52 00 00 0f 11 0e 11 0f 0d 10 0a 0a 0a 0a 0a 0a 0a 0f 0f"
+  },
+  {
+    "id": 16,
+    "name": "LUNARIAN LEADER",
+    "record_size": 259,
+    "stats": {
+      "strength": 14,
+      "intelligence": 13,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 10,
+      "offset_0x33": 49,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 70,
+      "offset_0x6B": 60,
+      "offset_0x8A": 50,
+      "offset_0x8F": 65,
+      "offset_0xB2": 126,
+      "offset_0xE3": 70
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 4096,
+      "bonus_xp_per_hp": 35
+    },
+    "visuals": {
+      "head_portrait": 35,
+      "body_portrait": 35,
+      "head_icon": 8,
+      "weapon_icon": 8,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0f 4c 55 4e 41 52 49 41 4e 20 4c 45 41 44 45 52 0e 0d 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 17,
+    "name": "LUNAR SEC ROBOT",
+    "record_size": 259,
+    "stats": {
+      "strength": 10,
+      "intelligence": 10,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 15,
+      "offset_0x33": 53,
+      "offset_0x36": 10,
+      "offset_0x37": 63,
+      "offset_0x45": 105,
+      "offset_0x6B": 35,
+      "offset_0x8A": 45,
+      "offset_0x8F": 75,
+      "offset_0xB2": 202,
+      "offset_0xE3": 105
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 4352,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0f 4c 55 4e 41 52 20 53 45 43 20 52 4f 42 4f 54 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 18,
+    "name": "CARNIFERN",
+    "record_size": 259,
+    "stats": {
+      "strength": 10,
+      "intelligence": 10,
+      "wisdom": 10,
+      "dexterity": 0,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 13,
+      "offset_0x33": 51,
+      "offset_0x36": 6,
+      "offset_0x37": 56,
+      "offset_0x45": 91,
+      "offset_0x6B": 0,
+      "offset_0x8A": 25,
+      "offset_0x8F": 25,
+      "offset_0xB2": 202,
+      "offset_0xE3": 91
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 4608,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "09 43 41 52 4e 49 46 45 52 4e 00 00 00 00 00 00 0a 0a 0a 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 19,
+    "name": "AMALTHEAN WARR",
+    "record_size": 259,
+    "stats": {
+      "strength": 10,
+      "intelligence": 10,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 12,
+      "offset_0x33": 50,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 84,
+      "offset_0x6B": 40,
+      "offset_0x8A": 50,
+      "offset_0x8F": 55,
+      "offset_0xB2": 208,
+      "offset_0xE3": 84
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 4864,
+      "bonus_xp_per_hp": 8
+    },
+    "visuals": {
+      "head_portrait": 8,
+      "body_portrait": 1,
+      "head_icon": 1,
+      "weapon_icon": 1,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0e 41 4d 41 4c 54 48 45 41 4e 20 57 41 52 52 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 20,
+    "name": "AMALTHEAN LEAD",
+    "record_size": 259,
+    "stats": {
+      "strength": 10,
+      "intelligence": 14,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 13,
+      "offset_0x33": 51,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 91,
+      "offset_0x6B": 70,
+      "offset_0x8A": 60,
+      "offset_0x8F": 75,
+      "offset_0xB2": 196,
+      "offset_0xE3": 91
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 5120,
+      "bonus_xp_per_hp": 1
+    },
+    "visuals": {
+      "head_portrait": 1,
+      "body_portrait": 1,
+      "head_icon": 3,
+      "weapon_icon": 3,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0e 41 4d 41 4c 54 48 45 41 4e 20 4c 45 41 44 00 0a 0e 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 21,
+    "name": "AMALTH SEC BOT",
+    "record_size": 259,
+    "stats": {
+      "strength": 10,
+      "intelligence": 10,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 13,
+      "offset_0x33": 50,
+      "offset_0x36": 18,
+      "offset_0x37": 63,
+      "offset_0x45": 91,
+      "offset_0x6B": 50,
+      "offset_0x8A": 50,
+      "offset_0x8F": 80,
+      "offset_0xB2": 196,
+      "offset_0xE3": 91
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 5376,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0e 41 4d 41 4c 54 48 20 53 45 43 20 42 4f 54 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 22,
+    "name": "VENUS DINOSAUR",
+    "record_size": 259,
+    "stats": {
+      "strength": 17,
+      "intelligence": 16,
+      "wisdom": 19,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 13,
+      "offset_0x33": 52,
+      "offset_0x36": 15,
+      "offset_0x37": 56,
+      "offset_0x45": 91,
+      "offset_0x6B": 0,
+      "offset_0x8A": 25,
+      "offset_0x8F": 0,
+      "offset_0xB2": 202,
+      "offset_0xE3": 91
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 5632,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0e 56 45 4e 55 53 20 44 49 4e 4f 53 41 55 52 00 11 10 13 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 23,
+    "name": "LOWLANDER MINER",
+    "record_size": 259,
+    "stats": {
+      "strength": 17,
+      "intelligence": 10,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 6,
+      "offset_0x33": 46,
+      "offset_0x36": 16,
+      "offset_0x37": 54,
+      "offset_0x45": 28,
+      "offset_0x6B": 25,
+      "offset_0x8A": 50,
+      "offset_0x8F": 40,
+      "offset_0xB2": 44,
+      "offset_0xE3": 28
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 5888,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0f 4c 4f 57 4c 41 4e 44 45 52 20 4d 49 4e 45 52 11 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0d 0a"
+  },
+  {
+    "id": 24,
+    "name": "TERRINE WARRIOR",
+    "record_size": 259,
+    "stats": {
+      "strength": 16,
+      "intelligence": 14,
+      "wisdom": 12,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 7,
+      "offset_0x33": 50,
+      "offset_0x36": 15,
+      "offset_0x37": 53,
+      "offset_0x45": 38,
+      "offset_0x6B": 25,
+      "offset_0x8A": 45,
+      "offset_0x8F": 50,
+      "offset_0xB2": 194,
+      "offset_0xE3": 38
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 6144,
+      "bonus_xp_per_hp": 9
+    },
+    "visuals": {
+      "head_portrait": 9,
+      "body_portrait": 9,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0f 54 45 52 52 49 4e 45 20 57 41 52 52 49 4f 52 10 0e 0c 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0c 0b"
+  },
+  {
+    "id": 25,
+    "name": "LOWLANDER",
+    "record_size": 259,
+    "stats": {
+      "strength": 17,
+      "intelligence": 10,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 6,
+      "offset_0x33": 46,
+      "offset_0x36": 12,
+      "offset_0x37": 54,
+      "offset_0x45": 28,
+      "offset_0x6B": 0,
+      "offset_0x8A": 0,
+      "offset_0x8F": 0,
+      "offset_0xB2": 44,
+      "offset_0xE3": 28
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 0,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "09 4c 4f 57 4c 41 4e 44 45 52 00 00 00 00 00 00 11 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0d 0a"
+  },
+  {
+    "id": 26,
+    "name": "DESERT RUNNER",
+    "record_size": 259,
+    "stats": {
+      "strength": 16,
+      "intelligence": 16,
+      "wisdom": 15,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 6,
+      "offset_0x33": 46,
+      "offset_0x36": 15,
+      "offset_0x37": 52,
+      "offset_0x45": 42,
+      "offset_0x6B": 50,
+      "offset_0x8A": 70,
+      "offset_0x8F": 35,
+      "offset_0xB2": 194,
+      "offset_0xE3": 42
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 0,
+      "bonus_xp_per_hp": 5
+    },
+    "visuals": {
+      "head_portrait": 5,
+      "body_portrait": 5,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0d 44 45 53 45 52 54 20 52 55 4e 4e 45 52 00 00 10 10 0f 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0d 0e"
+  },
+  {
+    "id": 27,
+    "name": "LOWLANDER",
+    "record_size": 259,
+    "stats": {
+      "strength": 19,
+      "intelligence": 15,
+      "wisdom": 16,
+      "dexterity": 15,
+      "constitution": 17,
+      "charisma": 16,
+      "extraordinary_strength": 16
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 6,
+      "offset_0x33": 46,
+      "offset_0x36": 12,
+      "offset_0x37": 54,
+      "offset_0x45": 28,
+      "offset_0x6B": 41,
+      "offset_0x8A": 37,
+      "offset_0x8F": 43,
+      "offset_0xB2": 44,
+      "offset_0xE3": 28
+    },
+    "identity": {
+      "race": 0,
+      "class": 42,
+      "age": 108,
+      "gender": 0,
+      "monster_type": 68,
+      "alignment": 54,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 0,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "09 4c 4f 57 4c 41 4e 44 45 52 00 00 00 00 00 00 13 0f 10 0f 11 10 10 0a 0a 0a 0a 0a 0a 0a 0d 0a"
+  },
+  {
+    "id": 28,
+    "name": "DESERT RUNNER",
+    "record_size": 259,
+    "stats": {
+      "strength": 19,
+      "intelligence": 18,
+      "wisdom": 16,
+      "dexterity": 15,
+      "constitution": 17,
+      "charisma": 13,
+      "extraordinary_strength": 12
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 6,
+      "offset_0x33": 48,
+      "offset_0x36": 15,
+      "offset_0x37": 52,
+      "offset_0x45": 55,
+      "offset_0x6B": 55,
+      "offset_0x8A": 70,
+      "offset_0x8F": 35,
+      "offset_0xB2": 194,
+      "offset_0xE3": 55
+    },
+    "identity": {
+      "race": 0,
+      "class": 201,
+      "age": 129,
+      "gender": 0,
+      "monster_type": 41,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 0,
+      "bonus_xp_per_hp": 5
+    },
+    "visuals": {
+      "head_portrait": 5,
+      "body_portrait": 5,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0d 44 45 53 45 52 54 20 52 55 4e 4e 45 52 00 00 13 12 10 0f 11 0d 0c 0a 0a 0a 0a 0a 0a 0a 0c 0d"
+  },
+  {
+    "id": 29,
+    "name": "STORMRIDER",
+    "record_size": 259,
+    "stats": {
+      "strength": 19,
+      "intelligence": 14,
+      "wisdom": 18,
+      "dexterity": 15,
+      "constitution": 14,
+      "charisma": 13,
+      "extraordinary_strength": 17
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 10,
+      "offset_0x33": 50,
+      "offset_0x36": 15,
+      "offset_0x37": 58,
+      "offset_0x45": 84,
+      "offset_0x6B": 62,
+      "offset_0x8A": 65,
+      "offset_0x8F": 92,
+      "offset_0xB2": 208,
+      "offset_0xE3": 84
+    },
+    "identity": {
+      "race": 0,
+      "class": 146,
+      "age": 2124,
+      "gender": 0,
+      "monster_type": 87,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 7424,
+      "bonus_xp_per_hp": 13
+    },
+    "visuals": {
+      "head_portrait": 13,
+      "body_portrait": 14,
+      "head_icon": 14,
+      "weapon_icon": 14,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0a 53 54 4f 52 4d 52 49 44 45 52 00 00 00 00 00 13 0e 12 0f 0e 0d 11 0a 0a 0a 0a 0a 0a 0a 0f 0a"
+  },
+  {
+    "id": 30,
+    "name": "KILLER KANE",
+    "record_size": 259,
+    "stats": {
+      "strength": 16,
+      "intelligence": 18,
+      "wisdom": 16,
+      "dexterity": 17,
+      "constitution": 12,
+      "charisma": 16,
+      "extraordinary_strength": 13
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 12,
+      "offset_0x33": 48,
+      "offset_0x36": 15,
+      "offset_0x37": 50,
+      "offset_0x45": 53,
+      "offset_0x6B": 80,
+      "offset_0x8A": 75,
+      "offset_0x8F": 80,
+      "offset_0xB2": 208,
+      "offset_0xE3": 53
+    },
+    "identity": {
+      "race": 0,
+      "class": 109,
+      "age": 1724,
+      "gender": 0,
+      "monster_type": 90,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 7680,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0b 4b 49 4c 4c 45 52 20 4b 41 4e 45 00 00 00 00 10 12 10 11 0c 10 0d 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 31,
+    "name": "DR. J. MALCOLN",
+    "record_size": 259,
+    "stats": {
+      "strength": 16,
+      "intelligence": 19,
+      "wisdom": 15,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 12,
+      "offset_0x33": 52,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 120,
+      "offset_0x6B": 85,
+      "offset_0x8A": 75,
+      "offset_0x8F": 75,
+      "offset_0xB2": 196,
+      "offset_0xE3": 120
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 7936,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0e 44 52 2e 20 4a 2e 20 4d 41 4c 43 4f 4c 4e 00 10 13 0f 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0d 0b"
+  },
+  {
+    "id": 32,
+    "name": "STAGE 5 ECG",
+    "record_size": 259,
+    "stats": {
+      "strength": 16,
+      "intelligence": 20,
+      "wisdom": 16,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 14,
+      "offset_0x33": 52,
+      "offset_0x36": 24,
+      "offset_0x37": 57,
+      "offset_0x45": 98,
+      "offset_0x6B": 50,
+      "offset_0x8A": 50,
+      "offset_0x8F": 90,
+      "offset_0xB2": 178,
+      "offset_0xE3": 98
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 8192,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0b 53 54 41 47 45 20 35 20 45 43 47 00 00 00 00 10 14 10 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0d"
+  },
+  {
+    "id": 33,
+    "name": "MER. WARRIOR",
+    "record_size": 259,
+    "stats": {
+      "strength": 13,
+      "intelligence": 15,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 46,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 49,
+      "offset_0x6B": 30,
+      "offset_0x8A": 75,
+      "offset_0x8F": 50,
+      "offset_0xB2": 194,
+      "offset_0xE3": 49
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 1792,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0c 4d 45 52 2e 20 57 41 52 52 49 4f 52 00 00 00 0d 0f 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0d 0c"
+  },
+  {
+    "id": 35,
+    "name": "MER. H.S. ROBOT",
+    "record_size": 259,
+    "stats": {
+      "strength": 14,
+      "intelligence": 14,
+      "wisdom": 10,
+      "dexterity": 3,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 46,
+      "offset_0x36": 9,
+      "offset_0x37": 59,
+      "offset_0x45": 77,
+      "offset_0x6B": 50,
+      "offset_0x8A": 35,
+      "offset_0x8F": 65,
+      "offset_0xB2": 113,
+      "offset_0xE3": 77
+    },
+    "identity": {
+      "race": 0,
+      "class": 232,
+      "age": 3,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 2304,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0f 4d 45 52 2e 20 48 2e 53 2e 20 52 4f 42 4f 54 0e 0e 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0d 0c"
+  },
+  {
+    "id": 36,
+    "name": "HYPERCRAB",
+    "record_size": 259,
+    "stats": {
+      "strength": 18,
+      "intelligence": 15,
+      "wisdom": 0,
+      "dexterity": 3,
+      "constitution": 0,
+      "charisma": 0,
+      "extraordinary_strength": 0
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 47,
+      "offset_0x36": 15,
+      "offset_0x37": 56,
+      "offset_0x45": 28,
+      "offset_0x6B": 0,
+      "offset_0x8A": 65,
+      "offset_0x8F": 25,
+      "offset_0xB2": 44,
+      "offset_0xE3": 28
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 4352,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "09 48 59 50 45 52 43 52 41 42 00 00 00 00 00 00 12 0f 00 03 00 00 00 00 00 00 00 00 00 00 0b 0a"
+  },
+  {
+    "id": 37,
+    "name": "HYPERSNAKE",
+    "record_size": 259,
+    "stats": {
+      "strength": 16,
+      "intelligence": 17,
+      "wisdom": 0,
+      "dexterity": 3,
+      "constitution": 0,
+      "charisma": 0,
+      "extraordinary_strength": 0
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 45,
+      "offset_0x36": 24,
+      "offset_0x37": 52,
+      "offset_0x45": 32,
+      "offset_0x6B": 0,
+      "offset_0x8A": 50,
+      "offset_0x8F": 50,
+      "offset_0xB2": 44,
+      "offset_0xE3": 32
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 4864,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0a 48 59 50 45 52 53 4e 41 4b 45 00 00 00 00 00 10 11 00 03 00 00 00 00 00 00 00 00 00 00 0b 0a"
+  },
+  {
+    "id": 38,
+    "name": "TECHNICIAN",
+    "record_size": 259,
+    "stats": {
+      "strength": 17,
+      "intelligence": 17,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 52,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 55,
+      "offset_0x6B": 0,
+      "offset_0x8A": 0,
+      "offset_0x8F": 0,
+      "offset_0xB2": 232,
+      "offset_0xE3": 55
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 0,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0a 54 45 43 48 4e 49 43 49 41 4e 00 00 00 00 00 11 11 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0c 0b"
+  },
+  {
+    "id": 39,
+    "name": "LG. E.C. GENNIE",
+    "record_size": 259,
+    "stats": {
+      "strength": 19,
+      "intelligence": 19,
+      "wisdom": 19,
+      "dexterity": 3,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 44,
+      "offset_0x36": 15,
+      "offset_0x37": 58,
+      "offset_0x45": 35,
+      "offset_0x6B": 50,
+      "offset_0x8A": 75,
+      "offset_0x8F": 80,
+      "offset_0xB2": 44,
+      "offset_0xE3": 35
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 2816,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0f 4c 47 2e 20 45 2e 43 2e 20 47 45 4e 4e 49 45 13 13 13 03 0a 0a 0a 00 00 00 00 00 00 00 0e 0d"
+  },
+  {
+    "id": 40,
+    "name": "SAND SQUID",
+    "record_size": 259,
+    "stats": {
+      "strength": 14,
+      "intelligence": 22,
+      "wisdom": 0,
+      "dexterity": 3,
+      "constitution": 0,
+      "charisma": 0,
+      "extraordinary_strength": 0
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 45,
+      "offset_0x36": 18,
+      "offset_0x37": 51,
+      "offset_0x45": 36,
+      "offset_0x6B": 0,
+      "offset_0x8A": 85,
+      "offset_0x8F": 15,
+      "offset_0xB2": 113,
+      "offset_0xE3": 36
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 1536,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0a 53 41 4e 44 20 53 51 55 49 44 00 00 00 00 00 0e 16 00 03 00 00 00 00 00 00 00 00 00 00 0d 0c"
+  },
+  {
+    "id": 41,
+    "name": "URSADDER",
+    "record_size": 259,
+    "stats": {
+      "strength": 15,
+      "intelligence": 17,
+      "wisdom": 0,
+      "dexterity": 3,
+      "constitution": 0,
+      "charisma": 0,
+      "extraordinary_strength": 0
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 48,
+      "offset_0x36": 15,
+      "offset_0x37": 56,
+      "offset_0x45": 38,
+      "offset_0x6B": 0,
+      "offset_0x8A": 75,
+      "offset_0x8F": 35,
+      "offset_0xB2": 194,
+      "offset_0xE3": 38
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 8704,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "08 55 52 53 41 44 44 45 52 00 00 00 00 00 00 00 0f 11 00 03 00 00 00 00 00 00 00 00 00 00 0e 0d"
+  },
+  {
+    "id": 42,
+    "name": "ACID FROG",
+    "record_size": 259,
+    "stats": {
+      "strength": 14,
+      "intelligence": 15,
+      "wisdom": 0,
+      "dexterity": 3,
+      "constitution": 0,
+      "charisma": 0,
+      "extraordinary_strength": 0
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 45,
+      "offset_0x36": 9,
+      "offset_0x37": 55,
+      "offset_0x45": 36,
+      "offset_0x6B": 40,
+      "offset_0x8A": 40,
+      "offset_0x8F": 20,
+      "offset_0xB2": 113,
+      "offset_0xE3": 36
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 8960,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "09 41 43 49 44 20 46 52 4f 47 00 00 00 00 00 00 0e 0f 00 03 00 00 00 00 00 00 00 00 00 00 0d 0c"
+  },
+  {
+    "id": 43,
+    "name": "PIRATE WARRIOR",
+    "record_size": 259,
+    "stats": {
+      "strength": 17,
+      "intelligence": 17,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 6,
+      "offset_0x33": 48,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 46,
+      "offset_0x6B": 50,
+      "offset_0x8A": 50,
+      "offset_0x8F": 90,
+      "offset_0xB2": 194,
+      "offset_0xE3": 46
+    },
+    "identity": {
+      "race": 0,
+      "class": 232,
+      "age": 3,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 3072,
+      "bonus_xp_per_hp": 7
+    },
+    "visuals": {
+      "head_portrait": 7,
+      "body_portrait": 2,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0e 50 49 52 41 54 45 20 57 41 52 52 49 4f 52 00 11 11 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0d 0c"
+  },
+  {
+    "id": 44,
+    "name": "PIRATE LEADER",
+    "record_size": 259,
+    "stats": {
+      "strength": 18,
+      "intelligence": 18,
+      "wisdom": 17,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 9,
+      "offset_0x33": 50,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 58,
+      "offset_0x6B": 65,
+      "offset_0x8A": 50,
+      "offset_0x8F": 95,
+      "offset_0xB2": 126,
+      "offset_0xE3": 58
+    },
+    "identity": {
+      "race": 0,
+      "class": 232,
+      "age": 3,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 3584,
+      "bonus_xp_per_hp": 2
+    },
+    "visuals": {
+      "head_portrait": 2,
+      "body_portrait": 6,
+      "head_icon": 6,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0d 50 49 52 41 54 45 20 4c 45 41 44 45 52 00 00 12 12 11 0a 0a 0a 0a 00 00 00 00 00 00 00 0c 0d"
+  },
+  {
+    "id": 45,
+    "name": "PIR. COM. ROBOT",
+    "record_size": 259,
+    "stats": {
+      "strength": 16,
+      "intelligence": 17,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 50,
+      "offset_0x36": 18,
+      "offset_0x37": 58,
+      "offset_0x45": 74,
+      "offset_0x6B": 0,
+      "offset_0x8A": 25,
+      "offset_0x8F": 100,
+      "offset_0xB2": 220,
+      "offset_0xE3": 74
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 3584,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0f 50 49 52 2e 20 43 4f 4d 2e 20 52 4f 42 4f 54 10 11 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0d 0c"
+  },
+  {
+    "id": 46,
+    "name": "RAM ASSASSIN",
+    "record_size": 259,
+    "stats": {
+      "strength": 13,
+      "intelligence": 16,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 7,
+      "offset_0x33": 48,
+      "offset_0x36": 13,
+      "offset_0x37": 50,
+      "offset_0x45": 57,
+      "offset_0x6B": 75,
+      "offset_0x8A": 75,
+      "offset_0x8F": 60,
+      "offset_0xB2": 194,
+      "offset_0xE3": 57
+    },
+    "identity": {
+      "race": 0,
+      "class": 232,
+      "age": 3,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 3840,
+      "bonus_xp_per_hp": 2
+    },
+    "visuals": {
+      "head_portrait": 2,
+      "body_portrait": 2,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0c 52 41 4d 20 41 53 53 41 53 53 49 4e 00 00 00 0d 10 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0c 0c"
+  },
+  {
+    "id": 47,
+    "name": "RAM G.D. GENNIE",
+    "record_size": 259,
+    "stats": {
+      "strength": 18,
+      "intelligence": 16,
+      "wisdom": 10,
+      "dexterity": 3,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 49,
+      "offset_0x36": 15,
+      "offset_0x37": 56,
+      "offset_0x45": 55,
+      "offset_0x6B": 0,
+      "offset_0x8A": 65,
+      "offset_0x8F": 15,
+      "offset_0xB2": 113,
+      "offset_0xE3": 55
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 4096,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0f 52 41 4d 20 47 2e 44 2e 20 47 45 4e 4e 49 45 12 10 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0b 05"
+  },
+  {
+    "id": 48,
+    "name": "ASSAULT ROBOT",
+    "record_size": 259,
+    "stats": {
+      "strength": 18,
+      "intelligence": 17,
+      "wisdom": 10,
+      "dexterity": 3,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 49,
+      "offset_0x36": 9,
+      "offset_0x37": 65,
+      "offset_0x45": 91,
+      "offset_0x6B": 0,
+      "offset_0x8A": 5,
+      "offset_0x8F": 100,
+      "offset_0xB2": 126,
+      "offset_0xE3": 91
+    },
+    "identity": {
+      "race": 0,
+      "class": 100,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 5888,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0d 41 53 53 41 55 4c 54 20 52 4f 42 4f 54 00 00 12 11 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0a 05"
+  },
+  {
+    "id": 49,
+    "name": "COMBAT ROBOT",
+    "record_size": 259,
+    "stats": {
+      "strength": 16,
+      "intelligence": 16,
+      "wisdom": 10,
+      "dexterity": 3,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 49,
+      "offset_0x36": 9,
+      "offset_0x37": 66,
+      "offset_0x45": 108,
+      "offset_0x6B": 0,
+      "offset_0x8A": 0,
+      "offset_0x8F": 80,
+      "offset_0xB2": 126,
+      "offset_0xE3": 108
+    },
+    "identity": {
+      "race": 0,
+      "class": 10,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 6144,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0c 43 4f 4d 42 41 54 20 52 4f 42 4f 54 00 00 00 10 10 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0c 0b"
+  },
+  {
+    "id": 50,
+    "name": "SECURITY ROBOT",
+    "record_size": 259,
+    "stats": {
+      "strength": 16,
+      "intelligence": 16,
+      "wisdom": 10,
+      "dexterity": 3,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 46,
+      "offset_0x36": 12,
+      "offset_0x37": 60,
+      "offset_0x45": 40,
+      "offset_0x6B": 0,
+      "offset_0x8A": 0,
+      "offset_0x8F": 85,
+      "offset_0xB2": 194,
+      "offset_0xE3": 40
+    },
+    "identity": {
+      "race": 0,
+      "class": 10,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 7168,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0e 53 45 43 55 52 49 54 59 20 52 4f 42 4f 54 00 10 10 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0d 0c"
+  },
+  {
+    "id": 51,
+    "name": "DEFENSE ROBOT",
+    "record_size": 259,
+    "stats": {
+      "strength": 16,
+      "intelligence": 16,
+      "wisdom": 10,
+      "dexterity": 3,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 46,
+      "offset_0x36": 11,
+      "offset_0x37": 58,
+      "offset_0x45": 51,
+      "offset_0x6B": 0,
+      "offset_0x8A": 45,
+      "offset_0x8F": 65,
+      "offset_0xB2": 194,
+      "offset_0xE3": 51
+    },
+    "identity": {
+      "race": 0,
+      "class": 232,
+      "age": 3,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 6656,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0d 44 45 46 45 4e 53 45 20 52 4f 42 4f 54 00 00 10 10 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0c 0b"
+  },
+  {
+    "id": 52,
+    "name": "RAM WARRIOR",
+    "record_size": 259,
+    "stats": {
+      "strength": 18,
+      "intelligence": 17,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 6,
+      "offset_0x33": 48,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 47,
+      "offset_0x6B": 30,
+      "offset_0x8A": 50,
+      "offset_0x8F": 35,
+      "offset_0xB2": 44,
+      "offset_0xE3": 47
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 7680,
+      "bonus_xp_per_hp": 11
+    },
+    "visuals": {
+      "head_portrait": 11,
+      "body_portrait": 11,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0b 52 41 4d 20 57 41 52 52 49 4f 52 00 00 00 00 12 11 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0f 0d"
+  },
+  {
+    "id": 53,
+    "name": "TECHNICIAN",
+    "record_size": 259,
+    "stats": {
+      "strength": 12,
+      "intelligence": 18,
+      "wisdom": 10,
+      "dexterity": 13,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 19
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 44,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 32,
+      "offset_0x6B": 0,
+      "offset_0x8A": 20,
+      "offset_0x8F": 70,
+      "offset_0xB2": 44,
+      "offset_0xE3": 32
+    },
+    "identity": {
+      "race": 0,
+      "class": 100,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 7424,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0a 54 45 43 48 4e 49 43 49 41 4e 00 00 00 00 00 0c 12 0a 0d 0a 0a 13 00 00 00 00 00 00 00 0e 0c"
+  },
+  {
+    "id": 54,
+    "name": "RAM CBT. GENNIE",
+    "record_size": 259,
+    "stats": {
+      "strength": 18,
+      "intelligence": 18,
+      "wisdom": 18,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 9,
+      "offset_0x33": 50,
+      "offset_0x36": 17,
+      "offset_0x37": 50,
+      "offset_0x45": 66,
+      "offset_0x6B": 68,
+      "offset_0x8A": 78,
+      "offset_0x8F": 90,
+      "offset_0xB2": 82,
+      "offset_0xE3": 66
+    },
+    "identity": {
+      "race": 0,
+      "class": 232,
+      "age": 3,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 5120,
+      "bonus_xp_per_hp": 6
+    },
+    "visuals": {
+      "head_portrait": 6,
+      "body_portrait": 8,
+      "head_icon": 8,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0f 52 41 4d 20 43 42 54 2e 20 47 45 4e 4e 49 45 12 12 12 0a 0a 0a 0a 00 00 00 00 00 00 00 0a 09"
+  },
+  {
+    "id": 55,
+    "name": "LEANDER",
+    "record_size": 259,
+    "stats": {
+      "strength": 17,
+      "intelligence": 14,
+      "wisdom": 14,
+      "dexterity": 17,
+      "constitution": 17,
+      "charisma": 12,
+      "extraordinary_strength": 22
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 8,
+      "offset_0x33": 47,
+      "offset_0x36": 12,
+      "offset_0x37": 54,
+      "offset_0x45": 46,
+      "offset_0x6B": 42,
+      "offset_0x8A": 15,
+      "offset_0x8F": 45,
+      "offset_0xB2": 113,
+      "offset_0xE3": 46
+    },
+    "identity": {
+      "race": 0,
+      "class": 93,
+      "age": 112,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 2560,
+      "bonus_xp_per_hp": 13
+    },
+    "visuals": {
+      "head_portrait": 13,
+      "body_portrait": 7,
+      "head_icon": 7,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "07 4c 45 41 4e 44 45 52 00 00 00 00 00 00 00 00 11 0e 0e 11 11 0c 16 00 00 00 00 00 00 00 0a 08"
+  },
+  {
+    "id": 56,
+    "name": "ZANE",
+    "record_size": 259,
+    "stats": {
+      "strength": 4,
+      "intelligence": 12,
+      "wisdom": 6,
+      "dexterity": 12,
+      "constitution": 4,
+      "charisma": 18,
+      "extraordinary_strength": 1
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 1,
+      "offset_0x33": 42,
+      "offset_0x36": 10,
+      "offset_0x37": 54,
+      "offset_0x45": 8,
+      "offset_0x6B": 0,
+      "offset_0x8A": 10,
+      "offset_0x8F": 5,
+      "offset_0xB2": 15,
+      "offset_0xE3": 8
+    },
+    "identity": {
+      "race": 0,
+      "class": 135,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 23,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 2560,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "04 5a 41 4e 45 00 00 00 00 00 00 00 00 00 00 00 04 0c 06 0c 04 12 01 00 00 00 00 00 00 00 0c 0a"
+  },
+  {
+    "id": 57,
+    "name": "BUCK ROGERS",
+    "record_size": 259,
+    "stats": {
+      "strength": 17,
+      "intelligence": 18,
+      "wisdom": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "charisma": 21,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 12,
+      "offset_0x33": 46,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 63,
+      "offset_0x6B": 47,
+      "offset_0x8A": 35,
+      "offset_0x8F": 69,
+      "offset_0xB2": 208,
+      "offset_0xE3": 63
+    },
+    "identity": {
+      "race": 0,
+      "class": 46,
+      "age": 916,
+      "gender": 75,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 14592,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0b 42 55 43 4b 20 52 4f 47 45 52 53 00 00 00 00 11 12 0f 0e 0d 15 0a 0a 0a 0a 0a 0a 0a 0a 06 06"
+  },
+  {
+    "id": 58,
+    "name": "GANG MEMBER",
+    "record_size": 259,
+    "stats": {
+      "strength": 14,
+      "intelligence": 12,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 7,
+      "offset_0x33": 46,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 49,
+      "offset_0x6B": 30,
+      "offset_0x8A": 50,
+      "offset_0x8F": 35,
+      "offset_0xB2": 194,
+      "offset_0xE3": 49
+    },
+    "identity": {
+      "race": 0,
+      "class": 232,
+      "age": 3,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 14848,
+      "bonus_xp_per_hp": 2
+    },
+    "visuals": {
+      "head_portrait": 2,
+      "body_portrait": 8,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0b 47 41 4e 47 20 4d 45 4d 42 45 52 00 00 00 00 0e 0c 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 59,
+    "name": "GANG RECRUIT",
+    "record_size": 259,
+    "stats": {
+      "strength": 12,
+      "intelligence": 10,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 6,
+      "offset_0x33": 45,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 43,
+      "offset_0x6B": 30,
+      "offset_0x8A": 30,
+      "offset_0x8F": 25,
+      "offset_0xB2": 44,
+      "offset_0xE3": 43
+    },
+    "identity": {
+      "race": 0,
+      "class": 232,
+      "age": 3,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 0,
+      "bonus_xp_per_hp": 2
+    },
+    "visuals": {
+      "head_portrait": 2,
+      "body_portrait": 7,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0c 47 41 4e 47 20 52 45 43 52 55 49 54 00 00 00 0c 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "id": 60,
+    "name": "D.R. WARRIOR",
+    "record_size": 259,
+    "stats": {
+      "strength": 19,
+      "intelligence": 17,
+      "wisdom": 17,
+      "dexterity": 14,
+      "constitution": 14,
+      "charisma": 12,
+      "extraordinary_strength": 13
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 7,
+      "offset_0x33": 48,
+      "offset_0x36": 15,
+      "offset_0x37": 52,
+      "offset_0x45": 58,
+      "offset_0x6B": 53,
+      "offset_0x8A": 65,
+      "offset_0x8F": 58,
+      "offset_0xB2": 194,
+      "offset_0xE3": 58
+    },
+    "identity": {
+      "race": 0,
+      "class": 30,
+      "age": 311,
+      "gender": 0,
+      "monster_type": 41,
+      "alignment": 34,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 0,
+      "bonus_xp_per_hp": 5
+    },
+    "visuals": {
+      "head_portrait": 5,
+      "body_portrait": 5,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0c 44 2e 52 2e 20 57 41 52 52 49 4f 52 00 00 00 13 11 11 0e 0e 0c 0d 00 00 00 00 00 00 00 0b 0c"
+  },
+  {
+    "id": 61,
+    "name": "LL. WARRIOR",
+    "record_size": 259,
+    "stats": {
+      "strength": 17,
+      "intelligence": 14,
+      "wisdom": 16,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 6,
+      "offset_0x33": 46,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 42,
+      "offset_0x6B": 40,
+      "offset_0x8A": 49,
+      "offset_0x8F": 20,
+      "offset_0xB2": 44,
+      "offset_0xE3": 42
+    },
+    "identity": {
+      "race": 0,
+      "class": 1,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 256,
+      "bonus_xp_per_hp": 19
+    },
+    "visuals": {
+      "head_portrait": 19,
+      "body_portrait": 19,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0b 4c 4c 2e 20 57 41 52 52 49 4f 52 00 00 00 00 11 0e 10 0a 0a 0a 0a 00 00 00 00 00 00 00 0d 0a"
+  },
+  {
+    "id": 62,
+    "name": "LL. WARRIOR",
+    "record_size": 259,
+    "stats": {
+      "strength": 19,
+      "intelligence": 15,
+      "wisdom": 15,
+      "dexterity": 13,
+      "constitution": 15,
+      "charisma": 16,
+      "extraordinary_strength": 14
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 6,
+      "offset_0x33": 47,
+      "offset_0x36": 12,
+      "offset_0x37": 50,
+      "offset_0x45": 42,
+      "offset_0x6B": 40,
+      "offset_0x8A": 55,
+      "offset_0x8F": 49,
+      "offset_0xB2": 44,
+      "offset_0xE3": 42
+    },
+    "identity": {
+      "race": 0,
+      "class": 208,
+      "age": 182,
+      "gender": 0,
+      "monster_type": 67,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 256,
+      "bonus_xp_per_hp": 19
+    },
+    "visuals": {
+      "head_portrait": 19,
+      "body_portrait": 19,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0b 4c 4c 2e 20 57 41 52 52 49 4f 52 00 00 00 00 13 0f 0f 0d 0f 10 0e 00 00 00 00 00 00 00 0d 0a"
+  },
+  {
+    "id": 63,
+    "name": "JOVIAN DRAGON",
+    "record_size": 259,
+    "stats": {
+      "strength": 10,
+      "intelligence": 19,
+      "wisdom": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "charisma": 10,
+      "extraordinary_strength": 10
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 51,
+      "offset_0x36": 20,
+      "offset_0x37": 62,
+      "offset_0x45": 102,
+      "offset_0x6B": 0,
+      "offset_0x8A": 0,
+      "offset_0x8F": 89,
+      "offset_0xB2": 126,
+      "offset_0xE3": 102
+    },
+    "identity": {
+      "race": 0,
+      "class": 1,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 16128,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0d 4a 4f 56 49 41 4e 20 44 52 41 47 4f 4e 00 00 0a 13 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0e 0d"
+  },
+  {
+    "id": 64,
+    "name": "WASPHOPPER",
+    "record_size": 259,
+    "stats": {
+      "strength": 12,
+      "intelligence": 19,
+      "wisdom": 15,
+      "dexterity": 3,
+      "constitution": 6,
+      "charisma": 2,
+      "extraordinary_strength": 1
+    },
+    "goldbox_legacy_offsets": {
+      "thac0_raw": 0,
+      "max_hp": 0,
+      "movement": 0,
+      "hit_dice": 0,
+      "armor_class_raw": 0,
+      "primary_attacks_x2": 0,
+      "secondary_attacks_x2": 0,
+      "primary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      },
+      "secondary_damage": {
+        "dice": 0,
+        "sides": 0,
+        "bonus": 0
+      }
+    },
+    "matrix_variant_candidates": {
+      "offset_0x29": 0,
+      "offset_0x33": 50,
+      "offset_0x36": 24,
+      "offset_0x37": 62,
+      "offset_0x45": 24,
+      "offset_0x6B": 30,
+      "offset_0x8A": 20,
+      "offset_0x8F": 120,
+      "offset_0xB2": 44,
+      "offset_0xE3": 24
+    },
+    "identity": {
+      "race": 0,
+      "class": 0,
+      "age": 0,
+      "gender": 0,
+      "monster_type": 0,
+      "alignment": 0,
+      "size": 0
+    },
+    "rewards": {
+      "goldbox_legacy_experience": 0,
+      "base_xp_for_defeating": 16384,
+      "bonus_xp_per_hp": 0
+    },
+    "visuals": {
+      "head_portrait": 0,
+      "body_portrait": 0,
+      "head_icon": 0,
+      "weapon_icon": 0,
+      "icon_size": 0,
+      "colors": {
+        "body": 0,
+        "arm": 0,
+        "leg": 0,
+        "head": 0,
+        "shield": 0,
+        "weapon": 0
+      }
+    },
+    "raw_head_hex": "0a 57 41 53 50 48 4f 50 50 45 52 00 00 00 00 00 0c 13 0f 03 06 02 01 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  }
+]

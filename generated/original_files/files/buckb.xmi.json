@@ -1,0 +1,262 @@
+{
+  "file": "BUCKB.XMI",
+  "kind": "audio/music/driver data",
+  "bytes": 11578,
+  "sha256": "8e7172d8a2b12ef61b2499e557aa5616a4b720533bc745fe06c03236db13451f",
+  "head_hex": "46 4f 52 4d 00 00 00 0e 58 44 49 52 49 4e 46 4f 00 00 00 02 07 00 43 41 54 20 00 00 2d 1c 58 4d 49 44 46 4f 52 4d 00 00 0e d8 58 4d 49 44 54 49 4d 42 00 00 00 12 08 00 18 00 19 00 70 00 5d 00 30 00 26 7f 24 7f 31 7f 45 56 4e 54 00 00 0e b2 ff 51 03 0a e6 2d ff 58 04 04 02 18 08 b2 07 66 b1 07 66 b4 07 66 b3 07 66 b5 0a 41 b9 07 66 b2 0a 50 b1 0a 3c b4 0a 6e b3 0a 64 b5 07 66 c2 18",
+  "ascii_candidates": [
+    {
+      "offset": 0,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 8,
+      "length": 8,
+      "text": "XDIRINFO"
+    },
+    {
+      "offset": 22,
+      "length": 4,
+      "text": "CAT "
+    },
+    {
+      "offset": 30,
+      "length": 8,
+      "text": "XMIDFORM"
+    },
+    {
+      "offset": 42,
+      "length": 8,
+      "text": "XMIDTIMB"
+    },
+    {
+      "offset": 72,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 145,
+      "length": 4,
+      "text": "Ik*U"
+    },
+    {
+      "offset": 197,
+      "length": 4,
+      "text": "Ik@V"
+    },
+    {
+      "offset": 210,
+      "length": 4,
+      "text": "FT@U"
+    },
+    {
+      "offset": 1041,
+      "length": 4,
+      "text": "'i+'"
+    },
+    {
+      "offset": 1086,
+      "length": 4,
+      "text": "RB(+"
+    },
+    {
+      "offset": 1095,
+      "length": 4,
+      "text": "^B(+"
+    },
+    {
+      "offset": 1104,
+      "length": 4,
+      "text": "[B'+"
+    },
+    {
+      "offset": 1981,
+      "length": 4,
+      "text": "&Y2."
+    },
+    {
+      "offset": 2094,
+      "length": 4,
+      "text": "=Y.."
+    },
+    {
+      "offset": 2116,
+      "length": 4,
+      "text": "B|.."
+    },
+    {
+      "offset": 2222,
+      "length": 4,
+      "text": "K~F."
+    },
+    {
+      "offset": 3005,
+      "length": 4,
+      "text": "LEFH"
+    },
+    {
+      "offset": 3385,
+      "length": 4,
+      "text": "CJ40"
+    },
+    {
+      "offset": 3835,
+      "length": 4,
+      "text": "8].`"
+    },
+    {
+      "offset": 3842,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 3850,
+      "length": 8,
+      "text": "XMIDTIMB"
+    },
+    {
+      "offset": 3878,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 3943,
+      "length": 4,
+      "text": "F]\"K"
+    },
+    {
+      "offset": 3995,
+      "length": 4,
+      "text": "IipK"
+    },
+    {
+      "offset": 4135,
+      "length": 4,
+      "text": "&|\t%"
+    },
+    {
+      "offset": 4326,
+      "length": 4,
+      "text": "&|\t&"
+    },
+    {
+      "offset": 4362,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 4370,
+      "length": 8,
+      "text": "XMIDTIMB"
+    },
+    {
+      "offset": 4400,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 4722,
+      "length": 4,
+      "text": "@'4\t"
+    },
+    {
+      "offset": 4764,
+      "length": 4,
+      "text": "304\t"
+    },
+    {
+      "offset": 4806,
+      "length": 4,
+      "text": "4]3\t"
+    },
+    {
+      "offset": 5073,
+      "length": 4,
+      "text": "Cc&6"
+    },
+    {
+      "offset": 5153,
+      "length": 4,
+      "text": "/uj7"
+    },
+    {
+      "offset": 5166,
+      "length": 4,
+      "text": "Gm(3"
+    },
+    {
+      "offset": 5320,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 5327,
+      "length": 9,
+      "text": ",XMIDTIMB"
+    },
+    {
+      "offset": 5350,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 5628,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 5636,
+      "length": 8,
+      "text": "XMIDTIMB"
+    },
+    {
+      "offset": 5664,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 6522,
+      "length": 4,
+      "text": "A++/"
+    },
+    {
+      "offset": 6554,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 6561,
+      "length": 9,
+      "text": "~XMIDTIMB"
+    },
+    {
+      "offset": 6592,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 7200,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 7208,
+      "length": 8,
+      "text": "XMIDTIMB"
+    },
+    {
+      "offset": 7242,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 7823,
+      "length": 4,
+      "text": "HW&0"
+    }
+  ],
+  "pascal_candidates": [],
+  "record_hints": [],
+  "semantic_status": "file-level structural evidence only"
+}

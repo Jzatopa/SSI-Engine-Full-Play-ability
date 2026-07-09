@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "coab": {
+    "root": "/home/jzatopa/.local/opt/coab",
+    "commit": "9dc46f1d5911710fb2fcb7a9c0ec0ef74264d17c",
+    "sources": {
+      "engine/ovr003.cs": "3ba2675792a06a68ae5e3e2feb7055e83d81a5ca9ed4fe2385157c460f833c29",
+      "engine/ovr008.cs": "df6903b2b6a8168fc13e3e520880b8ccec723b4aa2ac38850941325ea0884c36",
+      "Classes/GeoBlock.cs": "282d15ca9bc51ec75c3c5eaf624f6de5a2cfe473758e61bef5d8bdb8a0467fd4"
+    },
+    "command_table_entries": 65,
+    "command_table": [
+      {
+        "opcode": 0,
+        "fixed_argument_count": 0,
+        "name": "EXIT"
+      },
+      {
+        "opcode": 1,
+        "fixed_argument_count": 1,
+        "name": "GOTO"
+      },
+      {
+        "opcode": 2,
+        "fixed_argument_count": 1,
+        "name": "GOSUB"
+      },
+      {
+        "opcode": 3,
+        "fixed_argument_count": 2,
+        "name": "COMPARE"
+      },
+      {
+        "opcode": 4,
+        "fixed_argument_count": 3,
+        "name": "ADD"
+      },
+      {
+        "opcode": 5,
+        "fixed_argument_count": 3,
+        "name": "SUBTRACT"
+      },
+      {
+        "opcode": 6,
+        "fixed_argument_count": 3,
+        "name": "DIVIDE"
+      },
+      {
+        "opcode": 7,
+        "fixed_argument_count": 3,
+        "name": "MULTIPLY"
+      },
+      {
+        "opcode": 8,
+        "fixed_argument_count": 2,
+        "name": "RANDOM"
+      },
+      {
+        "opcode": 9,
+        "fixed_argument_count": 2,
+        "name": "SAVE"
+      },
+      {
+        "opcode": 10,
+        "fixed_argument_count": 1,
+        "name": "LOAD CHARACTER"
+      },
+      {
+        "opcode": 11,
+        "fixed_argument_count": 3,
+        "name": "LOAD MONSTER"
+      },
+      {
+        "opcode": 12,
+        "fixed_argument_count": 3,
+        "name": "SETUP MONSTER"
+      },
+      {
+        "opcode": 13,
+        "fixed_argument_count": 0,
+        "name": "APPROACH"
+      },
+      {
+        "opcode": 14,
+        "fixed_argument_count": 1,
+        "name": "PICTURE"
+      },
+      {
+        "opcode": 15,
+        "fixed_argument_count": 2,
+        "name": "INPUT NUMBER"
+      },
+      {
+        "opcode": 16,
+        "fixed_argument_count": 2,
+        "name": "INPUT STRING"
+      },
+      {
+        "opcode": 17,
+        "fixed_argument_count": 1,
+        "name": "PRINT"
+      },
+      {
+        "opcode": 18,
+        "fixed_argument_count": 1,
+        "name": "PRINTCLEAR"
+      },
+      {
+        "opcode": 19,
+        "fixed_argument_count": 0,
+        "name": "RETURN"
+      },
+      {
+        "opcode": 20,
+        "fixed_argument_count": 4,
+        "name": "COMPARE AND"
+      },
+      {
+        "opcode": 21,
+        "fixed_argument_count": 0,
+        "name": "VERTICAL MENU"
+      },
+      {
+        "opcode": 22,
+        "fixed_argument_count": 0,
+        "name": "IF ="
+      },
+      {
+        "opcode": 23,
+        "fixed_argument_count": 0,
+        "name": "IF <>"
+      },
+      {
+        "opcode": 24,
+        "fixed_argument_count": 0,
+        "name": "IF <"
+      },
+      {
+        "opcode": 25,
+        "fixed_argument_count": 0,
+        "name": "IF >"
+      },
+      {
+        "opcode": 26,
+        "fixed_argument_count": 0,
+        "name": "IF <="
+      },
+      {
+        "opcode": 27,
+        "fixed_argument_count": 0,
+        "name": "IF >="
+      },
+      {
+        "opcode": 28,
+        "fixed_argument_count": 0,
+        "name": "CLEARMONSTERS"
+      },
+      {
+        "opcode": 29,
+        "fixed_argument_count": 1,
+        "name": "PARTYSTRENGTH"
+      },
+      {
+        "opcode": 30,
+        "fixed_argument_count": 6,
+        "name": "CHECKPARTY"
+      },
+      {
+        "opcode": 31,
+        "fixed_argument_count": 2,
+        "name": "notsure 0x1f"
+      },
+      {
+        "opcode": 32,
+        "fixed_argument_count": 1,
+        "name": "NEWECL"
+      },
+      {
+        "opcode": 33,
+        "fixed_argument_count": 3,
+        "name": "LOAD FILES"
+      },
+      {
+        "opcode": 34,
+        "fixed_argument_count": 2,
+        "name": "PARTY SURPRISE"
+      },
+      {
+        "opcode": 35,
+        "fixed_argument_count": 4,
+        "name": "SURPRISE"
+      },
+      {
+        "opcode": 36,
+        "fixed_argument_count": 0,
+        "name": "COMBAT"
+      },
+      {
+        "opcode": 37,
+        "fixed_argument_count": 0,
+        "name": "ON GOTO"
+      },
+      {
+        "opcode": 38,
+        "fixed_argument_count": 0,
+        "name": "ON GOSUB"
+      },
+      {
+        "opcode": 39,
+        "fixed_argument_count": 8,
+        "name": "TREASURE"
+      },
+      {
+        "opcode": 40,
+        "fixed_argument_count": 3,
+        "name": "ROB"
+      },
+      {
+        "opcode": 41,
+        "fixed_argument_count": 14,
+        "name": "ENCOUNTER MENU"
+      },
+      {
+        "opcode": 42,
+        "fixed_argument_count": 3,
+        "name": "GETTABLE"
+      },
+      {
+        "opcode": 43,
+        "fixed_argument_count": 0,
+        "name": "HORIZONTAL MENU"
+      },
+      {
+        "opcode": 44,
+        "fixed_argument_count": 6,
+        "name": "PARLAY"
+      },
+      {
+        "opcode": 45,
+        "fixed_argument_count": 1,
+        "name": "CALL"
+      },
+      {
+        "opcode": 46,
+        "fixed_argument_count": 5,
+        "name": "DAMAGE"
+      },
+      {
+        "opcode": 47,
+        "fixed_argument_count": 3,
+        "name": "AND"
+      },
+      {
+        "opcode": 48,
+        "fixed_argument_count": 3,
+        "name": "OR"
+      },
+      {
+        "opcode": 49,
+        "fixed_argument_count": 0,
+        "name": "SPRITE OFF"
+      },
+      {
+        "opcode": 50,
+        "fixed_argument_count": 1,
+        "name": "FIND ITEM"
+      },
+      {
+        "opcode": 51,
+        "fixed_argument_count": 0,
+        "name": "PRINT RETURN"
+      },
+      {
+        "opcode": 52,
+        "fixed_argument_count": 1,
+        "name": "ECL CLOCK"
+      },
+      {
+        "opcode": 53,
+        "fixed_argument_count": 3,
+        "name": "SAVE TABLE"
+      },
+      {
+        "opcode": 54,
+        "fixed_argument_count": 1,
+        "name": "ADD NPC"
+      },
+      {
+        "opcode": 55,
+        "fixed_argument_count": 3,
+        "name": "LOAD PIECES"
+      },
+      {
+        "opcode": 56,
+        "fixed_argument_count": 1,
+        "name": "PROGRAM"
+      },
+      {
+        "opcode": 57,
+        "fixed_argument_count": 1,
+        "name": "WHO"
+      },
+      {
+        "opcode": 58,
+        "fixed_argument_count": 0,
+        "name": "DELAY"
+      },
+      {
+        "opcode": 59,
+        "fixed_argument_count": 3,
+        "name": "SPELL"
+      },
+      {
+        "opcode": 60,
+        "fixed_argument_count": 1,
+        "name": "PROTECTION"
+      },
+      {
+        "opcode": 61,
+        "fixed_argument_count": 0,
+        "name": "CLEAR BOX"
+      },
+      {
+        "opcode": 62,
+        "fixed_argument_count": 0,
+        "name": "DUMP"
+      },
+      {
+        "opcode": 63,
+        "fixed_argument_count": 1,
+        "name": "FIND SPECIAL"
+      },
+      {
+        "opcode": 64,
+        "fixed_argument_count": 1,
+        "name": "DESTROY ITEMS"
+      }
+    ],
+    "bounded_observations": {
+      "load_monster": "argument 2 is a copy count; values <= 0 normalize to one; total loaded monsters is capped at 63",
+      "arithmetic": "shared ADD, SUBTRACT (argument 2 minus argument 1), DIVIDE (argument 1 divided by argument 2), MULTIPLY, and inclusive RANDOM semantics match the current VM",
+      "branching": "shared COMPARE/IF and ON GOTO/ON GOSUB operand direction and zero-based selection match the current VM",
+      "menus": "vertical and horizontal menus store a zero-based selected index; the current VM already matches this shared behavior",
+      "load_files": "argument 1 selects the GEO block in Curse; Matrix Cubed local listings and current LOAD_AREA_MAP handling use the same first-argument map target",
+      "packed_text": "packed ECL strings decode as consecutive nonzero 6-bit codes using the shared Gold Box alphabet",
+      "geo": "decoded GEO blocks are 0x402 bytes: two-byte prefix plus four 256-byte cell planes"
+    }
+  },
+  "matrix_cubed_text": {
+    "source": "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/ECL1.DAX",
+    "sha256": "5330bb436b3cac474506265db90cb3e0a888d7a9e5b0b65051d302035b60d854",
+    "candidate_count": 10314,
+    "blocks_with_candidates": 33,
+    "decoder_mismatch_count": 0,
+    "mismatches": []
+  },
+  "matrix_cubed_maps": {
+    "source": "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/GEO1.DAX",
+    "sha256": "398bab0120f5d16102aa121178d8f10d932a8db2bc23d96cb615dc6bb1171598",
+    "block_count": 25,
+    "block_sizes": [
+      1026
+    ],
+    "checked_cells": 6400,
+    "layout_mismatch_count": 0,
+    "mismatches": []
+  }
+}

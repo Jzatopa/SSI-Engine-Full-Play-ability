@@ -1,0 +1,273 @@
+{
+  "file": "PCSPKR.ADV",
+  "kind": "audio/music/driver data",
+  "bytes": 7855,
+  "sha256": "b8076322c6ac7ff1596c1ee3c60fd5129ade3f5c572fdd90934abfb84c576dc7",
+  "head_hex": "20 00 43 6f 70 79 72 69 67 68 74 20 28 43 29 20 31 39 39 31 20 4a 6f 68 6e 20 4d 69 6c 65 73 1a 64 00 d5 07 65 00 58 02 66 00 71 15 67 00 b7 12 68 00 88 16 96 00 03 17 bd 00 1a 17 be 00 40 17 97 00 5b 17 98 00 9f 18 aa 00 e3 18 ab 00 73 19 ad 00 b1 19 ae 00 e6 19 af 00 89 1b b1 00 23 1c b0 00 63 1b b2 00 af 1b b6 00 a0 1c b7 00 d9 1c b9 00 0e 1d c0 00 58 1a c2 00 84 1a b3 00 0c 1a",
+  "ascii_candidates": [
+    {
+      "offset": 2,
+      "length": 29,
+      "text": "Copyright (C) 1991 John Miles"
+    },
+    {
+      "offset": 210,
+      "length": 37,
+      "text": "IBM PC or compatible internal speaker"
+    },
+    {
+      "offset": 249,
+      "length": 5,
+      "text": "2jN@A"
+    },
+    {
+      "offset": 256,
+      "length": 4,
+      "text": "=C|*"
+    },
+    {
+      "offset": 340,
+      "length": 5,
+      "text": "|gR?-"
+    },
+    {
+      "offset": 359,
+      "length": 24,
+      "text": "~wqjd_YTOKGC?;852/,*(%#!"
+    },
+    {
+      "offset": 441,
+      "length": 15,
+      "text": "RUX[^adgjmpsvy|"
+    },
+    {
+      "offset": 987,
+      "length": 4,
+      "text": "u\t_^"
+    },
+    {
+      "offset": 2085,
+      "length": 5,
+      "text": "@rnop"
+    },
+    {
+      "offset": 2099,
+      "length": 5,
+      "text": "D0_N)"
+    },
+    {
+      "offset": 2649,
+      "length": 4,
+      "text": "<CAu"
+    },
+    {
+      "offset": 2662,
+      "length": 4,
+      "text": "<FOt"
+    },
+    {
+      "offset": 2690,
+      "length": 4,
+      "text": "IDtJ"
+    },
+    {
+      "offset": 2791,
+      "length": 4,
+      "text": "<FOu"
+    },
+    {
+      "offset": 2823,
+      "length": 4,
+      "text": "IDtR"
+    },
+    {
+      "offset": 2849,
+      "length": 4,
+      "text": "|BSQ"
+    },
+    {
+      "offset": 3327,
+      "length": 4,
+      "text": "<@|\""
+    },
+    {
+      "offset": 3369,
+      "length": 5,
+      "text": "<@|'W"
+    },
+    {
+      "offset": 3388,
+      "length": 4,
+      "text": "CSPU"
+    },
+    {
+      "offset": 3430,
+      "length": 4,
+      "text": "<@|\""
+    },
+    {
+      "offset": 3505,
+      "length": 5,
+      "text": "t\"<@|"
+    },
+    {
+      "offset": 3880,
+      "length": 31,
+      "text": "t<<vt]<wt[<ttY<utW<otU<ntT<stS."
+    },
+    {
+      "offset": 4186,
+      "length": 5,
+      "text": "@|!PU"
+    },
+    {
+      "offset": 4233,
+      "length": 6,
+      "text": "XdCSPU"
+    },
+    {
+      "offset": 4521,
+      "length": 8,
+      "text": "<Xt:<QtY"
+    },
+    {
+      "offset": 4561,
+      "length": 5,
+      "text": "6^\tPU"
+    },
+    {
+      "offset": 4822,
+      "length": 7,
+      "text": "L:;L>rg"
+    },
+    {
+      "offset": 4869,
+      "length": 4,
+      "text": ">^\t."
+    },
+    {
+      "offset": 4898,
+      "length": 4,
+      "text": "D,-d"
+    },
+    {
+      "offset": 4918,
+      "length": 5,
+      "text": "TB;TJ"
+    },
+    {
+      "offset": 4927,
+      "length": 4,
+      "text": ";DH}"
+    },
+    {
+      "offset": 4950,
+      "length": 4,
+      "text": "D,-d"
+    },
+    {
+      "offset": 4958,
+      "length": 6,
+      "text": "D.;D0u"
+    },
+    {
+      "offset": 4966,
+      "length": 6,
+      "text": "D ;D\"u"
+    },
+    {
+      "offset": 4981,
+      "length": 4,
+      "text": "`\t_^"
+    },
+    {
+      "offset": 5252,
+      "length": 4,
+      "text": "HRQS"
+    },
+    {
+      "offset": 5313,
+      "length": 5,
+      "text": "@dRQP"
+    },
+    {
+      "offset": 5361,
+      "length": 5,
+      "text": "T4+D6"
+    },
+    {
+      "offset": 5431,
+      "length": 5,
+      "text": "T&+D("
+    },
+    {
+      "offset": 5639,
+      "length": 5,
+      "text": "h\tQRP"
+    },
+    {
+      "offset": 5932,
+      "length": 4,
+      "text": ">d\t."
+    },
+    {
+      "offset": 6171,
+      "length": 4,
+      "text": "=TIu"
+    },
+    {
+      "offset": 6193,
+      "length": 4,
+      "text": "=RBu"
+    },
+    {
+      "offset": 6216,
+      "length": 4,
+      "text": "=EVt"
+    },
+    {
+      "offset": 6871,
+      "length": 6,
+      "text": "=RBu{&"
+    },
+    {
+      "offset": 6880,
+      "length": 5,
+      "text": "RNus&"
+    },
+    {
+      "offset": 7121,
+      "length": 7,
+      "text": "D0+D.t?"
+    },
+    {
+      "offset": 7150,
+      "length": 4,
+      "text": "]QRP"
+    },
+    {
+      "offset": 7237,
+      "length": 7,
+      "text": "D\"+D tH"
+    },
+    {
+      "offset": 7266,
+      "length": 4,
+      "text": "]QRP"
+    }
+  ],
+  "pascal_candidates": [
+    {
+      "offset": 213,
+      "length": 32,
+      "text": "PC or compatible internal speake"
+    },
+    {
+      "offset": 3879,
+      "length": 7,
+      "text": "t<<vt]<"
+    }
+  ],
+  "record_hints": [],
+  "semantic_status": "file-level structural evidence only"
+}

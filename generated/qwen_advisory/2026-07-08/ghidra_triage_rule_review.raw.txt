@@ -1,0 +1,60 @@
+[state-migrations] Legacy state migration warnings:
+- Skipped Memory Core legacy memory index import for agent main because legacy rows could not be imported: Error: legacy memory meta rows conflict with canonical memory index rows
+│
+◇  Doctor warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - Skipped Memory Core legacy memory index import for agent main         │
+│    because legacy rows could not be imported: Error: legacy memory meta  │
+│    rows conflict with canonical memory index rows                        │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+model.run via local
+provider: ollama
+model: qwen3-coder:30b
+outputs: 1
+# Ghidra Function Triage Rule Review
+
+## VERIFIED_FROM_PROMPT
+
+The triage artifact `generated/qwen_advisory/2026-07-08/ghidra_function_triage_candidates.tsv` contains 623 candidate functions classified by subsystem. All function names and subsystems are derived from metadata only—no original source, test results, or binary analysis artifacts were used for classification.
+
+## CANDIDATES
+
+All 623 rows in the artifact are candidates for triage classification. These include:
+- Functions named `sub_0000xxxx`, `sub_1000xxxx`, etc., with no known semantics.
+- Functions classified into subsystems like `combat`, `save/load`, `graphics/sound`, and `unknown`.
+- No validation has occurred against actual binary bytes or source code.
+
+## RISKS
+
+1. **False Positives**: Metadata-driven classification may misclassify functions due to naming conventions, string references, or heuristic assumptions.
+2. **Incomplete Coverage**: Subsystems like `tiny-thunk/helper` or `unknown` are likely underrepresented without binary inspection.
+3. **Misleading String Matches**: Strings such as “ is your pilot.” (0000:6ded) may not reflect actual function behavior, only data references.
+4. **Heuristic Overreliance**: Classification relies entirely on metadata heuristics, not on function body or call graph analysis.
+
+## LOCAL_VALIDATION_STEPS
+
+1. **Byte-level Verification**:
+   - Confirm that each candidate's address matches the expected segment (`0000`, `1000`, etc.).
+   - Validate that strings like “Repairing Ship” (0000:9047) appear in function body or are referenced by it.
+
+2. **Subsystem Cross-Check**:
+   - Manually inspect 10–20 functions from each subsystem to verify match accuracy.
+   - For example, functions in `combat` should reference combat-related logic or strings (e.g., “Dodge”).
+
+3. **Call Graph Analysis**:
+   - Identify if classified functions are called by known core modules (e.g., UI, save/load).
+   - Confirm function calls align with expected subsystem behavior.
+
+4. **String vs. Code Mapping**:
+   - For each string reference in the defined table, trace back to function(s) that may contain or use it.
+   - Validate whether function logic supports its assigned subsystem.
+
+## UNSUPPORTED_CLAIMS
+
+- No claim is made about function semantics, behavior, or correctness.
+- No classification is supported by binary code, assembly analysis, or reverse-engineered source.
+- All functions remain unverified for actual functionality or intended use.
+- The artifact assumes that metadata-driven heuristics are sufficient to classify all 623 functions without local validation.
+
+The triage output is a raw list of candidates; its utility depends entirely on downstream local validation.

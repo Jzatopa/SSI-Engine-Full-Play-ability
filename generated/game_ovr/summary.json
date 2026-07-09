@@ -1,0 +1,535 @@
+{
+  "path": "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/GAME.OVR",
+  "bytes": 212529,
+  "sha256": "d40f0309a114dbf2d9155c68404b0fb57cadb00e4841b3bfc335075a72296f67",
+  "magic": "FBOV",
+  "header_hex": "46 42 4f 56 29 3e 03 00 1c 57 41 52 4e 49 4e 47 3a 20 49 6e 73 75 66 66 69 63 69 65 6e 74 20 4d 65 6d 6f 72 79 24 49 6e 73 75 66 66 69 63 69 65 6e 74 20 4d 65 6d 6f 72 79 2e 20 45 78 69 74 69",
+  "ascii_string_count": 1007,
+  "pascal_candidate_count": 724,
+  "items_path": "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/ITEMS",
+  "items_bytes": 351,
+  "items_record_count": 39,
+  "items_record_size": 9,
+  "item_name_evidence": {
+    "ui_and_debug_hits": [
+      {
+        "offset": 25507,
+        "length": 24,
+        "text": "Select weapon to reload:"
+      },
+      {
+        "offset": 25508,
+        "length": 24,
+        "text": "Select weapon to reload:",
+        "terminator": 1
+      },
+      {
+        "offset": 36075,
+        "length": 6,
+        "text": "Gear: "
+      },
+      {
+        "offset": 36076,
+        "length": 6,
+        "text": "Gear: ",
+        "terminator": 4
+      },
+      {
+        "offset": 36584,
+        "length": 17,
+        "text": "Credits Gear Exit"
+      },
+      {
+        "offset": 36585,
+        "length": 17,
+        "text": "Credits Gear Exit",
+        "terminator": 1
+      },
+      {
+        "offset": 47859,
+        "length": 20,
+        "text": "Not with that weapon"
+      },
+      {
+        "offset": 47860,
+        "length": 21,
+        "text": "Not with that weaponU",
+        "terminator": 137
+      },
+      {
+        "offset": 54192,
+        "length": 22,
+        "text": "readies a heavy weapon"
+      },
+      {
+        "offset": 54193,
+        "length": 23,
+        "text": "readies a heavy weaponU",
+        "terminator": 137
+      },
+      {
+        "offset": 66322,
+        "length": 5,
+        "text": "ITEMS"
+      },
+      {
+        "offset": 66323,
+        "length": 6,
+        "text": "ITEMSU",
+        "terminator": 137
+      },
+      {
+        "offset": 80616,
+        "length": 34,
+        "text": " Weapon specials incorrectly set!U",
+        "terminator": 137
+      },
+      {
+        "offset": 80616,
+        "length": 32,
+        "text": "Weapon specials incorrectly set!"
+      },
+      {
+        "offset": 103973,
+        "length": 5,
+        "text": "Drop "
+      },
+      {
+        "offset": 103974,
+        "length": 5,
+        "text": "Drop ",
+        "terminator": 10
+      },
+      {
+        "offset": 107562,
+        "length": 14,
+        "text": "ready   action"
+      },
+      {
+        "offset": 107563,
+        "length": 14,
+        "text": "ready   action",
+        "terminator": 3
+      },
+      {
+        "offset": 115785,
+        "length": 23,
+        "text": " has no missile weapons"
+      },
+      {
+        "offset": 115786,
+        "length": 23,
+        "text": " has no missile weapons",
+        "terminator": 6
+      },
+      {
+        "offset": 115809,
+        "length": 6,
+        "text": "Weapon"
+      },
+      {
+        "offset": 115810,
+        "length": 6,
+        "text": "Weapon",
+        "terminator": 10
+      },
+      {
+        "offset": 115856,
+        "length": 21,
+        "text": "'s weapon is reloaded"
+      },
+      {
+        "offset": 115857,
+        "length": 21,
+        "text": "'s weapon is reloaded",
+        "terminator": 16
+      },
+      {
+        "offset": 115895,
+        "length": 12,
+        "text": "Already full"
+      },
+      {
+        "offset": 115896,
+        "length": 13,
+        "text": "Already fullU",
+        "terminator": 137
+      },
+      {
+        "offset": 117369,
+        "length": 24,
+        "text": "Buy Sell Ammo View Pool "
+      },
+      {
+        "offset": 117370,
+        "length": 24,
+        "text": "Buy Sell Ammo View Pool ",
+        "terminator": 11
+      },
+      {
+        "offset": 126461,
+        "length": 5,
+        "text": "ITEM0"
+      },
+      {
+        "offset": 126462,
+        "length": 5,
+        "text": "ITEM0",
+        "terminator": 4
+      },
+      {
+        "offset": 126472,
+        "length": 24,
+        "text": "Unable to find item file"
+      },
+      {
+        "offset": 126473,
+        "length": 25,
+        "text": "Unable to find item fileU",
+        "terminator": 137
+      },
+      {
+        "offset": 129661,
+        "length": 15,
+        "text": " already exists"
+      },
+      {
+        "offset": 129662,
+        "length": 15,
+        "text": " already exists",
+        "terminator": 27
+      },
+      {
+        "offset": 139418,
+        "length": 7,
+        "text": "weapon:"
+      },
+      {
+        "offset": 139419,
+        "length": 7,
+        "text": "weapon:",
+        "terminator": 7
+      },
+      {
+        "offset": 139426,
+        "length": 7,
+        "text": "armor :"
+      },
+      {
+        "offset": 139427,
+        "length": 7,
+        "text": "armor :",
+        "terminator": 10
+      },
+      {
+        "offset": 141847,
+        "length": 21,
+        "text": "Weapon Specialization"
+      },
+      {
+        "offset": 141848,
+        "length": 21,
+        "text": "Weapon Specialization",
+        "terminator": 5
+      },
+      {
+        "offset": 141875,
+        "length": 16,
+        "text": "Select a weapon "
+      },
+      {
+        "offset": 141876,
+        "length": 16,
+        "text": "Select a weapon ",
+        "terminator": 1
+      },
+      {
+        "offset": 143125,
+        "length": 5,
+        "text": "Gear "
+      },
+      {
+        "offset": 143126,
+        "length": 5,
+        "text": "Gear ",
+        "terminator": 7
+      },
+      {
+        "offset": 143171,
+        "length": 6,
+        "text": "Trade "
+      },
+      {
+        "offset": 143172,
+        "length": 16,
+        "text": "Trade \tWpn spec ",
+        "terminator": 4
+      },
+      {
+        "offset": 143847,
+        "length": 14,
+        "text": "itemptr:      "
+      },
+      {
+        "offset": 143848,
+        "length": 14,
+        "text": "itemptr:      ",
+        "terminator": 14
+      },
+      {
+        "offset": 143862,
+        "length": 14,
+        "text": "namenum(1):   "
+      },
+      {
+        "offset": 143863,
+        "length": 14,
+        "text": "namenum(1):   ",
+        "terminator": 14
+      },
+      {
+        "offset": 143877,
+        "length": 14,
+        "text": "namenum(2):   "
+      },
+      {
+        "offset": 143878,
+        "length": 14,
+        "text": "namenum(2):   ",
+        "terminator": 14
+      },
+      {
+        "offset": 143892,
+        "length": 14,
+        "text": "namenum(3):   "
+      },
+      {
+        "offset": 143893,
+        "length": 14,
+        "text": "namenum(3):   ",
+        "terminator": 14
+      },
+      {
+        "offset": 143967,
+        "length": 14,
+        "text": "ready:        "
+      },
+      {
+        "offset": 143968,
+        "length": 14,
+        "text": "ready:        ",
+        "terminator": 14
+      },
+      {
+        "offset": 144012,
+        "length": 14,
+        "text": "numitems:     "
+      },
+      {
+        "offset": 144013,
+        "length": 14,
+        "text": "numitems:     ",
+        "terminator": 14
+      },
+      {
+        "offset": 145586,
+        "length": 13,
+        "text": " has no gear."
+      },
+      {
+        "offset": 145587,
+        "length": 13,
+        "text": " has no gear.",
+        "terminator": 1
+      },
+      {
+        "offset": 145632,
+        "length": 5,
+        "text": "Ready"
+      },
+      {
+        "offset": 145633,
+        "length": 6,
+        "text": "Ready ",
+        "terminator": 1
+      },
+      {
+        "offset": 145670,
+        "length": 6,
+        "text": " Trade"
+      },
+      {
+        "offset": 145671,
+        "length": 6,
+        "text": " Trade",
+        "terminator": 5
+      },
+      {
+        "offset": 145677,
+        "length": 5,
+        "text": " Drop"
+      },
+      {
+        "offset": 145678,
+        "length": 5,
+        "text": " Drop",
+        "terminator": 6
+      },
+      {
+        "offset": 145696,
+        "length": 5,
+        "text": " Sell"
+      },
+      {
+        "offset": 145697,
+        "length": 5,
+        "text": " Sell",
+        "terminator": 4
+      },
+      {
+        "offset": 145702,
+        "length": 4,
+        "text": "Gear"
+      },
+      {
+        "offset": 145703,
+        "length": 4,
+        "text": "Gear",
+        "terminator": 10
+      },
+      {
+        "offset": 145707,
+        "length": 10,
+        "text": "Ready Item"
+      },
+      {
+        "offset": 145708,
+        "length": 10,
+        "text": "Ready Item",
+        "terminator": 22
+      },
+      {
+        "offset": 145718,
+        "length": 22,
+        "text": " loads a heavy weapon."
+      },
+      {
+        "offset": 145719,
+        "length": 22,
+        "text": " loads a heavy weapon.",
+        "terminator": 5
+      },
+      {
+        "offset": 145748,
+        "length": 32,
+        "text": " will be gone forever\tDrop It? U",
+        "terminator": 137
+      },
+      {
+        "offset": 145769,
+        "length": 9,
+        "text": "Drop It? "
+      },
+      {
+        "offset": 147244,
+        "length": 14,
+        "text": "already using "
+      },
+      {
+        "offset": 147245,
+        "length": 15,
+        "text": "already using U",
+        "terminator": 137
+      },
+      {
+        "offset": 147667,
+        "length": 16,
+        "text": "Trade with Whom?"
+      },
+      {
+        "offset": 147668,
+        "length": 16,
+        "text": "Trade with Whom?",
+        "terminator": 10
+      },
+      {
+        "offset": 148740,
+        "length": 14,
+        "text": "Will you sell "
+      },
+      {
+        "offset": 148741,
+        "length": 14,
+        "text": "Will you sell ",
+        "terminator": 4
+      },
+      {
+        "offset": 167245,
+        "length": 19,
+        "text": "Nil Item pointer..."
+      },
+      {
+        "offset": 167246,
+        "length": 59,
+        "text": "Nil Item pointer...&Tried to Lose item & couldn't find it!U",
+        "terminator": 137
+      },
+      {
+        "offset": 167249,
+        "length": 32,
+        "text": "Item pointer...&Tried to Lose it"
+      },
+      {
+        "offset": 167254,
+        "length": 32,
+        "text": "pointer...&Tried to Lose item & "
+      },
+      {
+        "offset": 167265,
+        "length": 38,
+        "text": "Tried to Lose item & couldn't find it!"
+      },
+      {
+        "offset": 167271,
+        "length": 32,
+        "text": "to Lose item & couldn't find it!"
+      },
+      {
+        "offset": 174363,
+        "length": 8,
+        "text": "Weapons:"
+      },
+      {
+        "offset": 174364,
+        "length": 8,
+        "text": "Weapons:",
+        "terminator": 4
+      },
+      {
+        "offset": 174372,
+        "length": 4,
+        "text": "Ammo"
+      },
+      {
+        "offset": 174373,
+        "length": 4,
+        "text": "Ammo",
+        "terminator": 7
+      }
+    ],
+    "obvious_plaintext_item_name_hits": [
+      {
+        "offset": 77512,
+        "length": 19,
+        "text": "throws a grenade..."
+      },
+      {
+        "offset": 77513,
+        "length": 19,
+        "text": "throws a grenade...",
+        "terminator": 14
+      }
+    ],
+    "verdict": "GAME.OVR contains item UI/debug fields, including namenum(1..3), but obvious item names are not present as plain ASCII/Pascal strings."
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "source": "scripts/validate_story_progression_scenes.py",
+  "summary": {
+    "scene_count": 5,
+    "passing_scene_count": 5,
+    "evidence_limit": "DOS screenshots are hashed and tied to scene families; exact prompt OCR/pixel equivalence is marked where still pending."
+  },
+  "captures": {
+    "loaded_game_world": {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/screens/z_a01_game_world.png",
+      "exists": true,
+      "width": 1280,
+      "height": 1024,
+      "sha256": "8b5e6bea3d76d3e33a454080a429f9669449d8ac95220fa9c7a6a20c4036640b"
+    },
+    "post_interaction": {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/screens/12_after_interaction.png",
+      "exists": true,
+      "width": 1280,
+      "height": 1024,
+      "sha256": "fa9cd5ff299e2eb8e1b50441f56dc27d526a4fb191a0ab71b5357f887c2e8114"
+    },
+    "combat_inputs": {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/screens/14_after_combat_inputs.png",
+      "exists": true,
+      "width": 1280,
+      "height": 1024,
+      "sha256": "ce05dfe1e7b292bb09f6121ecb712a08605424597cd21726f5e4dafe58cd43d4"
+    },
+    "search_exploration": {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/screens/f_04_after_search.png",
+      "exists": true,
+      "width": 1280,
+      "height": 1024,
+      "sha256": "6acf96cd641bdf91828793c936b6c810ef94512a44b2084f334f8dcae5cfeae1"
+    }
+  },
+  "scenes": [
+    {
+      "id": "caloris_surface_sprites",
+      "title": "Caloris floor and ceiling sprites",
+      "status": "pass",
+      "dos_capture": {
+        "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/screens/z_a01_game_world.png",
+        "exists": true,
+        "width": 1280,
+        "height": 1024,
+        "sha256": "8b5e6bea3d76d3e33a454080a429f9669449d8ac95220fa9c7a6a20c4036640b"
+      },
+      "checks": [
+        {
+          "status": "pass",
+          "note": "Caloris ceiling texture is present in runtime seed."
+        },
+        {
+          "status": "pass",
+          "note": "Caloris floor texture is present in runtime seed."
+        },
+        {
+          "status": "pass",
+          "note": "Ceiling texture PNG exists on disk."
+        },
+        {
+          "status": "pass",
+          "note": "Floor texture PNG exists on disk."
+        },
+        {
+          "status": "pass",
+          "note": "DOS liveplay capture exists for loaded game-world baseline."
+        }
+      ],
+      "limits": "Capture confirms an original-game world baseline exists; this pass does not pixel-match viewport textures to DOS."
+    },
+    {
+      "id": "caloris_romney_dialog",
+      "title": "Caloris Dr. Romney dialog choice",
+      "status": "pass",
+      "dos_capture": {
+        "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/screens/12_after_interaction.png",
+        "exists": true,
+        "width": 1280,
+        "height": 1024,
+        "sha256": "fa9cd5ff299e2eb8e1b50441f56dc27d526a4fb191a0ab71b5357f887c2e8114"
+      },
+      "checks": [
+        {
+          "status": "pass",
+          "note": "Caloris event 20 is the Dr. Romney encounter."
+        },
+        {
+          "status": "pass",
+          "note": "ECL dialog reference exposes HELP ROMNEY as an executable choice."
+        },
+        {
+          "status": "pass",
+          "note": "DOS liveplay has an interaction-stage capture available."
+        }
+      ],
+      "limits": "Runtime choice is tied to decoded ECL text/reference evidence; the current DOS capture is not OCR-confirmed for this exact text."
+    },
+    {
+      "id": "caloris_autodoc_dialog",
+      "title": "Caloris autodoc branch choice",
+      "status": "pass",
+      "dos_capture": {
+        "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/screens/12_after_interaction.png",
+        "exists": true,
+        "width": 1280,
+        "height": 1024,
+        "sha256": "fa9cd5ff299e2eb8e1b50441f56dc27d526a4fb191a0ab71b5357f887c2e8114"
+      },
+      "checks": [
+        {
+          "status": "pass",
+          "note": "Caloris event 28 is the autodoc healing prompt."
+        },
+        {
+          "status": "pass",
+          "note": "ECL dialog reference exposes SOMEONE ELSE? as an executable choice."
+        },
+        {
+          "status": "pass",
+          "note": "DOS liveplay has an interaction-stage capture available."
+        }
+      ],
+      "limits": "Runtime choice is tied to decoded ECL text/reference evidence; exact DOS prompt capture remains a later liveplay target."
+    },
+    {
+      "id": "caloris_ram_warrior_combat",
+      "title": "Caloris RAM Warrior combat progression",
+      "status": "pass",
+      "dos_capture": {
+        "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/screens/14_after_combat_inputs.png",
+        "exists": true,
+        "width": 1280,
+        "height": 1024,
+        "sha256": "ce05dfe1e7b292bb09f6121ecb712a08605424597cd21726f5e4dafe58cd43d4"
+      },
+      "checks": [
+        {
+          "status": "pass",
+          "note": "Source-runtime probe targets Caloris event 7."
+        },
+        {
+          "status": "pass",
+          "note": "Caloris event 7 is classified as combat."
+        },
+        {
+          "status": "pass",
+          "note": "Caloris event 7 queues RAM WARRIOR."
+        },
+        {
+          "status": "pass",
+          "note": "DOS liveplay has a combat-input capture available."
+        }
+      ],
+      "limits": "Combat queue is decoded locally; the DOS capture anchors combat UI availability, not a turn-by-turn equivalence check."
+    },
+    {
+      "id": "geo021_dynamic_combat",
+      "title": "GEO 021 dynamic combat branch",
+      "status": "pass",
+      "dos_capture": {
+        "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/screens/f_04_after_search.png",
+        "exists": true,
+        "width": 1280,
+        "height": 1024,
+        "sha256": "6acf96cd641bdf91828793c936b6c810ef94512a44b2084f334f8dcae5cfeae1"
+      },
+      "checks": [
+        {
+          "status": "pass",
+          "note": "GEO 021 event 4 is a combat candidate in the HTML runtime seed."
+        },
+        {
+          "status": "pass",
+          "note": "Dynamic encounter candidate table is preserved."
+        },
+        {
+          "status": "pass",
+          "note": "DOS liveplay has a search/exploration capture available."
+        }
+      ],
+      "limits": "Dynamic encounter candidates are locally decoded; exact branch selection still needs a targeted DOS route capture."
+    }
+  ]
+}

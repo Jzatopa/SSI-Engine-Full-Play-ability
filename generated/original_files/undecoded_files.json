@@ -1,0 +1,208 @@
+[
+  {
+    "file": "8X8D0.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 1,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "8X8D1.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 13,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "ADLIB.ADV",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "BACK1.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 20,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "BIGPIC1.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 6,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "BORDERS.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 1,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "BUCKA.XMI",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "BUCKB.XMI",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "BUCKC.XMI",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "CHARS.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 72,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "COMSPR.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 50,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "CPIC1.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 108,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "CURSOR.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 1,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "FATV9.AD",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "FATV9.BNK",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "FATV9.CAT",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "GAME.OVR",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "HITEK.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 1,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "ITEMS",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "LOTEK.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 1,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "MARSCOM.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 1,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 42,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "MT32MPU.ADV",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "MUSIC.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 9,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "PCSPKR.ADV",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "PIC1.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 46,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "PIC7.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 1,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "PIC8.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 1,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "SBFM.ADV",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "SEG00036.001",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "SEG00036.002",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 41,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 23,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "START.EXE",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "TANDY.ADV",
+    "status": "file-level structural evidence only",
+    "next_step": "identify format-specific parser or runtime call site before semantic decode"
+  },
+  {
+    "file": "TITLE.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 4,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  },
+  {
+    "file": "VENUSCOM.DAX",
+    "status": "structural decode only: semantic format not yet named",
+    "block_count": 1,
+    "next_step": "inspect block-specific byte layout or locate runtime references before naming fields"
+  }
+]

@@ -1,0 +1,42 @@
+vm_run_1           0x826A
+SearchLocation     0x826A
+PreCampCheck       0x826A
+CampInterrupted    0x826A
+ecl_initial_entry  0x8014
+
+0x8014 0x09 SAVE area1.event_word_3FA = 255
+
+0x801A 0x09 SAVE area1.inDungeon = 132
+
+0x8020 0x09 SAVE area1.word_156 = 1
+
+0x8026 0x09 SAVE area2.word_58C = 100
+
+0x802C 0x09 SAVE area1.word_1CE = 1
+
+0x8032 0x09 SAVE area1.word_1D0 = 1
+
+0x8038 0x09 SAVE area1.word_1D2 = 1
+
+0x803E 0x21 LOAD FILES Load GEO 64 raw=(64, 127, 255)
+
+0x8045 0x37 LOAD PIECES Load WALLDEF 127 127 7
+
+0x804C 0x09 SAVE mapPosX = 13
+
+0x8052 0x09 SAVE mapPosY = 8
+
+0x8058 0x09 SAVE mapDirection = 3
+
+0x805F 0x00 EXIT
+
+0x826B 0x00 EXIT
+
+Unknown-prefixed branch targets normalized:
+- 0x826A -> 0x826B from vm_run_1
+- 0x826A -> 0x826B from SearchLocation
+- 0x826A -> 0x826B from PreCampCheck
+- 0x826A -> 0x826B from CampInterrupted
+
+Unknown-prefixed fallthroughs normalized:
+- 0x805E -> 0x805F

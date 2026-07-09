@@ -1,0 +1,68 @@
+[state-migrations] Legacy state migration warnings:
+- Skipped Memory Core legacy memory index import for agent main because legacy rows could not be imported: Error: legacy memory meta rows conflict with canonical memory index rows
+│
+◇  Doctor warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - Skipped Memory Core legacy memory index import for agent main         │
+│    because legacy rows could not be imported: Error: legacy memory meta  │
+│    rows conflict with canonical memory index rows                        │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+model.run via local
+provider: ollama
+model: qwen3-coder:30b
+outputs: 1
+# Matrix Cubed Reconstruction: OCR/text sanity boundary
+
+## VERIFIED_FROM_PROMPT
+
+- Qwen OCR results from `generated/liveplay/screens/` are valid for menu/UI reference.
+- The capture script `scripts/capture_first_map_liveplay.py` was used across runs.
+- All `first_map_capture/*` and `first_map_fresh_capture/*` attempts produced corrupted viewport frames.
+- `s00_boot.png` and `11_first_map_world.png` are legible in menus but not game state.
+- The DOSBox-X/Xvfb capture path currently fails to produce readable first-map viewport OCR.
+
+## CANDIDATES
+
+| File | Source | Status |
+|------|--------|--------|
+| `team_00_menu.png` | `generated/liveplay/screens/` | Usable for menu text |
+| `team3_00_load_from.png` | `generated/liveplay/screens/` | Usable for load menu text |
+| `gamesave_00_full_menu.png` | `generated/liveplay/screens/` | Usable for full save/load UI |
+| `s00_boot.png` | `generated/liveplay/first_map_capture/screens/` | Usable for title/menu text only |
+| `11_first_map_world.png` | `generated/liveplay/first_map_fresh_capture_noescape/screens/` | Rejected due to corruption |
+
+## RISKS
+
+- **Corrupted viewport frames**: All `first_map_*` capture attempts show illegible memory dumps.
+- **Misleading OCR evidence**: The game state cannot be understood from corrupted screenshots.
+- **False confidence in OCR results**: Only menu/UI text is valid; any attempt to parse map state is invalid.
+
+## LOCAL_VALIDATION_STEPS
+
+1. Confirm pixelated font legibility in `screens/` files using Qwen verdicts.
+2. Validate that `first_map_capture/*` and `first_map_fresh_capture/*` screenshots show corrupted viewport output.
+3. Ensure no frame from the new capture runs contains readable first-map game state.
+4. Cross-reference Qwen OCR results with known-good menu captures.
+5. Verify that all save files copied from `first_map_capture/` were non-mutating.
+
+## UNSUPPORTED_CLAIMS
+
+- No original-game map text evidence exists in `first_map_capture/*` or `first_map_fresh_capture/*`.
+- Claims about character movement, combat, or map layout must not rely on corrupted viewport OCR.
+- The current capture pipeline is unsuitable for viewport-level OCR validation.
+- Any inference from `11_first_map_world.png` is invalid and should be treated as failure evidence.
+
+## Evidence Summary Table
+
+| Type | Status | Notes |
+|------|--------|-------|
+| Menu UI text | ✅ Usable | From `screens/` directory |
+| First-map viewport | ❌ Rejected | Corrupted, memory-dump-like output |
+| Save/load state | ✅ Usable | From `screens/` and capture manifest |
+| Combat UI | ✅ Usable | From `pygame_reference_bundle/qwen_ocr.md` |
+| Game map state | ❌ Unsupported | All attempts show corrupted frames |
+
+--- 
+
+This audit confirms that only menu/UI text from the original capture path is usable. Any inference or claims based on viewport OCR from new capture attempts must be rejected until a working capture pipeline is established.

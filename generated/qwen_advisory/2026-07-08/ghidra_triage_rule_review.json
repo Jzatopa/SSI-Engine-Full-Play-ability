@@ -1,0 +1,9 @@
+{
+  "job": "ghidra_triage_rule_review",
+  "model": "ollama/qwen3-coder:30b",
+  "started": "2026-07-08T16:56:12",
+  "finished": "2026-07-08T16:57:05",
+  "returncode": 0,
+  "prompt_path": "generated/qwen_advisory/2026-07-08/ghidra_triage_rule_review.prompt.txt",
+  "raw_path": "generated/qwen_advisory/2026-07-08/ghidra_triage_rule_review.raw.txt"
+}

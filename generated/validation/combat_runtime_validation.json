@@ -1,0 +1,221 @@
+{
+  "source": "scripts/validate_combat_runtime.py",
+  "summary": {
+    "status": "pass",
+    "check_count": 5,
+    "passing_check_count": 5,
+    "boundary": "Exact queue identity is verified from decoded local runtime evidence. DOS evidence currently anchors combat scene availability and save probes, not original turn-by-turn combat equivalence."
+  },
+  "checks": [
+    {
+      "id": "exact_event",
+      "status": "pass",
+      "note": "Runtime probe targets Caloris GEO 017 event 7."
+    },
+    {
+      "id": "exact_monster",
+      "status": "pass",
+      "note": "Event 7 queues decoded monster id 52, RAM WARRIOR."
+    },
+    {
+      "id": "dos_capture",
+      "status": "pass",
+      "note": "A local DOS liveplay combat-input capture exists."
+    },
+    {
+      "id": "save_pair",
+      "status": "pass",
+      "note": "Pre/post combat save probes decode local party records."
+    },
+    {
+      "id": "runtime_simulation",
+      "status": "pass",
+      "note": "Current Python combat scaffold resolves the queued encounter deterministically."
+    }
+  ],
+  "caloris_event_7": {
+    "map_id": 17,
+    "event_id": 7,
+    "event_type": "combat",
+    "active_encounter": "GEO 017 event 7: RAM WARRIOR",
+    "monster_id": 52,
+    "monster_name": "RAM WARRIOR",
+    "address": "0x8C54",
+    "resolution": "constant",
+    "confidence": {
+      "percent": 98,
+      "basis": "Constant SETUP_MONSTER operand resolves locally to MON0CHA id 52 in the generated source-runtime probe."
+    }
+  },
+  "dos_evidence": {
+    "combat_capture": {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/screens/14_after_combat_inputs.png",
+      "exists": true,
+      "width": 1280,
+      "height": 1024,
+      "sha256": "ce05dfe1e7b292bb09f6121ecb712a08605424597cd21726f5e4dafe58cd43d4"
+    },
+    "pre_savgama": {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/pre_combat/SAVGAMA.DAT",
+      "exists": true,
+      "size": 2901,
+      "sha256": "ae0f4283336d809349e0dd08d997fd63920ae8be0e97d125eeb1da41b975f581"
+    },
+    "post_savgama": {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/post_combat/SAVGAMA.DAT",
+      "exists": true,
+      "size": 2901,
+      "sha256": "ae0f4283336d809349e0dd08d997fd63920ae8be0e97d125eeb1da41b975f581"
+    },
+    "save_compare": {
+      "pre_count": 5,
+      "post_count": 5,
+      "changed_decoded_fields": [],
+      "decoded_fields_unchanged": true
+    },
+    "confidence": {
+      "percent": 70,
+      "basis": "Local DOS screenshots and saves are hashed; this pass does not OCR combat text or decode all save-state combat flags."
+    }
+  },
+  "runtime_simulation": {
+    "status": "pass",
+    "seed": 52017,
+    "rounds": 12,
+    "victory": true,
+    "defeat": false,
+    "final_status": {
+      "phase": "combat",
+      "turn": 12,
+      "player_hp": 55,
+      "player_thac0": 17,
+      "monster_names": [
+        "RAM WARRIOR"
+      ],
+      "monster_hp": [
+        -1
+      ],
+      "alive_count": 0,
+      "log": [
+        "Combat! RAM WARRIOR",
+        "RAM WARRIOR: d20 18 vs AC 10 = HIT (3)",
+        "RAM WARRIOR: d20 19 vs AC 10 = HIT (5)",
+        "RAM WARRIOR: d20 13 vs AC 10 = HIT (3)",
+        "RAM WARRIOR: d20 15 vs AC 10 = HIT (5)",
+        "RAM WARRIOR: d20 15 vs AC 10 = HIT (3)",
+        "RAM WARRIOR: d20 18 vs AC 10 = HIT (5)",
+        "RAM WARRIOR: d20 18 vs AC 10 = HIT (3)",
+        "RAM WARRIOR: d20 9 vs AC 10 = HIT (5)",
+        "RAM WARRIOR: d20 10 vs AC 10 = HIT (3)",
+        "RAM WARRIOR: d20 6 vs AC 10 = HIT (5)",
+        "RAM WARRIOR: d20 18 vs AC 10 = HIT (3)",
+        "RAM WARRIOR: d20 20 vs AC 10 = HIT (5)",
+        "RAM WARRIOR: d20 18 vs AC 10 = HIT (3)",
+        "RAM WARRIOR: d20 9 vs AC 10 = HIT (5)",
+        "RAM WARRIOR: d20 9 vs AC 10 = HIT (3)",
+        "RAM WARRIOR: d20 2 vs AC 10 = miss",
+        "RAM WARRIOR: d20 13 vs AC 10 = HIT (3)",
+        "RAM WARRIOR: d20 5 vs AC 10 = miss",
+        "RAM WARRIOR: d20 7 vs AC 10 = HIT (3)",
+        "RAM WARRIOR: d20 16 vs AC 10 = HIT (5)",
+        "RAM WARRIOR: d20 8 vs AC 10 = HIT (3)",
+        "RAM WARRIOR: d20 7 vs AC 10 = HIT (5)",
+        "Victory! All enemies defeated.",
+        "RAM WARRIOR: d20 19 vs AC 10 = HIT (3)",
+        "RAM WARRIOR is defeated!"
+      ]
+    },
+    "rewards": {
+      "xp": 100,
+      "credits": 18,
+      "items": []
+    },
+    "queued_combat": {
+      "map_id": 17,
+      "event_id": 7,
+      "summary": "GEO 017 event 7: RAM WARRIOR",
+      "monster_names": [
+        "RAM WARRIOR"
+      ],
+      "candidate_monster_names": [],
+      "unresolved_monster_refs": [],
+      "encounters": [
+        {
+          "monster_id": 52,
+          "monster_ref": "52",
+          "monster_name": "RAM WARRIOR",
+          "address": "0x8C54",
+          "kind": "setup_monster",
+          "resolution": "constant",
+          "max_distance": "0",
+          "copies": null,
+          "pic_ref": "255",
+          "stats": {
+            "strength": 18,
+            "intelligence": 17,
+            "wisdom": 10,
+            "dexterity": 10,
+            "constitution": 10,
+            "charisma": 10,
+            "extraordinary_strength": 10
+          },
+          "candidate_resolution": null
+        }
+      ]
+    },
+    "compiled_commands": [
+      {
+        "kind": "show_text",
+        "label": "Show decoded event text",
+        "payload": {
+          "text": "'THE TELLTALE ON THE DOOR READS,' RETURN"
+        },
+        "evidence": "event_atlas text extraction"
+      },
+      {
+        "kind": "queue_combat",
+        "label": "Queue decoded encounter",
+        "payload": {
+          "encounters": [
+            {
+              "monster_id": 52,
+              "monster_ref": "52",
+              "monster_name": "RAM WARRIOR",
+              "address": "0x8C54",
+              "kind": "setup_monster",
+              "resolution": "constant",
+              "max_distance": "0",
+              "copies": null,
+              "pic_ref": "255",
+              "stats": {
+                "strength": 18,
+                "intelligence": 17,
+                "wisdom": 10,
+                "dexterity": 10,
+                "constitution": 10,
+                "charisma": 10,
+                "extraordinary_strength": 10
+              },
+              "candidate_resolution": null
+            }
+          ],
+          "monster_names": [
+            "RAM WARRIOR"
+          ],
+          "unresolved_monster_refs": [],
+          "candidate_monster_names": []
+        },
+        "evidence": "SETUP_MONSTER operands cross-referenced to MON0CHA.DAX"
+      }
+    ],
+    "confidence": {
+      "percent": 45,
+      "basis": "Deterministic smoke of current Python combat scaffold only; damage/THAC0 fields are still derived from decoded ability scores, not proven original combat formulas."
+    }
+  },
+  "next_steps": [
+    "Decode the SAVGAMA.DAT combat/session bytes around pre_combat versus post_combat saves.",
+    "Capture an OCR-readable DOS combat transcript for Caloris event 7.",
+    "Replace derived combat stats/formulas only when original combat fields or DOS turn logs validate them."
+  ]
+}

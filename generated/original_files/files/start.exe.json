@@ -1,0 +1,1213 @@
+{
+  "file": "START.EXE",
+  "kind": "DOS MZ executable",
+  "bytes": 70277,
+  "sha256": "20d039d341c9d0851fe935d4eeb4de07e255e71aeb555cdb779d2ecf7e680597",
+  "head_hex": "4d 5a 85 00 8a 00 00 00 20 00 6b 10 0f af d3 12 80 00 00 00 12 00 9b 10 1c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+  "ascii_candidates": [
+    {
+      "offset": 513,
+      "length": 28,
+      "text": "Matrix Cubed v1.0 \tPlay Demo"
+    },
+    {
+      "offset": 542,
+      "length": 17,
+      "text": "Matrix Cubed v1.0"
+    },
+    {
+      "offset": 1106,
+      "length": 4,
+      "text": "]tD1"
+    },
+    {
+      "offset": 5231,
+      "length": 4,
+      "text": "<AP1"
+    },
+    {
+      "offset": 5268,
+      "length": 8,
+      "text": "GAME.OVR"
+    },
+    {
+      "offset": 5277,
+      "length": 5,
+      "text": "*.exe"
+    },
+    {
+      "offset": 5287,
+      "length": 156,
+      "text": "A:\\'Sorry, disk A can't be write-protected.;If these are your masters, use DISKCOPY to make duplicates.4GRAPHICS ADAPTER TYPE:  [1] EGA  [2] Tandy  [3] VGA "
+    },
+    {
+      "offset": 5444,
+      "length": 27,
+      "text": "SOUND TYPE:  [1] PC speaker"
+    },
+    {
+      "offset": 5479,
+      "length": 17,
+      "text": "[2] Sound Blaster"
+    },
+    {
+      "offset": 5504,
+      "length": 9,
+      "text": "[3] Adlib"
+    },
+    {
+      "offset": 5521,
+      "length": 15,
+      "text": "[4] Roland MT32"
+    },
+    {
+      "offset": 5544,
+      "length": 14,
+      "text": "[5] Tandy 1000"
+    },
+    {
+      "offset": 5566,
+      "length": 72,
+      "text": "[6] Silent=ALTERNATE INPUT TYPE:  [1] JOYSTICK  [2] MOUSE  [3] NEITHER  "
+    },
+    {
+      "offset": 5639,
+      "length": 4,
+      "text": "SAVE"
+    },
+    {
+      "offset": 5644,
+      "length": 29,
+      "text": "PATH TO SAVE DATA (DEFAULT - "
+    },
+    {
+      "offset": 5674,
+      "length": 5,
+      "text": "):  p"
+    },
+    {
+      "offset": 5704,
+      "length": 20,
+      "text": "USING DEFAULT PATH: "
+    },
+    {
+      "offset": 5727,
+      "length": 6,
+      "text": ":\\SAVE"
+    },
+    {
+      "offset": 5734,
+      "length": 55,
+      "text": ":\\BUCK\\SAVE+PATH TO SAVE DATA FOR COUNTDOWN TO DOOMSDAY"
+    },
+    {
+      "offset": 5790,
+      "length": 97,
+      "text": "(DEFAULT - +TANDY 1000 USERS - Make sure NUMLOCK is on.)Not enough memory to run game.  You need "
+    },
+    {
+      "offset": 5888,
+      "length": 12,
+      "text": " more bytes."
+    },
+    {
+      "offset": 5901,
+      "length": 30,
+      "text": "Overlay error, program abort!U"
+    },
+    {
+      "offset": 6041,
+      "length": 6,
+      "text": ">qCCs1"
+    },
+    {
+      "offset": 6048,
+      "length": 5,
+      "text": ">qCAu"
+    },
+    {
+      "offset": 6968,
+      "length": 4,
+      "text": "B:u)"
+    },
+    {
+      "offset": 7155,
+      "length": 4,
+      "text": "B\\t("
+    },
+    {
+      "offset": 7235,
+      "length": 4,
+      "text": "CCs)"
+    },
+    {
+      "offset": 7442,
+      "length": 4,
+      "text": "B:u)"
+    },
+    {
+      "offset": 7629,
+      "length": 4,
+      "text": "B\\t("
+    },
+    {
+      "offset": 7931,
+      "length": 6,
+      "text": "<A<Eu+"
+    },
+    {
+      "offset": 7979,
+      "length": 5,
+      "text": "D<Tu/"
+    },
+    {
+      "offset": 8252,
+      "length": 5,
+      "text": "<A<Pu"
+    },
+    {
+      "offset": 8264,
+      "length": 4,
+      "text": "<<Su"
+    },
+    {
+      "offset": 8275,
+      "length": 4,
+      "text": "1<Au"
+    },
+    {
+      "offset": 8286,
+      "length": 4,
+      "text": "&<Ru"
+    },
+    {
+      "offset": 8344,
+      "length": 5,
+      "text": "<A<Ju"
+    },
+    {
+      "offset": 8459,
+      "length": 5,
+      "text": "><AFu"
+    },
+    {
+      "offset": 9816,
+      "length": 5,
+      "text": ".daxU"
+    },
+    {
+      "offset": 21337,
+      "length": 4,
+      "text": "r ;F"
+    },
+    {
+      "offset": 21994,
+      "length": 4,
+      "text": "r ;F"
+    },
+    {
+      "offset": 22684,
+      "length": 4,
+      "text": "r ;F"
+    },
+    {
+      "offset": 23653,
+      "length": 4,
+      "text": "r ;F"
+    },
+    {
+      "offset": 24584,
+      "length": 4,
+      "text": "...U"
+    },
+    {
+      "offset": 25082,
+      "length": 5,
+      "text": "8X8d1"
+    },
+    {
+      "offset": 25088,
+      "length": 5,
+      "text": ".daxU"
+    },
+    {
+      "offset": 26015,
+      "length": 4,
+      "text": "xh:F"
+    },
+    {
+      "offset": 26023,
+      "length": 4,
+      "text": "xh:F"
+    },
+    {
+      "offset": 26031,
+      "length": 4,
+      "text": "yh:F"
+    },
+    {
+      "offset": 26039,
+      "length": 4,
+      "text": "yh:F"
+    },
+    {
+      "offset": 26474,
+      "length": 4,
+      "text": "yh:F"
+    },
+    {
+      "offset": 26558,
+      "length": 4,
+      "text": "xh:F"
+    },
+    {
+      "offset": 26726,
+      "length": 4,
+      "text": "h<Hu"
+    },
+    {
+      "offset": 26737,
+      "length": 4,
+      "text": "]<Iu"
+    },
+    {
+      "offset": 26748,
+      "length": 4,
+      "text": "R<Ku"
+    },
+    {
+      "offset": 26759,
+      "length": 4,
+      "text": "G< u"
+    },
+    {
+      "offset": 26770,
+      "length": 4,
+      "text": "<<Mu"
+    },
+    {
+      "offset": 26781,
+      "length": 4,
+      "text": "1<Ou"
+    },
+    {
+      "offset": 26792,
+      "length": 4,
+      "text": "&<Pu"
+    },
+    {
+      "offset": 26842,
+      "length": 4,
+      "text": "< u_"
+    },
+    {
+      "offset": 26941,
+      "length": 8,
+      "text": "<!rg<zwc"
+    },
+    {
+      "offset": 29259,
+      "length": 22,
+      "text": "Loading...Please WaitU"
+    },
+    {
+      "offset": 29338,
+      "length": 21,
+      "text": "Saving...Please WaitU"
+    },
+    {
+      "offset": 30616,
+      "length": 4,
+      "text": "6lh3"
+    },
+    {
+      "offset": 31296,
+      "length": 8,
+      "text": "game.ovr"
+    },
+    {
+      "offset": 31305,
+      "length": 28,
+      "text": "Please insert overlay disk.U"
+    },
+    {
+      "offset": 31408,
+      "length": 6,
+      "text": ":\\*.*U"
+    },
+    {
+      "offset": 31521,
+      "length": 10,
+      "text": "\t: <ENTER>"
+    },
+    {
+      "offset": 31532,
+      "length": 14,
+      "text": "Couldn't find "
+    },
+    {
+      "offset": 31547,
+      "length": 17,
+      "text": ". Check install.U"
+    },
+    {
+      "offset": 32688,
+      "length": 4,
+      "text": "|/<~"
+    },
+    {
+      "offset": 33976,
+      "length": 11,
+      "text": "\tdebug.txtU"
+    },
+    {
+      "offset": 34886,
+      "length": 4,
+      "text": "HHP1"
+    },
+    {
+      "offset": 36040,
+      "length": 4,
+      "text": ".xmi"
+    },
+    {
+      "offset": 36045,
+      "length": 7,
+      "text": "fatv9.U"
+    },
+    {
+      "offset": 36831,
+      "length": 4,
+      "text": "Test"
+    },
+    {
+      "offset": 36943,
+      "length": 7,
+      "text": "PSQRVWU"
+    },
+    {
+      "offset": 37021,
+      "length": 5,
+      "text": "f\tr\tw"
+    },
+    {
+      "offset": 37096,
+      "length": 8,
+      "text": "]_^ZY[X."
+    },
+    {
+      "offset": 37510,
+      "length": 4,
+      "text": "f\t.;"
+    },
+    {
+      "offset": 37516,
+      "length": 4,
+      "text": "\tr\tw"
+    },
+    {
+      "offset": 37525,
+      "length": 4,
+      "text": "\ts\t."
+    },
+    {
+      "offset": 37563,
+      "length": 4,
+      "text": "\tt%."
+    },
+    {
+      "offset": 38474,
+      "length": 5,
+      "text": "Cou:&"
+    },
+    {
+      "offset": 38482,
+      "length": 5,
+      "text": "pyu2&"
+    },
+    {
+      "offset": 40177,
+      "length": 48,
+      "text": "!$'*-0369;>ACFIKNPRUWY[^`bdfgiklnpqrtuvwxyz{{|}}"
+    },
+    {
+      "offset": 40232,
+      "length": 48,
+      "text": "}}|{{zyxwvutrqpnlkigfdb`^[YWURPNKIFCA>;9630-*'$!"
+    },
+    {
+      "offset": 40467,
+      "length": 5,
+      "text": "Z}\t8%"
+    },
+    {
+      "offset": 40721,
+      "length": 4,
+      "text": "Ijy%"
+    },
+    {
+      "offset": 40792,
+      "length": 5,
+      "text": "Ge8*F"
+    },
+    {
+      "offset": 40800,
+      "length": 4,
+      "text": "yzvx"
+    },
+    {
+      "offset": 40810,
+      "length": 4,
+      "text": ")m>b"
+    },
+    {
+      "offset": 43645,
+      "length": 4,
+      "text": "Z[X."
+    },
+    {
+      "offset": 43946,
+      "length": 4,
+      "text": ";D$r"
+    },
+    {
+      "offset": 44381,
+      "length": 4,
+      "text": "PSWV"
+    },
+    {
+      "offset": 44478,
+      "length": 5,
+      "text": "^_[X]"
+    },
+    {
+      "offset": 44489,
+      "length": 4,
+      "text": "PSWV"
+    },
+    {
+      "offset": 44586,
+      "length": 5,
+      "text": "^_[X]"
+    },
+    {
+      "offset": 45461,
+      "length": 199,
+      "text": "HPush JOYSTICK #1 to the extreme upper left position and press BUTTON #1.2Couldn't read the joystick.  Aborting calibration.IPush JOYSTICK #1 to the extreme lower right position and press BUTTON #1.U"
+    },
+    {
+      "offset": 45854,
+      "length": 4,
+      "text": " Nv("
+    },
+    {
+      "offset": 46240,
+      "length": 4,
+      "text": " Nv("
+    },
+    {
+      "offset": 47289,
+      "length": 5,
+      "text": "r\t:6?"
+    },
+    {
+      "offset": 47686,
+      "length": 4,
+      "text": "tDI<"
+    },
+    {
+      "offset": 47707,
+      "length": 5,
+      "text": "tO< r"
+    },
+    {
+      "offset": 48171,
+      "length": 5,
+      "text": "tcQRW"
+    },
+    {
+      "offset": 48291,
+      "length": 4,
+      "text": "^ZY["
+    },
+    {
+      "offset": 48296,
+      "length": 7,
+      "text": "!PSQRVU"
+    },
+    {
+      "offset": 48745,
+      "length": 6,
+      "text": "<\\t(,@"
+    },
+    {
+      "offset": 49008,
+      "length": 6,
+      "text": "PATH=U"
+    },
+    {
+      "offset": 49419,
+      "length": 4,
+      "text": "=t=;"
+    },
+    {
+      "offset": 49448,
+      "length": 4,
+      "text": "=r%;"
+    },
+    {
+      "offset": 49667,
+      "length": 4,
+      "text": "!r>;"
+    },
+    {
+      "offset": 49740,
+      "length": 6,
+      "text": "PSQRVW"
+    },
+    {
+      "offset": 49811,
+      "length": 7,
+      "text": "_^ZY[X]"
+    },
+    {
+      "offset": 50013,
+      "length": 4,
+      "text": "=s73"
+    },
+    {
+      "offset": 50576,
+      "length": 7,
+      "text": "X[YZ^_]"
+    },
+    {
+      "offset": 50851,
+      "length": 4,
+      "text": "0<:r"
+    },
+    {
+      "offset": 50868,
+      "length": 30,
+      "text": "!#$456789:;<=>?uRuntime error "
+    },
+    {
+      "offset": 50899,
+      "length": 4,
+      "text": " at "
+    },
+    {
+      "offset": 50908,
+      "length": 39,
+      "text": "Portions Copyright (c) 1983,90 BorlandU"
+    },
+    {
+      "offset": 51176,
+      "length": 6,
+      "text": "=t[&;U"
+    }
+  ],
+  "pascal_candidates": [
+    {
+      "offset": 512,
+      "length": 18,
+      "text": "Matrix Cubed v1.0 "
+    },
+    {
+      "offset": 531,
+      "length": 9,
+      "text": "Play Demo"
+    },
+    {
+      "offset": 541,
+      "length": 17,
+      "text": "Matrix Cubed v1.0"
+    },
+    {
+      "offset": 5267,
+      "length": 8,
+      "text": "GAME.OVR"
+    },
+    {
+      "offset": 5276,
+      "length": 5,
+      "text": "*.exe"
+    },
+    {
+      "offset": 5288,
+      "length": 58,
+      "text": "\\'Sorry, disk A can't be write-protected.;If these are you"
+    },
+    {
+      "offset": 5290,
+      "length": 39,
+      "text": "Sorry, disk A can't be write-protected."
+    },
+    {
+      "offset": 5296,
+      "length": 44,
+      "text": " disk A can't be write-protected.;If these a"
+    },
+    {
+      "offset": 5297,
+      "length": 32,
+      "text": "disk A can't be write-protected."
+    },
+    {
+      "offset": 5302,
+      "length": 32,
+      "text": "A can't be write-protected.;If t"
+    },
+    {
+      "offset": 5304,
+      "length": 32,
+      "text": "can't be write-protected.;If the"
+    },
+    {
+      "offset": 5308,
+      "length": 39,
+      "text": "t be write-protected.;If these are your"
+    },
+    {
+      "offset": 5310,
+      "length": 32,
+      "text": "be write-protected.;If these are"
+    },
+    {
+      "offset": 5313,
+      "length": 32,
+      "text": "write-protected.;If these are yo"
+    },
+    {
+      "offset": 5319,
+      "length": 45,
+      "text": "protected.;If these are your masters, use DIS"
+    },
+    {
+      "offset": 5329,
+      "length": 46,
+      "text": ";If these are your masters, use DISKCOPY to ma"
+    },
+    {
+      "offset": 5330,
+      "length": 59,
+      "text": "If these are your masters, use DISKCOPY to make duplicates."
+    },
+    {
+      "offset": 5333,
+      "length": 32,
+      "text": "these are your masters, use DISK"
+    },
+    {
+      "offset": 5339,
+      "length": 32,
+      "text": "are your masters, use DISKCOPY t"
+    },
+    {
+      "offset": 5343,
+      "length": 32,
+      "text": "your masters, use DISKCOPY to ma"
+    },
+    {
+      "offset": 5348,
+      "length": 32,
+      "text": "masters, use DISKCOPY to make du"
+    },
+    {
+      "offset": 5356,
+      "length": 44,
+      "text": " use DISKCOPY to make duplicates.4GRAPHICS A"
+    },
+    {
+      "offset": 5357,
+      "length": 32,
+      "text": "use DISKCOPY to make duplicates."
+    },
+    {
+      "offset": 5361,
+      "length": 32,
+      "text": "DISKCOPY to make duplicates.4GRA"
+    },
+    {
+      "offset": 5370,
+      "length": 32,
+      "text": "to make duplicates.4GRAPHICS ADA"
+    },
+    {
+      "offset": 5373,
+      "length": 32,
+      "text": "make duplicates.4GRAPHICS ADAPTE"
+    },
+    {
+      "offset": 5378,
+      "length": 32,
+      "text": "duplicates.4GRAPHICS ADAPTER TYP"
+    },
+    {
+      "offset": 5389,
+      "length": 46,
+      "text": "4GRAPHICS ADAPTER TYPE:  [1] EGA  [2] Tandy  ["
+    },
+    {
+      "offset": 5390,
+      "length": 52,
+      "text": "GRAPHICS ADAPTER TYPE:  [1] EGA  [2] Tandy  [3] VGA "
+    },
+    {
+      "offset": 5399,
+      "length": 32,
+      "text": "ADAPTER TYPE:  [1] EGA  [2] Tand"
+    },
+    {
+      "offset": 5407,
+      "length": 32,
+      "text": "TYPE:  [1] EGA  [2] Tandy  [3] V"
+    },
+    {
+      "offset": 5443,
+      "length": 27,
+      "text": "SOUND TYPE:  [1] PC speaker"
+    },
+    {
+      "offset": 5567,
+      "length": 54,
+      "text": "] Silent=ALTERNATE INPUT TYPE:  [1] JOYSTICK  [2] MOUS"
+    },
+    {
+      "offset": 5569,
+      "length": 32,
+      "text": "Silent=ALTERNATE INPUT TYPE:  [1"
+    },
+    {
+      "offset": 5576,
+      "length": 61,
+      "text": "ALTERNATE INPUT TYPE:  [1] JOYSTICK  [2] MOUSE  [3] NEITHER  "
+    },
+    {
+      "offset": 5586,
+      "length": 32,
+      "text": "INPUT TYPE:  [1] JOYSTICK  [2] M"
+    },
+    {
+      "offset": 5592,
+      "length": 32,
+      "text": "TYPE:  [1] JOYSTICK  [2] MOUSE  "
+    },
+    {
+      "offset": 5598,
+      "length": 32,
+      "text": " [1] JOYSTICK  [2] MOUSE  [3] NE"
+    },
+    {
+      "offset": 5599,
+      "length": 32,
+      "text": "[1] JOYSTICK  [2] MOUSE  [3] NEI"
+    },
+    {
+      "offset": 5603,
+      "length": 32,
+      "text": "JOYSTICK  [2] MOUSE  [3] NEITHER"
+    },
+    {
+      "offset": 5638,
+      "length": 4,
+      "text": "SAVE"
+    },
+    {
+      "offset": 5643,
+      "length": 29,
+      "text": "PATH TO SAVE DATA (DEFAULT - "
+    },
+    {
+      "offset": 5703,
+      "length": 20,
+      "text": "USING DEFAULT PATH: "
+    },
+    {
+      "offset": 5726,
+      "length": 6,
+      "text": ":\\SAVE"
+    },
+    {
+      "offset": 5733,
+      "length": 11,
+      "text": ":\\BUCK\\SAVE"
+    },
+    {
+      "offset": 5745,
+      "length": 43,
+      "text": "PATH TO SAVE DATA FOR COUNTDOWN TO DOOMSDAY"
+    },
+    {
+      "offset": 5750,
+      "length": 32,
+      "text": "TO SAVE DATA FOR COUNTDOWN TO DO"
+    },
+    {
+      "offset": 5753,
+      "length": 32,
+      "text": "SAVE DATA FOR COUNTDOWN TO DOOMS"
+    },
+    {
+      "offset": 5789,
+      "length": 11,
+      "text": "(DEFAULT - "
+    },
+    {
+      "offset": 5790,
+      "length": 40,
+      "text": "DEFAULT - +TANDY 1000 USERS - Make sure "
+    },
+    {
+      "offset": 5798,
+      "length": 32,
+      "text": "- +TANDY 1000 USERS - Make sure "
+    },
+    {
+      "offset": 5799,
+      "length": 45,
+      "text": " +TANDY 1000 USERS - Make sure NUMLOCK is on."
+    },
+    {
+      "offset": 5800,
+      "length": 32,
+      "text": "+TANDY 1000 USERS - Make sure NU"
+    },
+    {
+      "offset": 5801,
+      "length": 43,
+      "text": "TANDY 1000 USERS - Make sure NUMLOCK is on."
+    },
+    {
+      "offset": 5807,
+      "length": 32,
+      "text": "1000 USERS - Make sure NUMLOCK i"
+    },
+    {
+      "offset": 5808,
+      "length": 49,
+      "text": "000 USERS - Make sure NUMLOCK is on.)Not enough m"
+    },
+    {
+      "offset": 5809,
+      "length": 48,
+      "text": "00 USERS - Make sure NUMLOCK is on.)Not enough m"
+    },
+    {
+      "offset": 5810,
+      "length": 48,
+      "text": "0 USERS - Make sure NUMLOCK is on.)Not enough me"
+    },
+    {
+      "offset": 5811,
+      "length": 48,
+      "text": " USERS - Make sure NUMLOCK is on.)Not enough mem"
+    },
+    {
+      "offset": 5812,
+      "length": 32,
+      "text": "USERS - Make sure NUMLOCK is on."
+    },
+    {
+      "offset": 5818,
+      "length": 32,
+      "text": "- Make sure NUMLOCK is on.)Not e"
+    },
+    {
+      "offset": 5819,
+      "length": 45,
+      "text": " Make sure NUMLOCK is on.)Not enough memory t"
+    },
+    {
+      "offset": 5820,
+      "length": 32,
+      "text": "Make sure NUMLOCK is on.)Not eno"
+    },
+    {
+      "offset": 5825,
+      "length": 32,
+      "text": "sure NUMLOCK is on.)Not enough m"
+    },
+    {
+      "offset": 5830,
+      "length": 32,
+      "text": "NUMLOCK is on.)Not enough memory"
+    },
+    {
+      "offset": 5838,
+      "length": 32,
+      "text": "is on.)Not enough memory to run "
+    },
+    {
+      "offset": 5841,
+      "length": 32,
+      "text": "on.)Not enough memory to run gam"
+    },
+    {
+      "offset": 5845,
+      "length": 41,
+      "text": "Not enough memory to run game.  You need "
+    },
+    {
+      "offset": 5849,
+      "length": 32,
+      "text": "enough memory to run game.  You "
+    },
+    {
+      "offset": 5887,
+      "length": 12,
+      "text": " more bytes."
+    },
+    {
+      "offset": 5900,
+      "length": 29,
+      "text": "Overlay error, program abort!"
+    },
+    {
+      "offset": 9815,
+      "length": 4,
+      "text": ".dax"
+    },
+    {
+      "offset": 25087,
+      "length": 4,
+      "text": ".dax"
+    },
+    {
+      "offset": 29258,
+      "length": 21,
+      "text": "Loading...Please Wait"
+    },
+    {
+      "offset": 29337,
+      "length": 20,
+      "text": "Saving...Please Wait"
+    },
+    {
+      "offset": 31295,
+      "length": 8,
+      "text": "game.ovr"
+    },
+    {
+      "offset": 31304,
+      "length": 27,
+      "text": "Please insert overlay disk."
+    },
+    {
+      "offset": 31521,
+      "length": 9,
+      "text": ": <ENTER>"
+    },
+    {
+      "offset": 31531,
+      "length": 14,
+      "text": "Couldn't find "
+    },
+    {
+      "offset": 31546,
+      "length": 16,
+      "text": ". Check install."
+    },
+    {
+      "offset": 33976,
+      "length": 9,
+      "text": "debug.txt"
+    },
+    {
+      "offset": 36039,
+      "length": 4,
+      "text": ".xmi"
+    },
+    {
+      "offset": 36044,
+      "length": 6,
+      "text": "fatv9."
+    },
+    {
+      "offset": 37095,
+      "length": 7,
+      "text": "]_^ZY[X"
+    },
+    {
+      "offset": 38481,
+      "length": 4,
+      "text": "pyu2"
+    },
+    {
+      "offset": 40176,
+      "length": 30,
+      "text": "!$'*-0369;>ACFIKNPRUWY[^`bdfgi"
+    },
+    {
+      "offset": 40177,
+      "length": 33,
+      "text": "$'*-0369;>ACFIKNPRUWY[^`bdfgiklnp"
+    },
+    {
+      "offset": 40178,
+      "length": 36,
+      "text": "'*-0369;>ACFIKNPRUWY[^`bdfgiklnpqrtu"
+    },
+    {
+      "offset": 40179,
+      "length": 39,
+      "text": "*-0369;>ACFIKNPRUWY[^`bdfgiklnpqrtuvwxy"
+    },
+    {
+      "offset": 40180,
+      "length": 42,
+      "text": "-0369;>ACFIKNPRUWY[^`bdfgiklnpqrtuvwxyz{{|"
+    },
+    {
+      "offset": 45466,
+      "length": 32,
+      "text": "JOYSTICK #1 to the extreme upper"
+    },
+    {
+      "offset": 45475,
+      "length": 32,
+      "text": "#1 to the extreme upper left pos"
+    },
+    {
+      "offset": 45476,
+      "length": 35,
+      "text": "1 to the extreme upper left positio"
+    },
+    {
+      "offset": 45477,
+      "length": 49,
+      "text": " to the extreme upper left position and press BUT"
+    },
+    {
+      "offset": 45478,
+      "length": 32,
+      "text": "to the extreme upper left positi"
+    },
+    {
+      "offset": 45481,
+      "length": 32,
+      "text": "the extreme upper left position "
+    },
+    {
+      "offset": 45485,
+      "length": 32,
+      "text": "extreme upper left position and "
+    },
+    {
+      "offset": 45493,
+      "length": 32,
+      "text": "upper left position and press BU"
+    },
+    {
+      "offset": 45499,
+      "length": 32,
+      "text": "left position and press BUTTON #"
+    },
+    {
+      "offset": 45504,
+      "length": 32,
+      "text": "position and press BUTTON #1.2Co"
+    },
+    {
+      "offset": 45513,
+      "length": 32,
+      "text": "and press BUTTON #1.2Couldn't re"
+    },
+    {
+      "offset": 45517,
+      "length": 32,
+      "text": "press BUTTON #1.2Couldn't read t"
+    },
+    {
+      "offset": 45523,
+      "length": 32,
+      "text": "BUTTON #1.2Couldn't read the joy"
+    },
+    {
+      "offset": 45530,
+      "length": 32,
+      "text": "#1.2Couldn't read the joystick. "
+    },
+    {
+      "offset": 45531,
+      "length": 35,
+      "text": "1.2Couldn't read the joystick.  Abo"
+    },
+    {
+      "offset": 45532,
+      "length": 49,
+      "text": ".2Couldn't read the joystick.  Aborting calibrati"
+    },
+    {
+      "offset": 45533,
+      "length": 46,
+      "text": "2Couldn't read the joystick.  Aborting calibra"
+    },
+    {
+      "offset": 45534,
+      "length": 50,
+      "text": "Couldn't read the joystick.  Aborting calibration."
+    },
+    {
+      "offset": 45541,
+      "length": 39,
+      "text": "t read the joystick.  Aborting calibrat"
+    },
+    {
+      "offset": 45543,
+      "length": 32,
+      "text": "read the joystick.  Aborting cal"
+    },
+    {
+      "offset": 45548,
+      "length": 32,
+      "text": "the joystick.  Aborting calibrat"
+    },
+    {
+      "offset": 45552,
+      "length": 32,
+      "text": "joystick.  Aborting calibration."
+    },
+    {
+      "offset": 45561,
+      "length": 46,
+      "text": "  Aborting calibration.IPush JOYSTICK #1 to th"
+    },
+    {
+      "offset": 45562,
+      "length": 32,
+      "text": " Aborting calibration.IPush JOYS"
+    },
+    {
+      "offset": 45563,
+      "length": 32,
+      "text": "Aborting calibration.IPush JOYST"
+    },
+    {
+      "offset": 45572,
+      "length": 32,
+      "text": "calibration.IPush JOYSTICK #1 to"
+    },
+    {
+      "offset": 45584,
+      "length": 46,
+      "text": "IPush JOYSTICK #1 to the extreme lower right p"
+    },
+    {
+      "offset": 45590,
+      "length": 32,
+      "text": "JOYSTICK #1 to the extreme lower"
+    },
+    {
+      "offset": 45599,
+      "length": 32,
+      "text": "#1 to the extreme lower right po"
+    },
+    {
+      "offset": 45600,
+      "length": 35,
+      "text": "1 to the extreme lower right positi"
+    }
+  ],
+  "record_hints": [],
+  "semantic_status": "file-level structural evidence only"
+}

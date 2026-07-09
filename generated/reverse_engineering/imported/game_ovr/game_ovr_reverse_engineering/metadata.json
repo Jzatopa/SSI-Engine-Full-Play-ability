@@ -1,0 +1,14 @@
+{
+  "file": "GAME.OVR",
+  "size_bytes": 212529,
+  "size_hex": "0x33e31",
+  "sha256": "d40f0309a114dbf2d9155c68404b0fb57cadb00e4841b3bfc335075a72296f67",
+  "magic_first_16": "46 42 4f 56 29 3e 03 00 1c 57 41 52 4e 49 4e 47",
+  "ascii_first_16": "FBOV)>...WARNING",
+  "fbov_magic": true,
+  "fbov_declared_size_le_dword_at_0x04": 212521,
+  "bytes_after_8_byte_fbov_header": 212521,
+  "entropy_min_4k": 6.141923309174819,
+  "entropy_max_4k": 7.050697068380404,
+  "entropy_avg_4k": 6.577248209238791
+}

@@ -1,0 +1,72 @@
+vm_run_1           0x80C9
+SearchLocation     0x80C9
+PreCampCheck       0x80C9
+CampInterrupted    0x80C9
+ecl_initial_entry  0x8014
+
+0x8014 0x03 COMPARE Values: area1.event_word_258 == 1
+
+0x801A 0x16 IF = <if compare flag is false, skip next op>
+0x801B 0x09 SAVE area1.event_word_258 = 0
+
+0x8021 0x16 IF = <if compare flag is false, skip next op>
+0x8022 0x01 GOTO 0x80C9
+
+0x8026 0x12 PRINTCLEAR 'DO YOU WANT TO START FROM SCRATCH OR USE THE JUMPER?'
+
+0x8050 0x2B HORIZONTAL MENU area2.event_scratch0 = <selected index from menu> MENU: 'JUMPER', 'START'
+
+0x8063 0x03 COMPARE Values: area2.event_scratch0 == 1
+
+0x8069 0x16 IF = <if compare flag is false, skip next op>
+0x806A 0x09 SAVE area2.game_area = 1
+
+0x8070 0x16 IF = <if compare flag is false, skip next op>
+0x8071 0x09 SAVE area2.event_scratch1 = 19
+
+0x8077 0x16 IF = <if compare flag is false, skip next op>
+0x8078 0x01 GOTO 0x835A
+
+0x807C 0x09 SAVE area1.word_1CE = 1
+
+0x8082 0x09 SAVE area1.word_1D0 = 1
+
+0x8088 0x09 SAVE area1.word_1D2 = 1
+
+0x808E 0x21 LOAD FILES Load GEO 1 raw=(1, 127, 255)
+
+0x8095 0x37 LOAD PIECES Load WALLDEF 127 127 7
+
+0x809C 0x09 SAVE area1.game_speed = 4
+
+0x80A2 0x09 SAVE area1.event_word_3FA = 255
+
+0x80A8 0x09 SAVE area1.indoor_sky_colour = 12
+
+0x80AE 0x09 SAVE mapPosX = 9
+
+0x80B4 0x09 SAVE mapPosY = 4
+
+0x80BA 0x09 SAVE mapDirection = 3
+
+0x80C0 0x3D CLEAR BOX
+0x80C1 0x2D CALL raw: 0x2DCB, id: 0xADCC
+
+0x80C5 0x01 GOTO 0x80C9
+
+0x80CA 0x00 EXIT
+
+0x835A 0x09 SAVE area1.event_word_258 = 0
+
+0x8360 0x09 SAVE area1.event_word_25A = 0
+
+0x8366 0x09 SAVE area1.event_word_25C = 0
+
+0x836C 0x20 NEWECL <load ECL area2.event_scratch1 and exit>
+
+Unknown-prefixed branch targets normalized:
+- 0x80C9 -> 0x80CA from vm_run_1
+- 0x80C9 -> 0x80CA from SearchLocation
+- 0x80C9 -> 0x80CA from PreCampCheck
+- 0x80C9 -> 0x80CA from CampInterrupted
+- 0x80C9 -> 0x80CA from GOTO

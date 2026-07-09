@@ -1,0 +1,138 @@
+[
+  {
+    "block_id": 34,
+    "address": 41277,
+    "address_hex": "0xA13D",
+    "opcode": "0x23",
+    "current_listing_label": "SURPRISE",
+    "matrix_candidate_label": "SKILL_CHECK",
+    "operand_count": 4,
+    "operands": [
+      "area2.event_scratch1",
+      "area2.event_scratch2",
+      "area2.event_scratch3",
+      "area2.word_002"
+    ],
+    "first_operand_kind": "variable",
+    "candidate_skill_id": null,
+    "candidate_skill_name": null,
+    "candidate_who_offset": null,
+    "result_operand": "area2.word_002",
+    "branch_region_target": "0xA131",
+    "branch_region_incoming": [
+      "0x84B1 GOSUB 0xA131"
+    ],
+    "nearest_previous_who": null,
+    "previous_rows": [
+      "0x9FC6 0x2F AND area2.event_scratch0 = 32 & area1.event_word_2CA",
+      "0x9FCF 0x17 IF <> <if compare flag is false, skip next op>",
+      "0x9FD0 0x01 GOTO 0x85F6",
+      "0x9FD4 0x30 OR area1.event_word_2CA = 32 | area1.event_word_2CA",
+      "0x9FDD 0x0C SETUP MONSTER sprite_id: 50 max_distance: 2 pic_id: 255",
+      "0x9FE4 0x00 EXIT",
+      "0xA131 0x09 SAVE area2.event_scratch2 = 1",
+      "0xA137 0x09 SAVE area2.event_scratch3 = 0"
+    ],
+    "following_rows": [
+      "0xA14B 0x00 EXIT",
+      "0xA158 0x03 COMPARE Values: 0 == 0",
+      "0xA15D 0x13 RETURN",
+      "0xA15E 0x12 PRINTCLEAR 'AN EXHIBIT OF A '",
+      "0xA16D 0x13 RETURN",
+      "0xA16E 0x12 PRINTCLEAR 'A DISPLAY FEATURING THE '",
+      "0xA183 0x13 RETURN",
+      "0xA184 0x09 SAVE area2.event_scratch2 = 1"
+    ],
+    "evidence_limit": "Opcode 0x23 is treated as a Matrix SKILL_CHECK candidate from the stub audit, but operand roles and success rules require local VM/DOS validation."
+  },
+  {
+    "block_id": 95,
+    "address": 38661,
+    "address_hex": "0x9705",
+    "opcode": "0x23",
+    "current_listing_label": "SURPRISE",
+    "matrix_candidate_label": "SKILL_CHECK",
+    "operand_count": 4,
+    "operands": [
+      "79",
+      "area2.event_scratch0",
+      "area2.event_scratch1",
+      "scratch.word_0002"
+    ],
+    "first_operand_kind": "constant",
+    "candidate_skill_id": 79,
+    "candidate_skill_name": "Etiquette",
+    "candidate_who_offset": 155,
+    "result_operand": "scratch.word_0002",
+    "branch_region_target": "0x96F9",
+    "branch_region_incoming": [
+      "0x87CE GOSUB 0x96F9"
+    ],
+    "nearest_previous_who": null,
+    "previous_rows": [
+      "0x8ED8 0x12 PRINTCLEAR 'YOU ARE IN THE MAIN PORT AREA.'",
+      "0x8EF2 0x33 PRINT RETURN",
+      "0x8EF3 0x33 PRINT RETURN",
+      "0x8EF4 0x31 SPRITE OFF",
+      "0x8EF5 0x01 GOTO 0x004C",
+      "0x96F5 0x01 GOTO 0x8D0E",
+      "0x96F9 0x08 RANDOM area2.event_scratch1 = random 1..4",
+      "0x96FF 0x09 SAVE area2.event_scratch0 = 1"
+    ],
+    "following_rows": [
+      "0x9712 0x00 EXIT",
+      "0x9789 0x08 RANDOM area2.event_scratch0 = random 1..99",
+      "0x978F 0x03 COMPARE Values: 25 == area2.event_scratch0",
+      "0x9795 0x19 IF > <if compare flag is false, skip next op>",
+      "0x9796 0x13 RETURN",
+      "0x9797 0x03 COMPARE Values: 0 == 0",
+      "0x979C 0x13 RETURN"
+    ],
+    "evidence_limit": "Opcode 0x23 is treated as a Matrix SKILL_CHECK candidate from the stub audit, but operand roles and success rules require local VM/DOS validation."
+  },
+  {
+    "block_id": 98,
+    "address": 41500,
+    "address_hex": "0xA21C",
+    "opcode": "0x23",
+    "current_listing_label": "SURPRISE",
+    "matrix_candidate_label": "SKILL_CHECK",
+    "operand_count": 3,
+    "operands": [
+      "area2.event_scratch1",
+      "area2.event_scratch2",
+      "area2.event_scratch3"
+    ],
+    "first_operand_kind": "variable",
+    "candidate_skill_id": null,
+    "candidate_skill_name": null,
+    "candidate_who_offset": null,
+    "result_operand": "area2.event_scratch3",
+    "branch_region_target": "0xA202",
+    "branch_region_incoming": [
+      "0xA1ED GOTO 0xA202"
+    ],
+    "nearest_previous_who": null,
+    "previous_rows": [
+      "0xA1FD 0x16 IF = <if compare flag is false, skip next op>",
+      "0xA1FE 0x01 GOTO 0xA1AF",
+      "0xA202 0x09 SAVE area2.event_scratch2 = 1",
+      "0xA208 0x03 COMPARE Values: 9 == area2.event_scratch1",
+      "0xA20E 0x16 IF = <if compare flag is false, skip next op>",
+      "0xA20F 0x09 SAVE area2.event_scratch3 = 2",
+      "0xA215 0x17 IF <> <if compare flag is false, skip next op>",
+      "0xA216 0x09 SAVE area2.event_scratch3 = 3"
+    ],
+    "following_rows": [
+      "0xA227 0x03 COMPARE Values: 2 == area2.event_scratch3",
+      "0xA22D 0x18 IF < <if compare flag is false, skip next op>",
+      "0xA22E 0x01 GOTO 0xA25B",
+      "0xA232 0x04 ADD area1.event_word_3DE = 1 + area1.event_word_3DE",
+      "0xA23B 0x30 OR area1.event_word_244 = area2.event_scratch8 | area1.event_word_244",
+      "0xA245 0x04 ADD scratch.word_0008 = 1 + scratch.word_0008",
+      "0xA24F 0x00 EXIT",
+      "0xA25B 0x12 PRINTCLEAR 'THE DEVICE FLASHES. THEN A SHUDDER PASSES THROUGH THE SHIP AS THE FLESH SUDDENLY LIGHTS UP AND THEN GOES DEAD.'"
+    ],
+    "evidence_limit": "Opcode 0x23 is treated as a Matrix SKILL_CHECK candidate from the stub audit, but operand roles and success rules require local VM/DOS validation."
+  }
+]

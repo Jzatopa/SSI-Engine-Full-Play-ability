@@ -1,0 +1,496 @@
+{
+  "source": "scripts/capture_first_map_liveplay.py",
+  "source_game": "/home/jzatopa/Downloads/matrix-cubed-liveplay",
+  "copied_game": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/game",
+  "dosbox_conf": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/dosbox.conf",
+  "save_seed": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/pre_combat",
+  "screens": [
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/00_boot.png",
+      "exists": true,
+      "size": 18124,
+      "sha256": "999c24903d3ac8960712b045c15b2c1d5b29a9eaf6088f988221f995a9a56953",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "boot"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/01_after_escape.png",
+      "exists": true,
+      "size": 4835,
+      "sha256": "f3988a1de7d3e4bc347c8a9f28183c5bcd68a21cab123051f6bad672e0cb193b",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 5,
+      "label": "after_escape"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/02_after_title_sequence.png",
+      "exists": true,
+      "size": 17347,
+      "sha256": "44942264133bce0afa29c27453dcec3797ee1d1aa5da374a8a49f2e2996c51ae",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "after_title_sequence"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/03_load_saved_game_menu.png",
+      "exists": true,
+      "size": 17347,
+      "sha256": "44942264133bce0afa29c27453dcec3797ee1d1aa5da374a8a49f2e2996c51ae",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "load_saved_game_menu"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/04_after_slot_a.png",
+      "exists": true,
+      "size": 15576,
+      "sha256": "f53e1ab31b47a592284b539c9eb8e060b78e014100a9f8ff628c43b149c7ca6b",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "after_slot_a"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/05_after_load_confirm.png",
+      "exists": true,
+      "size": 18873,
+      "sha256": "08ba6e7c0e06dc2038c3dfaa14e2ca177f36e65875aab77d6db12098f2ec40fb",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "after_load_confirm"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/06_first_map_world.png",
+      "exists": true,
+      "size": 19475,
+      "sha256": "7539a5bd12ade674d691186f936ad002932872f27ce632ca9279702104cd0688",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "first_map_world"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/07_search.png",
+      "exists": true,
+      "size": 18860,
+      "sha256": "92e5be8a12521a05770533f6f9d263f049d9e5ab7510409d22809139ea76df80",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "search"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/08_inspect_space.png",
+      "exists": true,
+      "size": 18890,
+      "sha256": "bd0eeb96dfdad4c51abcaf8a52e08dcc2557ef1842dde67c4848842ccb0746fb",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "inspect_space"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/09_step_forward_1.png",
+      "exists": true,
+      "size": 19596,
+      "sha256": "40b2f785103e2151357bd3c2dfdfbf0f8771a18c3a8fd402ae64ec44d146ef89",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 11,
+      "label": "step_forward_1"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/10_step_forward_2.png",
+      "exists": true,
+      "size": 19355,
+      "sha256": "07326d02b79d7050fae2e870c353c089d6e87b77feaa61ee701cfe436c6ada17",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "step_forward_2"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/11_turn_right.png",
+      "exists": true,
+      "size": 19859,
+      "sha256": "1156499ccb533d584d8d066a952279317df7a252f69905b86ad8142eb117ef2a",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "turn_right"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/12_step_after_turn.png",
+      "exists": true,
+      "size": 19104,
+      "sha256": "8e29d6b35e131f2fb30982220eebaa3cd19d18b0017ba98dad4c9290b01464cd",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "step_after_turn"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/13_search_after_walk.png",
+      "exists": true,
+      "size": 18471,
+      "sha256": "67dadd495b08048e9da81bd2d1adc27a201b485c813cbd9be4f609e4e55226d2",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 12,
+      "label": "search_after_walk"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/14_turn_left.png",
+      "exists": true,
+      "size": 19099,
+      "sha256": "88a44ee676e57d0f5a8397e6e3ead3a0629e99502161ac3b2cad3b7d3c0081df",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "turn_left"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/15_step_left_route.png",
+      "exists": true,
+      "size": 19261,
+      "sha256": "411fc8a4eba8c206d942d03c6f29442068feff18e662e8a91c1cf256440570e7",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "step_left_route"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/16_open_command_menu.png",
+      "exists": true,
+      "size": 19261,
+      "sha256": "411fc8a4eba8c206d942d03c6f29442068feff18e662e8a91c1cf256440570e7",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "open_command_menu"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/17_close_command_menu.png",
+      "exists": true,
+      "size": 19261,
+      "sha256": "411fc8a4eba8c206d942d03c6f29442068feff18e662e8a91c1cf256440570e7",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "close_command_menu"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/18_save_menu.png",
+      "exists": true,
+      "size": 19261,
+      "sha256": "411fc8a4eba8c206d942d03c6f29442068feff18e662e8a91c1cf256440570e7",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "save_menu"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/screens/19_after_save.png",
+      "exists": true,
+      "size": 18682,
+      "sha256": "2e56ed462439802a8e3d718036597191908dee83cb9175476fe8f2bdd089d671",
+      "width": 1280,
+      "height": 1024,
+      "unique_colors": 13,
+      "label": "after_save"
+    }
+  ],
+  "keys": [
+    {
+      "key": "Escape",
+      "time": 1782831135.158
+    },
+    {
+      "key": "Return",
+      "time": 1782831136.369
+    },
+    {
+      "key": "Return",
+      "time": 1782831137.453
+    },
+    {
+      "key": "Return",
+      "time": 1782831138.536
+    },
+    {
+      "key": "Return",
+      "time": 1782831139.619
+    },
+    {
+      "key": "Return",
+      "time": 1782831140.702
+    },
+    {
+      "key": "Return",
+      "time": 1782831141.785
+    },
+    {
+      "key": "Return",
+      "time": 1782831142.869
+    },
+    {
+      "key": "Return",
+      "time": 1782831143.952
+    },
+    {
+      "key": "Return",
+      "time": 1782831145.035
+    },
+    {
+      "key": "Return",
+      "time": 1782831146.118
+    },
+    {
+      "key": "Return",
+      "time": 1782831147.202
+    },
+    {
+      "key": "Return",
+      "time": 1782831148.285
+    },
+    {
+      "key": "8",
+      "time": 1782831149.498
+    },
+    {
+      "key": "A",
+      "time": 1782831151.702
+    },
+    {
+      "key": "Return",
+      "time": 1782831154.403
+    },
+    {
+      "key": "1",
+      "time": 1782831156.609
+    },
+    {
+      "key": "0",
+      "time": 1782831156.992
+    },
+    {
+      "key": "s",
+      "time": 1782831162.2
+    },
+    {
+      "key": "Return",
+      "time": 1782831163.483
+    },
+    {
+      "key": "space",
+      "time": 1782831164.889
+    },
+    {
+      "key": "Return",
+      "time": 1782831166.172
+    },
+    {
+      "key": "Up",
+      "time": 1782831167.576
+    },
+    {
+      "key": "Up",
+      "time": 1782831168.981
+    },
+    {
+      "key": "Right",
+      "time": 1782831170.388
+    },
+    {
+      "key": "Up",
+      "time": 1782831171.791
+    },
+    {
+      "key": "s",
+      "time": 1782831173.198
+    },
+    {
+      "key": "Return",
+      "time": 1782831174.481
+    },
+    {
+      "key": "Left",
+      "time": 1782831175.886
+    },
+    {
+      "key": "Up",
+      "time": 1782831177.291
+    },
+    {
+      "key": "F10",
+      "time": 1782831178.695
+    },
+    {
+      "key": "Escape",
+      "time": 1782831180.1
+    },
+    {
+      "key": "F10",
+      "time": 1782831181.505
+    },
+    {
+      "key": "s",
+      "time": 1782831183.089
+    },
+    {
+      "key": "A",
+      "time": 1782831184.794
+    },
+    {
+      "key": "Return",
+      "time": 1782831186.376
+    }
+  ],
+  "pre_saves": [
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/pre_saves/CHRDATA1.SAV",
+      "exists": true,
+      "size": 259,
+      "sha256": "bb1aeb4d213b831d2139800e2fe271757b8cbc23255c7e3c5ac54160a3e091fc"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/pre_saves/CHRDATA1.STF",
+      "exists": true,
+      "size": 124,
+      "sha256": "4c3f1fed62da30f2615539dd3c9b0f78584587e17dfc4344cd3d567d8d89bf61"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/pre_saves/GEN1.STF",
+      "exists": true,
+      "size": 124,
+      "sha256": "eb16c4b6c1276da5c0c41251cc813930a155158c8c6dd37322f15b84404defb3"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/pre_saves/GEN1.WHO",
+      "exists": true,
+      "size": 259,
+      "sha256": "5d3830697b12a7e96e3e7e20ea0f0da309a0ec5d500cd6ce1ccccb8fa4d9d013"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/pre_saves/RAC1.STF",
+      "exists": true,
+      "size": 124,
+      "sha256": "eb16c4b6c1276da5c0c41251cc813930a155158c8c6dd37322f15b84404defb3"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/pre_saves/RAC1.WHO",
+      "exists": true,
+      "size": 259,
+      "sha256": "82ae564eeccccbff527cb229a6e70c623ba9e1f31a4c375d78cb6d3e5cca9e6b"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/pre_saves/SAVGAMA.DAT",
+      "exists": true,
+      "size": 2901,
+      "sha256": "ae0f4283336d809349e0dd08d997fd63920ae8be0e97d125eeb1da41b975f581"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/pre_saves/TST1.STF",
+      "exists": true,
+      "size": 124,
+      "sha256": "eb16c4b6c1276da5c0c41251cc813930a155158c8c6dd37322f15b84404defb3"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/pre_saves/TST1.WHO",
+      "exists": true,
+      "size": 259,
+      "sha256": "388c3f43994f746228302d6f6d96416117ac85ea042598ca3c23242a5f1a7ae9"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/pre_saves/TST2.STF",
+      "exists": true,
+      "size": 124,
+      "sha256": "eb16c4b6c1276da5c0c41251cc813930a155158c8c6dd37322f15b84404defb3"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/pre_saves/TST2.WHO",
+      "exists": true,
+      "size": 259,
+      "sha256": "f3162d85a414655a95cd3b5872101159202c3a682cb25e2cf3dde04cbbe8958a"
+    }
+  ],
+  "post_saves": [
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/post_saves/CHRDATA1.SAV",
+      "exists": true,
+      "size": 259,
+      "sha256": "bb1aeb4d213b831d2139800e2fe271757b8cbc23255c7e3c5ac54160a3e091fc"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/post_saves/CHRDATA1.STF",
+      "exists": true,
+      "size": 124,
+      "sha256": "4c3f1fed62da30f2615539dd3c9b0f78584587e17dfc4344cd3d567d8d89bf61"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/post_saves/GEN1.STF",
+      "exists": true,
+      "size": 124,
+      "sha256": "eb16c4b6c1276da5c0c41251cc813930a155158c8c6dd37322f15b84404defb3"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/post_saves/GEN1.WHO",
+      "exists": true,
+      "size": 259,
+      "sha256": "5d3830697b12a7e96e3e7e20ea0f0da309a0ec5d500cd6ce1ccccb8fa4d9d013"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/post_saves/RAC1.STF",
+      "exists": true,
+      "size": 124,
+      "sha256": "eb16c4b6c1276da5c0c41251cc813930a155158c8c6dd37322f15b84404defb3"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/post_saves/RAC1.WHO",
+      "exists": true,
+      "size": 259,
+      "sha256": "82ae564eeccccbff527cb229a6e70c623ba9e1f31a4c375d78cb6d3e5cca9e6b"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/post_saves/SAVGAMA.DAT",
+      "exists": true,
+      "size": 2901,
+      "sha256": "ae0f4283336d809349e0dd08d997fd63920ae8be0e97d125eeb1da41b975f581"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/post_saves/TST1.STF",
+      "exists": true,
+      "size": 124,
+      "sha256": "eb16c4b6c1276da5c0c41251cc813930a155158c8c6dd37322f15b84404defb3"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/post_saves/TST1.WHO",
+      "exists": true,
+      "size": 259,
+      "sha256": "388c3f43994f746228302d6f6d96416117ac85ea042598ca3c23242a5f1a7ae9"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/post_saves/TST2.STF",
+      "exists": true,
+      "size": 124,
+      "sha256": "eb16c4b6c1276da5c0c41251cc813930a155158c8c6dd37322f15b84404defb3"
+    },
+    {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/first_map_capture/post_saves/TST2.WHO",
+      "exists": true,
+      "size": 259,
+      "sha256": "f3162d85a414655a95cd3b5872101159202c3a682cb25e2cf3dde04cbbe8958a"
+    }
+  ],
+  "summary": {
+    "screen_count": 20,
+    "nonblank_screen_count": 20,
+    "save_file_count": 11
+  }
+}

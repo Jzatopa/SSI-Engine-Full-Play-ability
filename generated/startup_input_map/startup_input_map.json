@@ -1,0 +1,804 @@
+{
+  "game": "Buck Rogers: Matrix Cubed",
+  "scope": "startup inputs from executable setup through Begin Adventuring",
+  "status": "string-evidence map with marked inferred transitions",
+  "entry_node": "graphics_adapter",
+  "terminal_nodes": [
+    "game_start",
+    "dos_exit"
+  ],
+  "nodes": [
+    {
+      "id": "graphics_adapter",
+      "title": "Graphics Adapter Type",
+      "kind": "setup_prompt",
+      "evidence": [
+        "START.EXE offset 5287: GRAPHICS ADAPTER TYPE: [1] EGA [2] Tandy [3] VGA"
+      ],
+      "options": [
+        {
+          "key": "1",
+          "label": "EGA",
+          "target": "sound_type"
+        },
+        {
+          "key": "2",
+          "label": "Tandy",
+          "target": "sound_type"
+        },
+        {
+          "key": "3",
+          "label": "VGA",
+          "target": "sound_type"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "sound_type",
+      "title": "Sound Type",
+      "kind": "setup_prompt",
+      "evidence": [
+        "START.EXE offsets 5444-5566: SOUND TYPE choices"
+      ],
+      "options": [
+        {
+          "key": "1",
+          "label": "PC speaker",
+          "target": "alternate_input"
+        },
+        {
+          "key": "2",
+          "label": "Sound Blaster",
+          "target": "alternate_input"
+        },
+        {
+          "key": "3",
+          "label": "Adlib",
+          "target": "alternate_input"
+        },
+        {
+          "key": "4",
+          "label": "Roland MT32",
+          "target": "alternate_input"
+        },
+        {
+          "key": "5",
+          "label": "Tandy 1000",
+          "target": "alternate_input"
+        },
+        {
+          "key": "6",
+          "label": "Silent",
+          "target": "alternate_input"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "alternate_input",
+      "title": "Alternate Input Type",
+      "kind": "setup_prompt",
+      "evidence": [
+        "START.EXE offset 5566: ALTERNATE INPUT TYPE: [1] JOYSTICK [2] MOUSE [3] NEITHER"
+      ],
+      "options": [
+        {
+          "key": "1",
+          "label": "Joystick",
+          "target": "joystick_calibration",
+          "note": "Calibration prompts follow if selected."
+        },
+        {
+          "key": "2",
+          "label": "Mouse",
+          "target": "save_path"
+        },
+        {
+          "key": "3",
+          "label": "Neither",
+          "target": "save_path"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "joystick_calibration",
+      "title": "Joystick Calibration",
+      "kind": "setup_prompt",
+      "evidence": [
+        "START.EXE offset 45461: upper-left calibration prompt",
+        "START.EXE offset 45461: lower-right calibration prompt"
+      ],
+      "options": [
+        {
+          "key": "button 1",
+          "label": "Confirm upper-left",
+          "target": "joystick_calibration_lower"
+        },
+        {
+          "key": "abort",
+          "label": "Could not read joystick",
+          "target": "alternate_input"
+        }
+      ],
+      "notes": [
+        "The exact abort/retry loop needs live DOS validation."
+      ]
+    },
+    {
+      "id": "joystick_calibration_lower",
+      "title": "Joystick Calibration Lower Right",
+      "kind": "setup_prompt",
+      "evidence": [
+        "START.EXE offset 45461: Push JOYSTICK #1 to the extreme lower right position and press BUTTON #1."
+      ],
+      "options": [
+        {
+          "key": "button 1",
+          "label": "Confirm lower-right",
+          "target": "save_path"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "save_path",
+      "title": "Save Path",
+      "kind": "setup_prompt",
+      "evidence": [
+        "START.EXE offsets 5639-5734: SAVE / PATH TO SAVE DATA / USING DEFAULT PATH / :\\SAVE",
+        "START.EXE offset 5734: :\\BUCK\\SAVE"
+      ],
+      "options": [
+        {
+          "key": "Enter",
+          "label": "Use default save path",
+          "target": "loading_overlay"
+        },
+        {
+          "key": "text",
+          "label": "Type save path",
+          "target": "loading_overlay"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "loading_overlay",
+      "title": "Loading",
+      "kind": "status",
+      "evidence": [
+        "START.EXE offset 29259: Loading...Please Wait"
+      ],
+      "options": [
+        {
+          "key": "auto",
+          "label": "Continue when overlay loads",
+          "target": "title_sequence"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "title_sequence",
+      "title": "Title And Story Sequence",
+      "kind": "presentation",
+      "evidence": [
+        "TITLE.DAX blocks 001-004",
+        "BIGPIC1.DAX blocks 112-117",
+        "START.EXE offset 60968: Press button or enter to continue"
+      ],
+      "options": [
+        {
+          "key": "Enter",
+          "label": "Advance title/story screens",
+          "target": "startup_command_menu"
+        },
+        {
+          "key": "button",
+          "label": "Advance title/story screens",
+          "target": "startup_command_menu"
+        },
+        {
+          "key": "auto",
+          "label": "Timed screens may advance without input",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": [
+        "Exact timing and skip behavior still needs live DOS capture."
+      ]
+    },
+    {
+      "id": "startup_command_menu",
+      "title": "Startup Command Menu",
+      "kind": "menu",
+      "evidence": [
+        "START.EXE offsets 59986-60298: character, load/save, begin, and exit command labels",
+        "START.EXE offset 59934: Select Exit:"
+      ],
+      "options": [
+        {
+          "key": "1",
+          "label": "Create New Character",
+          "target": "create_character"
+        },
+        {
+          "key": "2",
+          "label": "Purge Character",
+          "target": "purge_character"
+        },
+        {
+          "key": "3",
+          "label": "Modify Character",
+          "target": "modify_character"
+        },
+        {
+          "key": "4",
+          "label": "Train Character",
+          "target": "train_character"
+        },
+        {
+          "key": "5",
+          "label": "View Character",
+          "target": "view_character_pick"
+        },
+        {
+          "key": "6",
+          "label": "Add Character to Team",
+          "target": "add_character"
+        },
+        {
+          "key": "7",
+          "label": "Remove Character from Team",
+          "target": "remove_character"
+        },
+        {
+          "key": "8",
+          "label": "Load Saved Game",
+          "target": "load_saved_game"
+        },
+        {
+          "key": "9",
+          "label": "Save Current Game",
+          "target": "save_current_game"
+        },
+        {
+          "key": "10",
+          "label": "Begin Adventuring",
+          "target": "game_start"
+        },
+        {
+          "key": "11",
+          "label": "Exit to DOS",
+          "target": "exit_to_dos"
+        }
+      ],
+      "notes": [
+        "The earlier reconstruction used a compact inferred menu; this node is the stronger string-evidence map."
+      ]
+    },
+    {
+      "id": "create_character",
+      "title": "Create New Character",
+      "kind": "character_flow",
+      "evidence": [
+        "START.EXE offset 59986: Create New Character",
+        "GAME.OVR offset 99509: Pick Race",
+        "GAME.OVR offset 99531: Pick Gender",
+        "GAME.OVR offset 99543: Pick Class",
+        "GAME.OVR offset 99554: Reroll stats?",
+        "GAME.OVR offset 99569: Character name:",
+        "GAME.OVR offset 99586: Save"
+      ],
+      "options": [
+        {
+          "key": "select race",
+          "label": "Pick Race",
+          "target": "create_pick_gender"
+        },
+        {
+          "key": "Exit",
+          "label": "Abort creation",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "create_pick_gender",
+      "title": "Create Character: Pick Gender",
+      "kind": "character_flow",
+      "evidence": [
+        "GAME.OVR offset 99531: Pick Gender"
+      ],
+      "options": [
+        {
+          "key": "select gender",
+          "label": "Pick Gender",
+          "target": "create_pick_class"
+        },
+        {
+          "key": "Exit",
+          "label": "Back",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "create_pick_class",
+      "title": "Create Character: Pick Class/Career",
+      "kind": "character_flow",
+      "evidence": [
+        "GAME.OVR offset 99543: Pick Class",
+        "START.EXE offsets 61712-61760: Rocket Jock, Medic, Warrior, Engineer, Rogue",
+        "START.EXE offsets 61812-61854: Martian, Venusian, Mercurian, Tinker, Desert Runner"
+      ],
+      "options": [
+        {
+          "key": "select class",
+          "label": "Pick Class",
+          "target": "create_reroll_stats"
+        },
+        {
+          "key": "Exit",
+          "label": "Back",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "create_reroll_stats",
+      "title": "Create Character: Reroll Stats",
+      "kind": "character_flow",
+      "evidence": [
+        "GAME.OVR offset 99554: Reroll stats?"
+      ],
+      "options": [
+        {
+          "key": "Yes",
+          "label": "Reroll stats",
+          "target": "create_reroll_stats"
+        },
+        {
+          "key": "No",
+          "label": "Keep stats",
+          "target": "create_name"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "create_name",
+      "title": "Create Character: Name",
+      "kind": "character_flow",
+      "evidence": [
+        "GAME.OVR offset 99569: Character name:"
+      ],
+      "options": [
+        {
+          "key": "text",
+          "label": "Enter character name",
+          "target": "create_skills"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "create_skills",
+      "title": "Create Character: Skills",
+      "kind": "character_flow",
+      "evidence": [
+        "START.EXE offsets 62116-62242: skill category labels",
+        "GAME.OVR offsets 154711-154769: General skills, skill points, maximum per skill",
+        "GAME.OVR offsets 156204-156292: skill point and unspent-points checks"
+      ],
+      "options": [
+        {
+          "key": "Add",
+          "label": "Add skill point",
+          "target": "create_skills"
+        },
+        {
+          "key": "Subtract",
+          "label": "Subtract skill point",
+          "target": "create_skills"
+        },
+        {
+          "key": "Keep",
+          "label": "Keep skill choices",
+          "target": "create_save"
+        },
+        {
+          "key": "Exit",
+          "label": "Exit skill allocation",
+          "target": "create_save",
+          "note": "May prompt about unspent points."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "create_save",
+      "title": "Create Character: Save",
+      "kind": "character_flow",
+      "evidence": [
+        "GAME.OVR offset 99586: Save"
+      ],
+      "options": [
+        {
+          "key": "Save",
+          "label": "Save character to CHARS.DAX",
+          "target": "startup_command_menu"
+        },
+        {
+          "key": "Exit",
+          "label": "Return without saving",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "purge_character",
+      "title": "Purge Character",
+      "kind": "character_flow",
+      "evidence": [
+        "START.EXE offset 60015: Purge Character",
+        "GAME.OVR offset 129547: Lose character?",
+        "GAME.OVR offset 150247: Pick Character"
+      ],
+      "options": [
+        {
+          "key": "Select",
+          "label": "Choose character to purge",
+          "target": "purge_confirm"
+        },
+        {
+          "key": "Exit",
+          "label": "Return",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "purge_confirm",
+      "title": "Purge Character: Confirm",
+      "kind": "character_flow",
+      "evidence": [
+        "GAME.OVR offset 129547: Lose character?"
+      ],
+      "options": [
+        {
+          "key": "Yes",
+          "label": "Delete character",
+          "target": "startup_command_menu"
+        },
+        {
+          "key": "No",
+          "label": "Cancel",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "modify_character",
+      "title": "Modify Character",
+      "kind": "character_flow",
+      "evidence": [
+        "START.EXE offset 60038: Modify Character",
+        "GAME.OVR offset 102225: Modify:",
+        "GAME.OVR offset 102234: Add Subtract Keep Exit"
+      ],
+      "options": [
+        {
+          "key": "Select",
+          "label": "Choose character to modify",
+          "target": "modify_skills"
+        },
+        {
+          "key": "Exit",
+          "label": "Return",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "modify_skills",
+      "title": "Modify Character: Skills",
+      "kind": "character_flow",
+      "evidence": [
+        "GAME.OVR offset 102234: Add Subtract Keep Exit"
+      ],
+      "options": [
+        {
+          "key": "Add",
+          "label": "Add point",
+          "target": "modify_skills"
+        },
+        {
+          "key": "Subtract",
+          "label": "Subtract point",
+          "target": "modify_skills"
+        },
+        {
+          "key": "Keep",
+          "label": "Save changes",
+          "target": "startup_command_menu"
+        },
+        {
+          "key": "Exit",
+          "label": "Cancel or exit",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "train_character",
+      "title": "Train Character",
+      "kind": "character_flow",
+      "evidence": [
+        "START.EXE offset 60081: Train Character",
+        "GAME.OVR offset 109065: conscious/max-level checks",
+        "GAME.OVR offset 109186: Do you wish to train?"
+      ],
+      "options": [
+        {
+          "key": "Select",
+          "label": "Choose character to train",
+          "target": "train_confirm"
+        },
+        {
+          "key": "Exit",
+          "label": "Return",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "train_confirm",
+      "title": "Train Character: Confirm",
+      "kind": "character_flow",
+      "evidence": [
+        "GAME.OVR offset 109186: Do you wish to train?"
+      ],
+      "options": [
+        {
+          "key": "Yes",
+          "label": "Train selected character",
+          "target": "startup_command_menu"
+        },
+        {
+          "key": "No",
+          "label": "Cancel",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "view_character_pick",
+      "title": "View Character: Pick",
+      "kind": "character_flow",
+      "evidence": [
+        "START.EXE offset 60104: View Character",
+        "GAME.OVR offset 150247: Pick Character",
+        "GAME.OVR offset 150263: Select Exit"
+      ],
+      "options": [
+        {
+          "key": "Select",
+          "label": "View selected character",
+          "target": "view_character_sheet"
+        },
+        {
+          "key": "Exit",
+          "label": "Return",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "view_character_sheet",
+      "title": "View Character: Sheet",
+      "kind": "character_flow",
+      "evidence": [
+        "GAME.OVR offset 139315: name",
+        "GAME.OVR offset 139342: career",
+        "GAME.OVR offset 139446: career skills",
+        "GAME.OVR offset 143132: Skills"
+      ],
+      "options": [
+        {
+          "key": "View",
+          "label": "Cycle/details",
+          "target": "view_character_sheet"
+        },
+        {
+          "key": "Exit",
+          "label": "Return",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": [
+        "Exact sub-tabs need live capture or deeper disassembly."
+      ]
+    },
+    {
+      "id": "add_character",
+      "title": "Add Character To Team",
+      "kind": "character_flow",
+      "evidence": [
+        "START.EXE offset 60126: Add Character to Team",
+        "GAME.OVR offset 104505: Add a character:",
+        "GAME.OVR offset 104523: Add"
+      ],
+      "options": [
+        {
+          "key": "Add",
+          "label": "Add selected roster character to active team",
+          "target": "startup_command_menu"
+        },
+        {
+          "key": "Exit",
+          "label": "Return",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "remove_character",
+      "title": "Remove Character From Team",
+      "kind": "character_flow",
+      "evidence": [
+        "START.EXE offset 60156: Remove Character from Team"
+      ],
+      "options": [
+        {
+          "key": "Select",
+          "label": "Remove selected active team member",
+          "target": "startup_command_menu"
+        },
+        {
+          "key": "Exit",
+          "label": "Return",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": [
+        "Exact confirmation text is not yet identified in strings."
+      ]
+    },
+    {
+      "id": "load_saved_game",
+      "title": "Load Saved Game",
+      "kind": "save_flow",
+      "evidence": [
+        "START.EXE offset 60190: Load Saved Game",
+        "GAME.OVR offset 134527: Load Which Game:",
+        "GAME.OVR offset 127429: from saved game",
+        "GAME.OVR offset 128551: Is your save disk in drive"
+      ],
+      "options": [
+        {
+          "key": "slot/name",
+          "label": "Choose saved game",
+          "target": "startup_command_menu",
+          "note": "Loaded game returns to command/menu or map depending save state."
+        },
+        {
+          "key": "Exit",
+          "label": "Cancel",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "save_current_game",
+      "title": "Save Current Game",
+      "kind": "save_flow",
+      "evidence": [
+        "START.EXE offset 60214: Save Current Game",
+        "START.EXE offset 29338: Saving...Please Wait",
+        "GAME.OVR offset 136472: Save Which Game:",
+        "GAME.OVR offset 129678: Overwrite Rename Abort save"
+      ],
+      "options": [
+        {
+          "key": "slot/name",
+          "label": "Choose save target",
+          "target": "save_confirm"
+        },
+        {
+          "key": "Exit",
+          "label": "Cancel",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "save_confirm",
+      "title": "Save Current Game: Confirm",
+      "kind": "save_flow",
+      "evidence": [
+        "GAME.OVR offset 129678: Overwrite Rename Abort save"
+      ],
+      "options": [
+        {
+          "key": "Overwrite",
+          "label": "Overwrite existing save",
+          "target": "startup_command_menu"
+        },
+        {
+          "key": "Rename",
+          "label": "Enter new file name",
+          "target": "save_current_game"
+        },
+        {
+          "key": "Abort save",
+          "label": "Cancel",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "exit_to_dos",
+      "title": "Exit To DOS",
+      "kind": "exit_flow",
+      "evidence": [
+        "START.EXE offset 60298: Exit to DOS",
+        "GAME.OVR offset 98188: Game NOT saved. Quit anyway?"
+      ],
+      "options": [
+        {
+          "key": "Yes",
+          "label": "Quit to DOS",
+          "target": "dos_exit"
+        },
+        {
+          "key": "No",
+          "label": "Return",
+          "target": "startup_command_menu"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dos_exit",
+      "title": "DOS Exit",
+      "kind": "terminal",
+      "evidence": [
+        "Terminal state inferred from Exit to DOS."
+      ],
+      "options": [],
+      "notes": []
+    },
+    {
+      "id": "game_start",
+      "title": "Begin Adventuring / Game Starts",
+      "kind": "terminal",
+      "evidence": [
+        "START.EXE offset 60239: Begin Adventuring",
+        "GAME.OVR offset 65336: A battle begins...",
+        "Existing runtime prototype starts at GEO 017 Caloris Space Port."
+      ],
+      "options": [],
+      "notes": [
+        "This is the requested boundary: startup input mapping stops once the adventuring runtime begins."
+      ]
+    }
+  ]
+}

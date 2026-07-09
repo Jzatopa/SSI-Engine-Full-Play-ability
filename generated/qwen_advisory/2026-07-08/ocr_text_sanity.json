@@ -1,0 +1,9 @@
+{
+  "job": "ocr_text_sanity",
+  "model": "ollama/qwen3-coder:30b",
+  "started": "2026-07-08T16:53:45",
+  "finished": "2026-07-08T16:55:18",
+  "returncode": 0,
+  "prompt_path": "generated/qwen_advisory/2026-07-08/ocr_text_sanity.prompt.txt",
+  "raw_path": "generated/qwen_advisory/2026-07-08/ocr_text_sanity.raw.txt"
+}

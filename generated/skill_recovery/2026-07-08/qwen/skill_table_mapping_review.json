@@ -1,0 +1,9 @@
+{
+  "job": "skill_table_mapping_review",
+  "model": "ollama/qwen3-coder:30b",
+  "started": "2026-07-08T18:50:51",
+  "finished": "2026-07-08T18:52:28",
+  "returncode": 0,
+  "prompt_path": "generated/skill_recovery/2026-07-08/qwen/skill_table_mapping_review.prompt.txt",
+  "raw_path": "generated/skill_recovery/2026-07-08/qwen/skill_table_mapping_review.raw.txt"
+}

@@ -1,0 +1,30 @@
+/*
+ * Matrix Cubed source recovery corpus
+ * Program: GAME.OVR payload
+ * Ghidra entry: 2000:c7fa
+ * Ghidra name: FUN_2000_c7fa
+ * Linear address: 0x2C7FA
+ * Original GAME.OVR file offset: 182274
+ * Body addresses: 65
+ * Calling convention: __stdcall16far
+ * Evidence limit: Imported as raw overlay payload. Original GAME.OVR file offset is Ghidra linear + 8; relocation and overlay-manager context are not recovered.
+ */
+
+void __stdcall16far FUN_2000_c7fa(int param_1)
+
+{
+  undefined2 unaff_SS;
+  undefined2 unaff_DS;
+  
+  *(undefined1 *)0x7458 = 0;
+  *(undefined1 *)0x7483 =
+       *(undefined1 *)
+        (param_1 + (uint)*(byte *)(param_1 + (uint)*(byte *)0x7457 * 2 + -0x23e) + -0x200);
+  if (*(char *)0x7483 == '\0') {
+    *(undefined1 *)0x7483 = 0xd;
+  }
+  *(undefined1 *)(param_1 + -0x212) = 1;
+  return;
+}
+
+

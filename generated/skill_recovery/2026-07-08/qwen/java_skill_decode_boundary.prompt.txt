@@ -1,0 +1,404 @@
+Matrix Cubed skill recovery Qwen-Coder advisory job: Java implementation boundary
+
+Use only the supplied evidence. Do not invent paths, offsets, APIs, skill names,
+test results, or original-game facts.
+
+Return compact Markdown with these sections:
+VERIFIED_FROM_PROMPT, CANDIDATES, RISKS, LOCAL_VALIDATION_STEPS,
+UNSUPPORTED_CLAIMS.
+
+Treat all output as advisory. Local byte/source/test evidence decides what gets
+implemented.
+
+Goal: advise the safest Java change boundary. Should the enum include all recovered skill names? Should getSkills expose all 84 or only non-zero values? What focused tests should be added? Do not recommend combat or VM integration in this pass.
+
+Current Java evidence:
+## references/ssi-engine/src/main/java/character/buckrogers/CharacterSkillBuckRogers.java
+package character.buckrogers;
+
+import character.CharacterSkill;
+import shared.CustomGoldboxString;
+import shared.GoldboxString;
+
+public enum CharacterSkillBuckRogers implements CharacterSkill {
+	PILOT_ROCKET("PILOT ROCKET");
+
+	private final GoldboxString name;
+
+	private CharacterSkillBuckRogers(String name) {
+		this.name = new CustomGoldboxString(name);
+	}
+
+	@Override
+	public GoldboxString getName() {
+		return name;
+	}
+}
+
+
+## references/ssi-engine/src/main/java/data/character/CharacterBuckRogers.java
+package data.character;
+
+import static io.vavr.collection.Map.entry;
+
+import javax.annotation.Nonnull;
+
+import io.vavr.collection.Array;
+import io.vavr.collection.HashMap;
+import io.vavr.collection.Map;
+import io.vavr.collection.Seq;
+import java.util.List;
+
+import character.AbilityScore;
+import character.CharacterClass;
+import character.CharacterGender;
+import character.CharacterRace;
+import character.CharacterSkill;
+import character.CharacterStatus;
+import character.ClassSelection;
+import character.Item;
+import character.Money;
+import character.buckrogers.AbilityScoreBuckRogers;
+import character.buckrogers.CharacterClassBuckRogers;
+import character.buckrogers.CharacterSkillBuckRogers;
+import character.buckrogers.CharacterStatusBuckRogers;
+import character.buckrogers.MoneyBuckRogers;
+import common.ByteBufferWrapper;
+import data.ContentType;
+
+public class CharacterBuckRogers extends AbstractCharacter {
+	private Seq<Item> decodedItems = Array.empty();
+	private static final Map<AbilityScoreBuckRogers, CharacterValueType> STATS_CURRENT_MAPPING = HashMap.ofEntries( //
+		entry(AbilityScoreBuckRogers.STRENGTH, CharacterValueType.STR_CURRENT), //
+		entry(AbilityScoreBuckRogers.INTELLIGENCE, CharacterValueType.INT_CURRENT), //
+		entry(AbilityScoreBuckRogers.WISDOM, CharacterValueType.WIS_CURRENT), //
+		entry(AbilityScoreBuckRogers.DEXTERITY, CharacterValueType.DEX_CURRENT), //
+		entry(AbilityScoreBuckRogers.CONSTITUTION, CharacterValueType.CON_CURRENT), //
+		entry(AbilityScoreBuckRogers.CHARISMA, CharacterValueType.CHA_CURRENT), //
+		entry(AbilityScoreBuckRogers.TECH, CharacterValueType.TCH_CURRENT) //
+	);
+	private static final Map<AbilityScoreBuckRogers, CharacterValueType> STATS_NATURAL_MAPPING = HashMap.ofEntries( //
+		entry(AbilityScoreBuckRogers.STRENGTH, CharacterValueType.STR_NATURAL), //
+		entry(AbilityScoreBuckRogers.INTELLIGENCE, CharacterValueType.INT_NATURAL), //
+		entry(AbilityScoreBuckRogers.WISDOM, CharacterValueType.WIS_NATURAL), //
+		entry(AbilityScoreBuckRogers.DEXTERITY, CharacterValueType.DEX_NATURAL), //
+		entry(AbilityScoreBuckRogers.CONSTITUTION, CharacterValueType.CON_NATURAL), //
+		entry(AbilityScoreBuckRogers.CHARISMA, CharacterValueType.CHA_NATURAL), //
+		entry(AbilityScoreBuckRogers.TECH, CharacterValueType.TCH_NATURAL) //
+	);
+
+	public CharacterBuckRogers(@Nonnull ByteBufferWrapper data, @Nonnull ContentType type) {
+		super(data);
+	}
+
+	public CharacterBuckRogers(@Nonnull CharacterRace race, @Nonnull CharacterGender gender, @Nonnull ClassSelection classSelection) {
+		write(CharacterValueType.GENDER, gender.ordinal());
+		write(CharacterValueType.RACE, race.getValue());
+		write(CharacterValueType.CLASS, CHAR_VALUES.getClassSelections().getOrElse(classSelection, null).byteValue());
+	}
+
+	@Override
+	public CharacterGender getGender() {
+		return CharacterGender.from(read(CharacterValueType.GENDER));
+	}
+
+	@Override
+	public ClassSelection getClassSelection() {
+		return ClassSelection.of(CharacterClassBuckRogers.from(read(CharacterValueType.CLASS)));
+	}
+
+	@Override
+	public CharacterStatus getStatus() {
+		return CharacterStatusBuckRogers.from(getStatusValue());
+	}
+
+	@Override
+	public void setStatus(CharacterStatus status) {
+		CharacterStatusBuckRogers s = (CharacterStatusBuckRogers) status;
+		setStatusValue(s.ordinal(), s.ordinal());
+	}
+
+	@Override
+	public int getLevel(CharacterClass charClass) {
+		checkCharacterClass(charClass);
+		return read(CharacterValueType.LEVEL_BUCK_ROGERS);
+	}
+
+	@Override
+	public void setLevel(CharacterClass charClass, int level) {
+		checkCharacterClass(charClass);
+		write(CharacterValueType.LEVEL_BUCK_ROGERS, level);
+	}
+
+	@Override
+	public Seq<AbilityScore> getAbilityScoreTypes() {
+		return Array.of(AbilityScoreBuckRogers.values());
+	}
+
+	@Override
+	public int getCurrentStatValue(AbilityScore stat) {
+		return STATS_CURRENT_MAPPING.get((AbilityScoreBuckRogers) stat) //
+			.map(this::read) //
+			.getOrElseThrow(IllegalStateException::new);
+	}
+
+	@Override
+	public void setCurrentStatValue(AbilityScore stat, int value) {
+		STATS_CURRENT_MAPPING.get((AbilityScoreBuckRogers) stat) //
+			.peek(t -> write(t, value));
+	}
+
+	@Override
+	public int getCurrentStatExcValue(AbilityScore stat) {
+		return 0; // not used
+	}
+
+	@Override
+	public void setCurrentExcStatValue(AbilityScore stat, int value) {
+		// not used
+	}
+
+	@Override
+	public int getNaturalStatValue(AbilityScore stat) {
+		return STATS_NATURAL_MAPPING.get((AbilityScoreBuckRogers) stat) //
+			.map(this::read) //
+			.getOrElseThrow(IllegalStateException::new);
+	}
+
+	@Override
+	public void setNaturalStatValue(AbilityScore stat, int value) {
+		STATS_NATURAL_MAPPING.get((AbilityScoreBuckRogers) stat) //
+			.peek(t -> write(t, value));
+	}
+
+	@Override
+	public int getNaturalStatExcValue(AbilityScore stat) {
+		return 0; // not used
+	}
+
+	@Override
+	public void setNaturalExcStatValue(AbilityScore stat, int value) {
+		// not used
+	}
+
+	@Override
+	public Seq<Money> getMoneyTypes() {
+		return Array.of(MoneyBuckRogers.CREDITS);
+	}
+
+	@Override
+	publi
+
+[TRUNCATED at 5000 chars from /home/jzatopa/.openclaw/workspace/matrix-cubed-re/references/ssi-engine/src/main/java/data/character/CharacterBuckRogers.java]
+
+
+## references/ssi-engine/src/test/java/data/character/CharacterBuckRogersTest.java
+package data.character;
+
+import static character.buckrogers.AbilityScoreBuckRogers.CHARISMA;
+import static character.buckrogers.AbilityScoreBuckRogers.CONSTITUTION;
+import static character.buckrogers.AbilityScoreBuckRogers.DEXTERITY;
+import static character.buckrogers.AbilityScoreBuckRogers.INTELLIGENCE;
+import static character.buckrogers.AbilityScoreBuckRogers.STRENGTH;
+import static character.buckrogers.AbilityScoreBuckRogers.TECH;
+import static character.buckrogers.AbilityScoreBuckRogers.WISDOM;
+import static character.buckrogers.CharacterClassBuckRogers.ROCKETJOCK;
+import static character.CharacterGender.MALE;
+import static character.buckrogers.CharacterRaceBuckRogers.TERRAN;
+import static character.buckrogers.CharacterSkillBuckRogers.PILOT_ROCKET;
+import static character.buckrogers.MoneyBuckRogers.CREDITS;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+import common.ByteBufferWrapper;
+import data.ContentType;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class CharacterBuckRogersTest {
+	@Before
+	public void setUp() {
+		AbstractCharacter.configValues(CharacterValues.BUCK_ROGERS);
+	}
+
+	@Test
+	public void readsPythonVerifiedWhoOffsetsFromSyntheticRecord() {
+		byte[] data = new byte[259];
+		writeName(data, "TST2");
+		writeNaturalStats(data, 17, 14, 13, 14, 15, 13, 15);
+		writeCurrentStats(data, 7, 8, 9, 10, 11, 12, 13);
+		data[0x26] = (byte) MALE.getValue();
+		data[0x27] = (byte) TERRAN.getValue();
+		data[0x28] = (byte) ROCKETJOCK.ordinal();
+		data[0x29] = 7;
+		writeIntLE(data, 0x2B, 0x01020304);
+		writeIntLE(data, 0x2F, 40000);
+		data[0x38] = 24;
+		data[0x39] = (byte) 0xFF;
+		data[0x45] = 31;
+		data[0x7F] = 85;
+		data[0xE3] = 30;
+
+		CharacterBuckRogers character = character(data);
+
+		assertEquals("TST2", character.getName());
+		assertEquals(TERRAN, character.getRace());
+		assertTrue(character.getClassSelection().contains(ROCKETJOCK));
+		assertEquals(7, character.getLevel(ROCKETJOCK));
+		assertEquals(24, character.getAge());
+		assertEquals(0x01020304, character.getMoneyValue(CREDITS));
+		assertEquals(40000, character.getExperience());
+		assertEquals(31, character.getNaturalHP());
+		assertEquals(30, character.getCurrentHP());
+		assertEquals(85, character.getSkillValue(PILOT_ROCKET));
+		assertEquals(1, character.getSkills().size());
+		assertTrue(character.getSkills().contains(PILOT_ROCKET));
+
+		assertEquals(17, character.getNaturalStatValue(STRENGTH));
+		assertEquals(14, character.getNaturalStatValue(DEXTERITY));
+		assertEquals(13, character.getNaturalStatValue(CONSTITUTION));
+		assertEquals(14, character.getNaturalStatValue(INTELLIGENCE));
+		assertEquals(15, character.getNaturalStatValue(WISDOM));
+		assertEquals(13, character.getNaturalStatValue(CHARISMA));
+		assertEquals(15, character.getNaturalStatValue(TECH));
+
+		assertEquals(7, character.getCurrentStatValue(STRENGTH));
+		assertEquals(8, character.getCurrentStatValue(DEXTERITY));
+		assertEquals(9, character.getCurrentStatValue(CONSTITUTION));
+		assertEquals(10, character.getCurrentStatValue(INTELLIGENCE));
+		assertEquals(11, character.getCurrentStatValue(WISDOM));
+		assertEquals(12, character.getCurrentStatValue(CHARISMA));
+		assertEquals(13, character.getCurrentStatValue(TECH));
+
+		assertEquals(0, character.getMovementRate());
+		assertEquals(0, character.getTHACO());
+	}
+
+	@Test
+	public void readsCapturedTst2WhoRecordConsistentlyWithPythonEvidence() {
+		byte[] data = readProjectFile("generated/liveplay/first_map_capture/pre_saves/TST2.WHO");
+
+		CharacterBuckRogers character = character(data);
+
+		assertEquals("TST2", character.getName());
+		assertEquals(TERRAN, character.getRace());
+		assertTrue(character.getClassSelection().contains(ROCKETJOCK));
+		assertEquals(7, character.getLevel(ROCKETJOCK));
+		assertEquals(24, character.getAge());
+		assertEquals(1000, character.getMoneyValue(CREDITS));
+		assertEquals(40000, character.getExperience());
+		assertEquals(31, character.getNaturalHP());
+		assertEquals(31, character.getCurrentHP());
+		assertEquals(85, character.getSkillValue(PILOT_ROCKET));
+		assertEquals(17, character.getNaturalStatValue(STRENGTH));
+		assertEquals(14, character.getNaturalStatValue(DEXTERITY));
+		assertEquals(13, character.getNaturalStatValue(CONSTITUTION));
+		assertEquals(14, character.getNaturalStatValue(INTELLIGENCE));
+		assertEquals(15, character.getNaturalStatValue(WISDOM));
+		assertEquals(13, character.getNaturalStatValue(CHARISMA));
+		assertEquals(15, character.getNaturalStatValue(TECH));
+		assertEquals(17, character.getCurrentStatValue(STRENGTH));
+		assertEquals(14, character.getCurrentStatValue(DEXTERITY));
+		assertEquals(13, character.getCurrentStatValue(CONSTITUTION));
+		assertEquals(14, character.getCurrentStatValue(INTELLIGENCE));
+		assertEquals(15, character.getCurrentStatValue(WISDOM));
+		assertEquals(13, character.getCurrentStatValue(CHARISMA));
+		assertEquals(15,
+
+[TRUNCATED at 5000 chars from /home/jzatopa/.openclaw/workspace/matrix-cubed-re/references/ssi-engine/src/test/java/data/character/CharacterBuckRogersTest.java]
+
+
+Skill table:
+skill_id	who_offset	start_exe_offset	text
+0		62241	technical Skills
+1	77	62262	Repair Electrical
+2	78	62289	Repair Mechanical
+3	79	62316	Repair Nuclear Engine
+4	80	62343	Repair Life Support
+5	81	62370	Repair Rocket Hull
+6	82	62397	Jury Rig
+7	83	62415	Bypass Security
+8	84	62440	Open Lock
+9	85	62459	Commo Operation
+10	86	62484	Sensor Operation
+11	87	62510	Demolitions
+12	88	62531	Cook
+13	89	62544	First Aid
+14	90	62563	Repair Weapon
+15	91	62586	Repair Computer
+16	92	62610	Life Suspension Tech
+17	93	62637	Treat Light Wounds
+18	94	62664	Treat Serious Wounds
+19	95	62691	Treat Critical Wounds
+20	96	62718	Treat Poisoning
+21	97	62743	Treat Stun/Paralysis
+22	98	62770	Treat Disease
+23	99	62793	Diagnose
+24	100	62811	General Knowledge
+25	101	62837	Ship Lore
+26	102	62855	Composition
+27	103	62875	Mathematics
+28	104	62896	Physics
+29	105	62912	Geology
+30	106	62928	Planetology
+31	107	62949	Battle Tactics
+32	108	62973	Chemistry
+33	109	62991	Biology
+34	110	63007	Design Engineering
+35	111	63034	History
+36	112	63050	Astronomy
+37	113	63069	Botany
+38	114	63084	Literature
+39	115	63103	Economics
+40	116	63121	Metallurgy
+41	117	63140	Speak/Read Lang.
+42	118	63165	Law
+43	119	63177	Programming
+44	120	63198	Crytography
+45	121	63218	Library Search
+46	122	63242	Astrogation
+47	123	63263	Navigation
+48	124	63283	Mimic
+49	125	63297	Memorize
+50	126	63314	Disguise
+51	127	63332	Pilot Rocket
+52	128	63354	Pilot Fixed Wing
+53	129	63380	Drive Ground Car
+54	130	63406	Pilot Rotor Wing
+55	131	63432	Drive Motorcycle
+56	132	63457	Use Jetpack
+57	133	63478	Pilot Ship/Sub
+58	134	63501	Drive Hvy Grnd Vehc
+59	135	63528	Drive Jetcar
+60	136	63550	Animal Riding
+61	137	63572	Hide in Shadows
+62	138	63597	Move Silently
+63	139	63620	Pick Pockets
+64	140	63642	Acrobatics
+65	141	63662	Climb
+66	142	63677	Swimming
+67	143	63694	Maneuver in 0G
+68	144	63718	Play Instrumnt
+69	145	63741	Paint/Draw
+70	146	63760	Hypnosis
+71	147	63777	Act
+72	148	63790	Intimidate
+73	149	63810	Leadership
+74	150	63830	Befriend Animal
+75	151	63855	Animal Training
+76	152	63879	Fast Talk/Convince
+77	153	63906	Singing
+78	154	63923	Distract
+79	155	63941	Etiquette
+80	156	63960	Tracking
+81	157	63978	Shadowing
+82	158	63997	Read Lips
+83	159	64015	Notice
+84	160	64031	Planetary Survival
+

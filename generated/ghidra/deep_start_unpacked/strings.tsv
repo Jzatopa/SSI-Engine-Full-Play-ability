@@ -1,0 +1,244 @@
+address	data_type	length	text
+1cc0:01f1	string	31	!#$456789:;<=>?uRuntime error 
+1e87:068b	string	21	The team has found 
+1e87:08f4	string	12	\nspits acid
+1e87:0a23	string	33	Move Area View Look Change Save
+1e87:0a4c	string	16	Order Purge 
+1e87:0a74	string	40	%Novice Cadet Trooper Veteran Ace Exit
+1e87:0a9e	string	26	Messages Anim Level Exit
+1e87:0af5	string	15	Select Exit
+1e87:0b1d	string	15	\nPlace Exit
+1e87:0b57	string	21	Create New Character
+1e87:0b81	string	19	Purge Character
+1e87:0bab	string	17	Modify Character
+1e87:0bd5	string	15	Icon Select
+1e87:0bff	string	17	Train Character
+1e87:0c29	string	15	View Character
+1e87:0c53	string	25	Add Character to Team
+1e87:0c7d	string	27	Remove Character from Team
+1e87:0ca7	string	17	Load Saved Game
+1e87:0cd1	string	19	Save Current Game
+1e87:0cfb	string	21	Begin Adventuring
+1e87:0d25	string	27	JoyStick/Mouse Initialize
+1e87:0d4f	string	13	Exit to DOS
+1e87:1014	string	91	!Press button or enter to continue"~Press button or enter to continue\nmatrix.cfg Van Allen
+1e87:1070	string	8	Hubble
+1e87:1086	string	10	Kepler
+1e87:1091	string	8	Goddard
+1e87:109c	string	8	Adder
+1e87:10a7	string	9	Viper
+1e87:10b2	string	10	Anaconda
+1e87:10bc	string	22	\nSidewinder Boomslang
+1e87:10d3	string	9	Mohave
+1e87:10de	string	10	Sahara
+1e87:10f4	string	8	Outback
+1e87:10ff	string	9	Kalihari
+1e87:110a	string	6	Flare
+1e87:1115	string	7	Corona
+1e87:1120	string	8	Hermes
+1e87:112b	string	9	Osiris
+1e87:1136	string	10	Apollo
+1e87:1140	string	11	 Liberator
+1e87:114c	string	8	Eclipse
+1e87:1162	string	10	Gambit
+1e87:116d	string	8	Dervish
+1e87:1178	string	8	Laser
+1e87:1181	string	8	P-laser
+1e87:1193	string	8	Missile
+1e87:11f5	string	11	Sensors
+1e87:1207	string	17	Control systems
+1e87:1219	string	15	Life support
+1e87:123d	string	11	Engines
+1e87:124f	string	9	Fighter
+1e87:1260	string	12	 Asterover
+1e87:1272	string	18	\rScout cruiser
+1e87:1285	string	15	Lt freighter
+1e87:1297	string	13	Hv freighter
+1e87:12a8	string	12	\nMd cruiser
+1e87:12bb	string	13	Lt transport
+1e87:12cd	string	15	Hv transport
+1e87:12de	string	14	\nHv cruiser
+1e87:12f1	string	15	Space liner
+1e87:1303	string	9	Battler
+1e87:1321	string	7	Medic
+1e87:132d	string	11	Warrior
+1e87:1339	string	11	Engineer
+1e87:1345	string	7	Rogue
+1e87:1351	string	7	Scout
+1e87:135d	string	11	Monster
+1e87:136b	string	9	Terran
+1e87:1379	string	11	Martian
+1e87:1387	string	9	Venusian
+1e87:1394	string	12	 Mercurian
+1e87:13a3	string	9	Tinker
+1e87:13bf	string	9	lunarian
+1e87:13cc	string	12	 lowlander
+1e87:13e2	string	18	Female No status
+1e87:141d	string	7	Dying
+1e87:142a	string	10	Unconc
+1e87:1437	string	9	Fleeing
+1e87:1444	string	12	Poisoned
+1e87:1451	string	11	Comatose
+1e87:145e	string	10	Not here
+1e87:146b	string	9	Dodging
+1e87:1477	string	13	 Sprinting
+1e87:149f	string	29	Using Jetpac\rCareer Skills
+1e87:14c1	string	19	Dexterity Skills
+1e87:14d6	string	20	Constitution Skills
+1e87:14eb	string	20	Intelligence Skills
+1e87:14ff	string	17	\rWisdom Skills
+1e87:1515	string	19	Charisma Skills
+1e87:152a	string	18	technical Skills
+1e87:153f	string	21	Repair Electrical
+1e87:155a	string	18	Repair Mechanical
+1e87:1575	string	23	Repair Nuclear Engine
+1e87:1590	string	20	Repair Life Support
+1e87:15ab	string	21	Repair Rocket Hull
+1e87:15c6	string	10	Jury Rig
+1e87:15e1	string	19	Bypass Security
+1e87:15fb	string	13	 Open Lock
+1e87:1617	string	17	Commo Operation
+1e87:1632	string	18	Sensor Operation
+1e87:164d	string	15	Demolitions
+1e87:1682	string	14	 First Aid
+1e87:169d	string	15	\rRepair Weapon
+1e87:16b9	string	19	Repair Computer
+1e87:16d4	string	24	Life Suspension Tech
+1e87:16ef	string	21	Treat Light Wounds
+1e87:170a	string	22	Treat Serious Wounds
+1e87:1725	string	23	Treat Critical Wounds
+1e87:1740	string	16	Treat Poisoning
+1e87:175b	string	21	Treat Stun/Paralysis
+1e87:1775	string	15	\rTreat Disease
+1e87:1791	string	11	Diagnose
+1e87:17ac	string	20	General Knowledge
+1e87:17c6	string	14	 Ship Lore
+1e87:17e2	string	14	Composition
+1e87:17fd	string	15	Mathematics
+1e87:1818	string	8	Physics
+1e87:1833	string	9	Geology
+1e87:184e	string	14	Planetology
+1e87:1869	string	15	Battle Tactics
+1e87:1883	string	13	 Chemistry
+1e87:189f	string	9	Biology
+1e87:18ba	string	22	Design Engineering
+1e87:18d5	string	11	History
+1e87:18ef	string	13	 Astronomy
+1e87:190b	string	9	Botany
+1e87:1925	string	15	\nLiterature
+1e87:1940	string	12	 Economics
+1e87:195b	string	13	\nMetallurgy
+1e87:1977	string	17	Speak/Read Lang.
+1e87:19ad	string	15	Programming
+1e87:19c8	string	12	Crytography
+1e87:19e3	string	17	Library Search
+1e87:19fe	string	14	Astrogation
+1e87:1a18	string	12	\nNavigation
+1e87:1a34	string	8	Mimic
+1e87:1a4f	string	9	Memorize
+1e87:1a6a	string	10	Disguise
+1e87:1a85	string	15	Pilot Rocket
+1e87:1aa0	string	20	Pilot Fixed Wing
+1e87:1abb	string	17	Drive Ground Car
+1e87:1ad6	string	18	Pilot Rotor Wing
+1e87:1af1	string	19	Drive Motorcycle
+1e87:1b0c	string	12	Use Jetpack
+1e87:1b27	string	17	Pilot Ship/Sub
+1e87:1b42	string	22	Drive Hvy Grnd Vehc
+1e87:1b5d	string	15	Drive Jetcar
+1e87:1b77	string	17	\rAnimal Riding
+1e87:1b93	string	17	Hide in Shadows
+1e87:1bad	string	15	\rMove Silently
+1e87:1bc9	string	15	Pick Pockets
+1e87:1be3	string	13	\nAcrobatics
+1e87:1c1a	string	10	Swimming
+1e87:1c35	string	15	Maneuver in 0G
+1e87:1c50	string	16	Play Instrumnt
+1e87:1c6a	string	14	\nPaint/Draw
+1e87:1c86	string	10	Hypnosis
+1e87:1cbb	string	13	\nIntimidate
+1e87:1cd6	string	14	\nLeadership
+1e87:1cf2	string	18	Befriend Animal
+1e87:1d0d	string	19	Animal Training
+1e87:1d28	string	20	Fast Talk/Convince
+1e87:1d43	string	9	Singing
+1e87:1d5e	string	10	Distract
+1e87:1d78	string	12	 Etiquette
+1e87:1d94	string	12	Tracking
+1e87:1dae	string	14	 Shadowing
+1e87:1dc9	string	11	 Read Lips
+1e87:1de5	string	7	Notice
+1e87:1e00	string	20	Planetary Survival
+1e87:1e30	string	8	Nuclear
+1e87:1e45	string	7	Death
+1e87:1e5a	string	10	Martian
+1e87:1e84	string	8	Chicago
+1e87:1ead	string	11	 Wholesome
+1e87:1ec3	string	9	Space
+1e87:1ed8	string	8	Cadet
+1e87:1f17	string	9	Cutlass
+1e87:1f2c	string	8	Sword
+1e87:1f56	string	10	Needle
+1e87:1f95	string	7	Laser
+1e87:1faa	string	10	Pistol
+1e87:1fbf	string	9	Rocket
+1e87:1fd3	string	13	 Microwave
+1e87:1fe9	string	7	Rifle
+1e87:2012	string	18	\rSonic Stunner
+1e87:2028	string	8	Grenade
+1e87:2052	string	14	Plasma Thrwr
+1e87:2067	string	9	Martian
+1e87:207c	string	12	Venusian
+1e87:2090	string	12	 Mercurian
+1e87:20a6	string	10	Lunarian
+1e87:20ba	string	14	 Spacesuit
+1e87:20cf	string	13	 Smartsuit
+1e87:20e4	string	12	\nHeavy Body
+1e87:20fa	string	6	Armor
+1e87:210f	string	13	Battle armor
+1e87:2124	string	12	w/fields
+1e87:2138	string	12	 Explosive
+1e87:21a2	string	14	Aerosol Mist
+1e87:21b7	string	13	Demo Charge
+1e87:21cc	string	12	ECM package
+1e87:21e0	string	12	\nProtective
+1e87:21f6	string	10	Goggles
+1e87:220b	string	17	Breathing Mask
+1e87:2235	string	11	Jetpack
+1e87:224a	string	18	Poison Antidote
+1e87:225f	string	9	Polearm
+1e87:2288	string	12	\nBLANK ITEM
+1e87:2359	string	27	Insert disk 3 in drive 
+1e87:2377	string	25	Insert disk 2 in drive 
+1e87:2395	string	27	Insert disk 3 in drive 
+1e87:23b3	string	25	Insert disk 4 in drive 
+1e87:23d1	string	27	Insert disk 5 in drive 
+1e87:23ef	string	25	Insert disk 6 in drive 
+1e87:240d	string	27	Insert disk 7 in drive 
+1e87:2433	string	13	\nBeam laser
+1e87:2456	string	14	Pumped laser
+1e87:2477	string	13	\nGyrocannon
+1e87:2499	string	15	\rMissile mount
+1e87:24bc	string	20	Heavy missile mount
+1e87:24de	string	10	K-cannon
+1e87:2500	string	24	Light acceleration gun
+1e87:2522	string	23	Heavy acceleration gun
+1e87:2a6b	string	9	Affected
+1e87:2b6a	string	14	\nUnaffected
+1e87:2c6b	string	9	Helpless
+1e87:2c94	string	8	Scared
+1e87:2e57	string	9	Blind
+1e87:2e80	string	8	Stunned
+1e87:3194	string	132	OPQK MGHIHHHHHHHHHHHKHHHHHHHHHMKKHHHHHHHMMKKKHHHHHMMMKKKKHHHMMMMKKKKKHMMMMMKKKKPPPMMMMKKKPPPPPMMMKKPPPPPPPMMKPPPPPPPPPMPPPPPPPPPPP
+1e87:3242	string	18	will you trade? \n
+1e87:3693	string	25	In the Log Book on page
+1e87:36d7	string	9	first  
+1e87:36ea	string	10	second 
+1e87:36fd	string	11	third  
+1e87:3710	string	8	fourth 
+1e87:3749	string	11	seventh
+1e87:375c	string	8	eighth 
+1e87:376f	string	9	ninth
+1e87:3782	string	6	tenth
+1e87:3a83	string	13	 adlib.adv
+1e87:3c83	string	13	 tandy.adv

@@ -1,0 +1,26 @@
+{
+  "events_posted": [
+    "down",
+    "return",
+    "i",
+    "i",
+    "w",
+    "escape"
+  ],
+  "screenshot": "generated/runtime_validation/pygame_runner_xvfb_smoke.png",
+  "status": "exited",
+  "screenshot_exists_midrun": true,
+  "display_size": [
+    1024,
+    768
+  ],
+  "system_exit_code": null,
+  "screenshot_exists": true,
+  "screenshot_size_bytes": 9876,
+  "screenshot_dimensions": [
+    1024,
+    768
+  ],
+  "unique_colors": 208,
+  "nonblack_pixels": 662272
+}

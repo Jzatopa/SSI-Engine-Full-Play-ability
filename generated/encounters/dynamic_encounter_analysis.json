@@ -1,0 +1,788 @@
+[
+  {
+    "ecl_block": 21,
+    "map_name": "21",
+    "event_id": null,
+    "address": "0x83DE",
+    "kind": "setup_monster",
+    "monster_ref": "area2.event_scratch7",
+    "pic_ref": "255",
+    "context": "",
+    "table_refs": []
+  },
+  {
+    "ecl_block": 21,
+    "map_name": "21",
+    "event_id": 4,
+    "address": "0x863A",
+    "kind": "setup_monster",
+    "monster_ref": "area2.event_scratch7",
+    "pic_ref": "255",
+    "context": "  // 0x8503-0x850A\n  if (area1.event_word_20A == area1.event_word_20C) {\n    goto 0x8613;  // 0x850B\n    // branch body 0x8613\n    // 0x8613-0x861C\n    area2.event_scratch0 = area1.event_word_218 & 16;  // 0x8613\n    if (area2.event_scratch0 != 0) {\n      exit_event();  // 0x861D\n    }\n    or(area1.event_word_218 = area1.event_word_218 | 16);  // 0x861E\n    add(area2.event_scratch2 = 3 + area2.event_scratch8);  // 0x8627\n    gettable(area2.event_scratch7 = ecl.byte_0FCD[area2.event_scratch2]);  // 0x8630\n    setup_monster(sprite_id: area2.event_scratch7 max_distance: 0 pic_id: 255);  // 0x863A",
+    "table_refs": [
+      {
+        "dest": "area2.event_scratch7",
+        "table": "ecl.byte_0FCD",
+        "index_expression": "area2.event_scratch2",
+        "candidates": [
+          {
+            "index": 0,
+            "value": 10,
+            "hex": "0x0A",
+            "monster": "COYODORG",
+            "sentinel": false
+          },
+          {
+            "index": 1,
+            "value": 0,
+            "hex": "0x00",
+            "monster": null,
+            "sentinel": false
+          },
+          {
+            "index": 2,
+            "value": 0,
+            "hex": "0x00",
+            "monster": null,
+            "sentinel": false
+          },
+          {
+            "index": 3,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 4,
+            "value": 50,
+            "hex": "0x32",
+            "monster": "SECURITY ROBOT",
+            "sentinel": false
+          },
+          {
+            "index": 5,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 6,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 7,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 8,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 9,
+            "value": 50,
+            "hex": "0x32",
+            "monster": "SECURITY ROBOT",
+            "sentinel": false
+          },
+          {
+            "index": 10,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 11,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ecl_block": 21,
+    "map_name": "21",
+    "event_id": 4,
+    "address": "0x86EC",
+    "kind": "setup_monster",
+    "monster_ref": "area2.event_scratch7",
+    "pic_ref": "255",
+    "context": "  // 0x84F8-0x84FE\n  if (1 == area1.event_word_20C) {\n    goto 0x86C5;  // 0x84FF\n    // branch body 0x86C5\n    // 0x86C5-0x86CE\n    area2.event_scratch0 = area1.event_word_218 & 32;  // 0x86C5\n    if (area2.event_scratch0 != 0) {\n      exit_event();  // 0x86CF\n    }\n    or(area1.event_word_218 = area1.event_word_218 | 32);  // 0x86D0\n    add(area2.event_scratch2 = 4 + area2.event_scratch8);  // 0x86D9\n    gettable(area2.event_scratch7 = ecl.byte_0FCD[area2.event_scratch2]);  // 0x86E2\n    setup_monster(sprite_id: area2.event_scratch7 max_distance: 0 pic_id: 255);  // 0x86EC",
+    "table_refs": [
+      {
+        "dest": "area2.event_scratch7",
+        "table": "ecl.byte_0FCD",
+        "index_expression": "area2.event_scratch2",
+        "candidates": [
+          {
+            "index": 0,
+            "value": 10,
+            "hex": "0x0A",
+            "monster": "COYODORG",
+            "sentinel": false
+          },
+          {
+            "index": 1,
+            "value": 0,
+            "hex": "0x00",
+            "monster": null,
+            "sentinel": false
+          },
+          {
+            "index": 2,
+            "value": 0,
+            "hex": "0x00",
+            "monster": null,
+            "sentinel": false
+          },
+          {
+            "index": 3,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 4,
+            "value": 50,
+            "hex": "0x32",
+            "monster": "SECURITY ROBOT",
+            "sentinel": false
+          },
+          {
+            "index": 5,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 6,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 7,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 8,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 9,
+            "value": 50,
+            "hex": "0x32",
+            "monster": "SECURITY ROBOT",
+            "sentinel": false
+          },
+          {
+            "index": 10,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 11,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ecl_block": 21,
+    "map_name": "21",
+    "event_id": 6,
+    "address": "0x8785",
+    "kind": "setup_monster",
+    "monster_ref": "area2.event_scratch7",
+    "pic_ref": "255",
+    "context": "  // 0x8756-0x875C\n  if (3 != area1.event_word_20E) {\n    exit_event();  // 0x875D\n  }\n  // 0x875E-0x8767\n  area2.event_scratch0 = area1.event_word_218 & 64;  // 0x875E\n  if (area2.event_scratch0 != 0) {\n    exit_event();  // 0x8768\n  }\n  or(area1.event_word_218 = area1.event_word_218 | 64);  // 0x8769\n  add(area2.event_scratch2 = 1 + area2.event_scratch8);  // 0x8772\n  gettable(area2.event_scratch7 = ecl.byte_0FCD[area2.event_scratch2]);  // 0x877B\n  setup_monster(sprite_id: area2.event_scratch7 max_distance: 0 pic_id: 255);  // 0x8785",
+    "table_refs": [
+      {
+        "dest": "area2.event_scratch7",
+        "table": "ecl.byte_0FCD",
+        "index_expression": "area2.event_scratch2",
+        "candidates": [
+          {
+            "index": 0,
+            "value": 10,
+            "hex": "0x0A",
+            "monster": "COYODORG",
+            "sentinel": false
+          },
+          {
+            "index": 1,
+            "value": 0,
+            "hex": "0x00",
+            "monster": null,
+            "sentinel": false
+          },
+          {
+            "index": 2,
+            "value": 0,
+            "hex": "0x00",
+            "monster": null,
+            "sentinel": false
+          },
+          {
+            "index": 3,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 4,
+            "value": 50,
+            "hex": "0x32",
+            "monster": "SECURITY ROBOT",
+            "sentinel": false
+          },
+          {
+            "index": 5,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 6,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 7,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 8,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 9,
+            "value": 50,
+            "hex": "0x32",
+            "monster": "SECURITY ROBOT",
+            "sentinel": false
+          },
+          {
+            "index": 10,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 11,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ecl_block": 21,
+    "map_name": "21",
+    "event_id": 7,
+    "address": "0x881D",
+    "kind": "setup_monster",
+    "monster_ref": "area2.event_scratch7",
+    "pic_ref": "255",
+    "context": "- Text hint: 'A SIGN ABOVE THE DOOR READS, ' RETURN\n\n```text\nevent 07 {\n  // 0x87F2-0x87F8\n  if (3 != area1.event_word_20E) {\n    exit_event();  // 0x87F9\n  }\n  random(area2.event_scratch0 = random 1..3);  // 0x87FA\n  add(area2.event_scratch0 = 1 + area2.event_scratch0);  // 0x8800\n  add(area2.event_scratch2 = area2.event_scratch0 + area2.event_scratch8);  // 0x8809\n  gettable(area2.event_scratch7 = ecl.byte_0FCD[area2.event_scratch2]);  // 0x8813\n  setup_monster(sprite_id: area2.event_scratch7 max_distance: 0 pic_id: 255);  // 0x881D",
+    "table_refs": [
+      {
+        "dest": "area2.event_scratch7",
+        "table": "ecl.byte_0FCD",
+        "index_expression": "area2.event_scratch2",
+        "candidates": [
+          {
+            "index": 0,
+            "value": 10,
+            "hex": "0x0A",
+            "monster": "COYODORG",
+            "sentinel": false
+          },
+          {
+            "index": 1,
+            "value": 0,
+            "hex": "0x00",
+            "monster": null,
+            "sentinel": false
+          },
+          {
+            "index": 2,
+            "value": 0,
+            "hex": "0x00",
+            "monster": null,
+            "sentinel": false
+          },
+          {
+            "index": 3,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 4,
+            "value": 50,
+            "hex": "0x32",
+            "monster": "SECURITY ROBOT",
+            "sentinel": false
+          },
+          {
+            "index": 5,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 6,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 7,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 8,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 9,
+            "value": 50,
+            "hex": "0x32",
+            "monster": "SECURITY ROBOT",
+            "sentinel": false
+          },
+          {
+            "index": 10,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 11,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ecl_block": 21,
+    "map_name": "21",
+    "event_id": 9,
+    "address": "0x88E4",
+    "kind": "setup_monster",
+    "monster_ref": "area2.event_scratch7",
+    "pic_ref": "255",
+    "context": "\n- Target: `0x88C9`\n- Text hint: \"A MECHANICAL VOICE INTONES, 'CAPTAIN HAS ACTIVATED SELF-DESTRUCT FROM HIS CABIN. DETONATION IN 50.'\"\n\n```text\nevent 09 {\n  // 0x88C9-0x88CF\n  if (2 != area1.event_word_20E) {\n    exit_event();  // 0x88D0\n  }\n  add(area2.event_scratch2 = 1 + area2.event_scratch8);  // 0x88D1\n  gettable(area2.event_scratch7 = ecl.byte_0FCD[area2.event_scratch2]);  // 0x88DA\n  setup_monster(sprite_id: area2.event_scratch7 max_distance: 0 pic_id: 255);  // 0x88E4",
+    "table_refs": [
+      {
+        "dest": "area2.event_scratch7",
+        "table": "ecl.byte_0FCD",
+        "index_expression": "area2.event_scratch2",
+        "candidates": [
+          {
+            "index": 0,
+            "value": 10,
+            "hex": "0x0A",
+            "monster": "COYODORG",
+            "sentinel": false
+          },
+          {
+            "index": 1,
+            "value": 0,
+            "hex": "0x00",
+            "monster": null,
+            "sentinel": false
+          },
+          {
+            "index": 2,
+            "value": 0,
+            "hex": "0x00",
+            "monster": null,
+            "sentinel": false
+          },
+          {
+            "index": 3,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 4,
+            "value": 50,
+            "hex": "0x32",
+            "monster": "SECURITY ROBOT",
+            "sentinel": false
+          },
+          {
+            "index": 5,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 6,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 7,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 8,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 9,
+            "value": 50,
+            "hex": "0x32",
+            "monster": "SECURITY ROBOT",
+            "sentinel": false
+          },
+          {
+            "index": 10,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 11,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ecl_block": 21,
+    "map_name": "21",
+    "event_id": null,
+    "address": "0x8A09",
+    "kind": "setup_monster",
+    "monster_ref": "area2.event_scratch7",
+    "pic_ref": "255",
+    "context": "",
+    "table_refs": []
+  },
+  {
+    "ecl_block": 33,
+    "map_name": "Losangelorg Sprawls",
+    "event_id": null,
+    "address": "0x8392",
+    "kind": "setup_monster",
+    "monster_ref": "area2.event_scratch1",
+    "pic_ref": "area2.event_scratch2",
+    "context": "",
+    "table_refs": []
+  },
+  {
+    "ecl_block": 34,
+    "map_name": "Historical Museum, Levels 2-1",
+    "event_id": 1,
+    "address": "0x853F",
+    "kind": "setup_monster",
+    "monster_ref": "area2.event_scratch1",
+    "pic_ref": "area2.event_scratch2",
+    "context": "          exit_event();  // 0x8507\n        }\n        random(area2.event_scratch0 = random 1..99);  // 0x8508\n        // 0x850E-0x8514\n        if (9 > area2.event_scratch0) {\n          exit_event();  // 0x8515\n        }\n        add(area1.event_word_2BC = 1 + area1.event_word_2BC);  // 0x8516\n        area1.event_word_206 = 0;  // 0x851F\n        random(area1.event_word_21C = random 1..3);  // 0x8525\n        gettable(area2.event_scratch1 = abs_A2F0[area1.event_word_21C]);  // 0x852B\n        gettable(area2.event_scratch2 = abs_A2EC[area1.event_word_21C]);  // 0x8535\n        setup_monster(sprite_id: area2.event_scratch1 max_distance: 0 pic_id: area2.event_scratch2);  // 0x853F",
+    "table_refs": [
+      {
+        "dest": "area2.event_scratch1",
+        "table": "abs_A2F0",
+        "index_expression": "area1.event_word_21C",
+        "candidates": [
+          {
+            "index": 0,
+            "value": 255,
+            "hex": "0xFF",
+            "monster": null,
+            "sentinel": true
+          },
+          {
+            "index": 1,
+            "value": 39,
+            "hex": "0x27",
+            "monster": "LG. E.C. GENNIE",
+            "sentinel": false
+          },
+          {
+            "index": 2,
+            "value": 255,
+            "hex": "0xFF",
+            "monster": null,
+            "sentinel": true
+          },
+          {
+            "index": 3,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 4,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 5,
+            "value": 255,
+            "hex": "0xFF",
+            "monster": null,
+            "sentinel": true
+          },
+          {
+            "index": 6,
+            "value": 11,
+            "hex": "0x0B",
+            "monster": "RATWURST",
+            "sentinel": false
+          },
+          {
+            "index": 7,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 8,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 9,
+            "value": 39,
+            "hex": "0x27",
+            "monster": "LG. E.C. GENNIE",
+            "sentinel": false
+          },
+          {
+            "index": 10,
+            "value": 7,
+            "hex": "0x07",
+            "monster": "WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 11,
+            "value": 4,
+            "hex": "0x04",
+            "monster": "SID REFUGE",
+            "sentinel": false
+          }
+        ]
+      },
+      {
+        "dest": "area2.event_scratch2",
+        "table": "abs_A2EC",
+        "index_expression": "area1.event_word_21C",
+        "candidates": [
+          {
+            "index": 0,
+            "value": 112,
+            "hex": "0x70",
+            "monster": null,
+            "sentinel": false
+          },
+          {
+            "index": 1,
+            "value": 19,
+            "hex": "0x13",
+            "monster": "AMALTHEAN WARR",
+            "sentinel": false
+          },
+          {
+            "index": 2,
+            "value": 11,
+            "hex": "0x0B",
+            "monster": "RATWURST",
+            "sentinel": false
+          },
+          {
+            "index": 3,
+            "value": 255,
+            "hex": "0xFF",
+            "monster": null,
+            "sentinel": true
+          },
+          {
+            "index": 4,
+            "value": 255,
+            "hex": "0xFF",
+            "monster": null,
+            "sentinel": true
+          },
+          {
+            "index": 5,
+            "value": 39,
+            "hex": "0x27",
+            "monster": "LG. E.C. GENNIE",
+            "sentinel": false
+          },
+          {
+            "index": 6,
+            "value": 255,
+            "hex": "0xFF",
+            "monster": null,
+            "sentinel": true
+          },
+          {
+            "index": 7,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 8,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          },
+          {
+            "index": 9,
+            "value": 255,
+            "hex": "0xFF",
+            "monster": null,
+            "sentinel": true
+          },
+          {
+            "index": 10,
+            "value": 11,
+            "hex": "0x0B",
+            "monster": "RATWURST",
+            "sentinel": false
+          },
+          {
+            "index": 11,
+            "value": 52,
+            "hex": "0x34",
+            "monster": "RAM WARRIOR",
+            "sentinel": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ecl_block": 36,
+    "map_name": "",
+    "event_id": null,
+    "address": "0x884D",
+    "kind": "setup_monster",
+    "monster_ref": "area2.event_scratch1",
+    "pic_ref": "area2.event_scratch2",
+    "context": "",
+    "table_refs": []
+  },
+  {
+    "ecl_block": 37,
+    "map_name": "",
+    "event_id": null,
+    "address": "0x82E6",
+    "kind": "setup_monster",
+    "monster_ref": "area2.event_scratch1",
+    "pic_ref": "area2.event_scratch2",
+    "context": "",
+    "table_refs": []
+  },
+  {
+    "ecl_block": 80,
+    "map_name": "Mars Prison, Level 1",
+    "event_id": 3,
+    "address": "0x863E",
+    "kind": "load_monster",
+    "monster_ref": "area1.event_word_23A",
+    "pic_ref": "area1.event_word_23A",
+    "context": "        printclear('TWO CONVICTS.');  // 0x84C1\n        gosub 0xA31E;  // 0x84CE\n        if_=(<if compare flag is false, skip next op>);  // 0x84D2\n        if_>(<if compare flag is false, skip next op>);  // 0x84D4\n        goto 0x8626;  // 0x84D5\n        // branch body 0x8626\n          clearmonsters();  // 0x8626\n          gettable(area2.event_scratch0 = abs_A3CD[area1.event_word_21A]);  // 0x8627\n          // 0x8631-0x8637\n          if (0 != area1.event_word_234) {\n            area2.event_scratch0 = 2;  // 0x8638\n          }\n          load_monster(monster_id: area1.event_word_23A copies: area2.event_scratch0 cpic_id: area1.event_word_23A);  // 0x863E",
+    "table_refs": []
+  },
+  {
+    "ecl_block": 80,
+    "map_name": "Mars Prison, Level 1",
+    "event_id": null,
+    "address": "0xA367",
+    "kind": "setup_monster",
+    "monster_ref": "area1.event_word_214",
+    "pic_ref": "area1.event_word_238",
+    "context": "",
+    "table_refs": []
+  }
+]

@@ -1,0 +1,82 @@
+# GEO 66: RAM Battler, Deimos Level 19-41
+
+ECL block: `66`
+
+This is a first-pass source-like reconstruction from GEO event ids and nearby ECL text. It is not original source.
+
+```text
+module geo_066_ram_battler_deimos_level_19_41 {
+  name = 'RAM Battler, Deimos Level 19-41'
+  ecl_block = 66
+
+  event 01 at 0x8283:
+    text_hint = "'THIS LADDER LEADS DOWN TO THE COMPUTER LEVEL.' RETURN"
+
+  event 02 at 0x82EF:
+    text_hint = '"THE COMPUTER BLARES, \'PROBABILITY OF VESSEL DESTRUCTION IS 99%. ADVISE IMMEDIATE EVACUATION.\'" \'A FIREBALL ENGULFS YOU AS THE SHIP EXPLODES.\' \'THIS LADDER LEADS UP TO THE CONTROL LEVEL.\''
+
+  event 03 at 0x83FB:
+    text_hint = "'THIS LADDER LEADS UP TO THE CONTROL LEVEL.' RETURN"
+
+  event 04 at 0x84E5:
+    text_hint = "'THE HEAT MAKES ACCESS TO THE LOWER LEVELS IMPOSSIBLE. YOU ARE FORCED BACK.' 'SPARKS RAIN FROM THIS SHORTED PANEL.'"
+
+  event 05 at 0x852B:
+    text_hint = "'SPARKS RAIN FROM THIS SHORTED PANEL.'"
+
+  event 06 at 0x8A10:
+    text_hint = '"\'WELCOME TO THE ROGUE. I AM KILLER KANE. YOU MAY CALL ME MR. KANE. IT IS MOST UNFORTUNATE YOUR SHIP HAD SUCH...DIFFICULTIES."'
+
+  event 07 at 0x8EB0:
+    text_hint = "'THERE IS A SHUFFLE ON THE OTHER SIDE OF THE PRISON DOOR. A VOICE WHISPERS, '"
+
+  event 08 at 0x909C:
+    text_hint = "'THIS DOOR REQUIRES A RAM SECURITY PASSCARD. ' 'YOU DO NOT HAVE THE ONE IT REQUIRES.'"
+
+  event 09 at 0x90F5:
+    text_hint = "'THIS AIRSHAFT LEADS DOWNWARD. DESCEND? '"
+
+  event 10 at 0x9198:
+    text_hint = "'THIS AIRSHAFT LEADS DOWNWARD. DESCEND? '"
+
+  event 11 at 0x91F1:
+    text_hint = "'THIS SHAFT LEADS UPWARD. ASCEND? ' 'YOU HAVE ENTERED AN ELEVATOR. A PANEL LIGHTS UP. '"
+
+  event 12 at 0x9291:
+    text_hint = "'YOU HAVE ENTERED AN ELEVATOR. A PANEL LIGHTS UP. '"
+
+  event 13 at 0x9336:
+    text_hint = '\'THIS ROOM IS EMPTY. IT LOOKS LIKE THE \' "WOMEN\'S LOCKER ROOM."'
+
+  event 14 at 0x937C:
+    text_hint = '\'TOWELS ARE LUMPED AROUND IN DAMP PILES. THIS IS THE \' "MEN\'S LOCKER ROOM"'
+
+  event 15 at 0x93CB:
+    text_hint = '"A COMPUTERIZED VOICE SAYS, \'THIS ROOM IS OCCUPIED.\'"'
+
+  event 16 at 0x940B:
+    text_hint = "'YOU INTERRUPT TWO CREW MEMBERS AND THEIR GAME OF '"
+
+  event 17 at 0x94DF:
+    text_hint = "'THE CONTROL PANEL FOR THIS RESTRICTED ACCESS ELEVATOR REQUIRES A LOW LEVEL RAM SECURITY CARD.'"
+
+  event 18 at 0x9602:
+    text_hint = "'THE CONTROL PANEL FOR THIS RESTRICTED ACCESS ELEVATOR REQUIRES A LOW LEVEL RAM SECURITY CARD.'"
+
+  event 19 at 0x964D:
+    text_hint = "'THIS ROOM OBVIOUSLY BELONGS TO SOMEONE OF HIGH RANK. A MAN IS SLEEPING ON THE WIDE BED. BESIDE HIM IS A RAM SECURITY CARD.' ''"
+
+  event 20 at 0x979D:
+    text_hint = "'THIS DOOR REQUIRES A HIGH LEVEL RAM SECURITY CARD. TRY TO OPEN IT?'"
+
+  event 21 at 0x98B6:
+    text_hint = "'THIS DOOR REQUIRES A SECURITY CARD. USE THE CARD? '"
+
+  event 22 at 0x9962:
+    text_hint = "''"
+
+  event 23 at 0x99C5:
+    text_hint = "''"
+
+}
+```

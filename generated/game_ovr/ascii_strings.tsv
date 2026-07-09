@@ -1,0 +1,1008 @@
+offset	length	text	terminator
+0	6	FBOV)>	3
+9	66	WARNING: Insufficient Memory$Insufficient Memory. Exiting ProgramU	137
+393	37	$CREATED BY:SSI SPECIAL PROJECTS TEAM	17
+431	17	GAME DEVELOPMENT:	12
+449	12	PROGRAMMING:	14
+462	14	Rhonda Gilbert	10
+477	10	Russ Brown	11
+488	11	Kerry Bonin	15
+500	15	ENCOUNTER CODE:	12
+516	12	Dave Shelley	13
+529	13	GRAPHIC ARTS:	10
+543	10	Chris Carr	11
+554	11	Laura Bowen	7
+566	7	Tom Ono	10
+574	10	Fred Butts	10
+585	10	Ken Eklund	15
+596	15	Maurine Starkey	8
+612	8	Tony Van	13
+621	13	Mike Provenza	13
+635	13	Gary Shockley	12
+649	12	Mark Johnson	13
+662	23	"Cynthia Huang	Cyrus Lum"	15
+686	15	Adragon Demello	12
+702	12	Susan Manley	6
+715	6	MUSIC:	26
+722	26	Ralph Thomas & The Fat Man	10
+749	10	PLAYTEST :	26
+760	26	John Boockholdt, Al Brown,	29
+787	102	Glen Cureton, Mike Gilmartin,#Cyrus Harris, Rob Lupo, Sean House,$John Kirk, Alan Marenco, Brian Lowe,	28
+890	28	Jeff Shotwell, Larry Webber,	28
+919	29	Chris Warshauer, James YoungU	137
+2027	6	titleU	137
+2155	6	titleU	137
+2767	4	Bvt4	196
+2772	4	>@v&	139
+3861	5	CPICU	137
+5003	4	PICU	137
+5701	4	Bvt>	196
+5706	4	>@v&	139
+5716	4	>@v&	139
+6219	6	>Ov!u[	198
+6641	5	>Ov/u	11
+7302	15	what do you do?	1
+8294	4	E':F	251
+8459	12	succeeds at 	5
+8472	5	party	10
+8478	11	 fails at U	137
+9677	6	>Ov%u$	138
+10506	5	&:E.u	14
+10585	28	The entire party is killed!U	137
+12091	4	"	<	u"	5
+12169	16	 and you record 	18
+12186	18	 as logbook entry 	1
+12570	6	&:E.uc	196
+12581	4	E4$ 	8
+12762	37	$Congrats. The team gains experience!	10
+12800	10	Congrats. 	18
+12811	19	 gains experience!U	137
+14485	5	">8D	u"	5
+15212	4	v<Au	6
+15222	4	l<Bu	6
+15232	4	b<Cu	6
+15242	4	X<Du	6
+15252	4	N<Eu	6
+15262	4	D<Fu	6
+15272	4	:<Gu	6
+15282	4	0<Hu	6
+15292	4	&<Iu	6
+16019	4	<Eug	128
+16521	12	"(	-	>	[	g	z	"	172
+16928	7	 O c { 	192
+16940	9	" ""!X!j!w!"	222
+16956	11	""","">""F""Q""a"""	145
+16978	13	#!#)#5#=#k#x#	138
+17006	9	$)$.$E$|$	132
+17030	17	$.%6%J%T%^%m%r%|%	139
+17080	5	's(}(	135
+17102	11	)1)>)I)S)g)	127
+17126	15	+6+>+I+T+_+j+u+	212
+17146	5	,',i,	161
+17154	7	,1-O-j-	130
+17174	5	.L.}/	169
+17190	7	3!3*3y3	177
+17204	5	404[4	178
+17212	6	"4	5p5U"	137
+17285	10	Enemy ship	1
+17907	4	&(U>	128
+17964	4	>JS&	138
+17975	4	>NS&	138
+17980	4	E7(F	254
+18980	29	 leaps clear of an explosion.	7
+19010	7	 takes 	18
+19018	18	 points of damage!	10
+19037	10	 is dead!!	10
+19048	10	 is dying!	16
+19059	16	 is unconscious!	22
+19076	23	 is seriously injured.U	137
+19560	5	TSu*;	6
+19566	4	RSu$	196
+19635	7	 fires 	6
+19643	16	"s and 	hits for "	18
+19660	18	 points of damage!	7
+19679	8	misses.U	137
+19955	4	6NS1	192
+20036	14	 destroyed on 	1
+20053	12	 destroyed!U	137
+20197	4	E>(F	249
+20703	5	PSu4;	6
+20709	4	NSu.	196
+20789	5	LSu,;	6
+20795	4	JSu&	139
+21339	10	"	hits for "	18
+21350	18	 points of damage!	7
+21369	7	misses.	16
+21377	16	 attacks with a 	5
+21394	6	 and U	137
+21961	38	" attempts a speed boost and 	succeeds!"	6
+22000	7	fails!U	137
+22477	5	Weap 	1
+22485	4	Quit	0
+22555	22	 attempts to jury-rig 	14
+22578	14	 and succeeds!	11
+22593	12	 and fails.U	137
+23375	4	C<Su	6
+23385	4	9<Cu	6
+23395	4	/<Lu	6
+23405	4	%<Fu	6
+23960	5	LSuS;	6
+23966	4	JSuM	255
+24326	5	LSu%;	6
+24464	26	Try to dodge enemy ship? U	137
+24591	4	JSuy	141
+24618	4	<Yu^	176
+24726	27	" attempts to ram!	Your ship"	23
+24754	23	 dodges out of the way!	19
+24778	20	Ramming successful!U	137
+25114	13	 is closing.U	137
+25240	16	 is retreating.U	137
+25508	24	Select weapon to reload:	1
+25535	4	Quit	0
+25573	11	 reloads a 	1
+27016	4	>NS&	139
+27085	35	!The enemy jury-rigs some systems.U	137
+27249	4	>NS&	139
+27257	6	>JS&;E	22
+27267	4	>JS&	139
+27281	4	>NS&	139
+27312	4	6JS1	192
+27526	4	>NS&	138
+27736	4	>NS&	139
+27766	4	>NS&	139
+27831	4	6NS1	192
+28045	4	6NS1	192
+28075	4	6NS1	192
+28149	15	 is your pilot.	0
+28166	10	what does 	12
+28177	12	 want to do?	12
+28190	12	Fire Target 	5
+28203	5	Load 	8
+28209	8	Juryrig 	10
+28218	10	Quit View@	6
+28229	16	"Close 	Withdraw "	4
+28246	4	Ram 	6
+28251	6	Board 	8
+28258	8	Command 	4
+28267	4	Aid 	14
+28272	14	Boost engines 	8
+28287	9	Sensors U	137
+28369	5	TSuC;	6
+28375	4	RSu=	176
+28648	5	"TSu	;"	6
+29285	4	>JS&	131
+29351	4	>JS&	131
+29430	56	7You close with the injured vessel and attempt to board!	21
+29487	21	 takes over as pilot.	1
+29511	20	Target which system?	4
+29532	4	Ram 	2
+29540	8	succeeds	5
+29549	5	fails	21
+29555	21	 at sensor operation!	14
+29577	14	Ship Character	1
+29820	4	<Bui	139
+29832	5	TSuA;	6
+29838	4	RSu;	196
+29929	4	<Cuk	139
+30414	5	"TSu	;"	6
+30518	4	<Rum	141
+30549	4	6NS1	192
+30588	4	<Yu$	255
+30869	4	<Cu$	139
+30960	5	"&<Wu"""	255
+31037	43	)The enemy ship recedes off your scanners.U	137
+31407	4	>NS&	136
+31427	4	>NS&	136
+31904	4	>NS&	138
+31921	4	>NS&	138
+31938	4	>NS&	138
+31955	4	>NS&	138
+32448	9	!J!T!c!z!	132
+32474	5	"""L#U$"	194
+32494	7	'/(=(P(	158
+32526	7	, ,%,|,	134
+32542	13	,/-9-K-_-i-{-	193
+32566	13	.(.2.D.Q.i.s.	133
+32596	7	/G/Q/c/	144
+32630	7	1P2j2t2	131
+32650	9	4'41494~4	164
+32678	11	5,5<5G5n5s5	142
+32698	11	526:6K6V6a6	199
+32710	7	6>7V7h7	162
+32726	7	838L8]8	174
+32742	7	8&9<9\9	239
+33345	4	E!PU	14
+33984	4	E4$@	8
+34934	4	d)P1	192
+35602	18	The team has fled.	17
+35621	17	The team has won.	24
+35639	24	Each character receives 	18
+35664	18	experience points.	3
+35683	4	no U	137
+36076	6	Gear: 	4
+36083	5	TakeU	137
+36457	4	U,;V	254
+36578	6	Take: 	17
+36585	17	Credits Gear Exit	1
+36785	4	<Cu7	154
+36843	5	A<Gu1	14
+36943	16	  Repairing Ship	0
+36960	39	&Engineer         System         Result	1
+37002	48	 fixed) units of fuel plundered from enemy ship!	24
+37051	25	  All repairs completed.U	137
+38129	4	>NS&	247
+38167	4	>JS&	139
+38175	6	>JS&+E	30
+38203	4	>JS&	139
+38211	6	>JS&+E	30
+38312	4	>JS&	1
+38329	4	>NS1	192
+38394	16	Use antidote on 	2
+38582	4	<Yu.	196
+38684	59	  Treating Poisoning&Medic            Patient        Result	6
+38744	6	 cured	20
+38751	30	" is dying of poison!	 is cured"	19
+38782	20	 slips into a coma.2	0
+38834	17	  Treating Wounds	1
+38854	29	  No injuries were sustained.	26
+38884	67	  No medics are available.(  No injuries were successfully treated.	20
+38952	21	  Healing completed.U	137
+39828	5	&;EEs	12
+40924	5	View 	5
+40930	5	Take 	6
+40936	6	Divvy 	5
+40943	5	Pool 	7
+40949	7	Status 	4
+40957	4	Exit	21
+40962	21	Enemy ship destroyed.	8
+40984	8	~Yes ~No	28
+40993	66	There is still booty left.  $Do you want to go back and claim it?U	137
+41278	4	PSt*	141
+41487	4	<SuM	198
+42151	21	Your team has met an 	16
+42173	17	unfortunate end.U	137
+42727	11	"	=	G	Q	V	[	"	169
+43600	5	>7vHv	10
+44652	4	<Tu,	255
+44765	4	<Qu/	255
+44848	4	<SuE	196
+44951	4	<Ju#	255
+45052	4	xH}7	139
+45165	4	x<Eu	16
+45185	5	d< u`	161
+45388	4	"""<-u"	30
+45488	5	Move 	12
+45494	12	Target View 	11
+45507	11	Intimidate 	6
+45519	6	Quick 	4
+45526	4	Aid 	7
+45531	7	Sprint 	6
+45539	6	Dodge 	0
+45578	8	Jetpack 	5
+45587	5	Wait 	6
+45593	6	Guard 	3
+46843	10	"	Sprinting"	7
+46854	7	Dodging	11
+46862	11	Move/Attack	14
+46874	14	, Move Left = 	5
+46889	5	 Done	5
+46895	5	Flee:	14
+46901	15	can't go thereU	137
+47252	4	T<Iu	6
+47262	4	J<Hu	6
+47272	4	@<Qu	6
+47282	4	6<Mu	6
+47292	4	,<Ou	6
+47302	4	"""<Pu"	6
+47842	17	Not while running	20
+47860	21	Not with that weaponU	137
+48241	7	"	*	:	J	"	31
+48423	15	flees in panicU	137
+49470	5	E.<%t	4
+49476	4	<&u)	138
+49520	5	G<#u,	255
+50414	5	E.<%u	19
+50438	4	r<&u	18
+50460	4	\<!u	7
+50471	4	"Q<""u"	7
+50482	4	F<$u	21
+50507	4	-<#u	21
+50986	25	Move/Attack, Move Left = 	1
+53207	4	"<-u	"	154
+53235	11	SurrendersU	137
+54193	23	readies a heavy weaponU	137
+54505	4	EH$@	8
+60739	26	Cant identify wild terrain	0
+60872	4	"<	u?"	176
+61865	7	marscom	8
+61873	8	venuscom	5
+61882	5	lotek	5
+61888	6	hitekU	137
+65336	19	A battle begins...U	137
+66015	13	#P$Z$d$n$s$x$	145
+66041	7	%%%>%t%	139
+66309	6	COMSPR	6
+66316	6	cursor	5
+66323	6	ITEMSU	137
+66675	4	>N@A	1
+69737	4	}.$u	7
+69817	4	}.#u	7
+69987	11	"	dodges itU"	137
+70357	11	is poisoned	8
+70369	9	is dizzyU	137
+70589	12	is poisonedU	137
+71813	15	"	+	8	E	R	_	l	y	"	134
+72516	4	EH$ 	8
+72570	4	EH$@	8
+72595	11	-Backstabs-	14
+72607	14	slays helpless	7
+72622	7	Attacks	14
+72630	14	(from behind) 	19
+72645	19	with one cruel blow	12
+72665	12	Hitting for 	7
+72678	7	 point 	8
+72686	18	" points 	of damage"	10
+72705	20	"and Misses	goes down"	12
+72726	12	and is Dying	12
+72770	11	"	is killedU"	137
+74436	8	Got Away	17
+74445	18	Escape is blockedU	137
+74798	5	&:E8v	10
+74943	11	is stunnedU	137
+76719	4	"?<	t"	4
+77491	21	launches a missile...	19
+77513	19	throws a grenade...	14
+77533	14	It goes astray	4
+77548	4	 and	2
+77556	12	 hits chaff`	12
+77600	16	leaps for cover!	3
+77621	26	Bad tileNum in lingering-U	137
+79635	4	"/<	u"	11
+80616	34	 Weapon specials incorrectly set!U	137
+81256	4	&(E8	196
+81699	21	fails at use jetpackU	137
+82675	9	GuardingU	137
+82963	4	"h<	t"	4
+83621	14	Attack Ally: U	137
+83858	7	(short)	8
+83866	8	(medium)	6
+83875	6	(long)	8
+83882	8	Range = 	1
+84115	17	Next Prev Manual 	7
+84133	7	Attack 	11
+84141	11	Center Exit	4
+84153	5	Aim:U	137
+84873	6	Flying	5
+84880	5	Land 	6
+84886	6	Attack	4
+84893	4	Exit	18
+84898	19	(Use Cursor keys) U	137
+85672	6	V$;V u	5
+85827	4	<Lu%	196
+85868	4	<Au_	196
+86233	18	NumTargets < 1!!!U	137
+88088	4	<Cu2	196
+88141	5	U<Eu 	196
+88309	31	Life was empty til I met buck!U	137
+88849	21	 looks real menacing.	21
+88871	21	 fails to intimidate.	14
+88893	15	is intimidatedU	137
+89193	24	  Using Leadership Skill	0
+89219	7	 leads 	1
+89803	7	 makes 	3
+89819	15	 tactics roll.U	137
+90262	5	made 	7
+90268	7	failed 	3
+90288	18	Zero-G skill rollU	137
+90836	4	"Y	w	"	141
+91066	4	d i 	199
+91073	5	 2!b!	203
+91091	7	#.#K#i#	136
+91109	9	"$""$.$:$F$"	6
+91121	7	%,%N%l%	225
+91133	11	&$&7&C&X&y&	176
+91155	7	'!(,(Z(	241
+91173	7	*>*T*t*	130
+91189	7	+I+k+z+	141
+91223	7	-+.[.c.	240
+91231	5	.R/k/	132
+91253	7	/?0c0o0	132
+91271	13	1&141D1N1\1u1	133
+91291	5	"2""2W2"	152
+91297	5	223^3	139
+91309	7	4G4L4w4	146
+91329	7	536G6n6	131
+91373	7	;J<[<{<	150
+91411	7	@-@>@V@	149
+91429	7	ANAfA{A	177
+91455	7	C&C+CuC	140
+91469	13	E&E?ESEeEjE|E	129
+91511	15	"G""G<GFGTGfGpG~G"	142
+91555	11	I(I>IbIgIlI	165
+92247	4	t<Nu	6
+92257	4	&<Cu	6
+92314	16	Message Speed = 	2
+92334	4	)   	7
+92339	7	 Faster	7
+92347	7	 Slower	5
+92355	5	 Exit	14
+92361	14	Message Speed:	1
+92791	4	t<Pu	23
+92848	4	t<Fu	11
+92864	4	"<Su	"	196
+92941	4	Wu,;	6
+93076	4	WuA;	6
+93569	13	Party Order: 	17
+93583	17	has been selected	26
+93601	26	lost pc in alterpartyorder	31
+93628	31	lost olddude in alterpartyorder	0
+93795	4	"Wu	;"	6
+94007	4	u!;F	251
+94330	4	t<Hu	6
+94489	12	Animation on	13
+94502	14	Animation offU	137
+94546	5	">8D	u"	6
+94697	4	a<Pu	7
+94708	4	V<Mu	6
+94718	5	L<Au@	128
+94803	17	En route. Fuel = 	1
+94823	5	DoneU	137
+94874	4	>JS&	139
+94970	4	t<Iu	7
+95046	4	y<Ku	6
+95056	4	o<Dt	12
+95199	5	&:E8s	23
+95266	4	E8:F	254
+95288	4	}8Ws	10
+95308	4	}8^v	8
+95483	4	&(E9	138
+95501	4	&(E:	154
+95592	13	Quit TO DOS U	137
+95658	8	Not Here	4
+95667	4	Exit	23
+95672	23	Move Rocket Change Save	3
+95696	14	"PIC	Move SaveU"	137
+95830	4	<AuM	196
+95910	4	[<Vu	17
+95931	4	F<Su	6
+95941	4	<<Cu	6
+95951	5	2<Lu.	196
+96149	4	<PuC	160
+96220	4	<KuK	160
+96298	5	L<MuH	160
+96491	5	b<RuL	160
+96771	4	<Eu^	128
+96888	4	K<Iu	7
+96899	4	@<Mu	7
+96910	4	5<Qu	7
+96921	4	*<Pu	7
+96954	4	"	<Gu"	5
+97189	4	"#<	u"	31
+97231	21	Rest Save Change Exit	15
+97253	16	The team rests.U	137
+97331	4	<Ru+	141
+97793	21	disposing a nil charU	137
+98084	18	Choose a FUNCTION 	7
+98103	7	Select 	0
+98175	12	Quit to DOS 	30
+98188	31	Game NOT saved.  Quit anyway? U	137
+98840	4	<Vu$	128
+98898	4	<RuV	128
+99007	4	<Su#	128
+99046	4	<Bu7	128
+99121	5	u<Euq	128
+99509	10	"	Pick Race"	2
+99524	6	Select	11
+99531	11	Pick Gender	10
+99543	10	Pick Class	14
+99554	14	Reroll stats? 	16
+99569	16	Character name: 	5
+99586	5	Save 	2
+101885	4	= u,	139
+102173	19	 can't be modified.	0
+102225	8	Modify: 	22
+102234	23	Add Subtract Keep ExitU	137
+102309	6	W&;U1u	6
+102316	6	&;E/t)	141
+102724	4	$<Pu	15
+103142	5	&;EEv	23
+103188	5	&;EEs	21
+103302	5	&;EEs	21
+103346	5	&;EEv	21
+103974	5	Drop 	10
+103980	10	 forever? 	14
+103991	14	Are you sure? 	15
+104006	15	You incinerate 	1
+104024	25	 hitches the next rocket.	24
+104050	25	 gives a sigh of relief.U	137
+104477	10	load from:	16
+104488	16	Matrix Countdown	17
+104505	17	Add a character: 	4
+104523	4	Add 	2
+104597	4	t<Cu	7
+105215	4	"Wu	;"	6
+105759	5	CHARS	4
+105765	4	.DAX	22
+105770	23	Can't open CHARS.DAX! U	137
+107563	14	ready   action	3
+107582	20	Select a body icon. 	4
+107603	4	Done	17
+107608	18	Is this icon ok? U	137
+108131	4	t<Gu	17
+108300	4	<!us	196
+108418	4	"""<Du"	6
+109065	69	we only train conscious people&maximum level in game has been reached	21
+109135	21	Not enough experience	13
+109157	13	 will become:	12
+109171	12	    a level 	1
+109186	22	Do you wish to train? 	18
+109209	19	Congratulations...U	137
+109431	4	&;U1	127
+109437	7	|#&;E/v	29
+109755	4	&;U1	127
+109763	5	&;E/v	8
+109929	5	&;U1|	8
+109936	7	@&;E/w:	196
+110073	18	"mouse ON	mouse OFF"	11
+110092	11	joystick ON	12
+110104	12	joystick OFF	12
+110117	12	disable both	21
+110130	21	Init Mouse/Joystick: 	6
+110152	6	Select	1
+111718	73	"%Push JOYSTICK #1 to the extreme upper""left position and press button #1."	23
+111792	98	Unable to read joystick%Push JOYSTICK #1 to the extreme lower#right position and press button #1.U	137
+112140	4	 Nv=	176
+112627	4	 Nv=	176
+113071	9	"	'	5	c	r	"	156
+113340	4	U o 	166
+113377	5	#*$L$	136
+113419	7	(D(T(_(	177
+113433	9	)-*2*h+w+	195
+113447	5	,;-F-	146
+113465	17	.!.&.0.J.O.^.f.|.	129
+113503	7	1*1@1T1	140
+113517	7	1-282Q2	143
+113537	7	3:3?3Q3	133
+113557	7	3&414]4	136
+113579	9	5*5U5Z5}5	130
+113603	9	60656G6`6	26
+113629	9	8:8?8H8w8	179
+113645	5	8a9v9	145
+113661	9	:!:&:/:^:	154
+113679	15	Personal funds:	15
+113695	16	Pooled funds:  U	137
+114437	11	OverLoadedU	137
+114611	4	E4$ 	8
+114891	6	 buys 	8
+114898	8	 buys a 	17
+114907	18	Not enough Money.U	137
+115046	6	W&;U-|	14
+115058	5	&;E+v	3
+115097	6	W&)E+&	25
+115222	4	U-;V	248
+115276	4	U-)F	246
+115786	23	 has no missile weapons	6
+115810	6	Weapon	10
+115817	10	Clip  Fill	0
+115828	10	"	Fill Clip"	17
+115839	17	 purchases a clip	21
+115857	21	's weapon is reloaded	16
+115879	16	Not enough Money	12
+115896	13	Already fullU	137
+116071	4	E4$ 	8
+116863	4	E8:F	169
+116881	5	W&;U-	127
+116888	8	|W&;E+vQ	196
+116943	6	W&+E+&	27
+116985	6	W&;U-|	14
+116997	5	&;E+v	3
+117018	6	W&)E+&	25
+117111	4	E8:F	169
+117147	4	E8:F	169
+117370	24	Buy Sell Ammo View Pool 	11
+117395	11	Take Divvy 	4
+117407	169	"ExitRAs you Leave the Shopkeeper says, ""Excuse me but you have Left Some Money here.""  *Do you want to go back and get your Money?%Thanks for the tip.  Have a nice day.U"	137
+117911	4	<Su)	198
+118020	4	<Pu:	128
+118221	4	<Nu4	198
+118301	5	-<Hu)	255
+118694	4	2D@@	196
+118721	4	2D@@	163
+118818	4	2D@@	196
+119689	5	.daxU	137
+119885	4	MONU	137
+120176	5	SPRIT	3
+120182	4	PICU	137
+124299	4	=~ur	196
+124738	7	SelectU	137
+125263	4	Bvu 	184
+125284	4	>@v1	192
+125337	4	>@v&	137
+125352	4	>@v&	137
+125845	17	t,< t(<-t$<2t <4t	28
+125907	7	"t,<	t(<"	15
+125949	4	"<Lu	"	176
+125976	13	t(<!t$<(t <*t	28
+126014	4	"<#u	"	176
+126039	5	"""<.u	"	176
+126057	4	"<Iu	"	176
+126080	7	 dies. 	12
+126088	12	 is hit FOR 	18
+126101	19	 points of Damage.U	137
+126419	5	">8D	t"	30
+126462	5	ITEM0	4
+126468	4	.dax	24
+126473	25	Unable to find item fileU	137
+127424	4	.SAV	16
+127429	17	from saved game U	137
+128374	6	*.whoU	137
+128544	4	BUCK	1
+128551	27	Is your save disk in drive 	3
+128583	31	Unexpected error during save: !	0
+128894	4	<Csz	141
+129072	4	<Cs<	176
+129235	6	CHARSU	137
+129319	5	.whoU	137
+129511	35	"""Can't save.  No room on this disk."	16
+129547	16	Lose character? 	20
+129564	20	Ok  Try another disk	4
+129585	4	.who	1
+129592	4	.sav	5
+129631	30	Unexpected error during save: 	15
+129662	15	 already exists	27
+129678	27	Overwrite Rename Abort save	15
+129706	16	New file name: U	137
+130351	4	<Cs;	176
+130678	4	<RuW	198
+133074	5	CHARS	4
+133080	5	CPICU	137
+133199	4	"<lu	"	196
+133309	4	.dax	22
+133314	22	Unable to load Monster	3
+133341	4	ITMU	137
+134492	10	load from:	16
+134503	16	Matrix Countdown	4
+134520	4	.dat	1
+134527	17	Load Which Game: 	0
+134579	4	.sav	4
+134584	4	CPIC	0
+134689	4	t<Cu	27
+134720	4	0<Mu	27
+136472	17	Save Which Game: 	19
+136490	19	A B C D E F G H I J	1
+136542	39	".dat""Can't save.  No room on this disk."	5
+136616	65	"Unexpected error during save: ""WARNING: Problem Saving Characters"	6
+136682	7	CHRDATU	137
+137074	4	<Cs;	176
+137925	5	ships	4
+137931	4	.dax	15
+137936	15	Maelstrom Rider	1
+138059	5	PSuM;	6
+138065	4	NSuG	154
+139034	12	B G L [ l w 	129
+139055	5	 e!~!	195
+139065	13	"""$"")"".""K$[$n$"	132
+139095	17	%2%7%P%Z%j%o%y%~%	141
+139133	9	& &+&=&G&	132
+139155	7	'/'G'{'	128
+139175	7	'+(D(O(	144
+139193	11	(,);)J)a)t)	130
+139215	11	)@*V*`*o*t*	130
+139303	7	name  :	3
+139315	7	race  :	3
+139327	7	gender:	6
+139335	6	thaco:	7
+139342	7	career:	6
+139350	6	level:	7
+139357	7	status:	11
+139365	11	experience:	7
+139377	7	credit:	4
+139385	4	age:	7
+139390	7	movmnt:	12
+139398	12	encumbrance:	7
+139411	7	damage:	7
+139419	7	weapon:	7
+139427	7	armor :	10
+139435	10	abilities:	14
+139446	15	career skills:U	137
+140897	4	 <3r	10
+141848	21	Weapon Specialization	5
+141870	5	Train	16
+141876	16	Select a weapon 	1
+141900	30	Maximum specialization reached	1
+143126	5	Gear 	7
+143132	8	Skills  	1
+143172	16	"Trade 	Wpn spec "	4
+143189	4	Exit	0
+143652	4	3<Tu	6
+143662	4	)<Su	19
+143755	18	Must be unreadiedU	137
+143848	14	itemptr:      	14
+143863	14	namenum(1):   	14
+143878	14	namenum(2):   	14
+143893	14	namenum(3):   	14
+143908	14	plus:         	14
+143923	14	plussave:     	14
+143938	14	not joinable: 	14
+143953	14	not treasure: 	14
+143968	14	ready:        	14
+143983	14	german:       	14
+143998	14	encumberance: 	14
+144013	14	numitems:     	14
+144028	14	value:        	14
+144043	14	special 1:    	14
+144058	14	special 2:    	14
+144073	14	special 3:    	14
+144088	14	dice:         	14
+144103	14	sides:        	14
+144118	14	adds:         	11
+144133	12	press a keyU	137
+144173	4	E4$ 	8
+144196	4	E4$@	8
+145587	13	 has no gear.	1
+145633	6	Ready 	1
+145671	6	 Trade	5
+145678	5	 Drop	6
+145684	6	 Halve	5
+145691	5	 Join	5
+145697	5	 Sell	4
+145703	4	Gear	10
+145708	10	Ready Item	22
+145719	22	 loads a heavy weapon.	5
+145742	5	Your 	21
+145748	32	" will be gone forever	Drop It? U"	137
+146686	4	<Ru=	255
+146751	4	<Tu)	255
+146997	4	K<Hu	14
+147015	4	9<Ju	14
+147033	5	'<Su#	255
+147182	4	nS:F	6
+147245	15	already using U	137
+147668	16	Trade with Whom?	10
+147685	11	OverloadedU	137
+148003	17	Can't halve thatU	137
+148044	4	E4$ 	8
+148233	4	E4$ 	8
+148361	5	&:E/t	3
+148380	5	&:E0t	3
+148399	5	&:E1t	3
+148418	5	&:E.t	3
+148437	5	&:E2t	3
+148456	5	&:E3t	3
+148475	5	&;E6t	3
+148494	5	&:E;t	3
+148513	5	&:E<t	3
+148532	5	&:E=t	3
+148707	14	I'll give you 	18
+148722	18	 credits for your 	14
+148741	14	Will you sell 	4
+148756	4	it? 	6
+148761	6	them? 	5
+148768	5	Your 	20
+148774	20	 is worthless to me.	31
+148795	31	Shall I dispose of it for you? 	15
+148827	48	 are worthless. Would you like to discard them? 	5
+148876	39	Sold!!I will give it to one of my sons.	30
+148916	31	Very well.  I'll recycle them.U	137
+148995	4	E4$ 	8
+149440	4	<Yuz	131
+149590	32	how many credits will you give?U	137
+149917	4	E4$ 	8
+150051	4	Xu/;	6
+150182	5	9<Pu5	196
+150247	15	Pick Character 	11
+150263	11	Select Exit	1
+150978	11	is bandaged	10
+150990	11	is treatedU	137
+151340	6	Select	5
+151347	5	 View	5
+151353	5	 Exit	1
+151698	5	t<Pu+	196
+151969	4	tVu/	161
+152279	10	"-	L	c	i	x	"	134
+152670	5	 )!8!	145
+152720	11	'$'V'`'j'o'	130
+152750	11	( (1(6(I(q(	183
+152764	5	)')M)	162
+152770	7	)d+s+~+	149
+152814	5	/(/</	154
+152832	7	0(060J0	135
+153714	6	Needs 	11
+153721	12	 points in U	137
+153752	4	EL:F	8
+154268	4	i<+u	13
+154285	4	X<.u	24
+154313	4	<</u	24
+154341	4	 <Ku	13
+154711	14	General skills	20
+154726	20	Career skill points:	21
+154747	21	General skill points:	18
+154769	18	Maximum per skill:	18
+154788	19	Points Bonus TotalU	137
+155769	4	<&u%	196
+155809	5	g<Du(	196
+155853	4	;<Ju	13
+155870	5	*<Mu&	196
+156149	23	 has no general skills.	13
+156173	13	Add Subtract 	10
+156187	10	Prev Next 	4
+156198	4	Done	0
+156204	27	No career skill points left	27
+156232	27	Prerequisites not satisfied	31
+156260	31	Skill at maximum for this level	28
+156292	172	"No general skill points left#Skill at maximum for general skills%No more new skills allowed this level!some career points unspent. Exit?""some general points unspent. Exit?U"	137
+157146	4	t<Hu	25
+157175	4	M<Pu	25
+157204	4	0<Qt	4
+157209	4	<Iu 	128
+157292	4	t<At	3
+157582	4	}LPr	24
+158201	4	<Yu,	176
+158260	5	^<Pu,	176
+158308	5	.<Nu*	176
+158977	4	"u	;F"	241
+159811	5	&;EEv	15
+160354	6	=&)E+&	25
+160875	10	Credits : 	14
+160886	48	               How many credits will you take? U	137
+162062	4	"<	u?"	196
+162336	12	is helplessU	137
+162675	6	thac0U	137
+163537	6	takes 	18
+163544	18	 points of damage 	24
+163563	34	"takes 1 point of damage 	Goes Down"	14
+163598	14	, and is Dying	12
+163644	11	"	is killedU"	137
+164094	14	is UnaffectedU	137
+164516	27	The air clears a little...U	137
+165433	6	 Yes  	6
+165440	7	 No   U	137
+165584	4	E4$ 	8
+165892	5	">8D	t"	14
+166106	4	 <3r	10
+166297	11	" 	Hitpoints"	2
+166312	30	"(helpless)	(blinded)	(stunned)"	13
+166343	14	(intimidated)U	137
+166642	4	@@@P	176
+167013	5	&:E.u	3
+167246	59	Nil Item pointer...&Tried to Lose item & couldn't find it!U	137
+167386	4	u%;F	6
+167442	4	U,;V	8
+170334	4	E4$ 	8
+172588	5	 tons	5
+172594	6	 feetU	137
+172624	5	PSu*;	6
+172630	4	NSu$	128
+172984	4	>JS&	131
+173005	5	LSu%;	6
+173143	5	LSuD;	6
+173149	4	JSu>	138
+173329	5	"}""d|8"	138
+173687	18	Sensors DestroyedU	137
+173878	4	>JS&	131
+174106	8	Range: U	137
+174244	4	PSt]	160
+174364	8	Weapons:	4
+174373	4	Ammo	7
+174378	8	ReloadsU	137
+175097	4	PICU	137
+175435	8	 camping	7
+175444	8	 searchU	137
+176652	4	}M(r	4
+176714	4	}^(r	4
+176813	4	}<+u	16
+176833	4	i<.u	26
+176863	4	K</u	26
+176893	4	-<Ku	17
+177650	19	 slips into a coma!	5
+177670	5	s are	3
+177680	13	Your Teammate	7
+177694	8	 Dying!U	137
+178112	5	&;E ~	6
+178136	5	&;E ~	3
+178171	5	name:	5
+178177	5	type:	5
+178183	5	race:	8
+178189	8	tonnage:	7
+178198	7	length:	6
+178206	6	width:	6
+178213	6	cargo:	3
+178224	5	crew:	6
+178230	6	speed:	6
+178237	6	react:	6
+178244	6	range:	7
+178251	7	ramming	5
+178259	5	short	6
+178265	6	medium	4
+178272	4	long	7
+178277	7	extreme	17
+178285	18	medical supplies:U	137
+178315	4	>JS&	131
+179550	4	"-	2	"	166
+179745	5	 B!O!	172
+179757	11	"!	""3""N""S""a"""	198
+179771	13	"""*#Y#h#m#r#~#"	172
+179809	5	%U&}&	177
+179821	13	'1'>'N'S'`'u'	129
+179869	15	)3)=)K)Z)d)s)x)	130
+179895	15	*&*0*:*D*R*i*s*	129
+179929	7	+!+F+i0	147
+179937	5	0r1|1	179
+179963	9	4,4H4M4s4	143
+179983	5	5R5W5	147
+179999	5	6]6b6	184
+180015	11	72777[7`7}7	130
+180070	4	>`S&	138
+180081	4	>`S&	138
+180092	4	>`S&	138
+180106	4	>`S&	138
+180131	4	>`S&	138
+180145	4	>`S&	138
+180157	4	>`S&	138
+180385	6	shipsU	137
+180533	6	shipsU	137
+180779	4	>`S&	138
+180949	4	>`S&	138
+182774	4	u:6;	133
+184885	6	">8D	u3"	128
+184963	4	Aim:	0
+185331	4	WtPU	14
+185648	4	t<Ku	7
+186158	4	WtPU	14
+188095	5	 Next	5
+188101	5	 Prev	5
+188107	6	 ExitU	137
+188472	4	6UtU	14
+188536	4	Ut~/	141
+188768	4	t<Hu	10
+188782	4	6<Pu	10
+188796	4	(<Iu	17
+188842	5	t<Pu 	128
+188879	4	<Nu 	128
+189226	6	Yes No	0
+189659	4	Name	5
+189664	6	AC HPU	137
+189676	5	">8D	t"	14
+189944	4	 <3r	10
+190237	5	&;U1|	8
+190245	5	&;E/s	6
+190518	5	&;EEs	7
+190835	5	 r!w!	147
+191006	4	"""<	u"	6
+191214	4	9vPU	14
+191226	4	9vPU	14
+191238	4	8vPU	14
+191380	7	Mercury	5
+191388	5	Venus	5
+191394	5	Earth	4
+191400	15	"Mars	AsteroidsU"	137
+191487	5	">8D	t"	3
+192081	4	.dax	13
+192086	14	PIC not foundU	137
+192156	4	Htu7	128
+192188	5	">8D	t"	18
+192225	5	">8D	t"	10
+192385	4	8<Ht	8
+194162	6	">8D	u%"	176
+194513	31	Illegal range in Show3DSprite.U	137
+194672	7	bigpicU	137
+194690	4	Nt:F	6
+198704	5	backU	137
+198845	7	WALLDEF	4
+198853	4	.dax	15
+198858	15	Unable to load 	13
+198874	13	 from WALLDEF	1
+199338	38	.dax Unable to load geo in Load3DMap.U	137
+206358	4	"u	;F"	6
+207760	4	uI;F	12
+209446	35	!Start range error in Load24x24SetU	137
+209782	6	COMSPR	4
+209789	4	ICON	5
+209794	5	CHARS	4
+209800	5	CPICU	137
+210843	4	 , U	137
+211127	10	slotnum = 	127
+211170	7	borders	4
+211178	4	8x8d	15
+211183	15	Unable to load 	6
+211199	7	 from U	137

@@ -1,0 +1,720 @@
+vm_run_1           0x8117
+SearchLocation     0x84AA
+PreCampCheck       0x8116
+CampInterrupted    0x8116
+ecl_initial_entry  0x8014
+
+0x8014 0x03 COMPARE Values: area1.LastEclBlockId == 82
+
+0x801A 0x16 IF = <if compare flag is false, skip next op>
+0x801B 0x00 EXIT
+0x801C 0x09 SAVE area1.inDungeon = 16
+
+0x8022 0x09 SAVE area1.word_156 = 1
+
+0x8028 0x09 SAVE area1.event_word_3FA = 255
+
+0x802E 0x09 SAVE area1.event_word_3FC = 255
+
+0x8034 0x09 SAVE area1.block_area_view = 1
+
+0x803A 0x09 SAVE area1.word_1CE = 1
+
+0x8040 0x09 SAVE area1.word_1D0 = 1
+
+0x8046 0x09 SAVE area1.word_1D2 = 1
+
+0x804D 0x00 EXIT
+
+0x8116 0x00 EXIT
+0x8117 0x14 COMPARE AND Values: 9 == mapPosX && 2 == mapPosY
+
+0x8122 0x16 IF = <if compare flag is false, skip next op>
+0x8123 0x03 COMPARE Values: mapDirection == 3
+
+0x8129 0x16 IF = <if compare flag is false, skip next op>
+0x812A 0x01 GOTO 0x822C
+
+0x812E 0x14 COMPARE AND Values: 15 == mapPosX && 7 == mapPosY
+
+0x8139 0x16 IF = <if compare flag is false, skip next op>
+0x813A 0x03 COMPARE Values: mapDirection == 0
+
+0x8140 0x16 IF = <if compare flag is false, skip next op>
+0x8141 0x01 GOTO 0x8256
+
+0x8145 0x14 COMPARE AND Values: 15 == mapPosX && 7 == mapPosY
+
+0x8150 0x16 IF = <if compare flag is false, skip next op>
+0x8151 0x03 COMPARE Values: mapDirection == 3
+
+0x8157 0x16 IF = <if compare flag is false, skip next op>
+0x8158 0x01 GOTO 0x8256
+
+0x815C 0x14 COMPARE AND Values: 12 == mapPosX && 10 == mapPosY
+
+0x8167 0x16 IF = <if compare flag is false, skip next op>
+0x8168 0x03 COMPARE Values: mapDirection == 0
+
+0x816E 0x16 IF = <if compare flag is false, skip next op>
+0x816F 0x01 GOTO 0x822C
+
+0x8173 0x14 COMPARE AND Values: 13 == mapPosX && 10 == mapPosY
+
+0x817E 0x16 IF = <if compare flag is false, skip next op>
+0x817F 0x03 COMPARE Values: mapDirection == 2
+
+0x8185 0x16 IF = <if compare flag is false, skip next op>
+0x8186 0x01 GOTO 0x8256
+
+0x818A 0x14 COMPARE AND Values: 7 == mapPosX && 7 == mapPosY
+
+0x8195 0x16 IF = <if compare flag is false, skip next op>
+0x8196 0x03 COMPARE Values: mapDirection == 0
+
+0x819C 0x16 IF = <if compare flag is false, skip next op>
+0x819D 0x01 GOTO 0x8280
+
+0x81A1 0x14 COMPARE AND Values: 5 == mapPosX && 8 == mapPosY
+
+0x81AC 0x16 IF = <if compare flag is false, skip next op>
+0x81AD 0x03 COMPARE Values: mapDirection == 3
+
+0x81B3 0x16 IF = <if compare flag is false, skip next op>
+0x81B4 0x01 GOTO 0x8280
+
+0x81B8 0x14 COMPARE AND Values: 7 == mapPosX && 6 == mapPosY
+
+0x81C3 0x16 IF = <if compare flag is false, skip next op>
+0x81C4 0x03 COMPARE Values: mapDirection == 0
+
+0x81CA 0x16 IF = <if compare flag is false, skip next op>
+0x81CB 0x01 GOTO 0x82AA
+
+0x81CF 0x14 COMPARE AND Values: 1 == mapPosX && 8 == mapPosY
+
+0x81DA 0x16 IF = <if compare flag is false, skip next op>
+0x81DB 0x03 COMPARE Values: mapDirection == 1
+
+0x81E1 0x16 IF = <if compare flag is false, skip next op>
+0x81E2 0x01 GOTO 0x832A
+
+0x81E6 0x14 COMPARE AND Values: 13 == mapPosX && 11 == mapPosY
+
+0x81F1 0x16 IF = <if compare flag is false, skip next op>
+0x81F2 0x03 COMPARE Values: mapDirection == 3
+
+0x81F8 0x16 IF = <if compare flag is false, skip next op>
+0x81F9 0x01 GOTO 0x839E
+
+0x81FD 0x14 COMPARE AND Values: 0 == mapPosX && 13 == mapPosY
+
+0x8208 0x16 IF = <if compare flag is false, skip next op>
+0x8209 0x03 COMPARE Values: 0 == mapDirection
+
+0x820F 0x16 IF = <if compare flag is false, skip next op>
+0x8210 0x01 GOTO 0x83CF
+
+0x8214 0x14 COMPARE AND Values: 6 == mapPosX && 13 == mapPosY
+
+0x821F 0x16 IF = <if compare flag is false, skip next op>
+0x8220 0x03 COMPARE Values: 1 == mapDirection
+
+0x8226 0x16 IF = <if compare flag is false, skip next op>
+0x8227 0x01 GOTO 0x83CF
+
+0x822B 0x00 EXIT
+0x822C 0x03 COMPARE Values: 0 == area1.event_word_350
+
+0x8232 0x19 IF > <if compare flag is false, skip next op>
+0x8233 0x00 EXIT
+0x8234 0x09 SAVE area2.word_592 = 255
+
+0x823A 0x12 PRINTCLEAR 'THIS IS A CODE 1 SECURITY DOOR.'
+
+0x8255 0x00 EXIT
+0x8256 0x03 COMPARE Values: 2 == area1.event_word_350
+
+0x825C 0x19 IF > <if compare flag is false, skip next op>
+0x825D 0x00 EXIT
+0x825E 0x09 SAVE area2.word_592 = 255
+
+0x8264 0x12 PRINTCLEAR 'THIS IS A CODE 3 SECURITY DOOR.'
+
+0x827F 0x00 EXIT
+0x8280 0x03 COMPARE Values: 3 == area1.event_word_350
+
+0x8286 0x19 IF > <if compare flag is false, skip next op>
+0x8287 0x00 EXIT
+0x8288 0x09 SAVE area2.word_592 = 255
+
+0x828E 0x12 PRINTCLEAR 'THIS IS A CODE 4 SECURITY DOOR.'
+
+0x82A9 0x00 EXIT
+0x82AA 0x12 PRINTCLEAR 'A GUARD STEPS UP AND ASKS FOR A PASSWORD. WHAT DO YOU SAY?'
+
+0x8310 0x12 PRINTCLEAR 'THE GUARD LETS YOU THROUGH.'
+
+0x832A 0x03 COMPARE Values: 1 == area1.event_word_352
+
+0x8330 0x16 IF = <if compare flag is false, skip next op>
+0x8331 0x01 GOTO 0x833F
+
+0x8335 0x09 SAVE area2.word_592 = 255
+
+0x833B 0x01 GOTO 0x83B6
+
+0x833F 0x2F AND area2.event_scratch0 = 1 & area1.event_word_348
+
+0x8348 0x17 IF <> <if compare flag is false, skip next op>
+0x8349 0x00 EXIT
+0x834A 0x12 PRINTCLEAR "A FRANTIC GUARD RUSHES UP. 'THE COMPUTER CAN SHUT AIRLOCK 2, BUT I DON'T KNOW HOW.'"
+
+0x839E 0x2F AND area2.event_scratch0 = 32 & area1.event_word_348
+
+0x83A7 0x17 IF <> <if compare flag is false, skip next op>
+0x83A8 0x01 GOTO 0x8310
+
+0x83AC 0x09 SAVE area2.word_592 = 255
+
+0x83B2 0x01 GOTO 0x83B6
+
+0x83B6 0x12 PRINTCLEAR 'GUARDS BLOCK THE ENTRANCE.'
+
+0x83CF 0x2F AND area2.event_scratch0 = 64 & area1.event_word_34C
+
+0x83D8 0x17 IF <> <if compare flag is false, skip next op>
+0x83D9 0x01 GOTO 0x83FF
+
+0x83DD 0x2F AND area2.event_scratch0 = 1 & area1.event_word_34A
+
+0x83E6 0x17 IF <> <if compare flag is false, skip next op>
+0x83E7 0x2F AND area2.event_scratch0 = 2 & area1.event_word_34A
+
+0x83F0 0x17 IF <> <if compare flag is false, skip next op>
+0x83F1 0x01 GOTO 0x8310
+
+0x83F5 0x09 SAVE area2.word_592 = 255
+
+0x83FB 0x01 GOTO 0x83B6
+
+0x83FF 0x2F AND area2.event_scratch0 = 4 & area1.event_word_356
+
+0x8408 0x17 IF <> <if compare flag is false, skip next op>
+0x8409 0x00 EXIT
+0x840A 0x2F AND area2.event_scratch0 = 2 & area1.event_word_34C
+
+0x8413 0x17 IF <> <if compare flag is false, skip next op>
+0x8414 0x00 EXIT
+0x8415 0x12 PRINTCLEAR "A GUARD APPROACHES 'RESCUE THE PEOPLE IN THE DANCE HALL ON LEVEL 3."
+
+0x844B 0x30 OR area1.event_word_356 = 4 | area1.event_word_356
+
+0x8454 0x2F AND area2.event_scratch0 = 16 & area1.event_word_34C
+
+0x845D 0x17 IF <> <if compare flag is false, skip next op>
+0x845E 0x11 PRINT "'"
+
+0x8462 0x17 IF <> <if compare flag is false, skip next op>
+0x8463 0x00 EXIT
+0x8464 0x11 PRINT " THEN GO TO THE COMPUTER ON LEVEL 4 AND SHUT AIRLOCK 2. THAT SHOULD HOLD RAM A WHILE.'"
+
+0x84AA 0x2F AND area2.event_scratch1 = 63 & abs_C04F
+
+0x84B3 0x25 ON GOTO area2.event_scratch1 of [0x8530, 0x852F, 0x867D, 0x87DF, 0x8855, 0x88D2, 0x8978, 0x9D61, 0x852F, 0x89AE, 0x8B0E, 0x8C22, 0x9E94, 0x8F6F, 0x8F70, 0x9385, 0x9029, 0x90C6, 0x90C7, 0x9891, 0x98DC, 0x98DD, 0x9C90, 0x9988, 0x852F, 0x852F, 0x852F, 0x9C15, 0x99A7, 0x852F, 0x852F, 0x99BB, 0x9C15, 0x9F03, 0x852F, 0x99D4, 0x99D5, 0x852F, 0x9B23]
+
+0x852E 0x00 EXIT
+0x852F 0x00 EXIT
+0x8530 0x2F AND area2.event_scratch0 = 32 & area1.event_word_34E
+
+0x8539 0x17 IF <> <if compare flag is false, skip next op>
+0x853A 0x01 GOTO 0x8569
+
+0x853E 0x03 COMPARE Values: area1.event_word_352 == 1
+
+0x8544 0x17 IF <> <if compare flag is false, skip next op>
+0x8545 0x00 EXIT
+0x8546 0x2F AND area2.event_scratch0 = 16 & area1.event_word_34C
+
+0x854F 0x17 IF <> <if compare flag is false, skip next op>
+0x8550 0x01 GOTO 0x85CC
+
+0x8554 0x03 COMPARE Values: 5 == area1.event_word_206
+
+0x855A 0x16 IF = <if compare flag is false, skip next op>
+0x855B 0x01 GOTO 0x85E6
+
+0x855F 0x04 ADD area1.event_word_206 = 1 + area1.event_word_206
+
+0x8568 0x00 EXIT
+0x8569 0x03 COMPARE Values: area1.event_word_20C == 0
+
+0x856F 0x16 IF = <if compare flag is false, skip next op>
+0x8570 0x01 GOTO 0x85A9
+
+0x8574 0x03 COMPARE Values: 10 == area1.event_word_20C
+
+0x857A 0x18 IF < <if compare flag is false, skip next op>
+0x857B 0x01 GOTO 0x8593
+
+0x857F 0x06 DIVIDE area2.event_scratch0 = area1.event_word_20C / 5; area2.division_remainder = area1.event_word_20C % 5
+
+0x8588 0x03 COMPARE Values: 0 == area2.division_remainder
+
+0x858E 0x17 IF <> <if compare flag is false, skip next op>
+0x858F 0x01 GOTO 0x859F
+
+0x8593 0x12 PRINTCLEAR "'"
+
+0x8597 0x11 PRINT area1.event_word_20C
+
+0x859B 0x11 PRINT "'"
+
+0x859F 0x05 SUBTRACT area1.event_word_20C = area1.event_word_20C - 1
+
+0x85A8 0x00 EXIT
+0x85A9 0x12 PRINTCLEAR 'THE BASE ERUPTS IN FLAME!'
+
+0x85CC 0x03 COMPARE Values: 30 == area1.event_word_208
+
+0x85D2 0x16 IF = <if compare flag is false, skip next op>
+0x85D3 0x2F AND area1.event_word_34C = 239 & area1.event_word_34C
+
+0x85DC 0x04 ADD area1.event_word_208 = 1 + area1.event_word_208
+
+0x85E5 0x00 EXIT
+0x85E6 0x09 SAVE area1.event_word_206 = 0
+
+0x85EC 0x08 RANDOM area2.event_scratch0 = random 1..99
+
+0x85F2 0x03 COMPARE Values: 15 == area2.event_scratch0
+
+0x85F8 0x19 IF > <if compare flag is false, skip next op>
+0x85F9 0x00 EXIT
+0x85FA 0x08 RANDOM area2.event_scratch0 = random 1..2
+
+0x8600 0x25 ON GOTO area2.event_scratch0 of [0x8641, 0x8610, 0x865F]
+
+0x860F 0x00 EXIT
+0x8610 0x0C SETUP MONSTER sprite_id: 52 max_distance: 0 pic_id: 255
+
+0x8617 0x00 EXIT
+
+0x8641 0x0C SETUP MONSTER sprite_id: 47 max_distance: 0 pic_id: 255
+
+0x8648 0x00 EXIT
+
+0x865F 0x0C SETUP MONSTER sprite_id: 49 max_distance: 0 pic_id: 255
+
+0x8666 0x00 EXIT
+
+0x867D 0x12 PRINTCLEAR 'AN ELEVATOR. DO YOU USE IT?'
+
+0x87DF 0x03 COMPARE Values: 1 == area1.event_word_352
+
+0x87E5 0x17 IF <> <if compare flag is false, skip next op>
+0x87E6 0x00 EXIT
+0x87E7 0x2F AND area2.event_scratch0 = 64 & area1.event_word_34E
+
+0x87F0 0x17 IF <> <if compare flag is false, skip next op>
+0x87F1 0x00 EXIT
+0x87F2 0x30 OR area1.event_word_34E = 64 | area1.event_word_34E
+
+0x87FB 0x12 PRINTCLEAR "YOU FIND A BADLY INJURED MAN IN THE CORNER OF THE ROOM. 'PLEASE TAKE MY ARMOR... PUT IT TO GOOD USE.'"
+
+0x8855 0x2F AND area2.event_scratch0 = 8 & area1.event_word_348
+
+0x885E 0x17 IF <> <if compare flag is false, skip next op>
+0x885F 0x00 EXIT
+0x8860 0x30 OR area1.event_word_348 = 8 | area1.event_word_348
+
+0x8869 0x2F AND area2.event_scratch0 = 16 & area1.event_word_348
+
+0x8872 0x16 IF = <if compare flag is false, skip next op>
+0x8873 0x00 EXIT
+0x8874 0x12 PRINTCLEAR "A MAN WALKS UP. 'I HEARD ABOUT YOUR CONVERSATION WITH DR. HAMPSHIRE. THIS WEAPON MAY HELP YOUR INQUIRIES.'"
+
+0x88D2 0x2F AND area2.event_scratch0 = 32 & area1.event_word_348
+
+0x88DB 0x17 IF <> <if compare flag is false, skip next op>
+0x88DC 0x01 GOTO 0x8962
+
+0x88E0 0x12 PRINTCLEAR "A VOLUBLE, BESPECKLED MAN GREETS YOU ENTHUSIASTICALLY. 'WHAT DO YOU HAVE WITH YOU. HMM, NON-NEO DESIGN. SEE DR. HAMPSHIRE, HE'S AN EXPERT IN ELECTRONICS.'"
+
+0x8962 0x12 PRINTCLEAR "'I AM BUSY RIGHT NOW.'"
+
+0x8978 0x2F AND area2.event_scratch0 = 32 & area1.event_word_34A
+
+0x8981 0x16 IF = <if compare flag is false, skip next op>
+0x8982 0x00 EXIT
+0x8983 0x03 COMPARE Values: 4 == area1.event_word_350
+
+0x8989 0x16 IF = <if compare flag is false, skip next op>
+0x898A 0x00 EXIT
+0x898B 0x12 PRINTCLEAR 'YOU FIND A SET OF CODE 4 CARDS.'
+
+0x89AE 0x2F AND area2.event_scratch0 = 16 & area1.event_word_348
+
+0x89B7 0x17 IF <> <if compare flag is false, skip next op>
+0x89B8 0x01 GOTO 0x8AEB
+
+0x89BC 0x12 PRINTCLEAR "AN ELDERLY FELLOW RISES AT YOUR APPROACH. 'I AM DR. HAMPSHIRE. LET ME SEE THE DEVICE.'"
+
+0x8AEB 0x12 PRINTCLEAR "'I ALREADY TOLD YOU EVERYTHING I KNOW.'"
+
+0x8B0E 0x2F AND area2.event_scratch0 = 16 & area1.event_word_34A
+
+0x8B17 0x17 IF <> <if compare flag is false, skip next op>
+0x8B18 0x00 EXIT
+0x8B19 0x12 PRINTCLEAR "YOU ENTER A CLUTTERED ROOM. YOU SEE A NAMETAG THAT SAYS 'ZACHARY CEBERT'."
+
+0x8C22 0x2F AND area2.event_scratch0 = 32 & area1.event_word_34A
+
+0x8C2B 0x17 IF <> <if compare flag is false, skip next op>
+0x8C2C 0x00 EXIT
+0x8C2D 0x2F AND area2.event_scratch0 = 2 & area1.event_word_34E
+
+0x8C36 0x17 IF <> <if compare flag is false, skip next op>
+0x8C37 0x00 EXIT
+0x8C38 0x2F AND area2.event_scratch0 = area1.event_word_34A & 16
+
+0x8C41 0x16 IF = <if compare flag is false, skip next op>
+0x8C42 0x00 EXIT
+0x8C43 0x2F AND area2.event_scratch0 = 1 & area1.event_word_356
+
+0x8C4C 0x16 IF = <if compare flag is false, skip next op>
+0x8C4D 0x00 EXIT
+0x8C4E 0x12 PRINTCLEAR 'THIS IS THE MENS ROOM. A MAN WALKS UP TO YOU AND SPEAKS..'
+
+0x8C7C 0x33 PRINT RETURN
+0x8C7D 0x11 PRINT "'ARE YOU ZACHARY?'"
+
+0x8C8E 0x2B HORIZONTAL MENU area2.event_scratch0 = <selected index from menu> MENU: 'FAST TALK', 'TELL THE TRUTH'
+
+0x8CAA 0x03 COMPARE Values: 1 == area2.event_scratch0
+
+0x8CB0 0x16 IF = <if compare flag is false, skip next op>
+0x8CB1 0x01 GOTO 0x8DD1
+
+0x8CB5 0x39 WHO <select player> 'WHO MAKES THE ATTEMPT?'
+
+0x8CC9 0x03 COMPARE Values: 1 == area2.selected_player_in_combat
+
+0x8CCF 0x17 IF <> <if compare flag is false, skip next op>
+0x8CD0 0x01 GOTO 0x8CB5
+
+0x8CD4 0x09 SAVE area2.event_scratch0 = 0
+
+0x8CDA 0x09 SAVE area2.event_scratch1 = 3
+
+0x8CE0 0x22 PARTY SURPRISE zone: 76, result: area2.event_scratch0
+
+0x8CE9 0x03 COMPARE Values: 2 == area2.event_scratch1
+
+0x8CEF 0x18 IF < <if compare flag is false, skip next op>
+0x8CF0 0x01 GOTO 0x8DD1
+
+0x8CF4 0x12 PRINTCLEAR "'TELL US THE WORD:'"
+
+0x8D06 0x10 INPUT STRING area2.event_scratch0 = <user input string>
+
+0x8D0C 0x03 COMPARE Values: 32633 == abs_0004
+
+0x8D16 0x17 IF <> <if compare flag is false, skip next op>
+0x8D17 0x01 GOTO 0x8DD1
+
+0x8D1C 0x00 EXIT
+
+0x8DD1 0x12 PRINTCLEAR 'THE MAN IS JOINED BY OTHERS FROM THE STALLS.'
+
+0x8F6F 0x00 EXIT
+0x8F70 0x03 COMPARE Values: 1 == area1.event_word_352
+
+0x8F76 0x16 IF = <if compare flag is false, skip next op>
+0x8F77 0x01 GOTO 0x8F92
+
+0x8F7B 0x12 PRINTCLEAR 'THIS IS THE DANCE HALL.'
+
+0x8F92 0x2F AND area2.event_scratch0 = 2 & area1.event_word_34C
+
+0x8F9B 0x17 IF <> <if compare flag is false, skip next op>
+0x8F9C 0x00 EXIT
+0x8F9D 0x12 PRINTCLEAR "A CROWD OF CIVILIANS IS HUDDLED BEHIND THE PLAYER PIANO. ONE CRIES, 'THANK GOD YOU'VE COME! YOU MUST ESCORT US TO AIRLOCK 1.' THE CROWD FORMS A RAGGED PACK BEHIND YOU."
+
+0x9029 0x2F AND area2.event_scratch0 = 2 & area1.event_word_34A
+
+0x9032 0x17 IF <> <if compare flag is false, skip next op>
+0x9033 0x00 EXIT
+0x9034 0x2F AND area2.event_scratch0 = 8 & area1.event_word_34C
+
+0x903D 0x16 IF = <if compare flag is false, skip next op>
+0x903E 0x00 EXIT
+0x903F 0x12 PRINTCLEAR 'ZACHARY IS HERE PROTECTED BY A RAM INFILTRATION TEAM.'
+
+0x906A 0x0C SETUP MONSTER sprite_id: 51 max_distance: 0 pic_id: 255
+
+0x9071 0x00 EXIT
+
+0x90C7 0x2F AND area2.event_scratch0 = 16 & area1.event_word_34E
+
+0x90D0 0x17 IF <> <if compare flag is false, skip next op>
+0x90D1 0x01 GOTO 0x91E5
+
+0x90D5 0x2F AND area2.event_scratch0 = 16 & area1.event_word_34C
+
+0x90DE 0x17 IF <> <if compare flag is false, skip next op>
+0x90DF 0x00 EXIT
+0x90E0 0x03 COMPARE Values: 0 == area1.event_word_208
+
+0x90E6 0x19 IF > <if compare flag is false, skip next op>
+0x90E7 0x00 EXIT
+0x90E8 0x12 PRINTCLEAR 'THERE IS A COMPUTER HERE. DO YOU ATTEMPT TO USE IT?'
+
+0x91E5 0x2F AND area2.event_scratch0 = 32 & area1.event_word_34E
+
+0x91EE 0x17 IF <> <if compare flag is false, skip next op>
+0x91EF 0x00 EXIT
+0x91F0 0x12 PRINTCLEAR 'THE COMPUTER ASKS FOR A PASSWORD:'
+
+0x920C 0x10 INPUT STRING area2.event_scratch0 = <user input string>
+
+0x9212 0x03 COMPARE Values: 32633 == abs_0006
+
+0x921E 0x17 IF <> <if compare flag is false, skip next op>
+0x921F 0x01 GOTO 0x92B7
+
+0x9224 0x00 EXIT
+
+0x92B7 0x12 PRINTCLEAR "'PASSWORD IS INCORRECT FOR DESIRED TASK. SECURITY HAS BEEN INFORMED.'"
+
+0x92EE 0x33 PRINT RETURN
+0x92EF 0x12 PRINTCLEAR 'YOU NOTE A SUBROUTINE CONTAINING PASSWORDS. DO YOU TRY TO ACCESS?'
+
+0x9385 0x2F AND area2.event_scratch0 = 64 & area1.event_word_34A
+
+0x938E 0x17 IF <> <if compare flag is false, skip next op>
+0x938F 0x01 GOTO 0x946A
+
+0x9393 0x03 COMPARE Values: 0 == area1.event_word_350
+
+0x9399 0x19 IF > <if compare flag is false, skip next op>
+0x939A 0x01 GOTO 0x9856
+
+0x939E 0x12 PRINTCLEAR "MR. FREDRICKSON LOOKS UP. 'IT TOOK SOME TIME FOR YOUR FILES TO BE TRANSFERRED FROM SALVATION. FOR NOW, HERE ARE LEVEL 1 SECURITY PASSES. I'LL GET YOU BETTER ONES WHEN THE PAPERWORK COMES THROUGH."
+
+0x946A 0x2F AND area2.event_scratch0 = 128 & area1.event_word_348
+
+0x9473 0x17 IF <> <if compare flag is false, skip next op>
+0x9474 0x01 GOTO 0x9537
+
+0x9478 0x12 PRINTCLEAR "THE DIRECTOR LOOKS UP. 'SECURITY HAS COMPLETED THE NECESSARY FORMS TO GRANT YOU CODE 3 PASSCARDS."
+
+0x9537 0x2F AND area2.event_scratch0 = 32 & area1.event_word_34C
+
+0x9540 0x17 IF <> <if compare flag is false, skip next op>
+0x9541 0x01 GOTO 0x95F4
+
+0x9545 0x2F AND area2.event_scratch0 = 16 & area1.event_word_348
+
+0x954E 0x16 IF = <if compare flag is false, skip next op>
+0x954F 0x01 GOTO 0x9856
+
+0x9553 0x12 PRINTCLEAR "THE DIRECTOR LOOKS WORRIED. 'DR. HAMPSHIRE EXPLAINED WHAT YOU DISCOVERED. INVESTIGATE CREWMAN CEBERT SOME MORE. HE MAY BE ONLY THE TIP OF A CONSPIRACY. RETURN IF MORE EVIDENCE TURNS UP. GOOD DAY.'"
+
+0x95F4 0x2F AND area2.event_scratch0 = 32 & area1.event_word_34A
+
+0x95FD 0x16 IF = <if compare flag is false, skip next op>
+0x95FE 0x01 GOTO 0x9856
+
+0x9602 0x03 COMPARE Values: area1.event_word_352 == 1
+
+0x9608 0x16 IF = <if compare flag is false, skip next op>
+0x9609 0x00 EXIT
+0x960A 0x12 PRINTCLEAR "THE DIRECTOR SHUTS OFF HIS VIDPHONE AS YOU ENTER. 'I HEARD YOU HAD NEW INFORMATION. I ALSO AM GETTING UNUSUAL REPORTS FROM EXTERNAL SECURITY. SOMETHING IS ABOUT TO HAPPEN."
+
+0x9856 0x12 PRINTCLEAR "MR. FREDRICKSON GETS UP. 'I'M SORRY, BUT NO NEW WORD ON YOUR PAPERWORK."
+
+0x9891 0x2F AND area2.event_scratch0 = area1.event_word_34A & 2
+
+0x989A 0x16 IF = <if compare flag is false, skip next op>
+0x989B 0x01 GOTO 0x98CD
+
+0x989F 0x2F AND area2.event_scratch0 = 64 & area1.event_word_34C
+
+0x98A8 0x17 IF <> <if compare flag is false, skip next op>
+0x98A9 0x00 EXIT
+0x98AA 0x12 PRINTCLEAR 'YOU PUT ZACHARY IN THE JAIL.'
+
+0x98CD 0x12 PRINTCLEAR 'AN EMPTY CELL.'
+
+0x98DB 0x00 EXIT
+0x98DC 0x00 EXIT
+0x98DD 0x2F AND area2.event_scratch0 = 1 & area1.event_word_34E
+
+0x98E6 0x17 IF <> <if compare flag is false, skip next op>
+0x98E7 0x00 EXIT
+0x98E8 0x2F AND area2.event_scratch0 = 2 & area1.event_word_34C
+
+0x98F1 0x16 IF = <if compare flag is false, skip next op>
+0x98F2 0x00 EXIT
+
+0x98F4 0x00 EXIT
+
+0x9988 0x03 COMPARE Values: 0 == mapDirection
+
+0x998E 0x17 IF <> <if compare flag is false, skip next op>
+0x998F 0x00 EXIT
+0x9990 0x12 PRINTCLEAR 'AIRLOCK 1 IS BEFORE YOU.'
+
+0x99A7 0x12 PRINTCLEAR 'THIS IS A CREW CABIN.'
+
+0x99BA 0x00 EXIT
+0x99BB 0x12 PRINTCLEAR 'THIS IS THE GUEST QUARTERS.'
+
+0x99D3 0x00 EXIT
+0x99D4 0x00 EXIT
+0x99D5 0x03 COMPARE Values: 3 == mapDirection
+
+0x99DB 0x16 IF = <if compare flag is false, skip next op>
+0x99DC 0x00 EXIT
+0x99DD 0x03 COMPARE Values: 1 == area1.event_word_352
+
+0x99E3 0x16 IF = <if compare flag is false, skip next op>
+0x99E4 0x01 GOTO 0x9A04
+
+0x99E8 0x01 GOTO 0x99EC
+
+0x99EC 0x12 PRINTCLEAR "A SIGN READS, 'AIRLOCK 2.'"
+
+0x9A03 0x00 EXIT
+0x9A04 0x2F AND area2.event_scratch0 = 128 & area1.event_word_34C
+
+0x9A0D 0x17 IF <> <if compare flag is false, skip next op>
+0x9A0E 0x01 GOTO 0x99EC
+
+0x9A12 0x2F AND area2.event_scratch0 = 1 & area1.event_word_34E
+
+0x9A1B 0x16 IF = <if compare flag is false, skip next op>
+0x9A1C 0x01 GOTO 0x99EC
+
+0x9A20 0x12 PRINTCLEAR 'RAM FORCES ATTACK!'
+
+0x9A32 0x00 EXIT
+
+0x9B23 0x2F AND area2.event_scratch0 = 64 & area1.event_word_34A
+
+0x9B2C 0x17 IF <> <if compare flag is false, skip next op>
+0x9B2D 0x00 EXIT
+0x9B2E 0x12 PRINTCLEAR 'THERE IS A LOT OF JUNK HERE. DO YOU WISH TO SEARCH?'
+
+0x9C15 0x2F AND area2.event_scratch0 = 2 & area1.event_word_34E
+
+0x9C1E 0x16 IF = <if compare flag is false, skip next op>
+0x9C1F 0x00 EXIT
+0x9C20 0x12 PRINTCLEAR 'YOU SPOT THE SPY THAT ESCAPED! HE AND OTHERS ATTACK!'
+
+0x9C90 0x03 COMPARE Values: 1 == area1.event_word_352
+
+0x9C96 0x17 IF <> <if compare flag is false, skip next op>
+0x9C97 0x01 GOTO 0x9CB3
+
+0x9C9B 0x2F AND area2.event_scratch0 = 4 & area1.event_word_34E
+
+0x9CA4 0x17 IF <> <if compare flag is false, skip next op>
+0x9CA5 0x00 EXIT
+0x9CA6 0x30 OR area1.event_word_34E = 4 | area1.event_word_34E
+
+0x9CAF 0x01 GOTO 0x865F
+
+0x9CB3 0x2F AND area2.event_scratch0 = 128 & area1.event_word_34E
+
+0x9CBC 0x17 IF <> <if compare flag is false, skip next op>
+0x9CBD 0x00 EXIT
+0x9CBE 0x03 COMPARE Values: 0 == area1.event_word_350
+
+0x9CC4 0x16 IF = <if compare flag is false, skip next op>
+0x9CC5 0x00 EXIT
+0x9CC6 0x12 PRINTCLEAR "A GUARD APPROACHES. 'OUR SENSORS HAVE DETECTED UNUSUAL MAGNETIC READINGS FROM THE BASEMENT. THEY MAY BE INVOLVED IN YOUR INVESTIGATION. PLEASE KEEP THE DIRECTOR INFORMED OF ANY PROGRESS.'"
+
+0x9D61 0x2F AND area2.event_scratch0 = 8 & area1.event_word_34E
+
+0x9D6A 0x16 IF = <if compare flag is false, skip next op>
+0x9D6B 0x01 GOTO 0x9E5F
+
+0x9D6F 0x2F AND area2.event_scratch0 = 16 & area1.event_word_34E
+
+0x9D78 0x17 IF <> <if compare flag is false, skip next op>
+0x9D79 0x01 GOTO 0x9E5F
+
+0x9D7D 0x12 PRINTCLEAR "THE WARRIOR QUICKLY PULLS THE COVER FROM THE CONTROLS. 'DARN! I CAN'T BYPASS ALL THE CODES WITH THE DIRECTOR DEAD."
+
+0x9E5F 0x12 PRINTCLEAR "THE SIGN ABOVE THE COMPUTER READS 'SECONDARY COMPUTER CONTROL.'"
+
+0x9E94 0x2F AND area2.event_scratch0 = 32 & area1.event_word_34E
+
+0x9E9D 0x16 IF = <if compare flag is false, skip next op>
+0x9E9E 0x01 GOTO 0x9EEA
+
+0x9EA3 0x00 EXIT
+
+0x9EEA 0x12 PRINTCLEAR 'THIS IS THE EMERGENCY HATCH.'
+
+0x9F02 0x00 EXIT
+0x9F03 0x2F AND area2.event_scratch0 = 32 & area1.event_word_34C
+
+0x9F0C 0x16 IF = <if compare flag is false, skip next op>
+0x9F0D 0x00 EXIT
+0x9F0E 0x2F AND area2.event_scratch0 = 1 & area1.event_word_356
+
+0x9F17 0x17 IF <> <if compare flag is false, skip next op>
+0x9F18 0x00 EXIT
+0x9F19 0x12 PRINTCLEAR "THE SECURITY CHIEF GREETS YOU. 'ONE OF MY MEN NOTED SOMEONE SUSPICIOUS ON THE CABIN LEVEL, BUT HE LOST THE MAN. YOU MIGHT WANT TO FOLLOW UP.'"
+
+Text fallthrough boundaries skipped:
+- 0x82D9: 0x29 after PRINTCLEAR
+- 0x8695: 0x2C after PRINTCLEAR
+- 0x884A: 0x29 after PRINTCLEAR
+- 0x88C7: 0x29 after PRINTCLEAR
+- 0x8957: 0x29 after PRINTCLEAR
+- 0x89A6: 0x29 after PRINTCLEAR
+- 0x9DD6: 0x29 after PRINTCLEAR
+- 0x8A00: 0x29 after PRINTCLEAR
+- 0x8B53: 0x29 after PRINTCLEAR
+- 0x8F90: 0x29 after PRINTCLEAR
+- 0x9434: 0x29 after PRINTCLEAR
+- 0x9112: 0x2C after PRINTCLEAR
+- 0x98C2: 0x29 after PRINTCLEAR
+- 0x99A5: 0x29 after PRINTCLEAR
+- 0x9C4A: 0x29 after PRINTCLEAR
+- 0x9F86: 0x29 after PRINTCLEAR
+- 0x9B58: 0x2C after PRINTCLEAR
+- 0x838C: 0x29 after PRINTCLEAR
+- 0x83CD: 0x29 after PRINTCLEAR
+- 0x8328: 0x29 after PRINTCLEAR
+- 0x84A8: 0x29 after PRINT
+- 0x8976: 0x29 after PRINTCLEAR
+- 0x9E92: 0x29 after PRINTCLEAR
+- 0x8B0C: 0x29 after PRINTCLEAR
+- 0x8DF5: 0x29 after PRINTCLEAR
+- 0x901E: 0x29 after PRINTCLEAR
+- 0x94C4: 0x29 after PRINTCLEAR
+- 0x988F: 0x29 after PRINTCLEAR
+- 0x9D56: 0x29 after PRINTCLEAR
+- 0x85BF: 0x29 after PRINTCLEAR
+- 0x95E9: 0x29 after PRINTCLEAR
+- 0x9323: 0x2C after PRINTCLEAR
+- 0x968E: 0x29 after PRINTCLEAR
+
+Prefixed fallthroughs normalized:
+- 0x8CE6 -> 0x8CE9
+
+Unknown-prefixed branch targets normalized:
+- 0x90C6 -> 0x90C7 from ON GOTO
+
+Unknown-prefixed fallthroughs normalized:
+- 0x804C -> 0x804D
+- 0x8D1B -> 0x8D1C
+- 0x9EA2 -> 0x9EA3
+- 0x98F3 -> 0x98F4
+- 0x9223 -> 0x9224
+- 0x9A31 -> 0x9A32

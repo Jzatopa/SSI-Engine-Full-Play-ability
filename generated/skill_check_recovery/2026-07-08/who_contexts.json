@@ -1,0 +1,77 @@
+[
+  {
+    "block_id": 35,
+    "address": 36533,
+    "address_hex": "0x8EB5",
+    "prompt": "WHO WILL REPROGRAM?",
+    "row": "0x8EB5 0x39 WHO <select player> 'WHO WILL REPROGRAM?'",
+    "branch_region_target": "0x8EB5",
+    "branch_region_incoming": [
+      "0x8ECE GOTO 0x8EB5"
+    ],
+    "previous_rows": [
+      "0x8E5A 0x12 PRINTCLEAR \"MAVROUDIS' OFFICE IS IMMACULATE, AND SMELLS STRONGLY OF LEATHER. AGAINST THE EAST WALL IS A COMPUTER.\"",
+      "0x8EA9 0x00 EXIT",
+      "0x8EAA 0x2F AND area2.event_scratch0 = area1.event_word_3AE & 128",
+      "0x8EB3 0x17 IF <> <if compare flag is false, skip next op>",
+      "0x8EB4 0x00 EXIT"
+    ],
+    "following_rows": [
+      "0x8EC7 0x03 COMPARE Values: 1 == area2.selected_player_in_combat",
+      "0x8ECD 0x17 IF <> <if compare flag is false, skip next op>",
+      "0x8ECE 0x01 GOTO 0x8EB5",
+      "0x8ED2 0x02 GOSUB 0x9EBF",
+      "0x8ED6 0x03 COMPARE Values: 2 == area2.event_scratch2"
+    ]
+  },
+  {
+    "block_id": 35,
+    "address": 41320,
+    "address_hex": "0xA168",
+    "prompt": "WHO WILL FAST TALK?",
+    "row": "0xA168 0x39 WHO <select player> 'WHO WILL FAST TALK?'",
+    "branch_region_target": "0xA168",
+    "branch_region_incoming": [
+      "0x9FC3 ON GOTO area2.event_scratch0 choice 2"
+    ],
+    "previous_rows": [
+      "0xA107 0x12 PRINTCLEAR 'YOU LEAVE, MAKING THE GUARDS MORE SUSPICIOUS.'",
+      "0xA12C 0x04 ADD area1.event_word_204 = area1.event_word_204 + 1",
+      "0xA137 0x12 PRINTCLEAR 'YOU ATTEMPT TO SURRENDER, BUT THE GUARDS ATTACK!'",
+      "0xA15E 0x09 SAVE area2.surprise_result = 1",
+      "0xA164 0x01 GOTO 0xA0AC"
+    ],
+    "following_rows": [
+      "0xA17A 0x09 SAVE area2.event_scratch1 = 0",
+      "0xA180 0x09 SAVE area2.event_scratch2 = 2",
+      "0xA186 0x22 PARTY SURPRISE zone: 76, result: area2.event_scratch1",
+      "0xA18F 0x03 COMPARE Values: 2 == area2.event_scratch2",
+      "0xA195 0x18 IF < <if compare flag is false, skip next op>"
+    ]
+  },
+  {
+    "block_id": 82,
+    "address": 36021,
+    "address_hex": "0x8CB5",
+    "prompt": "WHO MAKES THE ATTEMPT?",
+    "row": "0x8CB5 0x39 WHO <select player> 'WHO MAKES THE ATTEMPT?'",
+    "branch_region_target": "0x8CB5",
+    "branch_region_incoming": [
+      "0x8CD0 GOTO 0x8CB5"
+    ],
+    "previous_rows": [
+      "0x8C7D 0x11 PRINT \"'ARE YOU ZACHARY?'\"",
+      "0x8C8E 0x2B HORIZONTAL MENU area2.event_scratch0 = <selected index from menu> MENU: 'FAST TALK', 'TELL THE TRUTH'",
+      "0x8CAA 0x03 COMPARE Values: 1 == area2.event_scratch0",
+      "0x8CB0 0x16 IF = <if compare flag is false, skip next op>",
+      "0x8CB1 0x01 GOTO 0x8DD1"
+    ],
+    "following_rows": [
+      "0x8CC9 0x03 COMPARE Values: 1 == area2.selected_player_in_combat",
+      "0x8CCF 0x17 IF <> <if compare flag is false, skip next op>",
+      "0x8CD0 0x01 GOTO 0x8CB5",
+      "0x8CD4 0x09 SAVE area2.event_scratch0 = 0",
+      "0x8CDA 0x09 SAVE area2.event_scratch1 = 3"
+    ]
+  }
+]

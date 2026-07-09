@@ -1,0 +1,51 @@
+[state-migrations] Legacy state migration warnings:
+- Skipped Memory Core legacy memory index import for agent main because legacy rows could not be imported: Error: legacy memory meta rows conflict with canonical memory index rows
+│
+◇  Doctor warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - Skipped Memory Core legacy memory index import for agent main         │
+│    because legacy rows could not be imported: Error: legacy memory meta  │
+│    rows conflict with canonical memory index rows                        │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+model.run via local
+provider: ollama
+model: qwen3-coder:30b
+outputs: 1
+# Matrix Cubed Reconstruction: Ghidra-to-COAB Candidate Matching
+
+## VERIFIED_FROM_PROMPT
+
+This task requires mapping decompiled Ghidra functions from `GAME.OVR` to potential COAB analogues within the `ovr006.cs` file. Only verified, local validation steps will be used; no assumptions about API paths, offsets, or source code are made beyond what is present in the provided evidence.
+
+## CANDIDATES
+
+| ghidra_file             | likely_subsystem     | possible_coab_file_function            | confidence | why                                                                 |
+|-------------------------|----------------------|----------------------------------------|------------|----------------------------------------------------------------------|
+| 0000_6283_FUN_0000_6283.c | Memory manipulation  | `CleanupPlayersStateAfterCombat`       | Low        | Function modifies memory with arithmetic operations; may relate to cleanup. |
+| 0000_6308_FUN_0000_6308.c | Condition check      | `select_treasure`                      | Low        | Contains conditional logic based on byte values, possibly treasure selection. |
+
+## RISKS
+
+- **False Positive Matches**: Function signatures and low-level operations may appear similar without semantic alignment.
+- **Incomplete Evidence**: No clear evidence of treasure or combat-related data structures in either function.
+- **Byte-level Ambiguity**: Memory offsets and register usage do not strongly align with known COAB subsystems.
+
+## LOCAL_VALIDATION_STEPS
+
+### For `FUN_0000_6283`:
+1. Compare byte pattern at `0x6283` against `CleanupPlayersStateAfterCombat`.
+2. Validate if memory modification (`*pcVar1 += in_BX`) corresponds to player state reset logic.
+3. Confirm whether local variables match expected COAB structures (e.g., player object or combat state).
+
+### For `FUN_0000_6308`:
+1. Locate `select_treasure` function in `ovr006.cs`.
+2. Compare parameter types and usage of `param_2` with internal treasure index handling.
+3. Verify conditional branches (`< 3`, `== '\0'`) against known treasure selection logic.
+
+## UNSUPPORTED_CLAIMS
+
+- No match confirmed for combat-related functions like `calc_battle_exp` or `displayCombatResults`.
+- Neither function shows clear indication of item/treasure distribution logic from `distributeCombatTreasure` or `take_treasure`.
+- No direct reference to class ID checks (`ClassId.mc_c_f`, etc.) found in either function.
+- No evidence linking to NPC treasure sharing (`npcTreasureShareCount`) or memory deallocation logic (`DeallocateNonTeamMemebers`).

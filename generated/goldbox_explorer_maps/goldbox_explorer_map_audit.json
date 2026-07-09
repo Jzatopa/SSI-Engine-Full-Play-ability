@@ -1,0 +1,272 @@
+{
+  "source": "Gold Box Explorer Common/Plugins/GeoDax/GeoDaxFile.cs MatrixCubed map table",
+  "gold_box_explorer_source": "/home/jzatopa/Downloads/goldboxexplorer/Common/Plugins/GeoDax/GeoDaxFile.cs",
+  "game_dir": "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX",
+  "geo_archives_present": [
+    "GEO1.DAX"
+  ],
+  "ecl_archives_present": [
+    "ECL1.DAX"
+  ],
+  "summary": {
+    "local_geo_archive_count": 1,
+    "local_ecl_archive_count": 1,
+    "local_geo_block_count": 25,
+    "local_geo_unique_id_count": 25,
+    "gold_box_explorer_named_map_count": 24,
+    "local_ids_missing_from_gold_box_explorer_names": [
+      21
+    ],
+    "gold_box_explorer_ids_missing_locally": [],
+    "all_gold_box_explorer_named_maps_present": true
+  },
+  "local_geo_blocks": [
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 1,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 17,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 18,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 21,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 33,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 34,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 35,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 38,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 49,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 50,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 51,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 52,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 64,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 65,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 66,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 80,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 81,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 82,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 84,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 96,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 97,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 112,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 113,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 114,
+      "decoded_size": 1026
+    },
+    {
+      "archive": "GEO1.DAX",
+      "block_id": 115,
+      "decoded_size": 1026
+    }
+  ],
+  "gold_box_explorer_map_names": [
+    {
+      "geo_id": 1,
+      "name": "Luna Base",
+      "present_locally": true
+    },
+    {
+      "geo_id": 17,
+      "name": "Caloris Space Port",
+      "present_locally": true
+    },
+    {
+      "geo_id": 18,
+      "name": "Asteroid",
+      "present_locally": true
+    },
+    {
+      "geo_id": 33,
+      "name": "Losangelorg Sprawls",
+      "present_locally": true
+    },
+    {
+      "geo_id": 34,
+      "name": "Historical Museum, Levels 2-1",
+      "present_locally": true
+    },
+    {
+      "geo_id": 35,
+      "name": "Asteroid Base",
+      "present_locally": true
+    },
+    {
+      "geo_id": 38,
+      "name": "Losangelorg Sprawls",
+      "present_locally": true
+    },
+    {
+      "geo_id": 49,
+      "name": "Lowlander Village",
+      "present_locally": true
+    },
+    {
+      "geo_id": 50,
+      "name": "Venus Laboratory, Level 1",
+      "present_locally": true
+    },
+    {
+      "geo_id": 51,
+      "name": "Venus Laboratory, Level 2",
+      "present_locally": true
+    },
+    {
+      "geo_id": 52,
+      "name": "Lowlander Mines",
+      "present_locally": true
+    },
+    {
+      "geo_id": 64,
+      "name": "Luna Base",
+      "present_locally": true
+    },
+    {
+      "geo_id": 65,
+      "name": "Tsai Weaponry Labs",
+      "present_locally": true
+    },
+    {
+      "geo_id": 66,
+      "name": "RAM Battler, Deimos Level 19-41",
+      "present_locally": true
+    },
+    {
+      "geo_id": 80,
+      "name": "Mars Prison, Level 1",
+      "present_locally": true
+    },
+    {
+      "geo_id": 81,
+      "name": "PURGE Headquarters, Floors Ground-Upper",
+      "present_locally": true
+    },
+    {
+      "geo_id": 82,
+      "name": "NEO Installation",
+      "present_locally": true
+    },
+    {
+      "geo_id": 84,
+      "name": "Mars Prison, Level 2",
+      "present_locally": true
+    },
+    {
+      "geo_id": 96,
+      "name": "Living Ship",
+      "present_locally": true
+    },
+    {
+      "geo_id": 97,
+      "name": "Living Ship",
+      "present_locally": true
+    },
+    {
+      "geo_id": 112,
+      "name": "Stormrider University",
+      "present_locally": true
+    },
+    {
+      "geo_id": 113,
+      "name": "Genetics Foundation Building, Levels 1-4",
+      "present_locally": true
+    },
+    {
+      "geo_id": 114,
+      "name": "Jupiter Finale",
+      "present_locally": true
+    },
+    {
+      "geo_id": 115,
+      "name": "Jupiter Aircar",
+      "present_locally": true
+    }
+  ]
+}

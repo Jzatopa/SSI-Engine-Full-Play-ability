@@ -1,0 +1,726 @@
+vm_run_1           0x813D
+SearchLocation     0x8913
+PreCampCheck       0x813C
+CampInterrupted    0x813C
+ecl_initial_entry  0x8014
+
+0x8014 0x03 COMPARE Values: area1.LastEclBlockId == 49
+
+0x801A 0x16 IF = <if compare flag is false, skip next op>
+0x801B 0x00 EXIT
+0x801C 0x09 SAVE area1.inDungeon = 128
+
+0x8022 0x09 SAVE area1.event_word_3FA = 255
+
+0x8028 0x09 SAVE area2.word_58C = 80
+
+0x802E 0x09 SAVE area1.block_area_view = 0
+
+0x8034 0x09 SAVE area1.word_1CE = 1
+
+0x803A 0x09 SAVE area1.word_1D0 = 1
+
+0x8040 0x09 SAVE area1.word_1D2 = 1
+
+0x8046 0x03 COMPARE Values: area1.LastEclBlockId == 50
+
+0x804C 0x16 IF = <if compare flag is false, skip next op>
+0x804D 0x01 GOTO 0x80FE
+
+0x8051 0x21 LOAD FILES Load GEO 49 raw=(49, 127, 255)
+
+0x8058 0x37 LOAD PIECES Load WALLDEF 127 127 13
+
+0x8060 0x00 EXIT
+
+0x80FE 0x21 LOAD FILES Load GEO 52 raw=(52, 127, 255)
+
+0x8105 0x37 LOAD PIECES Load WALLDEF 127 127 9
+
+0x810C 0x09 SAVE mapPosX = 15
+
+0x8112 0x09 SAVE mapPosY = 3
+
+0x8118 0x09 SAVE area1.event_word_208 = 52
+
+0x811E 0x09 SAVE area1.inDungeon = 128
+
+0x8125 0x00 EXIT
+
+0x813D 0x09 SAVE area1.LastEclBlockId = 49
+
+0x8143 0x14 COMPARE AND Values: 1 == mapPosX && 10 == mapPosY
+
+0x814E 0x16 IF = <if compare flag is false, skip next op>
+0x814F 0x03 COMPARE Values: mapDirection == 0
+
+0x8155 0x16 IF = <if compare flag is false, skip next op>
+0x8156 0x01 GOTO 0x8267
+
+0x815A 0x14 COMPARE AND Values: 2 == mapPosX && 10 == mapPosY
+
+0x8165 0x16 IF = <if compare flag is false, skip next op>
+0x8166 0x03 COMPARE Values: mapDirection == 0
+
+0x816C 0x16 IF = <if compare flag is false, skip next op>
+0x816D 0x01 GOTO 0x8267
+
+0x8171 0x14 COMPARE AND Values: 1 == mapPosX && 9 == mapPosY
+
+0x817C 0x16 IF = <if compare flag is false, skip next op>
+0x817D 0x03 COMPARE Values: mapDirection == 2
+
+0x8183 0x16 IF = <if compare flag is false, skip next op>
+0x8184 0x01 GOTO 0x8337
+
+0x8188 0x16 IF = <if compare flag is false, skip next op>
+0x8189 0x03 COMPARE Values: mapDirection == 2
+
+0x818F 0x14 COMPARE AND Values: 2 == mapPosX && 9 == mapPosY
+
+0x819A 0x16 IF = <if compare flag is false, skip next op>
+0x819B 0x03 COMPARE Values: mapDirection == 2
+
+0x81A1 0x16 IF = <if compare flag is false, skip next op>
+0x81A2 0x01 GOTO 0x8337
+
+0x81A6 0x14 COMPARE AND Values: 5 == mapPosX && 14 == mapPosY
+
+0x81B1 0x16 IF = <if compare flag is false, skip next op>
+0x81B2 0x03 COMPARE Values: mapDirection == 3
+
+0x81B8 0x16 IF = <if compare flag is false, skip next op>
+0x81B9 0x01 GOTO 0x83C2
+
+0x81BD 0x14 COMPARE AND Values: 2 == mapPosX && 4 == mapPosY
+
+0x81C8 0x16 IF = <if compare flag is false, skip next op>
+0x81C9 0x03 COMPARE Values: mapDirection == 3
+
+0x81CF 0x16 IF = <if compare flag is false, skip next op>
+0x81D0 0x03 COMPARE Values: area1.event_word_208 == 52
+
+0x81D6 0x16 IF = <if compare flag is false, skip next op>
+0x81D7 0x01 GOTO 0x852B
+
+0x81DB 0x14 COMPARE AND Values: 11 == mapPosX && 10 == mapPosY
+
+0x81E6 0x16 IF = <if compare flag is false, skip next op>
+0x81E7 0x01 GOTO 0x8603
+
+0x81EB 0x14 COMPARE AND Values: 12 == mapPosX && 10 == mapPosY
+
+0x81F6 0x16 IF = <if compare flag is false, skip next op>
+0x81F7 0x01 GOTO 0x8603
+
+0x81FB 0x14 COMPARE AND Values: 11 == mapPosX && 8 == mapPosY
+
+0x8206 0x16 IF = <if compare flag is false, skip next op>
+0x8207 0x01 GOTO 0x8749
+
+0x820B 0x14 COMPARE AND Values: 12 == mapPosX && 8 == mapPosY
+
+0x8216 0x16 IF = <if compare flag is false, skip next op>
+0x8217 0x01 GOTO 0x8749
+
+0x821B 0x14 COMPARE AND Values: 7 == mapPosX && 0 == mapPosY
+
+0x8226 0x16 IF = <if compare flag is false, skip next op>
+0x8227 0x01 GOTO 0x8362
+
+0x822B 0x14 COMPARE AND Values: 7 == mapPosX && 4 == mapPosY
+
+0x8236 0x16 IF = <if compare flag is false, skip next op>
+0x8237 0x01 GOTO 0x8362
+
+0x823B 0x03 COMPARE Values: area2.tried_to_exit_map == 1
+
+0x8241 0x16 IF = <if compare flag is false, skip next op>
+0x8242 0x01 GOTO 0x8247
+
+0x8246 0x00 EXIT
+0x8247 0x14 COMPARE AND Values: 15 == mapPosX && 3 == mapPosY
+
+0x8252 0x16 IF = <if compare flag is false, skip next op>
+0x8253 0x01 GOTO 0x85CD
+
+0x8257 0x14 COMPARE AND Values: 15 == mapPosX && 12 == mapPosY
+
+0x8262 0x16 IF = <if compare flag is false, skip next op>
+0x8263 0x01 GOTO 0x85B3
+
+0x8267 0x03 COMPARE Values: area1.event_word_208 == 49
+
+0x826D 0x17 IF <> <if compare flag is false, skip next op>
+0x826E 0x00 EXIT
+0x826F 0x03 COMPARE Values: mapDirection == 0
+
+0x8275 0x17 IF <> <if compare flag is false, skip next op>
+0x8276 0x00 EXIT
+0x8277 0x2F AND area2.event_scratch0 = 4 & area1.event_word_2E4
+
+0x8280 0x17 IF <> <if compare flag is false, skip next op>
+0x8281 0x01 GOTO 0x82A4
+
+0x8285 0x12 PRINTCLEAR 'THESE DOORS ARE LOCKED. '
+
+0x829A 0x09 SAVE area2.event_scratch3 = 4
+
+0x82A0 0x02 GOSUB 0x844D
+
+0x82A4 0x12 PRINTCLEAR 'YOU ENTER A MODERN INDUSTRIAL COMPLEX. THE BUILDINGS HERE ARE MADE OF FINELY FINISHED PLASTICS AND CERAMICS. THE GROUND IS MARKED BY THE PASSAGE OF MANY HEAVY VEHICLES.'
+
+0x8325 0x09 SAVE area1.inDungeon = 128
+
+0x832B 0x37 LOAD PIECES Load WALLDEF 127 127 11
+
+0x8332 0x2D CALL raw: 0x2DCB, id: 0xADCC
+
+0x8336 0x00 EXIT
+0x8337 0x03 COMPARE Values: area1.event_word_208 == 49
+
+0x833D 0x17 IF <> <if compare flag is false, skip next op>
+0x833E 0x00 EXIT
+0x833F 0x03 COMPARE Values: mapDirection == 2
+
+0x8345 0x17 IF <> <if compare flag is false, skip next op>
+0x8346 0x00 EXIT
+0x8347 0x09 SAVE area1.inDungeon = 128
+
+0x834D 0x21 LOAD FILES Load GEO 49 raw=(49, 127, 255)
+
+0x8354 0x37 LOAD PIECES Load WALLDEF 127 127 13
+
+0x835B 0x09 SAVE area1.event_word_208 = 49
+
+0x8362 0x03 COMPARE Values: mapDirection == 3
+
+0x8368 0x17 IF <> <if compare flag is false, skip next op>
+0x8369 0x00 EXIT
+0x836A 0x03 COMPARE Values: area1.event_word_208 == 52
+
+0x8370 0x17 IF <> <if compare flag is false, skip next op>
+0x8371 0x00 EXIT
+0x8372 0x03 COMPARE Values: area1.event_word_2EE == 1
+
+0x8378 0x17 IF <> <if compare flag is false, skip next op>
+0x8379 0x00 EXIT
+0x837A 0x12 PRINTCLEAR 'RUBBLE BLOCKS THIS DOOR FROM THE OTHER SIDE. LOWLANDERS WORK TO CLEAR THE PASSAGE.'
+
+0x83BB 0x09 SAVE area2.word_592 = 255
+
+0x83C1 0x00 EXIT
+0x83C2 0x03 COMPARE Values: area1.event_word_208 == 49
+
+0x83C8 0x17 IF <> <if compare flag is false, skip next op>
+0x83C9 0x00 EXIT
+0x83CA 0x2F AND area2.event_scratch0 = 2 & area1.event_word_2E4
+
+0x83D3 0x17 IF <> <if compare flag is false, skip next op>
+0x83D4 0x00 EXIT
+0x83D5 0x12 PRINTCLEAR 'THIS SOLID CERAMIC DOOR IS LOCKED. THE WALL IT IS SET IN IS MADE OF A STEEL-STRONG PLASTIC THAT HAS BEEN DISGUISED BEHIND WOVEN PLANT FIBER. '
+
+0x8442 0x09 SAVE area2.event_scratch3 = 2
+
+0x8448 0x02 GOSUB 0x844D
+
+0x844C 0x00 EXIT
+0x844D 0x31 SPRITE OFF
+
+0x8451 0x00 EXIT
+
+0x852B 0x2F AND area2.event_scratch0 = 1 & area1.event_word_2E6
+
+0x8534 0x17 IF <> <if compare flag is false, skip next op>
+0x8535 0x00 EXIT
+0x8536 0x0C SETUP MONSTER sprite_id: 61 max_distance: 2 pic_id: 255
+
+0x853D 0x00 EXIT
+
+0x85B3 0x12 PRINTCLEAR 'DO YOU LEAVE?'
+
+0x85CD 0x2F AND area2.event_scratch0 = 2 & area1.event_word_2E8
+
+0x85D6 0x17 IF <> <if compare flag is false, skip next op>
+0x85D7 0x01 GOTO 0x85E2
+
+0x85DB 0x09 SAVE area2.word_592 = 255
+
+0x85E1 0x00 EXIT
+0x85E2 0x12 PRINTCLEAR 'YOU ENTER THE LOWLANDER LAB COMPLEX.'
+
+0x8600 0x20 NEWECL <load ECL 50 and exit>
+
+0x8603 0x03 COMPARE Values: mapDirection == 0
+
+0x8609 0x16 IF = <if compare flag is false, skip next op>
+0x860A 0x03 COMPARE Values: area1.event_word_208 == 52
+
+0x8610 0x17 IF <> <if compare flag is false, skip next op>
+0x8611 0x00 EXIT
+0x8612 0x12 PRINTCLEAR 'YOU WILL HAVE TO CLIMB DOWN THE SHAFT. DO YOU CONTINUE?'
+
+0x8749 0x03 COMPARE Values: mapDirection == 2
+
+0x874F 0x16 IF = <if compare flag is false, skip next op>
+0x8750 0x03 COMPARE Values: area1.event_word_208 == 52
+
+0x8756 0x17 IF <> <if compare flag is false, skip next op>
+0x8757 0x00 EXIT
+0x8758 0x12 PRINTCLEAR 'YOU WILL HAVE TO CLIMB UP THE SHAFT. DO YOU CONTINUE?'
+
+0x8913 0x2F AND area2.event_scratch1 = 63 & abs_C04F
+
+0x891C 0x25 ON GOTO area2.event_scratch1 of [0x899B, 0x8B33, 0x8C7F, 0x8CCB, 0x8D0B, 0x8D4C, 0x8D4C, 0x8D4C, 0x8D4C, 0x8D4C, 0x8D4C, 0x8D4C, 0x8D4C, 0x9020, 0x9082, 0x90AB, 0x90CD, 0x9145, 0x91A8, 0x9237, 0x9271, 0x92D5, 0x932C, 0x9365, 0x93E4, 0x9432, 0x949E, 0x952E, 0x9553, 0x95FC, 0x969A, 0x986B, 0x899B, 0x9943, 0xA0D0, 0xA129, 0xA23E, 0xA27D, 0xA2ED, 0xA2ED]
+
+0x899A 0x00 EXIT
+0x899B 0x2F AND area2.event_scratch0 = 8 & area1.event_word_2E6
+
+0x89A4 0x16 IF = <if compare flag is false, skip next op>
+0x89A5 0x00 EXIT
+0x89A6 0x03 COMPARE Values: area1.event_word_2EE == 1
+
+0x89AC 0x16 IF = <if compare flag is false, skip next op>
+0x89AD 0x00 EXIT
+0x89AE 0x08 RANDOM area2.event_scratch0 = random 1..99
+
+0x89B4 0x03 COMPARE Values: area2.event_scratch0 == 10
+
+0x89BA 0x18 IF < <if compare flag is false, skip next op>
+0x89BB 0x00 EXIT
+0x89BC 0x03 COMPARE Values: area1.event_word_214 == 3
+
+0x89C2 0x18 IF < <if compare flag is false, skip next op>
+0x89C3 0x00 EXIT
+0x89C4 0x09 SAVE area2.event_scratch0 = area1.event_word_214
+
+0x89CB 0x04 ADD area1.event_word_214 = 1 + area1.event_word_214
+
+0x89D4 0x25 ON GOTO area2.event_scratch0 of [0x89E6, 0x8A0B, 0x8AD4, 0x8B09]
+
+0x89E6 0x02 GOSUB 0xA380
+
+0x89EA 0x11 PRINT "'INTRUDER ALERT! TO ARMSS! TO ARMSS!'"
+
+0x8A0B 0x12 PRINTCLEAR "A SPEAKER NEAR YOU CRACKLES INTO LIFE. SCOT.DOS' VOICE ISSUES FORTH."
+
+0x8AD4 0x02 GOSUB 0xA380
+
+0x8AD8 0x11 PRINT "'TRACKING INTRUDERSS! QUADRANT 4 PERIMETER ALARM TRIPPED!'"
+
+0x8B09 0x02 GOSUB 0xA380
+
+0x8B0D 0x11 PRINT "'BATTLE PLAN 7 DRILL! REPEAT, PLAN 7 DRILL!'"
+
+0x8B33 0x03 COMPARE Values: area1.event_word_2EE == 1
+
+0x8B39 0x16 IF = <if compare flag is false, skip next op>
+0x8B3A 0x01 GOTO 0x8B8E
+
+0x8B3E 0x12 PRINTCLEAR 'THERE IS A DOWN ELEVATOR HERE. DO YOU USE IT?'
+
+0x8B8E 0x03 COMPARE Values: mapDirection == 3
+
+0x8B94 0x17 IF <> <if compare flag is false, skip next op>
+0x8B95 0x00 EXIT
+0x8B96 0x12 PRINTCLEAR 'THE ELEVATOR HAS BEEN DAMAGED IN THE EXPLOSION.'
+
+0x8C7F 0x03 COMPARE Values: mapDirection == 2
+
+0x8C85 0x17 IF <> <if compare flag is false, skip next op>
+0x8C86 0x00 EXIT
+0x8C87 0x12 PRINTCLEAR 'AN ELEVATOR UP. DO YOU GO?'
+
+0x8CCB 0x2F AND area2.event_scratch0 = 64 & area1.event_word_2E6
+
+0x8CD4 0x17 IF <> <if compare flag is false, skip next op>
+0x8CD5 0x00 EXIT
+0x8CD6 0x30 OR area1.event_word_2E6 = 64 | area1.event_word_2E6
+
+0x8CDF 0x12 PRINTCLEAR 'THE BLOODY TRAIL LEADS DOWN THE TUNNEL TO THE NORTH.'
+
+0x8D0B 0x2F AND area2.event_scratch0 = 2 & area1.event_word_2E8
+
+0x8D14 0x16 IF = <if compare flag is false, skip next op>
+0x8D15 0x00 EXIT
+0x8D16 0x12 PRINTCLEAR 'TO THE EAST IS THE SECRET DOOR THAT THE LOWLANDERS TOLD YOU ABOUT.'
+
+0x8D4B 0x00 EXIT
+0x8D4C 0x05 SUBTRACT area2.event_scratch1 = area2.event_scratch1 - 5
+
+0x8D55 0x2A GETTABLE area1.event_word_20A = abs_A370[area2.event_scratch1]
+
+0x8D5F 0x2A GETTABLE area1.event_word_206 = abs_A378[area2.event_scratch1]
+
+0x8D69 0x03 COMPARE Values: mapDirection == area1.event_word_20A
+
+0x8D70 0x17 IF <> <if compare flag is false, skip next op>
+0x8D71 0x00 EXIT
+0x8D72 0x2F AND area2.event_scratch0 = area1.event_word_206 & area1.event_word_2EA
+
+0x8D7C 0x17 IF <> <if compare flag is false, skip next op>
+0x8D7D 0x01 GOTO 0x8FF7
+
+0x8D81 0x30 OR area1.event_word_2EA = area1.event_word_206 | area1.event_word_2EA
+
+0x8D8B 0x25 ON GOTO area1.event_word_2EC of [0x8DA9, 0x8FC9, 0x8E02, 0x8FC9, 0x8EBB, 0x8FC9, 0x8F19, 0x8F62]
+
+0x8DA9 0x12 PRINTCLEAR 'IN THIS HUT, A SHIELD MADE OF VENUSIAN DINOSAUR HIDE STANDS IN THE CORNER NEXT TO SOME CRYSTAL TIPPED SPEARS.'
+
+0x8DFE 0x01 GOTO 0x9015
+
+0x8E02 0x12 PRINTCLEAR 'A SMALL HIGH-TECH COOKER SITS ON A LASHED BRANCH TABLE. A COLD PAN OF FRIED VEGETABLES SITS NEXT TO IT.'
+
+0x8EBB 0x12 PRINTCLEAR 'A PAIR OF BOOTS SIT NEXT TO THE STRAW TICK BED IN THIS HUT. THEY SEEM TO BE MOLDED FROM AN ORGANIC PLASTIC COMPOUND.'
+
+0x8F15 0x01 GOTO 0x9015
+
+0x8F19 0x12 PRINTCLEAR 'A LASER RIFLE IS PROPPED UP IN THE CORNER HERE. DO YOU WANT IT?'
+
+0x8F62 0x12 PRINTCLEAR 'YOU FIND AN ARMORED CHEST PLATE. IT IS MADE OF A SUPER-TOUGH CERAMIC MATERIAL. MADE FOR A LOWLANDER, IT FITS NO ONE IN THE TEAM.'
+
+0x8FC5 0x01 GOTO 0x9015
+
+0x8FC9 0x12 PRINTCLEAR 'YOU FIND NOTHING OF INTEREST IN THIS PRIMITIVE HUT.'
+
+0x8FF3 0x01 GOTO 0x9015
+
+0x8FF7 0x12 PRINTCLEAR "YOU'VE ALREADY SEARCHED THIS HUT."
+
+0x9015 0x04 ADD area1.event_word_2EC = 1 + area1.event_word_2EC
+
+0x901F 0x00 EXIT
+0x9020 0x03 COMPARE Values: mapDirection == 3
+
+0x9026 0x17 IF <> <if compare flag is false, skip next op>
+0x9027 0x00 EXIT
+0x9028 0x2F AND area2.event_scratch0 = 8 & area1.event_word_2E4
+
+0x9031 0x17 IF <> <if compare flag is false, skip next op>
+0x9032 0x00 EXIT
+0x9033 0x12 PRINTCLEAR 'THE WOODEN WALLS HERE ARE MADE OF MILLED WOOD. THE AREA IS FREE OF PRIMITIVE TRAPPINGS.'
+
+0x9078 0x30 OR area1.event_word_2E4 = 8 | area1.event_word_2E4
+
+0x9082 0x03 COMPARE Values: mapDirection == 2
+
+0x9088 0x17 IF <> <if compare flag is false, skip next op>
+0x9089 0x00 EXIT
+0x908A 0x02 GOSUB 0x90F3
+
+0x908E 0x11 PRINT 'VENUSIAN DINOSAUR HIDE SHIELDS.'
+
+0x90AB 0x03 COMPARE Values: mapDirection == 3
+
+0x90B1 0x17 IF <> <if compare flag is false, skip next op>
+0x90B2 0x00 EXIT
+0x90B3 0x02 GOSUB 0x90F3
+
+0x90B7 0x11 PRINT 'CRYSTAL TIPPED SPEARS.'
+
+0x90CD 0x03 COMPARE Values: mapDirection == 1
+
+0x90D3 0x17 IF <> <if compare flag is false, skip next op>
+0x90D4 0x00 EXIT
+0x90D5 0x02 GOSUB 0x90F3
+
+0x90D9 0x11 PRINT 'WOVEN PLANT FIBER HUT WALLS.'
+
+0x90F3 0x12 PRINTCLEAR 'THIS BUILDING IS FULL OF MANUFACTURING EQUIPMENT. IT SEEMS TO BE USED TO MASS PRODUCE PRIMITIVE-SEEMING '
+
+0x9144 0x13 RETURN
+0x9145 0x03 COMPARE Values: mapDirection == 1
+
+0x914B 0x17 IF <> <if compare flag is false, skip next op>
+0x914C 0x00 EXIT
+0x914D 0x12 PRINTCLEAR 'YOU ENTER A SMALL WAREHOUSE. BUNDLES OF SPEARS, SHIELDS AND HUT WALL SECTIONS ARE STORED HERE, READY FOR SHIPPING.'
+
+0x91A8 0x2F AND area2.event_scratch0 = 16 & area1.event_word_2E4
+
+0x91B1 0x17 IF <> <if compare flag is false, skip next op>
+0x91B2 0x00 EXIT
+0x91B3 0x12 PRINTCLEAR 'THESE ROOMS ARE FULL OF LOCKERS. MOST CONTAIN LOWLANDER NATIVE GARB. A FEW HOLD MACHINE-WOVEN OVERALLS, TOUGH PLASTIC BOOTS, AND HARD HATS WITH MINING LAMPS.'
+
+0x9237 0x03 COMPARE Values: mapDirection == 0
+
+0x923D 0x17 IF <> <if compare flag is false, skip next op>
+0x923E 0x00 EXIT
+0x923F 0x11 PRINT "A SIGN READS, 'HEAVY ELEVATOR.' THERE ARE NO CONTROLS HERE."
+
+0x9271 0x03 COMPARE Values: mapDirection == 0
+
+0x9277 0x17 IF <> <if compare flag is false, skip next op>
+0x9278 0x00 EXIT
+0x9279 0x12 PRINTCLEAR 'A PARTIALLY BUILT DIGGING MACHINE IS HERE. THE HUGE, TRACKED VEHICLE SEEMS TO BE MADE ENTIRELY OF SMALL BOXED PARTS.'
+
+0x92D5 0x03 COMPARE Values: mapDirection == 0
+
+0x92DB 0x17 IF <> <if compare flag is false, skip next op>
+0x92DC 0x00 EXIT
+0x92DD 0x12 PRINTCLEAR "THERE IS A DESK HERE COVERED WITH ACID-RESISTANT MEMOS WRITTEN IN A LANGUAGE YOU DON'T UNDERSTAND."
+
+0x932C 0x03 COMPARE Values: mapDirection == 0
+
+0x9332 0x17 IF <> <if compare flag is false, skip next op>
+0x9333 0x00 EXIT
+0x9334 0x12 PRINTCLEAR 'HAND HELD MINING TOOLS ARE STORED ON PLASTIC SHELVES HERE.'
+
+0x9365 0x2F AND area2.event_scratch0 = 32 & area1.event_word_2E4
+
+0x936E 0x17 IF <> <if compare flag is false, skip next op>
+0x936F 0x00 EXIT
+0x9370 0x12 PRINTCLEAR 'THESE ARE HIGHLY ADVANCED COMPUTERS. THE MONITOR ON THIS ONE READS:'
+
+0x93A6 0x33 PRINT RETURN
+0x93A7 0x11 PRINT '    - TERMINAL INACTIVE -'
+
+0x93BD 0x33 PRINT RETURN
+0x93BE 0x11 PRINT '- CONTROL ROUTED TO STATION B -'
+
+0x93E4 0x03 COMPARE Values: mapDirection == 2
+
+0x93EA 0x17 IF <> <if compare flag is false, skip next op>
+0x93EB 0x00 EXIT
+0x93EC 0x12 PRINTCLEAR 'LAMPS, SPOOLS OF WIRE, TERMINAL BOXES, AND OTHER ELECTRICAL EQUIPMENT ARE STORED HERE.'
+
+0x9432 0x2F AND area2.event_scratch0 = 64 & area1.event_word_2E4
+
+0x943B 0x17 IF <> <if compare flag is false, skip next op>
+0x943C 0x00 EXIT
+0x943D 0x09 SAVE area2.event_scratch0 = 1
+
+0x9443 0x22 PARTY SURPRISE zone: 83, result: area2.event_scratch0
+
+0x944C 0x03 COMPARE Values: 2 == area2.event_scratch0
+
+0x9452 0x18 IF < <if compare flag is false, skip next op>
+0x9453 0x00 EXIT
+0x9454 0x0A LOAD CHARACTER index: area2.event_scratch1
+
+0x9458 0x12 PRINTCLEAR '<string at area2.selected_player_name>'
+
+0x945C 0x11 PRINT ' SEES A NEWLY WIRED COMMUNICATIONS CABLE RUNNING ALONG THE WEST WALL.'
+
+0x949E 0x02 GOSUB 0x9646
+
+0x94A2 0x11 PRINT 'EAST'
+
+0x94A8 0x02 GOSUB 0x9663
+
+0x94AC 0x11 PRINT 'NORTH'
+
+0x94B3 0x02 GOSUB 0x9678
+
+0x94B7 0x11 PRINT 'NORTHERN'
+
+0x94C0 0x02 GOSUB 0x968A
+
+0x94C4 0x11 PRINT '   - CITYWARD -'
+
+0x94D3 0x33 PRINT RETURN
+0x94D4 0x11 PRINT '- AIR-CONDITIONING -'
+
+0x952E 0x12 PRINTCLEAR 'PARTS FOR A GIANT VENTILATOR FAN ARE HERE.'
+
+0x9553 0x2F AND area2.event_scratch0 = 2 & area1.event_word_2E6
+
+0x955C 0x17 IF <> <if compare flag is false, skip next op>
+0x955D 0x00 EXIT
+0x955E 0x0C SETUP MONSTER sprite_id: 61 max_distance: 0 pic_id: 255
+
+0x9565 0x00 EXIT
+
+0x95FC 0x02 GOSUB 0x9646
+
+0x9600 0x11 PRINT 'NORTH'
+
+0x9607 0x02 GOSUB 0x9663
+
+0x960B 0x11 PRINT 'EAST'
+
+0x9611 0x02 GOSUB 0x9678
+
+0x9615 0x11 PRINT 'EASTERN'
+
+0x961E 0x02 GOSUB 0x968A
+
+0x9622 0x11 PRINT '   - CITYWARD -'
+
+0x9631 0x33 PRINT RETURN
+0x9632 0x11 PRINT '- SUPPLY CONVEYOR -'
+
+0x9646 0x12 PRINTCLEAR 'THE TUNNELS SLANT UPWARDS TO THE '
+
+0x9662 0x13 RETURN
+0x9663 0x11 PRINT ' AND DOWNWARDS TO THE '
+
+0x9677 0x13 RETURN
+0x9678 0x11 PRINT '. A SIGN OVER THE '
+
+0x9689 0x13 RETURN
+0x968A 0x11 PRINT ' TUNNEL READS:'
+
+0x9698 0x33 PRINT RETURN
+0x9699 0x13 RETURN
+0x969A 0x2F AND area2.event_scratch0 = 4 & area1.event_word_2E6
+
+0x96A3 0x17 IF <> <if compare flag is false, skip next op>
+0x96A4 0x00 EXIT
+0x96A5 0x12 PRINTCLEAR 'YOU COME ACROSS SOME LOWLANDER MINERS. WITH THEIR BACKS TO YOU, THEY ARE STUDYING THE SOUTH WALL.'
+
+0x96F1 0x31 SPRITE OFF
+
+0x96F5 0x00 EXIT
+
+0x986B 0x2F AND area2.event_scratch0 = 8 & area1.event_word_2E6
+
+0x9874 0x17 IF <> <if compare flag is false, skip next op>
+0x9875 0x00 EXIT
+0x9876 0x0C SETUP MONSTER sprite_id: 61 max_distance: 0 pic_id: 255
+
+0x987D 0x00 EXIT
+
+0x9943 0x2F AND area2.event_scratch0 = 16 & area1.event_word_2E6
+
+0x994C 0x17 IF <> <if compare flag is false, skip next op>
+0x994D 0x00 EXIT
+0x994E 0x30 OR area1.event_word_2E6 = 16 | area1.event_word_2E6
+
+0x9957 0x09 SAVE area1.event_word_2EE = 1
+
+0x995D 0x0C SETUP MONSTER sprite_id: 61 max_distance: 1 pic_id: 255
+
+0x9964 0x00 EXIT
+
+0xA0D0 0x2F AND area2.event_scratch0 = 128 & area1.event_word_2E6
+
+0xA0D9 0x17 IF <> <if compare flag is false, skip next op>
+0xA0DA 0x00 EXIT
+0xA0DB 0x12 PRINTCLEAR 'URSADDERS AMBUSH YOU!'
+
+0xA0EE 0x0C SETUP MONSTER sprite_id: 41 max_distance: 1 pic_id: 255
+
+0xA0F5 0x00 EXIT
+
+0xA129 0x2F AND area2.event_scratch0 = 1 & area1.event_word_2E8
+
+0xA132 0x17 IF <> <if compare flag is false, skip next op>
+0xA133 0x01 GOTO 0xA1B2
+
+0xA138 0x00 EXIT
+
+0xA1B2 0x03 COMPARE Values: area1.event_word_2F2 == 1
+
+0xA1B8 0x16 IF = <if compare flag is false, skip next op>
+0xA1B9 0x00 EXIT
+0xA1BA 0x2F AND area2.event_scratch0 = 2 & area1.event_word_2E8
+
+0xA1C3 0x17 IF <> <if compare flag is false, skip next op>
+0xA1C4 0x00 EXIT
+0xA1C5 0x12 PRINTCLEAR 'LLOROK LIES HERE NEAR DEATH. HE NEEDS THE ATTENTION OF A LOWLANDER MEDIC. DO YOU BRING HIM WITH YOU?'
+
+0xA23E 0x03 COMPARE Values: area1.event_word_2F4 == 3
+
+0xA244 0x1A IF <= <if compare flag is false, skip next op>
+0xA245 0x00 EXIT
+0xA246 0x08 RANDOM area2.event_scratch0 = random 1..99
+
+0xA24C 0x03 COMPARE Values: area2.event_scratch0 == 15
+
+0xA252 0x18 IF < <if compare flag is false, skip next op>
+0xA253 0x00 EXIT
+0xA254 0x0C SETUP MONSTER sprite_id: 41 max_distance: 0 pic_id: 255
+
+0xA25B 0x00 EXIT
+
+0xA27D 0x08 RANDOM area2.event_scratch0 = random 1..99
+
+0xA283 0x03 COMPARE Values: area2.event_scratch0 == 15
+
+0xA289 0x18 IF < <if compare flag is false, skip next op>
+0xA28A 0x00 EXIT
+0xA28B 0x0C SETUP MONSTER sprite_id: 61 max_distance: 2 pic_id: 255
+
+0xA292 0x00 EXIT
+
+0xA2ED 0x02 GOSUB 0x9646
+
+0xA2F1 0x11 PRINT 'NORTH'
+
+0xA2F8 0x02 GOSUB 0x9663
+
+0xA2FC 0x11 PRINT 'SOUTH AND WEST'
+
+0xA30A 0x02 GOSUB 0x9678
+
+0xA30E 0x11 PRINT 'SOUTHERN'
+
+0xA317 0x02 GOSUB 0x968A
+
+0xA31B 0x11 PRINT '   - SURFACE-WARD -'
+
+0xA32D 0x33 PRINT RETURN
+0xA32E 0x11 PRINT '- SUPPLY CONVEYOR, '
+
+0xA340 0x03 COMPARE Values: 39 == area2.event_scratch1
+
+0xA346 0x16 IF = <if compare flag is false, skip next op>
+0xA347 0x11 PRINT 'UP -'
+
+0xA34D 0x17 IF <> <if compare flag is false, skip next op>
+0xA34E 0x11 PRINT 'DOWN -'
+
+0xA380 0x12 PRINTCLEAR 'A VOICE BLARES OUT OF A SPEAKER. '
+
+0xA39D 0x00 EXIT
+
+Text fallthrough boundaries skipped:
+- 0x863F: 0x2C after PRINTCLEAR
+- 0x8783: 0x2C after PRINTCLEAR
+- 0x8A09: 0x29 after PRINT
+- 0x8B63: 0x2C after PRINTCLEAR
+- 0x8C9E: 0x2C after PRINTCLEAR
+- 0x8D09: 0x29 after PRINTCLEAR
+- 0x90A9: 0x29 after PRINT
+- 0x90CB: 0x29 after PRINT
+- 0x90F1: 0x29 after PRINT
+- 0x91A6: 0x29 after PRINTCLEAR
+- 0x922C: 0x29 after PRINTCLEAR
+- 0x926F: 0x29 after PRINT
+- 0x92D3: 0x29 after PRINTCLEAR
+- 0x932A: 0x29 after PRINTCLEAR
+- 0x9363: 0x29 after PRINTCLEAR
+- 0x93D9: 0x29 after PRINT
+- 0x9430: 0x29 after PRINTCLEAR
+- 0x9493: 0x29 after PRINT
+- 0x94E6: 0x29 after PRINT
+- 0x9551: 0x29 after PRINTCLEAR
+- 0x9644: 0x29 after PRINT
+- 0xA356: 0x29 after PRINT
+- 0x85C0: 0x2C after PRINTCLEAR
+- 0x8A41: 0x29 after PRINTCLEAR
+- 0x8B07: 0x29 after PRINT
+- 0x8B31: 0x29 after PRINT
+- 0x8BBD: 0x29 after PRINTCLEAR
+- 0x9013: 0x29 after PRINTCLEAR
+- 0x8E53: 0x29 after PRINTCLEAR
+- 0x8F4C: 0x2C after PRINTCLEAR
+- 0xA213: 0x2C after PRINTCLEAR
+
+Prefixed fallthroughs normalized:
+- 0x9081 -> 0x9082
+- 0x9449 -> 0x944C
+- 0x96F2 -> 0x96F5
+- 0x844E -> 0x8451
+- 0x901E -> 0x901F
+
+Unknown-prefixed branch targets normalized:
+- 0x813C -> 0x813D from PreCampCheck
+- 0x813C -> 0x813D from CampInterrupted
+
+Unknown-prefixed fallthroughs normalized:
+- 0x805F -> 0x8060
+- 0x8361 -> 0x8362
+- 0xA137 -> 0xA138
+- 0x8124 -> 0x8125
+- 0xA39C -> 0xA39D

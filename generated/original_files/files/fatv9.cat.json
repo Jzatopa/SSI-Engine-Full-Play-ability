@@ -1,0 +1,1213 @@
+{
+  "file": "FATV9.CAT",
+  "kind": "audio/music/driver data",
+  "bytes": 10336,
+  "sha256": "11ff4fab5bd2e56b2a44d6ff35cd0c8135e59138ca0e7bb0b3011d35a53579e4",
+  "head_hex": "3b 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 0d 0a 3b 66 61 74 76 39 2e 63 61 74 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 0d 0a 3b 47 6c 6f 62 61 6c 20 54 69 6d 62 72 65 20 4c 69 62 72 61 72 79 20 61 73 73 69 67 6e 6d 65 6e 74 73 20 66 6f 72 20 73 61 6d",
+  "ascii_candidates": [
+    {
+      "offset": 0,
+      "length": 42,
+      "text": ";                                         "
+    },
+    {
+      "offset": 44,
+      "length": 40,
+      "text": ";fatv9.cat                              "
+    },
+    {
+      "offset": 86,
+      "length": 67,
+      "text": ";Global Timbre Library assignments for sample AIL V2.0 applications"
+    },
+    {
+      "offset": 155,
+      "length": 42,
+      "text": ";                                         "
+    },
+    {
+      "offset": 199,
+      "length": 27,
+      "text": ";Usage: C:\\>glib sample.cat"
+    },
+    {
+      "offset": 228,
+      "length": 42,
+      "text": ";                                         "
+    },
+    {
+      "offset": 274,
+      "length": 67,
+      "text": "outfile(\"fatv9.ad\")            ;create Ad Lib Global Timbre Library"
+    },
+    {
+      "offset": 343,
+      "length": 8,
+      "text": "        "
+    },
+    {
+      "offset": 353,
+      "length": 72,
+      "text": "BNK_file(\"fatv8.bnk\")          ;name of Ad Lib Instrument Maker bankfile"
+    },
+    {
+      "offset": 432,
+      "length": 69,
+      "text": ";Bank 0: Melodic instruments to emulate Roland MT-32 built-in timbres"
+    },
+    {
+      "offset": 508,
+      "length": 61,
+      "text": "timbre(0,0) = BNK_inst(\"fpiano1\",0)             ;Acou Piano 1"
+    },
+    {
+      "offset": 571,
+      "length": 61,
+      "text": "timbre(0,1) = BNK_inst(\"fpiano1\",0)             ;Acou Piano 2"
+    },
+    {
+      "offset": 634,
+      "length": 61,
+      "text": "timbre(0,2) = BNK_inst(\"fpiano1\",0)             ;Acou Piano 3"
+    },
+    {
+      "offset": 697,
+      "length": 51,
+      "text": "timbre(0,3) = BNK_inst(\"fdemat2\",0)           ;*SFX"
+    },
+    {
+      "offset": 750,
+      "length": 51,
+      "text": "timbre(0,4) = BNK_inst(\"fdemat1\",0)           ;*SFX"
+    },
+    {
+      "offset": 803,
+      "length": 59,
+      "text": "timbre(0,5) = BNK_inst(\"fepian1\",0)           ;Elec Piano 3"
+    },
+    {
+      "offset": 864,
+      "length": 52,
+      "text": "timbre(0,6) = BNK_inst(\"fbeep1\",0)             ;*SFX"
+    },
+    {
+      "offset": 918,
+      "length": 51,
+      "text": "timbre(0,7) = BNK_inst(\"fred1\",0)             ;*SFX"
+    },
+    {
+      "offset": 971,
+      "length": 59,
+      "text": "timbre(0,8) = BNK_inst(\"dorgan1\",0)             ;Elec Org 1"
+    },
+    {
+      "offset": 1032,
+      "length": 59,
+      "text": "timbre(0,9) = BNK_inst(\"dorgan2\",0)             ;Elec Org 2"
+    },
+    {
+      "offset": 1093,
+      "length": 59,
+      "text": "timbre(0,10) = BNK_inst(\"forgan2\",0)            ;Elec Org 3"
+    },
+    {
+      "offset": 1154,
+      "length": 58,
+      "text": "timbre(0,11) = BNK_inst(\"organ4\",0)            ;Elec Org 4"
+    },
+    {
+      "offset": 1214,
+      "length": 59,
+      "text": "timbre(0,12) = BNK_inst(\"dpipe1\",0)             ;Pipe Org 1"
+    },
+    {
+      "offset": 1275,
+      "length": 59,
+      "text": "timbre(0,13) = BNK_inst(\"dpipe2\",0)             ;Pipe Org 2"
+    },
+    {
+      "offset": 1336,
+      "length": 53,
+      "text": "timbre(0,14) = BNK_inst(\"fview1\",0)             ;*SFX"
+    },
+    {
+      "offset": 1391,
+      "length": 51,
+      "text": "timbre(0,15) = BNK_inst(\"fview2\",0)           ;*SFX"
+    },
+    {
+      "offset": 1444,
+      "length": 57,
+      "text": "timbre(0,16) = BNK_inst(\"fharpsi1\",0)           ;Harpsi 1"
+    },
+    {
+      "offset": 1503,
+      "length": 57,
+      "text": "timbre(0,17) = BNK_inst(\"fharpsi1\",0)           ;Harpsi 2"
+    },
+    {
+      "offset": 1562,
+      "length": 57,
+      "text": "timbre(0,18) = BNK_inst(\"fharpsi1\",0)           ;Harpsi 3"
+    },
+    {
+      "offset": 1621,
+      "length": 54,
+      "text": "timbre(0,19) = BNK_inst(\"fclav1\",0)           ;Clavi 1"
+    },
+    {
+      "offset": 1677,
+      "length": 54,
+      "text": "timbre(0,20) = BNK_inst(\"fclav1\",0)           ;Clavi 2"
+    },
+    {
+      "offset": 1733,
+      "length": 54,
+      "text": "timbre(0,21) = BNK_inst(\"fclav1\",0)           ;Clavi 3"
+    },
+    {
+      "offset": 1789,
+      "length": 58,
+      "text": "timbre(0,22) = BNK_inst(\"dcelest1\",0)           ;Celesta 1"
+    },
+    {
+      "offset": 1849,
+      "length": 58,
+      "text": "timbre(0,23) = BNK_inst(\"dcelest2\",0)           ;Celesta 2"
+    },
+    {
+      "offset": 1909,
+      "length": 59,
+      "text": "timbre(0,24) = BNK_inst(\"fsynbrs2\",0)          ;Syn Brass 1"
+    },
+    {
+      "offset": 1970,
+      "length": 59,
+      "text": "timbre(0,25) = BNK_inst(\"fsynbrs3\",0)          ;Syn Brass 2"
+    },
+    {
+      "offset": 2031,
+      "length": 59,
+      "text": "timbre(0,26) = BNK_inst(\"sftbrss1\",0)          ;Syn Brass 3"
+    },
+    {
+      "offset": 2092,
+      "length": 59,
+      "text": "timbre(0,27) = BNK_inst(\"fsynbrs4\",0)          ;Syn Brass 4"
+    },
+    {
+      "offset": 2153,
+      "length": 58,
+      "text": "timbre(0,28) = BNK_inst(\"bass2\",0)             ;Syn Bass 1"
+    },
+    {
+      "offset": 2213,
+      "length": 58,
+      "text": "timbre(0,29) = BNK_inst(\"bass2\",0)             ;Syn Bass 2"
+    },
+    {
+      "offset": 2273,
+      "length": 58,
+      "text": "timbre(0,30) = BNK_inst(\"bass2\",0)             ;Syn Bass 3"
+    },
+    {
+      "offset": 2333,
+      "length": 58,
+      "text": "timbre(0,31) = BNK_inst(\"bass2\",0)             ;Syn Bass 4"
+    },
+    {
+      "offset": 2393,
+      "length": 54,
+      "text": "timbre(0,32) = BNK_inst(\"ffanta1\",0)          ;Fantasy"
+    },
+    {
+      "offset": 2449,
+      "length": 61,
+      "text": "timbre(0,33) = BNK_inst(\"dharmopn\",0)              ;Harmo Pan"
+    },
+    {
+      "offset": 2512,
+      "length": 58,
+      "text": "timbre(0,34) = BNK_inst(\"dchoral\",0)              ;Chorale"
+    },
+    {
+      "offset": 2572,
+      "length": 56,
+      "text": "timbre(0,35) = BNK_inst(\"dglasses\",0)           ;Glasses"
+    },
+    {
+      "offset": 2630,
+      "length": 62,
+      "text": "timbre(0,36) = BNK_inst(\"fsndtrk2\",0)              ;Soundtrack"
+    },
+    {
+      "offset": 2694,
+      "length": 58,
+      "text": "timbre(0,37) = BNK_inst(\"moon\",0)              ;Atmosphere"
+    },
+    {
+      "offset": 2754,
+      "length": 56,
+      "text": "timbre(0,38) = BNK_inst(\"dwmbell\",0)          ;Warm Bell"
+    },
+    {
+      "offset": 2812,
+      "length": 57,
+      "text": "timbre(0,39) = BNK_inst(\"synbass1\",0)          ;Funny Vox"
+    },
+    {
+      "offset": 2871,
+      "length": 60,
+      "text": "timbre(0,40) = BNK_inst(\"fechobl1\",0)             ;Echo Bell"
+    },
+    {
+      "offset": 2933,
+      "length": 53,
+      "text": "timbre(0,41) = BNK_inst(\"fdoor1\",0)             ;*SFX"
+    },
+    {
+      "offset": 2988,
+      "length": 57,
+      "text": "timbre(0,42) = BNK_inst(\"oboe1\",0)             ;Oboe 2001"
+    },
+    {
+      "offset": 3047,
+      "length": 59,
+      "text": "timbre(0,43) = BNK_inst(\"fechopn1\",0)             ;Echo Pan"
+    },
+    {
+      "offset": 3108,
+      "length": 59,
+      "text": "timbre(0,44) = BNK_inst(\"bass2\",0)             ;Doctor Solo"
+    },
+    {
+      "offset": 3169,
+      "length": 58,
+      "text": "timbre(0,45) = BNK_inst(\"bass2\",0)             ;Schooldaze"
+    },
+    {
+      "offset": 3229,
+      "length": 58,
+      "text": "timbre(0,46) = BNK_inst(\"javaican\",0)          ;Bellsinger"
+    },
+    {
+      "offset": 3289,
+      "length": 60,
+      "text": "timbre(0,47) = BNK_inst(\"dsqwve\",0)            ;S*quare Wave"
+    },
+    {
+      "offset": 3351,
+      "length": 58,
+      "text": "timbre(0,48) = BNK_inst(\"fstring1\",0)          ;Str Sect 1"
+    },
+    {
+      "offset": 3411,
+      "length": 58,
+      "text": "timbre(0,49) = BNK_inst(\"fstring2\",0)          ;Str Sect 2"
+    },
+    {
+      "offset": 3471,
+      "length": 58,
+      "text": "timbre(0,50) = BNK_inst(\"fstring3\",0)          ;Str Sect 3"
+    },
+    {
+      "offset": 3531,
+      "length": 58,
+      "text": "timbre(0,51) = BNK_inst(\"fpizz1\",0)             ;Pizzicato"
+    },
+    {
+      "offset": 3591,
+      "length": 56,
+      "text": "timbre(0,52) = BNK_inst(\"violin\",0)            ;Violin 1"
+    },
+    {
+      "offset": 3649,
+      "length": 56,
+      "text": "timbre(0,53) = BNK_inst(\"violin1\",0)           ;Violin 2"
+    },
+    {
+      "offset": 3707,
+      "length": 55,
+      "text": "timbre(0,54) = BNK_inst(\"violin\",0)            ;Cello 1"
+    },
+    {
+      "offset": 3764,
+      "length": 55,
+      "text": "timbre(0,55) = BNK_inst(\"cello\",0)             ;Cello 2"
+    },
+    {
+      "offset": 3821,
+      "length": 59,
+      "text": "timbre(0,56) = BNK_inst(\"fcntrbs1\",0)           ;Contrabass"
+    },
+    {
+      "offset": 3882,
+      "length": 55,
+      "text": "timbre(0,57) = BNK_inst(\"fharp1\",0)             ;Harp 1"
+    },
+    {
+      "offset": 3939,
+      "length": 56,
+      "text": "timbre(0,58) = BNK_inst(\"fharp1\",0)              ;Harp 2"
+    },
+    {
+      "offset": 3997,
+      "length": 56,
+      "text": "timbre(0,59) = BNK_inst(\"dgitar1\",0)           ;Guitar 1"
+    },
+    {
+      "offset": 4055,
+      "length": 51,
+      "text": "timbre(0,60) = BNK_inst(\"ftorp1\",0)           ;*SFX"
+    },
+    {
+      "offset": 4108,
+      "length": 52,
+      "text": "timbre(0,61) = BNK_inst(\"fphase1\",0)           ;*SFX"
+    },
+    {
+      "offset": 4162,
+      "length": 52,
+      "text": "timbre(0,62) = BNK_inst(\"a16note\",0)           ;*SFX"
+    },
+    {
+      "offset": 4216,
+      "length": 55,
+      "text": "timbre(0,63) = BNK_inst(\"fsphase1\",0)            ;*SFX "
+    },
+    {
+      "offset": 4273,
+      "length": 61,
+      "text": "timbre(0,64) = BNK_inst(\"dabass1\",0)             ;Acou Bass 1"
+    },
+    {
+      "offset": 4336,
+      "length": 61,
+      "text": "timbre(0,65) = BNK_inst(\"dabass2\",0)             ;Acou Bass 2"
+    },
+    {
+      "offset": 4399,
+      "length": 59,
+      "text": "timbre(0,66) = BNK_inst(\"bass2\",0)             ;Elec Bass 1"
+    },
+    {
+      "offset": 4460,
+      "length": 59,
+      "text": "timbre(0,67) = BNK_inst(\"bass2\",0)             ;Elec Bass 2"
+    },
+    {
+      "offset": 4521,
+      "length": 59,
+      "text": "timbre(0,68) = BNK_inst(\"bbass\",0)             ;Slap Bass 1"
+    },
+    {
+      "offset": 4582,
+      "length": 59,
+      "text": "timbre(0,69) = BNK_inst(\"bbass\",0)             ;Slap Bass 2"
+    },
+    {
+      "offset": 4643,
+      "length": 60,
+      "text": "timbre(0,70) = BNK_inst(\"ffbass1\",0)             ;Fretless 1"
+    },
+    {
+      "offset": 4705,
+      "length": 60,
+      "text": "timbre(0,71) = BNK_inst(\"ffbass1\",0)             ;Fretless 2"
+    },
+    {
+      "offset": 4767,
+      "length": 56,
+      "text": "timbre(0,72) = BNK_inst(\"fflute3\",0)            ;Flute 1"
+    },
+    {
+      "offset": 4825,
+      "length": 56,
+      "text": "timbre(0,73) = BNK_inst(\"fflute1\",0)            ;Flute 2"
+    },
+    {
+      "offset": 4883,
+      "length": 58,
+      "text": "timbre(0,74) = BNK_inst(\"fflute1\",0)            ;Piccolo 1"
+    },
+    {
+      "offset": 4943,
+      "length": 58,
+      "text": "timbre(0,75) = BNK_inst(\"fflute2\",0)            ;Piccolo 2"
+    },
+    {
+      "offset": 5003,
+      "length": 57,
+      "text": "timbre(0,76) = BNK_inst(\"frecor1\",0)            ;Recorder"
+    },
+    {
+      "offset": 5062,
+      "length": 57,
+      "text": "timbre(0,77) = BNK_inst(\"flute2\",0)            ;Pan Pipes"
+    },
+    {
+      "offset": 5121,
+      "length": 57,
+      "text": "timbre(0,78) = BNK_inst(\"fping1\",0)              ;*SFX   "
+    },
+    {
+      "offset": 5180,
+      "length": 57,
+      "text": "timbre(0,79) = BNK_inst(\"fscan1\",0)              ;*SFX   "
+    },
+    {
+      "offset": 5239,
+      "length": 55,
+      "text": "timbre(0,80) = BNK_inst(\"fenerg1\",0)              ;*SFX"
+    },
+    {
+      "offset": 5296,
+      "length": 53,
+      "text": "timbre(0,81) = BNK_inst(\"softsax\",0)           ;Sax 4"
+    },
+    {
+      "offset": 5351,
+      "length": 60,
+      "text": "timbre(0,82) = BNK_inst(\"fclrnt2\",0)             ;Clarinet 1"
+    },
+    {
+      "offset": 5413,
+      "length": 57,
+      "text": "timbre(0,83) = BNK_inst(\"fclrnt1\",0)          ;Clarinet 2"
+    },
+    {
+      "offset": 5472,
+      "length": 53,
+      "text": "timbre(0,84) = BNK_inst(\"doboe\",0)              ;Oboe"
+    },
+    {
+      "offset": 5527,
+      "length": 61,
+      "text": "timbre(0,85) = BNK_inst(\"denghorn\",0)              ;Engl Horn"
+    },
+    {
+      "offset": 5590,
+      "length": 54,
+      "text": "timbre(0,86) = BNK_inst(\"fbssn1\",0)           ;Bassoon"
+    },
+    {
+      "offset": 5646,
+      "length": 57,
+      "text": "timbre(0,87) = BNK_inst(\"harmonca\",0)          ;Harmonica"
+    },
+    {
+      "offset": 5705,
+      "length": 56,
+      "text": "timbre(0,88) = BNK_inst(\"dtrump1\",0)          ;Trumpet 1"
+    },
+    {
+      "offset": 5763,
+      "length": 56,
+      "text": "timbre(0,89) = BNK_inst(\"dtrump1\",0)          ;Trumpet 2"
+    },
+    {
+      "offset": 5821,
+      "length": 59,
+      "text": "timbre(0,90) = BNK_inst(\"dtbone1\",0)            ;Trombone 1"
+    },
+    {
+      "offset": 5882,
+      "length": 59,
+      "text": "timbre(0,91) = BNK_inst(\"dtbone1\",0)            ;Trombone 2"
+    },
+    {
+      "offset": 5943,
+      "length": 58,
+      "text": "timbre(0,92) = BNK_inst(\"ffrhorn1\",0)           ;Fr Horn 1"
+    },
+    {
+      "offset": 6003,
+      "length": 58,
+      "text": "timbre(0,93) = BNK_inst(\"ffrhorn1\",0)           ;Fr Horn 2"
+    },
+    {
+      "offset": 6063,
+      "length": 53,
+      "text": "timbre(0,94) = BNK_inst(\"dtuba1\",0)             ;Tuba"
+    },
+    {
+      "offset": 6118,
+      "length": 58,
+      "text": "timbre(0,95) = BNK_inst(\"brass1\",0)            ;Brs Sect 1"
+    },
+    {
+      "offset": 6178,
+      "length": 58,
+      "text": "timbre(0,96) = BNK_inst(\"brass2\",0)            ;Brs Sect 2"
+    },
+    {
+      "offset": 6238,
+      "length": 55,
+      "text": "timbre(0,97) = BNK_inst(\"dvibes1\",0)            ;Vibe 1"
+    },
+    {
+      "offset": 6295,
+      "length": 55,
+      "text": "timbre(0,98) = BNK_inst(\"dvibes1\",0)            ;Vibe 2"
+    },
+    {
+      "offset": 6352,
+      "length": 58,
+      "text": "timbre(0,99) = BNK_inst(\"marimba\",0)           ;Syn Mallet"
+    },
+    {
+      "offset": 6412,
+      "length": 56,
+      "text": "timbre(0,100) = BNK_inst(\"belshort\",0)         ;Windbell"
+    },
+    {
+      "offset": 6470,
+      "length": 53,
+      "text": "timbre(0,101) = BNK_inst(\"belshort\",0)         ;Glock"
+    },
+    {
+      "offset": 6525,
+      "length": 57,
+      "text": "timbre(0,102) = BNK_inst(\"belshort\",0)         ;Tube Bell"
+    },
+    {
+      "offset": 6584,
+      "length": 57,
+      "text": "timbre(0,103) = BNK_inst(\"xylofone\",0)         ;Xylophone"
+    },
+    {
+      "offset": 6643,
+      "length": 55,
+      "text": "timbre(0,104) = BNK_inst(\"marimba\",0)          ;Marimba"
+    },
+    {
+      "offset": 6700,
+      "length": 52,
+      "text": "timbre(0,105) = BNK_inst(\"koto1\",0)            ;Koto"
+    },
+    {
+      "offset": 6754,
+      "length": 51,
+      "text": "timbre(0,106) = BNK_inst(\"fstrp2\",0)           ;Sho"
+    },
+    {
+      "offset": 6807,
+      "length": 60,
+      "text": "timbre(0,107) = BNK_inst(\"fshaku1\",0)            ;Shakuhachi"
+    },
+    {
+      "offset": 6869,
+      "length": 57,
+      "text": "timbre(0,108) = BNK_inst(\"flute\",0)            ;Whistle 1"
+    },
+    {
+      "offset": 6928,
+      "length": 57,
+      "text": "timbre(0,109) = BNK_inst(\"flute\",0)            ;Whistle 2"
+    }
+  ],
+  "pascal_candidates": [
+    {
+      "offset": 43,
+      "length": 10,
+      "text": ";fatv9.cat"
+    },
+    {
+      "offset": 85,
+      "length": 10,
+      "text": ";Global Ti"
+    },
+    {
+      "offset": 86,
+      "length": 59,
+      "text": "Global Timbre Library assignments for sample AIL V2.0 appli"
+    },
+    {
+      "offset": 93,
+      "length": 32,
+      "text": "Timbre Library assignments for s"
+    },
+    {
+      "offset": 100,
+      "length": 32,
+      "text": "Library assignments for sample A"
+    },
+    {
+      "offset": 108,
+      "length": 32,
+      "text": "assignments for sample AIL V2.0 "
+    },
+    {
+      "offset": 120,
+      "length": 32,
+      "text": "for sample AIL V2.0 applications"
+    },
+    {
+      "offset": 198,
+      "length": 10,
+      "text": ";Usage: C:"
+    },
+    {
+      "offset": 273,
+      "length": 10,
+      "text": "outfile(\"f"
+    },
+    {
+      "offset": 281,
+      "length": 40,
+      "text": "\"fatv9.ad\")            ;create Ad Lib Gl"
+    },
+    {
+      "offset": 282,
+      "length": 34,
+      "text": "fatv9.ad\")            ;create Ad L"
+    },
+    {
+      "offset": 288,
+      "length": 46,
+      "text": "ad\")            ;create Ad Lib Global Timbre L"
+    },
+    {
+      "offset": 291,
+      "length": 34,
+      "text": ")            ;create Ad Lib Global"
+    },
+    {
+      "offset": 292,
+      "length": 41,
+      "text": "            ;create Ad Lib Global Timbre "
+    },
+    {
+      "offset": 293,
+      "length": 32,
+      "text": "           ;create Ad Lib Global"
+    },
+    {
+      "offset": 294,
+      "length": 32,
+      "text": "          ;create Ad Lib Global "
+    },
+    {
+      "offset": 295,
+      "length": 32,
+      "text": "         ;create Ad Lib Global T"
+    },
+    {
+      "offset": 296,
+      "length": 32,
+      "text": "        ;create Ad Lib Global Ti"
+    },
+    {
+      "offset": 297,
+      "length": 32,
+      "text": "       ;create Ad Lib Global Tim"
+    },
+    {
+      "offset": 298,
+      "length": 32,
+      "text": "      ;create Ad Lib Global Timb"
+    },
+    {
+      "offset": 299,
+      "length": 32,
+      "text": "     ;create Ad Lib Global Timbr"
+    },
+    {
+      "offset": 300,
+      "length": 32,
+      "text": "    ;create Ad Lib Global Timbre"
+    },
+    {
+      "offset": 301,
+      "length": 32,
+      "text": "   ;create Ad Lib Global Timbre "
+    },
+    {
+      "offset": 302,
+      "length": 32,
+      "text": "  ;create Ad Lib Global Timbre L"
+    },
+    {
+      "offset": 303,
+      "length": 32,
+      "text": " ;create Ad Lib Global Timbre Li"
+    },
+    {
+      "offset": 304,
+      "length": 32,
+      "text": ";create Ad Lib Global Timbre Lib"
+    },
+    {
+      "offset": 352,
+      "length": 10,
+      "text": "BNK_file(\""
+    },
+    {
+      "offset": 361,
+      "length": 40,
+      "text": "\"fatv8.bnk\")          ;name of Ad Lib In"
+    },
+    {
+      "offset": 362,
+      "length": 34,
+      "text": "fatv8.bnk\")          ;name of Ad L"
+    },
+    {
+      "offset": 367,
+      "length": 56,
+      "text": ".bnk\")          ;name of Ad Lib Instrument Maker bankfil"
+    },
+    {
+      "offset": 368,
+      "length": 46,
+      "text": "bnk\")          ;name of Ad Lib Instrument Make"
+    },
+    {
+      "offset": 372,
+      "length": 34,
+      "text": ")          ;name of Ad Lib Instrum"
+    },
+    {
+      "offset": 373,
+      "length": 41,
+      "text": "          ;name of Ad Lib Instrument Make"
+    },
+    {
+      "offset": 374,
+      "length": 32,
+      "text": "         ;name of Ad Lib Instrum"
+    },
+    {
+      "offset": 375,
+      "length": 32,
+      "text": "        ;name of Ad Lib Instrume"
+    },
+    {
+      "offset": 376,
+      "length": 32,
+      "text": "       ;name of Ad Lib Instrumen"
+    },
+    {
+      "offset": 377,
+      "length": 32,
+      "text": "      ;name of Ad Lib Instrument"
+    },
+    {
+      "offset": 378,
+      "length": 32,
+      "text": "     ;name of Ad Lib Instrument "
+    },
+    {
+      "offset": 379,
+      "length": 32,
+      "text": "    ;name of Ad Lib Instrument M"
+    },
+    {
+      "offset": 380,
+      "length": 32,
+      "text": "   ;name of Ad Lib Instrument Ma"
+    },
+    {
+      "offset": 381,
+      "length": 32,
+      "text": "  ;name of Ad Lib Instrument Mak"
+    },
+    {
+      "offset": 382,
+      "length": 32,
+      "text": " ;name of Ad Lib Instrument Make"
+    },
+    {
+      "offset": 383,
+      "length": 32,
+      "text": ";name of Ad Lib Instrument Maker"
+    },
+    {
+      "offset": 389,
+      "length": 32,
+      "text": "of Ad Lib Instrument Maker bankf"
+    },
+    {
+      "offset": 392,
+      "length": 32,
+      "text": "Ad Lib Instrument Maker bankfile"
+    },
+    {
+      "offset": 431,
+      "length": 10,
+      "text": ";Bank 0: M"
+    },
+    {
+      "offset": 432,
+      "length": 59,
+      "text": "Bank 0: Melodic instruments to emulate Roland MT-32 built-i"
+    },
+    {
+      "offset": 437,
+      "length": 32,
+      "text": "0: Melodic instruments to emulat"
+    },
+    {
+      "offset": 438,
+      "length": 48,
+      "text": ": Melodic instruments to emulate Roland MT-32 bu"
+    },
+    {
+      "offset": 439,
+      "length": 58,
+      "text": " Melodic instruments to emulate Roland MT-32 built-in timb"
+    },
+    {
+      "offset": 440,
+      "length": 32,
+      "text": "Melodic instruments to emulate R"
+    },
+    {
+      "offset": 448,
+      "length": 32,
+      "text": "instruments to emulate Roland MT"
+    },
+    {
+      "offset": 460,
+      "length": 32,
+      "text": "to emulate Roland MT-32 built-in"
+    },
+    {
+      "offset": 463,
+      "length": 32,
+      "text": "emulate Roland MT-32 built-in ti"
+    },
+    {
+      "offset": 507,
+      "length": 10,
+      "text": "timbre(0,0"
+    },
+    {
+      "offset": 514,
+      "length": 40,
+      "text": "0,0) = BNK_inst(\"fpiano1\",0)            "
+    },
+    {
+      "offset": 515,
+      "length": 48,
+      "text": ",0) = BNK_inst(\"fpiano1\",0)             ;Acou Pi"
+    },
+    {
+      "offset": 516,
+      "length": 44,
+      "text": "0) = BNK_inst(\"fpiano1\",0)             ;Acou"
+    },
+    {
+      "offset": 517,
+      "length": 48,
+      "text": ") = BNK_inst(\"fpiano1\",0)             ;Acou Pian"
+    },
+    {
+      "offset": 518,
+      "length": 41,
+      "text": " = BNK_inst(\"fpiano1\",0)             ;Aco"
+    },
+    {
+      "offset": 519,
+      "length": 32,
+      "text": "= BNK_inst(\"fpiano1\",0)         "
+    },
+    {
+      "offset": 521,
+      "length": 32,
+      "text": "BNK_inst(\"fpiano1\",0)           "
+    },
+    {
+      "offset": 531,
+      "length": 34,
+      "text": "fpiano1\",0)             ;Acou Pian"
+    },
+    {
+      "offset": 570,
+      "length": 10,
+      "text": "timbre(0,1"
+    },
+    {
+      "offset": 577,
+      "length": 40,
+      "text": "0,1) = BNK_inst(\"fpiano1\",0)            "
+    },
+    {
+      "offset": 578,
+      "length": 48,
+      "text": ",1) = BNK_inst(\"fpiano1\",0)             ;Acou Pi"
+    },
+    {
+      "offset": 579,
+      "length": 44,
+      "text": "1) = BNK_inst(\"fpiano1\",0)             ;Acou"
+    },
+    {
+      "offset": 580,
+      "length": 49,
+      "text": ") = BNK_inst(\"fpiano1\",0)             ;Acou Piano"
+    },
+    {
+      "offset": 581,
+      "length": 41,
+      "text": " = BNK_inst(\"fpiano1\",0)             ;Aco"
+    },
+    {
+      "offset": 582,
+      "length": 32,
+      "text": "= BNK_inst(\"fpiano1\",0)         "
+    },
+    {
+      "offset": 584,
+      "length": 32,
+      "text": "BNK_inst(\"fpiano1\",0)           "
+    },
+    {
+      "offset": 594,
+      "length": 34,
+      "text": "fpiano1\",0)             ;Acou Pian"
+    },
+    {
+      "offset": 633,
+      "length": 10,
+      "text": "timbre(0,2"
+    },
+    {
+      "offset": 640,
+      "length": 40,
+      "text": "0,2) = BNK_inst(\"fpiano1\",0)            "
+    },
+    {
+      "offset": 641,
+      "length": 48,
+      "text": ",2) = BNK_inst(\"fpiano1\",0)             ;Acou Pi"
+    },
+    {
+      "offset": 642,
+      "length": 44,
+      "text": "2) = BNK_inst(\"fpiano1\",0)             ;Acou"
+    },
+    {
+      "offset": 643,
+      "length": 50,
+      "text": ") = BNK_inst(\"fpiano1\",0)             ;Acou Piano "
+    },
+    {
+      "offset": 644,
+      "length": 41,
+      "text": " = BNK_inst(\"fpiano1\",0)             ;Aco"
+    },
+    {
+      "offset": 645,
+      "length": 32,
+      "text": "= BNK_inst(\"fpiano1\",0)         "
+    },
+    {
+      "offset": 647,
+      "length": 32,
+      "text": "BNK_inst(\"fpiano1\",0)           "
+    },
+    {
+      "offset": 657,
+      "length": 34,
+      "text": "fpiano1\",0)             ;Acou Pian"
+    },
+    {
+      "offset": 696,
+      "length": 10,
+      "text": "timbre(0,3"
+    },
+    {
+      "offset": 703,
+      "length": 40,
+      "text": "0,3) = BNK_inst(\"fdemat2\",0)           ;"
+    },
+    {
+      "offset": 708,
+      "length": 32,
+      "text": "= BNK_inst(\"fdemat2\",0)         "
+    },
+    {
+      "offset": 710,
+      "length": 32,
+      "text": "BNK_inst(\"fdemat2\",0)           "
+    },
+    {
+      "offset": 749,
+      "length": 10,
+      "text": "timbre(0,4"
+    },
+    {
+      "offset": 756,
+      "length": 40,
+      "text": "0,4) = BNK_inst(\"fdemat1\",0)           ;"
+    },
+    {
+      "offset": 761,
+      "length": 32,
+      "text": "= BNK_inst(\"fdemat1\",0)         "
+    },
+    {
+      "offset": 763,
+      "length": 32,
+      "text": "BNK_inst(\"fdemat1\",0)           "
+    },
+    {
+      "offset": 802,
+      "length": 10,
+      "text": "timbre(0,5"
+    },
+    {
+      "offset": 809,
+      "length": 40,
+      "text": "0,5) = BNK_inst(\"fepian1\",0)           ;"
+    },
+    {
+      "offset": 810,
+      "length": 48,
+      "text": ",5) = BNK_inst(\"fepian1\",0)           ;Elec Pian"
+    },
+    {
+      "offset": 811,
+      "length": 44,
+      "text": "5) = BNK_inst(\"fepian1\",0)           ;Elec P"
+    },
+    {
+      "offset": 813,
+      "length": 41,
+      "text": " = BNK_inst(\"fepian1\",0)           ;Elec "
+    },
+    {
+      "offset": 814,
+      "length": 32,
+      "text": "= BNK_inst(\"fepian1\",0)         "
+    },
+    {
+      "offset": 816,
+      "length": 32,
+      "text": "BNK_inst(\"fepian1\",0)           "
+    },
+    {
+      "offset": 826,
+      "length": 34,
+      "text": "fepian1\",0)           ;Elec Piano "
+    },
+    {
+      "offset": 863,
+      "length": 10,
+      "text": "timbre(0,6"
+    },
+    {
+      "offset": 870,
+      "length": 40,
+      "text": "0,6) = BNK_inst(\"fbeep1\",0)             "
+    },
+    {
+      "offset": 874,
+      "length": 41,
+      "text": " = BNK_inst(\"fbeep1\",0)             ;*SFX"
+    },
+    {
+      "offset": 875,
+      "length": 32,
+      "text": "= BNK_inst(\"fbeep1\",0)          "
+    },
+    {
+      "offset": 877,
+      "length": 32,
+      "text": "BNK_inst(\"fbeep1\",0)            "
+    },
+    {
+      "offset": 917,
+      "length": 10,
+      "text": "timbre(0,7"
+    },
+    {
+      "offset": 924,
+      "length": 40,
+      "text": "0,7) = BNK_inst(\"fred1\",0)             ;"
+    },
+    {
+      "offset": 929,
+      "length": 32,
+      "text": "= BNK_inst(\"fred1\",0)           "
+    },
+    {
+      "offset": 931,
+      "length": 32,
+      "text": "BNK_inst(\"fred1\",0)             "
+    },
+    {
+      "offset": 970,
+      "length": 10,
+      "text": "timbre(0,8"
+    },
+    {
+      "offset": 977,
+      "length": 40,
+      "text": "0,8) = BNK_inst(\"dorgan1\",0)            "
+    },
+    {
+      "offset": 978,
+      "length": 48,
+      "text": ",8) = BNK_inst(\"dorgan1\",0)             ;Elec Or"
+    },
+    {
+      "offset": 979,
+      "length": 44,
+      "text": "8) = BNK_inst(\"dorgan1\",0)             ;Elec"
+    },
+    {
+      "offset": 981,
+      "length": 41,
+      "text": " = BNK_inst(\"dorgan1\",0)             ;Ele"
+    },
+    {
+      "offset": 982,
+      "length": 32,
+      "text": "= BNK_inst(\"dorgan1\",0)         "
+    },
+    {
+      "offset": 984,
+      "length": 32,
+      "text": "BNK_inst(\"dorgan1\",0)           "
+    },
+    {
+      "offset": 994,
+      "length": 34,
+      "text": "dorgan1\",0)             ;Elec Org "
+    },
+    {
+      "offset": 1031,
+      "length": 10,
+      "text": "timbre(0,9"
+    },
+    {
+      "offset": 1038,
+      "length": 40,
+      "text": "0,9) = BNK_inst(\"dorgan2\",0)            "
+    },
+    {
+      "offset": 1039,
+      "length": 48,
+      "text": ",9) = BNK_inst(\"dorgan2\",0)             ;Elec Or"
+    },
+    {
+      "offset": 1040,
+      "length": 44,
+      "text": "9) = BNK_inst(\"dorgan2\",0)             ;Elec"
+    },
+    {
+      "offset": 1042,
+      "length": 41,
+      "text": " = BNK_inst(\"dorgan2\",0)             ;Ele"
+    },
+    {
+      "offset": 1043,
+      "length": 32,
+      "text": "= BNK_inst(\"dorgan2\",0)         "
+    }
+  ],
+  "record_hints": [],
+  "semantic_status": "file-level structural evidence only"
+}

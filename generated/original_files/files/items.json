@@ -1,0 +1,17 @@
+{
+  "file": "ITEMS",
+  "kind": "fixed-size side data",
+  "bytes": 351,
+  "sha256": "9175c15b2390e12f007eed627fa5568a64bc761b81df0d5f43102f1669ca3a5c",
+  "head_hex": "00 00 00 00 00 00 00 00 00 00 04 00 00 01 03 00 00 00 00 04 00 00 01 06 00 00 00 00 04 00 00 01 06 00 00 00 00 04 00 00 01 08 00 00 00 00 04 01 00 01 08 00 08 00 00 0c 01 00 01 03 00 0c 00 00 08 01 00 01 04 00 10 00 00 04 00 00 01 0a 00 00 00 00 06 03 00 01 08 00 20 00 00 08 02 00 01 0a 00 10 00 00 04 02 00 02 08 00 50 00 00 08 04 00 01 0a 00 10 00 00 04 03 00 01 0c 00 78 00 00 04",
+  "ascii_candidates": [],
+  "pascal_candidates": [],
+  "record_hints": [
+    {
+      "record_size": 9,
+      "basis": "existing GAME.OVR ITEMS side-file analysis",
+      "record_count_if_exact": 39
+    }
+  ],
+  "semantic_status": "file-level structural evidence only"
+}

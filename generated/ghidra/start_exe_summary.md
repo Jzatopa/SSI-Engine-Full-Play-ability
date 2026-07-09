@@ -1,0 +1,370 @@
+# Ghidra Program Summary
+
+- Program: `START.EXE`
+- Executable path: `/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/START.EXE`
+- Executable MD5: `96af2a91adc86972717ac7ca233ae5b9`
+- Language: `x86:LE:16:Real Mode`
+- Compiler spec: `default`
+- Image base: `0000:0000`
+- Min address: `1000:0000`
+- Max address: `HEADER::000001ff`
+
+## Memory Blocks
+
+- `CODE_0` start `1000:0000` end `2000:09af` size `68016` execute `true` write `true`
+- `CODE_1` start `209b:0000` end `209b:06d4` size `1749` execute `true` write `true`
+- `DATA` start `209b:06d5` end `3000:1734` size `67248` execute `false` write `true`
+- `HEADER` start `HEADER::00000000` end `HEADER::000001ff` size `512` execute `false` write `false`
+
+## Functions
+
+Total functions: 262
+
+- `1000:0a6d` `FUN_1000_0a6d` body `110`
+- `1000:0adb` `FUN_1000_0adb` body `105`
+- `1000:0b44` `FUN_1000_0b44` body `40`
+- `1000:0b6c` `FUN_1000_0b6c` body `64`
+- `1000:0d21` `FUN_1000_0d21` body `198`
+- `1000:0de7` `FUN_1000_0de7` body `14`
+- `1000:0df5` `FUN_1000_0df5` body `37`
+- `1000:0e1a` `FUN_1000_0e1a` body `34`
+- `1000:0e3c` `FUN_1000_0e3c` body `40`
+- `1000:0e64` `FUN_1000_0e64` body `28`
+- `1000:0e80` `FUN_1000_0e80` body `68`
+- `1000:0ec4` `FUN_1000_0ec4` body `56`
+- `1000:0efc` `FUN_1000_0efc` body `76`
+- `1000:0f48` `FUN_1000_0f48` body `49`
+- `1000:0f79` `FUN_1000_0f79` body `40`
+- `1000:0fa1` `FUN_1000_0fa1` body `574`
+- `1000:11df` `FUN_1000_11df` body `5`
+- `1000:1f8c` `FUN_1000_1f8c` body `94`
+- `1000:1fea` `FUN_1000_1fea` body `79`
+- `1000:2039` `FUN_1000_2039` body `48`
+- `1000:2069` `FUN_1000_2069` body `13`
+- `1000:2076` `FUN_1000_2076` body `993`
+- `1000:2509` `FUN_1000_2509` body `1600`
+- `1000:2b49` `FUN_1000_2b49` body `317`
+- `1000:2c86` `FUN_1000_2c86` body `194`
+- `1000:2d48` `FUN_1000_2d48` body `133`
+- `1000:2dcd` `FUN_1000_2dcd` body `141`
+- `1000:2e5a` `FUN_1000_2e5a` body `49`
+- `1000:2e8b` `FUN_1000_2e8b` body `983`
+- `1000:3262` `FUN_1000_3262` body `683`
+- `1000:350d` `FUN_1000_350d` body `662`
+- `1000:37a3` `FUN_1000_37a3` body `921`
+- `1000:3b3c` `FUN_1000_3b3c` body `1789`
+- `1000:4239` `FUN_1000_4239` body `239`
+- `1000:4328` `FUN_1000_4328` body `116`
+- `1000:439c` `FUN_1000_439c` body `1002`
+- `1000:4786` `FUN_1000_4786` body `68`
+- `1000:47ca` `FUN_1000_47ca` body `107`
+- `1000:4835` `FUN_1000_4835` body `758`
+- `1000:4b2b` `FUN_1000_4b2b` body `587`
+- `1000:4d76` `FUN_1000_4d76` body `430`
+- `1000:4f24` `FUN_1000_4f24` body `75`
+- `1000:4f6f` `FUN_1000_4f6f` body `5`
+- `1000:4f74` `FUN_1000_4f74` body `135`
+- `1000:4ffb` `FUN_1000_4ffb` body `148`
+- `1000:508f` `FUN_1000_508f` body `352`
+- `1000:51f4` `FUN_1000_51f4` body `143`
+- `1000:5283` `FUN_1000_5283` body `157`
+- `1000:5320` `FUN_1000_5320` body `374`
+- `1000:549b` `FUN_1000_549b` body `149`
+- `1000:5530` `FUN_1000_5530` body `162`
+- `1000:55d2` `FUN_1000_55d2` body `371`
+- `1000:574a` `FUN_1000_574a` body `95`
+- `1000:57a9` `FUN_1000_57a9` body `147`
+- `1000:583c` `FUN_1000_583c` body `163`
+- `1000:58df` `FUN_1000_58df` body `182`
+- `1000:5995` `FUN_1000_5995` body `396`
+- `1000:5b26` `FUN_1000_5b26` body `95`
+- `1000:5b85` `FUN_1000_5b85` body `140`
+- `1000:5c11` `FUN_1000_5c11` body `237`
+- `1000:5cfe` `FUN_1000_5cfe` body `165`
+- `1000:5da3` `FUN_1000_5da3` body `44`
+- `1000:5dcf` `FUN_1000_5dcf` body `47`
+- `1000:5e88` `FUN_1000_5e88` body `113`
+- `1000:5ef9` `FUN_1000_5ef9` body `32`
+- `1000:5f19` `FUN_1000_5f19` body `15`
+- `1000:5f28` `FUN_1000_5f28` body `23`
+- `1000:5f3f` `FUN_1000_5f3f` body `186`
+- `1000:6067` `FUN_1000_6067` body `365`
+- `1000:61d5` `FUN_1000_61d5` body `73`
+- `1000:621e` `FUN_1000_621e` body `143`
+- `1000:62ad` `FUN_1000_62ad` body `124`
+- `1000:6329` `FUN_1000_6329` body `58`
+- `1000:6363` `FUN_1000_6363` body `631`
+- `1000:69d2` `FUN_1000_69d2` body `127`
+- `1000:6a51` `FUN_1000_6a51` body `122`
+- `1000:6acb` `FUN_1000_6acb` body `215`
+- `1000:6ba2` `FUN_1000_6ba2` body `90`
+- `1000:6bfc` `FUN_1000_6bfc` body `27`
+- `1000:6c17` `FUN_1000_6c17` body `654`
+- `1000:6ea5` `FUN_1000_6ea5` body `30`
+- `1000:6ec3` `FUN_1000_6ec3` body `6`
+- `1000:6ecb` `FUN_1000_6ecb` body `38`
+- `1000:6ef1` `FUN_1000_6ef1` body `41`
+- `1000:6f1a` `FUN_1000_6f1a` body `263`
+- `1000:7021` `FUN_1000_7021` body `36`
+- `1000:7047` `FUN_1000_7047` body `121`
+- `1000:70e7` `FUN_1000_70e7` body `21`
+- `1000:70fc` `FUN_1000_70fc` body `60`
+- `1000:7138` `FUN_1000_7138` body `58`
+- `1000:737f` `FUN_1000_737f` body `5`
+- `1000:7384` `FUN_1000_7384` body `38`
+- `1000:73aa` `FUN_1000_73aa` body `119`
+- `1000:7423` `FUN_1000_7423` body `38`
+- `1000:7449` `FUN_1000_7449` body `58`
+- `1000:7483` `FUN_1000_7483` body `38`
+- `1000:74a9` `FUN_1000_74a9` body `229`
+- `1000:7592` `FUN_1000_7592` body `37`
+- `1000:75b8` `FUN_1000_75b8` body `54`
+- `1000:761b` `FUN_1000_761b` body `45`
+- `1000:7648` `FUN_1000_7648` body `17`
+- `1000:7659` `FUN_1000_7659` body `5`
+- `1000:7665` `FUN_1000_7665` body `32`
+- `1000:7685` `FUN_1000_7685` body `23`
+- `1000:769c` `FUN_1000_769c` body `108`
+- `1000:7708` `FUN_1000_7708` body `112`
+- `1000:7778` `FUN_1000_7778` body `30`
+- `1000:7796` `FUN_1000_7796` body `90`
+- `1000:77f0` `FUN_1000_77f0` body `79`
+- `1000:794b` `FUN_1000_794b` body `565`
+- `1000:7b80` `FUN_1000_7b80` body `74`
+- `1000:7bca` `FUN_1000_7bca` body `207`
+- `1000:7c99` `FUN_1000_7c99` body `234`
+- `1000:7d83` `FUN_1000_7d83` body `188`
+- `1000:7e3f` `FUN_1000_7e3f` body `243`
+- `1000:7f32` `FUN_1000_7f32` body `27`
+- `1000:7f4d` `FUN_1000_7f4d` body `412`
+- `1000:80e9` `FUN_1000_80e9` body `19`
+- `1000:80fc` `FUN_1000_80fc` body `11`
+- `1000:8107` `FUN_1000_8107` body `5`
+- `1000:815a` `FUN_1000_815a` body `23`
+- `1000:8172` `FUN_1000_8172` body `12`
+- `1000:817e` `FUN_1000_817e` body `179`
+- `1000:8231` `FUN_1000_8231` body `127`
+- `1000:82c2` `FUN_1000_82c2` body `366`
+- `1000:8430` `FUN_1000_8430` body `154`
+- `1000:84ca` `FUN_1000_84ca` body `29`
+- `1000:84e7` `FUN_1000_84e7` body `25`
+- `1000:8500` `FUN_1000_8500` body `56`
+- `1000:8538` `FUN_1000_8538` body `5`
+- `1000:8676` `FUN_1000_8676` body `315`
+- `1000:87b1` `FUN_1000_87b1` body `47`
+- `1000:87e0` `FUN_1000_87e0` body `39`
+- `1000:8807` `FUN_1000_8807` body `158`
+- `1000:88a5` `FUN_1000_88a5` body `174`
+- `1000:8953` `FUN_1000_8953` body `144`
+- `1000:89e3` `FUN_1000_89e3` body `228`
+- `1000:8dd3` `FUN_1000_8dd3` body `5`
+- `1000:8dec` `FUN_1000_8dec` body `56`
+- `1000:8e24` `FUN_1000_8e24` body `24`
+- `1000:8f13` `FUN_1000_8f13` body `59`
+- `1000:8f56` `FUN_1000_8f56` body `62`
+- `1000:8f95` `FUN_1000_8f95` body `37`
+- `1000:8fbb` `FUN_1000_8fbb` body `40`
+- `1000:8fe4` `FUN_1000_8fe4` body `42`
+- `1000:900e` `FUN_1000_900e` body `75`
+- `1000:9059` `FUN_1000_9059` body `148`
+- `1000:9132` `FUN_1000_9132` body `101`
+- `1000:9197` `FUN_1000_9197` body `154`
+- `1000:9232` `FUN_1000_9232` body `67`
+- `1000:9276` `FUN_1000_9276` body `29`
+- `1000:9294` `FUN_1000_9294` body `39`
+- `1000:92da` `FUN_1000_92da` body `40`
+- `1000:9320` `FUN_1000_9320` body `84`
+- `1000:9375` `FUN_1000_9375` body `64`
+- `1000:93b6` `FUN_1000_93b6` body `60`
+- `1000:93f2` `FUN_1000_93f2` body `24`
+- `1000:940a` `FUN_1000_940a` body `137`
+- `1000:9494` `FUN_1000_9494` body `46`
+- `1000:94c2` `FUN_1000_94c2` body `38`
+- `1000:94e8` `FUN_1000_94e8` body `6`
+- `1000:94ee` `FUN_1000_94ee` body `171`
+- `1000:959a` `FUN_1000_959a` body `51`
+- `1000:961b` `FUN_1000_961b` body `6`
+- `1000:9621` `FUN_1000_9621` body `6`
+- `1000:962d` `FUN_1000_962d` body `6`
+- `1000:9633` `FUN_1000_9633` body `6`
+- `1000:9639` `FUN_1000_9639` body `6`
+- `1000:963f` `FUN_1000_963f` body `6`
+- `1000:9657` `FUN_1000_9657` body `6`
+- `1000:9669` `FUN_1000_9669` body `6`
+- `1000:96fa` `FUN_1000_96fa` body `20`
+- `1000:970e` `FUN_1000_970e` body `17`
+- `1000:971f` `FUN_1000_971f` body `29`
+- `1000:973c` `FUN_1000_973c` body `29`
+- `1000:9759` `FUN_1000_9759` body `17`
+- `1000:976a` `FUN_1000_976a` body `17`
+- `1000:977b` `FUN_1000_977b` body `26`
+- `1000:9795` `FUN_1000_9795` body `38`
+- `1000:97bb` `FUN_1000_97bb` body `20`
+- `1000:97cf` `FUN_1000_97cf` body `29`
+- `1000:97ec` `FUN_1000_97ec` body `20`
+- `1000:9800` `FUN_1000_9800` body `20`
+- `1000:98c3` `FUN_1000_98c3` body `43`
+- `1000:98ee` `FUN_1000_98ee` body `27`
+- `1000:9a87` `FUN_1000_9a87` body `4`
+- `1000:9a8c` `FUN_1000_9a8c` body `55`
+- `1000:9ac5` `FUN_1000_9ac5` body `230`
+- `1000:aaae` `FUN_1000_aaae` body `22`
+- `1000:abc6` `FUN_1000_abc6` body `108`
+- `1000:ac32` `FUN_1000_ac32` body `22`
+- `1000:ac7e` `FUN_1000_ac7e` body `33`
+- `1000:ac9f` `FUN_1000_ac9f` body `33`
+- `1000:acc0` `FUN_1000_acc0` body `87`
+- `1000:ad17` `FUN_1000_ad17` body `62`
+- `1000:ad55` `FUN_1000_ad55` body `63`
+- `1000:ad94` `FUN_1000_ad94` body `33`
+- `1000:adb5` `FUN_1000_adb5` body `5`
+- `1000:adf9` `FUN_1000_adf9` body `123`
+- `1000:ae74` `FUN_1000_ae74` body `81`
+
+## Defined Strings
+
+Total defined strings: 142
+
+- `1000:c4b4` `!#$456789:;<=>?uRuntime error `
+- `1000:e4c2` `The team has found `
+- `1000:e76c` `Move Area View Look Change SaveN`
+- `1000:e793` `Order Purge \r`
+- `1000:e7a6` `%Novice Cadet Trooper Veteran Ace Exit`
+- `1000:e7d0` `Messages Anim Level ExitB`
+- `1000:e81e` `Select Exit:`
+- `1000:e852` `Create New Character$`
+- `1000:e98a` `Exit to DOS\r`
+- `1000:ec28` `!Press button or enter to continue"~Press button or enter to continue\nmatrix.cfg	Van Allen`
+- `1000:ec84` `Hubble`
+- `1000:ec9a` `Kepler`
+- `1000:eca5` `Goddard`
+- `1000:ecb0` `Adder`
+- `1000:ecbb` `Viper`
+- `1000:ecc6` `Anaconda`
+- `1000:ecd0` `\nSidewinder	Boomslang`
+- `1000:ece7` `Mohave`
+- `1000:ecf2` `Sahara`
+- `1000:ed08` `Outback`
+- `1000:ed13` `Kalihari`
+- `1000:ed1e` `Flare`
+- `1000:ed29` `Corona`
+- `1000:ed34` `Hermes`
+- `1000:ed3f` `Osiris`
+- `1000:ed4a` `Apollo`
+- `1000:ed54` `	Liberator`
+- `1000:ed60` `Eclipse`
+- `1000:ed76` `Gambit`
+- `1000:ed81` `Dervish`
+- `1000:ed8c` `Laser`
+- `1000:ed95` `P-laser`
+- `1000:eda7` `Missile`
+- `1000:ee12` `Control systems`
+- `1000:ee24` `Life support`
+- `1000:ee5f` `	Asterover\n`
+- `1000:ee70` `\rScout cruiser`
+- `1000:ee83` `Lt freighter`
+- `1000:ee95` `Hv freighter`
+- `1000:eea6` `\nMd cruiser`
+- `1000:eeb9` `Lt transport`
+- `1000:eecb` `Hv transport`
+- `1000:eedc` `\nHv cruiser`
+- `1000:eeef` `Space liner`
+- `1000:ef1c` `Medic`
+- `1000:ef28` `Warrior`
+- `1000:ef34` `Engineer`
+- `1000:ef40` `Rogue`
+- `1000:ef4c` `Scout`
+- `1000:ef58` `Monster`
+- `1000:ef66` `Terran`
+- `1000:ef74` `Martian`
+- `1000:ef82` `Venusian`
+- `1000:ef8f` `	Mercurian`
+- `1000:ef9e` `Tinker`
+- `1000:efba` `lunarian`
+- `1000:efc7` `	lowlander`
+- `1000:efdd` `Female	No status`
+- `1000:f015` `Dying`
+- `1000:f022` `Unconc`
+- `1000:f02f` `Fleeing`
+- `1000:f03c` `Poisoned`
+- `1000:f049` `Comatose`
+- `1000:f056` `Not here`
+- `1000:f063` `Dodging`
+- `1000:f06f` `	Sprinting`
+- `1000:f097` `Using Jetpac\rCareer Skills`
+- `1000:f0b9` `Dexterity Skills`
+- `1000:f0ce` `Constitution Skills`
+- `1000:f0e3` `Intelligence Skills`
+- `1000:f0f7` `\rWisdom Skills`
+- `1000:f10d` `Charisma Skills`
+- `1000:f122` `technical Skills`
+- `1000:f137` `Repair Electrical`
+- `1000:f152` `Repair Mechanical`
+- `1000:f16d` `Repair Nuclear Engine`
+- `1000:f188` `Repair Life Support`
+- `1000:f1a3` `Repair Rocket Hull`
+- `1000:f293` `Life Suspension Tech`
+- `1000:f2ae` `Treat Light Wounds`
+- `1000:f2c9` `Treat Serious Wounds`
+- `1000:f2e4` `Treat Critical Wounds`
+- `1000:f2ff` `Treat Poisoning}`
+- `1000:f318` `Treat Stun/Paralysis`
+- `1000:f332` `\rTreat Disease+`
+- `1000:f388` `Composition\r`
+- `1000:f39c` `Mathematics\r`
+- `1000:f3b1` `Physics\n`
+- `1000:f3c1` `Geology	`
+- `1000:f3d1` `Planetology\r`
+- `1000:f410` `Biology	`
+- `1000:f420` `Design Engineering`
+- `1000:f43b` `History$`
+- `1000:f45e` `Botany	`
+- `1000:f4ca` `Programming\r`
+- `1000:f51f` `\nNavigation\r`
+- `1000:f542` `Memorize\n`
+- `1000:f553` `Disguise\n`
+- `1000:f5e2` `Use Jetpack\r`
+- `1000:f60e` `Drive Hvy Grnd Vehc`
+- `1000:f629` `Drive Jetcar)`
+- `1000:f69a` `\nAcrobatics\r`
+- `1000:f711` `Hypnosis\n`
+- `1000:f72e` `\nIntimidate\r`
+- `1000:f742` `\nLeadership\r`
+- `1000:f788` `Fast Talk/Convince`
+- `1000:f7a3` `Singing$`
+- `1000:f820` `Planetary Survival`
+- `1000:f898` `	Wholesome\n`
+- `1000:f958` `	Microwave\n`
+- `1000:f982` `\rSonic Stunner`
+- `1000:f9b5` `Plasma Thrwr\r`
+- `1000:f9d8` `Venusian	`
+- `1000:f9e7` `	Mercurian\n`
+- `1000:f9f9` `Lunarian	`
+- `1000:fa08` `	Spacesuit\n`
+- `1000:fa19` `	Smartsuit\n`
+- `1000:fa4a` `Battle armor\r`
+- `1000:fa5e` `w/fields	`
+- `1000:fa6d` `	Explosive\n`
+- `1000:fab1` `Aerosol Mist\r`
+- `1000:fb0c` `Breathing Mask`
+- `1000:fb3c` `Poison Antidote`
+- `1000:fc38` `Insert disk 3 in drive `
+- `1000:fc56` `Insert disk 2 in drive `
+- `1000:fc74` `Insert disk 3 in drive `
+- `1000:fc92` `Insert disk 4 in drive `
+- `1000:fcb0` `Insert disk 5 in drive `
+- `1000:fcce` `Insert disk 6 in drive `
+- `1000:fcec` `Insert disk 7 in drive `
+- `1000:fd84` `Heavy missile mount`
+- `1000:fda6` `K-cannon4`
+- `1000:fdbf` `Light acceleration gun`
+- `1000:fde1` `Heavy acceleration gun`
+- `2000:0235` `Affected	`
+- `2000:0257` `Helpless	`
+- `2000:02bf` `MKKHHHHHHHMMKKKHHHHHMMMKKKKHHHMMMMKKKKKHMMMMMKKKKPPPMMMMKKKPPPPPMMMKKPPPPPPPMMKO`
+- `2000:0349` `will you trade? \n`
+- `2000:077a` `In the Log Book on page`
+- `2000:07be` `first  M`
+- `2000:095e` `	adlib.adv\n`
+- `2000:0982` `	tandy.adv\n`
+

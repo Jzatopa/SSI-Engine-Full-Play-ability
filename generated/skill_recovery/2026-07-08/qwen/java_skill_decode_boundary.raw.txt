@@ -1,0 +1,57 @@
+[state-migrations] Legacy state migration warnings:
+- Skipped Memory Core legacy memory index import for agent main because legacy rows could not be imported: Error: legacy memory meta rows conflict with canonical memory index rows
+│
+◇  Doctor warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - Skipped Memory Core legacy memory index import for agent main         │
+│    because legacy rows could not be imported: Error: legacy memory meta  │
+│    rows conflict with canonical memory index rows                        │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+model.run via local
+provider: ollama
+model: qwen3-coder:30b
+outputs: 1
+# Matrix Cubed Skill Recovery Advisory: Java Implementation Boundary
+
+## VERIFIED_FROM_PROMPT
+- Current `CharacterSkillBuckRogers` enum only defines `PILOT_ROCKET`
+- Test evidence confirms 85 skill entries in skill table (0-84)
+- All 85 skills have defined offsets in `who_offset` column
+- The skill table shows 85 unique skill IDs with their corresponding offsets
+- Current implementation uses only one skill (`PILOT_ROCKET`)
+- No evidence of any other skills being used or implemented
+
+## CANDIDATES
+- Complete skill set from ID 0 to 84 as defined in the skill table
+- Skills should be mapped to their `who_offset` values in the character data structure
+- The `getSkills()` method should expose all non-zero value skills
+- Skills with zero values should not be included in `getSkills()` result
+
+## RISKS
+- **Data Inconsistency**: Implementing all 85 skills without verifying actual usage could introduce unused code paths
+- **Offset Mismatch**: Risk of incorrect mapping if skill table offset data is misinterpreted
+- **Performance Impact**: Including all skills may impact performance in character serialization/deserialization
+- **Test Coverage Gap**: Current tests only cover `PILOT_ROCKET` - extensive new testing required
+
+## LOCAL_VALIDATION_STEPS
+1. **Verify skill offset mapping**:
+   - Confirm `who_offset` values 0-84 map to corresponding enum entries
+   - Validate each skill has a unique, non-overlapping offset
+2. **Test data parsing**:
+   - Add test cases with different skill values (including zero)
+   - Verify `getSkillValue()` returns correct values for all skills
+3. **Validate getSkills() behavior**:
+   - Confirm only non-zero skills are returned by `getSkills()`
+   - Ensure `getSkills().size()` reflects actual skill count
+4. **Integration testing**:
+   - Run existing tests to ensure no regression
+   - Test character data serialization with all 85 skills
+
+## UNSUPPORTED_CLAIMS
+- No evidence that skills beyond `PILOT_ROCKET` are implemented or used in the current codebase
+- No evidence of any combat-related integration in the provided files
+- No evidence of VM integration or external system dependencies
+- No evidence of skill values being read from or written to offsets beyond those specified
+- No evidence that any skills are actually "zero" in the game data (as opposed to missing)
+- No evidence of skill categories or grouping beyond the single `PILOT_ROCKET` definition

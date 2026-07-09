@@ -1,0 +1,67 @@
+
+void __cdecl16far FUN_1000_16a4(void)
+
+{
+  char cVar1;
+  undefined2 unaff_DS;
+  
+  *(undefined2 *)0x72db = 0x2a;
+  *(undefined2 *)0x72dd = 0x4b;
+  *(undefined2 *)0x72df = 0x2f;
+  *(undefined2 *)0x72e1 = 0x4b;
+  *(undefined2 *)0x72e3 = 0x34;
+  *(undefined2 *)0x72e5 = 0x4b;
+  *(undefined2 *)(code *)FUN_0000_72e7 = 0x39;
+  *(undefined2 *)0x72e9 = 0x4b;
+  *(undefined1 *)0x7817 = 5;
+  while( true ) {
+    cVar1 = *(char *)0x7817;
+    *(undefined2 *)((undefined *)&DAT_0000_72d7 + cVar1 * 4) = 0x2a;
+    *(undefined2 *)((undefined *)&DAT_0000_72d9 + cVar1 * 4) = 0x4b;
+    if (*(char *)0x7817 == '\f') break;
+    *(char *)0x7817 = *(char *)0x7817 + '\x01';
+  }
+  *(undefined2 *)0x730b = 0x3e;
+  *(undefined2 *)0x730d = 0x4b;
+  *(undefined2 *)0x730f = 0x43;
+  *(undefined2 *)0x7311 = 0x4b;
+  *(undefined2 *)0x7313 = 0x48;
+  *(undefined2 *)0x7315 = 0x4b;
+  *(undefined2 *)0x7317 = 0x4d;
+  *(undefined2 *)0x7319 = 0x4b;
+  *(undefined2 *)0x731b = 0x52;
+  *(undefined2 *)0x731d = 0x4b;
+  *(undefined2 *)0x731f = 0x57;
+  *(undefined2 *)0x7321 = 0x4b;
+  *(undefined2 *)0x7323 = 0x5c;
+  *(undefined2 *)0x7325 = 0x4b;
+  *(undefined2 *)0x7327 = 0x61;
+  *(undefined2 *)(code *)FUN_0000_7329 = 0x4b;
+  *(undefined2 *)0x732b = 0x66;
+  *(undefined2 *)0x732d = 0x4b;
+  *(undefined2 *)0x732f = 0x6b;
+  *(undefined2 *)0x7331 = 0x4b;
+  *(undefined2 *)0x7333 = 0x70;
+  *(undefined2 *)0x7335 = 0x4b;
+  *(undefined2 *)0x7337 = 0x75;
+  *(undefined2 *)0x7339 = 0x4b;
+  *(undefined2 *)0x733b = 0x7a;
+  *(undefined2 *)0x733d = 0x4b;
+  *(undefined2 *)0x733f = 0x7f;
+  *(undefined2 *)0x7341 = 0x4b;
+  *(undefined2 *)0x7343 = 0x84;
+  *(undefined2 *)0x7345 = 0x4b;
+  *(undefined2 *)0x7347 = 0x89;
+  *(undefined2 *)0x7349 = 0x4b;
+  *(undefined2 *)0x734b = 0x8e;
+  *(undefined2 *)0x734d = 0x4b;
+  *(undefined2 *)0x734f = 0x93;
+  *(undefined2 *)0x7351 = 0x4b;
+  *(undefined2 *)0x7353 = 0x98;
+  *(undefined2 *)0x7355 = 0x4b;
+  *(undefined2 *)0x7357 = 0x9d;
+  *(undefined2 *)0x7359 = 0x4b;
+  return;
+}
+
+

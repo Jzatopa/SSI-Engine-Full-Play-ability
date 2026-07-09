@@ -1,0 +1,11 @@
+vm_run_1           0x801D
+SearchLocation     0x801D
+PreCampCheck       0x801D
+CampInterrupted    0x801D
+ecl_initial_entry  0x8014
+
+0x8014 0x09 SAVE area2.game_area = 1
+
+0x801A 0x20 NEWECL <load ECL 19 and exit>
+
+0x801D 0x00 EXIT

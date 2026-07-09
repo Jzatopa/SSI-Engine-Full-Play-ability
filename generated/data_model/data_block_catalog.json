@@ -1,0 +1,1822 @@
+[
+  {
+    "file": "ITEM0.DAX",
+    "id": 1,
+    "raw_size": 1456,
+    "packed_size": 1523,
+    "compression_ratio": 1.046,
+    "record_size_candidate": 16,
+    "ascii_head": "...... ............... ............... ....d.......... .........",
+    "hex_head": "01 00 00 01 00 00 20 00 01 00 00 0a 00 00 00 00 02 00 01 02 00 00 20 00 01 00 00 c8 00 00 00 00"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 1,
+    "raw_size": 259,
+    "packed_size": 105,
+    "compression_ratio": 0.4054,
+    "record_size_candidate": 259,
+    "ascii_head": ".SID REFUGE................................{.......2...2........",
+    "hex_head": "0a 53 49 44 20 52 45 46 55 47 45 00 00 00 00 00 10 0e 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 2,
+    "raw_size": 259,
+    "packed_size": 95,
+    "compression_ratio": 0.3668,
+    "record_size_candidate": 259,
+    "ascii_head": ".SID REFUGE................................H.......3...:........",
+    "hex_head": "0a 53 49 44 20 52 45 46 55 47 45 00 00 00 00 00 11 10 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 3,
+    "raw_size": 259,
+    "packed_size": 95,
+    "compression_ratio": 0.3668,
+    "record_size_candidate": 259,
+    "ascii_head": ".SID REFUGE........................................3...<........",
+    "hex_head": "0a 53 49 44 20 52 45 46 55 47 45 00 00 00 00 00 12 11 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 4,
+    "raw_size": 259,
+    "packed_size": 94,
+    "compression_ratio": 0.3629,
+    "record_size_candidate": 259,
+    "ascii_head": ".SID REFUGE........................................4...<........",
+    "hex_head": "0a 53 49 44 20 52 45 46 55 47 45 00 00 00 00 00 12 12 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 5,
+    "raw_size": 259,
+    "packed_size": 104,
+    "compression_ratio": 0.4015,
+    "record_size_candidate": 259,
+    "ascii_head": ".PURGE COMMANDO............................L......./...3........",
+    "hex_head": "0e 50 55 52 47 45 20 43 4f 4d 4d 41 4e 44 4f 00 0e 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 6,
+    "raw_size": 259,
+    "packed_size": 103,
+    "compression_ratio": 0.3977,
+    "record_size_candidate": 259,
+    "ascii_head": ".PURGE WARRIOR.............................5.......-...3........",
+    "hex_head": "0d 50 55 52 47 45 20 57 41 52 52 49 4f 52 00 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 7,
+    "raw_size": 259,
+    "packed_size": 107,
+    "compression_ratio": 0.4131,
+    "record_size_candidate": 259,
+    "ascii_head": ".WARRIOR...................................3.......0...2........",
+    "hex_head": "07 57 41 52 52 49 4f 52 00 00 00 00 00 00 00 00 12 11 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0d 0c"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 8,
+    "raw_size": 259,
+    "packed_size": 108,
+    "compression_ratio": 0.417,
+    "record_size_candidate": 259,
+    "ascii_head": ".PURGE SEC ROBOT.................................../...>........",
+    "hex_head": "0f 50 55 52 47 45 20 53 45 43 20 52 4f 42 4f 54 0a 12 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0e 0d"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 9,
+    "raw_size": 259,
+    "packed_size": 84,
+    "compression_ratio": 0.3243,
+    "record_size_candidate": 259,
+    "ascii_head": ".ORG SKORP........................................./...:........",
+    "hex_head": "09 4f 52 47 20 53 4b 4f 52 50 00 00 00 00 00 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 10,
+    "raw_size": 259,
+    "packed_size": 87,
+    "compression_ratio": 0.3359,
+    "record_size_candidate": 259,
+    "ascii_head": ".COYODORG..........................................1...8........",
+    "hex_head": "08 43 4f 59 4f 44 4f 52 47 00 00 00 00 00 00 00 0e 0f 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 11,
+    "raw_size": 259,
+    "packed_size": 83,
+    "compression_ratio": 0.3205,
+    "record_size_candidate": 259,
+    "ascii_head": ".RATWURST..........................................2...8........",
+    "hex_head": "08 52 41 54 57 55 52 53 54 00 00 00 00 00 00 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 12,
+    "raw_size": 259,
+    "packed_size": 108,
+    "compression_ratio": 0.417,
+    "record_size_candidate": 259,
+    "ascii_head": ".GANG LEADER...............................y.......2...2........",
+    "hex_head": "0b 47 41 4e 47 20 4c 45 41 44 45 52 00 00 00 00 12 10 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 13,
+    "raw_size": 259,
+    "packed_size": 112,
+    "compression_ratio": 0.4324,
+    "record_size_candidate": 259,
+    "ascii_head": ".GANG VETERAN......................................0...2........",
+    "hex_head": "0c 47 41 4e 47 20 56 45 54 45 52 41 4e 00 00 00 12 10 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 14,
+    "raw_size": 259,
+    "packed_size": 109,
+    "compression_ratio": 0.4208,
+    "record_size_candidate": 259,
+    "ascii_head": ".LUNARIAN WARR.............................Q......./...2........",
+    "hex_head": "0d 4c 55 4e 41 52 49 41 4e 20 57 41 52 52 00 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0f"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 15,
+    "raw_size": 259,
+    "packed_size": 162,
+    "compression_ratio": 0.6255,
+    "record_size_candidate": 259,
+    "ascii_head": ".LUNARIAN WARR.............................Q......./...2........",
+    "hex_head": "0d 4c 55 4e 41 52 49 41 4e 20 57 41 52 52 00 00 0f 11 0e 11 0f 0d 10 0a 0a 0a 0a 0a 0a 0a 0f 0f"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 16,
+    "raw_size": 259,
+    "packed_size": 107,
+    "compression_ratio": 0.4131,
+    "record_size_candidate": 259,
+    "ascii_head": ".LUNARIAN LEADER...........................k.......1...2........",
+    "hex_head": "0f 4c 55 4e 41 52 49 41 4e 20 4c 45 41 44 45 52 0e 0d 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 17,
+    "raw_size": 259,
+    "packed_size": 105,
+    "compression_ratio": 0.4054,
+    "record_size_candidate": 259,
+    "ascii_head": ".LUNAR SEC ROBOT...................................5...?........",
+    "hex_head": "0f 4c 55 4e 41 52 20 53 45 43 20 52 4f 42 4f 54 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 18,
+    "raw_size": 259,
+    "packed_size": 96,
+    "compression_ratio": 0.3707,
+    "record_size_candidate": 259,
+    "ascii_head": ".CARNIFERN.........................................3...8........",
+    "hex_head": "09 43 41 52 4e 49 46 45 52 4e 00 00 00 00 00 00 0a 0a 0a 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 19,
+    "raw_size": 259,
+    "packed_size": 108,
+    "compression_ratio": 0.417,
+    "record_size_candidate": 259,
+    "ascii_head": ".AMALTHEAN WARR............................8.......2...2........",
+    "hex_head": "0e 41 4d 41 4c 54 48 45 41 4e 20 57 41 52 52 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 20,
+    "raw_size": 259,
+    "packed_size": 107,
+    "compression_ratio": 0.4131,
+    "record_size_candidate": 259,
+    "ascii_head": ".AMALTHEAN LEAD............................}.......3...2........",
+    "hex_head": "0e 41 4d 41 4c 54 48 45 41 4e 20 4c 45 41 44 00 0a 0e 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 21,
+    "raw_size": 259,
+    "packed_size": 105,
+    "compression_ratio": 0.4054,
+    "record_size_candidate": 259,
+    "ascii_head": ".AMALTH SEC BOT....................................2...?........",
+    "hex_head": "0e 41 4d 41 4c 54 48 20 53 45 43 20 42 4f 54 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 22,
+    "raw_size": 259,
+    "packed_size": 95,
+    "compression_ratio": 0.3668,
+    "record_size_candidate": 259,
+    "ascii_head": ".VENUS DINOSAUR....................................4...8........",
+    "hex_head": "0e 56 45 4e 55 53 20 44 49 4e 4f 53 41 55 52 00 11 10 13 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 23,
+    "raw_size": 259,
+    "packed_size": 100,
+    "compression_ratio": 0.3861,
+    "record_size_candidate": 259,
+    "ascii_head": ".LOWLANDER MINER.......................................6........",
+    "hex_head": "0f 4c 4f 57 4c 41 4e 44 45 52 20 4d 49 4e 45 52 11 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0d 0a"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 24,
+    "raw_size": 259,
+    "packed_size": 103,
+    "compression_ratio": 0.3977,
+    "record_size_candidate": 259,
+    "ascii_head": ".TERRINE WARRIOR...................................2...5........",
+    "hex_head": "0f 54 45 52 52 49 4e 45 20 57 41 52 52 49 4f 52 10 0e 0c 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0c 0b"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 25,
+    "raw_size": 259,
+    "packed_size": 74,
+    "compression_ratio": 0.2857,
+    "record_size_candidate": 259,
+    "ascii_head": ".LOWLANDER.............................................6........",
+    "hex_head": "09 4c 4f 57 4c 41 4e 44 45 52 00 00 00 00 00 00 11 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0d 0a"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 26,
+    "raw_size": 259,
+    "packed_size": 100,
+    "compression_ratio": 0.3861,
+    "record_size_candidate": 259,
+    "ascii_head": ".DESERT RUNNER.........................................4........",
+    "hex_head": "0d 44 45 53 45 52 54 20 52 55 4e 4e 45 52 00 00 10 10 0f 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0d 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 27,
+    "raw_size": 259,
+    "packed_size": 121,
+    "compression_ratio": 0.4672,
+    "record_size_candidate": 259,
+    "ascii_head": ".LOWLANDER.....................................*l......6........",
+    "hex_head": "09 4c 4f 57 4c 41 4e 44 45 52 00 00 00 00 00 00 13 0f 10 0f 11 10 10 0a 0a 0a 0a 0a 0a 0a 0d 0a"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 28,
+    "raw_size": 259,
+    "packed_size": 138,
+    "compression_ratio": 0.5328,
+    "record_size_candidate": 259,
+    "ascii_head": ".DESERT RUNNER.....................................0...4........",
+    "hex_head": "0d 44 45 53 45 52 54 20 52 55 4e 4e 45 52 00 00 13 12 10 0f 11 0d 0c 0a 0a 0a 0a 0a 0a 0a 0c 0d"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 29,
+    "raw_size": 259,
+    "packed_size": 149,
+    "compression_ratio": 0.5753,
+    "record_size_candidate": 259,
+    "ascii_head": ".STORMRIDER.....................................L..2...:........",
+    "hex_head": "0a 53 54 4f 52 4d 52 49 44 45 52 00 00 00 00 00 13 0e 12 0f 0e 0d 11 0a 0a 0a 0a 0a 0a 0a 0f 0a"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 30,
+    "raw_size": 259,
+    "packed_size": 170,
+    "compression_ratio": 0.6564,
+    "record_size_candidate": 259,
+    "ascii_head": ".KILLER KANE...................................m...0...2........",
+    "hex_head": "0b 4b 49 4c 4c 45 52 20 4b 41 4e 45 00 00 00 00 10 12 10 11 0c 10 0d 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 31,
+    "raw_size": 259,
+    "packed_size": 106,
+    "compression_ratio": 0.4093,
+    "record_size_candidate": 259,
+    "ascii_head": ".DR. J. MALCOLN............................y.......4...2........",
+    "hex_head": "0e 44 52 2e 20 4a 2e 20 4d 41 4c 43 4f 4c 4e 00 10 13 0f 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0d 0b"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 32,
+    "raw_size": 259,
+    "packed_size": 98,
+    "compression_ratio": 0.3784,
+    "record_size_candidate": 259,
+    "ascii_head": ".STAGE 5 ECG.......................................4...9........",
+    "hex_head": "0b 53 54 41 47 45 20 35 20 45 43 47 00 00 00 00 10 14 10 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0d"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 33,
+    "raw_size": 259,
+    "packed_size": 102,
+    "compression_ratio": 0.3938,
+    "record_size_candidate": 259,
+    "ascii_head": ".MER. WARRIOR..........................................2........",
+    "hex_head": "0c 4d 45 52 2e 20 57 41 52 52 49 4f 52 00 00 00 0d 0f 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0d 0c"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 35,
+    "raw_size": 259,
+    "packed_size": 111,
+    "compression_ratio": 0.4286,
+    "record_size_candidate": 259,
+    "ascii_head": ".MER. H.S. ROBOT.......................................;........",
+    "hex_head": "0f 4d 45 52 2e 20 48 2e 53 2e 20 52 4f 42 4f 54 0e 0e 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0d 0c"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 36,
+    "raw_size": 259,
+    "packed_size": 92,
+    "compression_ratio": 0.3552,
+    "record_size_candidate": 259,
+    "ascii_head": ".HYPERCRAB........................................./...8........",
+    "hex_head": "09 48 59 50 45 52 43 52 41 42 00 00 00 00 00 00 12 0f 00 03 00 00 00 00 00 00 00 00 00 00 0b 0a"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 37,
+    "raw_size": 259,
+    "packed_size": 92,
+    "compression_ratio": 0.3552,
+    "record_size_candidate": 259,
+    "ascii_head": ".HYPERSNAKE........................................-...4........",
+    "hex_head": "0a 48 59 50 45 52 53 4e 41 4b 45 00 00 00 00 00 10 11 00 03 00 00 00 00 00 00 00 00 00 00 0b 0a"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 38,
+    "raw_size": 259,
+    "packed_size": 90,
+    "compression_ratio": 0.3475,
+    "record_size_candidate": 259,
+    "ascii_head": ".TECHNICIAN................................B.......4...2........",
+    "hex_head": "0a 54 45 43 48 4e 49 43 49 41 4e 00 00 00 00 00 11 11 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0c 0b"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 39,
+    "raw_size": 259,
+    "packed_size": 104,
+    "compression_ratio": 0.4015,
+    "record_size_candidate": 259,
+    "ascii_head": ".LG. E.C. GENNIE...................................,...:........",
+    "hex_head": "0f 4c 47 2e 20 45 2e 43 2e 20 47 45 4e 4e 49 45 13 13 13 03 0a 0a 0a 00 00 00 00 00 00 00 0e 0d"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 40,
+    "raw_size": 259,
+    "packed_size": 93,
+    "compression_ratio": 0.3591,
+    "record_size_candidate": 259,
+    "ascii_head": ".SAND SQUID........................................-...3........",
+    "hex_head": "0a 53 41 4e 44 20 53 51 55 49 44 00 00 00 00 00 0e 16 00 03 00 00 00 00 00 00 00 00 00 00 0d 0c"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 41,
+    "raw_size": 259,
+    "packed_size": 91,
+    "compression_ratio": 0.3514,
+    "record_size_candidate": 259,
+    "ascii_head": ".URSADDER..........................................0...8........",
+    "hex_head": "08 55 52 53 41 44 44 45 52 00 00 00 00 00 00 00 0f 11 00 03 00 00 00 00 00 00 00 00 00 00 0e 0d"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 42,
+    "raw_size": 259,
+    "packed_size": 94,
+    "compression_ratio": 0.3629,
+    "record_size_candidate": 259,
+    "ascii_head": ".ACID FROG.........................................-...7........",
+    "hex_head": "09 41 43 49 44 20 46 52 4f 47 00 00 00 00 00 00 0e 0f 00 03 00 00 00 00 00 00 00 00 00 00 0d 0c"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 43,
+    "raw_size": 259,
+    "packed_size": 116,
+    "compression_ratio": 0.4479,
+    "record_size_candidate": 259,
+    "ascii_head": ".PIRATE WARRIOR............................ .......0...2........",
+    "hex_head": "0e 50 49 52 41 54 45 20 57 41 52 52 49 4f 52 00 11 11 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0d 0c"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 44,
+    "raw_size": 259,
+    "packed_size": 123,
+    "compression_ratio": 0.4749,
+    "record_size_candidate": 259,
+    "ascii_head": ".PIRATE LEADER.............................X.......2...2........",
+    "hex_head": "0d 50 49 52 41 54 45 20 4c 45 41 44 45 52 00 00 12 12 11 0a 0a 0a 0a 00 00 00 00 00 00 00 0c 0d"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 45,
+    "raw_size": 259,
+    "packed_size": 102,
+    "compression_ratio": 0.3938,
+    "record_size_candidate": 259,
+    "ascii_head": ".PIR. COM. ROBOT...................................2...:........",
+    "hex_head": "0f 50 49 52 2e 20 43 4f 4d 2e 20 52 4f 42 4f 54 10 11 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0d 0c"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 46,
+    "raw_size": 259,
+    "packed_size": 117,
+    "compression_ratio": 0.4517,
+    "record_size_candidate": 259,
+    "ascii_head": ".RAM ASSASSIN..............................-.......0...2........",
+    "hex_head": "0c 52 41 4d 20 41 53 53 41 53 53 49 4e 00 00 00 0d 10 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0c 0c"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 47,
+    "raw_size": 259,
+    "packed_size": 101,
+    "compression_ratio": 0.39,
+    "record_size_candidate": 259,
+    "ascii_head": ".RAM G.D. GENNIE...................................1...8........",
+    "hex_head": "0f 52 41 4d 20 47 2e 44 2e 20 47 45 4e 4e 49 45 12 10 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0b 05"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 48,
+    "raw_size": 259,
+    "packed_size": 107,
+    "compression_ratio": 0.4131,
+    "record_size_candidate": 259,
+    "ascii_head": ".ASSAULT ROBOT.................................d...1...A........",
+    "hex_head": "0d 41 53 53 41 55 4c 54 20 52 4f 42 4f 54 00 00 12 11 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0a 05"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 49,
+    "raw_size": 259,
+    "packed_size": 101,
+    "compression_ratio": 0.39,
+    "record_size_candidate": 259,
+    "ascii_head": ".COMBAT ROBOT......................................1...B........",
+    "hex_head": "0c 43 4f 4d 42 41 54 20 52 4f 42 4f 54 00 00 00 10 10 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0c 0b"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 50,
+    "raw_size": 259,
+    "packed_size": 103,
+    "compression_ratio": 0.3977,
+    "record_size_candidate": 259,
+    "ascii_head": ".SECURITY ROBOT........................................<........",
+    "hex_head": "0e 53 45 43 55 52 49 54 59 20 52 4f 42 4f 54 00 10 10 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0d 0c"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 51,
+    "raw_size": 259,
+    "packed_size": 106,
+    "compression_ratio": 0.4093,
+    "record_size_candidate": 259,
+    "ascii_head": ".DEFENSE ROBOT.........................................:........",
+    "hex_head": "0d 44 45 46 45 4e 53 45 20 52 4f 42 4f 54 00 00 10 10 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0c 0b"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 52,
+    "raw_size": 259,
+    "packed_size": 114,
+    "compression_ratio": 0.4402,
+    "record_size_candidate": 259,
+    "ascii_head": ".RAM WARRIOR...............................C.......0...2........",
+    "hex_head": "0b 52 41 4d 20 57 41 52 52 49 4f 52 00 00 00 00 12 11 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0f 0d"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 53,
+    "raw_size": 259,
+    "packed_size": 104,
+    "compression_ratio": 0.4015,
+    "record_size_candidate": 259,
+    "ascii_head": ".TECHNICIAN................................@...d...,...2........",
+    "hex_head": "0a 54 45 43 48 4e 49 43 49 41 4e 00 00 00 00 00 0c 12 0a 0d 0a 0a 13 00 00 00 00 00 00 00 0e 0c"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 54,
+    "raw_size": 259,
+    "packed_size": 121,
+    "compression_ratio": 0.4672,
+    "record_size_candidate": 259,
+    "ascii_head": ".RAM CBT. GENNIE...................................2...2........",
+    "hex_head": "0f 52 41 4d 20 43 42 54 2e 20 47 45 4e 4e 49 45 12 12 12 0a 0a 0a 0a 00 00 00 00 00 00 00 0a 09"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 55,
+    "raw_size": 259,
+    "packed_size": 144,
+    "compression_ratio": 0.556,
+    "record_size_candidate": 259,
+    "ascii_head": ".LEANDER.......................................]p../...6 .......",
+    "hex_head": "07 4c 45 41 4e 44 45 52 00 00 00 00 00 00 00 00 11 0e 0e 11 11 0c 16 00 00 00 00 00 00 00 0a 08"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 56,
+    "raw_size": 259,
+    "packed_size": 125,
+    "compression_ratio": 0.4826,
+    "record_size_candidate": 259,
+    "ascii_head": ".ZANE..............................................*...6........",
+    "hex_head": "04 5a 41 4e 45 00 00 00 00 00 00 00 00 00 00 00 04 0c 06 0c 04 12 01 00 00 00 00 00 00 00 0c 0a"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 57,
+    "raw_size": 259,
+    "packed_size": 168,
+    "compression_ratio": 0.6486,
+    "record_size_candidate": 259,
+    "ascii_head": ".BUCK ROGERS...............................6...........2 .......",
+    "hex_head": "0b 42 55 43 4b 20 52 4f 47 45 52 53 00 00 00 00 11 12 0f 0e 0d 15 0a 0a 0a 0a 0a 0a 0a 0a 06 06"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 58,
+    "raw_size": 259,
+    "packed_size": 109,
+    "compression_ratio": 0.4208,
+    "record_size_candidate": 259,
+    "ascii_head": ".GANG MEMBER...........................................2........",
+    "hex_head": "0b 47 41 4e 47 20 4d 45 4d 42 45 52 00 00 00 00 0e 0c 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 59,
+    "raw_size": 259,
+    "packed_size": 107,
+    "compression_ratio": 0.4131,
+    "record_size_candidate": 259,
+    "ascii_head": ".GANG RECRUIT......................................-...2........",
+    "hex_head": "0c 47 41 4e 47 20 52 45 43 52 55 49 54 00 00 00 0c 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 60,
+    "raw_size": 259,
+    "packed_size": 144,
+    "compression_ratio": 0.556,
+    "record_size_candidate": 259,
+    "ascii_head": ".D.R. WARRIOR..............................-....7..0...4........",
+    "hex_head": "0c 44 2e 52 2e 20 57 41 52 52 49 4f 52 00 00 00 13 11 11 0e 0e 0c 0d 00 00 00 00 00 00 00 0b 0c"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 61,
+    "raw_size": 259,
+    "packed_size": 113,
+    "compression_ratio": 0.4363,
+    "record_size_candidate": 259,
+    "ascii_head": ".LL. WARRIOR...............................4...........2........",
+    "hex_head": "0b 4c 4c 2e 20 57 41 52 52 49 4f 52 00 00 00 00 11 0e 10 0a 0a 0a 0a 00 00 00 00 00 00 00 0d 0a"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 62,
+    "raw_size": 259,
+    "packed_size": 155,
+    "compression_ratio": 0.5985,
+    "record_size_candidate": 259,
+    "ascii_head": ".LL. WARRIOR...............................4......./...2........",
+    "hex_head": "0b 4c 4c 2e 20 57 41 52 52 49 4f 52 00 00 00 00 13 0f 0f 0d 0f 10 0e 00 00 00 00 00 00 00 0d 0a"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 63,
+    "raw_size": 259,
+    "packed_size": 96,
+    "compression_ratio": 0.3707,
+    "record_size_candidate": 259,
+    "ascii_head": ".JOVIAN DRAGON.....................................3...>........",
+    "hex_head": "0d 4a 4f 56 49 41 4e 20 44 52 41 47 4f 4e 00 00 0a 13 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0e 0d"
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 64,
+    "raw_size": 259,
+    "packed_size": 103,
+    "compression_ratio": 0.3977,
+    "record_size_candidate": 259,
+    "ascii_head": ".WASPHOPPER........................................2...>........",
+    "hex_head": "0a 57 41 53 50 48 4f 50 50 45 52 00 00 00 00 00 0c 13 0f 03 06 02 01 0a 0a 0a 0a 0a 0a 0a 0f 0e"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 1,
+    "raw_size": 372,
+    "packed_size": 375,
+    "compression_ratio": 1.0081,
+    "record_size_candidate": 62,
+    "ascii_head": "P...nN.....u.....~..tc.v..^.&.@..@.F....P....8...... ....H....N.",
+    "hex_head": "50 9a b4 02 6e 4e 83 c4 02 0b c0 75 03 e9 09 ff 83 7e fe 00 74 63 8b 76 f6 c4 5e 06 26 8a 40 01"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 2,
+    "raw_size": 124,
+    "packed_size": 124,
+    "compression_ratio": 1.0,
+    "record_size_candidate": 62,
+    "ascii_head": "...}.+.]...v..v..^.&.w.&.7.v..v........].....8........K..@....&.",
+    "hex_head": "7f 02 00 7d 05 2b c0 5d cb 90 ff 76 10 ff 76 0e c4 5e 12 26 ff 77 02 26 ff 37 ff 76 08 ff 76 06"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 3,
+    "raw_size": 124,
+    "packed_size": 118,
+    "compression_ratio": 0.9516,
+    "record_size_candidate": 62,
+    "ascii_head": ".u..F..F..F. ..F.9F.t$~.+.^..]...v..^.&.@....8................U.",
+    "hex_head": "ea 75 15 8b 46 ea 01 46 fe c7 46 f0 20 00 8b 46 fe 39 46 f0 74 24 7e 08 2b c0 5e 8b e5 5d cb 90"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 4,
+    "raw_size": 62,
+    "packed_size": 63,
+    "compression_ratio": 1.0161,
+    "record_size_candidate": 62,
+    "ascii_head": "..t.P..m......t..v..v..v..........t..F..F.....................",
+    "hex_head": "fa 01 74 0c 50 0e e8 6d 01 83 c4 02 0b c0 74 99 ff 76 f8 ff 76 08 ff 76 06 0e e8 c9 01 83 c4 06"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 5,
+    "raw_size": 434,
+    "packed_size": 167,
+    "compression_ratio": 0.3848,
+    "record_size_candidate": 62,
+    "ascii_head": ".............................................7...$.......2......",
+    "hex_head": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 6,
+    "raw_size": 372,
+    "packed_size": 219,
+    "compression_ratio": 0.5887,
+    "record_size_candidate": 62,
+    "ascii_head": ".......Dizzy................................p7..................",
+    "hex_head": "00 00 00 00 00 00 05 44 69 7a 7a 79 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 7,
+    "raw_size": 186,
+    "packed_size": 187,
+    "compression_ratio": 1.0054,
+    "record_size_candidate": 62,
+    "ascii_head": "...~..tT.~..u..~..u..~..t..+(.P.<.nN........P9..........2.......",
+    "hex_head": "01 ff 83 7e fc 00 74 54 83 7e ec 00 75 0c 83 7e f6 00 75 06 83 7e fe 00 74 14 b8 2b 28 1e 50 9a"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 8,
+    "raw_size": 186,
+    "packed_size": 165,
+    "compression_ratio": 0.8871,
+    "record_size_candidate": 62,
+    "ascii_head": "&=k...;k......=k_^ZY[....]..&=k.............t8.................W",
+    "hex_head": "26 3d 6b 2e ff 0e 3b 6b e8 04 07 2e 8f 06 3d 6b 5f 5e 5a 59 5b 07 1f 8b e5 5d 2e ff 26 3d 6b 00"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 12,
+    "raw_size": 186,
+    "packed_size": 185,
+    "compression_ratio": 0.9946,
+    "record_size_candidate": 62,
+    "ascii_head": "....=D.t#=H.u....=K.u....=M.u....=P.u........9........#.......6$",
+    "hex_head": "03 e9 d0 00 3d 44 00 74 23 3d 48 00 75 03 e9 9d 00 3d 4b 00 75 03 e9 95 00 3d 4d 00 75 03 e9 9f"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 13,
+    "raw_size": 248,
+    "packed_size": 252,
+    "compression_ratio": 1.0161,
+    "record_size_candidate": 62,
+    "ascii_head": "...~..u.....v..v..p8nN....v..v....nN....~....9........#.........",
+    "hex_head": "c4 08 83 7e f8 00 75 03 e9 0b fe ff 76 f6 ff 76 f4 9a 70 38 6e 4e 83 c4 04 ff 76 e6 ff 76 fa 9a"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 14,
+    "raw_size": 248,
+    "packed_size": 250,
+    "compression_ratio": 1.0081,
+    "record_size_candidate": 62,
+    "ascii_head": "< t9<;t5<.tI<*u....<?t~.........u....t......Z8........#..4!.....",
+    "hex_head": "3c 20 74 39 3c 3b 74 35 3c 2e 74 49 3c 2a 75 03 e9 82 00 3c 3f 74 7e 8a c8 eb c6 e9 9a 00 84 ff"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 15,
+    "raw_size": 248,
+    "packed_size": 224,
+    "compression_ratio": 0.9032,
+    "record_size_candidate": 62,
+    "ascii_head": "....................................F.......z8........#..4!....F",
+    "hex_head": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 b8 0c 00"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 16,
+    "raw_size": 248,
+    "packed_size": 225,
+    "compression_ratio": 0.9073,
+    "record_size_candidate": 62,
+    "ascii_head": ". File                       T . ...........#7........#..4!...XT",
+    "hex_head": "00 20 46 69 6c 65 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 54 20 00"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 17,
+    "raw_size": 124,
+    "packed_size": 125,
+    "compression_ratio": 1.0081,
+    "record_size_candidate": 62,
+    "ascii_head": "...P...P.0.nN.....$V&.&$...P.K.P........8...,:......`...........",
+    "hex_head": "b8 0e 00 50 b8 17 00 50 9a 30 08 6e 4e 83 c4 06 8e 06 24 56 26 8a 26 24 07 b0 11 50 b8 4b 00 50"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 19,
+    "raw_size": 248,
+    "packed_size": 252,
+    "compression_ratio": 1.0161,
+    "record_size_candidate": 62,
+    "ascii_head": "..0...8.P..H...:.P.0.nN.....D.....8.<t......J:........K...'....|",
+    "hex_head": "8b 86 30 fb 03 86 38 fb 50 8b 86 48 fb 03 86 3a fb 50 9a 30 08 6e 4e 83 c4 06 c7 86 44 fb 01 00"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 20,
+    "raw_size": 248,
+    "packed_size": 250,
+    "compression_ratio": 1.0081,
+    "record_size_candidate": 62,
+    "ascii_head": "P..*.@P..>..H-nN....F................*......j:........P.........",
+    "hex_head": "50 8b 86 2a fb 40 50 ff b6 3e fb 9a 48 2d 6e 4e 83 c4 08 8b 46 fc 89 86 2e fb 8b c8 d1 e0 03 c1"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 21,
+    "raw_size": 124,
+    "packed_size": 124,
+    "compression_ratio": 1.0,
+    "record_size_candidate": 62,
+    "ascii_head": "..P.O.P.v.+.P.v....nN......P...nN...^..].....:......`...........",
+    "hex_head": "01 00 50 b8 4f 00 50 ff 76 fe 2b c0 50 ff 76 fe 9a 02 02 6e 4e 83 c4 0c b8 0a 00 50 9a b4 02 6e"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 23,
+    "raw_size": 186,
+    "packed_size": 187,
+    "compression_ratio": 1.0054,
+    "record_size_candidate": 62,
+    "ascii_head": ".&.@...F..v..^..F.&.@..F.....F..F....V&......:................^.",
+    "hex_head": "06 26 c6 40 02 00 ff 46 fa 8b 76 fc c4 5e 06 8a 46 fa 26 88 40 01 8b 46 fa 05 02 00 01 46 fc ff"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 29,
+    "raw_size": 186,
+    "packed_size": 70,
+    "compression_ratio": 0.3763,
+    "record_size_candidate": 62,
+    "ascii_head": ".............................................7..........d.......",
+    "hex_head": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 30,
+    "raw_size": 62,
+    "packed_size": 16,
+    "compression_ratio": 0.2581,
+    "record_size_candidate": 62,
+    "ascii_head": ".................................................,............",
+    "hex_head": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 31,
+    "raw_size": 186,
+    "packed_size": 191,
+    "compression_ratio": 1.0269,
+    "record_size_candidate": 62,
+    "ascii_head": ".....F.&.@.&.@....~..u\".F.........n.....(....:!.................",
+    "hex_head": "c4 1e 14 08 8b 46 fe 26 89 40 0c 26 c7 40 0e 00 00 83 7e fe 00 75 22 c7 46 d6 00 00 eb 1b b8 14"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 33,
+    "raw_size": 310,
+    "packed_size": 315,
+    "compression_ratio": 1.0161,
+    "record_size_candidate": 62,
+    "ascii_head": "u.+.^..]...~..t..~..t..~..u..v..v..v..v......;..................",
+    "hex_head": "75 08 2b c0 5e 8b e5 5d cb 90 83 7e 16 0e 74 0c 83 7e 16 10 74 06 83 7e 16 12 75 16 ff 76 16 ff"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 35,
+    "raw_size": 248,
+    "packed_size": 248,
+    "compression_ratio": 1.0,
+    "record_size_candidate": 62,
+    "ascii_head": "....u....G.xc.0s....<:t&</tA<\\t=< t9<;t5<....7...........d....u.",
+    "hex_head": "fc ac 84 c0 75 03 e9 9b 00 47 9a 78 63 bd 30 73 03 e9 83 00 3c 3a 74 26 3c 2f 74 41 3c 5c 74 3d"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 38,
+    "raw_size": 124,
+    "packed_size": 105,
+    "compression_ratio": 0.8468,
+    "record_size_candidate": 62,
+    "ascii_head": "  save lasty ypos.........V8..P8..       ...V8..................",
+    "hex_head": "20 20 73 61 76 65 20 6c 61 73 74 79 20 79 70 6f 73 0d 0d 00 00 00 06 06 00 00 56 38 08 00 50 38"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 43,
+    "raw_size": 248,
+    "packed_size": 251,
+    "compression_ratio": 1.0121,
+    "record_size_candidate": 62,
+    "ascii_head": "..0....t....v..X...3.......v..u.2....j......Z8..........dv......",
+    "hex_head": "83 ff 30 eb ef 84 ff 74 0f 83 ff 01 76 03 eb 58 90 b7 01 33 ff eb 09 90 83 ff 09 76 f4 eb 75 90"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 44,
+    "raw_size": 310,
+    "packed_size": 312,
+    "compression_ratio": 1.0065,
+    "record_size_candidate": 62,
+    "ascii_head": ".......F..V...t6.v.P...P.F..P.v..v...........;........K.........",
+    "hex_head": "e8 9d 12 83 c4 04 89 46 10 89 56 12 0b d0 74 36 ff 76 12 50 b8 0f 00 50 8d 46 fa 16 50 ff 76 08"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 45,
+    "raw_size": 186,
+    "packed_size": 177,
+    "compression_ratio": 0.9516,
+    "record_size_candidate": 62,
+    "ascii_head": "&.....^..]..U.........].~..t).v..v..v..v.....<................+.",
+    "hex_head": "26 01 07 b8 01 00 5e 8b e5 5d cb 90 55 8b ec b8 14 00 9a f2 04 a2 5d 83 7e 12 00 74 29 ff 76 16"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 46,
+    "raw_size": 186,
+    "packed_size": 188,
+    "compression_ratio": 1.0108,
+    "record_size_candidate": 62,
+    "ascii_head": "......t...:V&....F.....F.+.F..F....+F.;F....0<..................",
+    "hex_head": "05 83 c4 08 0b c0 74 0e 8e 06 3a 56 26 a1 90 07 01 46 fe eb 05 90 83 46 fe 2b 8b 46 0c 01 46 fe"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 48,
+    "raw_size": 124,
+    "packed_size": 128,
+    "compression_ratio": 1.0323,
+    "record_size_candidate": 62,
+    "ascii_head": "^..F.&.@..v....^.&.......v......^..F..V.&...R<%..!.......2.....3",
+    "hex_head": "5e 06 8a 46 0a 26 88 40 02 8b 76 fa d1 e6 c4 5e 06 26 c7 80 ca 00 01 00 8b 76 fa d1 e6 d1 e6 c4"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 49,
+    "raw_size": 248,
+    "packed_size": 252,
+    "compression_ratio": 1.0161,
+    "record_size_candidate": 62,
+    "ascii_head": "*..F..........s......V..V.....F..F..=.!s>...>7......`...........",
+    "hex_head": "2a c1 89 46 fc e9 fe 00 e8 1b fb 80 fc 03 73 07 81 e2 07 00 89 56 0a c5 56 1c e8 06 02 88 46 fe"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 50,
+    "raw_size": 186,
+    "packed_size": 190,
+    "compression_ratio": 1.0215,
+    "record_size_candidate": 62,
+    "ascii_head": "8E....F. ..R.^..v.&....F.P.........t9.F.9....<..................",
+    "hex_head": "38 45 83 c4 08 c7 46 fa 20 00 eb 52 8b 5e fc c4 76 06 26 8a 00 98 89 46 fe 50 0e e8 d0 fa 83 c4"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 51,
+    "raw_size": 248,
+    "packed_size": 255,
+    "compression_ratio": 1.0282,
+    "record_size_candidate": 62,
+    "ascii_head": ".F. ..+..v..^.&.x..t..v..v..........RP.......<......`...........",
+    "hex_head": "c7 46 fc 20 00 eb 2b 90 8b 76 fe c4 5e 06 26 80 78 01 00 74 1d ff 76 0e ff 76 0c 8b c6 03 c3 8c"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 52,
+    "raw_size": 310,
+    "packed_size": 310,
+    "compression_ratio": 1.0,
+    "record_size_candidate": 62,
+    "ascii_head": "..^.&.@........^.&...F.^..].U.........].v....<..........2.....V&",
+    "hex_head": "fc c4 5e 06 26 8a 40 01 98 03 c6 05 02 00 c4 5e 0c 26 89 07 8b 46 fc 5e 8b e5 5d cb 55 8b ec b8"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 53,
+    "raw_size": 124,
+    "packed_size": 125,
+    "compression_ratio": 1.0081,
+    "record_size_candidate": 62,
+    "ascii_head": "..F..V...tC..@V&.d.&..f........F..V..v..v....=...........O......",
+    "hex_head": "08 89 46 f8 89 56 fa 0b d0 74 43 8e 06 40 56 26 a1 64 07 26 8b 16 66 07 05 18 00 83 d2 00 89 46"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 54,
+    "raw_size": 248,
+    "packed_size": 251,
+    "compression_ratio": 1.0121,
+    "record_size_candidate": 62,
+    "ascii_head": ".&.w:&.w8....V`RP....L....F..V..v..v.RP.*...+=..................",
+    "hex_head": "07 26 ff 77 3a 26 ff 77 38 b8 a6 d5 ba 56 60 52 50 9a b2 12 10 4c 83 c4 08 89 46 fc 89 56 fe ff"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 55,
+    "raw_size": 186,
+    "packed_size": 190,
+    "compression_ratio": 1.0215,
+    "record_size_candidate": 62,
+    "ascii_head": ".....*.PV....0...+.P...PP.....*.PV....0......6...........l.....@",
+    "hex_head": "a0 b2 1f 04 02 2a e4 50 56 9a 06 09 b3 30 83 c4 0c 2b c0 50 b8 01 00 50 50 a0 b2 1f 04 03 2a e4"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 57,
+    "raw_size": 62,
+    "packed_size": 62,
+    "compression_ratio": 1.0,
+    "record_size_candidate": 62,
+    "ascii_head": "4.F..V..F....N..^..v......;v.u.;F.t..t.A......................",
+    "hex_head": "34 89 46 f4 89 56 f6 c7 46 fa 00 00 8b 4e fa 8c 5e ec c5 76 f4 eb 11 90 8c d8 3b 76 0a 75 05 3b"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 58,
+    "raw_size": 310,
+    "packed_size": 312,
+    "compression_ratio": 1.0065,
+    "record_size_candidate": 62,
+    "ascii_head": "v..v..v..v..Z..L.....DV&...&....&....&.O.....=........#.........",
+    "hex_head": "76 0e ff 76 0c ff 76 f4 ff 76 f2 9a 5a 14 10 4c 83 c4 08 8e 06 44 56 26 a3 00 08 26 89 16 02 08"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 59,
+    "raw_size": 248,
+    "packed_size": 250,
+    "compression_ratio": 1.0081,
+    "record_size_candidate": 62,
+    "ascii_head": "&.W..F..V...DV&.....F..V.&.G.&.W...DV&.......=........#.........",
+    "hex_head": "26 8b 57 0c 89 46 f8 89 56 fa 8e 06 44 56 26 8e 06 02 08 8b 46 0e 8b 56 10 26 89 47 04 26 89 57"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 60,
+    "raw_size": 186,
+    "packed_size": 189,
+    "compression_ratio": 1.0161,
+    "record_size_candidate": 62,
+    "ascii_head": "w.&.7.v..Z..J....F..P. .P.v...\".J...= .t....U7...........n....Mu",
+    "hex_head": "77 02 26 ff 37 ff 76 06 9a 5a 03 9d 4a 83 c4 06 8d 46 d2 16 50 b8 20 00 50 ff 76 06 9a 92 22 9d"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 61,
+    "raw_size": 186,
+    "packed_size": 189,
+    "compression_ratio": 1.0161,
+    "record_size_candidate": 62,
+    "ascii_head": "f..P...P.v..v..v..J..:.....n...t....^.&.@....=..+........h.....x",
+    "hex_head": "66 fd 16 50 b8 16 00 50 ff 76 0a ff 76 08 ff 76 06 9a 4a 19 e6 3a 83 c4 0c 89 86 6e fd 0b c0 74"
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 62,
+    "raw_size": 186,
+    "packed_size": 188,
+    "compression_ratio": 1.0108,
+    "record_size_candidate": 62,
+    "ascii_head": "v..v..Z.s9......V&....&.G.&.G..F.P.v....s...m7..+........h......",
+    "hex_head": "76 08 ff 76 06 9a 5a 05 73 39 83 c4 08 8e 06 18 56 26 c4 1e 10 08 26 8b 47 1c 26 ff 47 1c 89 46"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 2,
+    "raw_size": 45,
+    "packed_size": 48,
+    "compression_ratio": 1.0667,
+    "record_size_candidate": 9,
+    "ascii_head": "........8........8........8........8.........",
+    "hex_head": "13 00 00 ff 00 00 00 a1 38 14 00 00 ff 00 00 00 a2 38 15 00 00 ff 00 00 00 a3 38 16 00 00 ff 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 3,
+    "raw_size": 45,
+    "packed_size": 48,
+    "compression_ratio": 1.0667,
+    "record_size_candidate": 9,
+    "ascii_head": "........8........8........8........8.........",
+    "hex_head": "13 00 00 ff 00 00 00 bb 38 14 00 00 ff 00 00 00 bc 38 15 00 00 ff 00 00 00 bd 38 16 00 00 ff 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 4,
+    "raw_size": 54,
+    "packed_size": 58,
+    "compression_ratio": 1.0741,
+    "record_size_candidate": 9,
+    "ascii_head": "........6........6........6........6........6.........",
+    "hex_head": "13 00 00 ff 00 00 00 fa 36 14 00 00 ff 00 00 00 fb 36 15 00 00 ff 00 00 00 fc 36 16 00 00 ff 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 8,
+    "raw_size": 45,
+    "packed_size": 48,
+    "compression_ratio": 1.0667,
+    "record_size_candidate": 9,
+    "ascii_head": ".......l8.......m8.......n8.......o8.........",
+    "hex_head": "12 00 00 ff 00 00 00 6c 38 13 00 00 ff 00 00 00 6d 38 15 00 00 ff 00 00 00 6e 38 16 00 00 ff 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 9,
+    "raw_size": 18,
+    "packed_size": 18,
+    "compression_ratio": 1.0,
+    "record_size_candidate": 9,
+    "ascii_head": ".......x9.........",
+    "hex_head": "15 00 00 ff 00 00 00 78 39 1e 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 10,
+    "raw_size": 9,
+    "packed_size": 8,
+    "compression_ratio": 0.8889,
+    "record_size_candidate": 9,
+    "ascii_head": ".........",
+    "hex_head": "19 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 11,
+    "raw_size": 9,
+    "packed_size": 8,
+    "compression_ratio": 0.8889,
+    "record_size_candidate": 9,
+    "ascii_head": ".........",
+    "hex_head": "19 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 17,
+    "raw_size": 45,
+    "packed_size": 48,
+    "compression_ratio": 1.0667,
+    "record_size_candidate": 9,
+    "ascii_head": ".......$:.......%:.......&:.......':.........",
+    "hex_head": "10 00 00 ff 00 00 00 24 3a 13 00 00 ff 00 00 00 25 3a 14 00 00 ff 00 00 00 26 3a 15 00 00 ff 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 18,
+    "raw_size": 27,
+    "packed_size": 28,
+    "compression_ratio": 1.037,
+    "record_size_candidate": 9,
+    "ascii_head": ".......J8.......K8.........",
+    "hex_head": "10 00 00 ff 00 00 00 4a 38 13 00 00 ff 00 00 00 4b 38 16 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 21,
+    "raw_size": 45,
+    "packed_size": 48,
+    "compression_ratio": 1.0667,
+    "record_size_candidate": 9,
+    "ascii_head": "........:........:........:........:.........",
+    "hex_head": "10 00 00 ff 00 00 00 a1 3a 13 00 00 ff 00 00 00 a2 3a 15 00 00 ff 00 00 00 a3 3a 16 00 00 ff 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 22,
+    "raw_size": 9,
+    "packed_size": 8,
+    "compression_ratio": 0.8889,
+    "record_size_candidate": 9,
+    "ascii_head": ".........",
+    "hex_head": "10 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 29,
+    "raw_size": 18,
+    "packed_size": 18,
+    "compression_ratio": 1.0,
+    "record_size_candidate": 9,
+    "ascii_head": "........6.........",
+    "hex_head": "13 00 00 ff 00 00 00 fe 36 15 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 32,
+    "raw_size": 45,
+    "packed_size": 48,
+    "compression_ratio": 1.0667,
+    "record_size_candidate": 9,
+    "ascii_head": "........;........;........;........;.........",
+    "hex_head": "10 00 00 ff 00 00 00 01 3b 13 00 00 ff 00 00 00 02 3b 15 00 00 ff 00 00 00 03 3b 16 00 00 ff 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 35,
+    "raw_size": 45,
+    "packed_size": 48,
+    "compression_ratio": 1.0667,
+    "record_size_candidate": 9,
+    "ascii_head": "........7........7........7........7.........",
+    "hex_head": "10 00 00 ff 00 00 00 05 37 12 00 00 ff 00 00 00 06 37 13 00 00 ff 00 00 00 07 37 15 00 00 ff 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 36,
+    "raw_size": 9,
+    "packed_size": 8,
+    "compression_ratio": 0.8889,
+    "record_size_candidate": 9,
+    "ascii_head": ".........",
+    "hex_head": "1e 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 37,
+    "raw_size": 36,
+    "packed_size": 38,
+    "compression_ratio": 1.0556,
+    "record_size_candidate": 9,
+    "ascii_head": "........;........;........;.........",
+    "hex_head": "12 00 00 ff 00 00 00 86 3b 14 00 00 ff 00 00 00 87 3b 15 00 00 ff 00 00 00 88 3b 16 00 00 ff 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 38,
+    "raw_size": 18,
+    "packed_size": 18,
+    "compression_ratio": 1.0,
+    "record_size_candidate": 9,
+    "ascii_head": ".......Q8.........",
+    "hex_head": "15 00 00 ff 00 00 00 51 38 16 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 39,
+    "raw_size": 18,
+    "packed_size": 18,
+    "compression_ratio": 1.0,
+    "record_size_candidate": 9,
+    "ascii_head": "........;.........",
+    "hex_head": "10 00 00 ff 00 00 00 8c 3b 13 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 40,
+    "raw_size": 18,
+    "packed_size": 18,
+    "compression_ratio": 1.0,
+    "record_size_candidate": 9,
+    "ascii_head": "........;.........",
+    "hex_head": "17 00 00 ff 00 00 00 90 3b 1e 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 41,
+    "raw_size": 18,
+    "packed_size": 18,
+    "compression_ratio": 1.0,
+    "record_size_candidate": 9,
+    "ascii_head": "........;.........",
+    "hex_head": "10 00 00 ff 00 00 00 94 3b 13 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 42,
+    "raw_size": 27,
+    "packed_size": 28,
+    "compression_ratio": 1.037,
+    "record_size_candidate": 9,
+    "ascii_head": " .......;........;.........",
+    "hex_head": "20 00 00 ff 00 00 00 99 3b 17 00 00 ff 00 00 00 9a 3b 13 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 44,
+    "raw_size": 9,
+    "packed_size": 8,
+    "compression_ratio": 0.8889,
+    "record_size_candidate": 9,
+    "ascii_head": ".........",
+    "hex_head": "10 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 45,
+    "raw_size": 63,
+    "packed_size": 68,
+    "compression_ratio": 1.0794,
+    "record_size_candidate": 9,
+    "ascii_head": "........;........;........;........;........;........;.........",
+    "hex_head": "13 00 00 ff 00 00 00 f9 3b 10 00 00 ff 00 00 00 fa 3b 15 00 00 ff 00 00 00 fb 3b 16 00 00 ff 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 46,
+    "raw_size": 27,
+    "packed_size": 28,
+    "compression_ratio": 1.037,
+    "record_size_candidate": 9,
+    "ascii_head": ".......*<.......+<.........",
+    "hex_head": "15 00 00 ff 00 00 00 2a 3c 1b 00 00 ff 00 00 00 2b 3c 10 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 47,
+    "raw_size": 18,
+    "packed_size": 18,
+    "compression_ratio": 1.0,
+    "record_size_candidate": 9,
+    "ascii_head": ".......;<.........",
+    "hex_head": "1c 00 00 ff 00 00 00 3b 3c 10 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 48,
+    "raw_size": 45,
+    "packed_size": 48,
+    "compression_ratio": 1.0667,
+    "record_size_candidate": 9,
+    "ascii_head": ".......J<.......K<.......L<.......M<.........",
+    "hex_head": "15 00 00 ff 00 00 00 4a 3c 16 00 00 ff 00 00 00 4b 3c 12 00 00 ff 00 00 00 4c 3c 10 00 00 ff 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 49,
+    "raw_size": 45,
+    "packed_size": 48,
+    "compression_ratio": 1.0667,
+    "record_size_candidate": 9,
+    "ascii_head": ".......67.......77.......87.......97.........",
+    "hex_head": "15 00 00 ff 00 00 00 36 37 10 00 00 ff 00 00 00 37 37 12 00 00 ff 00 00 00 38 37 13 00 00 ff 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 50,
+    "raw_size": 45,
+    "packed_size": 48,
+    "compression_ratio": 1.0667,
+    "record_size_candidate": 9,
+    "ascii_head": "........<........<........<........<.........",
+    "hex_head": "10 00 00 ff 00 00 00 9f 3c 12 00 00 ff 00 00 00 a0 3c 13 00 00 ff 00 00 00 a1 3c 15 00 00 ff 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 51,
+    "raw_size": 45,
+    "packed_size": 48,
+    "compression_ratio": 1.0667,
+    "record_size_candidate": 9,
+    "ascii_head": "........<........<........<........<.........",
+    "hex_head": "10 00 00 ff 00 00 00 c5 3c 12 00 00 ff 00 00 00 c6 3c 13 00 00 ff 00 00 00 c7 3c 15 00 00 ff 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 52,
+    "raw_size": 9,
+    "packed_size": 8,
+    "compression_ratio": 0.8889,
+    "record_size_candidate": 9,
+    "ascii_head": ".........",
+    "hex_head": "10 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 54,
+    "raw_size": 18,
+    "packed_size": 18,
+    "compression_ratio": 1.0,
+    "record_size_candidate": 9,
+    "ascii_head": ".......&=.........",
+    "hex_head": "10 00 00 ff 00 00 00 26 3d 16 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 56,
+    "raw_size": 27,
+    "packed_size": 28,
+    "compression_ratio": 1.037,
+    "record_size_candidate": 9,
+    "ascii_head": "........7........7.........",
+    "hex_head": "19 00 00 ff 00 00 00 0b 37 1a 00 00 ff 00 00 00 0c 37 1b 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 57,
+    "raw_size": 72,
+    "packed_size": 78,
+    "compression_ratio": 1.0833,
+    "record_size_candidate": 9,
+    "ascii_head": "........7........7........7........7........7........7........7.",
+    "hex_head": "03 00 00 ff 00 00 00 04 37 10 00 00 ff 00 00 00 05 37 12 00 00 ff 00 00 00 06 37 13 00 00 ff 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 63,
+    "raw_size": 27,
+    "packed_size": 28,
+    "compression_ratio": 1.037,
+    "record_size_candidate": 9,
+    "ascii_head": "........=........=.........",
+    "hex_head": "10 00 00 ff 00 00 00 fd 3d 17 00 00 ff 00 00 00 fe 3d 13 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 64,
+    "raw_size": 9,
+    "packed_size": 8,
+    "compression_ratio": 0.8889,
+    "record_size_candidate": 9,
+    "ascii_head": ".........",
+    "hex_head": "1e 00 00 ff 00 00 00 00 00"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 0,
+    "raw_size": 17582,
+    "packed_size": 6955,
+    "compression_ratio": 0.3956,
+    "record_size_candidate": null,
+    "ascii_head": "X.......@.??6??.??'??.?>.?=.?=.?=.96.31.-+.''.!!..........>?68:*",
+    "hex_head": "58 18 00 00 00 00 01 00 40 bf 3f 3f 36 3f 3f 2e 3f 3f 27 3f 3f 1f 3f 3e 17 3f 3d 10 3f 3d 08 3f"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 1,
+    "raw_size": 17582,
+    "packed_size": 6859,
+    "compression_ratio": 0.3901,
+    "record_size_candidate": null,
+    "ascii_head": "X.......@..*?.*?222...................*?,-..*?...!!!???.*?.*?.*?",
+    "hex_head": "58 18 00 00 00 00 01 00 40 bf 08 2a 3f 08 2a 3f 32 32 32 1d 1d 1d 14 14 14 18 18 18 00 00 00 0c"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 2,
+    "raw_size": 17582,
+    "packed_size": 7008,
+    "compression_ratio": 0.3986,
+    "record_size_candidate": null,
+    "ascii_head": "X.......@.??6::*54 0/.+*.&%.! ....96.31.-+.''.!!..........>?6=?.",
+    "hex_head": "58 18 00 00 00 00 01 00 40 bf 3f 3f 36 3a 3a 2a 35 34 20 30 2f 17 2b 2a 10 26 25 09 21 20 04 1c"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 3,
+    "raw_size": 17582,
+    "packed_size": 6302,
+    "compression_ratio": 0.3584,
+    "record_size_candidate": null,
+    "ascii_head": "X.......@.??6??.??'??.?>.?=.?=.?=.96.31.-+.''.!!.......... .,=?.",
+    "hex_head": "58 18 00 00 00 00 01 00 40 bf 3f 3f 36 3f 3f 2e 3f 3f 27 3f 3f 1f 3f 3e 17 3f 3d 10 3f 3d 08 3f"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 4,
+    "raw_size": 17582,
+    "packed_size": 5721,
+    "compression_ratio": 0.3254,
+    "record_size_candidate": null,
+    "ascii_head": "X.......@.??.><.>:.>8.=6.=3.<1.<..;+.;).:&.:$.: .9..9.....??.><.",
+    "hex_head": "58 18 00 00 00 00 01 00 40 bf 3f 3f 15 3e 3c 13 3e 3a 12 3e 38 10 3d 36 0f 3d 33 0d 3c 31 0c 3c"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 10,
+    "raw_size": 9342,
+    "packed_size": 2981,
+    "compression_ratio": 0.3191,
+    "record_size_candidate": null,
+    "ascii_head": "0....... .1?>....0.\"..!.9&..%%%.*..0////7777...';,-.43.43..... .",
+    "hex_head": "30 18 00 00 00 00 01 00 20 1f 31 3f 3e 02 1a 04 19 30 10 22 0a 19 21 00 39 26 09 0c 25 25 25 08"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 11,
+    "raw_size": 5830,
+    "packed_size": 815,
+    "compression_ratio": 0.1398,
+    "record_size_candidate": null,
+    "ascii_head": "H..............*.*..***..*.**..***.....?.?..???..?.???.???.#Eg..",
+    "hex_head": "48 0a 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 12,
+    "raw_size": 3910,
+    "packed_size": 453,
+    "compression_ratio": 0.1159,
+    "record_size_candidate": null,
+    "ascii_head": "0..............*.*..***..*.**..***.....?.?..???..?.???.???.#Eg..",
+    "hex_head": "30 0a 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 13,
+    "raw_size": 3910,
+    "packed_size": 600,
+    "compression_ratio": 0.1535,
+    "record_size_candidate": null,
+    "ascii_head": "0..............*.*..***..*.**..***.....?.?..???..?.???.???.#Eg..",
+    "hex_head": "30 0a 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 14,
+    "raw_size": 2310,
+    "packed_size": 877,
+    "compression_ratio": 0.3797,
+    "record_size_candidate": null,
+    "ascii_head": "(..............*.*..***..*.**..***.....?.?..???..?.???.???.#Eg..",
+    "hex_head": "28 07 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 15,
+    "raw_size": 2630,
+    "packed_size": 711,
+    "compression_ratio": 0.2703,
+    "record_size_candidate": null,
+    "ascii_head": "(..............*.*..***..*.**..***.....?.?..???..?.???.???.#Eg..",
+    "hex_head": "28 08 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 16,
+    "raw_size": 2118,
+    "packed_size": 1204,
+    "compression_ratio": 0.5685,
+    "record_size_candidate": null,
+    "ascii_head": " ..............*.*..***..*.**..***.....?.?..???..?.???.???.#Eg..",
+    "hex_head": "20 08 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 17,
+    "raw_size": 1350,
+    "packed_size": 459,
+    "compression_ratio": 0.34,
+    "record_size_candidate": null,
+    "ascii_head": " ..............*.*..***..*.**..***.....?.?..???..?.???.???.#Eg..",
+    "hex_head": "20 05 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 18,
+    "raw_size": 1030,
+    "packed_size": 369,
+    "compression_ratio": 0.3583,
+    "record_size_candidate": null,
+    "ascii_head": "...............*.*..***..*.**..***.....?.?..???..?.???.???.#Eg..",
+    "hex_head": "18 05 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 19,
+    "raw_size": 1030,
+    "packed_size": 632,
+    "compression_ratio": 0.6136,
+    "record_size_candidate": null,
+    "ascii_head": "...............*.*..***..*.**..***.....?.?..???..?.???.???.#Eg..",
+    "hex_head": "18 05 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 20,
+    "raw_size": 838,
+    "packed_size": 359,
+    "compression_ratio": 0.4284,
+    "record_size_candidate": null,
+    "ascii_head": "...............*.*..***..*.**..***.....?.?..???..?.???.???.#Eg..",
+    "hex_head": "18 04 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 21,
+    "raw_size": 838,
+    "packed_size": 249,
+    "compression_ratio": 0.2971,
+    "record_size_candidate": null,
+    "ascii_head": "...............*.*..***..*.**..***.....?.?..???..?.???.???.#Eg..",
+    "hex_head": "18 04 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 22,
+    "raw_size": 582,
+    "packed_size": 356,
+    "compression_ratio": 0.6117,
+    "record_size_candidate": null,
+    "ascii_head": "...............*.*..***..*.**..***.....?.?..???..?.???.???.#Eg..",
+    "hex_head": "10 04 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 23,
+    "raw_size": 326,
+    "packed_size": 209,
+    "compression_ratio": 0.6411,
+    "record_size_candidate": null,
+    "ascii_head": "...............*.*..***..*.**..***.....?.?..???..?.???.???.#Eg..",
+    "hex_head": "10 02 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 24,
+    "raw_size": 646,
+    "packed_size": 203,
+    "compression_ratio": 0.3142,
+    "record_size_candidate": null,
+    "ascii_head": "...............*.*..***..*.**..***.....?.?..???..?.???.???.#Eg..",
+    "hex_head": "18 03 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 25,
+    "raw_size": 326,
+    "packed_size": 165,
+    "compression_ratio": 0.5061,
+    "record_size_candidate": null,
+    "ascii_head": "...............*.*..***..*.**..***.....?.?..???..?.???.???.#Eg..",
+    "hex_head": "10 02 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 26,
+    "raw_size": 894,
+    "packed_size": 643,
+    "compression_ratio": 0.7192,
+    "record_size_candidate": null,
+    "ascii_head": " ....... .1?>....0.\"..!.9&..%%%.*..0////7777...';,-.43.43..... .",
+    "hex_head": "20 03 00 00 00 00 01 00 20 1f 31 3f 3e 02 1a 04 19 30 10 22 0a 19 21 00 39 26 09 0c 25 25 25 08"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 27,
+    "raw_size": 510,
+    "packed_size": 268,
+    "compression_ratio": 0.5255,
+    "record_size_candidate": null,
+    "ascii_head": "........ .1?>....0.\"..!.9&..%%%.*..0////7777...';,-.43.43..... .",
+    "hex_head": "10 03 00 00 00 00 01 00 20 1f 31 3f 3e 02 1a 04 19 30 10 22 0a 19 21 00 39 26 09 0c 25 25 25 08"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 28,
+    "raw_size": 510,
+    "packed_size": 388,
+    "compression_ratio": 0.7608,
+    "record_size_candidate": null,
+    "ascii_head": "........ .1?>....0.\"..!.9&..%%%.*..0////7777...';,-.43.43..... .",
+    "hex_head": "10 03 00 00 00 00 01 00 20 1f 31 3f 3e 02 1a 04 19 30 10 22 0a 19 21 00 39 26 09 0c 25 25 25 08"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 29,
+    "raw_size": 510,
+    "packed_size": 375,
+    "compression_ratio": 0.7353,
+    "record_size_candidate": null,
+    "ascii_head": "........ .1?>....0.\"..!.9&..%%%.*..0////7777...';,-.43.43..... .",
+    "hex_head": "10 03 00 00 00 00 01 00 20 1f 31 3f 3e 02 1a 04 19 30 10 22 0a 19 21 00 39 26 09 0c 25 25 25 08"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 30,
+    "raw_size": 510,
+    "packed_size": 395,
+    "compression_ratio": 0.7745,
+    "record_size_candidate": null,
+    "ascii_head": "........ .1?>....0.\"..!.9&..%%%.*..0////7777...';,-.43.43..... .",
+    "hex_head": "10 03 00 00 00 00 01 00 20 1f 31 3f 3e 02 1a 04 19 30 10 22 0a 19 21 00 39 26 09 0c 25 25 25 08"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 31,
+    "raw_size": 510,
+    "packed_size": 426,
+    "compression_ratio": 0.8353,
+    "record_size_candidate": null,
+    "ascii_head": "........ .1?>....0.\"..!.9&..%%%.*..0////7777...';,-.43.43..... .",
+    "hex_head": "10 03 00 00 00 00 01 00 20 1f 31 3f 3e 02 1a 04 19 30 10 22 0a 19 21 00 39 26 09 0c 25 25 25 08"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 32,
+    "raw_size": 510,
+    "packed_size": 355,
+    "compression_ratio": 0.6961,
+    "record_size_candidate": null,
+    "ascii_head": "........ .1?>....0.\"..!.9&..%%%.*..0////7777...';,-.43.43..... .",
+    "hex_head": "10 03 00 00 00 00 01 00 20 1f 31 3f 3e 02 1a 04 19 30 10 22 0a 19 21 00 39 26 09 0c 25 25 25 08"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 33,
+    "raw_size": 254,
+    "packed_size": 202,
+    "compression_ratio": 0.7953,
+    "record_size_candidate": null,
+    "ascii_head": "........ .1?>....0.\"..!.9&..%%%.*..0////7777...';,-.43.43..... .",
+    "hex_head": "08 02 00 00 00 00 01 00 20 1f 31 3f 3e 02 1a 04 19 30 10 22 0a 19 21 00 39 26 09 0c 25 25 25 08"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 34,
+    "raw_size": 254,
+    "packed_size": 226,
+    "compression_ratio": 0.8898,
+    "record_size_candidate": null,
+    "ascii_head": "........ .1?>....0.\"..!.9&..%%%.*..0////7777...';,-.43.43..... .",
+    "hex_head": "08 02 00 00 00 00 01 00 20 1f 31 3f 3e 02 1a 04 19 30 10 22 0a 19 21 00 39 26 09 0c 25 25 25 08"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 35,
+    "raw_size": 254,
+    "packed_size": 225,
+    "compression_ratio": 0.8858,
+    "record_size_candidate": null,
+    "ascii_head": "........ .1?>....0.\"..!.9&..%%%.*..0////7777...';,-.43.43..... .",
+    "hex_head": "08 02 00 00 00 00 01 00 20 1f 31 3f 3e 02 1a 04 19 30 10 22 0a 19 21 00 39 26 09 0c 25 25 25 08"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 36,
+    "raw_size": 254,
+    "packed_size": 230,
+    "compression_ratio": 0.9055,
+    "record_size_candidate": null,
+    "ascii_head": "........ .1?>....0.\"..!.9&..%%%.*..0////7777...';,-.43.43..... .",
+    "hex_head": "08 02 00 00 00 00 01 00 20 1f 31 3f 3e 02 1a 04 19 30 10 22 0a 19 21 00 39 26 09 0c 25 25 25 08"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 37,
+    "raw_size": 254,
+    "packed_size": 243,
+    "compression_ratio": 0.9567,
+    "record_size_candidate": null,
+    "ascii_head": "........ .1?>....0.\"..!.9&..%%%.*..0////7777...';,-.43.43..... .",
+    "hex_head": "08 02 00 00 00 00 01 00 20 1f 31 3f 3e 02 1a 04 19 30 10 22 0a 19 21 00 39 26 09 0c 25 25 25 08"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 38,
+    "raw_size": 254,
+    "packed_size": 230,
+    "compression_ratio": 0.9055,
+    "record_size_candidate": null,
+    "ascii_head": "........ .1?>....0.\"..!.9&..%%%.*..0////7777...';,-.43.43..... .",
+    "hex_head": "08 02 00 00 00 00 01 00 20 1f 31 3f 3e 02 1a 04 19 30 10 22 0a 19 21 00 39 26 09 0c 25 25 25 08"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 40,
+    "raw_size": 108,
+    "packed_size": 79,
+    "compression_ratio": 0.7315,
+    "record_size_candidate": null,
+    "ascii_head": ".HubbleOUT CRUIS2.d.....<.A.d.......<.A.d..........d<2..........",
+    "hex_head": "06 48 75 62 62 6c 65 4f 55 54 20 43 52 55 49 53 32 00 64 00 19 00 c8 00 3c 00 41 00 64 00 a0 00"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 41,
+    "raw_size": 108,
+    "packed_size": 93,
+    "compression_ratio": 0.8611,
+    "record_size_candidate": null,
+    "ascii_head": ".AdderED CRUISER..,.K.X.....,.....X.....,.....K.2..2F<..........",
+    "hex_head": "05 41 64 64 65 72 45 44 20 43 52 55 49 53 45 52 96 00 2c 01 4b 00 58 02 96 00 96 00 2c 01 c2 01"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 42,
+    "raw_size": 108,
+    "packed_size": 93,
+    "compression_ratio": 0.8611,
+    "record_size_candidate": null,
+    "ascii_head": ".MohaveY CRUISER...................................2F<..........",
+    "hex_head": "06 4d 6f 68 61 76 65 59 20 43 52 55 49 53 45 52 f4 01 e8 03 fa 00 d0 07 f4 01 f4 01 e8 03 dc 05"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 43,
+    "raw_size": 108,
+    "packed_size": 85,
+    "compression_ratio": 0.787,
+    "record_size_candidate": null,
+    "ascii_head": ".FlareE CRUISERSd...2...d.d...,.,...d.d...,.,.2.*..d<2..........",
+    "hex_head": "05 46 6c 61 72 65 45 20 43 52 55 49 53 45 52 53 64 00 c8 00 32 00 90 01 64 00 64 00 c8 00 2c 01"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 44,
+    "raw_size": 108,
+    "packed_size": 78,
+    "compression_ratio": 0.7222,
+    "record_size_candidate": null,
+    "ascii_head": ".LiberatorRUISER....d. .......X.X. .......X.X.d.C..2F<..........",
+    "hex_head": "09 4c 69 62 65 72 61 74 6f 72 52 55 49 53 45 52 c8 00 90 01 64 00 20 03 c8 00 c8 00 90 01 58 02"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 50,
+    "raw_size": 108,
+    "packed_size": 82,
+    "compression_ratio": 0.7593,
+    "record_size_candidate": null,
+    "ascii_head": ".Maelstrom Rider..,.K.X.....,.....X.....,..........dF2..........",
+    "hex_head": "0f 4d 61 65 6c 73 74 72 6f 6d 20 52 69 64 65 72 96 00 2c 01 4b 00 58 02 96 00 96 00 2c 01 c2 01"
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 128,
+    "raw_size": 31102,
+    "packed_size": 2187,
+    "compression_ratio": 0.0703,
+    "record_size_candidate": null,
+    "ascii_head": "........ ......2.2..222..2.22%.722\"\"'((<(<((<<<((<(<<<(??4......",
+    "hex_head": "b0 16 00 00 00 00 01 00 20 1f 00 00 10 18 18 32 18 32 18 18 32 32 32 07 07 32 18 32 32 25 18 37"
+  }
+]

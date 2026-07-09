@@ -1,0 +1,914 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matrix Cubed Startup Input Map</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #0b0e12;
+  color: #dbe7ee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 16px 20px;
+  background: #111923;
+  border-bottom: 1px solid #2b3c4b;
+}
+h1 { margin: 0 0 4px; font-size: 22px; letter-spacing: 0; }
+.sub { color: #9eb2bf; font-size: 14px; }
+main {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 18px;
+  padding: 18px;
+}
+nav {
+  position: sticky;
+  top: 84px;
+  align-self: start;
+  max-height: calc(100vh - 100px);
+  overflow: auto;
+  padding: 12px;
+  background: #101720;
+  border: 1px solid #273746;
+  border-radius: 8px;
+}
+nav a {
+  display: block;
+  color: #b9d7e9;
+  text-decoration: none;
+  padding: 7px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+nav a:hover { background: #1b2a38; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 14px;
+}
+.card {
+  border: 1px solid #2b3c4b;
+  border-radius: 8px;
+  background: #101720;
+  padding: 14px;
+}
+.kind {
+  color: #f2d56b;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+h2 { margin: 4px 0 10px; font-size: 18px; }
+h4 { margin: 12px 0 6px; font-size: 13px; color: #9eb2bf; }
+ul { margin: 0; padding-left: 18px; }
+li { margin: 4px 0; line-height: 1.35; }
+table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 13px; }
+th, td { border-top: 1px solid #263747; padding: 7px 6px; text-align: left; vertical-align: top; }
+th { color: #f2d56b; font-weight: 700; }
+code { color: #f5f0b8; }
+a { color: #8fd0ff; }
+.terminal { color: #9eb2bf; }
+pre {
+  margin: 18px 0 0;
+  padding: 12px;
+  overflow: auto;
+  background: #080b10;
+  border: 1px solid #273746;
+  border-radius: 8px;
+  font-size: 12px;
+}
+@media (max-width: 900px) {
+  main { grid-template-columns: 1fr; }
+  nav { position: static; max-height: none; }
+  .grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Matrix Cubed Startup Input Map</h1>
+  <div class="sub">startup inputs from executable setup through Begin Adventuring - string-evidence map with marked inferred transitions</div>
+</header>
+<main>
+  <nav>
+    <a href='#graphics_adapter'>Graphics Adapter Type</a><a href='#sound_type'>Sound Type</a><a href='#alternate_input'>Alternate Input Type</a><a href='#joystick_calibration'>Joystick Calibration</a><a href='#joystick_calibration_lower'>Joystick Calibration Lower Right</a><a href='#save_path'>Save Path</a><a href='#loading_overlay'>Loading</a><a href='#title_sequence'>Title And Story Sequence</a><a href='#startup_command_menu'>Startup Command Menu</a><a href='#create_character'>Create New Character</a><a href='#create_pick_gender'>Create Character: Pick Gender</a><a href='#create_pick_class'>Create Character: Pick Class/Career</a><a href='#create_reroll_stats'>Create Character: Reroll Stats</a><a href='#create_name'>Create Character: Name</a><a href='#create_skills'>Create Character: Skills</a><a href='#create_save'>Create Character: Save</a><a href='#purge_character'>Purge Character</a><a href='#purge_confirm'>Purge Character: Confirm</a><a href='#modify_character'>Modify Character</a><a href='#modify_skills'>Modify Character: Skills</a><a href='#train_character'>Train Character</a><a href='#train_confirm'>Train Character: Confirm</a><a href='#view_character_pick'>View Character: Pick</a><a href='#view_character_sheet'>View Character: Sheet</a><a href='#add_character'>Add Character To Team</a><a href='#remove_character'>Remove Character From Team</a><a href='#load_saved_game'>Load Saved Game</a><a href='#save_current_game'>Save Current Game</a><a href='#save_confirm'>Save Current Game: Confirm</a><a href='#exit_to_dos'>Exit To DOS</a><a href='#dos_exit'>DOS Exit</a><a href='#game_start'>Begin Adventuring / Game Starts</a>
+  </nav>
+  <div>
+    <div class="grid">
+      <section class='card' id='graphics_adapter'><div class='kind'>setup_prompt</div><h2>Graphics Adapter Type</h2><h4>Evidence</h4><ul><li>START.EXE offset 5287: GRAPHICS ADAPTER TYPE: [1] EGA [2] Tandy [3] VGA</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>1</code></td><td>EGA</td><td><a href='#sound_type'>sound_type</a></td></tr><tr><td><code>2</code></td><td>Tandy</td><td><a href='#sound_type'>sound_type</a></td></tr><tr><td><code>3</code></td><td>VGA</td><td><a href='#sound_type'>sound_type</a></td></tr></tbody></table></section><section class='card' id='sound_type'><div class='kind'>setup_prompt</div><h2>Sound Type</h2><h4>Evidence</h4><ul><li>START.EXE offsets 5444-5566: SOUND TYPE choices</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>1</code></td><td>PC speaker</td><td><a href='#alternate_input'>alternate_input</a></td></tr><tr><td><code>2</code></td><td>Sound Blaster</td><td><a href='#alternate_input'>alternate_input</a></td></tr><tr><td><code>3</code></td><td>Adlib</td><td><a href='#alternate_input'>alternate_input</a></td></tr><tr><td><code>4</code></td><td>Roland MT32</td><td><a href='#alternate_input'>alternate_input</a></td></tr><tr><td><code>5</code></td><td>Tandy 1000</td><td><a href='#alternate_input'>alternate_input</a></td></tr><tr><td><code>6</code></td><td>Silent</td><td><a href='#alternate_input'>alternate_input</a></td></tr></tbody></table></section><section class='card' id='alternate_input'><div class='kind'>setup_prompt</div><h2>Alternate Input Type</h2><h4>Evidence</h4><ul><li>START.EXE offset 5566: ALTERNATE INPUT TYPE: [1] JOYSTICK [2] MOUSE [3] NEITHER</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>1</code></td><td>Joystick</td><td><a href='#joystick_calibration'>joystick_calibration</a></td></tr><tr><td><code>2</code></td><td>Mouse</td><td><a href='#save_path'>save_path</a></td></tr><tr><td><code>3</code></td><td>Neither</td><td><a href='#save_path'>save_path</a></td></tr></tbody></table></section><section class='card' id='joystick_calibration'><div class='kind'>setup_prompt</div><h2>Joystick Calibration</h2><h4>Evidence</h4><ul><li>START.EXE offset 45461: upper-left calibration prompt</li><li>START.EXE offset 45461: lower-right calibration prompt</li></ul><h4>Notes</h4><ul><li>The exact abort/retry loop needs live DOS validation.</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>button 1</code></td><td>Confirm upper-left</td><td><a href='#joystick_calibration_lower'>joystick_calibration_lower</a></td></tr><tr><td><code>abort</code></td><td>Could not read joystick</td><td><a href='#alternate_input'>alternate_input</a></td></tr></tbody></table></section><section class='card' id='joystick_calibration_lower'><div class='kind'>setup_prompt</div><h2>Joystick Calibration Lower Right</h2><h4>Evidence</h4><ul><li>START.EXE offset 45461: Push JOYSTICK #1 to the extreme lower right position and press BUTTON #1.</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>button 1</code></td><td>Confirm lower-right</td><td><a href='#save_path'>save_path</a></td></tr></tbody></table></section><section class='card' id='save_path'><div class='kind'>setup_prompt</div><h2>Save Path</h2><h4>Evidence</h4><ul><li>START.EXE offsets 5639-5734: SAVE / PATH TO SAVE DATA / USING DEFAULT PATH / :\SAVE</li><li>START.EXE offset 5734: :\BUCK\SAVE</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Enter</code></td><td>Use default save path</td><td><a href='#loading_overlay'>loading_overlay</a></td></tr><tr><td><code>text</code></td><td>Type save path</td><td><a href='#loading_overlay'>loading_overlay</a></td></tr></tbody></table></section><section class='card' id='loading_overlay'><div class='kind'>status</div><h2>Loading</h2><h4>Evidence</h4><ul><li>START.EXE offset 29259: Loading...Please Wait</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>auto</code></td><td>Continue when overlay loads</td><td><a href='#title_sequence'>title_sequence</a></td></tr></tbody></table></section><section class='card' id='title_sequence'><div class='kind'>presentation</div><h2>Title And Story Sequence</h2><h4>Evidence</h4><ul><li>TITLE.DAX blocks 001-004</li><li>BIGPIC1.DAX blocks 112-117</li><li>START.EXE offset 60968: Press button or enter to continue</li></ul><h4>Notes</h4><ul><li>Exact timing and skip behavior still needs live DOS capture.</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Enter</code></td><td>Advance title/story screens</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr><tr><td><code>button</code></td><td>Advance title/story screens</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr><tr><td><code>auto</code></td><td>Timed screens may advance without input</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='startup_command_menu'><div class='kind'>menu</div><h2>Startup Command Menu</h2><h4>Evidence</h4><ul><li>START.EXE offsets 59986-60298: character, load/save, begin, and exit command labels</li><li>START.EXE offset 59934: Select Exit:</li></ul><h4>Notes</h4><ul><li>The earlier reconstruction used a compact inferred menu; this node is the stronger string-evidence map.</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>1</code></td><td>Create New Character</td><td><a href='#create_character'>create_character</a></td></tr><tr><td><code>2</code></td><td>Purge Character</td><td><a href='#purge_character'>purge_character</a></td></tr><tr><td><code>3</code></td><td>Modify Character</td><td><a href='#modify_character'>modify_character</a></td></tr><tr><td><code>4</code></td><td>Train Character</td><td><a href='#train_character'>train_character</a></td></tr><tr><td><code>5</code></td><td>View Character</td><td><a href='#view_character_pick'>view_character_pick</a></td></tr><tr><td><code>6</code></td><td>Add Character to Team</td><td><a href='#add_character'>add_character</a></td></tr><tr><td><code>7</code></td><td>Remove Character from Team</td><td><a href='#remove_character'>remove_character</a></td></tr><tr><td><code>8</code></td><td>Load Saved Game</td><td><a href='#load_saved_game'>load_saved_game</a></td></tr><tr><td><code>9</code></td><td>Save Current Game</td><td><a href='#save_current_game'>save_current_game</a></td></tr><tr><td><code>10</code></td><td>Begin Adventuring</td><td><a href='#game_start'>game_start</a></td></tr><tr><td><code>11</code></td><td>Exit to DOS</td><td><a href='#exit_to_dos'>exit_to_dos</a></td></tr></tbody></table></section><section class='card' id='create_character'><div class='kind'>character_flow</div><h2>Create New Character</h2><h4>Evidence</h4><ul><li>START.EXE offset 59986: Create New Character</li><li>GAME.OVR offset 99509: Pick Race</li><li>GAME.OVR offset 99531: Pick Gender</li><li>GAME.OVR offset 99543: Pick Class</li><li>GAME.OVR offset 99554: Reroll stats?</li><li>GAME.OVR offset 99569: Character name:</li><li>GAME.OVR offset 99586: Save</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>select race</code></td><td>Pick Race</td><td><a href='#create_pick_gender'>create_pick_gender</a></td></tr><tr><td><code>Exit</code></td><td>Abort creation</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='create_pick_gender'><div class='kind'>character_flow</div><h2>Create Character: Pick Gender</h2><h4>Evidence</h4><ul><li>GAME.OVR offset 99531: Pick Gender</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>select gender</code></td><td>Pick Gender</td><td><a href='#create_pick_class'>create_pick_class</a></td></tr><tr><td><code>Exit</code></td><td>Back</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='create_pick_class'><div class='kind'>character_flow</div><h2>Create Character: Pick Class/Career</h2><h4>Evidence</h4><ul><li>GAME.OVR offset 99543: Pick Class</li><li>START.EXE offsets 61712-61760: Rocket Jock, Medic, Warrior, Engineer, Rogue</li><li>START.EXE offsets 61812-61854: Martian, Venusian, Mercurian, Tinker, Desert Runner</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>select class</code></td><td>Pick Class</td><td><a href='#create_reroll_stats'>create_reroll_stats</a></td></tr><tr><td><code>Exit</code></td><td>Back</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='create_reroll_stats'><div class='kind'>character_flow</div><h2>Create Character: Reroll Stats</h2><h4>Evidence</h4><ul><li>GAME.OVR offset 99554: Reroll stats?</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Yes</code></td><td>Reroll stats</td><td><a href='#create_reroll_stats'>create_reroll_stats</a></td></tr><tr><td><code>No</code></td><td>Keep stats</td><td><a href='#create_name'>create_name</a></td></tr></tbody></table></section><section class='card' id='create_name'><div class='kind'>character_flow</div><h2>Create Character: Name</h2><h4>Evidence</h4><ul><li>GAME.OVR offset 99569: Character name:</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>text</code></td><td>Enter character name</td><td><a href='#create_skills'>create_skills</a></td></tr></tbody></table></section><section class='card' id='create_skills'><div class='kind'>character_flow</div><h2>Create Character: Skills</h2><h4>Evidence</h4><ul><li>START.EXE offsets 62116-62242: skill category labels</li><li>GAME.OVR offsets 154711-154769: General skills, skill points, maximum per skill</li><li>GAME.OVR offsets 156204-156292: skill point and unspent-points checks</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Add</code></td><td>Add skill point</td><td><a href='#create_skills'>create_skills</a></td></tr><tr><td><code>Subtract</code></td><td>Subtract skill point</td><td><a href='#create_skills'>create_skills</a></td></tr><tr><td><code>Keep</code></td><td>Keep skill choices</td><td><a href='#create_save'>create_save</a></td></tr><tr><td><code>Exit</code></td><td>Exit skill allocation</td><td><a href='#create_save'>create_save</a></td></tr></tbody></table></section><section class='card' id='create_save'><div class='kind'>character_flow</div><h2>Create Character: Save</h2><h4>Evidence</h4><ul><li>GAME.OVR offset 99586: Save</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Save</code></td><td>Save character to CHARS.DAX</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr><tr><td><code>Exit</code></td><td>Return without saving</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='purge_character'><div class='kind'>character_flow</div><h2>Purge Character</h2><h4>Evidence</h4><ul><li>START.EXE offset 60015: Purge Character</li><li>GAME.OVR offset 129547: Lose character?</li><li>GAME.OVR offset 150247: Pick Character</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Select</code></td><td>Choose character to purge</td><td><a href='#purge_confirm'>purge_confirm</a></td></tr><tr><td><code>Exit</code></td><td>Return</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='purge_confirm'><div class='kind'>character_flow</div><h2>Purge Character: Confirm</h2><h4>Evidence</h4><ul><li>GAME.OVR offset 129547: Lose character?</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Yes</code></td><td>Delete character</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr><tr><td><code>No</code></td><td>Cancel</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='modify_character'><div class='kind'>character_flow</div><h2>Modify Character</h2><h4>Evidence</h4><ul><li>START.EXE offset 60038: Modify Character</li><li>GAME.OVR offset 102225: Modify:</li><li>GAME.OVR offset 102234: Add Subtract Keep Exit</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Select</code></td><td>Choose character to modify</td><td><a href='#modify_skills'>modify_skills</a></td></tr><tr><td><code>Exit</code></td><td>Return</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='modify_skills'><div class='kind'>character_flow</div><h2>Modify Character: Skills</h2><h4>Evidence</h4><ul><li>GAME.OVR offset 102234: Add Subtract Keep Exit</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Add</code></td><td>Add point</td><td><a href='#modify_skills'>modify_skills</a></td></tr><tr><td><code>Subtract</code></td><td>Subtract point</td><td><a href='#modify_skills'>modify_skills</a></td></tr><tr><td><code>Keep</code></td><td>Save changes</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr><tr><td><code>Exit</code></td><td>Cancel or exit</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='train_character'><div class='kind'>character_flow</div><h2>Train Character</h2><h4>Evidence</h4><ul><li>START.EXE offset 60081: Train Character</li><li>GAME.OVR offset 109065: conscious/max-level checks</li><li>GAME.OVR offset 109186: Do you wish to train?</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Select</code></td><td>Choose character to train</td><td><a href='#train_confirm'>train_confirm</a></td></tr><tr><td><code>Exit</code></td><td>Return</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='train_confirm'><div class='kind'>character_flow</div><h2>Train Character: Confirm</h2><h4>Evidence</h4><ul><li>GAME.OVR offset 109186: Do you wish to train?</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Yes</code></td><td>Train selected character</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr><tr><td><code>No</code></td><td>Cancel</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='view_character_pick'><div class='kind'>character_flow</div><h2>View Character: Pick</h2><h4>Evidence</h4><ul><li>START.EXE offset 60104: View Character</li><li>GAME.OVR offset 150247: Pick Character</li><li>GAME.OVR offset 150263: Select Exit</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Select</code></td><td>View selected character</td><td><a href='#view_character_sheet'>view_character_sheet</a></td></tr><tr><td><code>Exit</code></td><td>Return</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='view_character_sheet'><div class='kind'>character_flow</div><h2>View Character: Sheet</h2><h4>Evidence</h4><ul><li>GAME.OVR offset 139315: name</li><li>GAME.OVR offset 139342: career</li><li>GAME.OVR offset 139446: career skills</li><li>GAME.OVR offset 143132: Skills</li></ul><h4>Notes</h4><ul><li>Exact sub-tabs need live capture or deeper disassembly.</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>View</code></td><td>Cycle/details</td><td><a href='#view_character_sheet'>view_character_sheet</a></td></tr><tr><td><code>Exit</code></td><td>Return</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='add_character'><div class='kind'>character_flow</div><h2>Add Character To Team</h2><h4>Evidence</h4><ul><li>START.EXE offset 60126: Add Character to Team</li><li>GAME.OVR offset 104505: Add a character:</li><li>GAME.OVR offset 104523: Add</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Add</code></td><td>Add selected roster character to active team</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr><tr><td><code>Exit</code></td><td>Return</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='remove_character'><div class='kind'>character_flow</div><h2>Remove Character From Team</h2><h4>Evidence</h4><ul><li>START.EXE offset 60156: Remove Character from Team</li></ul><h4>Notes</h4><ul><li>Exact confirmation text is not yet identified in strings.</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Select</code></td><td>Remove selected active team member</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr><tr><td><code>Exit</code></td><td>Return</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='load_saved_game'><div class='kind'>save_flow</div><h2>Load Saved Game</h2><h4>Evidence</h4><ul><li>START.EXE offset 60190: Load Saved Game</li><li>GAME.OVR offset 134527: Load Which Game:</li><li>GAME.OVR offset 127429: from saved game</li><li>GAME.OVR offset 128551: Is your save disk in drive</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>slot/name</code></td><td>Choose saved game</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr><tr><td><code>Exit</code></td><td>Cancel</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='save_current_game'><div class='kind'>save_flow</div><h2>Save Current Game</h2><h4>Evidence</h4><ul><li>START.EXE offset 60214: Save Current Game</li><li>START.EXE offset 29338: Saving...Please Wait</li><li>GAME.OVR offset 136472: Save Which Game:</li><li>GAME.OVR offset 129678: Overwrite Rename Abort save</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>slot/name</code></td><td>Choose save target</td><td><a href='#save_confirm'>save_confirm</a></td></tr><tr><td><code>Exit</code></td><td>Cancel</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='save_confirm'><div class='kind'>save_flow</div><h2>Save Current Game: Confirm</h2><h4>Evidence</h4><ul><li>GAME.OVR offset 129678: Overwrite Rename Abort save</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Overwrite</code></td><td>Overwrite existing save</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr><tr><td><code>Rename</code></td><td>Enter new file name</td><td><a href='#save_current_game'>save_current_game</a></td></tr><tr><td><code>Abort save</code></td><td>Cancel</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='exit_to_dos'><div class='kind'>exit_flow</div><h2>Exit To DOS</h2><h4>Evidence</h4><ul><li>START.EXE offset 60298: Exit to DOS</li><li>GAME.OVR offset 98188: Game NOT saved. Quit anyway?</li></ul><table><thead><tr><th>Input</th><th>Result</th><th>Target</th></tr></thead><tbody><tr><td><code>Yes</code></td><td>Quit to DOS</td><td><a href='#dos_exit'>dos_exit</a></td></tr><tr><td><code>No</code></td><td>Return</td><td><a href='#startup_command_menu'>startup_command_menu</a></td></tr></tbody></table></section><section class='card' id='dos_exit'><div class='kind'>terminal</div><h2>DOS Exit</h2><h4>Evidence</h4><ul><li>Terminal state inferred from Exit to DOS.</li></ul><p class='terminal'>Terminal node.</p></section><section class='card' id='game_start'><div class='kind'>terminal</div><h2>Begin Adventuring / Game Starts</h2><h4>Evidence</h4><ul><li>START.EXE offset 60239: Begin Adventuring</li><li>GAME.OVR offset 65336: A battle begins...</li><li>Existing runtime prototype starts at GEO 017 Caloris Space Port.</li></ul><h4>Notes</h4><ul><li>This is the requested boundary: startup input mapping stops once the adventuring runtime begins.</li></ul><p class='terminal'>Terminal node.</p></section>
+    </div>
+    <pre>{
+  &quot;game&quot;: &quot;Buck Rogers: Matrix Cubed&quot;,
+  &quot;scope&quot;: &quot;startup inputs from executable setup through Begin Adventuring&quot;,
+  &quot;status&quot;: &quot;string-evidence map with marked inferred transitions&quot;,
+  &quot;entry_node&quot;: &quot;graphics_adapter&quot;,
+  &quot;terminal_nodes&quot;: [
+    &quot;game_start&quot;,
+    &quot;dos_exit&quot;
+  ],
+  &quot;nodes&quot;: [
+    {
+      &quot;id&quot;: &quot;graphics_adapter&quot;,
+      &quot;title&quot;: &quot;Graphics Adapter Type&quot;,
+      &quot;kind&quot;: &quot;setup_prompt&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 5287: GRAPHICS ADAPTER TYPE: [1] EGA [2] Tandy [3] VGA&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;1&quot;,
+          &quot;label&quot;: &quot;EGA&quot;,
+          &quot;target&quot;: &quot;sound_type&quot;
+        },
+        {
+          &quot;key&quot;: &quot;2&quot;,
+          &quot;label&quot;: &quot;Tandy&quot;,
+          &quot;target&quot;: &quot;sound_type&quot;
+        },
+        {
+          &quot;key&quot;: &quot;3&quot;,
+          &quot;label&quot;: &quot;VGA&quot;,
+          &quot;target&quot;: &quot;sound_type&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;sound_type&quot;,
+      &quot;title&quot;: &quot;Sound Type&quot;,
+      &quot;kind&quot;: &quot;setup_prompt&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offsets 5444-5566: SOUND TYPE choices&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;1&quot;,
+          &quot;label&quot;: &quot;PC speaker&quot;,
+          &quot;target&quot;: &quot;alternate_input&quot;
+        },
+        {
+          &quot;key&quot;: &quot;2&quot;,
+          &quot;label&quot;: &quot;Sound Blaster&quot;,
+          &quot;target&quot;: &quot;alternate_input&quot;
+        },
+        {
+          &quot;key&quot;: &quot;3&quot;,
+          &quot;label&quot;: &quot;Adlib&quot;,
+          &quot;target&quot;: &quot;alternate_input&quot;
+        },
+        {
+          &quot;key&quot;: &quot;4&quot;,
+          &quot;label&quot;: &quot;Roland MT32&quot;,
+          &quot;target&quot;: &quot;alternate_input&quot;
+        },
+        {
+          &quot;key&quot;: &quot;5&quot;,
+          &quot;label&quot;: &quot;Tandy 1000&quot;,
+          &quot;target&quot;: &quot;alternate_input&quot;
+        },
+        {
+          &quot;key&quot;: &quot;6&quot;,
+          &quot;label&quot;: &quot;Silent&quot;,
+          &quot;target&quot;: &quot;alternate_input&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;alternate_input&quot;,
+      &quot;title&quot;: &quot;Alternate Input Type&quot;,
+      &quot;kind&quot;: &quot;setup_prompt&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 5566: ALTERNATE INPUT TYPE: [1] JOYSTICK [2] MOUSE [3] NEITHER&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;1&quot;,
+          &quot;label&quot;: &quot;Joystick&quot;,
+          &quot;target&quot;: &quot;joystick_calibration&quot;,
+          &quot;note&quot;: &quot;Calibration prompts follow if selected.&quot;
+        },
+        {
+          &quot;key&quot;: &quot;2&quot;,
+          &quot;label&quot;: &quot;Mouse&quot;,
+          &quot;target&quot;: &quot;save_path&quot;
+        },
+        {
+          &quot;key&quot;: &quot;3&quot;,
+          &quot;label&quot;: &quot;Neither&quot;,
+          &quot;target&quot;: &quot;save_path&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;joystick_calibration&quot;,
+      &quot;title&quot;: &quot;Joystick Calibration&quot;,
+      &quot;kind&quot;: &quot;setup_prompt&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 45461: upper-left calibration prompt&quot;,
+        &quot;START.EXE offset 45461: lower-right calibration prompt&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;button 1&quot;,
+          &quot;label&quot;: &quot;Confirm upper-left&quot;,
+          &quot;target&quot;: &quot;joystick_calibration_lower&quot;
+        },
+        {
+          &quot;key&quot;: &quot;abort&quot;,
+          &quot;label&quot;: &quot;Could not read joystick&quot;,
+          &quot;target&quot;: &quot;alternate_input&quot;
+        }
+      ],
+      &quot;notes&quot;: [
+        &quot;The exact abort/retry loop needs live DOS validation.&quot;
+      ]
+    },
+    {
+      &quot;id&quot;: &quot;joystick_calibration_lower&quot;,
+      &quot;title&quot;: &quot;Joystick Calibration Lower Right&quot;,
+      &quot;kind&quot;: &quot;setup_prompt&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 45461: Push JOYSTICK #1 to the extreme lower right position and press BUTTON #1.&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;button 1&quot;,
+          &quot;label&quot;: &quot;Confirm lower-right&quot;,
+          &quot;target&quot;: &quot;save_path&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;save_path&quot;,
+      &quot;title&quot;: &quot;Save Path&quot;,
+      &quot;kind&quot;: &quot;setup_prompt&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offsets 5639-5734: SAVE / PATH TO SAVE DATA / USING DEFAULT PATH / :\\SAVE&quot;,
+        &quot;START.EXE offset 5734: :\\BUCK\\SAVE&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Enter&quot;,
+          &quot;label&quot;: &quot;Use default save path&quot;,
+          &quot;target&quot;: &quot;loading_overlay&quot;
+        },
+        {
+          &quot;key&quot;: &quot;text&quot;,
+          &quot;label&quot;: &quot;Type save path&quot;,
+          &quot;target&quot;: &quot;loading_overlay&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;loading_overlay&quot;,
+      &quot;title&quot;: &quot;Loading&quot;,
+      &quot;kind&quot;: &quot;status&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 29259: Loading...Please Wait&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;auto&quot;,
+          &quot;label&quot;: &quot;Continue when overlay loads&quot;,
+          &quot;target&quot;: &quot;title_sequence&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;title_sequence&quot;,
+      &quot;title&quot;: &quot;Title And Story Sequence&quot;,
+      &quot;kind&quot;: &quot;presentation&quot;,
+      &quot;evidence&quot;: [
+        &quot;TITLE.DAX blocks 001-004&quot;,
+        &quot;BIGPIC1.DAX blocks 112-117&quot;,
+        &quot;START.EXE offset 60968: Press button or enter to continue&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Enter&quot;,
+          &quot;label&quot;: &quot;Advance title/story screens&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        },
+        {
+          &quot;key&quot;: &quot;button&quot;,
+          &quot;label&quot;: &quot;Advance title/story screens&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        },
+        {
+          &quot;key&quot;: &quot;auto&quot;,
+          &quot;label&quot;: &quot;Timed screens may advance without input&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: [
+        &quot;Exact timing and skip behavior still needs live DOS capture.&quot;
+      ]
+    },
+    {
+      &quot;id&quot;: &quot;startup_command_menu&quot;,
+      &quot;title&quot;: &quot;Startup Command Menu&quot;,
+      &quot;kind&quot;: &quot;menu&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offsets 59986-60298: character, load/save, begin, and exit command labels&quot;,
+        &quot;START.EXE offset 59934: Select Exit:&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;1&quot;,
+          &quot;label&quot;: &quot;Create New Character&quot;,
+          &quot;target&quot;: &quot;create_character&quot;
+        },
+        {
+          &quot;key&quot;: &quot;2&quot;,
+          &quot;label&quot;: &quot;Purge Character&quot;,
+          &quot;target&quot;: &quot;purge_character&quot;
+        },
+        {
+          &quot;key&quot;: &quot;3&quot;,
+          &quot;label&quot;: &quot;Modify Character&quot;,
+          &quot;target&quot;: &quot;modify_character&quot;
+        },
+        {
+          &quot;key&quot;: &quot;4&quot;,
+          &quot;label&quot;: &quot;Train Character&quot;,
+          &quot;target&quot;: &quot;train_character&quot;
+        },
+        {
+          &quot;key&quot;: &quot;5&quot;,
+          &quot;label&quot;: &quot;View Character&quot;,
+          &quot;target&quot;: &quot;view_character_pick&quot;
+        },
+        {
+          &quot;key&quot;: &quot;6&quot;,
+          &quot;label&quot;: &quot;Add Character to Team&quot;,
+          &quot;target&quot;: &quot;add_character&quot;
+        },
+        {
+          &quot;key&quot;: &quot;7&quot;,
+          &quot;label&quot;: &quot;Remove Character from Team&quot;,
+          &quot;target&quot;: &quot;remove_character&quot;
+        },
+        {
+          &quot;key&quot;: &quot;8&quot;,
+          &quot;label&quot;: &quot;Load Saved Game&quot;,
+          &quot;target&quot;: &quot;load_saved_game&quot;
+        },
+        {
+          &quot;key&quot;: &quot;9&quot;,
+          &quot;label&quot;: &quot;Save Current Game&quot;,
+          &quot;target&quot;: &quot;save_current_game&quot;
+        },
+        {
+          &quot;key&quot;: &quot;10&quot;,
+          &quot;label&quot;: &quot;Begin Adventuring&quot;,
+          &quot;target&quot;: &quot;game_start&quot;
+        },
+        {
+          &quot;key&quot;: &quot;11&quot;,
+          &quot;label&quot;: &quot;Exit to DOS&quot;,
+          &quot;target&quot;: &quot;exit_to_dos&quot;
+        }
+      ],
+      &quot;notes&quot;: [
+        &quot;The earlier reconstruction used a compact inferred menu; this node is the stronger string-evidence map.&quot;
+      ]
+    },
+    {
+      &quot;id&quot;: &quot;create_character&quot;,
+      &quot;title&quot;: &quot;Create New Character&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 59986: Create New Character&quot;,
+        &quot;GAME.OVR offset 99509: Pick Race&quot;,
+        &quot;GAME.OVR offset 99531: Pick Gender&quot;,
+        &quot;GAME.OVR offset 99543: Pick Class&quot;,
+        &quot;GAME.OVR offset 99554: Reroll stats?&quot;,
+        &quot;GAME.OVR offset 99569: Character name:&quot;,
+        &quot;GAME.OVR offset 99586: Save&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;select race&quot;,
+          &quot;label&quot;: &quot;Pick Race&quot;,
+          &quot;target&quot;: &quot;create_pick_gender&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Exit&quot;,
+          &quot;label&quot;: &quot;Abort creation&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;create_pick_gender&quot;,
+      &quot;title&quot;: &quot;Create Character: Pick Gender&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;GAME.OVR offset 99531: Pick Gender&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;select gender&quot;,
+          &quot;label&quot;: &quot;Pick Gender&quot;,
+          &quot;target&quot;: &quot;create_pick_class&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Exit&quot;,
+          &quot;label&quot;: &quot;Back&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;create_pick_class&quot;,
+      &quot;title&quot;: &quot;Create Character: Pick Class/Career&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;GAME.OVR offset 99543: Pick Class&quot;,
+        &quot;START.EXE offsets 61712-61760: Rocket Jock, Medic, Warrior, Engineer, Rogue&quot;,
+        &quot;START.EXE offsets 61812-61854: Martian, Venusian, Mercurian, Tinker, Desert Runner&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;select class&quot;,
+          &quot;label&quot;: &quot;Pick Class&quot;,
+          &quot;target&quot;: &quot;create_reroll_stats&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Exit&quot;,
+          &quot;label&quot;: &quot;Back&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;create_reroll_stats&quot;,
+      &quot;title&quot;: &quot;Create Character: Reroll Stats&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;GAME.OVR offset 99554: Reroll stats?&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Yes&quot;,
+          &quot;label&quot;: &quot;Reroll stats&quot;,
+          &quot;target&quot;: &quot;create_reroll_stats&quot;
+        },
+        {
+          &quot;key&quot;: &quot;No&quot;,
+          &quot;label&quot;: &quot;Keep stats&quot;,
+          &quot;target&quot;: &quot;create_name&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;create_name&quot;,
+      &quot;title&quot;: &quot;Create Character: Name&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;GAME.OVR offset 99569: Character name:&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;text&quot;,
+          &quot;label&quot;: &quot;Enter character name&quot;,
+          &quot;target&quot;: &quot;create_skills&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;create_skills&quot;,
+      &quot;title&quot;: &quot;Create Character: Skills&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offsets 62116-62242: skill category labels&quot;,
+        &quot;GAME.OVR offsets 154711-154769: General skills, skill points, maximum per skill&quot;,
+        &quot;GAME.OVR offsets 156204-156292: skill point and unspent-points checks&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Add&quot;,
+          &quot;label&quot;: &quot;Add skill point&quot;,
+          &quot;target&quot;: &quot;create_skills&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Subtract&quot;,
+          &quot;label&quot;: &quot;Subtract skill point&quot;,
+          &quot;target&quot;: &quot;create_skills&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Keep&quot;,
+          &quot;label&quot;: &quot;Keep skill choices&quot;,
+          &quot;target&quot;: &quot;create_save&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Exit&quot;,
+          &quot;label&quot;: &quot;Exit skill allocation&quot;,
+          &quot;target&quot;: &quot;create_save&quot;,
+          &quot;note&quot;: &quot;May prompt about unspent points.&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;create_save&quot;,
+      &quot;title&quot;: &quot;Create Character: Save&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;GAME.OVR offset 99586: Save&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Save&quot;,
+          &quot;label&quot;: &quot;Save character to CHARS.DAX&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Exit&quot;,
+          &quot;label&quot;: &quot;Return without saving&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;purge_character&quot;,
+      &quot;title&quot;: &quot;Purge Character&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 60015: Purge Character&quot;,
+        &quot;GAME.OVR offset 129547: Lose character?&quot;,
+        &quot;GAME.OVR offset 150247: Pick Character&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Select&quot;,
+          &quot;label&quot;: &quot;Choose character to purge&quot;,
+          &quot;target&quot;: &quot;purge_confirm&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Exit&quot;,
+          &quot;label&quot;: &quot;Return&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;purge_confirm&quot;,
+      &quot;title&quot;: &quot;Purge Character: Confirm&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;GAME.OVR offset 129547: Lose character?&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Yes&quot;,
+          &quot;label&quot;: &quot;Delete character&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        },
+        {
+          &quot;key&quot;: &quot;No&quot;,
+          &quot;label&quot;: &quot;Cancel&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;modify_character&quot;,
+      &quot;title&quot;: &quot;Modify Character&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 60038: Modify Character&quot;,
+        &quot;GAME.OVR offset 102225: Modify:&quot;,
+        &quot;GAME.OVR offset 102234: Add Subtract Keep Exit&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Select&quot;,
+          &quot;label&quot;: &quot;Choose character to modify&quot;,
+          &quot;target&quot;: &quot;modify_skills&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Exit&quot;,
+          &quot;label&quot;: &quot;Return&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;modify_skills&quot;,
+      &quot;title&quot;: &quot;Modify Character: Skills&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;GAME.OVR offset 102234: Add Subtract Keep Exit&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Add&quot;,
+          &quot;label&quot;: &quot;Add point&quot;,
+          &quot;target&quot;: &quot;modify_skills&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Subtract&quot;,
+          &quot;label&quot;: &quot;Subtract point&quot;,
+          &quot;target&quot;: &quot;modify_skills&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Keep&quot;,
+          &quot;label&quot;: &quot;Save changes&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Exit&quot;,
+          &quot;label&quot;: &quot;Cancel or exit&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;train_character&quot;,
+      &quot;title&quot;: &quot;Train Character&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 60081: Train Character&quot;,
+        &quot;GAME.OVR offset 109065: conscious/max-level checks&quot;,
+        &quot;GAME.OVR offset 109186: Do you wish to train?&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Select&quot;,
+          &quot;label&quot;: &quot;Choose character to train&quot;,
+          &quot;target&quot;: &quot;train_confirm&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Exit&quot;,
+          &quot;label&quot;: &quot;Return&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;train_confirm&quot;,
+      &quot;title&quot;: &quot;Train Character: Confirm&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;GAME.OVR offset 109186: Do you wish to train?&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Yes&quot;,
+          &quot;label&quot;: &quot;Train selected character&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        },
+        {
+          &quot;key&quot;: &quot;No&quot;,
+          &quot;label&quot;: &quot;Cancel&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;view_character_pick&quot;,
+      &quot;title&quot;: &quot;View Character: Pick&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 60104: View Character&quot;,
+        &quot;GAME.OVR offset 150247: Pick Character&quot;,
+        &quot;GAME.OVR offset 150263: Select Exit&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Select&quot;,
+          &quot;label&quot;: &quot;View selected character&quot;,
+          &quot;target&quot;: &quot;view_character_sheet&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Exit&quot;,
+          &quot;label&quot;: &quot;Return&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;view_character_sheet&quot;,
+      &quot;title&quot;: &quot;View Character: Sheet&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;GAME.OVR offset 139315: name&quot;,
+        &quot;GAME.OVR offset 139342: career&quot;,
+        &quot;GAME.OVR offset 139446: career skills&quot;,
+        &quot;GAME.OVR offset 143132: Skills&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;View&quot;,
+          &quot;label&quot;: &quot;Cycle/details&quot;,
+          &quot;target&quot;: &quot;view_character_sheet&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Exit&quot;,
+          &quot;label&quot;: &quot;Return&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: [
+        &quot;Exact sub-tabs need live capture or deeper disassembly.&quot;
+      ]
+    },
+    {
+      &quot;id&quot;: &quot;add_character&quot;,
+      &quot;title&quot;: &quot;Add Character To Team&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 60126: Add Character to Team&quot;,
+        &quot;GAME.OVR offset 104505: Add a character:&quot;,
+        &quot;GAME.OVR offset 104523: Add&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Add&quot;,
+          &quot;label&quot;: &quot;Add selected roster character to active team&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Exit&quot;,
+          &quot;label&quot;: &quot;Return&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;remove_character&quot;,
+      &quot;title&quot;: &quot;Remove Character From Team&quot;,
+      &quot;kind&quot;: &quot;character_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 60156: Remove Character from Team&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Select&quot;,
+          &quot;label&quot;: &quot;Remove selected active team member&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Exit&quot;,
+          &quot;label&quot;: &quot;Return&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: [
+        &quot;Exact confirmation text is not yet identified in strings.&quot;
+      ]
+    },
+    {
+      &quot;id&quot;: &quot;load_saved_game&quot;,
+      &quot;title&quot;: &quot;Load Saved Game&quot;,
+      &quot;kind&quot;: &quot;save_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 60190: Load Saved Game&quot;,
+        &quot;GAME.OVR offset 134527: Load Which Game:&quot;,
+        &quot;GAME.OVR offset 127429: from saved game&quot;,
+        &quot;GAME.OVR offset 128551: Is your save disk in drive&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;slot/name&quot;,
+          &quot;label&quot;: &quot;Choose saved game&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;,
+          &quot;note&quot;: &quot;Loaded game returns to command/menu or map depending save state.&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Exit&quot;,
+          &quot;label&quot;: &quot;Cancel&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;save_current_game&quot;,
+      &quot;title&quot;: &quot;Save Current Game&quot;,
+      &quot;kind&quot;: &quot;save_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 60214: Save Current Game&quot;,
+        &quot;START.EXE offset 29338: Saving...Please Wait&quot;,
+        &quot;GAME.OVR offset 136472: Save Which Game:&quot;,
+        &quot;GAME.OVR offset 129678: Overwrite Rename Abort save&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;slot/name&quot;,
+          &quot;label&quot;: &quot;Choose save target&quot;,
+          &quot;target&quot;: &quot;save_confirm&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Exit&quot;,
+          &quot;label&quot;: &quot;Cancel&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;save_confirm&quot;,
+      &quot;title&quot;: &quot;Save Current Game: Confirm&quot;,
+      &quot;kind&quot;: &quot;save_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;GAME.OVR offset 129678: Overwrite Rename Abort save&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Overwrite&quot;,
+          &quot;label&quot;: &quot;Overwrite existing save&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Rename&quot;,
+          &quot;label&quot;: &quot;Enter new file name&quot;,
+          &quot;target&quot;: &quot;save_current_game&quot;
+        },
+        {
+          &quot;key&quot;: &quot;Abort save&quot;,
+          &quot;label&quot;: &quot;Cancel&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;exit_to_dos&quot;,
+      &quot;title&quot;: &quot;Exit To DOS&quot;,
+      &quot;kind&quot;: &quot;exit_flow&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 60298: Exit to DOS&quot;,
+        &quot;GAME.OVR offset 98188: Game NOT saved. Quit anyway?&quot;
+      ],
+      &quot;options&quot;: [
+        {
+          &quot;key&quot;: &quot;Yes&quot;,
+          &quot;label&quot;: &quot;Quit to DOS&quot;,
+          &quot;target&quot;: &quot;dos_exit&quot;
+        },
+        {
+          &quot;key&quot;: &quot;No&quot;,
+          &quot;label&quot;: &quot;Return&quot;,
+          &quot;target&quot;: &quot;startup_command_menu&quot;
+        }
+      ],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;dos_exit&quot;,
+      &quot;title&quot;: &quot;DOS Exit&quot;,
+      &quot;kind&quot;: &quot;terminal&quot;,
+      &quot;evidence&quot;: [
+        &quot;Terminal state inferred from Exit to DOS.&quot;
+      ],
+      &quot;options&quot;: [],
+      &quot;notes&quot;: []
+    },
+    {
+      &quot;id&quot;: &quot;game_start&quot;,
+      &quot;title&quot;: &quot;Begin Adventuring / Game Starts&quot;,
+      &quot;kind&quot;: &quot;terminal&quot;,
+      &quot;evidence&quot;: [
+        &quot;START.EXE offset 60239: Begin Adventuring&quot;,
+        &quot;GAME.OVR offset 65336: A battle begins...&quot;,
+        &quot;Existing runtime prototype starts at GEO 017 Caloris Space Port.&quot;
+      ],
+      &quot;options&quot;: [],
+      &quot;notes&quot;: [
+        &quot;This is the requested boundary: startup input mapping stops once the adventuring runtime begins.&quot;
+      ]
+    }
+  ]
+}</pre>
+  </div>
+</main>
+</body>
+</html>

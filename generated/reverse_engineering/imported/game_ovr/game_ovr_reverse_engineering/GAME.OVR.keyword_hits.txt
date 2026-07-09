@@ -1,0 +1,109 @@
+=== CREATED BY at 0x0000018A (394) ===
+.s...;V...|.;F.r..s...;V...|.;F.r..F.....F.....6..F...]...U...0.X....D...=..P].$CREATED BY:SSI SPECIAL PROJECTS TEAM.GAME DEVELOPMENT:.PROGRAMMING:.Rhonda Gilbert
+Russ Brown.Kerry Bonin.ENCOUNTER CODE:.Dave ShelleyGRAPHIC ARTS:
+Chris Carr.
+
+=== GAME DEVELOPMENT at 0x000001AF (431) ===
+....F.....6..F...]...U...0.X....D...=..P].$CREATED BY:SSI SPECIAL PROJECTS TEAM.GAME DEVELOPMENT:.PROGRAMMING:.Rhonda Gilbert
+Russ Brown.Kerry Bonin.ENCOUNTER CODE:.Dave ShelleyGRAPHIC ARTS:
+Chris Carr.Laura Bowen.Tom Ono
+Fred Butts
+Ken Ek
+
+=== PROGRAMMING at 0x000001C1 (449) ===
+...U...0.X....D...=..P].$CREATED BY:SSI SPECIAL PROJECTS TEAM.GAME DEVELOPMENT:.PROGRAMMING:.Rhonda Gilbert
+Russ Brown.Kerry Bonin.ENCOUNTER CODE:.Dave ShelleyGRAPHIC ARTS:
+Chris Carr.Laura Bowen.Tom Ono
+Fred Butts
+Ken Eklund.Maurine Stark
+
+=== ENCOUNTER CODE at 0x000001F4 (500) ===
+JECTS TEAM.GAME DEVELOPMENT:.PROGRAMMING:.Rhonda Gilbert
+Russ Brown.Kerry Bonin.ENCOUNTER CODE:.Dave ShelleyGRAPHIC ARTS:
+Chris Carr.Laura Bowen.Tom Ono
+Fred Butts
+Ken Eklund.Maurine Starkey.Tony VanMike ProvenzaGary Shockley.Mark Johnso
+
+=== MUSIC at 0x000002CB (715) ===
+Gary Shockley.Mark JohnsonCynthia Huang	Cyrus Lum.Adragon Demello.Susan Manley.MUSIC:.Ralph Thomas & The Fat Man
+PLAYTEST :.John Boockholdt, Al Brown,.Glen Cureton, Mike Gilmartin,#Cyrus Harris, Rob Lupo, Sean House,$John Kirk, Alan Marenc
+
+=== BUCK at 0x0001F620 (128544) ===
+.~
+.W.~..WU.....8<.u4.....W..Q.W..
+......W.O...1.P...P...P.~
+.W.~..WU......]....BUCK.:.Is your save disk in drive .:? .Unexpected error during save: !...............................U....0..F...>.t.u...Q.W.....W...P..
+......P.W.....W...P..
+.
+
+=== joystick at 0x0001AE0C (110092) ===
+P..P.%....~.&.E)........	.u..F.....F..F...~...&.M..~..u...]..mouse ON	mouse OFF.joystick ON.joystick OFF.disable both.Init Mouse/Joystick: .Select.M.N.JU.........P.~..W.M....F...F...F..V..F..V.1..F......W.Y..W..........W.e..................
+
+=== joystick at 0x0001AE18 (110104) ===
+&.E)........	.u..F.....F..F...~...&.M..~..u...]..mouse ON	mouse OFF.joystick ON.joystick OFF.disable both.Init Mouse/Joystick: .Select.M.N.JU.........P.~..W.M....F...F...F..V..F..V.1..F......W.Y..W..........W.e...................W....0.....
+
+=== joystick at 0x0001B4BF (111807) ===
+STICK #1 to the extreme upper"left position and press button #1..Unable to read joystick%Push JOYSTICK #1 to the extreme lower#right position and press button #1.U....4...o..>...u....1..F.1..F..F......F...P.~..W.~..W.~..W..o..F..F..F..F..F
+
+=== Enemy ship at 0x00004385 (17285) ===
+04[4.4.4	5p5U......F..V
+;.LSu.;.JSu..F.....F..V
+;.PSu.;.NSu..F.....F...F...]...
+Enemy ship. U.......F..F
+t..~..W.~..W...P..
+......F..V.;.LSu.;.JSu..~..W.~..W...P..
+.......P..P.*...<.u..C..W.~..W...P..
+...l<.uU.....W.~.&.E:..........\..W..
+.
+
+=== Enemy ship at 0x0000A002 (40962) ===
+..<......P.....W....W..
+...<....C.....]..View .Take .Divvy .Pool .Status .Exit.Enemy ship destroyed..~Yes ~No.There is still booty left.  $Do you want to go back and claim it?U.......................=.W..=.W.%.........S..W.....W...P..
+....
+
+=== The entire party at 0x00002959 (10585) ===
+.&:E.u...Hv...Iv..F...~.&.E*&.U,.F..V....~.&....&.....F..V.....].U....2D.....]..The entire party is killed!U....8..W...W.F..V..F...F....W...X.F..V...P.*.k...P.%.k..F...P.%.k..F...P.%.k..F...P.%.k..F...P.%.k..F..F.P.F.P.*...0....F.0....F..F.
+
+=== Congrats at 0x000031DB (12763) ===
+..V..]..~..u..~....u.@.F..6.W.6.W.u....>.W&....&......W...W....F..V...W...W..].$Congrats. The team gains experience!
+Congrats. . gains experience!U........P.*.k...P.%.k..F...P.%.k..F..{h.yh.zh.xh.~..ty.zhP.{hP.|hP.}hP.
+P..P..P.~..W.L'.W..
+.
+
+=== Congrats at 0x00003200 (12800) ===
+..>.W&....&......W...W....F..V...W...W..].$Congrats. The team gains experience!
+Congrats. . gains experience!U........P.*.k...P.%.k..F...P.%.k..F..{h.yh.zh.xh.~..ty.zhP.{hP.|hP.}hP.
+P..P..P.~..W.L'.W..
+..._..........W...X.F..V..F..F.t0.~.&.
+
+=== points of damage at 0x00004A4B (19019) ===
+W..#...>.x.t..........F..V...D...D..].... leaps clear of an explosion.. takes . points of damage!
+ is dead!!
+ is dying!. is unconscious!. is seriously injured.U........W...X.F..V..F..F.u.....~.&.....t.....F
+P.%.....u	.~..u.....v..v...P..P.C
+
+=== points of damage at 0x00004CCD (19661) ===
+.~.&.....1..RS.TS.~.6.E...~.&....&.....F..V......].... fires .s and 	hits for . points of damage!.misses.U.......~.6.}..u..C......W.q	.W..
+...~.6.E...........>NS..&.E<$.0.."........$.W.O....y	.W.O........W...P..
+...~.6.}..v^.~.6.E.1.RP1.P..
+
+=== points of damage at 0x00005367 (21351) ===
+.~.....v..v..F.P.F.0.P.v...,....~..u....v..v..F.P.F.0.P.v.......].
+.	hits for . points of damage!.misses.. attacks with a . and U....<..F.0..........~...&.E<$..F..~.6.}..t..>XS.t..C.........F...~.6.E...~..t..2P.%.....u.....v..v..v..v..F.P.v
+
+=== points of damage at 0x00027ED9 (163545) ===
+.v..v.......].
+.U......F.....F..v..v..F.0......P1.1.RP.....~..u...]....takes . points of damage .takes 1 point of damage 	Goes Down., and is Dying................................	is killedU.......F
+..r..P.~..W.....~..t..F.<.u....r...<.u
+..
+
+=== Insufficient at 0x00000012 (18) ===
+FBOV)>...WARNING: Insufficient Memory$Insufficient Memory. Exiting ProgramU....(.~..v[.F....P..P.~..W....W..
+........>.D.t.M.x...R.F....F....P..P.~..W....W..
+........~..t....6..
+
+=== Insufficient at 0x00000026 (38) ===
+FBOV)>...WARNING: Insufficient Memory$Insufficient Memory. Exiting ProgramU....(.~..v[.F....P..P.~..W....W..
+........>.D.t.M.x...R.F....F....P..P.~..W....W..
+........~..t....6..F...]...U...%..-...=
+

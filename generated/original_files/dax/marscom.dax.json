@@ -1,0 +1,460 @@
+{
+  "valid": true,
+  "file": "MARSCOM.DAX",
+  "bytes": 15741,
+  "sha256": "e2af52394570717a98ac0ac01dadfe28d464022667fb524d3b973da4dabc74a9",
+  "toc_len": 9,
+  "data_offset": 11,
+  "block_count": 1,
+  "semantic_status": "structural decode only: semantic format not yet named",
+  "warnings": [],
+  "blocks": [
+    {
+      "id": 1,
+      "toc_entry_offset": 2,
+      "packed_relative_offset": 0,
+      "packed_absolute_offset": 11,
+      "raw_size": 24318,
+      "packed_size": 15730,
+      "decoded_size": 24318,
+      "decoded_sha256": "6fb92250998e65cb200ac413280bb5176475e46d7f39ecf04eb8a1ccd6a00fb1",
+      "packed_sha256": "0f2fecf07508b10e1645138c02f6a7bb90f96221217d7f9162ffea69bcf4da58",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.6468,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        7,
+        9,
+        14,
+        18
+      ],
+      "known_record_hints": [],
+      "head_hex": "18 03 00 00 00 00 2a 00 20 1f 00 14 00 1c 00 00 3c 14 3c 3c 14 14 00 00 00 28 14 00 3c 2c 00 00 28 00 00 14 00 30 30 3c 00 14 00 14 3c 14 28 28 28 1c 00 00 28 14 00 30 30 3c 3c 2c 00 34 1c 14",
+      "tail_hex": "21 21 21 21 21 04 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 00 21 21",
+      "ascii_candidates": [
+        {
+          "offset": 55,
+          "length": 5,
+          "text": "00<<,"
+        },
+        {
+          "offset": 111,
+          "length": 5,
+          "text": "\"$Fff"
+        },
+        {
+          "offset": 126,
+          "length": 12,
+          "text": "!!!!!!!!!!!!"
+        },
+        {
+          "offset": 141,
+          "length": 19,
+          "text": "!!!!!!!!!!!!!!!!!!!"
+        },
+        {
+          "offset": 167,
+          "length": 15,
+          "text": "!!!!!!!!!!!!!!!"
+        },
+        {
+          "offset": 193,
+          "length": 4,
+          "text": "!!!!"
+        },
+        {
+          "offset": 201,
+          "length": 4,
+          "text": "!!!!"
+        },
+        {
+          "offset": 246,
+          "length": 6,
+          "text": "!!!!!2"
+        },
+        {
+          "offset": 319,
+          "length": 4,
+          "text": "!!!!"
+        },
+        {
+          "offset": 342,
+          "length": 5,
+          "text": "!!!!!"
+        },
+        {
+          "offset": 366,
+          "length": 5,
+          "text": "!!!!!"
+        },
+        {
+          "offset": 391,
+          "length": 4,
+          "text": "!!!2"
+        },
+        {
+          "offset": 414,
+          "length": 4,
+          "text": "!!!!"
+        },
+        {
+          "offset": 437,
+          "length": 5,
+          "text": "-!!!!"
+        },
+        {
+          "offset": 462,
+          "length": 4,
+          "text": "!!!2"
+        },
+        {
+          "offset": 630,
+          "length": 6,
+          "text": "!!!!!!"
+        },
+        {
+          "offset": 657,
+          "length": 5,
+          "text": "!!!!!"
+        },
+        {
+          "offset": 681,
+          "length": 16,
+          "text": "!!!!!!!!!!!!!!!!"
+        },
+        {
+          "offset": 702,
+          "length": 26,
+          "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!"
+        },
+        {
+          "offset": 735,
+          "length": 27,
+          "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+        },
+        {
+          "offset": 764,
+          "length": 19,
+          "text": "!!!!!!!!!!!!!!!!!!!"
+        },
+        {
+          "offset": 787,
+          "length": 5,
+          "text": "!!!!!"
+        },
+        {
+          "offset": 800,
+          "length": 16,
+          "text": "!!!!!!!!!!!!!!!!"
+        },
+        {
+          "offset": 818,
+          "length": 4,
+          "text": "!!!!"
+        },
+        {
+          "offset": 829,
+          "length": 5,
+          "text": "!!!!!"
+        },
+        {
+          "offset": 837,
+          "length": 9,
+          "text": "!!!!!!!!!"
+        },
+        {
+          "offset": 854,
+          "length": 11,
+          "text": "!!!!!!!!!!!"
+        },
+        {
+          "offset": 880,
+          "length": 14,
+          "text": "!!!!!!!!!!!!!!"
+        },
+        {
+          "offset": 904,
+          "length": 13,
+          "text": "!!!!!!!!!!!!!"
+        },
+        {
+          "offset": 935,
+          "length": 7,
+          "text": "!!!!!!!"
+        },
+        {
+          "offset": 960,
+          "length": 5,
+          "text": "!!!!!"
+        },
+        {
+          "offset": 985,
+          "length": 5,
+          "text": "!!!!!"
+        },
+        {
+          "offset": 1010,
+          "length": 5,
+          "text": "!!!!-"
+        },
+        {
+          "offset": 1210,
+          "length": 10,
+          "text": "!!!!!!!!!!"
+        },
+        {
+          "offset": 1226,
+          "length": 5,
+          "text": "!!!!2"
+        },
+        {
+          "offset": 1233,
+          "length": 9,
+          "text": "!!!!!!!!!"
+        },
+        {
+          "offset": 1244,
+          "length": 9,
+          "text": "!!!!!!!!!"
+        },
+        {
+          "offset": 1255,
+          "length": 5,
+          "text": "!!!!!"
+        },
+        {
+          "offset": 1268,
+          "length": 6,
+          "text": "!!!!!!"
+        },
+        {
+          "offset": 1276,
+          "length": 7,
+          "text": "!!!!!!!"
+        },
+        {
+          "offset": 1287,
+          "length": 5,
+          "text": "!!!!!"
+        },
+        {
+          "offset": 1293,
+          "length": 10,
+          "text": "!!!!!!!!!!"
+        },
+        {
+          "offset": 1305,
+          "length": 12,
+          "text": "!!!!!!!!!!!!"
+        },
+        {
+          "offset": 1320,
+          "length": 9,
+          "text": "!!!!!!!!!"
+        },
+        {
+          "offset": 1331,
+          "length": 14,
+          "text": "!!!!!!!!!!!!!!"
+        },
+        {
+          "offset": 1355,
+          "length": 12,
+          "text": "!!!!!!!!!!!!"
+        },
+        {
+          "offset": 1374,
+          "length": 7,
+          "text": "!!!!!!!"
+        },
+        {
+          "offset": 1422,
+          "length": 5,
+          "text": "!!!!!"
+        },
+        {
+          "offset": 1446,
+          "length": 4,
+          "text": "!!!!"
+        },
+        {
+          "offset": 1710,
+          "length": 4,
+          "text": "!!!!"
+        },
+        {
+          "offset": 1734,
+          "length": 5,
+          "text": "!!!!!"
+        },
+        {
+          "offset": 1761,
+          "length": 7,
+          "text": "!!!!!!!"
+        },
+        {
+          "offset": 1788,
+          "length": 4,
+          "text": "!!!!"
+        },
+        {
+          "offset": 1806,
+          "length": 11,
+          "text": "!!!!!!!!!!!"
+        },
+        {
+          "offset": 1830,
+          "length": 7,
+          "text": "!!!!!!!"
+        },
+        {
+          "offset": 1841,
+          "length": 12,
+          "text": "!!!!!!!!!!!!"
+        },
+        {
+          "offset": 1860,
+          "length": 7,
+          "text": "!!!!!!!"
+        },
+        {
+          "offset": 1872,
+          "length": 11,
+          "text": "!!!!!!!!!!!"
+        },
+        {
+          "offset": 1884,
+          "length": 15,
+          "text": "!!!!!!!!!!!!!!!"
+        },
+        {
+          "offset": 1905,
+          "length": 6,
+          "text": "!!!!!!"
+        },
+        {
+          "offset": 1932,
+          "length": 5,
+          "text": "!!!!!"
+        },
+        {
+          "offset": 1940,
+          "length": 5,
+          "text": "!!!!!"
+        },
+        {
+          "offset": 1946,
+          "length": 4,
+          "text": "!!!!"
+        },
+        {
+          "offset": 1958,
+          "length": 9,
+          "text": "!!!!!!!!!"
+        },
+        {
+          "offset": 1968,
+          "length": 6,
+          "text": "!!!!!!"
+        },
+        {
+          "offset": 1983,
+          "length": 9,
+          "text": "!!!!!!!!!"
+        },
+        {
+          "offset": 2012,
+          "length": 4,
+          "text": "!!!!"
+        },
+        {
+          "offset": 2039,
+          "length": 7,
+          "text": "!!!!!!!"
+        },
+        {
+          "offset": 2063,
+          "length": 7,
+          "text": "!!!!!!!"
+        },
+        {
+          "offset": 2088,
+          "length": 6,
+          "text": "!!!!!!"
+        },
+        {
+          "offset": 2138,
+          "length": 4,
+          "text": "!!!!"
+        },
+        {
+          "offset": 2330,
+          "length": 4,
+          "text": "!!!!"
+        },
+        {
+          "offset": 2353,
+          "length": 5,
+          "text": "!!!!!"
+        },
+        {
+          "offset": 2364,
+          "length": 10,
+          "text": "!!!!!!!!!!"
+        },
+        {
+          "offset": 2375,
+          "length": 6,
+          "text": "!!!!!!"
+        },
+        {
+          "offset": 2387,
+          "length": 10,
+          "text": "!!!!!!!!!!"
+        },
+        {
+          "offset": 2401,
+          "length": 5,
+          "text": "!!!!!"
+        },
+        {
+          "offset": 2428,
+          "length": 35,
+          "text": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+        },
+        {
+          "offset": 2476,
+          "length": 4,
+          "text": "!!!!"
+        },
+        {
+          "offset": 2488,
+          "length": 8,
+          "text": "!!!!!!!!"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "21": 13210,
+        "06": 3749,
+        "00": 2732,
+        "04": 1333,
+        "0c": 1322,
+        "02": 441,
+        "2d": 378,
+        "0a": 225,
+        "3c": 189,
+        "20": 156,
+        "03": 71,
+        "34": 54,
+        "0e": 46,
+        "2a": 41,
+        "36": 40,
+        "07": 36
+      },
+      "warnings": []
+    }
+  ]
+}

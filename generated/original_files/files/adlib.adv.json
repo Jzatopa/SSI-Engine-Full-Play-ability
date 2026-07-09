@@ -1,0 +1,263 @@
+{
+  "file": "ADLIB.ADV",
+  "kind": "audio/music/driver data",
+  "bytes": 13888,
+  "sha256": "2f5f15bb2aaf6a0fd90144c7799b1eb1aaa9945eb390f59916ac067ece1822b1",
+  "head_hex": "20 00 43 6f 70 79 72 69 67 68 74 20 28 43 29 20 31 39 39 31 20 4a 6f 68 6e 20 4d 69 6c 65 73 1a 64 00 53 1f 65 00 e8 10 66 00 ef 2c 67 00 35 2a 68 00 19 2e 96 00 94 2e bd 00 ab 2e be 00 d1 2e 97 00 ec 2e 98 00 30 30 aa 00 74 30 ab 00 04 31 ad 00 42 31 ae 00 77 31 af 00 1a 33 b1 00 b4 33 b0 00 f4 32 b2 00 40 33 b6 00 31 34 b7 00 6a 34 b9 00 9f 34 c0 00 e9 31 c2 00 15 32 b3 00 9d 31",
+  "ascii_candidates": [
+    {
+      "offset": 2,
+      "length": 29,
+      "text": "Copyright (C) 1991 John Miles"
+    },
+    {
+      "offset": 210,
+      "length": 33,
+      "text": "Ad Lib(TM) Music Synthesizer Card"
+    },
+    {
+      "offset": 884,
+      "length": 22,
+      "text": "??????????????????????"
+    },
+    {
+      "offset": 1066,
+      "length": 15,
+      "text": "RUX[^adgjmpsvy|"
+    },
+    {
+      "offset": 5030,
+      "length": 5,
+      "text": "<TIu("
+    },
+    {
+      "offset": 5038,
+      "length": 4,
+      "text": "MBu!"
+    },
+    {
+      "offset": 5675,
+      "length": 4,
+      "text": "\tt4."
+    },
+    {
+      "offset": 5868,
+      "length": 4,
+      "text": "@u)."
+    },
+    {
+      "offset": 5876,
+      "length": 4,
+      "text": " u#."
+    },
+    {
+      "offset": 7254,
+      "length": 4,
+      "text": "@}#."
+    },
+    {
+      "offset": 7736,
+      "length": 4,
+      "text": "quJ."
+    },
+    {
+      "offset": 8099,
+      "length": 5,
+      "text": "@rnop"
+    },
+    {
+      "offset": 8113,
+      "length": 5,
+      "text": "D0_N)"
+    },
+    {
+      "offset": 8663,
+      "length": 4,
+      "text": "<CAu"
+    },
+    {
+      "offset": 8676,
+      "length": 4,
+      "text": "<FOt"
+    },
+    {
+      "offset": 8704,
+      "length": 4,
+      "text": "IDtJ"
+    },
+    {
+      "offset": 8805,
+      "length": 4,
+      "text": "<FOu"
+    },
+    {
+      "offset": 8837,
+      "length": 4,
+      "text": "IDtR"
+    },
+    {
+      "offset": 8863,
+      "length": 4,
+      "text": "|BSQ"
+    },
+    {
+      "offset": 9341,
+      "length": 4,
+      "text": "<@|\""
+    },
+    {
+      "offset": 9383,
+      "length": 5,
+      "text": "<@|'W"
+    },
+    {
+      "offset": 9402,
+      "length": 4,
+      "text": "CSPU"
+    },
+    {
+      "offset": 9444,
+      "length": 4,
+      "text": "<@|\""
+    },
+    {
+      "offset": 9519,
+      "length": 5,
+      "text": "t\"<@|"
+    },
+    {
+      "offset": 9894,
+      "length": 31,
+      "text": "t<<vt]<wt[<ttY<utW<otU<ntT<stS."
+    },
+    {
+      "offset": 10200,
+      "length": 5,
+      "text": "@|!PU"
+    },
+    {
+      "offset": 10247,
+      "length": 6,
+      "text": "XdCSPU"
+    },
+    {
+      "offset": 10535,
+      "length": 8,
+      "text": "<Xt:<QtY"
+    },
+    {
+      "offset": 10836,
+      "length": 7,
+      "text": "L:;L>rg"
+    },
+    {
+      "offset": 10912,
+      "length": 4,
+      "text": "D,-d"
+    },
+    {
+      "offset": 10932,
+      "length": 5,
+      "text": "TB;TJ"
+    },
+    {
+      "offset": 10941,
+      "length": 4,
+      "text": ";DH}"
+    },
+    {
+      "offset": 10964,
+      "length": 4,
+      "text": "D,-d"
+    },
+    {
+      "offset": 10972,
+      "length": 6,
+      "text": "D.;D0u"
+    },
+    {
+      "offset": 10980,
+      "length": 6,
+      "text": "D ;D\"u"
+    },
+    {
+      "offset": 11266,
+      "length": 4,
+      "text": "HRQS"
+    },
+    {
+      "offset": 11327,
+      "length": 5,
+      "text": "@dRQP"
+    },
+    {
+      "offset": 11375,
+      "length": 5,
+      "text": "T4+D6"
+    },
+    {
+      "offset": 11445,
+      "length": 5,
+      "text": "T&+D("
+    },
+    {
+      "offset": 11673,
+      "length": 4,
+      "text": " QRP"
+    },
+    {
+      "offset": 12204,
+      "length": 4,
+      "text": "=TIu"
+    },
+    {
+      "offset": 12226,
+      "length": 4,
+      "text": "=RBu"
+    },
+    {
+      "offset": 12249,
+      "length": 4,
+      "text": "=EVt"
+    },
+    {
+      "offset": 12904,
+      "length": 6,
+      "text": "=RBu{&"
+    },
+    {
+      "offset": 12913,
+      "length": 5,
+      "text": "RNus&"
+    },
+    {
+      "offset": 13154,
+      "length": 7,
+      "text": "D0+D.t?"
+    },
+    {
+      "offset": 13183,
+      "length": 4,
+      "text": "]QRP"
+    },
+    {
+      "offset": 13270,
+      "length": 7,
+      "text": "D\"+D tH"
+    },
+    {
+      "offset": 13299,
+      "length": 4,
+      "text": "]QRP"
+    }
+  ],
+  "pascal_candidates": [
+    {
+      "offset": 9893,
+      "length": 7,
+      "text": "t<<vt]<"
+    }
+  ],
+  "record_hints": [],
+  "semantic_status": "file-level structural evidence only"
+}

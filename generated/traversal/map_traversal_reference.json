@@ -1,0 +1,2104 @@
+{
+  "source": "scripts/build_map_traversal_reference.py",
+  "summary": {
+    "loaded_map_count": 25,
+    "loaded_maps": [
+      1,
+      17,
+      18,
+      21,
+      33,
+      34,
+      35,
+      38,
+      49,
+      50,
+      51,
+      52,
+      64,
+      65,
+      66,
+      80,
+      81,
+      82,
+      84,
+      96,
+      97,
+      112,
+      113,
+      114,
+      115
+    ],
+    "ecl_load_count": 26,
+    "loaded_ecl_target_count": 19,
+    "cell_edge_count": 194,
+    "loaded_cell_target_count": 5,
+    "covered_loaded_map_count": 20,
+    "covered_loaded_maps": [
+      1,
+      17,
+      18,
+      21,
+      33,
+      34,
+      35,
+      38,
+      49,
+      50,
+      52,
+      64,
+      65,
+      66,
+      81,
+      84,
+      96,
+      97,
+      112,
+      114
+    ],
+    "uncovered_loaded_maps": [
+      51,
+      80,
+      82,
+      113,
+      115
+    ],
+    "evidence_limit": "ECL LOAD FILES rows prove map load targets, not complete player route conditions. Cell edges are only promoted when the target is an already decoded GEO map."
+  },
+  "ecl_loads": [
+    {
+      "ecl_block": 1,
+      "address": "0x808E",
+      "target": "1",
+      "target_geo": 1,
+      "target_loaded": true,
+      "raw_operands": "1, 127, 255",
+      "map_pos_x": 9,
+      "map_pos_y": 4,
+      "row": "0x808E 0x21 LOAD FILES Load GEO 1 raw=(1, 127, 255)"
+    },
+    {
+      "ecl_block": 17,
+      "address": "0x805E",
+      "target": "17",
+      "target_geo": 17,
+      "target_loaded": true,
+      "raw_operands": "17, 127, 255",
+      "map_pos_x": null,
+      "map_pos_y": null,
+      "row": "0x805E 0x21 LOAD FILES Load GEO 17 raw=(17, 127, 255)"
+    },
+    {
+      "ecl_block": 18,
+      "address": "0x8032",
+      "target": "18",
+      "target_geo": 18,
+      "target_loaded": true,
+      "raw_operands": "18, 127, 255",
+      "map_pos_x": null,
+      "map_pos_y": null,
+      "row": "0x8032 0x21 LOAD FILES Load GEO 18 raw=(18, 127, 255)"
+    },
+    {
+      "ecl_block": 19,
+      "address": "0x8051",
+      "target": "17",
+      "target_geo": 17,
+      "target_loaded": true,
+      "raw_operands": "17, 127, 255",
+      "map_pos_x": null,
+      "map_pos_y": null,
+      "row": "0x8051 0x21 LOAD FILES Load GEO 17 raw=(17, 127, 255)"
+    },
+    {
+      "ecl_block": 21,
+      "address": "0x8058",
+      "target": "21",
+      "target_geo": 21,
+      "target_loaded": true,
+      "raw_operands": "21, 127, 255",
+      "map_pos_x": null,
+      "map_pos_y": null,
+      "row": "0x8058 0x21 LOAD FILES Load GEO 21 raw=(21, 127, 255)"
+    },
+    {
+      "ecl_block": 24,
+      "address": "0x803E",
+      "target": "64",
+      "target_geo": 64,
+      "target_loaded": true,
+      "raw_operands": "64, 127, 255",
+      "map_pos_x": 13,
+      "map_pos_y": 8,
+      "row": "0x803E 0x21 LOAD FILES Load GEO 64 raw=(64, 127, 255)"
+    },
+    {
+      "ecl_block": 32,
+      "address": "0x804B",
+      "target": "127",
+      "target_geo": 127,
+      "target_loaded": false,
+      "raw_operands": "127, 127, 255",
+      "map_pos_x": null,
+      "map_pos_y": null,
+      "row": "0x804B 0x21 LOAD FILES Load GEO 127 raw=(127, 127, 255)"
+    },
+    {
+      "ecl_block": 34,
+      "address": "0x8063",
+      "target": "34",
+      "target_geo": 34,
+      "target_loaded": true,
+      "raw_operands": "34, 127, 255",
+      "map_pos_x": 7,
+      "map_pos_y": 15,
+      "row": "0x8063 0x21 LOAD FILES Load GEO 34 raw=(34, 127, 255)"
+    },
+    {
+      "ecl_block": 35,
+      "address": "0x802E",
+      "target": "35",
+      "target_geo": 35,
+      "target_loaded": true,
+      "raw_operands": "35, 127, 255",
+      "map_pos_x": 4,
+      "map_pos_y": 15,
+      "row": "0x802E 0x21 LOAD FILES Load GEO 35 raw=(35, 127, 255)"
+    },
+    {
+      "ecl_block": 38,
+      "address": "0x8052",
+      "target": "38",
+      "target_geo": 38,
+      "target_loaded": true,
+      "raw_operands": "38, 127, 255",
+      "map_pos_x": null,
+      "map_pos_y": null,
+      "row": "0x8052 0x21 LOAD FILES Load GEO 38 raw=(38, 127, 255)"
+    },
+    {
+      "ecl_block": 48,
+      "address": "0x8031",
+      "target": "127",
+      "target_geo": 127,
+      "target_loaded": false,
+      "raw_operands": "127, 127, 255",
+      "map_pos_x": null,
+      "map_pos_y": null,
+      "row": "0x8031 0x21 LOAD FILES Load GEO 127 raw=(127, 127, 255)"
+    },
+    {
+      "ecl_block": 49,
+      "address": "0x8051",
+      "target": "49",
+      "target_geo": 49,
+      "target_loaded": true,
+      "raw_operands": "49, 127, 255",
+      "map_pos_x": null,
+      "map_pos_y": null,
+      "row": "0x8051 0x21 LOAD FILES Load GEO 49 raw=(49, 127, 255)"
+    },
+    {
+      "ecl_block": 49,
+      "address": "0x80FE",
+      "target": "52",
+      "target_geo": 52,
+      "target_loaded": true,
+      "raw_operands": "52, 127, 255",
+      "map_pos_x": 15,
+      "map_pos_y": 3,
+      "row": "0x80FE 0x21 LOAD FILES Load GEO 52 raw=(52, 127, 255)"
+    },
+    {
+      "ecl_block": 49,
+      "address": "0x834D",
+      "target": "49",
+      "target_geo": 49,
+      "target_loaded": true,
+      "raw_operands": "49, 127, 255",
+      "map_pos_x": null,
+      "map_pos_y": null,
+      "row": "0x834D 0x21 LOAD FILES Load GEO 49 raw=(49, 127, 255)"
+    },
+    {
+      "ecl_block": 50,
+      "address": "0x8047",
+      "target": "50",
+      "target_geo": 50,
+      "target_loaded": true,
+      "raw_operands": "50, 127, 255",
+      "map_pos_x": null,
+      "map_pos_y": null,
+      "row": "0x8047 0x21 LOAD FILES Load GEO 50 raw=(50, 127, 255)"
+    },
+    {
+      "ecl_block": 64,
+      "address": "0x803A",
+      "target": "64",
+      "target_geo": 64,
+      "target_loaded": true,
+      "raw_operands": "64, 127, 255",
+      "map_pos_x": 11,
+      "map_pos_y": 15,
+      "row": "0x803A 0x21 LOAD FILES Load GEO 64 raw=(64, 127, 255)"
+    },
+    {
+      "ecl_block": 65,
+      "address": "0x8040",
+      "target": "65",
+      "target_geo": 65,
+      "target_loaded": true,
+      "raw_operands": "65, 127, 255",
+      "map_pos_x": 5,
+      "map_pos_y": 15,
+      "row": "0x8040 0x21 LOAD FILES Load GEO 65 raw=(65, 127, 255)"
+    },
+    {
+      "ecl_block": 66,
+      "address": "0x8034",
+      "target": "66",
+      "target_geo": 66,
+      "target_loaded": true,
+      "raw_operands": "66, 127, 255",
+      "map_pos_x": 15,
+      "map_pos_y": 13,
+      "row": "0x8034 0x21 LOAD FILES Load GEO 66 raw=(66, 127, 255)"
+    },
+    {
+      "ecl_block": 80,
+      "address": "0x8052",
+      "target": "84",
+      "target_geo": 84,
+      "target_loaded": true,
+      "raw_operands": "84, 127, 3",
+      "map_pos_x": null,
+      "map_pos_y": null,
+      "row": "0x8052 0x21 LOAD FILES Load GEO 84 raw=(84, 127, 3)"
+    },
+    {
+      "ecl_block": 81,
+      "address": "0x8057",
+      "target": "81",
+      "target_geo": 81,
+      "target_loaded": true,
+      "raw_operands": "81, 127, 255",
+      "map_pos_x": null,
+      "map_pos_y": null,
+      "row": "0x8057 0x21 LOAD FILES Load GEO 81 raw=(81, 127, 255)"
+    },
+    {
+      "ecl_block": 96,
+      "address": "0x808F",
+      "target": "96",
+      "target_geo": 96,
+      "target_loaded": true,
+      "raw_operands": "96, 127, 255",
+      "map_pos_x": null,
+      "map_pos_y": 0,
+      "row": "0x808F 0x21 LOAD FILES Load GEO 96 raw=(96, 127, 255)"
+    },
+    {
+      "ecl_block": 97,
+      "address": "0x80A5",
+      "target": "97",
+      "target_geo": 97,
+      "target_loaded": true,
+      "raw_operands": "97, 127, 255",
+      "map_pos_x": null,
+      "map_pos_y": 15,
+      "row": "0x80A5 0x21 LOAD FILES Load GEO 97 raw=(97, 127, 255)"
+    },
+    {
+      "ecl_block": 97,
+      "address": "0x80E9",
+      "target": "96",
+      "target_geo": 96,
+      "target_loaded": true,
+      "raw_operands": "96, 127, 255",
+      "map_pos_x": 1,
+      "map_pos_y": 11,
+      "row": "0x80E9 0x21 LOAD FILES Load GEO 96 raw=(96, 127, 255)"
+    },
+    {
+      "ecl_block": 112,
+      "address": "0x8058",
+      "target": "112",
+      "target_geo": 112,
+      "target_loaded": true,
+      "raw_operands": "112, 127, 255",
+      "map_pos_x": null,
+      "map_pos_y": null,
+      "row": "0x8058 0x21 LOAD FILES Load GEO 112 raw=(112, 127, 255)"
+    },
+    {
+      "ecl_block": 114,
+      "address": "0x8034",
+      "target": "114",
+      "target_geo": 114,
+      "target_loaded": true,
+      "raw_operands": "114, 127, 255",
+      "map_pos_x": 7,
+      "map_pos_y": 4,
+      "row": "0x8034 0x21 LOAD FILES Load GEO 114 raw=(114, 127, 255)"
+    },
+    {
+      "ecl_block": 114,
+      "address": "0x81B9",
+      "target": "area2.event_scratch0",
+      "target_geo": null,
+      "target_loaded": false,
+      "raw_operands": "area2.event_scratch0, 127, 255",
+      "map_pos_x": null,
+      "map_pos_y": null,
+      "row": "0x81B9 0x21 LOAD FILES Load GEO area2.event_scratch0 raw=(area2.event_scratch0, 127, 255)"
+    }
+  ],
+  "cell_edges": [
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 2,
+      "col": 4,
+      "target_geo": 33,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 2,
+      "col": 10,
+      "target_geo": 15,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 2,
+      "col": 14,
+      "target_geo": 26,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 4,
+      "col": 2,
+      "target_geo": 37,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 4,
+      "col": 3,
+      "target_geo": 37,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 4,
+      "col": 8,
+      "target_geo": 28,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 5,
+      "col": 1,
+      "target_geo": 15,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 6,
+      "col": 2,
+      "target_geo": 30,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 6,
+      "col": 8,
+      "target_geo": 15,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 8,
+      "col": 11,
+      "target_geo": 16,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 11,
+      "col": 3,
+      "target_geo": 21,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 11,
+      "col": 7,
+      "target_geo": 11,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 11,
+      "col": 8,
+      "target_geo": 13,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 13,
+      "col": 7,
+      "target_geo": 4,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 13,
+      "col": 13,
+      "target_geo": 5,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 1,
+      "source_name": "Luna Base",
+      "row": 14,
+      "col": 3,
+      "target_geo": 19,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 33,
+      "source_name": "Losangelorg Sprawls",
+      "row": 1,
+      "col": 12,
+      "target_geo": 1,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 33,
+      "source_name": "Losangelorg Sprawls",
+      "row": 1,
+      "col": 13,
+      "target_geo": 3,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 33,
+      "source_name": "Losangelorg Sprawls",
+      "row": 2,
+      "col": 11,
+      "target_geo": 4,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 33,
+      "source_name": "Losangelorg Sprawls",
+      "row": 3,
+      "col": 12,
+      "target_geo": 2,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 33,
+      "source_name": "Losangelorg Sprawls",
+      "row": 4,
+      "col": 11,
+      "target_geo": 1,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 33,
+      "source_name": "Losangelorg Sprawls",
+      "row": 6,
+      "col": 9,
+      "target_geo": 18,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 33,
+      "source_name": "Losangelorg Sprawls",
+      "row": 6,
+      "col": 14,
+      "target_geo": 18,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 33,
+      "source_name": "Losangelorg Sprawls",
+      "row": 7,
+      "col": 13,
+      "target_geo": 21,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 33,
+      "source_name": "Losangelorg Sprawls",
+      "row": 7,
+      "col": 14,
+      "target_geo": 14,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 33,
+      "source_name": "Losangelorg Sprawls",
+      "row": 14,
+      "col": 8,
+      "target_geo": 19,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 33,
+      "source_name": "Losangelorg Sprawls",
+      "row": 15,
+      "col": 9,
+      "target_geo": 19,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 49,
+      "source_name": "Lowlander Village",
+      "row": 1,
+      "col": 0,
+      "target_geo": 19,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 49,
+      "source_name": "Lowlander Village",
+      "row": 1,
+      "col": 1,
+      "target_geo": 19,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 49,
+      "source_name": "Lowlander Village",
+      "row": 14,
+      "col": 4,
+      "target_geo": 13,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 0,
+      "col": 0,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 0,
+      "col": 1,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 0,
+      "col": 2,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 0,
+      "col": 3,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 0,
+      "col": 4,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 0,
+      "col": 6,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 0,
+      "col": 7,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 0,
+      "col": 8,
+      "target_geo": 10,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 0,
+      "col": 9,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 1,
+      "col": 0,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 1,
+      "col": 1,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 1,
+      "col": 2,
+      "target_geo": 7,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 1,
+      "col": 4,
+      "target_geo": 2,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 1,
+      "col": 6,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 1,
+      "col": 7,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 1,
+      "col": 8,
+      "target_geo": 11,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 1,
+      "col": 9,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 1,
+      "col": 10,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 2,
+      "col": 0,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 2,
+      "col": 1,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 2,
+      "col": 2,
+      "target_geo": 5,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 2,
+      "col": 3,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 2,
+      "col": 4,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 2,
+      "col": 5,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 2,
+      "col": 6,
+      "target_geo": 9,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 2,
+      "col": 7,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 2,
+      "col": 8,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 2,
+      "col": 9,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 2,
+      "col": 10,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 2,
+      "col": 11,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 3,
+      "col": 0,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 3,
+      "col": 1,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 3,
+      "col": 2,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 3,
+      "col": 3,
+      "target_geo": 6,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 3,
+      "col": 4,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 3,
+      "col": 5,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 3,
+      "col": 6,
+      "target_geo": 8,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 3,
+      "col": 7,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 3,
+      "col": 8,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 3,
+      "col": 9,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 3,
+      "col": 10,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 3,
+      "col": 11,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 4,
+      "col": 0,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 4,
+      "col": 1,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 4,
+      "col": 2,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 4,
+      "col": 3,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 4,
+      "col": 4,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 4,
+      "col": 5,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 4,
+      "col": 6,
+      "target_geo": 8,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 4,
+      "col": 7,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 4,
+      "col": 8,
+      "target_geo": 23,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 4,
+      "col": 9,
+      "target_geo": 23,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 4,
+      "col": 10,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 4,
+      "col": 11,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 5,
+      "col": 0,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 5,
+      "col": 1,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 5,
+      "col": 2,
+      "target_geo": 4,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 5,
+      "col": 3,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 5,
+      "col": 4,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 5,
+      "col": 5,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 5,
+      "col": 6,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 5,
+      "col": 7,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 5,
+      "col": 8,
+      "target_geo": 23,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 5,
+      "col": 9,
+      "target_geo": 23,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 50,
+      "source_name": "Venus Laboratory, Level 1",
+      "row": 5,
+      "col": 10,
+      "target_geo": 23,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 2,
+      "col": 4,
+      "target_geo": 33,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 2,
+      "col": 10,
+      "target_geo": 15,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 2,
+      "col": 14,
+      "target_geo": 26,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 4,
+      "col": 2,
+      "target_geo": 37,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 4,
+      "col": 3,
+      "target_geo": 37,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 4,
+      "col": 8,
+      "target_geo": 28,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 5,
+      "col": 1,
+      "target_geo": 15,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 6,
+      "col": 2,
+      "target_geo": 30,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 6,
+      "col": 8,
+      "target_geo": 15,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 8,
+      "col": 11,
+      "target_geo": 16,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 11,
+      "col": 3,
+      "target_geo": 21,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 11,
+      "col": 7,
+      "target_geo": 11,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 11,
+      "col": 8,
+      "target_geo": 13,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 13,
+      "col": 7,
+      "target_geo": 4,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 13,
+      "col": 13,
+      "target_geo": 5,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 64,
+      "source_name": "Luna Base",
+      "row": 14,
+      "col": 3,
+      "target_geo": 19,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 84,
+      "source_name": "Mars Prison, Level 2",
+      "row": 6,
+      "col": 7,
+      "target_geo": 11,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 84,
+      "source_name": "Mars Prison, Level 2",
+      "row": 6,
+      "col": 8,
+      "target_geo": 11,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 84,
+      "source_name": "Mars Prison, Level 2",
+      "row": 6,
+      "col": 9,
+      "target_geo": 11,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 84,
+      "source_name": "Mars Prison, Level 2",
+      "row": 7,
+      "col": 7,
+      "target_geo": 11,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 84,
+      "source_name": "Mars Prison, Level 2",
+      "row": 7,
+      "col": 8,
+      "target_geo": 1,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 84,
+      "source_name": "Mars Prison, Level 2",
+      "row": 7,
+      "col": 9,
+      "target_geo": 11,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 84,
+      "source_name": "Mars Prison, Level 2",
+      "row": 8,
+      "col": 7,
+      "target_geo": 11,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 84,
+      "source_name": "Mars Prison, Level 2",
+      "row": 8,
+      "col": 8,
+      "target_geo": 11,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 84,
+      "source_name": "Mars Prison, Level 2",
+      "row": 8,
+      "col": 9,
+      "target_geo": 11,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 84,
+      "source_name": "Mars Prison, Level 2",
+      "row": 10,
+      "col": 9,
+      "target_geo": 21,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 0,
+      "col": 5,
+      "target_geo": 34,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 1,
+      "col": 5,
+      "target_geo": 34,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 1,
+      "col": 6,
+      "target_geo": 34,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 2,
+      "col": 5,
+      "target_geo": 14,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 2,
+      "col": 9,
+      "target_geo": 23,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 3,
+      "col": 9,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 4,
+      "col": 3,
+      "target_geo": 34,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 4,
+      "col": 4,
+      "target_geo": 34,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 4,
+      "col": 9,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 5,
+      "col": 3,
+      "target_geo": 34,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 5,
+      "col": 4,
+      "target_geo": 1,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 5,
+      "col": 9,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 5,
+      "col": 10,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 5,
+      "col": 11,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 6,
+      "col": 9,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 6,
+      "col": 10,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 6,
+      "col": 11,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 6,
+      "col": 12,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 6,
+      "col": 13,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 6,
+      "col": 14,
+      "target_geo": 23,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 6,
+      "col": 15,
+      "target_geo": 33,
+      "target_loaded": true,
+      "interpretation": "promoted_transition"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 8,
+      "col": 9,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 8,
+      "col": 10,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 9,
+      "col": 9,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 9,
+      "col": 10,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 10,
+      "col": 9,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 11,
+      "col": 9,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 11,
+      "col": 10,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 12,
+      "col": 9,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 12,
+      "col": 10,
+      "target_geo": 24,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 112,
+      "source_name": "Stormrider University",
+      "row": 13,
+      "col": 7,
+      "target_geo": 3,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 2,
+      "col": 2,
+      "target_geo": 40,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 2,
+      "col": 3,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 2,
+      "col": 4,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 2,
+      "col": 5,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 3,
+      "col": 2,
+      "target_geo": 40,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 3,
+      "col": 3,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 3,
+      "col": 4,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 3,
+      "col": 5,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 3,
+      "col": 6,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 4,
+      "col": 2,
+      "target_geo": 40,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 4,
+      "col": 3,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 4,
+      "col": 4,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 4,
+      "col": 5,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 4,
+      "col": 6,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 4,
+      "col": 7,
+      "target_geo": 20,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 5,
+      "col": 2,
+      "target_geo": 40,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 5,
+      "col": 3,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 5,
+      "col": 4,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 5,
+      "col": 5,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 5,
+      "col": 6,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 6,
+      "col": 3,
+      "target_geo": 20,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 9,
+      "col": 3,
+      "target_geo": 15,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 10,
+      "col": 2,
+      "target_geo": 40,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 10,
+      "col": 3,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 10,
+      "col": 4,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 10,
+      "col": 5,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 10,
+      "col": 6,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 11,
+      "col": 2,
+      "target_geo": 40,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 11,
+      "col": 3,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 11,
+      "col": 4,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 11,
+      "col": 5,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 11,
+      "col": 6,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 11,
+      "col": 7,
+      "target_geo": 20,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 12,
+      "col": 2,
+      "target_geo": 40,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 12,
+      "col": 3,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 12,
+      "col": 4,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 12,
+      "col": 5,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 12,
+      "col": 6,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 13,
+      "col": 2,
+      "target_geo": 40,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 13,
+      "col": 3,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 13,
+      "col": 4,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    },
+    {
+      "source_geo": 114,
+      "source_name": "Jupiter Finale",
+      "row": 13,
+      "col": 5,
+      "target_geo": 12,
+      "target_loaded": false,
+      "interpretation": "local_event_or_unresolved_exit"
+    }
+  ]
+}

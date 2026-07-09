@@ -1,0 +1,512 @@
+[
+  {
+    "skill_id": 0,
+    "who_offset": null,
+    "start_exe_offset": 62241,
+    "text": "technical Skills"
+  },
+  {
+    "skill_id": 1,
+    "who_offset": 77,
+    "start_exe_offset": 62262,
+    "text": "Repair Electrical"
+  },
+  {
+    "skill_id": 2,
+    "who_offset": 78,
+    "start_exe_offset": 62289,
+    "text": "Repair Mechanical"
+  },
+  {
+    "skill_id": 3,
+    "who_offset": 79,
+    "start_exe_offset": 62316,
+    "text": "Repair Nuclear Engine"
+  },
+  {
+    "skill_id": 4,
+    "who_offset": 80,
+    "start_exe_offset": 62343,
+    "text": "Repair Life Support"
+  },
+  {
+    "skill_id": 5,
+    "who_offset": 81,
+    "start_exe_offset": 62370,
+    "text": "Repair Rocket Hull"
+  },
+  {
+    "skill_id": 6,
+    "who_offset": 82,
+    "start_exe_offset": 62397,
+    "text": "Jury Rig"
+  },
+  {
+    "skill_id": 7,
+    "who_offset": 83,
+    "start_exe_offset": 62415,
+    "text": "Bypass Security"
+  },
+  {
+    "skill_id": 8,
+    "who_offset": 84,
+    "start_exe_offset": 62440,
+    "text": "Open Lock"
+  },
+  {
+    "skill_id": 9,
+    "who_offset": 85,
+    "start_exe_offset": 62459,
+    "text": "Commo Operation"
+  },
+  {
+    "skill_id": 10,
+    "who_offset": 86,
+    "start_exe_offset": 62484,
+    "text": "Sensor Operation"
+  },
+  {
+    "skill_id": 11,
+    "who_offset": 87,
+    "start_exe_offset": 62510,
+    "text": "Demolitions"
+  },
+  {
+    "skill_id": 12,
+    "who_offset": 88,
+    "start_exe_offset": 62531,
+    "text": "Cook"
+  },
+  {
+    "skill_id": 13,
+    "who_offset": 89,
+    "start_exe_offset": 62544,
+    "text": "First Aid"
+  },
+  {
+    "skill_id": 14,
+    "who_offset": 90,
+    "start_exe_offset": 62563,
+    "text": "Repair Weapon"
+  },
+  {
+    "skill_id": 15,
+    "who_offset": 91,
+    "start_exe_offset": 62586,
+    "text": "Repair Computer"
+  },
+  {
+    "skill_id": 16,
+    "who_offset": 92,
+    "start_exe_offset": 62610,
+    "text": "Life Suspension Tech"
+  },
+  {
+    "skill_id": 17,
+    "who_offset": 93,
+    "start_exe_offset": 62637,
+    "text": "Treat Light Wounds"
+  },
+  {
+    "skill_id": 18,
+    "who_offset": 94,
+    "start_exe_offset": 62664,
+    "text": "Treat Serious Wounds"
+  },
+  {
+    "skill_id": 19,
+    "who_offset": 95,
+    "start_exe_offset": 62691,
+    "text": "Treat Critical Wounds"
+  },
+  {
+    "skill_id": 20,
+    "who_offset": 96,
+    "start_exe_offset": 62718,
+    "text": "Treat Poisoning"
+  },
+  {
+    "skill_id": 21,
+    "who_offset": 97,
+    "start_exe_offset": 62743,
+    "text": "Treat Stun/Paralysis"
+  },
+  {
+    "skill_id": 22,
+    "who_offset": 98,
+    "start_exe_offset": 62770,
+    "text": "Treat Disease"
+  },
+  {
+    "skill_id": 23,
+    "who_offset": 99,
+    "start_exe_offset": 62793,
+    "text": "Diagnose"
+  },
+  {
+    "skill_id": 24,
+    "who_offset": 100,
+    "start_exe_offset": 62811,
+    "text": "General Knowledge"
+  },
+  {
+    "skill_id": 25,
+    "who_offset": 101,
+    "start_exe_offset": 62837,
+    "text": "Ship Lore"
+  },
+  {
+    "skill_id": 26,
+    "who_offset": 102,
+    "start_exe_offset": 62855,
+    "text": "Composition"
+  },
+  {
+    "skill_id": 27,
+    "who_offset": 103,
+    "start_exe_offset": 62875,
+    "text": "Mathematics"
+  },
+  {
+    "skill_id": 28,
+    "who_offset": 104,
+    "start_exe_offset": 62896,
+    "text": "Physics"
+  },
+  {
+    "skill_id": 29,
+    "who_offset": 105,
+    "start_exe_offset": 62912,
+    "text": "Geology"
+  },
+  {
+    "skill_id": 30,
+    "who_offset": 106,
+    "start_exe_offset": 62928,
+    "text": "Planetology"
+  },
+  {
+    "skill_id": 31,
+    "who_offset": 107,
+    "start_exe_offset": 62949,
+    "text": "Battle Tactics"
+  },
+  {
+    "skill_id": 32,
+    "who_offset": 108,
+    "start_exe_offset": 62973,
+    "text": "Chemistry"
+  },
+  {
+    "skill_id": 33,
+    "who_offset": 109,
+    "start_exe_offset": 62991,
+    "text": "Biology"
+  },
+  {
+    "skill_id": 34,
+    "who_offset": 110,
+    "start_exe_offset": 63007,
+    "text": "Design Engineering"
+  },
+  {
+    "skill_id": 35,
+    "who_offset": 111,
+    "start_exe_offset": 63034,
+    "text": "History"
+  },
+  {
+    "skill_id": 36,
+    "who_offset": 112,
+    "start_exe_offset": 63050,
+    "text": "Astronomy"
+  },
+  {
+    "skill_id": 37,
+    "who_offset": 113,
+    "start_exe_offset": 63069,
+    "text": "Botany"
+  },
+  {
+    "skill_id": 38,
+    "who_offset": 114,
+    "start_exe_offset": 63084,
+    "text": "Literature"
+  },
+  {
+    "skill_id": 39,
+    "who_offset": 115,
+    "start_exe_offset": 63103,
+    "text": "Economics"
+  },
+  {
+    "skill_id": 40,
+    "who_offset": 116,
+    "start_exe_offset": 63121,
+    "text": "Metallurgy"
+  },
+  {
+    "skill_id": 41,
+    "who_offset": 117,
+    "start_exe_offset": 63140,
+    "text": "Speak/Read Lang."
+  },
+  {
+    "skill_id": 42,
+    "who_offset": 118,
+    "start_exe_offset": 63165,
+    "text": "Law"
+  },
+  {
+    "skill_id": 43,
+    "who_offset": 119,
+    "start_exe_offset": 63177,
+    "text": "Programming"
+  },
+  {
+    "skill_id": 44,
+    "who_offset": 120,
+    "start_exe_offset": 63198,
+    "text": "Crytography"
+  },
+  {
+    "skill_id": 45,
+    "who_offset": 121,
+    "start_exe_offset": 63218,
+    "text": "Library Search"
+  },
+  {
+    "skill_id": 46,
+    "who_offset": 122,
+    "start_exe_offset": 63242,
+    "text": "Astrogation"
+  },
+  {
+    "skill_id": 47,
+    "who_offset": 123,
+    "start_exe_offset": 63263,
+    "text": "Navigation"
+  },
+  {
+    "skill_id": 48,
+    "who_offset": 124,
+    "start_exe_offset": 63283,
+    "text": "Mimic"
+  },
+  {
+    "skill_id": 49,
+    "who_offset": 125,
+    "start_exe_offset": 63297,
+    "text": "Memorize"
+  },
+  {
+    "skill_id": 50,
+    "who_offset": 126,
+    "start_exe_offset": 63314,
+    "text": "Disguise"
+  },
+  {
+    "skill_id": 51,
+    "who_offset": 127,
+    "start_exe_offset": 63332,
+    "text": "Pilot Rocket"
+  },
+  {
+    "skill_id": 52,
+    "who_offset": 128,
+    "start_exe_offset": 63354,
+    "text": "Pilot Fixed Wing"
+  },
+  {
+    "skill_id": 53,
+    "who_offset": 129,
+    "start_exe_offset": 63380,
+    "text": "Drive Ground Car"
+  },
+  {
+    "skill_id": 54,
+    "who_offset": 130,
+    "start_exe_offset": 63406,
+    "text": "Pilot Rotor Wing"
+  },
+  {
+    "skill_id": 55,
+    "who_offset": 131,
+    "start_exe_offset": 63432,
+    "text": "Drive Motorcycle"
+  },
+  {
+    "skill_id": 56,
+    "who_offset": 132,
+    "start_exe_offset": 63457,
+    "text": "Use Jetpack"
+  },
+  {
+    "skill_id": 57,
+    "who_offset": 133,
+    "start_exe_offset": 63478,
+    "text": "Pilot Ship/Sub"
+  },
+  {
+    "skill_id": 58,
+    "who_offset": 134,
+    "start_exe_offset": 63501,
+    "text": "Drive Hvy Grnd Vehc"
+  },
+  {
+    "skill_id": 59,
+    "who_offset": 135,
+    "start_exe_offset": 63528,
+    "text": "Drive Jetcar"
+  },
+  {
+    "skill_id": 60,
+    "who_offset": 136,
+    "start_exe_offset": 63550,
+    "text": "Animal Riding"
+  },
+  {
+    "skill_id": 61,
+    "who_offset": 137,
+    "start_exe_offset": 63572,
+    "text": "Hide in Shadows"
+  },
+  {
+    "skill_id": 62,
+    "who_offset": 138,
+    "start_exe_offset": 63597,
+    "text": "Move Silently"
+  },
+  {
+    "skill_id": 63,
+    "who_offset": 139,
+    "start_exe_offset": 63620,
+    "text": "Pick Pockets"
+  },
+  {
+    "skill_id": 64,
+    "who_offset": 140,
+    "start_exe_offset": 63642,
+    "text": "Acrobatics"
+  },
+  {
+    "skill_id": 65,
+    "who_offset": 141,
+    "start_exe_offset": 63662,
+    "text": "Climb"
+  },
+  {
+    "skill_id": 66,
+    "who_offset": 142,
+    "start_exe_offset": 63677,
+    "text": "Swimming"
+  },
+  {
+    "skill_id": 67,
+    "who_offset": 143,
+    "start_exe_offset": 63694,
+    "text": "Maneuver in 0G"
+  },
+  {
+    "skill_id": 68,
+    "who_offset": 144,
+    "start_exe_offset": 63718,
+    "text": "Play Instrumnt"
+  },
+  {
+    "skill_id": 69,
+    "who_offset": 145,
+    "start_exe_offset": 63741,
+    "text": "Paint/Draw"
+  },
+  {
+    "skill_id": 70,
+    "who_offset": 146,
+    "start_exe_offset": 63760,
+    "text": "Hypnosis"
+  },
+  {
+    "skill_id": 71,
+    "who_offset": 147,
+    "start_exe_offset": 63777,
+    "text": "Act"
+  },
+  {
+    "skill_id": 72,
+    "who_offset": 148,
+    "start_exe_offset": 63790,
+    "text": "Intimidate"
+  },
+  {
+    "skill_id": 73,
+    "who_offset": 149,
+    "start_exe_offset": 63810,
+    "text": "Leadership"
+  },
+  {
+    "skill_id": 74,
+    "who_offset": 150,
+    "start_exe_offset": 63830,
+    "text": "Befriend Animal"
+  },
+  {
+    "skill_id": 75,
+    "who_offset": 151,
+    "start_exe_offset": 63855,
+    "text": "Animal Training"
+  },
+  {
+    "skill_id": 76,
+    "who_offset": 152,
+    "start_exe_offset": 63879,
+    "text": "Fast Talk/Convince"
+  },
+  {
+    "skill_id": 77,
+    "who_offset": 153,
+    "start_exe_offset": 63906,
+    "text": "Singing"
+  },
+  {
+    "skill_id": 78,
+    "who_offset": 154,
+    "start_exe_offset": 63923,
+    "text": "Distract"
+  },
+  {
+    "skill_id": 79,
+    "who_offset": 155,
+    "start_exe_offset": 63941,
+    "text": "Etiquette"
+  },
+  {
+    "skill_id": 80,
+    "who_offset": 156,
+    "start_exe_offset": 63960,
+    "text": "Tracking"
+  },
+  {
+    "skill_id": 81,
+    "who_offset": 157,
+    "start_exe_offset": 63978,
+    "text": "Shadowing"
+  },
+  {
+    "skill_id": 82,
+    "who_offset": 158,
+    "start_exe_offset": 63997,
+    "text": "Read Lips"
+  },
+  {
+    "skill_id": 83,
+    "who_offset": 159,
+    "start_exe_offset": 64015,
+    "text": "Notice"
+  },
+  {
+    "skill_id": 84,
+    "who_offset": 160,
+    "start_exe_offset": 64031,
+    "text": "Planetary Survival"
+  }
+]

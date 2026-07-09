@@ -1,0 +1,1109 @@
+{
+  "valid": true,
+  "file": "BACK1.DAX",
+  "bytes": 104960,
+  "sha256": "e876d5248d1296bec04502df6c0080fbcf4dcc2d572fb697ef958cb33cc1d739",
+  "toc_len": 180,
+  "data_offset": 182,
+  "block_count": 20,
+  "semantic_status": "structural decode only: semantic format not yet named",
+  "warnings": [],
+  "blocks": [
+    {
+      "id": 1,
+      "toc_entry_offset": 2,
+      "packed_relative_offset": 0,
+      "packed_absolute_offset": 182,
+      "raw_size": 7870,
+      "packed_size": 3906,
+      "decoded_size": 7870,
+      "decoded_sha256": "9680e092cae5e4ed13f5b18972d7a403b2677fb565bd7de174872a581705cb1d",
+      "packed_sha256": "4ba31161d8e14207c8269d8a12ca59b8a2a9316dd4343ecdb32ce3268ec023cc",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4963,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 00 00 00 10 0c 08 1e 18 12 0e 36 08 32 2a 0c 0e 0a 06 2a 15 00 2a 24 1e 14 10 0c 1c 16 12 18 12 0e 15 3f 3f 0e 0a 06 00 00 00 3f 3f 1e 3f 3f 3f 36 30 08 0c 06 02",
+      "tail_hex": "a2 a5 94 a0 94 a0 94 a0 a0 94 a0 94 94 a0 94 a0 a0 94 a0 94 94 a0 94 a0 a5 a2 a1 9d a2 a1 9d a2",
+      "ascii_candidates": [
+        {
+          "offset": 55,
+          "length": 5,
+          "text": "???60"
+        },
+        {
+          "offset": 85,
+          "length": 5,
+          "text": "?8$4&"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "9d": 1544,
+        "a2": 1472,
+        "9f": 812,
+        "a7": 670,
+        "a8": 634,
+        "a6": 448,
+        "a1": 420,
+        "9e": 417,
+        "96": 332,
+        "a9": 239,
+        "94": 239,
+        "a0": 161,
+        "aa": 110,
+        "a5": 88,
+        "ab": 74,
+        "a4": 74
+      },
+      "warnings": []
+    },
+    {
+      "id": 129,
+      "toc_entry_offset": 11,
+      "packed_relative_offset": 3906,
+      "packed_absolute_offset": 4088,
+      "raw_size": 7870,
+      "packed_size": 4234,
+      "decoded_size": 7870,
+      "decoded_sha256": "7e43ec50f60a456a46242943f33307de7436985027fb4d97981b34a9c82b1386",
+      "packed_sha256": "b21b921d7f28c782a80f396ecab0b37d0d95da2146ebe14536a73d0a6d5d3462",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.538,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 00 00 00 10 0c 08 1e 18 12 0e 36 08 32 2a 0c 0e 0a 06 2a 15 00 2a 24 1e 14 10 0c 1c 16 12 18 12 0e 15 3f 3f 0e 0a 06 00 00 00 3f 3f 1e 3f 3f 3f 36 30 08 0c 06 02",
+      "tail_hex": "98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 ab 98 95 9d 9d 9d 95 98",
+      "ascii_candidates": [
+        {
+          "offset": 55,
+          "length": 5,
+          "text": "???60"
+        },
+        {
+          "offset": 85,
+          "length": 5,
+          "text": "?8$4&"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "98": 1754,
+        "9d": 1622,
+        "97": 886,
+        "9f": 782,
+        "9e": 578,
+        "ad": 430,
+        "99": 349,
+        "ab": 280,
+        "92": 239,
+        "af": 212,
+        "ac": 183,
+        "95": 142,
+        "91": 134,
+        "a9": 86,
+        "a3": 27,
+        "ae": 22
+      },
+      "warnings": []
+    },
+    {
+      "id": 3,
+      "toc_entry_offset": 20,
+      "packed_relative_offset": 8140,
+      "packed_absolute_offset": 8322,
+      "raw_size": 7870,
+      "packed_size": 4574,
+      "decoded_size": 7870,
+      "decoded_sha256": "13d2ece4411854da245fbcac4fc7a83762d0ac0f754d8c2bf7272af32856ceb7",
+      "packed_sha256": "1eb42ca7f5b80297c78045a28838769641df4678842d321064b72c209d9dd3f5",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.5812,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 26 1a 04 14 00 1a 24 13 04 20 0c 00 22 0e 00 2b 00 2c 26 14 00 2e 26 2e 2c 1f 04 28 00 36 01 3f 02 3f 2c 3f 3a 38 3a 00 00 00 3c 3a 3c 3f 3f 3f 28 16 04 2a 1d 04",
+      "tail_hex": "a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6 a6",
+      "ascii_candidates": [
+        {
+          "offset": 31,
+          "length": 4,
+          "text": ".&.,"
+        },
+        {
+          "offset": 43,
+          "length": 6,
+          "text": "?,?:8:"
+        },
+        {
+          "offset": 52,
+          "length": 7,
+          "text": "<:<???("
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "a5": 1350,
+        "a6": 899,
+        "9d": 806,
+        "91": 657,
+        "99": 636,
+        "a8": 556,
+        "a2": 480,
+        "9f": 458,
+        "97": 440,
+        "9e": 346,
+        "95": 283,
+        "a7": 241,
+        "aa": 205,
+        "ac": 180,
+        "9b": 98,
+        "9c": 90
+      },
+      "warnings": []
+    },
+    {
+      "id": 131,
+      "toc_entry_offset": 29,
+      "packed_relative_offset": 12714,
+      "packed_absolute_offset": 12896,
+      "raw_size": 7870,
+      "packed_size": 3314,
+      "decoded_size": 7870,
+      "decoded_sha256": "17601ebb6b1945be54c72ec08d64cfa9eefa05a5f3d4a620d53c86074a0ff067",
+      "packed_sha256": "7b7e02792fef756649a5ce56ad50125613167110e78984652170128427c3a326",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4211,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 26 1a 04 14 00 1a 24 13 04 20 0c 00 22 0e 00 2b 00 2c 26 14 00 2e 26 2e 2c 1f 04 28 00 36 01 3f 02 3f 2c 3f 3a 38 3a 00 00 00 3c 3a 3c 3f 3f 3f 28 16 04 2a 1d 04",
+      "tail_hex": "08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08",
+      "ascii_candidates": [
+        {
+          "offset": 31,
+          "length": 4,
+          "text": ".&.,"
+        },
+        {
+          "offset": 43,
+          "length": 6,
+          "text": "?,?:8:"
+        },
+        {
+          "offset": 52,
+          "length": 7,
+          "text": "<:<???("
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "08": 1567,
+        "a0": 1224,
+        "05": 844,
+        "00": 831,
+        "90": 758,
+        "01": 662,
+        "a9": 478,
+        "a1": 317,
+        "a3": 209,
+        "96": 206,
+        "94": 191,
+        "98": 165,
+        "92": 154,
+        "93": 127,
+        "a4": 44,
+        "3f": 9
+      },
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "toc_entry_offset": 38,
+      "packed_relative_offset": 16028,
+      "packed_absolute_offset": 16210,
+      "raw_size": 7870,
+      "packed_size": 3166,
+      "decoded_size": 7870,
+      "decoded_sha256": "91835fed9a124c8a31a75644da7ebadc65b2270c31b26bfdd4006ead93391006",
+      "packed_sha256": "97e2e61ebb882a46bdfff0569edac8f0c03b4307a19de8ea14101ef229cd8438",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4023,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 00 00 00 0e 00 04 1a 04 04 1a 00 00 2a 00 00 02 00 10 2a 15 00 2a 26 24 1a 0f 00 24 22 1e 22 00 00 3a 3a 38 3f 15 15 00 00 00 1a 0f 0f 1d 11 03 14 00 00 12 08 08",
+      "tail_hex": "9e a1 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d af 9e a6 91 9d 9d 95 9e",
+      "ascii_candidates": [
+        {
+          "offset": 43,
+          "length": 4,
+          "text": "::8?"
+        },
+        {
+          "offset": 79,
+          "length": 4,
+          "text": "&$$&"
+        },
+        {
+          "offset": 108,
+          "length": 4,
+          "text": "@ggO"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "9d": 1324,
+        "9b": 806,
+        "a7": 705,
+        "99": 674,
+        "af": 557,
+        "ae": 434,
+        "95": 396,
+        "9e": 376,
+        "9a": 372,
+        "9c": 325,
+        "94": 312,
+        "97": 300,
+        "91": 282,
+        "93": 238,
+        "ac": 230,
+        "a9": 102
+      },
+      "warnings": []
+    },
+    {
+      "id": 133,
+      "toc_entry_offset": 47,
+      "packed_relative_offset": 19194,
+      "packed_absolute_offset": 19376,
+      "raw_size": 7870,
+      "packed_size": 3954,
+      "decoded_size": 7870,
+      "decoded_sha256": "d92f11d7649b3365676bab676e630e06af7bbf7e4b25734698ea8ff001ff8da9",
+      "packed_sha256": "425f4c544c800f36c60bd179e45a012d372c951188b5babe6c7b847c032d78b2",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.5024,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 00 00 00 0e 00 04 1a 04 04 1a 00 00 2a 00 00 02 00 10 2a 15 00 2a 26 24 1a 0f 00 24 22 1e 22 00 00 3a 3a 38 3f 15 15 00 00 00 1a 0f 0f 1d 11 03 14 00 00 12 08 08",
+      "tail_hex": "93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93 93",
+      "ascii_candidates": [
+        {
+          "offset": 43,
+          "length": 4,
+          "text": "::8?"
+        },
+        {
+          "offset": 79,
+          "length": 4,
+          "text": "&$$&"
+        },
+        {
+          "offset": 108,
+          "length": 4,
+          "text": "@ggO"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "93": 4856,
+        "aa": 965,
+        "a8": 300,
+        "a3": 281,
+        "ab": 275,
+        "9f": 269,
+        "a2": 265,
+        "9e": 176,
+        "98": 171,
+        "ad": 94,
+        "91": 88,
+        "00": 32,
+        "0f": 7,
+        "1a": 6,
+        "24": 6,
+        "15": 4
+      },
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "toc_entry_offset": 56,
+      "packed_relative_offset": 23148,
+      "packed_absolute_offset": 23330,
+      "raw_size": 7870,
+      "packed_size": 3907,
+      "decoded_size": 7870,
+      "decoded_sha256": "3583d060209b7aef1cf1089263b4ccca6141cef32d53a8b3b68c5a7e60c68b77",
+      "packed_sha256": "cde525d252905e9cb4d2290f25f0b00aff09c8d10bededea56d6f6766147e804",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4964,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 3f 00 3f 3f 00 3f 2d 28 24 29 24 20 34 2a 17 26 20 1d 24 1e 18 23 1d 19 20 1a 16 1c 17 13 19 14 10 16 11 0e 0e 0a 06 00 00 00 3f 3f 1e 3f 3f 3f 36 30 16 08 06 05",
+      "tail_hex": "9b a5 94 a0 94 a0 94 a0 a0 94 a0 94 94 a0 94 a0 a0 94 a0 94 94 a0 94 a0 a5 9b a1 9d 9b a1 9d 9b",
+      "ascii_candidates": [
+        {
+          "offset": 15,
+          "length": 9,
+          "text": "?-($)$ 4*"
+        },
+        {
+          "offset": 55,
+          "length": 5,
+          "text": "???60"
+        },
+        {
+          "offset": 85,
+          "length": 5,
+          "text": "?8$4&"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "9d": 1544,
+        "a2": 960,
+        "9f": 812,
+        "a7": 670,
+        "a8": 634,
+        "9b": 512,
+        "a6": 448,
+        "a1": 420,
+        "9e": 417,
+        "96": 332,
+        "a9": 239,
+        "94": 239,
+        "a0": 161,
+        "aa": 110,
+        "a5": 88,
+        "ab": 74
+      },
+      "warnings": []
+    },
+    {
+      "id": 135,
+      "toc_entry_offset": 65,
+      "packed_relative_offset": 27055,
+      "packed_absolute_offset": 27237,
+      "raw_size": 7870,
+      "packed_size": 4865,
+      "decoded_size": 7870,
+      "decoded_sha256": "01869a99db20fa52d04624de679b6ac9a14ad9ef372cdc6eb2a31c274deacbfb",
+      "packed_sha256": "ff5daff8ec4c4fd9bc54d79a735fc019c9f30d1728e082cb90ec9f8cbf171a0c",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.6182,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 3f 00 3f 3f 00 3f 2d 28 24 29 24 20 34 2a 17 26 20 1d 24 1e 18 23 1d 19 20 1a 16 1c 17 13 19 14 10 16 11 0e 0e 0a 06 00 00 00 3f 3f 1e 3f 3f 3f 36 30 16 08 06 05",
+      "tail_hex": "9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b 9b a2 a6 a1 9d a6",
+      "ascii_candidates": [
+        {
+          "offset": 15,
+          "length": 9,
+          "text": "?-($)$ 4*"
+        },
+        {
+          "offset": 55,
+          "length": 5,
+          "text": "???60"
+        },
+        {
+          "offset": 85,
+          "length": 5,
+          "text": "?8$4&"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "9b": 1070,
+        "a2": 996,
+        "9a": 831,
+        "99": 776,
+        "9d": 624,
+        "98": 558,
+        "a6": 546,
+        "97": 505,
+        "93": 438,
+        "95": 371,
+        "a1": 282,
+        "a8": 272,
+        "92": 217,
+        "ad": 134,
+        "ae": 124,
+        "00": 16
+      },
+      "warnings": []
+    },
+    {
+      "id": 9,
+      "toc_entry_offset": 74,
+      "packed_relative_offset": 31920,
+      "packed_absolute_offset": 32102,
+      "raw_size": 7870,
+      "packed_size": 8062,
+      "decoded_size": 7870,
+      "decoded_sha256": "e73e42db11f8a0da169d887807325870e2932a6ebf2500d69c8c6d0ef2f7035a",
+      "packed_sha256": "d85e59d35614acf88ef79cfeaa8989b8a7bb1710a7943c83dd156174a1b5cc60",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0244,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 00 00 00 08 08 08 14 1a 1c 32 1f 13 0e 09 09 0c 08 06 12 0c 14 10 0b 0e 16 11 11 12 0e 10 0e 0a 06 18 0e 08 32 1f 13 32 1f 13 32 1f 13 20 0b 0b 0e 0e 0e 08 05 05",
+      "tail_hex": "a7 aa a7 ac a7 a7 aa aa aa aa a7 ac a7 aa aa 9b 9b 9b aa a7 ac ac a7 aa aa a7 ac ac ac a7 aa aa",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "ac": 2480,
+        "a9": 785,
+        "aa": 745,
+        "a7": 652,
+        "94": 636,
+        "a1": 628,
+        "91": 450,
+        "ab": 259,
+        "a2": 244,
+        "ad": 226,
+        "9a": 194,
+        "9b": 186,
+        "ae": 158,
+        "95": 101,
+        "00": 17,
+        "08": 14
+      },
+      "warnings": []
+    },
+    {
+      "id": 11,
+      "toc_entry_offset": 83,
+      "packed_relative_offset": 39982,
+      "packed_absolute_offset": 40164,
+      "raw_size": 7870,
+      "packed_size": 2926,
+      "decoded_size": 7870,
+      "decoded_sha256": "4bf0589f06af90ee0278067da8d0b6c603748cfb533082775ef10dc85d26e0be",
+      "packed_sha256": "1a2503047f6b2ba44a352d0c46427921c49d669be3f31df8aa0528723f3a05b6",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3718,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 07 2a 06 14 16 12 1e 28 00 18 2e 18 00 00 00 26 14 26 20 18 0e 3f 3f 3f 16 0e 16 1e 10 1c 1f 22 1e 28 0c 18 3f 15 15 0e 0a 0e 2e 16 26 22 10 22 12 0e 14 18 20 00",
+      "tail_hex": "91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 91 a6 00 91 a6 00",
+      "ascii_candidates": [
+        {
+          "offset": 82,
+          "length": 4,
+          "text": "6660"
+        },
+        {
+          "offset": 103,
+          "length": 4,
+          "text": ":::("
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 1769,
+        "90": 1225,
+        "a4": 1032,
+        "91": 716,
+        "a6": 696,
+        "a5": 636,
+        "a7": 508,
+        "97": 270,
+        "a2": 250,
+        "9a": 230,
+        "af": 172,
+        "93": 154,
+        "a8": 106,
+        "18": 9,
+        "0e": 7,
+        "12": 6
+      },
+      "warnings": []
+    },
+    {
+      "id": 139,
+      "toc_entry_offset": 92,
+      "packed_relative_offset": 42908,
+      "packed_absolute_offset": 43090,
+      "raw_size": 7870,
+      "packed_size": 6845,
+      "decoded_size": 7870,
+      "decoded_sha256": "b555d8ce3b4c272da0df8299d6378f048c1fa6e3aa22dbb392f8716aa929afc5",
+      "packed_sha256": "2e606a76359a214922c25eca86fbfb24e4c641e7d3fb946d9fbd6acbff719dee",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.8698,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 07 2a 06 14 16 12 1e 28 00 18 2e 18 00 00 00 26 14 26 20 18 0e 3f 3f 3f 16 0e 16 1e 10 1c 1f 22 1e 28 0c 18 3f 15 15 0e 0a 0e 2e 16 26 22 10 22 12 0e 14 18 20 00",
+      "tail_hex": "92 96 92 98 92 92 a1 96 92 9d 98 92 96 92 96 92 98 92 96 98 92 96 9d 96 98 92 98 96 92 98 92 92",
+      "ascii_candidates": [
+        {
+          "offset": 82,
+          "length": 4,
+          "text": "6660"
+        },
+        {
+          "offset": 103,
+          "length": 4,
+          "text": ":::("
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "98": 1721,
+        "96": 1059,
+        "92": 995,
+        "95": 872,
+        "aa": 665,
+        "9d": 377,
+        "9c": 336,
+        "ac": 320,
+        "ae": 265,
+        "a9": 208,
+        "a1": 205,
+        "ad": 150,
+        "a0": 143,
+        "9e": 140,
+        "9f": 106,
+        "a3": 85
+      },
+      "warnings": []
+    },
+    {
+      "id": 13,
+      "toc_entry_offset": 101,
+      "packed_relative_offset": 49753,
+      "packed_absolute_offset": 49935,
+      "raw_size": 7870,
+      "packed_size": 6359,
+      "decoded_size": 7870,
+      "decoded_sha256": "766b1b63b9f109150ffe77caa6b3762d4a24661123a375a5d007e0b0ce61b99d",
+      "packed_sha256": "6b8112a4e2e01c022867c999f6da755c9215a754a1a1e80aa5aa88cd26dd9da1",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.808,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 00 00 00 00 00 2a 1e 28 00 2e 28 10 0e 14 0e 26 14 26 20 18 0e 2a 2a 2a 16 0e 16 1e 10 1c 24 32 15 28 0c 18 3f 15 15 0e 0a 0e 2e 16 26 22 10 22 12 0e 14 18 20 00",
+      "tail_hex": "96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96 96",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "92": 2685,
+        "96": 2074,
+        "98": 1653,
+        "9d": 889,
+        "9a": 398,
+        "94": 44,
+        "00": 20,
+        "0e": 8,
+        "1e": 7,
+        "2a": 6,
+        "20": 6,
+        "16": 6,
+        "15": 6,
+        "18": 5,
+        "28": 4,
+        "10": 4
+      },
+      "warnings": []
+    },
+    {
+      "id": 141,
+      "toc_entry_offset": 110,
+      "packed_relative_offset": 56112,
+      "packed_absolute_offset": 56294,
+      "raw_size": 7870,
+      "packed_size": 6827,
+      "decoded_size": 7870,
+      "decoded_sha256": "2c09465c3270a5fd7fc669746b9ecee1058cc25e0c1f6aa03b37292b8932ccda",
+      "packed_sha256": "b9d96375859d1b029b487f6f85d8b2f07e356db7c864b9c77c5a780fb24c73b4",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.8675,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 00 00 00 00 00 2a 1e 28 00 2e 28 10 0e 14 0e 26 14 26 20 18 0e 2a 2a 2a 16 0e 16 1e 10 1c 24 32 15 28 0c 18 3f 15 15 0e 0a 0e 2e 16 26 22 10 22 12 0e 14 18 20 00",
+      "tail_hex": "92 96 92 98 92 a6 a1 96 92 9d 98 92 96 92 96 92 98 92 96 98 92 96 9d 96 98 92 98 96 92 98 92 92",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "98": 1721,
+        "96": 1059,
+        "95": 872,
+        "92": 673,
+        "aa": 665,
+        "9d": 377,
+        "9c": 336,
+        "ac": 320,
+        "ae": 265,
+        "a2": 252,
+        "a9": 208,
+        "a1": 205,
+        "ad": 150,
+        "a0": 143,
+        "9e": 140,
+        "9f": 106
+      },
+      "warnings": []
+    },
+    {
+      "id": 15,
+      "toc_entry_offset": 119,
+      "packed_relative_offset": 62939,
+      "packed_absolute_offset": 63121,
+      "raw_size": 7870,
+      "packed_size": 7093,
+      "decoded_size": 7870,
+      "decoded_sha256": "e99d851b95bffea582cda31050830bf34af65ccea3d0e014b89d2876cc96996d",
+      "packed_sha256": "25afa99f3856a2373b75cccd0e292e74c46736601c876e0cfe776a071e29e2d4",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.9013,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 00 00 00 10 18 1e 1c 1e 22 20 22 38 14 16 18 1c 22 34 16 16 16 2e 2a 26 0d 0d 10 10 10 10 08 08 08 30 34 34 00 22 30 12 18 22 2a 23 1e 36 38 3f 06 06 06 0e 0e 0e",
+      "tail_hex": "aa 98 98 98 aa 98 98 9a 90 a0 9a 90 98 98 aa 98 aa 98 98 98 aa aa 98 aa 98 a0 98 9a 90 90 9a 98",
+      "ascii_candidates": [
+        {
+          "offset": 18,
+          "length": 4,
+          "text": "\" \"8"
+        },
+        {
+          "offset": 78,
+          "length": 6,
+          "text": "\"0.,& "
+        },
+        {
+          "offset": 97,
+          "length": 5,
+          "text": ":<<*#"
+        },
+        {
+          "offset": 115,
+          "length": 4,
+          "text": "h{ww"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "98": 1521,
+        "90": 1337,
+        "99": 1061,
+        "92": 948,
+        "a9": 766,
+        "aa": 477,
+        "a0": 460,
+        "9a": 370,
+        "a4": 201,
+        "9f": 182,
+        "a5": 142,
+        "ab": 102,
+        "a6": 74,
+        "96": 64,
+        "a8": 40,
+        "00": 14
+      },
+      "warnings": []
+    },
+    {
+      "id": 143,
+      "toc_entry_offset": 128,
+      "packed_relative_offset": 70032,
+      "packed_absolute_offset": 70214,
+      "raw_size": 7870,
+      "packed_size": 6928,
+      "decoded_size": 7870,
+      "decoded_sha256": "7d4b6eb6c4a0c63adad8721617030d9dcb2a76a585951541068a9c16b271a991",
+      "packed_sha256": "f2fe1dcbc71a714b26d91ac50dd91e08a5bcb9376d9c6eacb5be5585568421e2",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.8803,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 00 00 00 10 18 1e 1c 1e 22 20 22 38 14 16 18 1c 22 34 16 16 16 2e 2a 26 0d 0d 10 10 10 10 08 08 08 30 34 34 00 22 30 12 18 22 2a 23 1e 36 38 3f 06 06 06 0e 0e 0e",
+      "tail_hex": "9d a3 a3 9d a1 a1 a3 9d a3 a3 9d 9d a3 9d a3 9d a3 a1 a3 a3 a2 a3 a0 a3 a3 a1 a0 9d a0 a3 9d a3",
+      "ascii_candidates": [
+        {
+          "offset": 18,
+          "length": 4,
+          "text": "\" \"8"
+        },
+        {
+          "offset": 78,
+          "length": 6,
+          "text": "\"0.,& "
+        },
+        {
+          "offset": 97,
+          "length": 5,
+          "text": ":<<*#"
+        },
+        {
+          "offset": 115,
+          "length": 4,
+          "text": "h{ww"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "ac": 954,
+        "9b": 795,
+        "97": 682,
+        "a3": 569,
+        "9f": 544,
+        "a1": 511,
+        "9d": 374,
+        "9e": 352,
+        "94": 319,
+        "a0": 301,
+        "a2": 295,
+        "ad": 286,
+        "9c": 285,
+        "a7": 265,
+        "93": 231,
+        "af": 197
+      },
+      "warnings": []
+    },
+    {
+      "id": 17,
+      "toc_entry_offset": 137,
+      "packed_relative_offset": 76960,
+      "packed_absolute_offset": 77142,
+      "raw_size": 7870,
+      "packed_size": 8059,
+      "decoded_size": 7870,
+      "decoded_sha256": "4821f77b5824e00032b432ba49a3f218a8f3f221ee956740b690620e1adc1507",
+      "packed_sha256": "1e09c280f356ce8d1eb8787e064d5c31d6b1cf9f2839c1e5625aa68dfc7a8758",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.024,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 00 00 00 32 1f 13 32 1f 13 32 1f 13 26 13 06 32 1f 13 2f 17 07 32 1f 13 1e 11 0d 32 1f 13 32 1f 13 38 1e 0c 38 20 0c 0e 07 00 32 1f 13 32 1f 13 32 1f 13 32 1f 13",
+      "tail_hex": "98 9d 98 96 9c 9c 96 98 9d 98 96 9c 9c 96 a8 9d 98 9d 98 96 9c 9c 96 98 9d 9d 98 96 9c 9c 96 a8",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "98": 1975,
+        "96": 1808,
+        "ac": 786,
+        "9c": 659,
+        "ab": 587,
+        "ae": 576,
+        "9b": 526,
+        "9d": 280,
+        "ad": 263,
+        "a8": 121,
+        "94": 90,
+        "a5": 44,
+        "a6": 29,
+        "00": 21,
+        "1f": 19,
+        "13": 19
+      },
+      "warnings": []
+    },
+    {
+      "id": 19,
+      "toc_entry_offset": 146,
+      "packed_relative_offset": 85019,
+      "packed_absolute_offset": 85201,
+      "raw_size": 7870,
+      "packed_size": 4476,
+      "decoded_size": 7870,
+      "decoded_sha256": "749693557eb40c3a69187848f0006020c9f52b65b4af83683601cbfe21ca2604",
+      "packed_sha256": "f518f42d067f30b8c106a7b4739bf602defd8823f3472f9085865bfeb8e88f09",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.5687,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 06 08 0e 01 0b 1b 07 09 10 10 1e 16 0e 1a 13 0d 18 11 0c 16 10 08 0b 12 09 10 0c 0a 11 21 15 37 25 25 2c 3b 09 0c 14 0a 0d 16 0b 0f 18 3f 3f 3f 0c 10 1a 0d 12 1c",
+      "tail_hex": "95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 95 a8 98 98 98 98 98 ad 9d 9d 9d 99 91 9d 91",
+      "ascii_candidates": [
+        {
+          "offset": 41,
+          "length": 6,
+          "text": "7%%,;\t"
+        },
+        {
+          "offset": 70,
+          "length": 6,
+          "text": "\"(8 %4"
+        },
+        {
+          "offset": 88,
+          "length": 6,
+          "text": "\"(8,6="
+        },
+        {
+          "offset": 100,
+          "length": 6,
+          "text": "&0;,2?"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "9d": 1608,
+        "9f": 838,
+        "99": 570,
+        "93": 540,
+        "91": 498,
+        "a3": 484,
+        "98": 452,
+        "9a": 388,
+        "95": 376,
+        "ab": 360,
+        "94": 297,
+        "a4": 204,
+        "ad": 204,
+        "a1": 182,
+        "9b": 164,
+        "a2": 164
+      },
+      "warnings": []
+    },
+    {
+      "id": 147,
+      "toc_entry_offset": 155,
+      "packed_relative_offset": 89495,
+      "packed_absolute_offset": 89677,
+      "raw_size": 7870,
+      "packed_size": 7459,
+      "decoded_size": 7870,
+      "decoded_sha256": "31c4ddbaecb85a2235de558fe99407ae6ae8f19c208199f23e3840f47cb885e6",
+      "packed_sha256": "1d64c0f10927a146cf88ba827e76fc0f044c8d200e666369926f99d275539ea6",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.9478,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 06 08 0e 01 0b 1b 07 09 10 10 1e 16 0e 1a 13 0d 18 11 0c 16 10 08 0b 12 09 10 0c 0a 11 21 15 37 25 25 2c 3b 09 0c 14 0a 0d 16 0b 0f 18 3f 3f 3f 0c 10 1a 0d 12 1c",
+      "tail_hex": "a1 a1 a1 a1 a1 a1 a1 a0 a1 a1 a1 a1 a1 a1 a1 a0 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1 a1",
+      "ascii_candidates": [
+        {
+          "offset": 41,
+          "length": 6,
+          "text": "7%%,;\t"
+        },
+        {
+          "offset": 70,
+          "length": 6,
+          "text": "\"(8 %4"
+        },
+        {
+          "offset": 88,
+          "length": 6,
+          "text": "\"(8,6="
+        },
+        {
+          "offset": 100,
+          "length": 6,
+          "text": "&0;,2?"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "a6": 1043,
+        "a5": 844,
+        "aa": 558,
+        "90": 518,
+        "9b": 505,
+        "a1": 492,
+        "a0": 490,
+        "97": 475,
+        "9e": 446,
+        "af": 439,
+        "9c": 436,
+        "9d": 431,
+        "92": 409,
+        "ae": 371,
+        "ab": 217,
+        "93": 36
+      },
+      "warnings": []
+    },
+    {
+      "id": 22,
+      "toc_entry_offset": 164,
+      "packed_relative_offset": 96954,
+      "packed_absolute_offset": 97136,
+      "raw_size": 7870,
+      "packed_size": 2679,
+      "decoded_size": 7870,
+      "decoded_sha256": "7ae525472e3a28da3753ad5cb19df27166df53824afe23c25f72c4a5bebd5329",
+      "packed_sha256": "887edaae26c8b680edfb6cc96608c575e526dfd22e95487715cb302923aa50dc",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3404,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 00 00 00 00 00 2a 00 2a 00 14 00 00 2a 00 00 16 00 00 2a 15 00 18 00 00 18 00 00 0c 09 0c 0e 09 0c 08 08 08 38 16 00 00 00 00 3f 3f 15 3f 3f 3f 26 00 00 24 00 00",
+      "tail_hex": "af af 93 9d 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a 9a",
+      "ascii_candidates": [
+        {
+          "offset": 55,
+          "length": 4,
+          "text": "???&"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "9d": 1058,
+        "9a": 739,
+        "94": 692,
+        "98": 648,
+        "af": 514,
+        "ac": 494,
+        "9c": 464,
+        "a0": 368,
+        "a6": 342,
+        "a1": 318,
+        "a2": 314,
+        "97": 226,
+        "93": 218,
+        "ae": 212,
+        "a9": 180,
+        "99": 148
+      },
+      "warnings": []
+    },
+    {
+      "id": 150,
+      "toc_entry_offset": 173,
+      "packed_relative_offset": 99633,
+      "packed_absolute_offset": 99815,
+      "raw_size": 7870,
+      "packed_size": 5145,
+      "decoded_size": 7870,
+      "decoded_sha256": "5e2430affc6b0bb2037548540ee30f6a0a743e01eb20483dbd6fa47a1680f679",
+      "packed_sha256": "b57c63034213662a6c270e2dac4e8a299bdba546b5dd7076a4f7ed11be2465cb",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.6537,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        7870
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 0b 00 00 00 00 01 00 90 1f 00 00 00 00 00 2a 00 2a 00 14 00 00 2a 00 00 16 00 00 2a 15 00 18 00 00 18 00 00 0c 09 0c 0e 09 0c 08 08 08 38 16 00 00 00 00 3f 3f 15 3f 3f 3f 26 00 00 24 00 00",
+      "tail_hex": "a8 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d 9d ab a8 aa 9d 9d 9d ab a8 aa",
+      "ascii_candidates": [
+        {
+          "offset": 55,
+          "length": 4,
+          "text": "???&"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "9d": 2175,
+        "98": 1533,
+        "9c": 901,
+        "a0": 564,
+        "a1": 404,
+        "a7": 385,
+        "94": 340,
+        "a3": 290,
+        "a8": 206,
+        "a2": 206,
+        "a9": 192,
+        "ab": 158,
+        "aa": 127,
+        "ae": 121,
+        "a5": 64,
+        "00": 60
+      },
+      "warnings": []
+    }
+  ]
+}

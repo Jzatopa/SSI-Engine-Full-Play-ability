@@ -1,0 +1,41 @@
+/*
+ * Matrix Cubed source recovery corpus
+ * Program: START.unpacked.exe
+ * Ghidra entry: 1cc0:09ad
+ * Ghidra name: FUN_1cc0_09ad
+ * Linear address: 0x1D5AD
+ * Body addresses: 73
+ * Calling convention: __stdcall16far
+ * Evidence limit: Imported as unpacked MZ executable. Pseudocode is call-graph/control-flow evidence, not original source text.
+ */
+
+void __stdcall16far
+FUN_1cc0_09ad(int param_1,undefined2 param_2,undefined2 param_3,undefined4 param_4)
+
+{
+  int iVar1;
+  int in_CX;
+  undefined2 in_BX;
+  undefined1 uVar2;
+  
+  uVar2 = &stack0x0000 == (undefined1 *)0x22;
+  FUN_1cc0_167e();
+  FUN_1cc0_07b6();
+  if ((bool)uVar2) {
+    iVar1 = param_1 - in_CX;
+    if (iVar1 != 0 && in_CX <= param_1) {
+      do {
+        FUN_1cc0_07da();
+        iVar1 = iVar1 + -1;
+      } while (iVar1 != 0);
+    }
+    do {
+      FUN_1cc0_07da();
+      in_CX = in_CX + -1;
+    } while (in_CX != 0);
+  }
+  *(undefined2 *)((int)param_4 + 8) = in_BX;
+  return;
+}
+
+

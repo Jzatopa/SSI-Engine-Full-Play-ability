@@ -1,0 +1,337 @@
+{
+  "game_ovr": {
+    "path": "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/GAME.OVR",
+    "bytes": 212529,
+    "sha256": "d40f0309a114dbf2d9155c68404b0fb57cadb00e4841b3bfc335075a72296f67"
+  },
+  "geo_ecl_dax_inventory": [
+    {
+      "name": "ECL1.DAX",
+      "bytes": 254032,
+      "sha256": "5330bb436b3cac474506265db90cb3e0a888d7a9e5b0b65051d302035b60d854"
+    },
+    {
+      "name": "GEO1.DAX",
+      "bytes": 21280,
+      "sha256": "398bab0120f5d16102aa121178d8f10d932a8db2bc23d96cb615dc6bb1171598"
+    }
+  ],
+  "known_geo_source": {
+    "path": "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/GEO1.DAX",
+    "block_count": 25,
+    "block_size_counts": {
+      "1026": 25
+    },
+    "block_ids": [
+      1,
+      17,
+      18,
+      21,
+      33,
+      34,
+      35,
+      38,
+      49,
+      50,
+      51,
+      52,
+      64,
+      65,
+      66,
+      80,
+      81,
+      82,
+      84,
+      96,
+      97,
+      112,
+      113,
+      114,
+      115
+    ]
+  },
+  "exact_known_geo_blocks": [
+    {
+      "geo_id": 1,
+      "decoded_sha256": "f6834b9ebf40531e37106d6cc91d9bcce5a1374ecc9b5c7c3e5b8211b9cb69f3",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 17,
+      "decoded_sha256": "bc4155fec9ad332ed44c91042c935fe0f8d39f352515750f81a1bbbe57cc5c40",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 18,
+      "decoded_sha256": "7840523b2a3795abfc242a9756eb713cbf58594697f625bb1d413b9f3e289320",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 21,
+      "decoded_sha256": "abe180d47034b60b22f976c72f33000a7859e63fd508ddbaaae3a9d28b298684",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 33,
+      "decoded_sha256": "9c15794f8d8e020c6b1ce59d1c2f7a9b69e9194363155b14dfd74450470db852",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 34,
+      "decoded_sha256": "16bba6405bfd7112e22377d3b305ac3cbe8f65325d441963d362d8e57a86b447",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 35,
+      "decoded_sha256": "af06cb6dbdbe8cb4ee9720058558a8f337c7878d0d7097b3a7aab2a5e71343f4",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 38,
+      "decoded_sha256": "5f1d7bb043dbaf4d84f83008b85ac6f83a5d86ea87606f3a589eaf516a1e4874",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 49,
+      "decoded_sha256": "04994e0e636f5969044e1224342969dbefbfabbbcb98348ddecc40620cc552b3",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 50,
+      "decoded_sha256": "d54e68d751eca02902f805f9d88f69795b4f09fdecaefc48e3a73bfcad57239e",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 51,
+      "decoded_sha256": "e39f38aa98e3a97f40bc3d3ce3e4a47bd0b4175b31bd36f020c81c04ecb9ab9f",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 52,
+      "decoded_sha256": "69c23ffb52e44fdf323535ba4ee23ad36dd3bbf74accd1d2d8a7839d202a58ad",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 64,
+      "decoded_sha256": "f6834b9ebf40531e37106d6cc91d9bcce5a1374ecc9b5c7c3e5b8211b9cb69f3",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 65,
+      "decoded_sha256": "beb3a21ff92f03e3fe5c46da23f985daf8fe8b0ecf97f7753be1a903385b122a",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 66,
+      "decoded_sha256": "732eeec02f8bab97272a562407d38c8444fd59ae70e3873df919fd1221e1c345",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 80,
+      "decoded_sha256": "bd73588a390c9c66aa1b0ac6baf20dff499ac2aee5f9718b6047d90e8e5ce52d",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 81,
+      "decoded_sha256": "06558fa826b7ee8861e3ede09f43c898e4f65f5faab6752685eca2a6d7e70a4e",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 82,
+      "decoded_sha256": "debb1a321da5ee8b3c63b5b2c606de8d164f2c957e49ffa9e78d619f732f736f",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 84,
+      "decoded_sha256": "5e6d064653015f70d14eed2766db70595141b625056b93d03fe282528e53342c",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 96,
+      "decoded_sha256": "2ed487e2e1313c19a13cb3663a3a41eccc4ca37872dc78d5069b2c0bdec5d919",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 97,
+      "decoded_sha256": "723cdce4f64ac08dbf85e8ef969e4b014e0c5cc8837c099282ca3f060008734d",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 112,
+      "decoded_sha256": "3488d971a9b9e3d5efefbadd02aa7717274492a9ecb696464ae870719f6e53c9",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 113,
+      "decoded_sha256": "79de9489961ba69e9f2cba97159cb416f999175e11e63c1c958b486350237e1e",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 114,
+      "decoded_sha256": "1ed5be3d8ec6657e0a783d603691627bccce0e6068c397cd0ad53a974cc6e992",
+      "found_in_game_ovr": false,
+      "offset": null
+    },
+    {
+      "geo_id": 115,
+      "decoded_sha256": "58bfdf02db1e844813d439d57eed1c112f74060be017102e3b24fb3586ec4a9e",
+      "found_in_game_ovr": false,
+      "offset": null
+    }
+  ],
+  "raw_geo_window_scan": {
+    "known_headers": [
+      "01 11",
+      "cc dd"
+    ],
+    "known_door_values": [
+      0,
+      1,
+      4,
+      5,
+      16,
+      17,
+      20,
+      21,
+      64,
+      65,
+      68,
+      69,
+      80,
+      81,
+      84,
+      85
+    ],
+    "header_hit_count": 2,
+    "accepted_candidate_count": 0,
+    "accepted_candidates": [],
+    "top_header_hits": [
+      {
+        "offset": 55962,
+        "header_hex": "01 11",
+        "sha256": "b78824c2b76479d90a1ea725066eca2bc4be490d03b45d79b29f0e7351fa983b",
+        "north_south_match_ratio": 0.0375,
+        "east_west_match_ratio": 0.05,
+        "known_door_ratio": 0.3359,
+        "event_id_under_64_ratio": 0.6094,
+        "event_high_bit_ratio": 0.3516,
+        "nonzero_wall_nibbles": 805,
+        "unique_wall_nibbles": 16,
+        "nonzero_event_cells": 228,
+        "max_event_id": 127,
+        "nonzero_door_cells": 229,
+        "accepted": false,
+        "rejection_reasons": [
+          "door bytes do not match the established GEO1 door-value set",
+          "too many event ids exceed the established GEO1 event range",
+          "north/south wall continuity is below the GEO1 minimum",
+          "east/west wall continuity is below the GEO1 minimum",
+          "wall-density is outside the GEO1 observed range"
+        ]
+      },
+      {
+        "offset": 181175,
+        "header_hex": "01 11",
+        "sha256": "1edcbc6a35e30c7b5d3558f4ea4c920591d6e078389027c21f69c5b42b0ae5b6",
+        "north_south_match_ratio": 0.0958,
+        "east_west_match_ratio": 0.1,
+        "known_door_ratio": 0.1484,
+        "event_id_under_64_ratio": 0.5508,
+        "event_high_bit_ratio": 0.4727,
+        "nonzero_wall_nibbles": 850,
+        "unique_wall_nibbles": 16,
+        "nonzero_event_cells": 220,
+        "max_event_id": 127,
+        "nonzero_door_cells": 247,
+        "accepted": false,
+        "rejection_reasons": [
+          "door bytes do not match the established GEO1 door-value set",
+          "too many event ids exceed the established GEO1 event range",
+          "north/south wall continuity is below the GEO1 minimum",
+          "east/west wall continuity is below the GEO1 minimum",
+          "wall-density is outside the GEO1 observed range"
+        ]
+      }
+    ]
+  },
+  "ascii_anchors": [
+    {
+      "needle": ".dax",
+      "offset": 119689,
+      "nearby_ascii": "~. u.1..F....F..F..y..>.D..&......~..u...]..ECL..daxU.......F.........P0.1.RP1.P.~..W...P..........W....W......~..W.O........W....W......F.P.~.."
+    },
+    {
+      "needle": ".dax",
+      "offset": 126468,
+      "nearby_ascii": "8D.t...P..P.&P..P......6.W.6.W.*.....]....ITEM0..dax.Unable to find item fileU....2..X.W...P..P......~..W....W......~..W....W.......P.~..W.~..W."
+    },
+    {
+      "needle": ".dax",
+      "offset": 133309,
+      "nearby_ascii": "...~..W....W......F.P.~.&....P./.....]....0.CHA..dax.Unable to load Monster.SPC.ITMU.......~..W.....W...P.........W.....W...P..........W.....W.."
+    },
+    {
+      "needle": ".dax",
+      "offset": 137931,
+      "nearby_ascii": "....3.&....&......3...5..n....R........]..ships..dax.Maelstrom Rider. U............~..W..).W......~..W..).W......F...(.P.~..W.~..W......~..W.~.."
+    },
+    {
+      "needle": ".dax",
+      "offset": 192081,
+      "nearby_ascii": "v..F.0..........s...s......0.X...]....PIC.7.8.9..dax.PIC not foundU....8..~..W.~..W...P......~..u..:..~..W.6t.W.....u@.F.:.Htu7.>~s.t....P.P.P.."
+    },
+    {
+      "needle": "WALLDEF",
+      "offset": 198845,
+      "nearby_ascii": "P.dsP....W......~..W.F.P..P.dsP....W.......]....WALLDEF..dax.Unable to load . from WALLDEF..U.......~..v......P0.1.RP1.P.~..W...P..........W...."
+    },
+    {
+      "needle": ".dax",
+      "offset": 198853,
+      "nearby_ascii": ".W......~..W.F.P..P.dsP....W.......]....WALLDEF..dax.Unable to load . from WALLDEF..U.......~..v......P0.1.RP1.P.~..W...P..........W....W......~"
+    },
+    {
+      "needle": "WALLDEF",
+      "offset": 198880,
+      "nearby_ascii": "W.......]....WALLDEF..dax.Unable to load . from WALLDEF..U.......~..v......P0.1.RP1.P.~..W...P..........W....W......~..W.O........W....W......F."
+    },
+    {
+      "needle": "GEO",
+      "offset": 199334,
+      "nearby_ascii": "0....F.0.........ns.F.0....F.0.........ps..]....GEO..dax Unable to load geo in Load3DMap.U........P0.1.RP1.P.~..W...P..........W....W......~..W."
+    },
+    {
+      "needle": ".dax",
+      "offset": 199338,
+      "nearby_ascii": ".F.0.........ns.F.0....F.0.........ps..]....GEO..dax Unable to load geo in Load3DMap.U........P0.1.RP1.P.~..W...P..........W....W......~..W.O..."
+    },
+    {
+      "needle": "Load3DMap",
+      "offset": 199365,
+      "nearby_ascii": "........ps..]....GEO..dax Unable to load geo in Load3DMap.U........P0.1.RP1.P.~..W...P..........W....W......~..W.O........W....W......F.P.~..W.~"
+    }
+  ]
+}

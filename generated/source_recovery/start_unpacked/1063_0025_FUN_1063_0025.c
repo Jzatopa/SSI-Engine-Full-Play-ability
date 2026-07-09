@@ -1,0 +1,338 @@
+/*
+ * Matrix Cubed source recovery corpus
+ * Program: START.unpacked.exe
+ * Ghidra entry: 1063:0025
+ * Ghidra name: FUN_1063_0025
+ * Linear address: 0x10655
+ * Body addresses: 59
+ * Calling convention: unknown
+ * Evidence limit: Imported as unpacked MZ executable. Pseudocode is call-graph/control-flow evidence, not original source text.
+ */
+
+/* WARNING: Control flow encountered bad instruction data */
+/* WARNING: Instruction at (ram,0x000106f7) overlaps instruction at (ram,0x000106f5)
+    */
+/* WARNING: Unable to track spacebase fully for stack */
+/* WARNING: This function may have set the stack pointer */
+
+void FUN_1063_0025(void)
+
+{
+  byte *pbVar1;
+  uint *puVar2;
+  undefined1 *puVar3;
+  undefined1 uVar4;
+  code *pcVar5;
+  code *pcVar6;
+  char cVar7;
+  byte bVar8;
+  byte bVar9;
+  int iVar10;
+  undefined2 uVar11;
+  undefined2 *puVar12;
+  uint uVar13;
+  uint uVar14;
+  uint *puVar15;
+  undefined1 *puVar16;
+  char cVar17;
+  char extraout_DH;
+  uint extraout_DX;
+  int in_BX;
+  char *pcVar18;
+  uint *puVar19;
+  undefined1 *puVar20;
+  undefined1 *puVar21;
+  undefined1 *puVar22;
+  undefined1 *puVar23;
+  undefined1 *puVar24;
+  undefined1 *puVar25;
+  int unaff_BP;
+  byte *unaff_SI;
+  undefined1 *unaff_DI;
+  undefined2 unaff_ES;
+  undefined2 uVar26;
+  undefined2 unaff_SS;
+  undefined2 unaff_DS;
+  char cVar27;
+  byte bVar28;
+  byte bVar29;
+  byte in_AF;
+  byte bVar30;
+  byte bVar31;
+  byte in_TF;
+  byte in_IF;
+  byte bVar32;
+  byte in_NT;
+  undefined4 uVar33;
+  
+  pcVar6 = (code *)swi(0x3f);
+  iVar10 = (*pcVar6)();
+  puVar3 = unaff_DI + 1;
+  *unaff_DI = (char)iVar10;
+  *(int *)(unaff_SI + in_BX) = *(int *)(unaff_SI + in_BX) + iVar10;
+  pcVar6 = (code *)swi(0x3f);
+  (*pcVar6)();
+  pcVar6 = (code *)swi(0x3f);
+  uVar11 = (*pcVar6)();
+  pcVar18 = (char *)CONCAT11((char)((uint)in_BX >> 8),unaff_SI[in_BX]);
+  bVar9 = (byte)uVar11;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar9;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar9;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar9;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar9;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar9;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar9;
+  in_AF = 9 < (bVar9 & 0xf) | in_AF;
+  bVar8 = bVar9 + in_AF * -6 & 0xf;
+  pbVar1 = (byte *)(pcVar18 + (int)unaff_SI);
+  bVar9 = *pbVar1;
+  *pbVar1 = *pbVar1 + bVar8;
+  puVar20 = (undefined1 *)0xffff;
+  *(int *)0xffff = unaff_BP;
+  cVar7 = bVar8 + *(char *)0x401 + CARRY1(bVar9,bVar8);
+  puVar3[unaff_BP] = puVar3[unaff_BP] + ((char)((uint)uVar11 >> 8) - in_AF);
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + cVar7;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + cVar7;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + cVar7;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + cVar7;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + cVar7;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + cVar7;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + cVar7;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + cVar7;
+  pcVar6 = (code *)swi(0x3f);
+  uVar11 = (*pcVar6)();
+  puVar21 = puVar20 + -2;
+  *(undefined2 *)(puVar20 + -2) = uVar11;
+  pcVar6 = (code *)swi(0x3f);
+  uVar11 = (*pcVar6)();
+  in_AF = 9 < ((byte)uVar11 & 0xf) | in_AF;
+  bVar9 = (byte)uVar11 + in_AF * -6;
+  bVar8 = bVar9 & 0xf;
+  cVar7 = (char)((uint)uVar11 >> 8) - in_AF;
+  *(uint *)(puVar3 + unaff_BP) = *(int *)(puVar3 + unaff_BP) + (CONCAT11(cVar7,bVar9) & 0xff0f);
+  in_AF = 9 < bVar8 | in_AF;
+  bVar28 = bVar8 + in_AF * -6 & 0xf;
+  bVar9 = *unaff_SI;
+  bVar8 = bVar28 | bVar9;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar8;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar8;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar8;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar8;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar8;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar8;
+  bVar9 = 9 < (bVar28 | bVar9 & 0xf) | in_AF;
+  bVar8 = bVar8 + bVar9 * -6;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + (bVar8 & 0xf);
+  iVar10 = (CONCAT11((cVar7 - in_AF) - bVar9,bVar8) & 0xff0f) + 0x1220;
+  *(char **)(pcVar18 + (int)unaff_SI) = pcVar18 + *(int *)(pcVar18 + (int)unaff_SI);
+  *pcVar18 = *pcVar18 + (char)((uint)iVar10 >> 8);
+  bVar8 = (byte)iVar10;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar8;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar8;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar8;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar8;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar8;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar8;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar8;
+  pbVar1 = (byte *)(pcVar18 + (int)unaff_SI);
+  cVar27 = CARRY1(*pbVar1,bVar8);
+  *pbVar1 = *pbVar1 + bVar8;
+  pcVar6 = (code *)swi(0x3f);
+  puVar16 = puVar3;
+  uVar11 = (*pcVar6)();
+  cVar7 = (char)((uint)uVar11 >> 8);
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + cVar7 + cVar27;
+  cVar27 = (char)puVar16;
+  cVar17 = (char)((uint)puVar16 >> 8) + cVar27;
+  bVar9 = 9 < ((byte)uVar11 & 0xf) | bVar9;
+  puVar12 = (undefined2 *)(CONCAT11(cVar7 - bVar9,(byte)uVar11 + bVar9 * -6) & 0xff0f);
+  *(undefined1 **)(pcVar18 + (int)unaff_SI) = puVar3 + *(int *)(pcVar18 + (int)unaff_SI);
+  pcVar6 = (code *)swi(0x3f);
+  uVar11 = (*pcVar6)();
+  bVar8 = (byte)uVar11;
+  pcVar18[(int)unaff_SI] = pcVar18[(int)unaff_SI] + bVar8;
+  cVar17 = cVar17 + cVar27 * '\x03';
+  bVar9 = 9 < (bVar8 & 0xf) | bVar9;
+  bVar8 = (bVar8 + bVar9 * -6 & 0xf) + ((char)((uint)uVar11 >> 8) - bVar9) * '\x02';
+  bVar9 = 9 < (bVar8 & 0xf) | bVar9;
+  uVar13 = CONCAT11(-bVar9,bVar8 + bVar9 * -6) & 0xff04;
+  bVar8 = (byte)uVar13;
+  bVar9 = 9 < bVar8 | bVar9;
+  bVar8 = bVar8 + bVar9 * -6;
+  bVar28 = bVar8 & 0xf;
+  out(4,CONCAT11((char)(uVar13 >> 8) - bVar9,bVar8) & 0xff0f);
+  cVar7 = cVar17 + cVar27;
+  bVar9 = 9 < bVar28 | bVar9;
+  bVar8 = bVar28 + bVar9 * -6 & 0xf;
+  if (SCARRY1(cVar17,cVar27) != cVar7 < '\0') {
+    cVar7 = cVar7 + cVar27;
+  }
+  cVar7 = cVar7 + cVar27 * '\x03';
+  bVar9 = 9 < bVar8 | bVar9;
+  bVar8 = bVar8 + bVar9 * -6 & 0xf;
+  *(char *)0xcd00 = *(char *)0xcd00 + bVar8 + bVar9;
+  bVar9 = 9 < bVar8 | bVar9;
+  *(undefined2 *)(puVar21 + -2) = unaff_SS;
+  uVar26 = *(undefined2 *)(puVar21 + -2);
+  bVar8 = 9 < (bVar8 + bVar9 * -6 & 0xf) | bVar9 | 1;
+  *puVar12 = *puVar12;
+  pcVar6 = (code *)swi(0x3f);
+  uVar11 = (*pcVar6)();
+  *(undefined2 *)0xf = uVar11;
+  pcVar6 = (code *)swi(0x3f);
+  (*pcVar6)();
+  puVar22 = puVar21 + -2;
+  *(undefined2 *)(puVar21 + -2) = 0x1a;
+  pcVar6 = (code *)swi(0x3f);
+  bVar9 = (*pcVar6)();
+  *(int *)(unaff_SI + unaff_BP) = -*(int *)(unaff_SI + unaff_BP);
+  cVar7 = cVar7 + cVar27 * '\x02';
+  bVar8 = 9 < (bVar9 & 0xf) | bVar8;
+  bVar8 = 9 < ((bVar9 + bVar8 * -6 & 0xf) - 0x1b & 0xf) | bVar8;
+  uVar11 = ((undefined2 *)(unaff_BP + (int)puVar12))[1];
+  pcVar5 = (code *)*(undefined2 *)(unaff_BP + (int)puVar12);
+  *(undefined2 *)(puVar22 + -2) = 0x1063;
+  puVar23 = puVar22 + -4;
+  *(undefined2 *)(puVar22 + -4) = 0x738;
+  bVar9 = (*pcVar5)();
+  cVar7 = cVar7 + cVar27 * '\x02';
+  bVar8 = 9 < (bVar9 & 0xf) | bVar8;
+  bVar9 = (bVar9 + bVar8 * -6 & 0xf) - bVar8;
+  bVar8 = 9 < (bVar9 & 0xf) | bVar8;
+  puVar19 = *(uint **)pcVar18;
+  bVar8 = 9 < (bVar9 + bVar8 * -6 & 0xf) | bVar8;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + 0x1e;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + 0x1e;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + 0x1e;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + 0x1e;
+  pcVar6 = (code *)swi(0x3f);
+  uVar14 = (*pcVar6)();
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + (char)uVar14;
+  LOCK();
+  puVar2 = (uint *)((int)puVar19 + (int)unaff_SI);
+  uVar13 = *puVar2;
+  *puVar2 = *puVar2 + uVar14;
+  UNLOCK();
+  bVar9 = ((char)uVar14 + -1) - CARRY2(uVar13,uVar14);
+  *(char *)(unaff_BP + (int)puVar12) = *(char *)(unaff_BP + (int)puVar12) + bVar9;
+  *(char *)(unaff_BP + (int)puVar12) = *(char *)(unaff_BP + (int)puVar12) + cVar7;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  pbVar1 = (byte *)((int)puVar19 + (int)unaff_SI);
+  cVar17 = CARRY1(*pbVar1,bVar9);
+  *pbVar1 = *pbVar1 + bVar9;
+  pcVar6 = (code *)swi(0x3f);
+  bVar9 = (*pcVar6)();
+  *(char *)((int)puVar19 + (int)puVar12) = (*(char *)((int)puVar19 + (int)puVar12) - bVar9) - cVar17
+  ;
+  bVar8 = 9 < (bVar9 & 0xf) | bVar8;
+  bVar9 = bVar9 + bVar8 * -6 & 0xf;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  iVar10 = CONCAT11(cVar7 + cVar27 * '\x02',cVar27);
+  bVar8 = 9 < bVar9 | bVar8;
+  *(byte *)((int)puVar19 + (int)unaff_SI) =
+       *(byte *)((int)puVar19 + (int)unaff_SI) + (bVar9 + bVar8 * -6 & 0xf);
+  pcVar6 = (code *)swi(0x3f);
+  uVar11 = (*pcVar6)();
+  bVar9 = (byte)uVar11;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  *(char *)((int)puVar19 + 0x7e1b) = *(char *)((int)puVar19 + 0x7e1b) + (char)((uint)uVar11 >> 8);
+  iVar10 = iVar10 + *(int *)unaff_SI;
+  *(char *)0x1f1 = *(char *)0x1f1 + extraout_DH;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  *(byte *)((int)puVar19 + (int)unaff_SI) = *(byte *)((int)puVar19 + (int)unaff_SI) + bVar9;
+  pbVar1 = (byte *)((int)puVar19 + (int)unaff_SI);
+  bVar28 = CARRY1(*pbVar1,bVar9);
+  bVar32 = SCARRY1(*pbVar1,bVar9);
+  *pbVar1 = *pbVar1 + bVar9;
+  bVar31 = (char)*pbVar1 < '\0';
+  bVar30 = *pbVar1 == 0;
+  bVar29 = (POPCOUNT(*pbVar1) & 1U) == 0;
+  pcVar6 = (code *)swi(0x3f);
+  bVar9 = (*pcVar6)();
+  *(uint *)(puVar23 + -2) =
+       (uint)(in_NT & 1) * 0x4000 | (uint)(bVar32 & 1) * 0x800 | (uint)(in_IF & 1) * 0x200 |
+       (uint)(in_TF & 1) * 0x100 | (uint)(bVar31 & 1) * 0x80 | (uint)(bVar30 & 1) * 0x40 |
+       (uint)(bVar8 & 1) * 0x10 | (uint)(bVar29 & 1) * 4 | (uint)(bVar28 & 1);
+  bVar9 = bVar9 < *(byte *)((int)puVar19 + (int)unaff_SI);
+  pcVar6 = (code *)swi(0x3f);
+  (*pcVar6)();
+  puVar24 = (undefined1 *)0x3;
+  pcVar6 = (code *)swi(0x3f);
+  uVar33 = (*pcVar6)();
+  *puVar19 = (*puVar19 - (int)uVar33) - (uint)bVar9;
+  cVar7 = (char)iVar10;
+  cVar27 = (char)((uint)iVar10 >> 8) + cVar7 * '\x02';
+  bVar8 = 9 < ((byte)uVar33 & 0xf) | bVar8;
+  bVar9 = (byte)uVar33 + bVar8 * -6 & 0xf;
+  uVar4 = in((int)((ulong)uVar33 >> 0x10));
+  *(undefined1 *)0x1f1 = uVar4;
+  puVar25 = puVar24 + 2;
+  bVar8 = 9 < bVar9 | bVar8;
+  cVar17 = '\0';
+  *(byte *)((int)puVar19 + (int)unaff_SI) =
+       *(byte *)((int)puVar19 + (int)unaff_SI) | bVar9 + bVar8 * -6 & 0xf;
+  pcVar6 = (code *)swi(0x3f);
+  puVar15 = (uint *)(*pcVar6)();
+  *(char *)((int)puVar19 + (int)puVar15) =
+       *(char *)((int)puVar19 + (int)puVar15) + (char)unaff_SI + cVar17;
+  pcVar6 = (code *)swi(0x3f);
+  bVar9 = (*pcVar6)();
+  *puVar19 = *puVar19 & extraout_DX;
+  cVar27 = cVar27 + cVar7;
+  bVar8 = 9 < (bVar9 & 0xf) | bVar8;
+  pcVar6 = (code *)swi(0x3f);
+  (*pcVar6)();
+  pcVar6 = (code *)swi(0x3f);
+  uVar11 = (*pcVar6)();
+  *puVar15 = *puVar15 ^ (uint)puVar25;
+  bVar8 = 9 < ((byte)uVar11 & 0xf) | bVar8;
+  bVar9 = (byte)uVar11 + bVar8 * -6;
+  if ((POPCOUNT(cVar27 + cVar7) & 1U) == 0) {
+    bVar29 = 9 < (bVar9 & 0xf) | bVar8;
+    bVar9 = (bVar9 & 0xf) + bVar29 * -6 & 0xf;
+    *(char *)((int)puVar19 + (int)puVar15) = *(char *)((int)puVar19 + (int)puVar15) + bVar9;
+    *(char *)((int)puVar19 + (int)puVar15) = *(char *)((int)puVar19 + (int)puVar15) + bVar9;
+    bVar30 = 9 < bVar9 | bVar29;
+    bVar9 = bVar9 + bVar30 * -6 & 0xf;
+    *(char *)((int)puVar19 + (int)puVar15) = *(char *)((int)puVar19 + (int)puVar15) + bVar9;
+    bVar9 = bVar9 + *(char *)((int)puVar19 + (int)puVar15);
+    bVar28 = 9 < (bVar9 & 0xf) | bVar30;
+    bVar9 = bVar9 + bVar28 * '\x06';
+    bVar8 = (byte)((uint)puVar19 >> 8) ^
+            ((((char)((uint)uVar11 >> 8) - bVar8) - bVar29) - bVar30) + bVar28;
+    puVar19 = (uint *)CONCAT11(bVar8,(char)puVar19);
+    *(char *)((int)puVar19 + (int)puVar15) = *(char *)((int)puVar19 + (int)puVar15) + bVar8;
+  }
+  bVar9 = bVar9 & 0xf;
+  *(char *)((int)puVar19 + (int)puVar15) = *(char *)((int)puVar19 + (int)puVar15) + bVar9;
+  *(char *)((int)puVar19 + (int)puVar15) = *(char *)((int)puVar19 + (int)puVar15) + bVar9;
+  *(char *)((int)puVar19 + (int)puVar15) = *(char *)((int)puVar19 + (int)puVar15) + bVar9;
+  *(char *)((int)puVar19 + (int)puVar15) = *(char *)((int)puVar19 + (int)puVar15) + bVar9;
+  *(char *)((int)puVar19 + (int)puVar15) = *(char *)((int)puVar19 + (int)puVar15) + bVar9;
+  *(char *)((int)puVar19 + (int)puVar15) = *(char *)((int)puVar19 + (int)puVar15) + bVar9;
+  *(char *)((int)puVar19 + (int)puVar15) = *(char *)((int)puVar19 + (int)puVar15) + bVar9;
+  *(char *)((int)puVar19 + (int)puVar15) = *(char *)((int)puVar19 + (int)puVar15) + bVar9;
+  pcVar6 = (code *)swi(0x3f);
+  (*pcVar6)();
+  *(char *)puVar19 = (char)*puVar19;
+  pcVar6 = (code *)swi(0x3f);
+  (*pcVar6)();
+  *puVar15 = *puVar15;
+  pcVar6 = (code *)swi(0x3f);
+  (*pcVar6)();
+                    /* WARNING: Bad instruction - Truncating control flow here */
+  halt_baddata();
+}
+
+

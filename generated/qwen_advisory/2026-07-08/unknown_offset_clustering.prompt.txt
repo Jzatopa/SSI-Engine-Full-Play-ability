@@ -1,0 +1,723 @@
+Matrix Cubed reconstruction Qwen-Coder advisory job: Unknown offset clustering
+
+Use only the supplied evidence. Do not invent paths, offsets, APIs,
+names, source files, test results, or original-game facts.
+
+Return compact Markdown, maximum 700 words, with these sections:
+VERIFIED_FROM_PROMPT, CANDIDATES, RISKS, LOCAL_VALIDATION_STEPS,
+UNSUPPORTED_CLAIMS.
+
+Treat every match/name as a candidate until a local agent verifies it
+against original bytes, generated artifacts, source code, and tests.
+
+Goal: cluster likely character/save/monster/effect fields and propose testable hypotheses. Use labels like VERIFIED, CANDIDATE, or UNKNOWN. Do not assign final names to unknown bytes.
+
+Evidence:
+## generated/liveplay/controlled_save_samples.md
+# Controlled Save Samples
+
+Save directory: `/home/jzatopa/Downloads/matrix-cubed-liveplay/MATRIX/SAVE`
+Baseline for byte diffs: `TST2`
+
+## Characters
+
+| Stem | Intent | Race | Gender | Career | Level | XP | HP Candidate |
+| --- | --- | --- | --- | --- | ---: | ---: | ---: |
+| CHRDATA1 | terran male medic career variant | terran (1) | male (0) | medic (2) | 7 | 48000 | 38 |
+| GEN1 | terran female rocket_jock gender variant | terran (1) | female (1) | rocket_jock (1) | 7 | 40000 | 34 |
+| RAC1 | martian male rocket_jock race variant | martian (2) | male (0) | rocket_jock (1) | 7 | 40000 | 43 |
+| TST1 | terran male rocket_jock baseline | terran (1) | male (0) | rocket_jock (1) | 7 | 40000 | 31 |
+| TST2 | terran male rocket_jock baseline | terran (1) | male (0) | rocket_jock (1) | 7 | 40000 | 31 |
+
+## Confirmed Enum Offsets
+
+- `0x26` `gender_id_candidate`: 0=male, 1=female. Evidence: TST1, TST2, RAC1, GEN1, CAR1.
+- `0x27` `race_id_candidate`: 1=terran, 2=martian. Evidence: TST1, TST2, RAC1, GEN1, CAR1.
+- `0x28` `career_id_candidate`: 1=rocket_jock, 2=medic. Evidence: TST1, TST2, RAC1, GEN1, CAR1.
+
+## Diff Notes
+
+Byte diffs are generated in the JSON artifact. Many differences are expected because stats, age, HP, and name vary between random character rolls.
+
+
+## generated/liveplay/save_probe_pre_combat.json
+{
+  "save_dir": "generated/liveplay/pre_combat",
+  "characters": [
+    {
+      "stem": "CHRDATA1",
+      "who_path": "generated/liveplay/pre_combat/CHRDATA1.SAV",
+      "stf_path": "generated/liveplay/pre_combat/CHRDATA1.STF",
+      "who": {
+        "name": "CAR1",
+        "ability_scores": {
+          "str": 10,
+          "dex": 16,
+          "con": 15,
+          "int": 12,
+          "wis": 13,
+          "cha": 15,
+          "tech": 15
+        },
+        "current_ability_scores": {
+          "str": 10,
+          "dex": 16,
+          "con": 15,
+          "int": 12,
+          "wis": 13,
+          "cha": 15,
+          "tech": 15
+        },
+        "race_id": 1,
+        "race": "terran",
+        "gender_id": 0,
+        "gender": "male",
+        "career_id": 2,
+        "career": "medic",
+        "level": 7,
+        "credits": 1000,
+        "experience": 48000,
+        "age": 22,
+        "hit_points_candidate": 38
+      },
+      "stf_size": 124
+    },
+    {
+      "stem": "GEN1",
+      "who_path": "generated/liveplay/pre_combat/GEN1.WHO",
+      "stf_path": "generated/liveplay/pre_combat/GEN1.STF",
+      "who": {
+        "name": "GEN1",
+        "ability_scores": {
+          "str": 16,
+          "dex": 13,
+          "con": 14,
+          "int": 15,
+          "wis": 15,
+          "cha": 16,
+          "tech": 12
+        },
+        "current_ability_scores": {
+          "str": 16,
+          "dex": 13,
+          "con": 14,
+          "int": 15,
+          "wis": 15,
+          "cha": 16,
+          "tech": 12
+        },
+        "race_id": 1,
+        "race": "terran",
+        "gender_id": 1,
+        "gender": "female",
+        "career_id": 1,
+        "career": "rocket_jock",
+        "level": 7,
+        "credits": 1000,
+        "experience": 40000,
+        "age": 20,
+        "hit_points_candidate": 34
+      },
+      "stf_size": 124
+    },
+    {
+      "stem": "RAC1",
+      "who_path": "generated/liveplay/pre_combat/RAC1.WHO",
+      "stf_path": "generated/liveplay/pre_combat/RAC1.STF",
+      "who": {
+        "name": "RAC1",
+        "ability_scores": {
+          "str": 16,
+          "dex": 14,
+          "con": 15,
+          "int": 15,
+          "wis": 11,
+          "cha": 16,
+          "tech": 14
+        },
+        "current_ability_scores": {
+          "str": 16,
+          "dex": 14,
+          "con": 15,
+          "int": 15,
+          "wis": 11,
+          "cha": 16,
+          "tech": 14
+        },
+        "race_id": 2,
+        "race": "martian",
+        "gender_id": 0,
+        "gender": "male",
+        "career_id": 1,
+        "career": "rocket_jock",
+        "level": 7,
+        "credits": 1000,
+        "experience": 40000,
+        "age": 19,
+        "hit_points_candidate": 43
+      },
+      "stf_size": 124
+    },
+    {
+      "stem": "TST1",
+      "who_path": "generated/liveplay/pre_combat/TST1.WHO",
+      "stf_path": "generated/liveplay/pre_combat/TST1.STF",
+      "who": {
+        "name": "TST1",
+        "ability_scores": {
+          "str": 13,
+          "dex": 16,
+          "con": 14,
+          "int": 15,
+          "wis": 13,
+          "cha": 13,
+          "tech": 14
+        },
+        "current_ability_scores": {
+          "str": 13,
+          "dex": 16,
+          "con": 14,
+          "int": 15,
+          "wis": 13,
+          "cha": 13,
+          "tech": 14
+        },
+        "race_id": 1,
+        "race": "terran",
+        "gender_id": 0,
+        "gender": "male",
+        "career_id": 1,
+        "career": "rocket_jock",
+        "level": 7,
+        "credits": 1000,
+        "experience": 40000,
+        "age": 22,
+        "hit_points_candidate": 31
+      },
+      "stf_size": 124
+    },
+    {
+      "stem": "TST2",
+      "who_path": "generated/liveplay/pre_combat/TST2.WHO",
+      "stf_path": "generated/liveplay/pre_combat/TST2.STF",
+      "who": {
+        "name": "TST2",
+        "ability_scores": {
+          "str": 17,
+          "dex": 14,
+          "con": 13,
+          "int": 14,
+          "wis": 15,
+          "cha": 13,
+          "tech": 15
+        },
+        "current_ability_scores": {
+          "str": 17,
+          "dex": 14,
+          "con": 13,
+          "int": 14,
+          "wis": 15,
+          "cha": 13,
+          "tech": 15
+        },
+        "race_id": 1,
+        "race": "terran",
+        "gender_id": 0,
+        "gender": "male",
+        "career_id": 1,
+        "career": "rocket_jock",
+        "level": 7,
+        "credits": 1000,
+        "experience": 40000,
+        "age": 24,
+        "hit_points_candidate": 31
+      },
+      "stf_si
+
+[TRUNCATED at 4500 chars from /home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/save_probe_pre_combat.json]
+
+
+## generated/data_model/data_model_catalog.md
+# Matrix Cubed Data Model Catalog
+
+This is a source-data pass over non-map, non-image model files. It favors conservative structure over overconfident names.
+
+## File Summary
+
+| File | Blocks | Raw sizes | Record-size hints |
+| --- | ---: | --- | --- |
+| `ITEM0.DAX` | 1 | 1456x1 | 16 |
+| `MON0CHA.DAX` | 63 | 259x63 | 259 |
+| `MON0ITM.DAX` | 42 | 62x3, 124x7, 186x13, 248x12, 310x4, 372x2, 434x1 | 62 |
+| `MON0SPC.DAX` | 35 | 9x7, 18x8, 27x5, 36x1, 45x11, 54x1, 63x1, 72x1 | 9 |
+| `SHIPS.DAX` | 41 | 108x6, 254x6, 326x2, 510x6, 582x1, 646x1, 838x2, 894x1, 1030x2, 1350x1, 2118x1, 2310x1, 2630x1, 3910x2, 5830x1, 9342x1, 17582x5, 31102x1 | - |
+
+## Monster / Character Records
+
+`MON0CHA.DAX` decodes as 63 fixed 259-byte records. Names and base stats line up with the Gold Box character/monster record family, but later combat fields are a Matrix Cubed variant and are not yet fully named.
+
+| ID | Name | STR | INT | DEX | Candidate 0x45 | Candidate 0xE3 | Visuals |
+| ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
+| 1 | SID REFUGE | 16 | 14 | 10 | 84 | 84 | H6 B8 I8 |
+| 2 | SID REFUGE | 17 | 16 | 10 | 91 | 91 | H0 B0 I0 |
+| 3 | SID REFUGE | 18 | 17 | 10 | 98 | 98 | H25 B25 I25 |
+| 4 | SID REFUGE | 18 | 18 | 10 | 105 | 105 | H25 B25 I25 |
+| 5 | PURGE COMMANDO | 14 | 10 | 10 | 56 | 56 | H25 B25 I25 |
+| 6 | PURGE WARRIOR | 10 | 10 | 10 | 42 | 42 | H25 B25 I25 |
+| 7 | WARRIOR | 18 | 17 | 10 | 63 | 63 | H6 B2 I0 |
+| 8 | PURGE SEC ROBOT | 10 | 18 | 10 | 60 | 60 | H0 B0 I0 |
+| 9 | ORG SKORP | 10 | 10 | 10 | 56 | 56 | H0 B0 I0 |
+| 10 | COYODORG | 14 | 15 | 10 | 49 | 49 | H0 B0 I0 |
+| 11 | RATWURST | 10 | 10 | 10 | 52 | 52 | H0 B0 I0 |
+| 12 | GANG LEADER | 18 | 16 | 10 | 77 | 77 | H8 B5 I5 |
+| 13 | GANG VETERAN | 18 | 16 | 10 | 56 | 56 | H8 B8 I2 |
+| 14 | LUNARIAN WARR | 10 | 10 | 10 | 56 | 56 | H1 B1 I4 |
+| 15 | LUNARIAN WARR | 15 | 17 | 17 | 56 | 56 | H12 B7 I7 |
+| 16 | LUNARIAN LEADER | 14 | 13 | 10 | 70 | 70 | H35 B35 I8 |
+| 17 | LUNAR SEC ROBOT | 10 | 10 | 10 | 105 | 105 | H0 B0 I0 |
+| 18 | CARNIFERN | 10 | 10 | 0 | 91 | 91 | H0 B0 I0 |
+| 19 | AMALTHEAN WARR | 10 | 10 | 10 | 84 | 84 | H8 B1 I1 |
+| 20 | AMALTHEAN LEAD | 10 | 14 | 10 | 91 | 91 | H1 B1 I3 |
+| 21 | AMALTH SEC BOT | 10 | 10 | 10 | 91 | 91 | H0 B0 I0 |
+| 22 | VENUS DINOSAUR | 17 | 16 | 10 | 91 | 91 | H0 B0 I0 |
+| 23 | LOWLANDER MINER | 17 | 10 | 10 | 28 | 28 | H0 B0 I0 |
+| 24 | TERRINE WARRIOR | 16 | 14 | 10 | 38 | 38 | H9 B9 I0 |
+| 25 | LOWLANDER | 17 | 10 | 10 | 28 | 28 | H0 B0 I0 |
+| 26 | DESERT RUNNER | 16 | 16 | 10 | 42 | 42 | H5 B5 I0 |
+| 27 | LOWLANDER | 19 | 15 | 15 | 28 | 28 | H0 B0 I0 |
+| 28 | DESERT RUNNER | 19 | 18 | 15 | 55 | 55 | H5 B5 I0 |
+| 29 | STORMRIDER | 19 | 14 | 15 | 84 | 84 | H13 B14 I14 |
+| 30 | KILLER KANE | 16 | 18 | 17 | 53 | 53 | H0 B0 I0 |
+| 31 | DR. J. MALCOLN | 16 | 19 | 10 | 120 | 120 | H0 B0 I0 |
+| 32 | STAGE 5 ECG | 16 | 20 | 10 | 98 | 98 | H0 B0 I0 |
+| 33 | MER. WARRIOR | 13 | 15 | 10 | 49 | 49 | H0 B0 I0 |
+| 35 | MER. H.S. ROBOT | 14 | 14 | 3 | 77 | 77 | H0 B0 I0 |
+| 36 | HYPERCRAB | 18 | 15 | 3 | 28 | 28 | H0 B0 I0 |
+| 37 | HYPERSNAKE | 16 | 17 | 3 | 32 | 32 | H0 B0 I0 |
+| 38 | TECHNICIAN | 17 | 17 | 10 | 55 | 55 | H0 B0 I0 |
+| 39 | LG. E.C. GENNIE | 19 | 19 | 3 | 35 | 35 | H0 B0 I0 |
+| 40 | SAND SQUID | 14 | 22 | 3 | 36 | 36 | H0 B0 I0 |
+| 41 | URSADDER | 15 | 17 | 3 | 38 | 38 | H0 B0 I0 |
+| 42 | ACID FROG | 14 | 15 | 3 | 36 | 36 | H0 B0 I0 |
+| 43 | PIRATE WARRIOR | 17 | 17 | 10 | 46 | 46 | H7 B2 I0 |
+| 44 | PIRATE LEADER | 18 | 18 | 10 | 58 | 58 | H2 B6 I6 |
+| 45 | PIR. COM. ROBOT | 16 | 17 | 10 | 74 | 74 | H0 B0 I0 |
+| 46 | RAM ASSASSIN | 13 | 16 | 10 | 57 | 57 | H2 B2 I0 |
+| 47 | RAM G.D. GENNIE | 18 | 16 | 3 | 55 | 55 | H0 B0 I0 |
+| 48 | ASSAULT ROBOT | 18 | 17 | 3 | 91 | 91 | H0 B0 I0 |
+| 49 | COMBAT ROBOT | 16 | 16 | 3 | 108 | 108 | H0 B0 I0 |
+| 50 | SECURITY ROBOT | 16 | 16 | 3 | 40 | 40 | H0 B0 I0 |
+| 51 | DEFENSE ROBOT | 16 | 16 | 3 | 51 | 51 | H0 B0 I0 |
+| 52 | RAM WARRIOR | 18 | 17 | 10 | 47 | 47 | H11 B11 I0 |
+| 53 | TECHNICIAN | 12 | 18 | 13 | 32 | 32 | H0 B0 I0 |
+| 54 | RAM CBT. GENNIE | 18 | 18 | 10 | 66 | 66 | H6 B8 I8 |
+| 55 | LEANDER | 17 | 14 | 17 | 46 | 46 | H13 B7 I7 |
+| 56 | ZANE | 4 | 12 | 12 | 8 | 8 | H0 B0 I0 |
+| 57 | BUCK ROGERS | 17 | 18 | 14 | 63 | 63 | H0 B0 I0 |
+| 58 | GANG MEMBER | 14 | 12 | 10 | 49 | 49 | H2 B8 I0 |
+| 59 | GANG RECRUIT | 12 | 10 | 10 | 43 | 43 | H2 B7 I0 |
+| 60 | D.R. WARRIOR | 19 | 17 | 14 | 58 | 58 | H5 B5 I0 |
+| 61 | LL. WARRIOR | 17 | 14 | 10 | 42 | 42 | H19 B19 I0 |
+| 62 | LL. 
+
+[TRUNCATED at 4500 chars from /home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/data_model/data_model_catalog.md]
+
+
+## generated/data_model/mon0cha_monsters.tsv
+id	name	stats.strength	stats.intelligence	stats.wisdom	stats.dexterity	stats.constitution	stats.charisma	matrix_variant_candidates.offset_0x29	matrix_variant_candidates.offset_0x33	matrix_variant_candidates.offset_0x36	matrix_variant_candidates.offset_0x37	matrix_variant_candidates.offset_0x45	matrix_variant_candidates.offset_0xE3	visuals.head_portrait	visuals.body_portrait	visuals.head_icon	visuals.weapon_icon
+1	SID REFUGE	16	14	10	10	10	10	12	50	9	50	84	84	6	8	8	8
+2	SID REFUGE	17	16	10	10	10	10	13	51	9	58	91	91	0	0	0	0
+3	SID REFUGE	18	17	10	10	10	10	14	51	18	60	98	98	25	25	25	25
+4	SID REFUGE	18	18	10	10	10	10	15	52	18	60	105	105	25	25	25	25
+5	PURGE COMMANDO	14	10	10	10	10	10	8	47	12	51	56	56	25	25	25	25
+6	PURGE WARRIOR	10	10	10	10	10	10	6	45	12	51	42	42	25	25	25	25
+7	WARRIOR	18	17	10	10	10	10	7	48	12	50	63	63	6	2	0	0
+8	PURGE SEC ROBOT	10	18	10	10	10	10	8	47	24	62	60	60	0	0	0	0
+9	ORG SKORP	10	10	10	10	10	10	8	47	15	58	56	56	0	0	0	0
+10	COYODORG	14	15	10	10	10	10	7	49	18	56	49	49	0	0	0	0
+11	RATWURST	10	10	10	10	10	10	7	50	18	56	52	52	0	0	0	0
+12	GANG LEADER	18	16	10	10	10	10	11	50	12	50	77	77	8	5	5	13
+13	GANG VETERAN	18	16	10	10	10	10	8	48	12	50	56	56	8	8	2	0
+14	LUNARIAN WARR	10	10	10	10	10	10	8	47	12	50	56	56	1	1	4	0
+15	LUNARIAN WARR	15	17	14	17	15	13	8	47	12	50	56	56	12	7	7	0
+16	LUNARIAN LEADER	14	13	10	10	10	10	10	49	12	50	70	70	35	35	8	8
+17	LUNAR SEC ROBOT	10	10	10	10	10	10	15	53	10	63	105	105	0	0	0	0
+18	CARNIFERN	10	10	10	0	10	10	13	51	6	56	91	91	0	0	0	0
+19	AMALTHEAN WARR	10	10	10	10	10	10	12	50	12	50	84	84	8	1	1	1
+20	AMALTHEAN LEAD	10	14	10	10	10	10	13	51	12	50	91	91	1	1	3	3
+21	AMALTH SEC BOT	10	10	10	10	10	10	13	50	18	63	91	91	0	0	0	0
+22	VENUS DINOSAUR	17	16	19	10	10	10	13	52	15	56	91	91	0	0	0	0
+23	LOWLANDER MINER	17	10	10	10	10	10	6	46	16	54	28	28	0	0	0	0
+24	TERRINE WARRIOR	16	14	12	10	10	10	7	50	15	53	38	38	9	9	0	0
+25	LOWLANDER	17	10	10	10	10	10	6	46	12	54	28	28	0	0	0	0
+26	DESERT RUNNER	16	16	15	10	10	10	6	46	15	52	42	42	5	5	0	0
+27	LOWLANDER	19	15	16	15	17	16	6	46	12	54	28	28	0	0	0	0
+28	DESERT RUNNER	19	18	16	15	17	13	6	48	15	52	55	55	5	5	0	0
+29	STORMRIDER	19	14	18	15	14	13	10	50	15	58	84	84	13	14	14	14
+30	KILLER KANE	16	18	16	17	12	16	12	48	15	50	53	53	0	0	0	0
+31	DR. J. MALCOLN	16	19	15	10	10	10	12	52	12	50	120	120	0	0	0	0
+32	STAGE 5 ECG	16	20	16	10	10	10	14	52	24	57	98	98	0	0	0	0
+33	MER. WARRIOR	13	15	10	10	10	10	0	46	12	50	49	49	0	0	0	0
+35	MER. H.S. ROBOT	14	14	10	3	10	10	0	46	9	59	77	77	0	0	0	0
+36	HYPERCRAB	18	15	0	3	0	0	0	47	15	56	28	28	0	0	0	0
+37	HYPERSNAKE	16	17	0	3	0	0	0	45	24	52	32	32	0	0	0	0
+38	TECHNICIAN	17	17	10	10	10	10	0	52	12	50	55	55	0	0	0	0
+39	LG. E.C. GENNIE	19	19	19	3	10	10	0	44	15	58	35	35	0	0	0	0
+40	SAND SQUID	14	22	0	3	0	0	0	45	18	51	36	36	0	0	0	0
+41	URSADDER	15	17	0	3	0	0	0	48	15	56	38	38	0	0	0	0
+42	ACID FROG	14	15	0	3	0	0	0	45	9	55	36	36	0	0	0	0
+43	PIRATE WARRIOR	17	17	10	10	10	10	6	48	12	50	46	46	7	2	0	0
+44	PIRATE LEADER	18	18	17	10	10	10	9	50	12	50	58	58	2	6	6	0
+45	PIR. COM. ROBOT	16	17	10	10	10	10	0	50	18	58	74	74	0	0	0	0
+46	RAM ASSASSIN	13	16	10	10	10	10	7	48	13	50	57	57	2	2	0	0
+47	RAM G.D. GENNIE	18	16	10	3	10	10	0	49	15	56	55	55	0	0	0	0
+48	ASSAULT ROBOT	18	17	10	3	10	10	0	49	9	65	91	91	0	0	0	0
+49	COMBAT ROBOT	16	16	10	3	10	10	0	49	9	66	108	108	0	0	0	0
+50	SECURITY ROBOT	16	16	10	3	10	10	0	46	12	60	40	40	0	0	0	0
+51	DEFENSE ROBOT	16	16	10	3	10	10	0	46	11	58	51	51	0	0	0	0
+52	RAM WARRIOR	18	17	10	10	10	10	6	48	12	50	47	47	11	11	0	0
+53	TECHNICIAN	12	18	10	13	10	10	0	44	12	50	32	32	0	0	0	0
+54	RAM CBT. GENNIE	18	18	18	10	10	10	9	50	17	50	66	66	6	8	8	0
+55	LEANDER	17	14	14	17	17	12	8	47	12	54	46	46	13	7	7	0
+56	ZANE	4	12	6	12	4	18	1	42	10	54	8	8	0	0	0	0
+57	BUCK ROGERS	17	18	15	14	13	21	12	46	12	50	63	63	0	0	0	0
+58	GANG MEMBER	14	12	10	10	10	10	7	46	12	50	49	49	2	8	0	0
+59	GANG RECRUIT	12	10	10	10	10	10	6	45	12	50	43	43	2	7	0	0
+60	D.R. WARRIOR	19	17	17	14	14	12	7	48	15	52	58	58	5	5	0	0
+61	LL. WARRIOR	17	14	16	10	10	10	6	46	12	50	42	42	19	19	0	0
+62	LL. WARRIOR	19	15	15	13	15	16	6	47	12	50	42	42	19	19	0	0
+63	JOVIAN DRAGON	10	19	10	10	10	10	0	51	20	62	102	102	0	0	0	0
+64	WASPHOPPER	12	19	15	3	6	2	0	50	24	62	24	24	0	0	0	0
+
+
+## generated/data_model/mon0spc_effects.tsv
+block_id	record_index	effect_code	duration	effect_data	effect_table_flag	next_effect_ptr	raw_hex
+2	0	19	0	255	0	950075392	13 00 00 ff 00 00 00 a1 38
+2	1	20	0	255	0	950140928	14 00 00 ff 00 00 00 a2 38
+2	2	21	0	255	0	950206464	15 00 00 ff 00 00 00 a3 38
+2	3	22	0	255	0	950272000	16 00 00 ff 00 00 00 a4 38
+2	4	23	0	255	0	0	17 00 00 ff 00 00 00 00 00
+3	0	19	0	255	0	951779328	13 00 00 ff 00 00 00 bb 38
+3	1	20	0	255	0	951844864	14 00 00 ff 00 00 00 bc 38
+3	2	21	0	255	0	951910400	15 00 00 ff 00 00 00 bd 38
+3	3	22	0	255	0	951975936	16 00 00 ff 00 00 00 be 38
+3	4	24	0	255	0	0	18 00 00 ff 00 00 00 00 00
+4	0	19	0	255	0	922353664	13 00 00 ff 00 00 00 fa 36
+4	1	20	0	255	0	922419200	14 00 00 ff 00 00 00 fb 36
+4	2	21	0	255	0	922484736	15 00 00 ff 00 00 00 fc 36
+4	3	22	0	255	0	922550272	16 00 00 ff 00 00 00 fd 36
+4	4	24	0	255	0	922615808	18 00 00 ff 00 00 00 fe 36
+4	5	25	0	255	0	0	19 00 00 ff 00 00 00 00 00
+8	0	18	0	255	0	946601984	12 00 00 ff 00 00 00 6c 38
+8	1	19	0	255	0	946667520	13 00 00 ff 00 00 00 6d 38
+8	2	21	0	255	0	946733056	15 00 00 ff 00 00 00 6e 38
+8	3	22	0	255	0	946798592	16 00 00 ff 00 00 00 6f 38
+8	4	25	0	255	0	0	19 00 00 ff 00 00 00 00 00
+9	0	21	0	255	0	964165632	15 00 00 ff 00 00 00 78 39
+9	1	30	0	255	0	0	1e 00 00 ff 00 00 00 00 00
+10	0	25	0	255	0	0	19 00 00 ff 00 00 00 00 00
+11	0	25	0	255	0	0	19 00 00 ff 00 00 00 00 00
+17	0	16	0	255	0	975437824	10 00 00 ff 00 00 00 24 3a
+17	1	19	0	255	0	975503360	13 00 00 ff 00 00 00 25 3a
+17	2	20	0	255	0	975568896	14 00 00 ff 00 00 00 26 3a
+17	3	21	0	255	0	975634432	15 00 00 ff 00 00 00 27 3a
+17	4	22	0	255	0	0	16 00 00 ff 00 00 00 00 00
+18	0	16	0	255	0	944373760	10 00 00 ff 00 00 00 4a 38
+18	1	19	0	255	0	944439296	13 00 00 ff 00 00 00 4b 38
+18	2	22	0	255	0	0	16 00 00 ff 00 00 00 00 00
+21	0	16	0	255	0	983629824	10 00 00 ff 00 00 00 a1 3a
+21	1	19	0	255	0	983695360	13 00 00 ff 00 00 00 a2 3a
+21	2	21	0	255	0	983760896	15 00 00 ff 00 00 00 a3 3a
+21	3	22	0	255	0	983826432	16 00 00 ff 00 00 00 a4 3a
+21	4	24	0	255	0	0	18 00 00 ff 00 00 00 00 00
+22	0	16	0	255	0	0	10 00 00 ff 00 00 00 00 00
+29	0	19	0	255	0	922615808	13 00 00 ff 00 00 00 fe 36
+29	1	21	0	255	0	0	15 00 00 ff 00 00 00 00 00
+32	0	16	0	255	0	989921280	10 00 00 ff 00 00 00 01 3b
+32	1	19	0	255	0	989986816	13 00 00 ff 00 00 00 02 3b
+32	2	21	0	255	0	990052352	15 00 00 ff 00 00 00 03 3b
+32	3	22	0	255	0	990117888	16 00 00 ff 00 00 00 04 3b
+32	4	25	0	255	0	0	19 00 00 ff 00 00 00 00 00
+35	0	16	0	255	0	923074560	10 00 00 ff 00 00 00 05 37
+35	1	18	0	255	0	923140096	12 00 00 ff 00 00 00 06 37
+35	2	19	0	255	0	923205632	13 00 00 ff 00 00 00 07 37
+35	3	21	0	255	0	923271168	15 00 00 ff 00 00 00 08 37
+35	4	22	0	255	0	0	16 00 00 ff 00 00 00 00 00
+36	0	30	0	255	0	0	1e 00 00 ff 00 00 00 00 00
+37	0	18	0	255	0	998637568	12 00 00 ff 00 00 00 86 3b
+37	1	20	0	255	0	998703104	14 00 00 ff 00 00 00 87 3b
+37	2	21	0	255	0	998768640	15 00 00 ff 00 00 00 88 3b
+37	3	22	0	255	0	0	16 00 00 ff 00 00 00 00 00
+38	0	21	0	255	0	944832512	15 00 00 ff 00 00 00 51 38
+38	1	22	0	255	0	0	16 00 00 ff 00 00 00 00 00
+39	0	16	0	255	0	999030784	10 00 00 ff 00 00 00 8c 3b
+39	1	19	0	255	0	0	13 00 00 ff 00 00 00 00 00
+40	0	23	0	255	0	999292928	17 00 00 ff 00 00 00 90 3b
+40	1	30	0	255	0	0	1e 00 00 ff 00 00 00 00 00
+41	0	16	0	255	0	999555072	10 00 00 ff 00 00 00 94 3b
+41	1	19	0	255	0	0	13 00 00 ff 00 00 00 00 00
+42	0	32	0	255	0	999882752	20 00 00 ff 00 00 00 99 3b
+42	1	23	0	255	0	999948288	17 00 00 ff 00 00 00 9a 3b
+42	2	19	0	255	0	0	13 00 00 ff 00 00 00 00 00
+44	0	16	0	255	0	0	10 00 00 ff 00 00 00 00 00
+45	0	19	0	255	0	1006174208	13 00 00 ff 00 00 00 f9 3b
+45	1	16	0	255	0	1006239744	10 00 00 ff 00 00 00 fa 3b
+45	2	21	0	255	0	1006305280	15 00 00 ff 00 00 00 fb 3b
+45	3	22	0	255	0	1006370816	16 00 00 ff 00 00 00 fc 3b
+45	4	20	0	255	0	1006436352	14 00 00 ff 00 00 00 fd 3b
+45	5	18	0	255	0	1006501888	12 00 00 ff 00 00 00 fe 3b
+45	6	24	0	255	0	0	18 00 00 ff 00 00 00 00 00
+46	0	21	0	255	0	1009385472	15 00 00 ff 00 00 00 2a 3c
+46	1	27	0	255	0	1009451008	1b 00 00 ff 00 00 00 2b 3c
+46	2	16	0	255	0	0	10 00 00 ff 00 00 00 00 00
+47	0	28	0	255	0	1010499584	1c 00 00 ff 00 00 00 3b 3c
+47	1	16	0	255	0	0	10 00 00 ff 00 00 00 00 00
+48	0	21	0	255	0	1011482624	15 00 00 ff 00 00 00 4a 3c
+48	1	22	0	255	0	1011548160	16 00 00 ff 00 00 00 4b 3c
+48	2	18	0	255	0	1011613696	12 00 00 ff 00 00 00 4c 3c
+48	3	16	0	255	0	1011679232	10 00 00 ff 00 00 00 4d 3c
+48	4	19	0	255	0	0	13 00 00 ff 00 00 00 00 00
+49	0	21	0	255	0	926285824	15 00 00 ff 00 00 00 36 37
+49	1	16	0	255	0	926351360	10 00 00 ff 00 00 00 37 37
+49	2	18	0	
+
+[TRUNCATED at 4500 chars from /home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/data_model/mon0spc_effects.tsv]
+
+
+## src/matrix_cubed/formats/save.py
+from __future__ import annotations
+
+from dataclasses import dataclass
+from pathlib import Path
+
+
+ABILITY_NAMES = ("str", "dex", "con", "int", "wis", "cha", "tech")
+GENDER_LABELS = {0: "male", 1: "female"}
+RACE_LABELS = {1: "terran", 2: "martian"}
+CAREER_LABELS = {1: "rocket_jock", 2: "medic"}
+
+
+@dataclass(frozen=True)
+class CharacterWhoRecord:
+    """Decoded fields from one 259-byte Matrix Cubed `.WHO` character record."""
+
+    name: str
+    ability_scores: dict[str, int]
+    current_ability_scores: dict[str, int]
+    race_id: int
+    race: str | None
+    gender_id: int
+    gender: str | None
+    career_id: int
+    career: str | None
+    level: int
+    credits: int
+    experience: int
+    age: int
+    hit_points_candidate: int
+
+
+@dataclass(frozen=True)
+class SavedCharacter:
+    stem: str
+    who_path: Path
+    stf_path: Path | None
+    who: CharacterWhoRecord
+    stf_size: int | None
+
+
+def parse_who_record(data: bytes) -> CharacterWhoRecord:
+    if len(data) != 259:
+        raise ValueError(f"expected 259-byte .WHO record, got {len(data)} bytes")
+
+    name_len = data[0]
+    if name_len > 15:
+        raise ValueError(f"invalid .WHO name length {name_len}")
+    name = data[1 : 1 + name_len].decode("ascii", errors="replace").rstrip("\x00 ")
+
+    ability_scores = _ability_dict(data[0x10 : 0x10 + len(ABILITY_NAMES)])
+    current_ability_scores = _ability_dict(data[0x17 : 0x17 + len(ABILITY_NAMES)])
+
+    gender_id = data[0x26]
+    race_id = data[0x27]
+    career_id = data[0x28]
+
+    return CharacterWhoRecord(
+        name=name,
+        ability_scores=ability_scores,
+        current_ability_scores=current_ability_scores,
+        race_id=race_id,
+        race=RACE_LABELS.get(race_id),
+        gender_id=gender_id,
+        gender=GENDER_LABELS.get(gender_id),
+        career_id=career_id,
+        career=CAREER_LABELS.get(career_id),
+        level=data[0x29],
+        credits=_u32(data, 0x2B),
+        experience=_u32(data, 0x2F),
+        age=data[0x38],
+        hit_points_candidate=data[0xE3],
+    )
+
+
+def read_saved_character(who_path: Path) -> SavedCharacter:
+    who = parse_who_record(who_path.read_bytes())
+    stf_path = who_path.with_suffix(".STF")
+    stf_size = stf_path.stat().st_size if stf_path.exists() else None
+    return SavedCharacter(
+        stem=who_path.stem,
+        who_path=who_path,
+        stf_path=stf_path if stf_path.exists() else None,
+        who=who,
+        stf_size=stf_size,
+    )
+
+
+def _ability_dict(values: bytes) -> dict[str, int]:
+    if len(values) != len(ABILITY_NAMES):
+        raise ValueError(f"expected {len(ABILITY_NAMES)} ability bytes, got {len(values)}")
+    return dict(zip(ABILITY_NAMES, values, strict=True))
+
+
+def _u32(data: bytes, offset: int) -> int:
+    return int.from_bytes(data[offset : offset + 4], "little")
+
+
+## src/matrix_cubed/engine/save_load.py
+"""Save/load runtime state to Matrix Cubed binary formats.
+
+Writes .WHO (character), .STF (skills), .SAV (active party),
+and SAVGAMA.DAT (game state) files from the running GameState.
+"""
+
+from __future__ import annotations
+
+from pathlib import Path
+from typing import Any
+
+from matrix_cubed.engine.character import CharacterRecord, CharacterRoster
+from matrix_cubed.engine.runtime import GameState
+from matrix_cubed.formats.save import (
+    ABILITY_NAMES,
+    RACE_LABELS,
+    CAREER_LABELS,
+    GENDER_LABELS,
+    parse_who_record,
+    read_saved_character,
+)
+from matrix_cubed.formats.game_state import SAVGAMA_SIZE
+
+# ── Binary format writers ─────────────────────────────────────────────────
+
+def _char_to_who_bytes(char: CharacterRecord) -> bytes:
+    """Serialize a CharacterRecord into a 259-byte .WHO record."""
+    buf = bytearray(259)
+
+    # Name: length prefix + ASCII + null-padded to 15 chars
+    name_bytes = char.name.encode("ascii", errors="replace")[:15]
+    buf[0] = len(name_bytes)
+    buf[1:1 + len(name_bytes)] = name_bytes
+
+    # Ability scores at offset 0x10 (7 bytes: str,dex,con,int,wis,cha,tech)
+    _write_abilities(buf, 0x10, char)
+    # Current ability scores at offset 0x17
+    _write_current(buf, 0x17, char)
+
+    # Gender at 0x26
+    buf[0x26] = char.gender
+    # Race at 0x27
+    buf[0x27] = char.race
+    # Career at 0x28
+    buf[0x28] = char.career
+    # Level at 0x29
+    buf[0x29] = char.level
+    # Credits at 0x2B (4 bytes LE)
+    buf[0x2B:0x2B+4] = char.credits.to_bytes(4, "little")
+    # Experience at 0x2F (4 bytes LE)
+    buf[0x2F:0x2F+4] = char.experience.to_bytes(4, "little")
+    # Age at 0x38
+    buf[0x38] = char.age
+    # HP candidate at 0xE3
+    buf[0xE3] = min(255, char.hp)
+
+    return bytes(buf)
+
+
+def _char_to_stf_bytes(char: CharacterRecord) -> bytes:
+    """Serialize a CharacterRecord into a 124-byte .STF skill record."""
+    buf = bytearray(124)
+
+    # Skills at offset 0x0C-0x1B (16 bytes)
+    for i, skill_val in enumerate(char.skills[:16]):
+        buf[0x0C + i] = skill_val & 0xFF
+
+    # Equipment candidates at 0x05-0x07
+    if char.weapon_index is not None:
+        buf[0x06] = char.weapon_index & 0xFF
+    if char.armor_index is not None:
+        buf[0x05] = char.armor_index & 0xFF
+    if char.shield_index is not None:
+        buf[0x07] = char.shield_index & 0xFF
+
+    return bytes(buf)
+
+
+def _write_abilities(buf: bytearray, offset: int, char: CharacterRecord) -> None:
+    vals = (char.strength, char.dexterity, char.constitution,
+            char.intelligence, char.wisdom, char.charisma, char.tech)
+    for i, v in enumerate(vals):
+        buf[offset + i] = v & 0xFF
+
+
+def _write_current(buf: bytearray, offset: int, char: CharacterRecord) -> None:
+    vals = (char.cur_strength, char.cur_dexterity, char.cur_constitution,
+            char.cur_intelligence, char.cur_wisdom, char.cur_charisma, char.cur_tech)
+    for i, v in enumerate(vals):
+        buf[offset + i] = v & 0xFF
+
+
+# ── SAVGAMA.DAT writer ────────────────────────────────────────────────────
+
+def _game_state_to_dat_bytes(gs: GameState, template: bytes | None = None) -> bytes:
+    """Build a 2901-byte SAVGAMA.DAT from the current GameState.
+
+    A template (previous save) is used to preserve unknown fields.
+    Without a template, we build from scratch with decoded fields.
+    """
+    if template is not None and len(template) == SAVGAMA_SIZE:
+        buf = bytearray(template)
+    else:
+        buf = bytearray(SAVGAMA_SIZE)
+
+    # Area ID at 0x00 (LE u16)
+    buf[0x00:0x02] = gs.map_id.to_bytes(2, "little")
+    # Position at 0x02-0x04
+    _facing_map = {"north": 0, "east": 1, "south": 2, "west": 3}
+    buf[0x02] = gs.col & 0xFF
+    buf[0x03] = gs.row & 0xFF
+    buf[0x04] = _facing_map.get(gs.facing, 0) & 0xFF
+    # Credits at 0x2C
+    buf[0x2C:0x30] = gs.party.credits.to_bytes(4, "little")
+
+    return bytes(buf)
+
+
+# ── High-level API ─────────────────────────────────────────────────────────
+
+def save_game(output_dir: Path, gs: GameState) -> dict[str, Path]:
+    """Write the full game state to save files in output_dir.
+
+    Returns dict mapping logical name to file path.
+    """
+    output_dir.mkdir(parents=True, exist_ok=True)
+    results: dict[str, Path] = {}
+
+    # Write individual character files (.WHO + .STF)
+    for char in gs.roster.list_all():
+        stem = char.name[:8].upper() or "CHAR"
+        who_path = output_dir / f"{stem}.WHO"
+        who_path.write_bytes(_char_to_who_bytes(char))
+        stf_path = output_dir / f"{stem
+
+[TRUNCATED at 4500 chars from /home/jzatopa/.openclaw/workspace/matrix-cubed-re/src/matrix_cubed/engine/save_load.py]
+

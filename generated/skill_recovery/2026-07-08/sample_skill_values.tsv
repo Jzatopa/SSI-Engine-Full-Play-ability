@@ -1,0 +1,266 @@
+sample	source_path	name	race_id	gender_id	career_id	skill_id	who_offset	skill_name	value
+CHRDATA1	generated/liveplay/first_map_capture/pre_saves/CHRDATA1.SAV	CAR1	1	0	2	17	93	Treat Light Wounds	50
+CHRDATA1	generated/liveplay/first_map_capture/pre_saves/CHRDATA1.SAV	CAR1	1	0	2	18	94	Treat Serious Wounds	40
+CHRDATA1	generated/liveplay/first_map_capture/pre_saves/CHRDATA1.SAV	CAR1	1	0	2	19	95	Treat Critical Wounds	75
+CHRDATA1	generated/liveplay/first_map_capture/pre_saves/CHRDATA1.SAV	CAR1	1	0	2	20	96	Treat Poisoning	40
+CHRDATA1	generated/liveplay/first_map_capture/pre_saves/CHRDATA1.SAV	CAR1	1	0	2	21	97	Treat Stun/Paralysis	60
+CHRDATA1	generated/liveplay/first_map_capture/pre_saves/CHRDATA1.SAV	CAR1	1	0	2	23	99	Diagnose	15
+CHRDATA1	generated/liveplay/first_map_capture/pre_saves/CHRDATA1.SAV	CAR1	1	0	2	31	107	Battle Tactics	5
+CHRDATA1	generated/liveplay/first_map_capture/pre_saves/CHRDATA1.SAV	CAR1	1	0	2	67	143	Maneuver in 0G	80
+CHRDATA1	generated/liveplay/first_map_capture/pre_saves/CHRDATA1.SAV	CAR1	1	0	2	74	150	Befriend Animal	55
+GEN1	generated/liveplay/first_map_capture/pre_saves/GEN1.WHO	GEN1	1	1	1	13	89	First Aid	25
+GEN1	generated/liveplay/first_map_capture/pre_saves/GEN1.WHO	GEN1	1	1	1	27	103	Mathematics	25
+GEN1	generated/liveplay/first_map_capture/pre_saves/GEN1.WHO	GEN1	1	1	1	36	112	Astronomy	20
+GEN1	generated/liveplay/first_map_capture/pre_saves/GEN1.WHO	GEN1	1	1	1	46	122	Astrogation	70
+GEN1	generated/liveplay/first_map_capture/pre_saves/GEN1.WHO	GEN1	1	1	1	51	127	Pilot Rocket	85
+GEN1	generated/liveplay/first_map_capture/pre_saves/GEN1.WHO	GEN1	1	1	1	52	128	Pilot Fixed Wing	10
+GEN1	generated/liveplay/first_map_capture/pre_saves/GEN1.WHO	GEN1	1	1	1	53	129	Drive Ground Car	40
+GEN1	generated/liveplay/first_map_capture/pre_saves/GEN1.WHO	GEN1	1	1	1	54	130	Pilot Rotor Wing	10
+GEN1	generated/liveplay/first_map_capture/pre_saves/GEN1.WHO	GEN1	1	1	1	55	131	Drive Motorcycle	10
+GEN1	generated/liveplay/first_map_capture/pre_saves/GEN1.WHO	GEN1	1	1	1	56	132	Use Jetpack	50
+GEN1	generated/liveplay/first_map_capture/pre_saves/GEN1.WHO	GEN1	1	1	1	57	133	Pilot Ship/Sub	10
+GEN1	generated/liveplay/first_map_capture/pre_saves/GEN1.WHO	GEN1	1	1	1	58	134	Drive Hvy Grnd Vehc	10
+GEN1	generated/liveplay/first_map_capture/pre_saves/GEN1.WHO	GEN1	1	1	1	59	135	Drive Jetcar	10
+GEN1	generated/liveplay/first_map_capture/pre_saves/GEN1.WHO	GEN1	1	1	1	67	143	Maneuver in 0G	85
+GEN1	generated/liveplay/first_map_capture/pre_saves/GEN1.WHO	GEN1	1	1	1	83	159	Notice	40
+RAC1	generated/liveplay/first_map_capture/pre_saves/RAC1.WHO	RAC1	2	0	1	13	89	First Aid	25
+RAC1	generated/liveplay/first_map_capture/pre_saves/RAC1.WHO	RAC1	2	0	1	27	103	Mathematics	25
+RAC1	generated/liveplay/first_map_capture/pre_saves/RAC1.WHO	RAC1	2	0	1	36	112	Astronomy	20
+RAC1	generated/liveplay/first_map_capture/pre_saves/RAC1.WHO	RAC1	2	0	1	46	122	Astrogation	70
+RAC1	generated/liveplay/first_map_capture/pre_saves/RAC1.WHO	RAC1	2	0	1	51	127	Pilot Rocket	85
+RAC1	generated/liveplay/first_map_capture/pre_saves/RAC1.WHO	RAC1	2	0	1	52	128	Pilot Fixed Wing	10
+RAC1	generated/liveplay/first_map_capture/pre_saves/RAC1.WHO	RAC1	2	0	1	53	129	Drive Ground Car	40
+RAC1	generated/liveplay/first_map_capture/pre_saves/RAC1.WHO	RAC1	2	0	1	54	130	Pilot Rotor Wing	10
+RAC1	generated/liveplay/first_map_capture/pre_saves/RAC1.WHO	RAC1	2	0	1	55	131	Drive Motorcycle	10
+RAC1	generated/liveplay/first_map_capture/pre_saves/RAC1.WHO	RAC1	2	0	1	56	132	Use Jetpack	50
+RAC1	generated/liveplay/first_map_capture/pre_saves/RAC1.WHO	RAC1	2	0	1	57	133	Pilot Ship/Sub	10
+RAC1	generated/liveplay/first_map_capture/pre_saves/RAC1.WHO	RAC1	2	0	1	58	134	Drive Hvy Grnd Vehc	10
+RAC1	generated/liveplay/first_map_capture/pre_saves/RAC1.WHO	RAC1	2	0	1	59	135	Drive Jetcar	10
+RAC1	generated/liveplay/first_map_capture/pre_saves/RAC1.WHO	RAC1	2	0	1	67	143	Maneuver in 0G	85
+RAC1	generated/liveplay/first_map_capture/pre_saves/RAC1.WHO	RAC1	2	0	1	83	159	Notice	40
+TST1	generated/liveplay/first_map_capture/pre_saves/TST1.WHO	TST1	1	0	1	13	89	First Aid	25
+TST1	generated/liveplay/first_map_capture/pre_saves/TST1.WHO	TST1	1	0	1	27	103	Mathematics	25
+TST1	generated/liveplay/first_map_capture/pre_saves/TST1.WHO	TST1	1	0	1	36	112	Astronomy	20
+TST1	generated/liveplay/first_map_capture/pre_saves/TST1.WHO	TST1	1	0	1	46	122	Astrogation	70
+TST1	generated/liveplay/first_map_capture/pre_saves/TST1.WHO	TST1	1	0	1	51	127	Pilot Rocket	85
+TST1	generated/liveplay/first_map_capture/pre_saves/TST1.WHO	TST1	1	0	1	52	128	Pilot Fixed Wing	10
+TST1	generated/liveplay/first_map_capture/pre_saves/TST1.WHO	TST1	1	0	1	53	129	Drive Ground Car	40
+TST1	generated/liveplay/first_map_capture/pre_saves/TST1.WHO	TST1	1	0	1	54	130	Pilot Rotor Wing	10
+TST1	generated/liveplay/first_map_capture/pre_saves/TST1.WHO	TST1	1	0	1	55	131	Drive Motorcycle	10
+TST1	generated/liveplay/first_map_capture/pre_saves/TST1.WHO	TST1	1	0	1	56	132	Use Jetpack	50
+TST1	generated/liveplay/first_map_capture/pre_saves/TST1.WHO	TST1	1	0	1	57	133	Pilot Ship/Sub	10
+TST1	generated/liveplay/first_map_capture/pre_saves/TST1.WHO	TST1	1	0	1	58	134	Drive Hvy Grnd Vehc	10
+TST1	generated/liveplay/first_map_capture/pre_saves/TST1.WHO	TST1	1	0	1	59	135	Drive Jetcar	10
+TST1	generated/liveplay/first_map_capture/pre_saves/TST1.WHO	TST1	1	0	1	67	143	Maneuver in 0G	85
+TST1	generated/liveplay/first_map_capture/pre_saves/TST1.WHO	TST1	1	0	1	83	159	Notice	40
+TST2	generated/liveplay/first_map_capture/pre_saves/TST2.WHO	TST2	1	0	1	13	89	First Aid	25
+TST2	generated/liveplay/first_map_capture/pre_saves/TST2.WHO	TST2	1	0	1	27	103	Mathematics	25
+TST2	generated/liveplay/first_map_capture/pre_saves/TST2.WHO	TST2	1	0	1	36	112	Astronomy	20
+TST2	generated/liveplay/first_map_capture/pre_saves/TST2.WHO	TST2	1	0	1	46	122	Astrogation	70
+TST2	generated/liveplay/first_map_capture/pre_saves/TST2.WHO	TST2	1	0	1	51	127	Pilot Rocket	85
+TST2	generated/liveplay/first_map_capture/pre_saves/TST2.WHO	TST2	1	0	1	52	128	Pilot Fixed Wing	10
+TST2	generated/liveplay/first_map_capture/pre_saves/TST2.WHO	TST2	1	0	1	53	129	Drive Ground Car	40
+TST2	generated/liveplay/first_map_capture/pre_saves/TST2.WHO	TST2	1	0	1	54	130	Pilot Rotor Wing	10
+TST2	generated/liveplay/first_map_capture/pre_saves/TST2.WHO	TST2	1	0	1	55	131	Drive Motorcycle	10
+TST2	generated/liveplay/first_map_capture/pre_saves/TST2.WHO	TST2	1	0	1	56	132	Use Jetpack	50
+TST2	generated/liveplay/first_map_capture/pre_saves/TST2.WHO	TST2	1	0	1	57	133	Pilot Ship/Sub	10
+TST2	generated/liveplay/first_map_capture/pre_saves/TST2.WHO	TST2	1	0	1	58	134	Drive Hvy Grnd Vehc	10
+TST2	generated/liveplay/first_map_capture/pre_saves/TST2.WHO	TST2	1	0	1	59	135	Drive Jetcar	10
+TST2	generated/liveplay/first_map_capture/pre_saves/TST2.WHO	TST2	1	0	1	67	143	Maneuver in 0G	85
+TST2	generated/liveplay/first_map_capture/pre_saves/TST2.WHO	TST2	1	0	1	83	159	Notice	40
+CHRDATA1	generated/liveplay/post_combat/CHRDATA1.SAV	CAR1	1	0	2	17	93	Treat Light Wounds	50
+CHRDATA1	generated/liveplay/post_combat/CHRDATA1.SAV	CAR1	1	0	2	18	94	Treat Serious Wounds	40
+CHRDATA1	generated/liveplay/post_combat/CHRDATA1.SAV	CAR1	1	0	2	19	95	Treat Critical Wounds	75
+CHRDATA1	generated/liveplay/post_combat/CHRDATA1.SAV	CAR1	1	0	2	20	96	Treat Poisoning	40
+CHRDATA1	generated/liveplay/post_combat/CHRDATA1.SAV	CAR1	1	0	2	21	97	Treat Stun/Paralysis	60
+CHRDATA1	generated/liveplay/post_combat/CHRDATA1.SAV	CAR1	1	0	2	23	99	Diagnose	15
+CHRDATA1	generated/liveplay/post_combat/CHRDATA1.SAV	CAR1	1	0	2	31	107	Battle Tactics	5
+CHRDATA1	generated/liveplay/post_combat/CHRDATA1.SAV	CAR1	1	0	2	67	143	Maneuver in 0G	80
+CHRDATA1	generated/liveplay/post_combat/CHRDATA1.SAV	CAR1	1	0	2	74	150	Befriend Animal	55
+GEN1	generated/liveplay/post_combat/GEN1.WHO	GEN1	1	1	1	13	89	First Aid	25
+GEN1	generated/liveplay/post_combat/GEN1.WHO	GEN1	1	1	1	27	103	Mathematics	25
+GEN1	generated/liveplay/post_combat/GEN1.WHO	GEN1	1	1	1	36	112	Astronomy	20
+GEN1	generated/liveplay/post_combat/GEN1.WHO	GEN1	1	1	1	46	122	Astrogation	70
+GEN1	generated/liveplay/post_combat/GEN1.WHO	GEN1	1	1	1	51	127	Pilot Rocket	85
+GEN1	generated/liveplay/post_combat/GEN1.WHO	GEN1	1	1	1	52	128	Pilot Fixed Wing	10
+GEN1	generated/liveplay/post_combat/GEN1.WHO	GEN1	1	1	1	53	129	Drive Ground Car	40
+GEN1	generated/liveplay/post_combat/GEN1.WHO	GEN1	1	1	1	54	130	Pilot Rotor Wing	10
+GEN1	generated/liveplay/post_combat/GEN1.WHO	GEN1	1	1	1	55	131	Drive Motorcycle	10
+GEN1	generated/liveplay/post_combat/GEN1.WHO	GEN1	1	1	1	56	132	Use Jetpack	50
+GEN1	generated/liveplay/post_combat/GEN1.WHO	GEN1	1	1	1	57	133	Pilot Ship/Sub	10
+GEN1	generated/liveplay/post_combat/GEN1.WHO	GEN1	1	1	1	58	134	Drive Hvy Grnd Vehc	10
+GEN1	generated/liveplay/post_combat/GEN1.WHO	GEN1	1	1	1	59	135	Drive Jetcar	10
+GEN1	generated/liveplay/post_combat/GEN1.WHO	GEN1	1	1	1	67	143	Maneuver in 0G	85
+GEN1	generated/liveplay/post_combat/GEN1.WHO	GEN1	1	1	1	83	159	Notice	40
+RAC1	generated/liveplay/post_combat/RAC1.WHO	RAC1	2	0	1	13	89	First Aid	25
+RAC1	generated/liveplay/post_combat/RAC1.WHO	RAC1	2	0	1	27	103	Mathematics	25
+RAC1	generated/liveplay/post_combat/RAC1.WHO	RAC1	2	0	1	36	112	Astronomy	20
+RAC1	generated/liveplay/post_combat/RAC1.WHO	RAC1	2	0	1	46	122	Astrogation	70
+RAC1	generated/liveplay/post_combat/RAC1.WHO	RAC1	2	0	1	51	127	Pilot Rocket	85
+RAC1	generated/liveplay/post_combat/RAC1.WHO	RAC1	2	0	1	52	128	Pilot Fixed Wing	10
+RAC1	generated/liveplay/post_combat/RAC1.WHO	RAC1	2	0	1	53	129	Drive Ground Car	40
+RAC1	generated/liveplay/post_combat/RAC1.WHO	RAC1	2	0	1	54	130	Pilot Rotor Wing	10
+RAC1	generated/liveplay/post_combat/RAC1.WHO	RAC1	2	0	1	55	131	Drive Motorcycle	10
+RAC1	generated/liveplay/post_combat/RAC1.WHO	RAC1	2	0	1	56	132	Use Jetpack	50
+RAC1	generated/liveplay/post_combat/RAC1.WHO	RAC1	2	0	1	57	133	Pilot Ship/Sub	10
+RAC1	generated/liveplay/post_combat/RAC1.WHO	RAC1	2	0	1	58	134	Drive Hvy Grnd Vehc	10
+RAC1	generated/liveplay/post_combat/RAC1.WHO	RAC1	2	0	1	59	135	Drive Jetcar	10
+RAC1	generated/liveplay/post_combat/RAC1.WHO	RAC1	2	0	1	67	143	Maneuver in 0G	85
+RAC1	generated/liveplay/post_combat/RAC1.WHO	RAC1	2	0	1	83	159	Notice	40
+TST1	generated/liveplay/post_combat/TST1.WHO	TST1	1	0	1	13	89	First Aid	25
+TST1	generated/liveplay/post_combat/TST1.WHO	TST1	1	0	1	27	103	Mathematics	25
+TST1	generated/liveplay/post_combat/TST1.WHO	TST1	1	0	1	36	112	Astronomy	20
+TST1	generated/liveplay/post_combat/TST1.WHO	TST1	1	0	1	46	122	Astrogation	70
+TST1	generated/liveplay/post_combat/TST1.WHO	TST1	1	0	1	51	127	Pilot Rocket	85
+TST1	generated/liveplay/post_combat/TST1.WHO	TST1	1	0	1	52	128	Pilot Fixed Wing	10
+TST1	generated/liveplay/post_combat/TST1.WHO	TST1	1	0	1	53	129	Drive Ground Car	40
+TST1	generated/liveplay/post_combat/TST1.WHO	TST1	1	0	1	54	130	Pilot Rotor Wing	10
+TST1	generated/liveplay/post_combat/TST1.WHO	TST1	1	0	1	55	131	Drive Motorcycle	10
+TST1	generated/liveplay/post_combat/TST1.WHO	TST1	1	0	1	56	132	Use Jetpack	50
+TST1	generated/liveplay/post_combat/TST1.WHO	TST1	1	0	1	57	133	Pilot Ship/Sub	10
+TST1	generated/liveplay/post_combat/TST1.WHO	TST1	1	0	1	58	134	Drive Hvy Grnd Vehc	10
+TST1	generated/liveplay/post_combat/TST1.WHO	TST1	1	0	1	59	135	Drive Jetcar	10
+TST1	generated/liveplay/post_combat/TST1.WHO	TST1	1	0	1	67	143	Maneuver in 0G	85
+TST1	generated/liveplay/post_combat/TST1.WHO	TST1	1	0	1	83	159	Notice	40
+TST2	generated/liveplay/post_combat/TST2.WHO	TST2	1	0	1	13	89	First Aid	25
+TST2	generated/liveplay/post_combat/TST2.WHO	TST2	1	0	1	27	103	Mathematics	25
+TST2	generated/liveplay/post_combat/TST2.WHO	TST2	1	0	1	36	112	Astronomy	20
+TST2	generated/liveplay/post_combat/TST2.WHO	TST2	1	0	1	46	122	Astrogation	70
+TST2	generated/liveplay/post_combat/TST2.WHO	TST2	1	0	1	51	127	Pilot Rocket	85
+TST2	generated/liveplay/post_combat/TST2.WHO	TST2	1	0	1	52	128	Pilot Fixed Wing	10
+TST2	generated/liveplay/post_combat/TST2.WHO	TST2	1	0	1	53	129	Drive Ground Car	40
+TST2	generated/liveplay/post_combat/TST2.WHO	TST2	1	0	1	54	130	Pilot Rotor Wing	10
+TST2	generated/liveplay/post_combat/TST2.WHO	TST2	1	0	1	55	131	Drive Motorcycle	10
+TST2	generated/liveplay/post_combat/TST2.WHO	TST2	1	0	1	56	132	Use Jetpack	50
+TST2	generated/liveplay/post_combat/TST2.WHO	TST2	1	0	1	57	133	Pilot Ship/Sub	10
+TST2	generated/liveplay/post_combat/TST2.WHO	TST2	1	0	1	58	134	Drive Hvy Grnd Vehc	10
+TST2	generated/liveplay/post_combat/TST2.WHO	TST2	1	0	1	59	135	Drive Jetcar	10
+TST2	generated/liveplay/post_combat/TST2.WHO	TST2	1	0	1	67	143	Maneuver in 0G	85
+TST2	generated/liveplay/post_combat/TST2.WHO	TST2	1	0	1	83	159	Notice	40
+CHRDATA1	generated/liveplay/pre_combat/CHRDATA1.SAV	CAR1	1	0	2	17	93	Treat Light Wounds	50
+CHRDATA1	generated/liveplay/pre_combat/CHRDATA1.SAV	CAR1	1	0	2	18	94	Treat Serious Wounds	40
+CHRDATA1	generated/liveplay/pre_combat/CHRDATA1.SAV	CAR1	1	0	2	19	95	Treat Critical Wounds	75
+CHRDATA1	generated/liveplay/pre_combat/CHRDATA1.SAV	CAR1	1	0	2	20	96	Treat Poisoning	40
+CHRDATA1	generated/liveplay/pre_combat/CHRDATA1.SAV	CAR1	1	0	2	21	97	Treat Stun/Paralysis	60
+CHRDATA1	generated/liveplay/pre_combat/CHRDATA1.SAV	CAR1	1	0	2	23	99	Diagnose	15
+CHRDATA1	generated/liveplay/pre_combat/CHRDATA1.SAV	CAR1	1	0	2	31	107	Battle Tactics	5
+CHRDATA1	generated/liveplay/pre_combat/CHRDATA1.SAV	CAR1	1	0	2	67	143	Maneuver in 0G	80
+CHRDATA1	generated/liveplay/pre_combat/CHRDATA1.SAV	CAR1	1	0	2	74	150	Befriend Animal	55
+GEN1	generated/liveplay/pre_combat/GEN1.WHO	GEN1	1	1	1	13	89	First Aid	25
+GEN1	generated/liveplay/pre_combat/GEN1.WHO	GEN1	1	1	1	27	103	Mathematics	25
+GEN1	generated/liveplay/pre_combat/GEN1.WHO	GEN1	1	1	1	36	112	Astronomy	20
+GEN1	generated/liveplay/pre_combat/GEN1.WHO	GEN1	1	1	1	46	122	Astrogation	70
+GEN1	generated/liveplay/pre_combat/GEN1.WHO	GEN1	1	1	1	51	127	Pilot Rocket	85
+GEN1	generated/liveplay/pre_combat/GEN1.WHO	GEN1	1	1	1	52	128	Pilot Fixed Wing	10
+GEN1	generated/liveplay/pre_combat/GEN1.WHO	GEN1	1	1	1	53	129	Drive Ground Car	40
+GEN1	generated/liveplay/pre_combat/GEN1.WHO	GEN1	1	1	1	54	130	Pilot Rotor Wing	10
+GEN1	generated/liveplay/pre_combat/GEN1.WHO	GEN1	1	1	1	55	131	Drive Motorcycle	10
+GEN1	generated/liveplay/pre_combat/GEN1.WHO	GEN1	1	1	1	56	132	Use Jetpack	50
+GEN1	generated/liveplay/pre_combat/GEN1.WHO	GEN1	1	1	1	57	133	Pilot Ship/Sub	10
+GEN1	generated/liveplay/pre_combat/GEN1.WHO	GEN1	1	1	1	58	134	Drive Hvy Grnd Vehc	10
+GEN1	generated/liveplay/pre_combat/GEN1.WHO	GEN1	1	1	1	59	135	Drive Jetcar	10
+GEN1	generated/liveplay/pre_combat/GEN1.WHO	GEN1	1	1	1	67	143	Maneuver in 0G	85
+GEN1	generated/liveplay/pre_combat/GEN1.WHO	GEN1	1	1	1	83	159	Notice	40
+RAC1	generated/liveplay/pre_combat/RAC1.WHO	RAC1	2	0	1	13	89	First Aid	25
+RAC1	generated/liveplay/pre_combat/RAC1.WHO	RAC1	2	0	1	27	103	Mathematics	25
+RAC1	generated/liveplay/pre_combat/RAC1.WHO	RAC1	2	0	1	36	112	Astronomy	20
+RAC1	generated/liveplay/pre_combat/RAC1.WHO	RAC1	2	0	1	46	122	Astrogation	70
+RAC1	generated/liveplay/pre_combat/RAC1.WHO	RAC1	2	0	1	51	127	Pilot Rocket	85
+RAC1	generated/liveplay/pre_combat/RAC1.WHO	RAC1	2	0	1	52	128	Pilot Fixed Wing	10
+RAC1	generated/liveplay/pre_combat/RAC1.WHO	RAC1	2	0	1	53	129	Drive Ground Car	40
+RAC1	generated/liveplay/pre_combat/RAC1.WHO	RAC1	2	0	1	54	130	Pilot Rotor Wing	10
+RAC1	generated/liveplay/pre_combat/RAC1.WHO	RAC1	2	0	1	55	131	Drive Motorcycle	10
+RAC1	generated/liveplay/pre_combat/RAC1.WHO	RAC1	2	0	1	56	132	Use Jetpack	50
+RAC1	generated/liveplay/pre_combat/RAC1.WHO	RAC1	2	0	1	57	133	Pilot Ship/Sub	10
+RAC1	generated/liveplay/pre_combat/RAC1.WHO	RAC1	2	0	1	58	134	Drive Hvy Grnd Vehc	10
+RAC1	generated/liveplay/pre_combat/RAC1.WHO	RAC1	2	0	1	59	135	Drive Jetcar	10
+RAC1	generated/liveplay/pre_combat/RAC1.WHO	RAC1	2	0	1	67	143	Maneuver in 0G	85
+RAC1	generated/liveplay/pre_combat/RAC1.WHO	RAC1	2	0	1	83	159	Notice	40
+TST1	generated/liveplay/pre_combat/TST1.WHO	TST1	1	0	1	13	89	First Aid	25
+TST1	generated/liveplay/pre_combat/TST1.WHO	TST1	1	0	1	27	103	Mathematics	25
+TST1	generated/liveplay/pre_combat/TST1.WHO	TST1	1	0	1	36	112	Astronomy	20
+TST1	generated/liveplay/pre_combat/TST1.WHO	TST1	1	0	1	46	122	Astrogation	70
+TST1	generated/liveplay/pre_combat/TST1.WHO	TST1	1	0	1	51	127	Pilot Rocket	85
+TST1	generated/liveplay/pre_combat/TST1.WHO	TST1	1	0	1	52	128	Pilot Fixed Wing	10
+TST1	generated/liveplay/pre_combat/TST1.WHO	TST1	1	0	1	53	129	Drive Ground Car	40
+TST1	generated/liveplay/pre_combat/TST1.WHO	TST1	1	0	1	54	130	Pilot Rotor Wing	10
+TST1	generated/liveplay/pre_combat/TST1.WHO	TST1	1	0	1	55	131	Drive Motorcycle	10
+TST1	generated/liveplay/pre_combat/TST1.WHO	TST1	1	0	1	56	132	Use Jetpack	50
+TST1	generated/liveplay/pre_combat/TST1.WHO	TST1	1	0	1	57	133	Pilot Ship/Sub	10
+TST1	generated/liveplay/pre_combat/TST1.WHO	TST1	1	0	1	58	134	Drive Hvy Grnd Vehc	10
+TST1	generated/liveplay/pre_combat/TST1.WHO	TST1	1	0	1	59	135	Drive Jetcar	10
+TST1	generated/liveplay/pre_combat/TST1.WHO	TST1	1	0	1	67	143	Maneuver in 0G	85
+TST1	generated/liveplay/pre_combat/TST1.WHO	TST1	1	0	1	83	159	Notice	40
+TST2	generated/liveplay/pre_combat/TST2.WHO	TST2	1	0	1	13	89	First Aid	25
+TST2	generated/liveplay/pre_combat/TST2.WHO	TST2	1	0	1	27	103	Mathematics	25
+TST2	generated/liveplay/pre_combat/TST2.WHO	TST2	1	0	1	36	112	Astronomy	20
+TST2	generated/liveplay/pre_combat/TST2.WHO	TST2	1	0	1	46	122	Astrogation	70
+TST2	generated/liveplay/pre_combat/TST2.WHO	TST2	1	0	1	51	127	Pilot Rocket	85
+TST2	generated/liveplay/pre_combat/TST2.WHO	TST2	1	0	1	52	128	Pilot Fixed Wing	10
+TST2	generated/liveplay/pre_combat/TST2.WHO	TST2	1	0	1	53	129	Drive Ground Car	40
+TST2	generated/liveplay/pre_combat/TST2.WHO	TST2	1	0	1	54	130	Pilot Rotor Wing	10
+TST2	generated/liveplay/pre_combat/TST2.WHO	TST2	1	0	1	55	131	Drive Motorcycle	10
+TST2	generated/liveplay/pre_combat/TST2.WHO	TST2	1	0	1	56	132	Use Jetpack	50
+TST2	generated/liveplay/pre_combat/TST2.WHO	TST2	1	0	1	57	133	Pilot Ship/Sub	10
+TST2	generated/liveplay/pre_combat/TST2.WHO	TST2	1	0	1	58	134	Drive Hvy Grnd Vehc	10
+TST2	generated/liveplay/pre_combat/TST2.WHO	TST2	1	0	1	59	135	Drive Jetcar	10
+TST2	generated/liveplay/pre_combat/TST2.WHO	TST2	1	0	1	67	143	Maneuver in 0G	85
+TST2	generated/liveplay/pre_combat/TST2.WHO	TST2	1	0	1	83	159	Notice	40
+CHRDATA1	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA1.SAV	ONE	1	0	1	13	89	First Aid	25
+CHRDATA1	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA1.SAV	ONE	1	0	1	27	103	Mathematics	25
+CHRDATA1	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA1.SAV	ONE	1	0	1	36	112	Astronomy	20
+CHRDATA1	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA1.SAV	ONE	1	0	1	46	122	Astrogation	70
+CHRDATA1	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA1.SAV	ONE	1	0	1	51	127	Pilot Rocket	85
+CHRDATA1	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA1.SAV	ONE	1	0	1	52	128	Pilot Fixed Wing	10
+CHRDATA1	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA1.SAV	ONE	1	0	1	53	129	Drive Ground Car	40
+CHRDATA1	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA1.SAV	ONE	1	0	1	54	130	Pilot Rotor Wing	10
+CHRDATA1	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA1.SAV	ONE	1	0	1	55	131	Drive Motorcycle	10
+CHRDATA1	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA1.SAV	ONE	1	0	1	56	132	Use Jetpack	50
+CHRDATA1	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA1.SAV	ONE	1	0	1	57	133	Pilot Ship/Sub	10
+CHRDATA1	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA1.SAV	ONE	1	0	1	58	134	Drive Hvy Grnd Vehc	10
+CHRDATA1	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA1.SAV	ONE	1	0	1	59	135	Drive Jetcar	10
+CHRDATA1	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA1.SAV	ONE	1	0	1	67	143	Maneuver in 0G	85
+CHRDATA1	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA1.SAV	ONE	1	0	1	83	159	Notice	40
+CHRDATA2	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA2.SAV	THREE	5	0	2	17	93	Treat Light Wounds	50
+CHRDATA2	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA2.SAV	THREE	5	0	2	18	94	Treat Serious Wounds	40
+CHRDATA2	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA2.SAV	THREE	5	0	2	19	95	Treat Critical Wounds	75
+CHRDATA2	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA2.SAV	THREE	5	0	2	20	96	Treat Poisoning	40
+CHRDATA2	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA2.SAV	THREE	5	0	2	21	97	Treat Stun/Paralysis	60
+CHRDATA2	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA2.SAV	THREE	5	0	2	23	99	Diagnose	15
+CHRDATA2	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA2.SAV	THREE	5	0	2	31	107	Battle Tactics	5
+CHRDATA2	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA2.SAV	THREE	5	0	2	67	143	Maneuver in 0G	80
+CHRDATA2	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA2.SAV	THREE	5	0	2	74	150	Befriend Animal	55
+CHRDATA3	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA3.SAV	TWO	6	0	3	1	77	Repair Electrical	10
+CHRDATA3	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA3.SAV	TWO	6	0	3	2	78	Repair Mechanical	10
+CHRDATA3	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA3.SAV	TWO	6	0	3	6	82	Jury Rig	50
+CHRDATA3	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA3.SAV	TWO	6	0	3	11	87	Demolitions	25
+CHRDATA3	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA3.SAV	TWO	6	0	3	13	89	First Aid	70
+CHRDATA3	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA3.SAV	TWO	6	0	3	14	90	Repair Weapon	10
+CHRDATA3	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA3.SAV	TWO	6	0	3	31	107	Battle Tactics	50
+CHRDATA3	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA3.SAV	TWO	6	0	3	56	132	Use Jetpack	20
+CHRDATA3	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA3.SAV	TWO	6	0	3	62	138	Move Silently	20
+CHRDATA3	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA3.SAV	TWO	6	0	3	67	143	Maneuver in 0G	85
+CHRDATA3	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA3.SAV	TWO	6	0	3	73	149	Leadership	50
+CHRDATA3	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA3.SAV	TWO	6	0	3	83	159	Notice	20
+CHRDATA4	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA4.SAV	FIVE	3	0	2	17	93	Treat Light Wounds	50
+CHRDATA4	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA4.SAV	FIVE	3	0	2	18	94	Treat Serious Wounds	40
+CHRDATA4	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA4.SAV	FIVE	3	0	2	19	95	Treat Critical Wounds	75
+CHRDATA4	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA4.SAV	FIVE	3	0	2	20	96	Treat Poisoning	40
+CHRDATA4	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA4.SAV	FIVE	3	0	2	21	97	Treat Stun/Paralysis	60
+CHRDATA4	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA4.SAV	FIVE	3	0	2	23	99	Diagnose	15
+CHRDATA4	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA4.SAV	FIVE	3	0	2	31	107	Battle Tactics	5
+CHRDATA4	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA4.SAV	FIVE	3	0	2	67	143	Maneuver in 0G	80
+CHRDATA4	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA4.SAV	FIVE	3	0	2	74	150	Befriend Animal	55
+CHRDATA5	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA5.SAV	FOUR	4	0	5	7	83	Bypass Security	60
+CHRDATA5	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA5.SAV	FOUR	4	0	5	8	84	Open Lock	60
+CHRDATA5	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA5.SAV	FOUR	4	0	5	13	89	First Aid	10
+CHRDATA5	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA5.SAV	FOUR	4	0	5	27	103	Mathematics	10
+CHRDATA5	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA5.SAV	FOUR	4	0	5	43	119	Programming	50
+CHRDATA5	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA5.SAV	FOUR	4	0	5	61	137	Hide in Shadows	40
+CHRDATA5	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA5.SAV	FOUR	4	0	5	62	138	Move Silently	50
+CHRDATA5	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA5.SAV	FOUR	4	0	5	63	139	Pick Pockets	40
+CHRDATA5	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA5.SAV	FOUR	4	0	5	65	141	Climb	30
+CHRDATA5	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA5.SAV	FOUR	4	0	5	67	143	Maneuver in 0G	70
+CHRDATA5	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA5.SAV	FOUR	4	0	5	76	152	Fast Talk/Convince	40
+CHRDATA5	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA5.SAV	FOUR	4	0	5	82	158	Read Lips	10
+CHRDATA5	/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/SAVE/CHRDATA5.SAV	FOUR	4	0	5	83	159	Notice	40

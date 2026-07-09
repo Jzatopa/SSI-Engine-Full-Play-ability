@@ -1,0 +1,89 @@
+Matrix Cubed reconstruction Qwen-Coder advisory job: Ghidra-to-COAB candidate matching
+
+Use only the supplied evidence. Do not invent paths, offsets, APIs,
+names, source files, test results, or original-game facts.
+
+Return compact Markdown, maximum 700 words, with these sections:
+VERIFIED_FROM_PROMPT, CANDIDATES, RISKS, LOCAL_VALIDATION_STEPS,
+UNSUPPORTED_CLAIMS.
+
+Treat every match/name as a candidate until a local agent verifies it
+against original bytes, generated artifacts, source code, and tests.
+
+Goal: propose likely COAB analogues for selected GAME.OVR decompiled snippets. Return a table: ghidra_file, likely_subsystem, possible_coab_file_function, confidence, why, exact local validation steps. Do not claim a match as verified.
+
+COAB symbol/keyword summary:
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:6:    class ovr006
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:8:        internal static int calc_battle_exp()
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:67:        internal static void addExp(int exp_to_add)
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:125:                            if (player._class == ClassId.mc_c_f ||
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:126:                                (player._class >= ClassId.mc_c_r && player._class <= ClassId.mc_f_t) ||
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:127:                                player._class == ClassId.mc_f_t)
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:132:                            else if (player._class == ClassId.mc_c_f_m ||
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:133:                                player._class == ClassId.mc_f_mu_t)
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:169:        internal static void CleanupPlayersStateAfterCombat() // sub_2D556
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:381:        internal static void displayCombatResults(int exp) /* sub_2DABC */
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:423:                seg041.displayString("The party has found Treasure!", 0, 10, 3, 1);
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:443:        internal static void select_treasure(ref int index, out Item selectedItem, out char key) /* sub_2DD2B */
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:469:        internal static void take_items_treasure() /* sub_2DDFC */
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:505:        internal static void take_treasure(ref bool items_present, ref bool money_present) /* sub_2DF2E */
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:564:        internal static void distributeCombatTreasure() /* sub_2E0C3 */
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:676:        internal static void DeallocateNonTeamMemebers() // sub_2E3C7
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:713:        internal static void distributeNpcTreasure() /*sub_2E50E*/
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:725:                    npcParts += player.npcTreasureShareCount & 7;
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:726:                    totalParts += player.npcTreasureShareCount & 7;
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:748:                        player.npcTreasureShareCount > 0)
+/home/jzatopa/.local/opt/coab/engine/ovr006.cs:763:        internal st
+
+Selected GAME.OVR decompiled snippets:
+## 0000_6283_FUN_0000_6283.c
+
+void __stdcall16far FUN_0000_6283(void)
+
+{
+  char *pcVar1;
+  char in_CL;
+  int in_BX;
+  int unaff_BP;
+  int unaff_SI;
+  int unaff_DI;
+  undefined2 unaff_SS;
+  undefined2 unaff_DS;
+  
+  pcVar1 = (char *)(unaff_BP + unaff_SI + 0xca);
+  *pcVar1 = *pcVar1 + (char)in_BX;
+  ((undefined *)&DAT_0000_5dec)[in_BX + unaff_DI] =
+       ((undefined *)&DAT_0000_5dec)[in_BX + unaff_DI] + in_CL;
+  return;
+}
+
+
+
+
+## 0000_6308_FUN_0000_6308.c
+
+undefined2 __stdcall16far FUN_0000_6308(undefined2 param_1,byte param_2,undefined4 param_3)
+
+{
+  uint uVar1;
+  int iVar2;
+  undefined2 uVar3;
+  undefined4 local_7;
+  undefined1 local_3;
+  
+  uVar3 = (undefined2)((ulong)param_3 >> 0x10);
+  iVar2 = (int)param_3 + (uint)param_2 * 6;
+  local_7 = (undefined1 *)CONCAT22(uVar3,(undefined1 *)(iVar2 + 0x3c));
+  uVar1 = CONCAT11((char)((uint)param_2 * 6 >> 8),*local_7) & 0xff7f;
+  if ((((byte)uVar1 < 3) || (*(char *)(iVar2 + 0x41) == '\0')) || (*(char *)(iVar2 + 0x40) != '\0'))
+  {
+    local_3 = 0;
+  }
+  else {
+    local_3 = 1;
+  }
+  return CONCAT11((char)(uVar1 >> 8),local_3);
+}
+
+
+

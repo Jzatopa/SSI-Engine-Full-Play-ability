@@ -1,0 +1,9 @@
+{
+  "job": "unknown_offset_clustering",
+  "model": "ollama/qwen3-coder:30b",
+  "started": "2026-07-08T16:45:49",
+  "finished": "2026-07-08T16:49:07",
+  "returncode": 0,
+  "prompt_path": "generated/qwen_advisory/2026-07-08/unknown_offset_clustering.prompt.txt",
+  "raw_path": "generated/qwen_advisory/2026-07-08/unknown_offset_clustering.raw.txt"
+}

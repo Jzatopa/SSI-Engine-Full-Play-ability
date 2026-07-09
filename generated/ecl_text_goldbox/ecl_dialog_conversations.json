@@ -1,0 +1,545 @@
+[
+  {
+    "geo_id": 17,
+    "geo_name": "Caloris Space Port",
+    "ecl_block": 17,
+    "event_id": 20,
+    "event_target": 38607,
+    "event_target_hex": "0x96CF",
+    "event_text": "\"A MAN CARRYING A BUNDLE OF PAPERS RUSHES UP TO YOU. HE GRABS YOUR ARM DESPERATELY. 'I AM DR. ROMNEY. PLEASE HELP ME GET TO THE SUN KING. IT IS MOST URGENT.'\"",
+    "dialog_target": 38607,
+    "dialog_target_hex": "0x96CF",
+    "incoming": [
+      "0x8510 ON GOTO area2.event_scratch1 choice 20"
+    ],
+    "prompt_rows": [
+      {
+        "address": 38621,
+        "address_hex": "0x96DD",
+        "row": "0x96DD 0x12 PRINTCLEAR \"A MAN CARRYING A BUNDLE OF PAPERS RUSHES UP TO YOU. HE GRABS YOUR ARM DESPERATELY. 'I AM DR. ROMNEY. PLEASE HELP ME GET TO THE SUN KING. IT IS MOST URGENT.'\"",
+        "texts": [
+          "A MAN CARRYING A BUNDLE OF PAPERS RUSHES UP TO YOU. HE GRABS YOUR ARM DESPERATELY. 'I AM DR. ROMNEY. PLEASE HELP ME GET TO THE SUN KING. IT IS MOST URGENT.'"
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "label": "HELP ROMNEY",
+        "choice_index": 0,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x96DD 0x12 PRINTCLEAR \"A MAN CARRYING A BUNDLE OF PAPERS RUSHES UP TO YOU. HE GRABS YOUR ARM DESPERATELY. 'I AM DR. ROMNEY. PLEASE HELP ME GET TO THE SUN KING. IT IS MOST URGENT.'\"",
+        "source": "attached_missing_text"
+      }
+    ],
+    "attachment_count": 1,
+    "confidence": "attached_missing_text_near_branch",
+    "evidence_limit": "Choice labels are compiled from decoded MENU rows or nearby missing packed text attachments; attached text is not ownership proof by itself."
+  },
+  {
+    "geo_id": 17,
+    "geo_name": "Caloris Space Port",
+    "ecl_block": 17,
+    "event_id": 28,
+    "event_target": 41130,
+    "event_target_hex": "0xA0AA",
+    "event_text": "\"THE AUTODOCS HUM SOOTHINGLY. 'DO YOU NEED HEALING?'\"",
+    "dialog_target": 41130,
+    "dialog_target_hex": "0xA0AA",
+    "incoming": [
+      "0x8510 ON GOTO area2.event_scratch1 choice 28"
+    ],
+    "prompt_rows": [
+      {
+        "address": 41130,
+        "address_hex": "0xA0AA",
+        "row": "0xA0AA 0x12 PRINTCLEAR \"THE AUTODOCS HUM SOOTHINGLY. 'DO YOU NEED HEALING?'\"",
+        "texts": [
+          "THE AUTODOCS HUM SOOTHINGLY. 'DO YOU NEED HEALING?'"
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "label": "SOMEONE ELSE?",
+        "choice_index": 0,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0xA0AA 0x12 PRINTCLEAR \"THE AUTODOCS HUM SOOTHINGLY. 'DO YOU NEED HEALING?'\"",
+        "source": "attached_missing_text"
+      }
+    ],
+    "attachment_count": 1,
+    "confidence": "attached_missing_text_near_branch",
+    "evidence_limit": "Choice labels are compiled from decoded MENU rows or nearby missing packed text attachments; attached text is not ownership proof by itself."
+  },
+  {
+    "geo_id": 38,
+    "geo_name": "Losangelorg Sprawls",
+    "ecl_block": 38,
+    "event_id": 5,
+    "event_target": 35005,
+    "event_target_hex": "0x88BD",
+    "event_text": "'A SIGN OVER THE SOUTH DOOR READS,' RETURN",
+    "dialog_target": 35005,
+    "dialog_target_hex": "0x88BD",
+    "incoming": [
+      "0x855B ON GOTO area2.event_scratch1 choice 5"
+    ],
+    "prompt_rows": [
+      {
+        "address": 35031,
+        "address_hex": "0x88D7",
+        "row": "0x88D7 0x12 PRINTCLEAR 'A SIGN OVER THE SOUTH DOOR READS,'",
+        "texts": [
+          "A SIGN OVER THE SOUTH DOOR READS,"
+        ]
+      },
+      {
+        "address": 35059,
+        "address_hex": "0x88F3",
+        "row": "0x88F3 0x33 PRINT RETURN",
+        "texts": []
+      },
+      {
+        "address": 35060,
+        "address_hex": "0x88F4",
+        "row": "0x88F4 0x33 PRINT RETURN",
+        "texts": []
+      },
+      {
+        "address": 35061,
+        "address_hex": "0x88F5",
+        "row": "0x88F5 0x11 PRINT 'RED RIVER BAR'",
+        "texts": [
+          "RED RIVER BAR"
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "label": "SMOKING GUN SLOTS",
+        "choice_index": 0,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x88F5 0x11 PRINT 'RED RIVER BAR'",
+        "source": "attached_missing_text"
+      }
+    ],
+    "attachment_count": 1,
+    "confidence": "attached_missing_text_near_branch",
+    "evidence_limit": "Choice labels are compiled from decoded MENU rows or nearby missing packed text attachments; attached text is not ownership proof by itself."
+  },
+  {
+    "geo_id": 38,
+    "geo_name": "Losangelorg Sprawls",
+    "ecl_block": 38,
+    "event_id": 6,
+    "event_target": 35145,
+    "event_target_hex": "0x8949",
+    "event_text": "'A MAN IN A RAGGED MILITARY UNIFORM SITS AGAINST THE WALL HERE.'",
+    "dialog_target": 35145,
+    "dialog_target_hex": "0x8949",
+    "incoming": [
+      "0x855B ON GOTO area2.event_scratch1 choice 6"
+    ],
+    "prompt_rows": [
+      {
+        "address": 35176,
+        "address_hex": "0x8968",
+        "row": "0x8968 0x12 PRINTCLEAR 'A MAN IN A RAGGED MILITARY UNIFORM SITS AGAINST THE WALL HERE.'",
+        "texts": [
+          "A MAN IN A RAGGED MILITARY UNIFORM SITS AGAINST THE WALL HERE."
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "label": "SOMEONE ELSE?",
+        "choice_index": 0,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x8968 0x12 PRINTCLEAR 'A MAN IN A RAGGED MILITARY UNIFORM SITS AGAINST THE WALL HERE.'",
+        "source": "attached_missing_text"
+      }
+    ],
+    "attachment_count": 1,
+    "confidence": "attached_missing_text_near_branch",
+    "evidence_limit": "Choice labels are compiled from decoded MENU rows or nearby missing packed text attachments; attached text is not ownership proof by itself."
+  },
+  {
+    "geo_id": 51,
+    "geo_name": "Venus Laboratory, Level 2",
+    "ecl_block": 50,
+    "event_id": 25,
+    "event_target": 36594,
+    "event_target_hex": "0x8EF2",
+    "event_text": "'VENUSIAN PLANT MATERIALS SIMMER IN LARGE VATS.'",
+    "dialog_target": 36594,
+    "dialog_target_hex": "0x8EF2",
+    "incoming": [
+      "0x826A ON GOTO area2.event_scratch1 choice 25"
+    ],
+    "prompt_rows": [],
+    "choices": [
+      {
+        "label": "MOVE CLOSER",
+        "choice_index": 0,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x8F04 0x00 EXIT",
+        "source": "attached_missing_text"
+      }
+    ],
+    "attachment_count": 1,
+    "confidence": "attached_missing_text_near_branch",
+    "evidence_limit": "Choice labels are compiled from decoded MENU rows or nearby missing packed text attachments; attached text is not ownership proof by itself."
+  },
+  {
+    "geo_id": 64,
+    "geo_name": "Luna Base",
+    "ecl_block": 64,
+    "event_id": 5,
+    "event_target": 33347,
+    "event_target_hex": "0x8243",
+    "event_text": "\"A GREY-SUITED MAN LOOKS UP. 'WHO ARE YOU HERE TO SEE?'\"",
+    "dialog_target": 33347,
+    "dialog_target_hex": "0x8243",
+    "incoming": [
+      "0x8119 ON GOTO area2.event_scratch0 choice 5"
+    ],
+    "prompt_rows": [],
+    "choices": [
+      {
+        "label": "COPERNICUS POLICE",
+        "choice_index": 0,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x824B 0x09 SAVE scratch.word_0258 = abs_000D",
+        "source": "attached_missing_text"
+      }
+    ],
+    "attachment_count": 1,
+    "confidence": "attached_missing_text_near_branch",
+    "evidence_limit": "Choice labels are compiled from decoded MENU rows or nearby missing packed text attachments; attached text is not ownership proof by itself."
+  },
+  {
+    "geo_id": 64,
+    "geo_name": "Luna Base",
+    "ecl_block": 64,
+    "event_id": 7,
+    "event_target": 33616,
+    "event_target_hex": "0x8350",
+    "event_text": "\"A MAN IN LUNA GREY SHAKES YOUR HANDS. 'WELCOME. SORRY ABOUT YOUR SHIP, BUT THERE ARE A FEW PROBLEMS.\"",
+    "dialog_target": 33616,
+    "dialog_target_hex": "0x8350",
+    "incoming": [
+      "0x8119 ON GOTO area2.event_scratch0 choice 7"
+    ],
+    "prompt_rows": [
+      {
+        "address": 33650,
+        "address_hex": "0x8372",
+        "row": "0x8372 0x12 PRINTCLEAR \"A MAN IN LUNA GREY SHAKES YOUR HANDS. 'WELCOME. SORRY ABOUT YOUR SHIP, BUT THERE ARE A FEW PROBLEMS.\"",
+        "texts": [
+          "A MAN IN LUNA GREY SHAKES YOUR HANDS. 'WELCOME. SORRY ABOUT YOUR SHIP, BUT THERE ARE A FEW PROBLEMS."
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "label": "HE CONTINUES,",
+        "choice_index": 0,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x8372 0x12 PRINTCLEAR \"A MAN IN LUNA GREY SHAKES YOUR HANDS. 'WELCOME. SORRY ABOUT YOUR SHIP, BUT THERE ARE A FEW PROBLEMS.\"",
+        "source": "attached_missing_text"
+      }
+    ],
+    "attachment_count": 1,
+    "confidence": "attached_missing_text_near_branch",
+    "evidence_limit": "Choice labels are compiled from decoded MENU rows or nearby missing packed text attachments; attached text is not ownership proof by itself."
+  },
+  {
+    "geo_id": 64,
+    "geo_name": "Luna Base",
+    "ecl_block": 64,
+    "event_id": 33,
+    "event_target": 37994,
+    "event_target_hex": "0x946A",
+    "event_text": "\"A BURLY MINER STEPS UP. 'WATCHA WANT?'\"",
+    "dialog_target": 37994,
+    "dialog_target_hex": "0x946A",
+    "incoming": [
+      "0x8119 ON GOTO area2.event_scratch0 choice 33"
+    ],
+    "prompt_rows": [],
+    "choices": [
+      {
+        "label": "GIOTTO MINING",
+        "choice_index": 0,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x9472 0x09 SAVE scratch.word_0258 = abs_000A",
+        "source": "attached_missing_text"
+      }
+    ],
+    "attachment_count": 1,
+    "confidence": "attached_missing_text_near_branch",
+    "evidence_limit": "Choice labels are compiled from decoded MENU rows or nearby missing packed text attachments; attached text is not ownership proof by itself."
+  },
+  {
+    "geo_id": 66,
+    "geo_name": "RAM Battler, Deimos Level 19-41",
+    "ecl_block": 66,
+    "event_id": 6,
+    "event_target": 35344,
+    "event_target_hex": "0x8A10",
+    "event_text": "\"'WELCOME TO THE ROGUE. I AM KILLER KANE. YOU MAY CALL ME MR. KANE. IT IS MOST UNFORTUNATE YOUR SHIP HAD SUCH...DIFFICULTIES.\"",
+    "dialog_target": 35344,
+    "dialog_target_hex": "0x8A10",
+    "incoming": [
+      "0x8235 ON GOTO area2.event_scratch0 choice 6"
+    ],
+    "prompt_rows": [
+      {
+        "address": 35347,
+        "address_hex": "0x8A13",
+        "row": "0x8A13 0x12 PRINTCLEAR \"'WELCOME TO THE ROGUE. I AM KILLER KANE. YOU MAY CALL ME MR. KANE. IT IS MOST UNFORTUNATE YOUR SHIP HAD SUCH...DIFFICULTIES.\"",
+        "texts": [
+          "'WELCOME TO THE ROGUE. I AM KILLER KANE. YOU MAY CALL ME MR. KANE. IT IS MOST UNFORTUNATE YOUR SHIP HAD SUCH...DIFFICULTIES."
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "label": "HE CONTINUES",
+        "choice_index": 0,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x8A13 0x12 PRINTCLEAR \"'WELCOME TO THE ROGUE. I AM KILLER KANE. YOU MAY CALL ME MR. KANE. IT IS MOST UNFORTUNATE YOUR SHIP HAD SUCH...DIFFICULTIES.\"",
+        "source": "attached_missing_text"
+      },
+      {
+        "label": "HIS OFFER",
+        "choice_index": 1,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x8A13 0x12 PRINTCLEAR \"'WELCOME TO THE ROGUE. I AM KILLER KANE. YOU MAY CALL ME MR. KANE. IT IS MOST UNFORTUNATE YOUR SHIP HAD SUCH...DIFFICULTIES.\"",
+        "source": "attached_missing_text"
+      }
+    ],
+    "attachment_count": 2,
+    "confidence": "attached_missing_text_near_branch",
+    "evidence_limit": "Choice labels are compiled from decoded MENU rows or nearby missing packed text attachments; attached text is not ownership proof by itself."
+  },
+  {
+    "geo_id": 66,
+    "geo_name": "RAM Battler, Deimos Level 19-41",
+    "ecl_block": 66,
+    "event_id": 17,
+    "event_target": 38111,
+    "event_target_hex": "0x94DF",
+    "event_text": "'THE CONTROL PANEL FOR THIS RESTRICTED ACCESS ELEVATOR REQUIRES A LOW LEVEL RAM SECURITY CARD.'",
+    "dialog_target": 38111,
+    "dialog_target_hex": "0x94DF",
+    "incoming": [
+      "0x8235 ON GOTO area2.event_scratch0 choice 17"
+    ],
+    "prompt_rows": [],
+    "choices": [
+      {
+        "label": "DECLINE",
+        "choice_index": 0,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x94E6 0x00 EXIT",
+        "source": "attached_missing_text"
+      }
+    ],
+    "attachment_count": 1,
+    "confidence": "attached_missing_text_near_branch",
+    "evidence_limit": "Choice labels are compiled from decoded MENU rows or nearby missing packed text attachments; attached text is not ownership proof by itself."
+  },
+  {
+    "geo_id": 81,
+    "geo_name": "PURGE Headquarters, Floors Ground-Upper",
+    "ecl_block": 81,
+    "event_id": 24,
+    "event_target": 38235,
+    "event_target_hex": "0x955B",
+    "event_text": "\"AN EMACIATED MAN IN A TATTERED LAB COAT APPROACHES. IT'S DR. ROMNEY!\" 'DR. ROMNEY MEETS YOU IN THE HALL.'",
+    "dialog_target": 38235,
+    "dialog_target_hex": "0x955B",
+    "incoming": [
+      "0x869F ON GOTO area2.event_scratch1 choice 24"
+    ],
+    "prompt_rows": [
+      {
+        "address": 38277,
+        "address_hex": "0x9585",
+        "row": "0x9585 0x12 PRINTCLEAR \"AN EMACIATED MAN IN A TATTERED LAB COAT APPROACHES. IT'S DR. ROMNEY!\"",
+        "texts": [
+          "AN EMACIATED MAN IN A TATTERED LAB COAT APPROACHES. IT'S DR. ROMNEY!"
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "label": "HE CONTINUES",
+        "choice_index": 0,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x9585 0x12 PRINTCLEAR \"AN EMACIATED MAN IN A TATTERED LAB COAT APPROACHES. IT'S DR. ROMNEY!\"",
+        "source": "attached_missing_text"
+      }
+    ],
+    "attachment_count": 1,
+    "confidence": "attached_missing_text_near_branch",
+    "evidence_limit": "Choice labels are compiled from decoded MENU rows or nearby missing packed text attachments; attached text is not ownership proof by itself."
+  },
+  {
+    "geo_id": 82,
+    "geo_name": "NEO Installation",
+    "ecl_block": 82,
+    "event_id": 18,
+    "event_target": 37063,
+    "event_target_hex": "0x90C7",
+    "event_text": "'THERE IS A COMPUTER HERE. DO YOU ATTEMPT TO USE IT?'",
+    "dialog_target": 37063,
+    "dialog_target_hex": "0x90C7",
+    "incoming": [
+      "0x84B3 ON GOTO area2.event_scratch1 choice 18"
+    ],
+    "prompt_rows": [
+      {
+        "address": 37096,
+        "address_hex": "0x90E8",
+        "row": "0x90E8 0x12 PRINTCLEAR 'THERE IS A COMPUTER HERE. DO YOU ATTEMPT TO USE IT?'",
+        "texts": [
+          "THERE IS A COMPUTER HERE. DO YOU ATTEMPT TO USE IT?"
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "label": "WHO WILL TRY?",
+        "choice_index": 0,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x90E8 0x12 PRINTCLEAR 'THERE IS A COMPUTER HERE. DO YOU ATTEMPT TO USE IT?'",
+        "source": "attached_missing_text"
+      },
+      {
+        "label": "WILBUR",
+        "choice_index": 1,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x90E8 0x12 PRINTCLEAR 'THERE IS A COMPUTER HERE. DO YOU ATTEMPT TO USE IT?'",
+        "source": "attached_missing_text"
+      }
+    ],
+    "attachment_count": 2,
+    "confidence": "attached_missing_text_near_branch",
+    "evidence_limit": "Choice labels are compiled from decoded MENU rows or nearby missing packed text attachments; attached text is not ownership proof by itself."
+  },
+  {
+    "geo_id": 112,
+    "geo_name": "Stormrider University",
+    "ecl_block": 112,
+    "event_id": 27,
+    "event_target": 39215,
+    "event_target_hex": "0x992F",
+    "event_text": "'A TIME BOMB IS ATTACHED TO A COMPUTER CONSOLE. DO YOU TRY TO DISARM IT?'",
+    "dialog_target": 39215,
+    "dialog_target_hex": "0x992F",
+    "incoming": [
+      "0x8228 ON GOTO area2.event_scratch0 choice 27"
+    ],
+    "prompt_rows": [
+      {
+        "address": 39239,
+        "address_hex": "0x9947",
+        "row": "0x9947 0x12 PRINTCLEAR 'A TIME BOMB IS ATTACHED TO A COMPUTER CONSOLE. DO YOU TRY TO DISARM IT?'",
+        "texts": [
+          "A TIME BOMB IS ATTACHED TO A COMPUTER CONSOLE. DO YOU TRY TO DISARM IT?"
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "label": "DEFUSE",
+        "choice_index": 0,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x9947 0x12 PRINTCLEAR 'A TIME BOMB IS ATTACHED TO A COMPUTER CONSOLE. DO YOU TRY TO DISARM IT?'",
+        "source": "attached_missing_text"
+      },
+      {
+        "label": "SOMEONE ELSE?",
+        "choice_index": 1,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x9947 0x12 PRINTCLEAR 'A TIME BOMB IS ATTACHED TO A COMPUTER CONSOLE. DO YOU TRY TO DISARM IT?'",
+        "source": "attached_missing_text"
+      }
+    ],
+    "attachment_count": 2,
+    "confidence": "attached_missing_text_near_branch",
+    "evidence_limit": "Choice labels are compiled from decoded MENU rows or nearby missing packed text attachments; attached text is not ownership proof by itself."
+  },
+  {
+    "geo_id": 113,
+    "geo_name": "Genetics Foundation Building, Levels 1-4",
+    "ecl_block": 113,
+    "event_id": 18,
+    "event_target": 38530,
+    "event_target_hex": "0x9682",
+    "event_text": "'YOU ENTER A COLD STORAGE ROOM.'",
+    "dialog_target": 38530,
+    "dialog_target_hex": "0x9682",
+    "incoming": [
+      "0x8966 ON GOTO area2.event_scratch1 choice 18"
+    ],
+    "prompt_rows": [
+      {
+        "address": 38538,
+        "address_hex": "0x968A",
+        "row": "0x968A 0x12 PRINTCLEAR 'YOU ENTER A COLD STORAGE ROOM.'",
+        "texts": [
+          "YOU ENTER A COLD STORAGE ROOM."
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "label": "WHO TRIES?",
+        "choice_index": 0,
+        "branch_target": null,
+        "branch_target_hex": "",
+        "selector": "",
+        "evidence": "0x968A 0x12 PRINTCLEAR 'YOU ENTER A COLD STORAGE ROOM.'",
+        "source": "attached_missing_text"
+      }
+    ],
+    "attachment_count": 1,
+    "confidence": "attached_missing_text_near_branch",
+    "evidence_limit": "Choice labels are compiled from decoded MENU rows or nearby missing packed text attachments; attached text is not ownership proof by itself."
+  }
+]

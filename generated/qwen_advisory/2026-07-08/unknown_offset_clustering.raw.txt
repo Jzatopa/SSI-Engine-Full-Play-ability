@@ -1,0 +1,52 @@
+[state-migrations] Legacy state migration warnings:
+- Skipped Memory Core legacy memory index import for agent main because legacy rows could not be imported: Error: legacy memory meta rows conflict with canonical memory index rows
+│
+◇  Doctor warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - Skipped Memory Core legacy memory index import for agent main         │
+│    because legacy rows could not be imported: Error: legacy memory meta  │
+│    rows conflict with canonical memory index rows                        │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+model.run via local
+provider: ollama
+model: qwen3-coder:30b
+outputs: 1
+# Matrix Cubed Reconstruction: Unknown Offset Clustering
+
+## VERIFIED_FROM_PROMPT
+- Character save files use 259-byte `.WHO` records
+- `0x26` offset contains gender_id (0=male, 1=female)
+- `0x27` offset contains race_id (1=terran, 2=martian)
+- `0x28` offset contains career_id (1=rocket_jock, 2=medic)
+- `0xE3` offset contains hit_points_candidate
+- Character ability scores stored at offsets 0x10 and 0x17
+
+## CANDIDATES
+- **0x29**: Level (verified in multiple samples)
+- **0x2B**: Credits (4-byte little-endian, verified)
+- **0x2F**: Experience (4-byte little-endian, verified)
+- **0x38**: Age (verified in samples)
+- **0x05-0x07**: Equipment indices (armor, weapon, shield) - STF format
+- **0x0C-0x1B**: Skills (16 bytes, STF format)
+- **0xE3**: Hit points candidate (verified, but may be field-specific)
+
+## RISKS
+- Offsets beyond 0x29 may have multiple interpretations across different save types
+- Data structure assumptions from `.WHO` records may not translate to `.STF` or other formats
+- Field boundaries are not explicitly defined in source code, creating ambiguity
+- Some fields like `hit_points_candidate` may be variant-specific and not directly tied to character stats
+
+## LOCAL_VALIDATION_STEPS
+1. Compare binary diffs of TST1 vs TST2 at 0x26, 0x27, 0x28 for gender/race/career consistency
+2. Verify `0x2B` and `0x2F` values against JSON character data using saved samples
+3. Confirm `0xE3` matches hit_points_candidate from JSON probe
+4. Cross-reference STF equipment fields with actual character inventories
+5. Validate that ability scores at 0x10/0x17 match those in JSON output
+
+## UNSUPPORTED_CLAIMS
+- No evidence supports names for offsets beyond confirmed enum fields
+- No source code indicates specific meanings for offsets between 0x29 and 0xE3
+- No evidence exists for field alignment or padding assumptions
+- No claims about `.SAV` or `SAVGAMA.DAT` structure can be made without direct byte analysis
+- Claims about monster-specific fields (0x45, 0xE3 in MON0CHA) are not supported by character save data alone

@@ -1,0 +1,1213 @@
+{
+  "file": "GAME.OVR",
+  "kind": "Borland overlay candidate",
+  "bytes": 212529,
+  "sha256": "d40f0309a114dbf2d9155c68404b0fb57cadb00e4841b3bfc335075a72296f67",
+  "head_hex": "46 42 4f 56 29 3e 03 00 1c 57 41 52 4e 49 4e 47 3a 20 49 6e 73 75 66 66 69 63 69 65 6e 74 20 4d 65 6d 6f 72 79 24 49 6e 73 75 66 66 69 63 69 65 6e 74 20 4d 65 6d 6f 72 79 2e 20 45 78 69 74 69 6e 67 20 50 72 6f 67 72 61 6d 55 89 e5 83 ec 28 83 7e 06 00 76 5b c6 46 fd 00 b0 0e 50 b0 00 50 8d 7e e0 16 57 bf 00 00 0e 57 9a c2 0a c0 0c 9a f4 0b 02 06 80 3e 17 44 00 74 0d 9a 4d 00 78 00",
+  "ascii_candidates": [
+    {
+      "offset": 0,
+      "length": 6,
+      "text": "FBOV)>"
+    },
+    {
+      "offset": 9,
+      "length": 66,
+      "text": "WARNING: Insufficient Memory$Insufficient Memory. Exiting ProgramU"
+    },
+    {
+      "offset": 393,
+      "length": 37,
+      "text": "$CREATED BY:SSI SPECIAL PROJECTS TEAM"
+    },
+    {
+      "offset": 431,
+      "length": 17,
+      "text": "GAME DEVELOPMENT:"
+    },
+    {
+      "offset": 449,
+      "length": 12,
+      "text": "PROGRAMMING:"
+    },
+    {
+      "offset": 462,
+      "length": 14,
+      "text": "Rhonda Gilbert"
+    },
+    {
+      "offset": 477,
+      "length": 10,
+      "text": "Russ Brown"
+    },
+    {
+      "offset": 488,
+      "length": 11,
+      "text": "Kerry Bonin"
+    },
+    {
+      "offset": 500,
+      "length": 15,
+      "text": "ENCOUNTER CODE:"
+    },
+    {
+      "offset": 516,
+      "length": 12,
+      "text": "Dave Shelley"
+    },
+    {
+      "offset": 529,
+      "length": 13,
+      "text": "GRAPHIC ARTS:"
+    },
+    {
+      "offset": 543,
+      "length": 10,
+      "text": "Chris Carr"
+    },
+    {
+      "offset": 554,
+      "length": 11,
+      "text": "Laura Bowen"
+    },
+    {
+      "offset": 566,
+      "length": 7,
+      "text": "Tom Ono"
+    },
+    {
+      "offset": 574,
+      "length": 10,
+      "text": "Fred Butts"
+    },
+    {
+      "offset": 585,
+      "length": 10,
+      "text": "Ken Eklund"
+    },
+    {
+      "offset": 596,
+      "length": 15,
+      "text": "Maurine Starkey"
+    },
+    {
+      "offset": 612,
+      "length": 8,
+      "text": "Tony Van"
+    },
+    {
+      "offset": 621,
+      "length": 13,
+      "text": "Mike Provenza"
+    },
+    {
+      "offset": 635,
+      "length": 13,
+      "text": "Gary Shockley"
+    },
+    {
+      "offset": 649,
+      "length": 12,
+      "text": "Mark Johnson"
+    },
+    {
+      "offset": 662,
+      "length": 23,
+      "text": "Cynthia Huang\tCyrus Lum"
+    },
+    {
+      "offset": 686,
+      "length": 15,
+      "text": "Adragon Demello"
+    },
+    {
+      "offset": 702,
+      "length": 12,
+      "text": "Susan Manley"
+    },
+    {
+      "offset": 715,
+      "length": 6,
+      "text": "MUSIC:"
+    },
+    {
+      "offset": 722,
+      "length": 26,
+      "text": "Ralph Thomas & The Fat Man"
+    },
+    {
+      "offset": 749,
+      "length": 10,
+      "text": "PLAYTEST :"
+    },
+    {
+      "offset": 760,
+      "length": 26,
+      "text": "John Boockholdt, Al Brown,"
+    },
+    {
+      "offset": 787,
+      "length": 102,
+      "text": "Glen Cureton, Mike Gilmartin,#Cyrus Harris, Rob Lupo, Sean House,$John Kirk, Alan Marenco, Brian Lowe,"
+    },
+    {
+      "offset": 890,
+      "length": 28,
+      "text": "Jeff Shotwell, Larry Webber,"
+    },
+    {
+      "offset": 919,
+      "length": 29,
+      "text": "Chris Warshauer, James YoungU"
+    },
+    {
+      "offset": 2027,
+      "length": 6,
+      "text": "titleU"
+    },
+    {
+      "offset": 2155,
+      "length": 6,
+      "text": "titleU"
+    },
+    {
+      "offset": 2767,
+      "length": 4,
+      "text": "Bvt4"
+    },
+    {
+      "offset": 2772,
+      "length": 4,
+      "text": ">@v&"
+    },
+    {
+      "offset": 3861,
+      "length": 5,
+      "text": "CPICU"
+    },
+    {
+      "offset": 5003,
+      "length": 4,
+      "text": "PICU"
+    },
+    {
+      "offset": 5701,
+      "length": 4,
+      "text": "Bvt>"
+    },
+    {
+      "offset": 5706,
+      "length": 4,
+      "text": ">@v&"
+    },
+    {
+      "offset": 5716,
+      "length": 4,
+      "text": ">@v&"
+    },
+    {
+      "offset": 6219,
+      "length": 6,
+      "text": ">Ov!u["
+    },
+    {
+      "offset": 6641,
+      "length": 5,
+      "text": ">Ov/u"
+    },
+    {
+      "offset": 7302,
+      "length": 15,
+      "text": "what do you do?"
+    },
+    {
+      "offset": 8294,
+      "length": 4,
+      "text": "E':F"
+    },
+    {
+      "offset": 8459,
+      "length": 12,
+      "text": "succeeds at "
+    },
+    {
+      "offset": 8472,
+      "length": 5,
+      "text": "party"
+    },
+    {
+      "offset": 8478,
+      "length": 11,
+      "text": " fails at U"
+    },
+    {
+      "offset": 9677,
+      "length": 6,
+      "text": ">Ov%u$"
+    },
+    {
+      "offset": 10506,
+      "length": 5,
+      "text": "&:E.u"
+    },
+    {
+      "offset": 10585,
+      "length": 28,
+      "text": "The entire party is killed!U"
+    },
+    {
+      "offset": 12091,
+      "length": 4,
+      "text": "\t<\tu"
+    },
+    {
+      "offset": 12169,
+      "length": 16,
+      "text": " and you record "
+    },
+    {
+      "offset": 12186,
+      "length": 18,
+      "text": " as logbook entry "
+    },
+    {
+      "offset": 12570,
+      "length": 6,
+      "text": "&:E.uc"
+    },
+    {
+      "offset": 12581,
+      "length": 4,
+      "text": "E4$ "
+    },
+    {
+      "offset": 12762,
+      "length": 37,
+      "text": "$Congrats. The team gains experience!"
+    },
+    {
+      "offset": 12800,
+      "length": 10,
+      "text": "Congrats. "
+    },
+    {
+      "offset": 12811,
+      "length": 19,
+      "text": " gains experience!U"
+    },
+    {
+      "offset": 14485,
+      "length": 5,
+      "text": ">8D\tu"
+    },
+    {
+      "offset": 15212,
+      "length": 4,
+      "text": "v<Au"
+    },
+    {
+      "offset": 15222,
+      "length": 4,
+      "text": "l<Bu"
+    },
+    {
+      "offset": 15232,
+      "length": 4,
+      "text": "b<Cu"
+    },
+    {
+      "offset": 15242,
+      "length": 4,
+      "text": "X<Du"
+    },
+    {
+      "offset": 15252,
+      "length": 4,
+      "text": "N<Eu"
+    },
+    {
+      "offset": 15262,
+      "length": 4,
+      "text": "D<Fu"
+    },
+    {
+      "offset": 15272,
+      "length": 4,
+      "text": ":<Gu"
+    },
+    {
+      "offset": 15282,
+      "length": 4,
+      "text": "0<Hu"
+    },
+    {
+      "offset": 15292,
+      "length": 4,
+      "text": "&<Iu"
+    },
+    {
+      "offset": 16019,
+      "length": 4,
+      "text": "<Eug"
+    },
+    {
+      "offset": 16521,
+      "length": 12,
+      "text": "(\t-\t>\t[\tg\tz\t"
+    },
+    {
+      "offset": 16928,
+      "length": 7,
+      "text": " O c { "
+    },
+    {
+      "offset": 16940,
+      "length": 9,
+      "text": " \"!X!j!w!"
+    },
+    {
+      "offset": 16956,
+      "length": 11,
+      "text": "\",\">\"F\"Q\"a\""
+    },
+    {
+      "offset": 16978,
+      "length": 13,
+      "text": "#!#)#5#=#k#x#"
+    },
+    {
+      "offset": 17006,
+      "length": 9,
+      "text": "$)$.$E$|$"
+    },
+    {
+      "offset": 17030,
+      "length": 17,
+      "text": "$.%6%J%T%^%m%r%|%"
+    },
+    {
+      "offset": 17080,
+      "length": 5,
+      "text": "'s(}("
+    },
+    {
+      "offset": 17102,
+      "length": 11,
+      "text": ")1)>)I)S)g)"
+    },
+    {
+      "offset": 17126,
+      "length": 15,
+      "text": "+6+>+I+T+_+j+u+"
+    },
+    {
+      "offset": 17146,
+      "length": 5,
+      "text": ",',i,"
+    },
+    {
+      "offset": 17154,
+      "length": 7,
+      "text": ",1-O-j-"
+    },
+    {
+      "offset": 17174,
+      "length": 5,
+      "text": ".L.}/"
+    },
+    {
+      "offset": 17190,
+      "length": 7,
+      "text": "3!3*3y3"
+    },
+    {
+      "offset": 17204,
+      "length": 5,
+      "text": "404[4"
+    },
+    {
+      "offset": 17212,
+      "length": 6,
+      "text": "4\t5p5U"
+    },
+    {
+      "offset": 17285,
+      "length": 10,
+      "text": "Enemy ship"
+    },
+    {
+      "offset": 17907,
+      "length": 4,
+      "text": "&(U>"
+    },
+    {
+      "offset": 17964,
+      "length": 4,
+      "text": ">JS&"
+    },
+    {
+      "offset": 17975,
+      "length": 4,
+      "text": ">NS&"
+    },
+    {
+      "offset": 17980,
+      "length": 4,
+      "text": "E7(F"
+    },
+    {
+      "offset": 18980,
+      "length": 29,
+      "text": " leaps clear of an explosion."
+    },
+    {
+      "offset": 19010,
+      "length": 7,
+      "text": " takes "
+    },
+    {
+      "offset": 19018,
+      "length": 18,
+      "text": " points of damage!"
+    },
+    {
+      "offset": 19037,
+      "length": 10,
+      "text": " is dead!!"
+    },
+    {
+      "offset": 19048,
+      "length": 10,
+      "text": " is dying!"
+    },
+    {
+      "offset": 19059,
+      "length": 16,
+      "text": " is unconscious!"
+    },
+    {
+      "offset": 19076,
+      "length": 23,
+      "text": " is seriously injured.U"
+    },
+    {
+      "offset": 19560,
+      "length": 5,
+      "text": "TSu*;"
+    },
+    {
+      "offset": 19566,
+      "length": 4,
+      "text": "RSu$"
+    },
+    {
+      "offset": 19635,
+      "length": 7,
+      "text": " fires "
+    },
+    {
+      "offset": 19643,
+      "length": 16,
+      "text": "s and \thits for "
+    },
+    {
+      "offset": 19660,
+      "length": 18,
+      "text": " points of damage!"
+    },
+    {
+      "offset": 19679,
+      "length": 8,
+      "text": "misses.U"
+    },
+    {
+      "offset": 19955,
+      "length": 4,
+      "text": "6NS1"
+    },
+    {
+      "offset": 20036,
+      "length": 14,
+      "text": " destroyed on "
+    },
+    {
+      "offset": 20053,
+      "length": 12,
+      "text": " destroyed!U"
+    },
+    {
+      "offset": 20197,
+      "length": 4,
+      "text": "E>(F"
+    },
+    {
+      "offset": 20703,
+      "length": 5,
+      "text": "PSu4;"
+    },
+    {
+      "offset": 20709,
+      "length": 4,
+      "text": "NSu."
+    },
+    {
+      "offset": 20789,
+      "length": 5,
+      "text": "LSu,;"
+    },
+    {
+      "offset": 20795,
+      "length": 4,
+      "text": "JSu&"
+    },
+    {
+      "offset": 21339,
+      "length": 10,
+      "text": "\thits for "
+    },
+    {
+      "offset": 21350,
+      "length": 18,
+      "text": " points of damage!"
+    },
+    {
+      "offset": 21369,
+      "length": 7,
+      "text": "misses."
+    },
+    {
+      "offset": 21377,
+      "length": 16,
+      "text": " attacks with a "
+    },
+    {
+      "offset": 21394,
+      "length": 6,
+      "text": " and U"
+    },
+    {
+      "offset": 21961,
+      "length": 38,
+      "text": " attempts a speed boost and \tsucceeds!"
+    },
+    {
+      "offset": 22000,
+      "length": 7,
+      "text": "fails!U"
+    },
+    {
+      "offset": 22477,
+      "length": 5,
+      "text": "Weap "
+    },
+    {
+      "offset": 22485,
+      "length": 4,
+      "text": "Quit"
+    }
+  ],
+  "pascal_candidates": [
+    {
+      "offset": 8,
+      "length": 28,
+      "text": "WARNING: Insufficient Memory"
+    },
+    {
+      "offset": 16,
+      "length": 58,
+      "text": " Insufficient Memory$Insufficient Memory. Exiting ProgramU"
+    },
+    {
+      "offset": 17,
+      "length": 32,
+      "text": "Insufficient Memory$Insufficient"
+    },
+    {
+      "offset": 30,
+      "length": 32,
+      "text": "Memory$Insufficient Memory. Exit"
+    },
+    {
+      "offset": 37,
+      "length": 36,
+      "text": "Insufficient Memory. Exiting Program"
+    },
+    {
+      "offset": 393,
+      "length": 36,
+      "text": "CREATED BY:SSI SPECIAL PROJECTS TEAM"
+    },
+    {
+      "offset": 430,
+      "length": 17,
+      "text": "GAME DEVELOPMENT:"
+    },
+    {
+      "offset": 448,
+      "length": 12,
+      "text": "PROGRAMMING:"
+    },
+    {
+      "offset": 461,
+      "length": 14,
+      "text": "Rhonda Gilbert"
+    },
+    {
+      "offset": 476,
+      "length": 10,
+      "text": "Russ Brown"
+    },
+    {
+      "offset": 487,
+      "length": 11,
+      "text": "Kerry Bonin"
+    },
+    {
+      "offset": 499,
+      "length": 15,
+      "text": "ENCOUNTER CODE:"
+    },
+    {
+      "offset": 515,
+      "length": 12,
+      "text": "Dave Shelley"
+    },
+    {
+      "offset": 528,
+      "length": 13,
+      "text": "GRAPHIC ARTS:"
+    },
+    {
+      "offset": 542,
+      "length": 10,
+      "text": "Chris Carr"
+    },
+    {
+      "offset": 553,
+      "length": 11,
+      "text": "Laura Bowen"
+    },
+    {
+      "offset": 565,
+      "length": 7,
+      "text": "Tom Ono"
+    },
+    {
+      "offset": 573,
+      "length": 10,
+      "text": "Fred Butts"
+    },
+    {
+      "offset": 584,
+      "length": 10,
+      "text": "Ken Eklund"
+    },
+    {
+      "offset": 595,
+      "length": 15,
+      "text": "Maurine Starkey"
+    },
+    {
+      "offset": 611,
+      "length": 8,
+      "text": "Tony Van"
+    },
+    {
+      "offset": 620,
+      "length": 13,
+      "text": "Mike Provenza"
+    },
+    {
+      "offset": 634,
+      "length": 13,
+      "text": "Gary Shockley"
+    },
+    {
+      "offset": 648,
+      "length": 12,
+      "text": "Mark Johnson"
+    },
+    {
+      "offset": 661,
+      "length": 13,
+      "text": "Cynthia Huang"
+    },
+    {
+      "offset": 675,
+      "length": 9,
+      "text": "Cyrus Lum"
+    },
+    {
+      "offset": 685,
+      "length": 15,
+      "text": "Adragon Demello"
+    },
+    {
+      "offset": 701,
+      "length": 12,
+      "text": "Susan Manley"
+    },
+    {
+      "offset": 714,
+      "length": 6,
+      "text": "MUSIC:"
+    },
+    {
+      "offset": 721,
+      "length": 26,
+      "text": "Ralph Thomas & The Fat Man"
+    },
+    {
+      "offset": 748,
+      "length": 10,
+      "text": "PLAYTEST :"
+    },
+    {
+      "offset": 759,
+      "length": 26,
+      "text": "John Boockholdt, Al Brown,"
+    },
+    {
+      "offset": 786,
+      "length": 29,
+      "text": "Glen Cureton, Mike Gilmartin,"
+    },
+    {
+      "offset": 791,
+      "length": 32,
+      "text": "Cureton, Mike Gilmartin,#Cyrus H"
+    },
+    {
+      "offset": 799,
+      "length": 44,
+      "text": " Mike Gilmartin,#Cyrus Harris, Rob Lupo, Sea"
+    },
+    {
+      "offset": 800,
+      "length": 32,
+      "text": "Mike Gilmartin,#Cyrus Harris, Ro"
+    },
+    {
+      "offset": 805,
+      "length": 32,
+      "text": "Gilmartin,#Cyrus Harris, Rob Lup"
+    },
+    {
+      "offset": 815,
+      "length": 44,
+      "text": "#Cyrus Harris, Rob Lupo, Sean House,$John Ki"
+    },
+    {
+      "offset": 816,
+      "length": 35,
+      "text": "Cyrus Harris, Rob Lupo, Sean House,"
+    },
+    {
+      "offset": 822,
+      "length": 32,
+      "text": "Harris, Rob Lupo, Sean House,$Jo"
+    },
+    {
+      "offset": 829,
+      "length": 44,
+      "text": " Rob Lupo, Sean House,$John Kirk, Alan Maren"
+    },
+    {
+      "offset": 830,
+      "length": 32,
+      "text": "Rob Lupo, Sean House,$John Kirk,"
+    },
+    {
+      "offset": 834,
+      "length": 32,
+      "text": "Lupo, Sean House,$John Kirk, Ala"
+    },
+    {
+      "offset": 839,
+      "length": 44,
+      "text": " Sean House,$John Kirk, Alan Marenco, Brian "
+    },
+    {
+      "offset": 840,
+      "length": 32,
+      "text": "Sean House,$John Kirk, Alan Mare"
+    },
+    {
+      "offset": 845,
+      "length": 32,
+      "text": "House,$John Kirk, Alan Marenco, "
+    },
+    {
+      "offset": 852,
+      "length": 36,
+      "text": "John Kirk, Alan Marenco, Brian Lowe,"
+    },
+    {
+      "offset": 889,
+      "length": 28,
+      "text": "Jeff Shotwell, Larry Webber,"
+    },
+    {
+      "offset": 918,
+      "length": 28,
+      "text": "Chris Warshauer, James Young"
+    },
+    {
+      "offset": 2026,
+      "length": 5,
+      "text": "title"
+    },
+    {
+      "offset": 2154,
+      "length": 5,
+      "text": "title"
+    },
+    {
+      "offset": 3860,
+      "length": 4,
+      "text": "CPIC"
+    },
+    {
+      "offset": 7301,
+      "length": 15,
+      "text": "what do you do?"
+    },
+    {
+      "offset": 8458,
+      "length": 12,
+      "text": "succeeds at "
+    },
+    {
+      "offset": 8471,
+      "length": 5,
+      "text": "party"
+    },
+    {
+      "offset": 8477,
+      "length": 10,
+      "text": " fails at "
+    },
+    {
+      "offset": 10584,
+      "length": 27,
+      "text": "The entire party is killed!"
+    },
+    {
+      "offset": 12168,
+      "length": 16,
+      "text": " and you record "
+    },
+    {
+      "offset": 12185,
+      "length": 18,
+      "text": " as logbook entry "
+    },
+    {
+      "offset": 12762,
+      "length": 36,
+      "text": "Congrats. The team gains experience!"
+    },
+    {
+      "offset": 12799,
+      "length": 10,
+      "text": "Congrats. "
+    },
+    {
+      "offset": 12810,
+      "length": 18,
+      "text": " gains experience!"
+    },
+    {
+      "offset": 17125,
+      "length": 13,
+      "text": "+6+>+I+T+_+j+"
+    },
+    {
+      "offset": 17284,
+      "length": 10,
+      "text": "Enemy ship"
+    },
+    {
+      "offset": 18979,
+      "length": 29,
+      "text": " leaps clear of an explosion."
+    },
+    {
+      "offset": 19009,
+      "length": 7,
+      "text": " takes "
+    },
+    {
+      "offset": 19017,
+      "length": 18,
+      "text": " points of damage!"
+    },
+    {
+      "offset": 19036,
+      "length": 10,
+      "text": " is dead!!"
+    },
+    {
+      "offset": 19047,
+      "length": 10,
+      "text": " is dying!"
+    },
+    {
+      "offset": 19058,
+      "length": 16,
+      "text": " is unconscious!"
+    },
+    {
+      "offset": 19075,
+      "length": 22,
+      "text": " is seriously injured."
+    },
+    {
+      "offset": 19634,
+      "length": 7,
+      "text": " fires "
+    },
+    {
+      "offset": 19642,
+      "length": 6,
+      "text": "s and "
+    },
+    {
+      "offset": 19649,
+      "length": 9,
+      "text": "hits for "
+    },
+    {
+      "offset": 19659,
+      "length": 18,
+      "text": " points of damage!"
+    },
+    {
+      "offset": 19678,
+      "length": 7,
+      "text": "misses."
+    },
+    {
+      "offset": 20035,
+      "length": 14,
+      "text": " destroyed on "
+    },
+    {
+      "offset": 20052,
+      "length": 11,
+      "text": " destroyed!"
+    },
+    {
+      "offset": 21339,
+      "length": 9,
+      "text": "hits for "
+    },
+    {
+      "offset": 21349,
+      "length": 18,
+      "text": " points of damage!"
+    },
+    {
+      "offset": 21368,
+      "length": 7,
+      "text": "misses."
+    },
+    {
+      "offset": 21376,
+      "length": 16,
+      "text": " attacks with a "
+    },
+    {
+      "offset": 21393,
+      "length": 5,
+      "text": " and "
+    },
+    {
+      "offset": 21960,
+      "length": 28,
+      "text": " attempts a speed boost and "
+    },
+    {
+      "offset": 21961,
+      "length": 32,
+      "text": "attempts a speed boost and \tsucc"
+    },
+    {
+      "offset": 21989,
+      "length": 9,
+      "text": "succeeds!"
+    },
+    {
+      "offset": 21999,
+      "length": 6,
+      "text": "fails!"
+    },
+    {
+      "offset": 22476,
+      "length": 5,
+      "text": "Weap "
+    },
+    {
+      "offset": 22484,
+      "length": 4,
+      "text": "Quit"
+    },
+    {
+      "offset": 22554,
+      "length": 22,
+      "text": " attempts to jury-rig "
+    },
+    {
+      "offset": 22577,
+      "length": 14,
+      "text": " and succeeds!"
+    },
+    {
+      "offset": 22592,
+      "length": 11,
+      "text": " and fails."
+    },
+    {
+      "offset": 24463,
+      "length": 25,
+      "text": "Try to dodge enemy ship? "
+    },
+    {
+      "offset": 24725,
+      "length": 17,
+      "text": " attempts to ram!"
+    },
+    {
+      "offset": 24743,
+      "length": 9,
+      "text": "Your ship"
+    },
+    {
+      "offset": 24753,
+      "length": 23,
+      "text": " dodges out of the way!"
+    },
+    {
+      "offset": 24777,
+      "length": 19,
+      "text": "Ramming successful!"
+    },
+    {
+      "offset": 25113,
+      "length": 12,
+      "text": " is closing."
+    },
+    {
+      "offset": 25239,
+      "length": 15,
+      "text": " is retreating."
+    },
+    {
+      "offset": 25507,
+      "length": 24,
+      "text": "Select weapon to reload:"
+    },
+    {
+      "offset": 25534,
+      "length": 4,
+      "text": "Quit"
+    },
+    {
+      "offset": 25572,
+      "length": 11,
+      "text": " reloads a "
+    },
+    {
+      "offset": 27085,
+      "length": 33,
+      "text": "The enemy jury-rigs some systems."
+    },
+    {
+      "offset": 28148,
+      "length": 15,
+      "text": " is your pilot."
+    },
+    {
+      "offset": 28165,
+      "length": 10,
+      "text": "what does "
+    },
+    {
+      "offset": 28176,
+      "length": 12,
+      "text": " want to do?"
+    },
+    {
+      "offset": 28189,
+      "length": 12,
+      "text": "Fire Target "
+    },
+    {
+      "offset": 28202,
+      "length": 5,
+      "text": "Load "
+    },
+    {
+      "offset": 28208,
+      "length": 8,
+      "text": "Juryrig "
+    },
+    {
+      "offset": 28217,
+      "length": 10,
+      "text": "Quit View@"
+    },
+    {
+      "offset": 28228,
+      "length": 6,
+      "text": "Close "
+    },
+    {
+      "offset": 28235,
+      "length": 9,
+      "text": "Withdraw "
+    },
+    {
+      "offset": 28245,
+      "length": 4,
+      "text": "Ram "
+    },
+    {
+      "offset": 28250,
+      "length": 6,
+      "text": "Board "
+    },
+    {
+      "offset": 28257,
+      "length": 8,
+      "text": "Command "
+    },
+    {
+      "offset": 28266,
+      "length": 4,
+      "text": "Aid "
+    },
+    {
+      "offset": 28271,
+      "length": 14,
+      "text": "Boost engines "
+    },
+    {
+      "offset": 28286,
+      "length": 8,
+      "text": "Sensors "
+    },
+    {
+      "offset": 29430,
+      "length": 55,
+      "text": "You close with the injured vessel and attempt to board!"
+    },
+    {
+      "offset": 29434,
+      "length": 32,
+      "text": "close with the injured vessel an"
+    }
+  ],
+  "record_hints": [],
+  "semantic_status": "file-level structural evidence only"
+}

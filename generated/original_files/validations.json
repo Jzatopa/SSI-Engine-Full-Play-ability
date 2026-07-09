@@ -1,0 +1,218 @@
+[
+  {
+    "file": "8X8D0.DAX",
+    "decoded_block_count": 1,
+    "existing_block_count": 1,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "8X8D1.DAX",
+    "decoded_block_count": 13,
+    "existing_block_count": 13,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "BACK1.DAX",
+    "decoded_block_count": 20,
+    "existing_block_count": 20,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "BIGPIC1.DAX",
+    "decoded_block_count": 6,
+    "existing_block_count": 6,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "BORDERS.DAX",
+    "decoded_block_count": 1,
+    "existing_block_count": 1,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "CHARS.DAX",
+    "decoded_block_count": 72,
+    "existing_block_count": 72,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "COMSPR.DAX",
+    "decoded_block_count": 50,
+    "existing_block_count": 50,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "CPIC1.DAX",
+    "decoded_block_count": 108,
+    "existing_block_count": 108,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "CURSOR.DAX",
+    "decoded_block_count": 1,
+    "existing_block_count": 1,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "ECL1.DAX",
+    "decoded_block_count": 33,
+    "existing_block_count": 33,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "GEO1.DAX",
+    "decoded_block_count": 25,
+    "existing_block_count": 25,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "HITEK.DAX",
+    "decoded_block_count": 1,
+    "existing_block_count": 1,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "ITEM0.DAX",
+    "decoded_block_count": 1,
+    "existing_block_count": 1,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "LOTEK.DAX",
+    "decoded_block_count": 1,
+    "existing_block_count": 1,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "MARSCOM.DAX",
+    "decoded_block_count": 1,
+    "existing_block_count": 1,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "decoded_block_count": 63,
+    "existing_block_count": 63,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "decoded_block_count": 42,
+    "existing_block_count": 42,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "decoded_block_count": 35,
+    "existing_block_count": 35,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "MUSIC.DAX",
+    "decoded_block_count": 9,
+    "existing_block_count": 9,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "PIC1.DAX",
+    "decoded_block_count": 46,
+    "existing_block_count": 46,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "PIC7.DAX",
+    "decoded_block_count": 1,
+    "existing_block_count": 1,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "PIC8.DAX",
+    "decoded_block_count": 1,
+    "existing_block_count": 1,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "SHIPS.DAX",
+    "decoded_block_count": 41,
+    "existing_block_count": 41,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "decoded_block_count": 23,
+    "existing_block_count": 23,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "TITLE.DAX",
+    "decoded_block_count": 4,
+    "existing_block_count": 4,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "VENUSCOM.DAX",
+    "decoded_block_count": 1,
+    "existing_block_count": 1,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "decoded_block_count": 11,
+    "existing_block_count": 11,
+    "matches_existing_count": true,
+    "warning_count": 0,
+    "warnings": []
+  }
+]

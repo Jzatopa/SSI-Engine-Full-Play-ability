@@ -1,0 +1,2704 @@
+{
+  "valid": true,
+  "file": "GEO1.DAX",
+  "bytes": 21280,
+  "sha256": "398bab0120f5d16102aa121178d8f10d932a8db2bc23d96cb615dc6bb1171598",
+  "toc_len": 225,
+  "data_offset": 227,
+  "block_count": 25,
+  "semantic_status": "partially decoded: 25 map blocks parsed",
+  "warnings": [],
+  "blocks": [
+    {
+      "id": 1,
+      "toc_entry_offset": 2,
+      "packed_relative_offset": 0,
+      "packed_absolute_offset": 227,
+      "raw_size": 1026,
+      "packed_size": 887,
+      "decoded_size": 1026,
+      "decoded_sha256": "f6834b9ebf40531e37106d6cc91d9bcce5a1374ecc9b5c7c3e5b8211b9cb69f3",
+      "packed_sha256": "38c23d83e2f45af0af1f2961b282f5f2cd3c829f63dbe853d681fed355e06a02",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.8645,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "01 11 b0 bb 8b bb bb b0 bb b0 b0 b0 b0 b0 bb b0 b0 bb 00 0c 0c 0b 0b 00 0b 00 00 00 00 00 0b 00 00 0b b0 cb c0 bb 0c 00 0b b0 b0 bb 00 00 00 b0 bc 0b 00 0b 00 0b 0b 00 0b 00 00 0b 00 00 00 00",
+      "tail_hex": "00 00 04 40 00 00 00 01 00 00 00 00 10 10 11 10 00 00 00 00 00 04 40 00 04 40 00 00 01 01 01 01",
+      "ascii_candidates": [
+        {
+          "offset": 250,
+          "length": 4,
+          "text": "\tppw"
+        },
+        {
+          "offset": 502,
+          "length": 7,
+          "text": "ppyppyp"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 499,
+        "0b": 90,
+        "80": 88,
+        "b0": 81,
+        "bb": 47,
+        "01": 17,
+        "c0": 17,
+        "0c": 16,
+        "04": 16,
+        "40": 16,
+        "10": 14,
+        "cb": 13,
+        "bc": 13,
+        "70": 10,
+        "d0": 8,
+        "0d": 7
+      },
+      "warnings": []
+    },
+    {
+      "id": 17,
+      "toc_entry_offset": 11,
+      "packed_relative_offset": 887,
+      "packed_absolute_offset": 1114,
+      "raw_size": 1026,
+      "packed_size": 794,
+      "decoded_size": 1026,
+      "decoded_sha256": "bc4155fec9ad332ed44c91042c935fe0f8d39f352515750f81a1bbbe57cc5c40",
+      "packed_sha256": "e0fa1de534f643b6903c8285496f2d86e6fcd35612b0b4c89f2e11f4badcf6b5",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.7739,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 50 60 50 80 50 60 50 50 50 60 50 80 50 60 50 55 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 06 00 06 66 00 00 00 00 00 00 00 00 00 00 00 00 05 00 00 60 00 01 10 d1 00 01 d0 11 00 00 01",
+      "tail_hex": "00 00 00 00 00 01 00 00 00 01 00 01 00 01 00 00 00 00 04 40 00 00 00 00 00 00 00 00 00 00 04 40",
+      "ascii_candidates": [
+        {
+          "offset": 6,
+          "length": 7,
+          "text": "P`PPP`P"
+        },
+        {
+          "offset": 14,
+          "length": 4,
+          "text": "P`PU"
+        },
+        {
+          "offset": 143,
+          "length": 9,
+          "text": "pPUUUUUPu"
+        },
+        {
+          "offset": 194,
+          "length": 6,
+          "text": "  'PPP"
+        },
+        {
+          "offset": 432,
+          "length": 8,
+          "text": "@pUPPPUP"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 394,
+        "80": 214,
+        "10": 64,
+        "01": 62,
+        "11": 37,
+        "d0": 27,
+        "50": 22,
+        "04": 22,
+        "40": 20,
+        "05": 14,
+        "d1": 14,
+        "60": 9,
+        "55": 9,
+        "06": 6,
+        "0d": 6,
+        "e0": 5
+      },
+      "warnings": []
+    },
+    {
+      "id": 18,
+      "toc_entry_offset": 20,
+      "packed_relative_offset": 1681,
+      "packed_absolute_offset": 1908,
+      "raw_size": 1026,
+      "packed_size": 207,
+      "decoded_size": 1026,
+      "decoded_sha256": "7840523b2a3795abfc242a9756eb713cbf58594697f625bb1d413b9f3e289320",
+      "packed_sha256": "78e3b904a91328ed593fca4e01646f4ff4d7dffd4f66d8c802b37c82047ebb32",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.2018,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 50 50 56 50 50 56 50 50 50 50 50 55 00 00 00 00 00 00 05 50 56 50 50 50 50 50 50 55 00 00 00 00 65 65 50 05 50 50 50 50 50 50 50 50 00 00 00 00 60 60 55 65 00 00 00 00 00 00 00 00 00 00",
+      "tail_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 2,
+          "length": 12,
+          "text": "PPVPPVPPPPPU"
+        },
+        {
+          "offset": 21,
+          "length": 9,
+          "text": "PVPPPPPPU"
+        },
+        {
+          "offset": 38,
+          "length": 8,
+          "text": "PPPPPPPP"
+        },
+        {
+          "offset": 50,
+          "length": 4,
+          "text": "``Ue"
+        },
+        {
+          "offset": 261,
+          "length": 9,
+          "text": "VPPVPPPPP"
+        },
+        {
+          "offset": 278,
+          "length": 8,
+          "text": "PVPPPPPP"
+        },
+        {
+          "offset": 290,
+          "length": 4,
+          "text": "eeU`"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 20,
+          "length": 5,
+          "text": "PVPPP"
+        },
+        {
+          "offset": 37,
+          "length": 5,
+          "text": "PPPPP"
+        },
+        {
+          "offset": 277,
+          "length": 5,
+          "text": "PVPPP"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 644,
+        "80": 256,
+        "50": 53,
+        "05": 22,
+        "55": 9,
+        "56": 7,
+        "65": 7,
+        "60": 6,
+        "04": 4,
+        "40": 4,
+        "10": 4,
+        "01": 4,
+        "11": 3,
+        "cc": 1,
+        "dd": 1,
+        "06": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 21,
+      "toc_entry_offset": 29,
+      "packed_relative_offset": 1888,
+      "packed_absolute_offset": 2115,
+      "raw_size": 1026,
+      "packed_size": 840,
+      "decoded_size": 1026,
+      "decoded_sha256": "abe180d47034b60b22f976c72f33000a7859e63fd508ddbaaae3a9d28b298684",
+      "packed_sha256": "8e5137f6794f4bb93382ebcf4763e036ab636e0ae8e97aa388f883b1e665a908",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.8187,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "01 11 90 20 90 19 99 90 99 99 99 90 90 40 40 99 99 28 09 90 99 09 09 00 09 19 09 93 00 00 00 00 39 08 09 00 09 09 00 90 30 00 39 09 00 09 19 00 09 08 00 90 40 09 90 93 03 90 99 90 93 00 00 00",
+      "tail_hex": "00 00 00 00 00 00 00 00 00 00 04 44 40 04 41 00 00 00 00 00 00 00 00 00 00 00 04 40 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 280,
+          "length": 4,
+          "text": "0\t9\t"
+        },
+        {
+          "offset": 450,
+          "length": 5,
+          "text": "\t\t9\t\t"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 312,
+        "80": 219,
+        "09": 99,
+        "90": 93,
+        "99": 76,
+        "03": 27,
+        "40": 21,
+        "04": 21,
+        "01": 20,
+        "93": 20,
+        "82": 12,
+        "39": 11,
+        "19": 10,
+        "07": 10,
+        "81": 9,
+        "10": 9
+      },
+      "warnings": []
+    },
+    {
+      "id": 33,
+      "toc_entry_offset": 38,
+      "packed_relative_offset": 2728,
+      "packed_absolute_offset": 2955,
+      "raw_size": 1026,
+      "packed_size": 983,
+      "decoded_size": 1026,
+      "decoded_sha256": "9c15794f8d8e020c6b1ce59d1c2f7a9b69e9194363155b14dfd74450470db852",
+      "packed_sha256": "88e61c34a7d2da38a702decbb1505ac60bce632cdce8b23faca4a4e4be5638c9",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.9581,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 50 50 57 50 5a 50 50 55 50 55 50 55 b5 97 50 55 00 00 05 50 50 50 50 35 00 05 05 40 a0 44 00 08 00 00 05 05 50 75 50 55 50 70 75 00 00 04 00 05 5a 70 55 05 00 03 00 05 00 00 05 00 00 04",
+      "tail_hex": "01 00 10 00 04 40 00 01 01 00 00 01 01 00 00 11 40 00 01 00 00 00 00 04 40 00 00 00 00 10 00 05",
+      "ascii_candidates": [
+        {
+          "offset": 2,
+          "length": 12,
+          "text": "PPWPZPPUPUPU"
+        },
+        {
+          "offset": 21,
+          "length": 5,
+          "text": "PPPP5"
+        },
+        {
+          "offset": 38,
+          "length": 7,
+          "text": "PuPUPpu"
+        },
+        {
+          "offset": 70,
+          "length": 4,
+          "text": "pZWU"
+        },
+        {
+          "offset": 82,
+          "length": 6,
+          "text": "P5PuPU"
+        },
+        {
+          "offset": 105,
+          "length": 4,
+          "text": "R@J0"
+        },
+        {
+          "offset": 113,
+          "length": 19,
+          "text": "DPSPUPZPUPPW@@J@DPS"
+        },
+        {
+          "offset": 141,
+          "length": 4,
+          "text": "PPPU"
+        },
+        {
+          "offset": 154,
+          "length": 6,
+          "text": "0DPuPu"
+        },
+        {
+          "offset": 162,
+          "length": 4,
+          "text": "PPZP"
+        },
+        {
+          "offset": 178,
+          "length": 4,
+          "text": "PU5S"
+        },
+        {
+          "offset": 187,
+          "length": 5,
+          "text": "PUPPP"
+        },
+        {
+          "offset": 206,
+          "length": 4,
+          "text": "U5P5"
+        },
+        {
+          "offset": 235,
+          "length": 5,
+          "text": "@@p4P"
+        },
+        {
+          "offset": 241,
+          "length": 5,
+          "text": "uPPuP"
+        },
+        {
+          "offset": 261,
+          "length": 5,
+          "text": "WPZP0"
+        },
+        {
+          "offset": 278,
+          "length": 7,
+          "text": "PpPPUpu"
+        },
+        {
+          "offset": 310,
+          "length": 4,
+          "text": "uPSP"
+        },
+        {
+          "offset": 322,
+          "length": 6,
+          "text": "U:PuPP"
+        },
+        {
+          "offset": 345,
+          "length": 4,
+          "text": "UUP0"
+        },
+        {
+          "offset": 357,
+          "length": 15,
+          "text": "PUPWPA@J@@@@@UP"
+        },
+        {
+          "offset": 381,
+          "length": 4,
+          "text": "G@@J"
+        },
+        {
+          "offset": 394,
+          "length": 6,
+          "text": "5PPsPp"
+        },
+        {
+          "offset": 402,
+          "length": 4,
+          "text": "UPSP"
+        },
+        {
+          "offset": 418,
+          "length": 4,
+          "text": "QP0Z"
+        },
+        {
+          "offset": 427,
+          "length": 5,
+          "text": "@UPSP"
+        },
+        {
+          "offset": 446,
+          "length": 4,
+          "text": "P0P4"
+        },
+        {
+          "offset": 475,
+          "length": 11,
+          "text": "UPu5UUpUPuP"
+        },
+        {
+          "offset": 498,
+          "length": 10,
+          "text": "RPPXPUPUA@"
+        },
+        {
+          "offset": 509,
+          "length": 5,
+          "text": "@@%PU"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 20,
+          "length": 5,
+          "text": "PPPP5"
+        },
+        {
+          "offset": 37,
+          "length": 5,
+          "text": "PuPUP"
+        },
+        {
+          "offset": 81,
+          "length": 4,
+          "text": "P5Pu"
+        },
+        {
+          "offset": 153,
+          "length": 5,
+          "text": "0DPuP"
+        },
+        {
+          "offset": 161,
+          "length": 4,
+          "text": "PPZP"
+        },
+        {
+          "offset": 177,
+          "length": 4,
+          "text": "PU5S"
+        },
+        {
+          "offset": 186,
+          "length": 4,
+          "text": "PUPP"
+        },
+        {
+          "offset": 277,
+          "length": 5,
+          "text": "PpPPU"
+        },
+        {
+          "offset": 401,
+          "length": 4,
+          "text": "UPSP"
+        },
+        {
+          "offset": 417,
+          "length": 4,
+          "text": "QP0Z"
+        },
+        {
+          "offset": 426,
+          "length": 4,
+          "text": "@UPS"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 283,
+        "80": 168,
+        "50": 96,
+        "05": 83,
+        "40": 50,
+        "04": 50,
+        "55": 46,
+        "01": 27,
+        "10": 27,
+        "07": 15,
+        "75": 14,
+        "70": 11,
+        "35": 9,
+        "03": 9,
+        "53": 9,
+        "30": 9
+      },
+      "warnings": []
+    },
+    {
+      "id": 34,
+      "toc_entry_offset": 47,
+      "packed_relative_offset": 3711,
+      "packed_absolute_offset": 3938,
+      "raw_size": 1026,
+      "packed_size": 967,
+      "decoded_size": 1026,
+      "decoded_sha256": "16bba6405bfd7112e22377d3b305ac3cbe8f65325d441963d362d8e57a86b447",
+      "packed_sha256": "ed8e8a16a25ba84861ccd4b5fe7e97a72d307063c9a5ef617fbedaa7f001c8aa",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.9425,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 50 57 50 55 40 40 40 4a 40 40 40 47 50 55 50 55 00 05 00 07 04 50 75 50 55 50 70 55 00 07 00 05 50 55 00 05 04 00 05 00 05 06 66 05 50 65 00 05 00 07 40 4a 00 40 40 81 44 00 60 03 00 03",
+      "tail_hex": "00 04 40 00 00 04 40 00 00 04 40 00 00 04 40 00 00 00 00 00 00 04 40 00 00 04 40 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 2,
+          "length": 16,
+          "text": "PWPU@@@J@@@GPUPU"
+        },
+        {
+          "offset": 23,
+          "length": 7,
+          "text": "PuPUPpU"
+        },
+        {
+          "offset": 64,
+          "length": 7,
+          "text": "PuUPPUP"
+        },
+        {
+          "offset": 76,
+          "length": 6,
+          "text": "PUPPUU"
+        },
+        {
+          "offset": 99,
+          "length": 7,
+          "text": "Up@@@z@"
+        },
+        {
+          "offset": 107,
+          "length": 6,
+          "text": "J@p@tP"
+        },
+        {
+          "offset": 134,
+          "length": 8,
+          "text": "PpUP5PpU"
+        },
+        {
+          "offset": 215,
+          "length": 5,
+          "text": "f0p@4"
+        },
+        {
+          "offset": 224,
+          "length": 4,
+          "text": "PUPW"
+        },
+        {
+          "offset": 263,
+          "length": 7,
+          "text": "@p@J@p@"
+        },
+        {
+          "offset": 304,
+          "length": 7,
+          "text": "UpUPG@J"
+        },
+        {
+          "offset": 316,
+          "length": 6,
+          "text": "PPSPSP"
+        },
+        {
+          "offset": 339,
+          "length": 7,
+          "text": "UpPUPuP"
+        },
+        {
+          "offset": 347,
+          "length": 6,
+          "text": "UUpUpP"
+        },
+        {
+          "offset": 374,
+          "length": 8,
+          "text": "@p@J0@z@"
+        },
+        {
+          "offset": 455,
+          "length": 5,
+          "text": "f5uP5"
+        },
+        {
+          "offset": 464,
+          "length": 4,
+          "text": "UPUP"
+        },
+        {
+          "offset": 498,
+          "length": 7,
+          "text": "UPD@@@J"
+        },
+        {
+          "offset": 507,
+          "length": 7,
+          "text": "@J@@@UP"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 22,
+          "length": 4,
+          "text": "PuPU"
+        },
+        {
+          "offset": 133,
+          "length": 4,
+          "text": "PpUP"
+        },
+        {
+          "offset": 223,
+          "length": 4,
+          "text": "PUPW"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 332,
+        "80": 124,
+        "05": 81,
+        "81": 71,
+        "40": 61,
+        "50": 56,
+        "04": 51,
+        "55": 42,
+        "07": 21,
+        "10": 18,
+        "01": 18,
+        "70": 13,
+        "85": 10,
+        "4a": 9,
+        "0a": 9,
+        "66": 7
+      },
+      "warnings": []
+    },
+    {
+      "id": 35,
+      "toc_entry_offset": 56,
+      "packed_relative_offset": 4678,
+      "packed_absolute_offset": 4905,
+      "raw_size": 1026,
+      "packed_size": 876,
+      "decoded_size": 1026,
+      "decoded_sha256": "af06cb6dbdbe8cb4ee9720058558a8f337c7878d0d7097b3a7aab2a5e71343f4",
+      "packed_sha256": "49c16665bfd0edabfa2be60495aa298f3f17879f38150c46c92bea387ef6fe86",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.8538,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 11 10 10 10 10 11 10 10 10 10 10 10 10 10 10 11 01 00 00 00 00 01 00 00 00 00 05 57 50 50 55 01 00 10 10 15 50 70 55 40 40 44 40 40 44 00 05 01 00 00 00 05 00 00 09 00 00 04 00 00 07 00",
+      "tail_hex": "00 00 00 00 10 00 00 00 00 00 00 00 10 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 01 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 29,
+          "length": 4,
+          "text": "WPPU"
+        },
+        {
+          "offset": 38,
+          "length": 9,
+          "text": "PpU@@D@@D"
+        },
+        {
+          "offset": 86,
+          "length": 10,
+          "text": "P`U@Dpz@@X"
+        },
+        {
+          "offset": 146,
+          "length": 4,
+          "text": "#zPu"
+        },
+        {
+          "offset": 231,
+          "length": 7,
+          "text": "0000003"
+        },
+        {
+          "offset": 269,
+          "length": 4,
+          "text": "PPPP"
+        },
+        {
+          "offset": 279,
+          "length": 8,
+          "text": "pQ@@@@UW"
+        },
+        {
+          "offset": 326,
+          "length": 11,
+          "text": "U`PD@pt@@UP"
+        },
+        {
+          "offset": 389,
+          "length": 4,
+          "text": "qUPP"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 85,
+          "length": 5,
+          "text": "P`U@D"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 447,
+        "80": 134,
+        "10": 55,
+        "01": 44,
+        "a0": 44,
+        "0a": 33,
+        "40": 24,
+        "05": 20,
+        "50": 15,
+        "70": 15,
+        "aa": 15,
+        "04": 14,
+        "30": 12,
+        "11": 9,
+        "55": 8,
+        "07": 8
+      },
+      "warnings": []
+    },
+    {
+      "id": 38,
+      "toc_entry_offset": 65,
+      "packed_relative_offset": 5554,
+      "packed_absolute_offset": 5781,
+      "raw_size": 1026,
+      "packed_size": 908,
+      "decoded_size": 1026,
+      "decoded_sha256": "5f1d7bb043dbaf4d84f83008b85ac6f83a5d86ea87606f3a589eaf516a1e4874",
+      "packed_sha256": "56a5a190a4d5182e3feeb271ea6c11fabc9a7630a070b8fab9048b48e1faa881",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.885,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 50 50 57 75 50 50 57 50 55 77 50 50 57 50 57 55 75 00 05 07 05 50 57 00 07 05 05 50 77 50 75 05 05 00 05 05 05 00 05 05 55 00 77 00 05 05 50 05 05 00 05 00 50 70 70 50 70 00 00 57 55 05",
+      "tail_hex": "00 00 00 00 04 40 00 00 00 00 00 00 00 00 00 00 00 10 00 10 10 00 00 00 00 00 00 00 00 10 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 2,
+          "length": 17,
+          "text": "PPWuPPWPUwPPWPWUu"
+        },
+        {
+          "offset": 29,
+          "length": 4,
+          "text": "PwPu"
+        },
+        {
+          "offset": 54,
+          "length": 5,
+          "text": "PppPp"
+        },
+        {
+          "offset": 85,
+          "length": 4,
+          "text": "PuPU"
+        },
+        {
+          "offset": 93,
+          "length": 4,
+          "text": "PPPU"
+        },
+        {
+          "offset": 119,
+          "length": 8,
+          "text": "uUPUP[PU"
+        },
+        {
+          "offset": 130,
+          "length": 5,
+          "text": "PpUPP"
+        },
+        {
+          "offset": 150,
+          "length": 5,
+          "text": "WUPVP"
+        },
+        {
+          "offset": 171,
+          "length": 4,
+          "text": "P`P`"
+        },
+        {
+          "offset": 176,
+          "length": 5,
+          "text": "PfPpU"
+        },
+        {
+          "offset": 187,
+          "length": 6,
+          "text": "UPPU%P"
+        },
+        {
+          "offset": 269,
+          "length": 4,
+          "text": "PpWp"
+        },
+        {
+          "offset": 294,
+          "length": 5,
+          "text": "UupUu"
+        },
+        {
+          "offset": 325,
+          "length": 4,
+          "text": "PpPP"
+        },
+        {
+          "offset": 333,
+          "length": 4,
+          "text": "PPPP"
+        },
+        {
+          "offset": 359,
+          "length": 16,
+          "text": "uPUPUPPPWPWUwWWP"
+        },
+        {
+          "offset": 390,
+          "length": 5,
+          "text": "PPPPP"
+        },
+        {
+          "offset": 427,
+          "length": 8,
+          "text": "VP`P`P`U"
+        },
+        {
+          "offset": 462,
+          "length": 5,
+          "text": "P%UPU"
+        },
+        {
+          "offset": 498,
+          "length": 16,
+          "text": "UpPuuUPUPUPPP PP"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 118,
+          "length": 5,
+          "text": "uUPUP"
+        },
+        {
+          "offset": 149,
+          "length": 5,
+          "text": "WUPVP"
+        },
+        {
+          "offset": 293,
+          "length": 5,
+          "text": "UupUu"
+        },
+        {
+          "offset": 389,
+          "length": 5,
+          "text": "PPPPP"
+        },
+        {
+          "offset": 426,
+          "length": 5,
+          "text": "VP`P`"
+        },
+        {
+          "offset": 461,
+          "length": 5,
+          "text": "P%UPU"
+        },
+        {
+          "offset": 497,
+          "length": 5,
+          "text": "UpPuu"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 311,
+        "80": 182,
+        "05": 125,
+        "50": 116,
+        "55": 56,
+        "10": 26,
+        "07": 21,
+        "40": 18,
+        "01": 18,
+        "57": 17,
+        "75": 17,
+        "70": 16,
+        "04": 16,
+        "77": 9,
+        "87": 5,
+        "60": 5
+      },
+      "warnings": []
+    },
+    {
+      "id": 49,
+      "toc_entry_offset": 74,
+      "packed_relative_offset": 6462,
+      "packed_absolute_offset": 6689,
+      "raw_size": 1026,
+      "packed_size": 790,
+      "decoded_size": 1026,
+      "decoded_sha256": "04994e0e636f5969044e1224342969dbefbfabbbcb98348ddecc40620cc552b3",
+      "packed_sha256": "bcdaf3aea55ded2a56ae4d318547f10eac9f04b90ffc8e8ddf9fc5eeff23a2bf",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.77,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 50 55 55 f0 ff f0 f0 ff f0 ff 50 50 50 50 50 55 00 05 05 00 0f 00 00 0e 00 0f 00 00 00 00 00 05 00 05 05 f0 e0 00 00 0f 50 50 05 fe f0 89 00 05 00 00 05 00 00 00 00 0f 05 f0 f0 ef 00 08",
+      "tail_hex": "00 04 40 10 04 40 00 00 00 00 00 04 40 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 12,
+          "length": 6,
+          "text": "PPPPPU"
+        },
+        {
+          "offset": 69,
+          "length": 5,
+          "text": "PPpPP"
+        },
+        {
+          "offset": 132,
+          "length": 4,
+          "text": "pPPp"
+        },
+        {
+          "offset": 137,
+          "length": 7,
+          "text": "PPPPPPP"
+        },
+        {
+          "offset": 324,
+          "length": 4,
+          "text": "pPPP"
+        },
+        {
+          "offset": 345,
+          "length": 5,
+          "text": "PPPPP"
+        },
+        {
+          "offset": 402,
+          "length": 16,
+          "text": "UppPPPPPPPPPPPPP"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 344,
+          "length": 5,
+          "text": "PPPPP"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 507,
+        "80": 74,
+        "50": 49,
+        "05": 48,
+        "03": 29,
+        "30": 27,
+        "40": 25,
+        "04": 24,
+        "f0": 23,
+        "0f": 22,
+        "01": 21,
+        "b0": 20,
+        "10": 19,
+        "33": 12,
+        "ff": 10,
+        "99": 8
+      },
+      "warnings": []
+    },
+    {
+      "id": 50,
+      "toc_entry_offset": 83,
+      "packed_relative_offset": 7252,
+      "packed_absolute_offset": 7479,
+      "raw_size": 1026,
+      "packed_size": 752,
+      "decoded_size": 1026,
+      "decoded_sha256": "d54e68d751eca02902f805f9d88f69795b4f09fdecaefc48e3a73bfcad57239e",
+      "packed_sha256": "49c8d31f1b060b84ecc645e963ae082bdbe489bce263a616aada90c2442c661c",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.7329,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd a0 a0 a0 90 88 0a a0 80 a0 a0 a0 89 ab 50 50 55 00 02 00 20 a0 03 00 02 00 00 00 0a 0a 00 00 05 00 0c 00 00 20 32 00 23 b0 30 d0 aa 0a 60 50 55 30 02 00 00 00 0b 00 02 00 00 00 0a ba 08",
+      "tail_hex": "00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 47,
+          "length": 4,
+          "text": "`PU0"
+        },
+        {
+          "offset": 110,
+          "length": 4,
+          "text": "PUPe"
+        },
+        {
+          "offset": 144,
+          "length": 4,
+          "text": "PuPP"
+        },
+        {
+          "offset": 174,
+          "length": 4,
+          "text": "PUPu"
+        },
+        {
+          "offset": 206,
+          "length": 4,
+          "text": "PPVU"
+        },
+        {
+          "offset": 235,
+          "length": 4,
+          "text": "PUPu"
+        },
+        {
+          "offset": 287,
+          "length": 4,
+          "text": "ePP*"
+        },
+        {
+          "offset": 384,
+          "length": 4,
+          "text": "WpPP"
+        },
+        {
+          "offset": 414,
+          "length": 4,
+          "text": "PPPp"
+        },
+        {
+          "offset": 446,
+          "length": 4,
+          "text": "WPUP"
+        },
+        {
+          "offset": 475,
+          "length": 4,
+          "text": "UPWp"
+        },
+        {
+          "offset": 509,
+          "length": 5,
+          "text": "UPUPP"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 537,
+        "05": 60,
+        "18": 47,
+        "50": 45,
+        "80": 44,
+        "97": 44,
+        "a0": 27,
+        "0a": 23,
+        "55": 19,
+        "01": 17,
+        "10": 13,
+        "04": 12,
+        "40": 12,
+        "02": 8,
+        "30": 8,
+        "07": 7
+      },
+      "warnings": []
+    },
+    {
+      "id": 51,
+      "toc_entry_offset": 92,
+      "packed_relative_offset": 8004,
+      "packed_absolute_offset": 8231,
+      "raw_size": 1026,
+      "packed_size": 803,
+      "decoded_size": 1026,
+      "decoded_sha256": "e39f38aa98e3a97f40bc3d3ce3e4a47bd0b4175b31bd36f020c81c04ecb9ab9f",
+      "packed_sha256": "f917214c6287313533ec0229d740d7841375f5fdabcff2cfd4b49b133cd63940",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.7827,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 50 50 50 50 50 50 50 50 50 50 50 50 50 56 a0 aa a0 aa 05 a0 a0 ab a0 a0 a0 a0 a0 a0 a0 ab 00 0a 00 0b 67 00 00 0a 50 50 50 50 50 55 0a aa 00 0a ba a0 a0 aa aa 50 05 50 60 5a aa 05 0a 00",
+      "tail_hex": "00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 40 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 2,
+          "length": 14,
+          "text": "PPPPPPPPPPPPPV"
+        },
+        {
+          "offset": 40,
+          "length": 6,
+          "text": "PPPPPU"
+        },
+        {
+          "offset": 99,
+          "length": 4,
+          "text": "PPPP"
+        },
+        {
+          "offset": 200,
+          "length": 10,
+          "text": "P`PPPPPPPU"
+        },
+        {
+          "offset": 251,
+          "length": 6,
+          "text": "PPPPPP"
+        },
+        {
+          "offset": 261,
+          "length": 11,
+          "text": "PPPPPPPPPPP"
+        },
+        {
+          "offset": 297,
+          "length": 4,
+          "text": "P`PP"
+        },
+        {
+          "offset": 356,
+          "length": 4,
+          "text": "PPPP"
+        },
+        {
+          "offset": 373,
+          "length": 5,
+          "text": "PP`PP"
+        },
+        {
+          "offset": 441,
+          "length": 9,
+          "text": "jPPPPPPPP"
+        },
+        {
+          "offset": 455,
+          "length": 10,
+          "text": "UPPPPPPPPP"
+        },
+        {
+          "offset": 507,
+          "length": 7,
+          "text": "VPPPPPP"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 250,
+          "length": 6,
+          "text": "PPPPPP"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 385,
+        "80": 158,
+        "50": 94,
+        "a0": 91,
+        "0a": 88,
+        "aa": 45,
+        "05": 34,
+        "10": 12,
+        "ab": 11,
+        "01": 11,
+        "04": 10,
+        "40": 10,
+        "ba": 7,
+        "b0": 6,
+        "0b": 5,
+        "60": 5
+      },
+      "warnings": []
+    },
+    {
+      "id": 52,
+      "toc_entry_offset": 101,
+      "packed_relative_offset": 8807,
+      "packed_absolute_offset": 9034,
+      "raw_size": 1026,
+      "packed_size": 871,
+      "decoded_size": 1026,
+      "decoded_sha256": "69c23ffb52e44fdf323535ba4ee23ad36dd3bbf74accd1d2d8a7839d202a58ad",
+      "packed_sha256": "f7b7e2827fd864be606a02b6665a9acd65d9452b02c45ab7d4ed32923abde5c2",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.8489,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 60 50 60 50 60 50 64 50 67 83 80 80 88 05 83 88 06 50 50 50 50 50 50 55 00 60 56 55 01 83 08 50 00 60 50 60 50 60 55 00 50 55 05 00 55 08 50 00 50 50 50 55 08 55 06 05 60 50 06 00 05 18",
+      "tail_hex": "00 00 00 00 00 00 00 00 10 10 00 00 00 10 00 10 00 00 00 00 00 00 00 00 01 01 00 00 00 01 04 41",
+      "ascii_candidates": [
+        {
+          "offset": 2,
+          "length": 9,
+          "text": "`P`P`PdPg"
+        },
+        {
+          "offset": 19,
+          "length": 7,
+          "text": "PPPPPPU"
+        },
+        {
+          "offset": 35,
+          "length": 6,
+          "text": "`P`P`U"
+        },
+        {
+          "offset": 50,
+          "length": 4,
+          "text": "PPPU"
+        },
+        {
+          "offset": 203,
+          "length": 4,
+          "text": "PPPU"
+        },
+        {
+          "offset": 219,
+          "length": 5,
+          "text": "Ps`p6"
+        },
+        {
+          "offset": 231,
+          "length": 4,
+          "text": "PPUp"
+        },
+        {
+          "offset": 259,
+          "length": 7,
+          "text": "`P`P`PT"
+        },
+        {
+          "offset": 275,
+          "length": 6,
+          "text": "UPPPPP"
+        },
+        {
+          "offset": 290,
+          "length": 4,
+          "text": "eP`P"
+        },
+        {
+          "offset": 304,
+          "length": 5,
+          "text": "UPPPP"
+        },
+        {
+          "offset": 343,
+          "length": 5,
+          "text": "UPPPP"
+        },
+        {
+          "offset": 443,
+          "length": 4,
+          "text": "ep``"
+        },
+        {
+          "offset": 459,
+          "length": 5,
+          "text": "PPPP7"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 18,
+          "length": 6,
+          "text": "PPPPPP"
+        },
+        {
+          "offset": 218,
+          "length": 5,
+          "text": "Ps`p6"
+        },
+        {
+          "offset": 458,
+          "length": 5,
+          "text": "PPPP7"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 410,
+        "80": 138,
+        "50": 89,
+        "05": 78,
+        "08": 46,
+        "55": 42,
+        "60": 26,
+        "06": 21,
+        "a0": 21,
+        "88": 17,
+        "01": 12,
+        "83": 9,
+        "04": 9,
+        "10": 9,
+        "07": 8,
+        "70": 7
+      },
+      "warnings": []
+    },
+    {
+      "id": 64,
+      "toc_entry_offset": 110,
+      "packed_relative_offset": 9678,
+      "packed_absolute_offset": 9905,
+      "raw_size": 1026,
+      "packed_size": 887,
+      "decoded_size": 1026,
+      "decoded_sha256": "f6834b9ebf40531e37106d6cc91d9bcce5a1374ecc9b5c7c3e5b8211b9cb69f3",
+      "packed_sha256": "38c23d83e2f45af0af1f2961b282f5f2cd3c829f63dbe853d681fed355e06a02",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.8645,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "01 11 b0 bb 8b bb bb b0 bb b0 b0 b0 b0 b0 bb b0 b0 bb 00 0c 0c 0b 0b 00 0b 00 00 00 00 00 0b 00 00 0b b0 cb c0 bb 0c 00 0b b0 b0 bb 00 00 00 b0 bc 0b 00 0b 00 0b 0b 00 0b 00 00 0b 00 00 00 00",
+      "tail_hex": "00 00 04 40 00 00 00 01 00 00 00 00 10 10 11 10 00 00 00 00 00 04 40 00 04 40 00 00 01 01 01 01",
+      "ascii_candidates": [
+        {
+          "offset": 250,
+          "length": 4,
+          "text": "\tppw"
+        },
+        {
+          "offset": 502,
+          "length": 7,
+          "text": "ppyppyp"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 499,
+        "0b": 90,
+        "80": 88,
+        "b0": 81,
+        "bb": 47,
+        "01": 17,
+        "c0": 17,
+        "0c": 16,
+        "04": 16,
+        "40": 16,
+        "10": 14,
+        "cb": 13,
+        "bc": 13,
+        "70": 10,
+        "d0": 8,
+        "0d": 7
+      },
+      "warnings": []
+    },
+    {
+      "id": 65,
+      "toc_entry_offset": 119,
+      "packed_relative_offset": 10565,
+      "packed_absolute_offset": 10792,
+      "raw_size": 1026,
+      "packed_size": 891,
+      "decoded_size": 1026,
+      "decoded_sha256": "beb3a21ff92f03e3fe5c46da23f985daf8fe8b0ecf97f7753be1a903385b122a",
+      "packed_sha256": "465005d5214bb466903bd819e77d5c1c59f63dbaddd4e2913d3cfe22a6d44c1c",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.8684,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "01 11 d0 dc b0 b0 b0 b8 b0 b0 b0 b8 b0 b0 bb b0 b0 bb 00 0d 0b d0 c0 dd d0 c0 dd b0 b0 bb 0b 00 00 0b e0 ee 8b 00 00 0d 00 00 0d 0b e0 e0 80 e0 e0 ee 00 0e 0b b0 b0 b0 b0 b0 b0 0b 0e ee 00 0e",
+      "tail_hex": "04 41 01 00 00 00 00 01 00 10 00 01 01 00 00 01 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 200,
+          "length": 4,
+          "text": "pypw"
+        },
+        {
+          "offset": 505,
+          "length": 9,
+          "text": "wwpwpwpwp"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 362,
+        "80": 173,
+        "b0": 70,
+        "0b": 49,
+        "0d": 26,
+        "0e": 25,
+        "bb": 24,
+        "d0": 22,
+        "e0": 21,
+        "07": 21,
+        "01": 19,
+        "10": 18,
+        "dd": 16,
+        "70": 15,
+        "77": 15,
+        "ee": 13
+      },
+      "warnings": []
+    },
+    {
+      "id": 66,
+      "toc_entry_offset": 128,
+      "packed_relative_offset": 11456,
+      "packed_absolute_offset": 11683,
+      "raw_size": 1026,
+      "packed_size": 993,
+      "decoded_size": 1026,
+      "decoded_sha256": "732eeec02f8bab97272a562407d38c8444fd59ae70e3873df919fd1221e1c345",
+      "packed_sha256": "690c8fe0cf5d705ae8bfc7130e1c46fd13ca9006126e40fb7a7709672a4e52b7",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.9678,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 11 10 11 11 65 86 50 65 11 55 10 61 2b 20 24 33 07 77 11 07 07 10 11 05 01 75 10 01 20 27 00 22 17 01 17 87 00 50 56 00 70 75 50 55 00 02 b3 55 17 07 11 17 05 71 50 55 07 11 17 70 50 57",
+      "tail_hex": "04 50 00 04 44 40 00 01 00 01 04 44 44 40 00 10 00 01 00 00 10 00 00 00 00 00 00 00 00 00 00 01",
+      "ascii_candidates": [
+        {
+          "offset": 13,
+          "length": 5,
+          "text": "a+ $3"
+        },
+        {
+          "offset": 42,
+          "length": 4,
+          "text": "puPU"
+        },
+        {
+          "offset": 105,
+          "length": 4,
+          "text": "qqPU"
+        },
+        {
+          "offset": 110,
+          "length": 4,
+          "text": "PPPV"
+        },
+        {
+          "offset": 161,
+          "length": 5,
+          "text": "\t03PW"
+        },
+        {
+          "offset": 167,
+          "length": 4,
+          "text": "PUPW"
+        },
+        {
+          "offset": 196,
+          "length": 6,
+          "text": "PPPPPV"
+        },
+        {
+          "offset": 218,
+          "length": 4,
+          "text": "Pppv"
+        },
+        {
+          "offset": 407,
+          "length": 4,
+          "text": "UPUP"
+        },
+        {
+          "offset": 436,
+          "length": 5,
+          "text": "UPeUP"
+        },
+        {
+          "offset": 442,
+          "length": 4,
+          "text": "VPPP"
+        },
+        {
+          "offset": 459,
+          "length": 4,
+          "text": "|||U"
+        },
+        {
+          "offset": 471,
+          "length": 7,
+          "text": "UPwPpPP"
+        },
+        {
+          "offset": 500,
+          "length": 6,
+          "text": "30e30U"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 470,
+          "length": 5,
+          "text": "UPwPp"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 186,
+        "80": 182,
+        "50": 74,
+        "05": 54,
+        "04": 39,
+        "11": 36,
+        "40": 35,
+        "01": 34,
+        "10": 32,
+        "07": 30,
+        "70": 24,
+        "55": 21,
+        "17": 20,
+        "89": 20,
+        "88": 18,
+        "86": 10
+      },
+      "warnings": []
+    },
+    {
+      "id": 80,
+      "toc_entry_offset": 137,
+      "packed_relative_offset": 12449,
+      "packed_absolute_offset": 12676,
+      "raw_size": 1026,
+      "packed_size": 1023,
+      "decoded_size": 1026,
+      "decoded_sha256": "bd73588a390c9c66aa1b0ac6baf20dff499ac2aee5f9718b6047d90e8e5ce52d",
+      "packed_sha256": "f28770d8552085d817b107ae450be1c642aa76fec48360427c9a2051bbc4a12d",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.9971,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 10 10 20 20 1d 10 11 20 20 20 20 22 10 1d 5e 55 0d d0 10 11 02 00 01 02 10 10 11 0d 00 01 00 e5 02 00 00 01 00 20 20 0d 00 00 01 00 10 22 d0 11 02 00 00 01 02 10 11 02 00 00 01 02 d1 02",
+      "tail_hex": "00 00 00 00 00 10 00 04 40 00 04 40 00 00 10 00 04 40 00 00 00 01 00 00 00 04 40 00 04 40 01 00",
+      "ascii_candidates": [
+        {
+          "offset": 9,
+          "length": 5,
+          "text": "    \""
+        },
+        {
+          "offset": 189,
+          "length": 4,
+          "text": "    "
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 314,
+        "80": 99,
+        "10": 74,
+        "02": 71,
+        "01": 68,
+        "20": 66,
+        "11": 44,
+        "89": 43,
+        "86": 40,
+        "83": 36,
+        "87": 34,
+        "0d": 21,
+        "04": 20,
+        "d0": 18,
+        "40": 18,
+        "1d": 13
+      },
+      "warnings": []
+    },
+    {
+      "id": 81,
+      "toc_entry_offset": 146,
+      "packed_relative_offset": 13472,
+      "packed_absolute_offset": 13699,
+      "raw_size": 1026,
+      "packed_size": 947,
+      "decoded_size": 1026,
+      "decoded_sha256": "06558fa826b7ee8861e3ede09f43c898e4f65f5faab6752685eca2a6d7e70a4e",
+      "packed_sha256": "f98b3970d63ba318c9e45623f4650985bd04691b0be3d1a3cc247c92b2be9ec4",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.923,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 11 80 57 50 50 50 55 41 11 50 50 50 50 50 50 55 a3 00 0c 03 99 69 95 01 a0 05 cc 05 50 50 55 05 00 30 30 03 90 00 95 01 50 70 78 07 00 00 05 05 70 50 58 5a 00 00 05 61 00 00 08 00 50 50",
+      "tail_hex": "00 00 00 01 00 04 40 10 01 00 01 00 00 00 00 10 00 04 40 10 10 00 04 41 00 04 44 40 04 40 04 41",
+      "ascii_candidates": [
+        {
+          "offset": 4,
+          "length": 6,
+          "text": "WPPPUA"
+        },
+        {
+          "offset": 11,
+          "length": 7,
+          "text": "PPPPPPU"
+        },
+        {
+          "offset": 50,
+          "length": 4,
+          "text": "pPXZ"
+        },
+        {
+          "offset": 74,
+          "length": 5,
+          "text": "PUPpU"
+        },
+        {
+          "offset": 106,
+          "length": 5,
+          "text": "PpPPP"
+        },
+        {
+          "offset": 118,
+          "length": 4,
+          "text": "PpWa"
+        },
+        {
+          "offset": 155,
+          "length": 14,
+          "text": "PpPPuPXPPPpPPu"
+        },
+        {
+          "offset": 211,
+          "length": 5,
+          "text": "WPPPZ"
+        },
+        {
+          "offset": 290,
+          "length": 5,
+          "text": "u000\t"
+        },
+        {
+          "offset": 346,
+          "length": 5,
+          "text": "UpUPP"
+        },
+        {
+          "offset": 363,
+          "length": 5,
+          "text": "PPPPP"
+        },
+        {
+          "offset": 395,
+          "length": 7,
+          "text": "UuPUpUP"
+        },
+        {
+          "offset": 419,
+          "length": 5,
+          "text": "PPPPP"
+        },
+        {
+          "offset": 461,
+          "length": 7,
+          "text": "PPPPPUP"
+        },
+        {
+          "offset": 494,
+          "length": 4,
+          "text": "PPP`"
+        },
+        {
+          "offset": 503,
+          "length": 7,
+          "text": "UUTUPZZ"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 362,
+          "length": 5,
+          "text": "PPPPP"
+        },
+        {
+          "offset": 394,
+          "length": 5,
+          "text": "UuPUp"
+        },
+        {
+          "offset": 418,
+          "length": 5,
+          "text": "PPPPP"
+        },
+        {
+          "offset": 460,
+          "length": 7,
+          "text": "PPPPPUP"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 238,
+        "80": 180,
+        "50": 86,
+        "05": 78,
+        "01": 54,
+        "99": 42,
+        "10": 30,
+        "55": 25,
+        "04": 21,
+        "70": 18,
+        "07": 17,
+        "40": 17,
+        "90": 14,
+        "08": 12,
+        "75": 12,
+        "95": 10
+      },
+      "warnings": []
+    },
+    {
+      "id": 82,
+      "toc_entry_offset": 155,
+      "packed_relative_offset": 14419,
+      "packed_absolute_offset": 14646,
+      "raw_size": 1026,
+      "packed_size": 890,
+      "decoded_size": 1026,
+      "decoded_sha256": "debb1a321da5ee8b3c63b5b2c606de8d164f2c957e49ffa9e78d619f732f736f",
+      "packed_sha256": "d16587de95e95104f7932ce6f30ac4fc27f62895dea1df9ab672ce09f4c59d33",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.8674,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "01 11 99 99 99 93 90 93 90 99 99 90 99 99 99 99 99 99 09 92 09 39 00 03 90 99 09 20 90 03 00 20 59 29 09 90 09 09 99 03 90 99 02 09 90 93 00 00 00 09 09 33 90 99 09 03 90 99 99 90 90 99 93 90",
+      "tail_hex": "00 00 04 40 00 04 40 04 11 01 10 11 10 11 04 40 04 40 00 00 04 44 40 00 01 01 01 01 01 01 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 31,
+          "length": 4,
+          "text": " Y)\t"
+        },
+        {
+          "offset": 97,
+          "length": 9,
+          "text": "\t\t\t9999\t9"
+        },
+        {
+          "offset": 114,
+          "length": 6,
+          "text": "\t\t\t\t\t\t"
+        },
+        {
+          "offset": 121,
+          "length": 5,
+          "text": ")\t\t\t\t"
+        },
+        {
+          "offset": 249,
+          "length": 7,
+          "text": "\t99)999"
+        },
+        {
+          "offset": 337,
+          "length": 7,
+          "text": "\t\t\t3000"
+        },
+        {
+          "offset": 345,
+          "length": 5,
+          "text": "0\t\t\t\t"
+        },
+        {
+          "offset": 354,
+          "length": 6,
+          "text": "\t\t\t\t\t\t"
+        },
+        {
+          "offset": 434,
+          "length": 8,
+          "text": ")))))))\t"
+        },
+        {
+          "offset": 474,
+          "length": 7,
+          "text": "099999\t"
+        },
+        {
+          "offset": 492,
+          "length": 4,
+          "text": " 000"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "80": 182,
+        "00": 168,
+        "90": 126,
+        "09": 110,
+        "99": 100,
+        "10": 34,
+        "93": 30,
+        "01": 29,
+        "04": 28,
+        "40": 27,
+        "39": 24,
+        "29": 23,
+        "92": 16,
+        "30": 16,
+        "03": 13,
+        "20": 11
+      },
+      "warnings": []
+    },
+    {
+      "id": 84,
+      "toc_entry_offset": 164,
+      "packed_relative_offset": 15309,
+      "packed_absolute_offset": 15536,
+      "raw_size": 1026,
+      "packed_size": 840,
+      "decoded_size": 1026,
+      "decoded_sha256": "5e6d064653015f70d14eed2766db70595141b625056b93d03fe282528e53342c",
+      "packed_sha256": "4323343465566912b4cef207081a90e51f2a1c4133d701f33e7927e31d49a276",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.8187,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 50 50 50 50 57 50 50 50 50 50 40 40 80 47 55 11 70 33 70 44 05 30 33 70 30 33 00 00 00 08 00 75 00 03 00 04 05 00 03 00 00 03 00 00 00 04 40 44 70 50 50 50 00 50 75 00 00 03 00 00 00 04",
+      "tail_hex": "10 10 10 14 40 00 00 01 00 00 01 00 04 51 11 10 01 01 01 01 04 40 04 40 00 04 40 04 40 01 01 01",
+      "ascii_candidates": [
+        {
+          "offset": 2,
+          "length": 12,
+          "text": "PPPPWPPPPP@@"
+        },
+        {
+          "offset": 18,
+          "length": 4,
+          "text": "p3pD"
+        },
+        {
+          "offset": 23,
+          "length": 5,
+          "text": "03p03"
+        },
+        {
+          "offset": 48,
+          "length": 6,
+          "text": "@DpPPP"
+        },
+        {
+          "offset": 185,
+          "length": 4,
+          "text": "PUu@"
+        },
+        {
+          "offset": 190,
+          "length": 6,
+          "text": "p07U7P"
+        },
+        {
+          "offset": 220,
+          "length": 5,
+          "text": "PPPUD"
+        },
+        {
+          "offset": 233,
+          "length": 4,
+          "text": "p03p"
+        },
+        {
+          "offset": 242,
+          "length": 4,
+          "text": "psss"
+        },
+        {
+          "offset": 255,
+          "length": 7,
+          "text": "zttuPpP"
+        },
+        {
+          "offset": 263,
+          "length": 5,
+          "text": "WPpPP"
+        },
+        {
+          "offset": 288,
+          "length": 6,
+          "text": "UPs0D@"
+        },
+        {
+          "offset": 311,
+          "length": 5,
+          "text": "PP300"
+        },
+        {
+          "offset": 430,
+          "length": 6,
+          "text": "u300UP"
+        },
+        {
+          "offset": 473,
+          "length": 8,
+          "text": "~U^uPPpt"
+        },
+        {
+          "offset": 482,
+          "length": 4,
+          "text": "supp"
+        },
+        {
+          "offset": 494,
+          "length": 8,
+          "text": "Dwpp3033"
+        },
+        {
+          "offset": 503,
+          "length": 5,
+          "text": "VP700"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 47,
+          "length": 4,
+          "text": "@DpP"
+        },
+        {
+          "offset": 219,
+          "length": 5,
+          "text": "PPPUD"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 389,
+        "80": 169,
+        "05": 53,
+        "50": 41,
+        "04": 32,
+        "40": 30,
+        "70": 24,
+        "01": 22,
+        "10": 21,
+        "30": 19,
+        "03": 19,
+        "33": 18,
+        "0a": 17,
+        "a0": 16,
+        "07": 12,
+        "55": 11
+      },
+      "warnings": []
+    },
+    {
+      "id": 96,
+      "toc_entry_offset": 173,
+      "packed_relative_offset": 16149,
+      "packed_absolute_offset": 16376,
+      "raw_size": 1026,
+      "packed_size": 955,
+      "decoded_size": 1026,
+      "decoded_sha256": "2ed487e2e1313c19a13cb3663a3a41eccc4ca37872dc78d5069b2c0bdec5d919",
+      "packed_sha256": "4d5f04def43ea8ce88743aa3865f8509cdaffd62f2b8c741357487fefa6ba239",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.9308,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 10 11 11 20 22 51 10 20 12 11 20 12 51 10 10 22 00 01 01 00 01 01 00 00 01 01 00 02 01 00 00 01 10 40 10 40 13 33 10 40 20 10 40 23 33 10 40 22 40 22 40 11 11 31 24 20 41 20 10 11 32 10",
+      "tail_hex": "00 00 00 00 00 00 00 00 00 00 04 50 10 14 40 00 00 00 00 04 40 00 00 00 00 00 00 01 01 01 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 48,
+          "length": 5,
+          "text": "@\"@\"@"
+        },
+        {
+          "offset": 55,
+          "length": 5,
+          "text": "1$ A "
+        },
+        {
+          "offset": 172,
+          "length": 5,
+          "text": "`wR`v"
+        },
+        {
+          "offset": 220,
+          "length": 5,
+          "text": "y 0#v"
+        },
+        {
+          "offset": 277,
+          "length": 6,
+          "text": "A 1!@ "
+        },
+        {
+          "offset": 345,
+          "length": 4,
+          "text": "\"\"! "
+        },
+        {
+          "offset": 492,
+          "length": 5,
+          "text": "v300y"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 299,
+        "80": 177,
+        "01": 104,
+        "10": 101,
+        "11": 52,
+        "40": 38,
+        "20": 32,
+        "02": 27,
+        "04": 21,
+        "31": 11,
+        "12": 10,
+        "22": 9,
+        "33": 9,
+        "30": 8,
+        "23": 6,
+        "21": 6
+      },
+      "warnings": []
+    },
+    {
+      "id": 97,
+      "toc_entry_offset": 182,
+      "packed_relative_offset": 17104,
+      "packed_absolute_offset": 17331,
+      "raw_size": 1026,
+      "packed_size": 949,
+      "decoded_size": 1026,
+      "decoded_sha256": "723cdce4f64ac08dbf85e8ef969e4b014e0c5cc8837c099282ca3f060008734d",
+      "packed_sha256": "2e9524a329ccda97e7e7a8b1f74d2a27ea1744c77e74bb7a53626ca1f842c22f",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.925,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 10 10 11 70 60 70 65 60 70 65 70 60 70 66 10 11 01 70 69 99 60 77 11 00 00 01 11 60 79 99 70 66 01 60 79 09 70 66 01 00 00 01 01 70 69 09 60 77 01 70 69 09 60 77 20 32 32 30 11 60 79 09",
+      "tail_hex": "01 01 01 01 00 01 00 01 01 01 01 00 01 00 01 01 00 00 00 00 00 10 00 00 00 00 00 00 10 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 5,
+          "length": 11,
+          "text": "p`pe`pep`pf"
+        },
+        {
+          "offset": 35,
+          "length": 5,
+          "text": "`y\tpf"
+        },
+        {
+          "offset": 45,
+          "length": 5,
+          "text": "pi\t`w"
+        },
+        {
+          "offset": 51,
+          "length": 9,
+          "text": "pi\t`w 220"
+        },
+        {
+          "offset": 61,
+          "length": 5,
+          "text": "`y\tpf"
+        },
+        {
+          "offset": 67,
+          "length": 5,
+          "text": "`y\tpf"
+        },
+        {
+          "offset": 77,
+          "length": 5,
+          "text": "pi\t`w"
+        },
+        {
+          "offset": 210,
+          "length": 13,
+          "text": "@@@@#3 @@@@#3"
+        },
+        {
+          "offset": 224,
+          "length": 6,
+          "text": "@AAABB"
+        },
+        {
+          "offset": 233,
+          "length": 4,
+          "text": "AABA"
+        },
+        {
+          "offset": 275,
+          "length": 5,
+          "text": "w`\tip"
+        },
+        {
+          "offset": 285,
+          "length": 5,
+          "text": "fp\ty`"
+        },
+        {
+          "offset": 291,
+          "length": 5,
+          "text": "fp\ty`"
+        },
+        {
+          "offset": 301,
+          "length": 5,
+          "text": "w`\tip"
+        },
+        {
+          "offset": 307,
+          "length": 5,
+          "text": "w`\tip"
+        },
+        {
+          "offset": 317,
+          "length": 5,
+          "text": "fp\ty`"
+        },
+        {
+          "offset": 387,
+          "length": 5,
+          "text": "@ @ 0"
+        },
+        {
+          "offset": 450,
+          "length": 4,
+          "text": "BAAB"
+        },
+        {
+          "offset": 457,
+          "length": 4,
+          "text": "AABA"
+        },
+        {
+          "offset": 464,
+          "length": 6,
+          "text": "AAB@@@"
+        },
+        {
+          "offset": 471,
+          "length": 11,
+          "text": "3#@@@@ 3#@@"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 235,
+        "80": 146,
+        "01": 124,
+        "10": 70,
+        "11": 49,
+        "40": 42,
+        "02": 36,
+        "20": 27,
+        "70": 23,
+        "60": 22,
+        "86": 22,
+        "04": 18,
+        "41": 15,
+        "09": 12,
+        "42": 11,
+        "66": 10
+      },
+      "warnings": []
+    },
+    {
+      "id": 112,
+      "toc_entry_offset": 191,
+      "packed_relative_offset": 18053,
+      "packed_absolute_offset": 18280,
+      "raw_size": 1026,
+      "packed_size": 939,
+      "decoded_size": 1026,
+      "decoded_sha256": "3488d971a9b9e3d5efefbadd02aa7717274492a9ecb696464ae870719f6e53c9",
+      "packed_sha256": "ccb8ea6a733515ab73fde74b695cc6487c8eebadb9c6b1f6a8c98f2878592519",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.9152,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd be c1 66 cc 0e bd 10 1c 0e 10 11 10 11 40 40 44 0e 02 ff 01 dd 00 ff 66 0e f0 dd 00 01 00 00 04 0e d0 00 d3 33 0d f0 11 0e 00 0f 80 98 00 00 04 00 0e 10 10 01 e0 e0 e0 0e 0d 10 21 00 99",
+      "tail_hex": "00 00 01 00 01 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 44 40 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 226,
+          "length": 7,
+          "text": "@@T@T@T"
+        },
+        {
+          "offset": 453,
+          "length": 4,
+          "text": "T@T@"
+        },
+        {
+          "offset": 499,
+          "length": 6,
+          "text": "@@D@D@"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 400,
+        "01": 47,
+        "80": 43,
+        "a2": 43,
+        "10": 42,
+        "0e": 40,
+        "0b": 37,
+        "40": 29,
+        "04": 28,
+        "e0": 24,
+        "b0": 22,
+        "18": 19,
+        "11": 14,
+        "0d": 14,
+        "9a": 14,
+        "d0": 12
+      },
+      "warnings": []
+    },
+    {
+      "id": 113,
+      "toc_entry_offset": 200,
+      "packed_relative_offset": 18992,
+      "packed_absolute_offset": 19219,
+      "raw_size": 1026,
+      "packed_size": 917,
+      "decoded_size": 1026,
+      "decoded_sha256": "79de9489961ba69e9f2cba97159cb416f999175e11e63c1c958b486350237e1e",
+      "packed_sha256": "0e28480c186d775221124b26dc92101ed9b8a9ea6aa3522f3aad47ff32be867a",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.8938,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 80 82 80 8c 80 20 8c 5c 19 40 52 50 50 aa 52 51 06 50 55 02 00 00 02 cc 08 90 06 c0 35 08 08 ff 05 00 02 ca 22 6a c0 58 00 50 88 09 04 26 00 58 00 50 60 0c a0 00 92 08 90 56 20 90 92 20",
+      "tail_hex": "00 04 40 04 40 04 40 00 01 10 04 40 00 00 01 01 04 40 00 04 40 04 44 40 00 01 00 04 40 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 11,
+          "length": 4,
+          "text": "@RPP"
+        },
+        {
+          "offset": 126,
+          "length": 4,
+          "text": "8<:5"
+        },
+        {
+          "offset": 366,
+          "length": 4,
+          "text": "3000"
+        },
+        {
+          "offset": 506,
+          "length": 8,
+          "text": "\\PP\\S\\PP"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "80": 235,
+        "00": 181,
+        "04": 46,
+        "40": 39,
+        "08": 29,
+        "c0": 24,
+        "0c": 23,
+        "03": 23,
+        "93": 21,
+        "99": 21,
+        "10": 21,
+        "01": 20,
+        "50": 19,
+        "09": 18,
+        "cc": 15,
+        "a0": 14
+      },
+      "warnings": []
+    },
+    {
+      "id": 114,
+      "toc_entry_offset": 209,
+      "packed_relative_offset": 19909,
+      "packed_absolute_offset": 20136,
+      "raw_size": 1026,
+      "packed_size": 819,
+      "decoded_size": 1026,
+      "decoded_sha256": "1ed5be3d8ec6657e0a783d603691627bccce0e6068c397cd0ad53a974cc6e992",
+      "packed_sha256": "f8197bae83ab513410fb1fe13e68b83a99d6c556d3920d071a289275566a55f7",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.7982,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 00 00 00 00 00 00 00 00 05 20 22 00 00 00 00 00 05 25 20 c0 20 c0 20 c0 27 00 06 30 33 00 00 00 00 50 50 50 50 55 80 82 c0 cc 60 03 a0 11 00 00 00 00 00 00 00 00 55 70 00 0c 00 03 00 01",
+      "tail_hex": "00 00 00 00 00 00 00 00 04 40 05 40 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 35,
+          "length": 5,
+          "text": "PPPPU"
+        },
+        {
+          "offset": 243,
+          "length": 8,
+          "text": "PPPPPPPU"
+        },
+        {
+          "offset": 259,
+          "length": 8,
+          "text": "PPPPPPPP"
+        },
+        {
+          "offset": 467,
+          "length": 5,
+          "text": "PPPPP"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 476,
+        "80": 48,
+        "50": 42,
+        "95": 37,
+        "0c": 32,
+        "01": 28,
+        "10": 27,
+        "c0": 26,
+        "03": 25,
+        "20": 21,
+        "30": 20,
+        "05": 19,
+        "40": 15,
+        "8f": 14,
+        "8a": 13,
+        "55": 11
+      },
+      "warnings": []
+    },
+    {
+      "id": 115,
+      "toc_entry_offset": 218,
+      "packed_relative_offset": 20728,
+      "packed_absolute_offset": 20955,
+      "raw_size": 1026,
+      "packed_size": 325,
+      "decoded_size": 1026,
+      "decoded_sha256": "58bfdf02db1e844813d439d57eed1c112f74060be017102e3b24fb3586ec4a9e",
+      "packed_sha256": "c8b11d1dc8c31d97854a607a390548fa85fe7584bff5ec81ae6ae7bb10fc85a3",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3168,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18,
+        1026
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 1026,
+          "basis": "existing GEO1 parser consumes 25 map blocks"
+        }
+      ],
+      "head_hex": "cc dd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 05 11 00 00 00 00 00 00 00 00",
+      "tail_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 510,
+          "length": 4,
+          "text": "t`p@"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 896,
+        "80": 18,
+        "50": 13,
+        "90": 13,
+        "05": 11,
+        "01": 9,
+        "10": 8,
+        "55": 7,
+        "11": 6,
+        "07": 5,
+        "06": 5,
+        "96": 3,
+        "70": 3,
+        "40": 3,
+        "8f": 3,
+        "a0": 2
+      },
+      "warnings": []
+    }
+  ]
+}

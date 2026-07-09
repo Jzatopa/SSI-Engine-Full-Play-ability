@@ -1,0 +1,592 @@
+vm_run_1           0x806E
+SearchLocation     0x84FB
+PreCampCheck       0x806D
+CampInterrupted    0x806D
+ecl_initial_entry  0x8014
+
+0x8014 0x03 COMPARE Values: area1.LastEclBlockId == 17
+
+0x801A 0x16 IF = <if compare flag is false, skip next op>
+0x801B 0x00 EXIT
+0x801C 0x09 SAVE area1.event_word_202 = 1
+
+0x8022 0x09 SAVE area1.LastEclBlockId = 17
+
+0x8028 0x09 SAVE area1.event_word_3FA = 255
+
+0x802E 0x09 SAVE area1.block_area_view = 0
+
+0x8034 0x09 SAVE area1.word_1CE = 1
+
+0x803A 0x09 SAVE area1.word_1D0 = 1
+
+0x8040 0x09 SAVE area1.word_1D2 = 1
+
+0x8046 0x09 SAVE area1.inDungeon = 129
+
+0x804C 0x09 SAVE mapPosY = 2
+
+0x8052 0x09 SAVE mapPosX = 0
+
+0x8058 0x09 SAVE mapDirection = 1
+
+0x805E 0x21 LOAD FILES Load GEO 17 raw=(17, 127, 255)
+
+0x8065 0x37 LOAD PIECES Load WALLDEF 127 127 5
+
+0x806C 0x00 EXIT
+0x806D 0x00 EXIT
+0x806E 0x03 COMPARE Values: 1 == area1.event_word_202
+
+0x8074 0x16 IF = <if compare flag is false, skip next op>
+0x8075 0x00 EXIT
+0x8076 0x09 SAVE area1.lastXPos = mapPosX
+
+0x807D 0x09 SAVE area1.lastYPos = mapPosY
+
+0x8084 0x09 SAVE area1.event_word_208 = 0
+
+0x808A 0x2F AND area2.event_scratch0 = 63 & abs_C04F
+
+0x8093 0x14 COMPARE AND Values: area2.event_scratch0 == 24 && mapDirection == 2
+
+0x809E 0x16 IF = <if compare flag is false, skip next op>
+0x809F 0x01 GOTO 0x8E2E
+
+0x80A3 0x03 COMPARE Values: 8 == abs_C04E
+
+0x80A9 0x16 IF = <if compare flag is false, skip next op>
+0x80AA 0x01 GOTO 0x82F6
+
+0x80AE 0x03 COMPARE Values: 6 == abs_C04E
+
+0x80B4 0x17 IF <> <if compare flag is false, skip next op>
+0x80B5 0x00 EXIT
+0x80B6 0x2F AND area2.event_scratch0 = 63 & abs_C04F
+
+0x80BF 0x03 COMPARE Values: 7 == area2.event_scratch0
+
+0x80C5 0x19 IF > <if compare flag is false, skip next op>
+0x80C6 0x00 EXIT
+0x80C7 0x09 SAVE area1.event_word_208 = 1
+
+0x80CD 0x25 ON GOTO area2.event_scratch0 of [0x8579, 0x810B, 0x80F6, 0x89E7, 0x80F6, 0x80F6, 0x80EB, 0x80F6]
+
+0x80EB 0x03 COMPARE Values: 3 == area1.event_word_258
+
+0x80F1 0x18 IF < <if compare flag is false, skip next op>
+0x80F2 0x01 GOTO 0x80F6
+
+0x80F6 0x12 PRINTCLEAR 'THE AIRLOCK IS SEALED.'
+
+0x810A 0x00 EXIT
+0x810B 0x0E PICTURE block_id: 98
+
+0x810F 0x00 EXIT
+
+0x82F6 0x03 COMPARE Values: 1 == area1.event_word_20E
+
+0x82FC 0x18 IF < <if compare flag is false, skip next op>
+0x82FD 0x00 EXIT
+0x82FE 0x19 IF > <if compare flag is false, skip next op>
+0x82FF 0x01 GOTO 0x840B
+
+0x8303 0x30 OR area1.event_word_25C = 1 | area1.event_word_25C
+
+0x830C 0x09 SAVE area1.event_word_20E = 0
+
+0x8313 0x00 EXIT
+
+0x840B 0x0E PICTURE block_id: 98
+
+0x840E 0x12 PRINTCLEAR 'SCOT.DOS APPEARS ON THE SCREEN. '
+
+0x8429 0x30 OR area1.event_word_25C = 4 | area1.event_word_25C
+
+0x8432 0x09 SAVE area1.event_word_20E = 0
+
+0x8438 0x11 PRINT "'A PRISONER TRANSFER IS TAKING PLACE ON THE DOCKS AT BERTH A. I'M SURE IT'S RELATED TO THE EARLIER KIDNAPPING."
+
+0x848E 0x2F AND area2.event_scratch0 = 128 & area1.event_word_25A
+
+0x8497 0x17 IF <> <if compare flag is false, skip next op>
+0x8498 0x01 GOTO 0x84F5
+
+0x849C 0x11 PRINT ' '
+
+0x84A0 0x02 GOSUB 0xA1C5
+
+0x84A4 0x0E PICTURE block_id: 98
+
+0x84A7 0x12 PRINTCLEAR "SCOT.DOS LOOKS GRIM. 'THIS IS MORE SERIOUS THAN I THOUGHT. HURRY, LAUNCH PREPARATIONS ARE BEGINNING."
+
+0x84F5 0x11 PRINT "'"
+
+0x84FB 0x09 SAVE area1.event_word_202 = 0
+
+0x8501 0x09 SAVE area2.word_58C = 90
+
+0x8507 0x2F AND area2.event_scratch1 = 63 & abs_C04F
+
+0x8510 0x25 ON GOTO area2.event_scratch1 of [0x8590, 0x880A, 0x88E8, 0x8579, 0x8A30, 0x8A41, 0x8A52, 0x8C46, 0x8D74, 0x8DD2, 0x8E2E, 0x8E9E, 0x8F39, 0x8F3A, 0x90EE, 0x9125, 0x9178, 0x91A6, 0x91C3, 0x92FB, 0x96CF, 0x9B80, 0x9BA1, 0x9BA1, 0x9BA2, 0x9BB8, 0xA036, 0xA049, 0xA0AA, 0xA04A, 0xA176, 0xA05F, 0xA074]
+
+0x8579 0x00 EXIT
+
+0x8590 0x04 ADD area1.event_word_210 = 1 + area1.event_word_210
+
+0x8599 0x14 COMPARE AND Values: area1.event_word_206 == 1 && area1.event_word_210 == 18
+
+0x85A4 0x16 IF = <if compare flag is false, skip next op>
+0x85A5 0x01 GOTO 0x87AA
+
+0x85A9 0x03 COMPARE Values: 20 == area1.event_word_210
+
+0x85AF 0x18 IF < <if compare flag is false, skip next op>
+0x85B0 0x00 EXIT
+0x85B1 0x09 SAVE area1.event_word_228 = 0
+
+0x85B7 0x03 COMPARE Values: 9 == area1.event_word_20A
+
+0x85BD 0x19 IF > <if compare flag is false, skip next op>
+0x85BE 0x00 EXIT
+0x85BF 0x08 RANDOM area2.event_scratch0 = random 1..99
+
+0x85C5 0x03 COMPARE Values: 9 == area2.event_scratch0
+
+0x85CB 0x19 IF > <if compare flag is false, skip next op>
+0x85CC 0x00 EXIT
+0x85CD 0x09 SAVE area1.event_word_210 = 0
+
+0x85D3 0x2F AND area2.event_scratch0 = 128 & area1.event_word_25E
+
+0x85DC 0x17 IF <> <if compare flag is false, skip next op>
+0x85DD 0x01 GOTO 0x86DF
+
+0x85E1 0x03 COMPARE Values: 4 == area2.event_scratch0
+
+0x85E7 0x19 IF > <if compare flag is false, skip next op>
+0x85E8 0x00 EXIT
+0x85E9 0x0C SETUP MONSTER sprite_id: 52 max_distance: 0 pic_id: 255
+
+0x85F0 0x00 EXIT
+
+0x86DF 0x2F AND area2.event_scratch0 = 1 & area1.event_word_25E
+
+0x86E8 0x16 IF = <if compare flag is false, skip next op>
+0x86E9 0x01 GOTO 0x872A
+
+0x86ED 0x0C SETUP MONSTER sprite_id: 50 max_distance: 0 pic_id: 255
+
+0x86F4 0x00 EXIT
+
+0x872A 0x03 COMPARE Values: 3 == area1.event_word_258
+
+0x8730 0x16 IF = <if compare flag is false, skip next op>
+0x8731 0x00 EXIT
+0x8732 0x0C SETUP MONSTER sprite_id: 5 max_distance: 0 pic_id: 255
+
+0x8739 0x00 EXIT
+
+0x87AA 0x09 SAVE area1.event_word_206 = 0
+
+0x87B0 0x0C SETUP MONSTER sprite_id: 33 max_distance: 0 pic_id: 255
+
+0x87B7 0x00 EXIT
+
+0x880A 0x2F AND area2.event_scratch0 = 4 & area1.event_word_25E
+
+0x8813 0x17 IF <> <if compare flag is false, skip next op>
+0x8814 0x01 GOTO 0x88B8
+
+0x8818 0x0E PICTURE block_id: 86
+
+0x881B 0x30 OR area1.event_word_25E = 4 | area1.event_word_25E
+
+0x8824 0x12 PRINTCLEAR "'WELCOME TO CALORIS. I AM LORD BERKELEY'S CHANCELLOR, ALPHONSE DE SADE. LORD BERKELEY SENDS HIS GREETINGS. THE CORONATION WILL BEGIN SHORTLY.' HE TURNS HIS BACK AND QUICKLY MOVES AWAY."
+
+0x88B8 0x09 SAVE area1.event_word_22A = abs_0001
+
+0x88BF 0x09 SAVE area1.event_word_226 = 0
+
+0x88C5 0x09 SAVE scratch.word_0000 = abs_000C
+
+0x88D7 0x09 SAVE scratch.word_0208 = abs_0007
+
+0x88E4 0x01 GOTO 0x8D1B
+
+0x88E8 0x03 COMPARE Values: 0 == area1.event_word_258
+
+0x88EE 0x16 IF = <if compare flag is false, skip next op>
+0x88EF 0x01 GOTO 0x89C0
+
+0x88F3 0x2F AND area2.event_scratch0 = 16 & area1.event_word_25A
+
+0x88FC 0x17 IF <> <if compare flag is false, skip next op>
+0x88FD 0x01 GOTO 0x89C0
+
+0x8901 0x12 PRINTCLEAR 'LUNARIANS STAND WATCH. DO YOU QUESTION THEM?'
+
+0x89C0 0x09 SAVE area1.event_word_22A = abs_0001
+
+0x89C7 0x09 SAVE area1.event_word_226 = 0
+
+0x89CD 0x09 SAVE scratch.word_0000 = abs_0006
+
+0x89D9 0x09 SAVE scratch.word_0208 = abs_0004
+
+0x89E3 0x01 GOTO 0x8D1B
+
+0x89E7 0x03 COMPARE Values: 0 == abs_C04E
+
+0x89ED 0x16 IF = <if compare flag is false, skip next op>
+0x89EE 0x00 EXIT
+0x89EF 0x0C SETUP MONSTER sprite_id: 50 max_distance: 0 pic_id: 255
+
+0x89F6 0x00 EXIT
+
+0x8A30 0x09 SAVE area1.event_word_22A = abs_0001
+
+0x8A37 0x09 SAVE area1.event_word_226 = 1
+
+0x8A3D 0x01 GOTO 0x8D1B
+
+0x8A41 0x09 SAVE area1.event_word_22A = abs_0001
+
+0x8A48 0x09 SAVE area1.event_word_226 = 1
+
+0x8A4E 0x01 GOTO 0x8D1B
+
+0x8A52 0x03 COMPARE Values: 0 == area1.event_word_258
+
+0x8A58 0x17 IF <> <if compare flag is false, skip next op>
+0x8A59 0x01 GOTO 0x8A89
+
+0x8A5D 0x09 SAVE area1.event_word_22A = abs_0001
+
+0x8A64 0x09 SAVE area1.event_word_226 = 0
+
+0x8A6A 0x09 SAVE scratch.word_0000 = abs_0006
+
+0x8A76 0x09 SAVE scratch.word_0208 = abs_0009
+
+0x8A85 0x01 GOTO 0x8D1B
+
+0x8A89 0x03 COMPARE Values: 3 == area1.event_word_258
+
+0x8A8F 0x1B IF >= <if compare flag is false, skip next op>
+0x8A90 0x00 EXIT
+0x8A91 0x2F AND area2.event_scratch0 = 16 & area1.event_word_25E
+
+0x8A9A 0x17 IF <> <if compare flag is false, skip next op>
+0x8A9B 0x01 GOTO 0x8C27
+
+0x8A9F 0x2F AND area2.event_scratch0 = 2 & area1.event_word_25E
+
+0x8AA8 0x16 IF = <if compare flag is false, skip next op>
+0x8AA9 0x01 GOTO 0x8A5D
+
+0x8AAE 0x00 EXIT
+
+0x8C27 0x0C SETUP MONSTER sprite_id: 5 max_distance: 0 pic_id: 255
+
+0x8C2E 0x00 EXIT
+
+0x8C46 0x2F AND area2.event_scratch0 = 8 & area1.event_word_25A
+
+0x8C4F 0x17 IF <> <if compare flag is false, skip next op>
+0x8C50 0x01 GOTO 0x8CF5
+
+0x8C54 0x0C SETUP MONSTER sprite_id: 52 max_distance: 0 pic_id: 255
+
+0x8C5B 0x00 EXIT
+
+0x8CF5 0x09 SAVE area1.event_word_22A = abs_0001
+
+0x8CFC 0x09 SAVE scratch.word_0000 = abs_0007
+
+0x8D09 0x09 SAVE scratch.word_0208 = abs_0006
+
+0x8D15 0x09 SAVE area1.event_word_226 = 0
+
+0x8D1B 0x03 COMPARE Values: 1 == area1.event_word_208
+
+0x8D21 0x16 IF = <if compare flag is false, skip next op>
+0x8D22 0x00 EXIT
+0x8D23 0x12 PRINTCLEAR 'THE TELLTALE ON THE DOOR READS,'
+
+0x8D3E 0x33 PRINT RETURN
+0x8D3F 0x33 PRINT RETURN
+0x8D40 0x11 PRINT 'BERTH '
+
+0x8D48 0x11 PRINT '<string at area1.event_word_22A>'
+
+0x8D4C 0x03 COMPARE Values: 1 == area1.event_word_226
+
+0x8D52 0x16 IF = <if compare flag is false, skip next op>
+0x8D53 0x00 EXIT
+0x8D54 0x33 PRINT RETURN
+0x8D55 0x11 PRINT 'SHIP:  '
+
+0x8D5E 0x11 PRINT '<string at scratch.word_0000>'
+
+0x8D62 0x33 PRINT RETURN
+0x8D63 0x11 PRINT 'HOMEPORT:  '
+
+0x8D6F 0x11 PRINT '<string at scratch.word_0208>'
+
+0x8D73 0x00 EXIT
+0x8D74 0x03 COMPARE Values: 0 == abs_C04E
+
+0x8D7A 0x17 IF <> <if compare flag is false, skip next op>
+0x8D7B 0x00 EXIT
+0x8D7C 0x12 PRINTCLEAR "A SERVICE DROID APPROACHES YOU. 'WELCOME TO THE RISING SUN. ARE YOU STAYING?'"
+
+0x8DD2 0x2F AND area2.event_scratch0 = 1 & area1.event_word_25C
+
+0x8DDB 0x16 IF = <if compare flag is false, skip next op>
+0x8DDC 0x00 EXIT
+0x8DDD 0x12 PRINTCLEAR 'AN OLD ROCKET JOCK WITH BLEARY EYES GREETS YOU WITH A SLURRED VOICE.'
+
+0x8E2F 0x00 EXIT
+
+0x8E9E 0x2F AND area2.event_scratch0 = 1 & area1.event_word_25C
+
+0x8EA7 0x17 IF <> <if compare flag is false, skip next op>
+0x8EA8 0x01 GOTO 0x8F19
+
+0x8EAC 0x09 SAVE area1.event_word_20E = 1
+
+0x8EB2 0x12 PRINTCLEAR "A DISEMBODIED VOICE ECHOES THROUGH THE HALL, '"
+
+0x8ED8 0x09 SAVE scratch.word_0208 = abs_0024
+
+0x8F02 0x11 PRINT '<string at area2.selected_player_name>'
+
+0x8F06 0x11 PRINT '<string at scratch.word_0208>'
+
+0x8F0A 0x33 PRINT RETURN
+0x8F0B 0x11 PRINT '<string at area2.selected_player_name>'
+
+0x8F0F 0x11 PRINT '<string at scratch.word_0208>'
+
+0x8F13 0x11 PRINT "'"
+
+0x8F19 0x2F AND area2.event_scratch0 = 4 & area1.event_word_25C
+
+0x8F22 0x17 IF <> <if compare flag is false, skip next op>
+0x8F23 0x00 EXIT
+0x8F24 0x2F AND area2.event_scratch0 = 2 & area1.event_word_25E
+
+0x8F2D 0x16 IF = <if compare flag is false, skip next op>
+0x8F2E 0x00 EXIT
+0x8F2F 0x09 SAVE area1.event_word_20E = 2
+
+0x8F35 0x01 GOTO 0x8EB2
+
+0x8F39 0x00 EXIT
+0x8F3A 0x03 COMPARE Values: 2 == mapDirection
+
+0x8F40 0x17 IF <> <if compare flag is false, skip next op>
+0x8F41 0x00 EXIT
+0x8F42 0x12 PRINTCLEAR 'YOU ENTER A DOCKSIDE BAR. '
+
+0x8F59 0x31 SPRITE OFF
+
+0x8F5D 0x00 EXIT
+
+0x90EE 0x12 PRINTCLEAR "A TINNY VOICE INTONES, 'THIS IS A CARGO ELEVATOR ONLY. PLEASE EXIT.'"
+
+0x9124 0x00 EXIT
+0x9125 0x03 COMPARE Values: 0 == abs_C04E
+
+0x912B 0x17 IF <> <if compare flag is false, skip next op>
+0x912C 0x00 EXIT
+0x912D 0x12 PRINTCLEAR 'TECHNICIANS ARE BUSY AT THEIR COM STATIONS.'
+
+0x9151 0x2F AND area2.event_scratch0 = 128 & area1.event_word_25A
+
+0x915A 0x17 IF <> <if compare flag is false, skip next op>
+0x915B 0x00 EXIT
+0x915C 0x2F AND area2.event_scratch0 = 8 & area1.event_word_25E
+
+0x9165 0x16 IF = <if compare flag is false, skip next op>
+0x9166 0x00 EXIT
+0x9167 0x11 PRINT " ONE SAYS, '"
+
+0x9173 0x02 GOSUB 0xA1C5
+
+0x9178 0x03 COMPARE Values: 0 == abs_C04E
+
+0x917E 0x17 IF <> <if compare flag is false, skip next op>
+0x917F 0x00 EXIT
+0x9180 0x12 PRINTCLEAR 'THE PORTMASTER IS TOO BUSY TO SPEAK TO YOU.'
+
+0x91A6 0x12 PRINTCLEAR 'HONOR GUARDS STAND AT ATTENTION. '
+
+0x91C2 0x00 EXIT
+0x91C3 0x03 COMPARE Values: 1 == area1.event_word_20E
+
+0x91C9 0x16 IF = <if compare flag is false, skip next op>
+0x91CA 0x01 GOTO 0x96B7
+
+0x91CE 0x2F AND area2.event_scratch0 = 3 & area1.event_word_25E
+
+0x91D7 0x17 IF <> <if compare flag is false, skip next op>
+0x91D8 0x01 GOTO 0x96B7
+
+0x91DC 0x2F AND area2.event_scratch0 = 8 & area1.event_word_25E
+
+0x91E5 0x16 IF = <if compare flag is false, skip next op>
+0x91E6 0x01 GOTO 0x96B7
+
+0x91EA 0x0C SETUP MONSTER sprite_id: 33 max_distance: 0 pic_id: 255
+
+0x91F1 0x00 EXIT
+
+0x92FB 0x2F AND area2.event_scratch0 = 8 & area1.event_word_25E
+
+0x9304 0x16 IF = <if compare flag is false, skip next op>
+0x9305 0x01 GOTO 0x96B7
+
+0x9309 0x2F AND area2.event_scratch0 = 32 & area1.event_word_25C
+
+0x9312 0x17 IF <> <if compare flag is false, skip next op>
+0x9313 0x01 GOTO 0x9618
+
+0x9317 0x03 COMPARE Values: 3 == area1.event_word_258
+
+0x931D 0x1B IF >= <if compare flag is false, skip next op>
+0x931E 0x00 EXIT
+0x931F 0x0E PICTURE block_id: 86
+
+0x9322 0x12 PRINTCLEAR "CHANCELLOR DE SADE SHAKES YOUR HAND GRACIOUSLY. '"
+
+0x934A 0x2F AND area2.event_scratch0 = 2 & area1.event_word_25A
+
+0x9353 0x17 IF <> <if compare flag is false, skip next op>
+0x9354 0x11 PRINT 'WITH BERKELEY DEAD, THERE IS NO NEED TO CONTINUE ANY NEGOTIATIONS ON AN ALLIANCE. NEVERTHELESS,'
+
+0x939F 0x16 IF = <if compare flag is false, skip next op>
+0x93A0 0x11 PRINT 'IT IS GOOD THAT YOU WERE HERE, AND TO SHOW OUR APPRECIATION,'
+
+0x93D0 0x11 PRINT " HERE IS PAYMENT FOR YOUR SERVICES.'"
+
+0x9618 0x2F AND area2.event_scratch0 = 64 & area1.event_word_25C
+
+0x9621 0x16 IF = <if compare flag is false, skip next op>
+0x9622 0x01 GOTO 0x96B7
+
+0x9626 0x2F AND area2.event_scratch0 = 128 & area1.event_word_25C
+
+0x962F 0x17 IF <> <if compare flag is false, skip next op>
+0x9630 0x01 GOTO 0x96B7
+
+0x9634 0x0C SETUP MONSTER sprite_id: 255 max_distance: 0 pic_id: 86
+
+0x963B 0x00 EXIT
+
+0x96B7 0x03 COMPARE Values: 0 == abs_C04E
+
+0x96BD 0x17 IF <> <if compare flag is false, skip next op>
+0x96BE 0x00 EXIT
+0x96BF 0x12 PRINTCLEAR 'NOBODY IS HERE.'
+
+0x96CE 0x00 EXIT
+0x96CF 0x03 COMPARE Values: 0 == area1.event_word_258
+
+0x96D5 0x17 IF <> <if compare flag is false, skip next op>
+0x96D6 0x00 EXIT
+0x96D7 0x09 SAVE area1.event_word_258 = 1
+
+0x96DD 0x12 PRINTCLEAR "A MAN CARRYING A BUNDLE OF PAPERS RUSHES UP TO YOU. HE GRABS YOUR ARM DESPERATELY. 'I AM DR. ROMNEY. PLEASE HELP ME GET TO THE SUN KING. IT IS MOST URGENT.'"
+
+0x9B80 0x03 COMPARE Values: 0 == abs_C04E
+
+0x9B86 0x17 IF <> <if compare flag is false, skip next op>
+0x9B87 0x00 EXIT
+0x9B88 0x12 PRINTCLEAR 'THIS IS A PRIVATE RESIDENCE.'
+
+0x9BA0 0x00 EXIT
+0x9BA1 0x00 EXIT
+0x9BA2 0x09 SAVE scratch.word_0208 = abs_000C
+
+0x9BB4 0x01 GOTO 0xA086
+
+0x9BB8 0x03 COMPARE Values: 1 == area1.event_word_20E
+
+0x9BBE 0x16 IF = <if compare flag is false, skip next op>
+0x9BBF 0x01 GOTO 0xA008
+
+0x9BC3 0x2F AND area2.event_scratch0 = 8 & area1.event_word_25E
+
+0x9BCC 0x17 IF <> <if compare flag is false, skip next op>
+0x9BCD 0x00 EXIT
+0x9BCE 0x12 PRINTCLEAR 'THE HALL IS THRONGED WITH DIGNITARIES AND PERSONAGES FROM DIVERSE CULTURES: DANCERS, MUSICIANS, LUNARIANS, VENUSIANS, AND TERRANS.'
+
+0xA008 0x03 COMPARE Values: 3 == mapDirection
+
+0xA00E 0x17 IF <> <if compare flag is false, skip next op>
+0xA00F 0x00 EXIT
+0xA010 0x12 PRINTCLEAR 'PEOPLE MILL ABOUT, WAITING FOR THE SUN KING.'
+
+0xA036 0x09 SAVE scratch.word_0208 = abs_0009
+
+0xA045 0x01 GOTO 0xA086
+
+0xA049 0x00 EXIT
+0xA04A 0x09 SAVE scratch.word_0208 = abs_000B
+
+0xA05B 0x01 GOTO 0xA086
+
+0xA05F 0x09 SAVE scratch.word_0208 = abs_000B
+
+0xA070 0x01 GOTO 0xA086
+
+0xA074 0x09 SAVE scratch.word_0208 = abs_000C
+
+0xA086 0x12 PRINTCLEAR 'A PLAQUE READS,'
+
+0xA095 0x33 PRINT RETURN
+0xA096 0x33 PRINT RETURN
+0xA097 0x11 PRINT "       '"
+
+0xA0A0 0x11 PRINT '<string at scratch.word_0208>'
+
+0xA0A4 0x11 PRINT ".'"
+
+0xA0A9 0x00 EXIT
+0xA0AA 0x12 PRINTCLEAR "THE AUTODOCS HUM SOOTHINGLY. 'DO YOU NEED HEALING?'"
+
+0xA176 0x09 SAVE scratch.word_0208 = abs_0005
+
+0xA181 0x01 GOTO 0xA086
+
+0xA1C5 0x11 PRINT "HOLD ON, A MESSAGE FOR YOU IS JUST COMING IN.'"
+
+Text fallthrough boundaries skipped:
+- 0x88B1: 0x29 after PRINTCLEAR
+- 0x8925: 0x2C after PRINTCLEAR
+- 0x8DB9: 0x2C after PRINTCLEAR
+- 0x8E13: 0x29 after PRINTCLEAR
+- 0x8F17: 0x29 after PRINT
+- 0x91A4: 0x29 after PRINTCLEAR
+- 0x93EE: 0x29 after PRINT
+- 0x9755: 0x29 after PRINTCLEAR
+- 0x9C33: 0x29 after PRINTCLEAR
+- 0xA0D4: 0x2C after PRINTCLEAR
+- 0x84F9: 0x29 after PRINT
+- 0xA1EB: 0x29 after PRINT
+- 0xA034: 0x29 after PRINTCLEAR
+
+Prefixed fallthroughs normalized:
+- 0x8F5A -> 0x8F5D
+
+Unknown-prefixed branch targets normalized:
+- 0x8E2E -> 0x8E2F from GOTO
+- 0x8E2E -> 0x8E2F from ON GOTO
+
+Unknown-prefixed fallthroughs normalized:
+- 0x8312 -> 0x8313
+- 0x810E -> 0x810F
+- 0x9177 -> 0x9178
+- 0x8AAD -> 0x8AAE

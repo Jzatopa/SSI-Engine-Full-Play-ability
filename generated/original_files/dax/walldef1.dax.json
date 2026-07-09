@@ -1,0 +1,2966 @@
+{
+  "valid": true,
+  "file": "WALLDEF1.DAX",
+  "bytes": 17917,
+  "sha256": "bb9d1d8e62626a33d5ae9b414fca6d5ba961835d14ee0bb6fc59612c508ee105",
+  "toc_len": 99,
+  "data_offset": 101,
+  "block_count": 11,
+  "semantic_status": "partially decoded: wall texture PNG export exists",
+  "warnings": [],
+  "blocks": [
+    {
+      "id": 1,
+      "toc_entry_offset": 2,
+      "packed_relative_offset": 0,
+      "packed_absolute_offset": 101,
+      "raw_size": 2340,
+      "packed_size": 1613,
+      "decoded_size": 2340,
+      "decoded_sha256": "183baad77be1a551a1c38a581ecaf10c2fcdef17fbb94c40fb2e9cac0cbc8786",
+      "packed_sha256": "6436797a88775a616f47d8676377fb10e0aa8d37296aa24db2f3bc865bbac3b8",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.6893,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        12,
+        18,
+        36
+      ],
+      "known_record_hints": [],
+      "head_hex": "01 3f 01 70 27 73 01 71 28 72 01 01 01 26 26 26 25 25 25 25 25 25 01 01 70 01 27 70 74 27 74 74 74 74 74 73 73 03 01 01 01 71 71 28 28 74 74 74 74 74 72 74 03 72 01 01 01 01 01 01 01 26 26 26",
+      "tail_hex": "68 68 68 68 68 75 75 03 00 00 00 00 00 00 e0 e1 68 68 68 68 68 68 68 68 68 68 76 68 03 76 01 e2",
+      "ascii_candidates": [
+        {
+          "offset": 13,
+          "length": 9,
+          "text": "&&&%%%%%%"
+        },
+        {
+          "offset": 26,
+          "length": 11,
+          "text": "'pt'tttttss"
+        },
+        {
+          "offset": 41,
+          "length": 11,
+          "text": "qq((tttttrt"
+        },
+        {
+          "offset": 61,
+          "length": 50,
+          "text": "&&&&&&&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%p"
+        },
+        {
+          "offset": 112,
+          "length": 19,
+          "text": "'pt'tttttttttttttss"
+        },
+        {
+          "offset": 133,
+          "length": 19,
+          "text": "qq((tttttttttttttrt"
+        },
+        {
+          "offset": 169,
+          "length": 9,
+          "text": "&&&%3%%)%"
+        },
+        {
+          "offset": 182,
+          "length": 4,
+          "text": "'pt'"
+        },
+        {
+          "offset": 197,
+          "length": 5,
+          "text": "qq((t"
+        },
+        {
+          "offset": 217,
+          "length": 31,
+          "text": "&&&&&&&%%%%%%%%%%%%%%%%;><%%%%-"
+        },
+        {
+          "offset": 249,
+          "length": 6,
+          "text": ".%%%%-"
+        },
+        {
+          "offset": 256,
+          "length": 6,
+          "text": ".%%%%-"
+        },
+        {
+          "offset": 263,
+          "length": 4,
+          "text": ".%%p"
+        },
+        {
+          "offset": 268,
+          "length": 19,
+          "text": "'pt'tt<t.t.t.t.t.s,"
+        },
+        {
+          "offset": 289,
+          "length": 19,
+          "text": "qq((tttt;t-t-t-t-r-"
+        },
+        {
+          "offset": 340,
+          "length": 7,
+          "text": "\t7\t\t\t\t\t"
+        },
+        {
+          "offset": 355,
+          "length": 7,
+          "text": "88\t\t\t\t\t"
+        },
+        {
+          "offset": 426,
+          "length": 15,
+          "text": "\t7\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 447,
+          "length": 15,
+          "text": "88\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 582,
+          "length": 15,
+          "text": "\t7\t\t!\t.\t.\t.\t.\t."
+        },
+        {
+          "offset": 603,
+          "length": 15,
+          "text": "88\t\t\t\t \t-\t-\t-\t-"
+        },
+        {
+          "offset": 665,
+          "length": 4,
+          "text": "22::"
+        },
+        {
+          "offset": 757,
+          "length": 4,
+          "text": "22::"
+        },
+        {
+          "offset": 821,
+          "length": 4,
+          "text": "22::"
+        },
+        {
+          "offset": 913,
+          "length": 4,
+          "text": "22::"
+        },
+        {
+          "offset": 1108,
+          "length": 5,
+          "text": "|o}~T"
+        },
+        {
+          "offset": 1219,
+          "length": 4,
+          "text": "`fdj"
+        },
+        {
+          "offset": 1278,
+          "length": 5,
+          "text": "MOLPL"
+        },
+        {
+          "offset": 1294,
+          "length": 4,
+          "text": "MOLP"
+        },
+        {
+          "offset": 1573,
+          "length": 9,
+          "text": "hhhhhhhhh"
+        },
+        {
+          "offset": 1586,
+          "length": 11,
+          "text": "hxhhhhhhhuu"
+        },
+        {
+          "offset": 1601,
+          "length": 11,
+          "text": "wwhhhhhhhvh"
+        },
+        {
+          "offset": 1621,
+          "length": 50,
+          "text": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhx"
+        },
+        {
+          "offset": 1672,
+          "length": 19,
+          "text": "hxhhhhhhhhhhhhhhhuu"
+        },
+        {
+          "offset": 1693,
+          "length": 19,
+          "text": "wwhhhhhhhhhhhhhhhvh"
+        },
+        {
+          "offset": 2200,
+          "length": 6,
+          "text": "hhhhhh"
+        },
+        {
+          "offset": 2214,
+          "length": 7,
+          "text": "hhhhhuu"
+        },
+        {
+          "offset": 2230,
+          "length": 6,
+          "text": "hhhhvh"
+        },
+        {
+          "offset": 2259,
+          "length": 35,
+          "text": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+        },
+        {
+          "offset": 2302,
+          "length": 13,
+          "text": "hhhhhhhhhhhuu"
+        },
+        {
+          "offset": 2324,
+          "length": 12,
+          "text": "hhhhhhhhhhvh"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "01": 267,
+        "68": 203,
+        "00": 187,
+        "0b": 156,
+        "0a": 110,
+        "25": 82,
+        "08": 82,
+        "18": 82,
+        "03": 60,
+        "74": 58,
+        "09": 58,
+        "19": 58,
+        "b6": 38,
+        "ac": 28,
+        "2d": 24,
+        "2e": 24
+      },
+      "warnings": []
+    },
+    {
+      "id": 3,
+      "toc_entry_offset": 11,
+      "packed_relative_offset": 1613,
+      "packed_absolute_offset": 1714,
+      "raw_size": 2340,
+      "packed_size": 1331,
+      "decoded_size": 2340,
+      "decoded_sha256": "b56bf6221ab8c56a7c90bfb098de49f583441c0940869dc9f33ec97794c277af",
+      "packed_sha256": "a2fb9128de03cb9c64e3a2ae13f96b90fc3888aa420cb23c052f65f7690326ef",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.5688,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        12,
+        18,
+        36
+      ],
+      "known_record_hints": [],
+      "head_hex": "01 25 01 70 74 73 01 71 74 72 01 01 01 25 25 25 25 25 25 25 25 25 01 01 70 01 74 70 74 74 74 74 74 74 74 73 73 03 01 01 01 71 71 74 74 74 74 74 74 74 72 74 03 72 01 01 01 01 01 01 01 25 25 25",
+      "tail_hex": "1c 1c 1c 1c 1c 1c 1c 03 01 1c 1c 1c 1c 1c 1c 1c 1c 1c 1c 1c 1c 1c 1c 1c 1c 1c 1c 1c 03 1c 00 0b",
+      "ascii_candidates": [
+        {
+          "offset": 13,
+          "length": 9,
+          "text": "%%%%%%%%%"
+        },
+        {
+          "offset": 26,
+          "length": 11,
+          "text": "tptttttttss"
+        },
+        {
+          "offset": 41,
+          "length": 11,
+          "text": "qqtttttttrt"
+        },
+        {
+          "offset": 61,
+          "length": 50,
+          "text": "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%p"
+        },
+        {
+          "offset": 112,
+          "length": 19,
+          "text": "tptttttttttttttttss"
+        },
+        {
+          "offset": 133,
+          "length": 19,
+          "text": "qqtttttttttttttttrt"
+        },
+        {
+          "offset": 544,
+          "length": 4,
+          "text": "(S_R"
+        },
+        {
+          "offset": 551,
+          "length": 5,
+          "text": "%S_R%"
+        },
+        {
+          "offset": 558,
+          "length": 5,
+          "text": "%S_R%"
+        },
+        {
+          "offset": 565,
+          "length": 5,
+          "text": "%S_R%"
+        },
+        {
+          "offset": 796,
+          "length": 5,
+          "text": "|o}~U"
+        },
+        {
+          "offset": 907,
+          "length": 4,
+          "text": "`fdj"
+        },
+        {
+          "offset": 1120,
+          "length": 7,
+          "text": "\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 1135,
+          "length": 7,
+          "text": "\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 1206,
+          "length": 15,
+          "text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 1227,
+          "length": 15,
+          "text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 1420,
+          "length": 6,
+          "text": "9#:7$8"
+        },
+        {
+          "offset": 1434,
+          "length": 7,
+          "text": ";<?<;+*"
+        },
+        {
+          "offset": 1449,
+          "length": 7,
+          "text": ">.<7<,<"
+        },
+        {
+          "offset": 1480,
+          "length": 5,
+          "text": "3###4"
+        },
+        {
+          "offset": 1487,
+          "length": 4,
+          "text": "$$$$"
+        },
+        {
+          "offset": 1493,
+          "length": 5,
+          "text": "V$$$$"
+        },
+        {
+          "offset": 1501,
+          "length": 4,
+          "text": "$$$$"
+        },
+        {
+          "offset": 1508,
+          "length": 4,
+          "text": "$$$$"
+        },
+        {
+          "offset": 1729,
+          "length": 9,
+          "text": "hhhhhhhhh"
+        },
+        {
+          "offset": 1742,
+          "length": 11,
+          "text": "ixiiiiiiiuu"
+        },
+        {
+          "offset": 1757,
+          "length": 11,
+          "text": "wwiiiiiiivi"
+        },
+        {
+          "offset": 1777,
+          "length": 50,
+          "text": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhx"
+        },
+        {
+          "offset": 1828,
+          "length": 19,
+          "text": "ixiiiiiiiiiiiiiiiuu"
+        },
+        {
+          "offset": 1849,
+          "length": 19,
+          "text": "wwiiiiiiiiiiiiiiivi"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "1c": 409,
+        "01": 294,
+        "ed": 274,
+        "ec": 215,
+        "08": 87,
+        "25": 79,
+        "09": 64,
+        "18": 60,
+        "68": 60,
+        "03": 56,
+        "00": 52,
+        "74": 50,
+        "19": 50,
+        "69": 50,
+        "f0": 35,
+        "f1": 35
+      },
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "toc_entry_offset": 20,
+      "packed_relative_offset": 2944,
+      "packed_absolute_offset": 3045,
+      "raw_size": 2340,
+      "packed_size": 1591,
+      "decoded_size": 2340,
+      "decoded_sha256": "db0765a753036b44d5142b7dc36eabc159ff50fe040facce54bc39baea0397bb",
+      "packed_sha256": "76ea230d63a432bb4f910764e1e40a1443e1c836d5ea59127443e89a20f29776",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.6799,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        12,
+        18,
+        36
+      ],
+      "known_record_hints": [],
+      "head_hex": "01 25 01 70 74 73 01 71 74 72 01 01 01 25 25 25 25 25 25 25 25 25 01 01 70 01 74 70 74 74 74 74 74 74 74 73 73 03 01 01 01 71 71 74 74 74 74 74 74 74 72 74 03 72 01 01 01 01 01 01 01 25 25 25",
+      "tail_hex": "74 74 74 74 74 73 73 03 01 71 71 74 74 74 74 74 74 74 74 74 74 74 74 74 74 74 72 74 03 72 00 25",
+      "ascii_candidates": [
+        {
+          "offset": 13,
+          "length": 9,
+          "text": "%%%%%%%%%"
+        },
+        {
+          "offset": 26,
+          "length": 11,
+          "text": "tptttttttss"
+        },
+        {
+          "offset": 41,
+          "length": 11,
+          "text": "qqtttttttrt"
+        },
+        {
+          "offset": 61,
+          "length": 50,
+          "text": "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%p"
+        },
+        {
+          "offset": 112,
+          "length": 19,
+          "text": "tptttttttttttttttss"
+        },
+        {
+          "offset": 133,
+          "length": 19,
+          "text": "qqtttttttttttttttrt"
+        },
+        {
+          "offset": 182,
+          "length": 11,
+          "text": "upuuuuuuuss"
+        },
+        {
+          "offset": 197,
+          "length": 11,
+          "text": "qquuuuuuuru"
+        },
+        {
+          "offset": 268,
+          "length": 19,
+          "text": "upuuuuuuuuuuuuuuuss"
+        },
+        {
+          "offset": 289,
+          "length": 19,
+          "text": "qquuuuuuuuuuuuuuuru"
+        },
+        {
+          "offset": 340,
+          "length": 7,
+          "text": "5555555"
+        },
+        {
+          "offset": 355,
+          "length": 7,
+          "text": "5555555"
+        },
+        {
+          "offset": 426,
+          "length": 15,
+          "text": "555555555555555"
+        },
+        {
+          "offset": 447,
+          "length": 15,
+          "text": "555555555555555"
+        },
+        {
+          "offset": 496,
+          "length": 7,
+          "text": "\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 511,
+          "length": 7,
+          "text": "\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 582,
+          "length": 15,
+          "text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 603,
+          "length": 15,
+          "text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 796,
+          "length": 5,
+          "text": "|o}~U"
+        },
+        {
+          "offset": 907,
+          "length": 4,
+          "text": "`fdj"
+        },
+        {
+          "offset": 1227,
+          "length": 5,
+          "text": "\t\t\tRS"
+        },
+        {
+          "offset": 1573,
+          "length": 9,
+          "text": "3;3;3;3;3"
+        },
+        {
+          "offset": 1586,
+          "length": 11,
+          "text": "L7?L$??<<99"
+        },
+        {
+          "offset": 1601,
+          "length": 11,
+          "text": "88LL??O<?:<"
+        },
+        {
+          "offset": 1621,
+          "length": 50,
+          "text": "3;;3;=M;=M;N;;M;N3;=4;N;;N3;N;=3;NM;NN;N;;M;MN;=N7"
+        },
+        {
+          "offset": 1672,
+          "length": 19,
+          "text": "L7?L??$?M$?$$??<<99"
+        },
+        {
+          "offset": 1693,
+          "length": 19,
+          "text": "88LL????OOMO??O<?:<"
+        },
+        {
+          "offset": 1729,
+          "length": 9,
+          "text": "=N=N=N=N="
+        },
+        {
+          "offset": 1742,
+          "length": 11,
+          "text": "<G4<O44LLmm"
+        },
+        {
+          "offset": 1757,
+          "length": 11,
+          "text": "TT<<44$L4nL"
+        },
+        {
+          "offset": 1777,
+          "length": 50,
+          "text": "=NN=N;3N;3NMNN3NM=3;=NMNNM=NMN;=NM3NMMNMNN3N3MN;MG"
+        },
+        {
+          "offset": 1828,
+          "length": 19,
+          "text": "<G4<44O43O4OO44LLmm"
+        },
+        {
+          "offset": 1849,
+          "length": 19,
+          "text": "TT<<4444$$3$44$L4nL"
+        },
+        {
+          "offset": 1885,
+          "length": 9,
+          "text": "%%%%i%%C%"
+        },
+        {
+          "offset": 1901,
+          "length": 8,
+          "text": "tvwvwvsh"
+        },
+        {
+          "offset": 1913,
+          "length": 4,
+          "text": "qqtt"
+        },
+        {
+          "offset": 1918,
+          "length": 6,
+          "text": "txtxrx"
+        },
+        {
+          "offset": 1933,
+          "length": 24,
+          "text": "%%%%%%%%%%%%%%%%%%%%%%% "
+        },
+        {
+          "offset": 1958,
+          "length": 5,
+          "text": "!%%%%"
+        },
+        {
+          "offset": 1965,
+          "length": 5,
+          "text": "C%%%%"
+        },
+        {
+          "offset": 1972,
+          "length": 5,
+          "text": "C%%%%"
+        },
+        {
+          "offset": 1979,
+          "length": 4,
+          "text": "C%%p"
+        },
+        {
+          "offset": 1984,
+          "length": 19,
+          "text": "tptttt!tJtJtJtJtJsj"
+        },
+        {
+          "offset": 2005,
+          "length": 19,
+          "text": "qqtttttt tKtKtKtKrK"
+        },
+        {
+          "offset": 2197,
+          "length": 9,
+          "text": "%%%%%%%%%"
+        },
+        {
+          "offset": 2210,
+          "length": 11,
+          "text": "tptttttttss"
+        },
+        {
+          "offset": 2225,
+          "length": 11,
+          "text": "qqtttttttrt"
+        },
+        {
+          "offset": 2245,
+          "length": 50,
+          "text": "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%p"
+        },
+        {
+          "offset": 2296,
+          "length": 19,
+          "text": "tptttttttttttttttss"
+        },
+        {
+          "offset": 2317,
+          "length": 19,
+          "text": "qqtttttttttttttttrt"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "01": 317,
+        "0b": 176,
+        "25": 165,
+        "74": 126,
+        "0a": 112,
+        "08": 95,
+        "09": 72,
+        "18": 60,
+        "19": 60,
+        "ec": 60,
+        "03": 54,
+        "75": 50,
+        "35": 50,
+        "b4": 50,
+        "4e": 35,
+        "ea": 32
+      },
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "toc_entry_offset": 29,
+      "packed_relative_offset": 4535,
+      "packed_absolute_offset": 4636,
+      "raw_size": 2340,
+      "packed_size": 1682,
+      "decoded_size": 2340,
+      "decoded_sha256": "09a0bef6d9f92f2b2e840573e2b1b50b0cd874d1a3182e702c90f1ac19bf34be",
+      "packed_sha256": "f1b3010aad1300f7f4b05180fa6896d54ebdaa34a7a54d98ee42febba9067616",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.7188,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        12,
+        18,
+        36
+      ],
+      "known_record_hints": [],
+      "head_hex": "01 3f 01 70 29 73 01 71 2a 72 01 01 01 26 26 26 25 25 25 25 25 25 01 01 70 01 27 70 25 27 25 25 25 25 25 73 73 03 01 01 01 71 71 28 28 25 25 25 25 25 72 25 03 72 01 01 01 01 01 01 01 26 26 26",
+      "tail_hex": "68 68 68 68 68 75 75 03 00 00 00 00 00 00 1d 45 68 68 68 68 68 68 68 68 68 68 76 68 03 76 00 69",
+      "ascii_candidates": [
+        {
+          "offset": 13,
+          "length": 9,
+          "text": "&&&%%%%%%"
+        },
+        {
+          "offset": 26,
+          "length": 11,
+          "text": "'p%'%%%%%ss"
+        },
+        {
+          "offset": 41,
+          "length": 11,
+          "text": "qq((%%%%%r%"
+        },
+        {
+          "offset": 61,
+          "length": 50,
+          "text": "&&&&&&&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%p"
+        },
+        {
+          "offset": 112,
+          "length": 19,
+          "text": "'p%'%%%%%%%%%%%%%ss"
+        },
+        {
+          "offset": 133,
+          "length": 19,
+          "text": "qq((%%%%%%%%%%%%%r%"
+        },
+        {
+          "offset": 169,
+          "length": 9,
+          "text": "&&&%3%%B%"
+        },
+        {
+          "offset": 182,
+          "length": 4,
+          "text": "'p%'"
+        },
+        {
+          "offset": 197,
+          "length": 5,
+          "text": "qq((%"
+        },
+        {
+          "offset": 217,
+          "length": 24,
+          "text": "&&&&&&&%%%%%%%%%%%%%%%%;"
+        },
+        {
+          "offset": 242,
+          "length": 6,
+          "text": "<%%%%$"
+        },
+        {
+          "offset": 249,
+          "length": 6,
+          "text": "C%%%%$"
+        },
+        {
+          "offset": 256,
+          "length": 6,
+          "text": "C%%%%$"
+        },
+        {
+          "offset": 263,
+          "length": 4,
+          "text": "C%%p"
+        },
+        {
+          "offset": 268,
+          "length": 19,
+          "text": "'p%'%%<%t%t%t%t%tsj"
+        },
+        {
+          "offset": 289,
+          "length": 19,
+          "text": "qq((%%%%;%K%K%K%KrK"
+        },
+        {
+          "offset": 325,
+          "length": 9,
+          "text": "&&&hhhhhh"
+        },
+        {
+          "offset": 338,
+          "length": 11,
+          "text": "7ph7hhhhhuu"
+        },
+        {
+          "offset": 353,
+          "length": 11,
+          "text": "qq88hhhhhvh"
+        },
+        {
+          "offset": 373,
+          "length": 50,
+          "text": "&&&&&&&hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhp"
+        },
+        {
+          "offset": 424,
+          "length": 19,
+          "text": "7ph7hhhhhhhhhhhhhuu"
+        },
+        {
+          "offset": 445,
+          "length": 19,
+          "text": "qq88hhhhhhhhhhhhhvh"
+        },
+        {
+          "offset": 481,
+          "length": 4,
+          "text": "&&&h"
+        },
+        {
+          "offset": 486,
+          "length": 4,
+          "text": "hhBh"
+        },
+        {
+          "offset": 494,
+          "length": 11,
+          "text": "7ph701 ! 4\""
+        },
+        {
+          "offset": 509,
+          "length": 11,
+          "text": "qq88h01 !2!"
+        },
+        {
+          "offset": 529,
+          "length": 24,
+          "text": "&&&&&&&hhhhhhhhhhhhhhhhA"
+        },
+        {
+          "offset": 554,
+          "length": 6,
+          "text": "Whhhh$"
+        },
+        {
+          "offset": 561,
+          "length": 6,
+          "text": "Chhhh$"
+        },
+        {
+          "offset": 568,
+          "length": 6,
+          "text": "Chhhh$"
+        },
+        {
+          "offset": 575,
+          "length": 4,
+          "text": "Chhp"
+        },
+        {
+          "offset": 580,
+          "length": 19,
+          "text": "7ph7hhWhththththtuj"
+        },
+        {
+          "offset": 601,
+          "length": 19,
+          "text": "qq88hhhhAhKhKhKhKvK"
+        },
+        {
+          "offset": 685,
+          "length": 7,
+          "text": "&&&&&&&"
+        },
+        {
+          "offset": 841,
+          "length": 7,
+          "text": "&&&&&&&"
+        },
+        {
+          "offset": 1108,
+          "length": 5,
+          "text": "|o}~T"
+        },
+        {
+          "offset": 1219,
+          "length": 4,
+          "text": "`fdj"
+        },
+        {
+          "offset": 1278,
+          "length": 5,
+          "text": "MOLPL"
+        },
+        {
+          "offset": 1294,
+          "length": 4,
+          "text": "MOLP"
+        },
+        {
+          "offset": 1465,
+          "length": 7,
+          "text": "hhhhhhh"
+        },
+        {
+          "offset": 1516,
+          "length": 4,
+          "text": "hxhh"
+        },
+        {
+          "offset": 1537,
+          "length": 5,
+          "text": "wwhhh"
+        },
+        {
+          "offset": 1573,
+          "length": 9,
+          "text": "hhhhhhhhh"
+        },
+        {
+          "offset": 1586,
+          "length": 11,
+          "text": "hxhhhhhhhuu"
+        },
+        {
+          "offset": 1601,
+          "length": 11,
+          "text": "wwhhhhhhhvh"
+        },
+        {
+          "offset": 1621,
+          "length": 50,
+          "text": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhx"
+        },
+        {
+          "offset": 1672,
+          "length": 19,
+          "text": "hxhhhhhhhhhhhhhhhuu"
+        },
+        {
+          "offset": 1693,
+          "length": 19,
+          "text": "wwhhhhhhhhhhhhhhhvh"
+        },
+        {
+          "offset": 1729,
+          "length": 4,
+          "text": "hhhh"
+        },
+        {
+          "offset": 1734,
+          "length": 4,
+          "text": "hhBh"
+        },
+        {
+          "offset": 1742,
+          "length": 11,
+          "text": "hxhh01 ! 4\""
+        },
+        {
+          "offset": 1757,
+          "length": 11,
+          "text": "wwhhh01 !2!"
+        },
+        {
+          "offset": 1777,
+          "length": 24,
+          "text": "hhhhhhhhhhhhhhhhhhhhhhhA"
+        },
+        {
+          "offset": 1802,
+          "length": 6,
+          "text": "Whhhh$"
+        },
+        {
+          "offset": 1809,
+          "length": 6,
+          "text": "Chhhh$"
+        },
+        {
+          "offset": 1816,
+          "length": 6,
+          "text": "Chhhh$"
+        },
+        {
+          "offset": 1823,
+          "length": 4,
+          "text": "Chhx"
+        },
+        {
+          "offset": 1828,
+          "length": 19,
+          "text": "hxhhhhWhththththtuj"
+        },
+        {
+          "offset": 1849,
+          "length": 19,
+          "text": "wwhhhhhhAhKhKhKhKvK"
+        },
+        {
+          "offset": 2200,
+          "length": 6,
+          "text": "hhhhhh"
+        },
+        {
+          "offset": 2214,
+          "length": 7,
+          "text": "hhhhhuu"
+        },
+        {
+          "offset": 2229,
+          "length": 7,
+          "text": "Ehhhhvh"
+        },
+        {
+          "offset": 2259,
+          "length": 35,
+          "text": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+        },
+        {
+          "offset": 2302,
+          "length": 13,
+          "text": "hhhhhhhhhhhuu"
+        },
+        {
+          "offset": 2323,
+          "length": 13,
+          "text": "Ehhhhhhhhhhvh"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 373,
+          "length": 38,
+          "text": "&&&&&&hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+        },
+        {
+          "offset": 374,
+          "length": 38,
+          "text": "&&&&&hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+        },
+        {
+          "offset": 375,
+          "length": 38,
+          "text": "&&&&hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+        },
+        {
+          "offset": 376,
+          "length": 38,
+          "text": "&&&hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+        },
+        {
+          "offset": 377,
+          "length": 38,
+          "text": "&&hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+        },
+        {
+          "offset": 378,
+          "length": 38,
+          "text": "&hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+        },
+        {
+          "offset": 379,
+          "length": 38,
+          "text": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+        }
+      ],
+      "byte_histogram_top16": {
+        "68": 409,
+        "01": 276,
+        "0b": 164,
+        "25": 140,
+        "0a": 107,
+        "00": 90,
+        "8e": 88,
+        "26": 60,
+        "03": 58,
+        "b6": 38,
+        "70": 30,
+        "71": 30,
+        "ea": 28,
+        "d0": 28,
+        "ac": 28,
+        "4b": 25
+      },
+      "warnings": []
+    },
+    {
+      "id": 9,
+      "toc_entry_offset": 38,
+      "packed_relative_offset": 6217,
+      "packed_absolute_offset": 6318,
+      "raw_size": 2340,
+      "packed_size": 1224,
+      "decoded_size": 2340,
+      "decoded_sha256": "bf39c080569e1f0be56207edcaf1d9047c48ed1c99834e710cd29cbb135b5c66",
+      "packed_sha256": "c4f680568e954538e4aa93e844cbae0793546bec6c866768daf4ae1862bfc98f",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.5231,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        12,
+        18,
+        36
+      ],
+      "known_record_hints": [],
+      "head_hex": "01 a0 01 a8 b1 a3 01 a9 a1 a2 01 01 01 8a 86 8b b4 7f b5 b2 7c b3 01 01 a8 01 8a a8 93 94 2e 2f 2e 1f 2e 99 98 03 01 01 01 a9 a9 8b 93 94 2e 2f 1e 2f 9a 2f 03 97 01 01 01 01 01 01 01 89 68 6a",
+      "tail_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 62,
+          "length": 5,
+          "text": "hjhih"
+        },
+        {
+          "offset": 72,
+          "length": 4,
+          "text": "hjhi"
+        },
+        {
+          "offset": 169,
+          "length": 4,
+          "text": "09U3"
+        },
+        {
+          "offset": 184,
+          "length": 5,
+          "text": "de,-,"
+        },
+        {
+          "offset": 200,
+          "length": 4,
+          "text": "de,-"
+        },
+        {
+          "offset": 217,
+          "length": 9,
+          "text": "iEFGFDjh2"
+        },
+        {
+          "offset": 229,
+          "length": 4,
+          "text": "1ii2"
+        },
+        {
+          "offset": 236,
+          "length": 4,
+          "text": "1hj2"
+        },
+        {
+          "offset": 243,
+          "length": 4,
+          "text": "1ii2"
+        },
+        {
+          "offset": 270,
+          "length": 13,
+          "text": "qhqiqjqiqhqiq"
+        },
+        {
+          "offset": 291,
+          "length": 13,
+          "text": "Eirhrirhrirjr"
+        },
+        {
+          "offset": 765,
+          "length": 4,
+          "text": "jjih"
+        },
+        {
+          "offset": 806,
+          "length": 10,
+          "text": "H[:IH;:XKN"
+        },
+        {
+          "offset": 822,
+          "length": 10,
+          "text": "JIH;:IW;ML"
+        },
+        {
+          "offset": 877,
+          "length": 4,
+          "text": "jj7j"
+        },
+        {
+          "offset": 900,
+          "length": 5,
+          "text": "7h7h7"
+        },
+        {
+          "offset": 921,
+          "length": 5,
+          "text": "7j7h7"
+        },
+        {
+          "offset": 1233,
+          "length": 4,
+          "text": "jjih"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 1207,
+        "01": 155,
+        "86": 99,
+        "6a": 62,
+        "69": 46,
+        "68": 43,
+        "8a": 37,
+        "03": 36,
+        "84": 34,
+        "85": 33,
+        "8b": 31,
+        "a8": 29,
+        "a9": 29,
+        "90": 29,
+        "89": 26,
+        "37": 22
+      },
+      "warnings": []
+    },
+    {
+      "id": 11,
+      "toc_entry_offset": 47,
+      "packed_relative_offset": 7441,
+      "packed_absolute_offset": 7542,
+      "raw_size": 2340,
+      "packed_size": 1728,
+      "decoded_size": 2340,
+      "decoded_sha256": "8523745e0b754c12428e81779e7a0783f1367d7ac677a38a531b7cfc78e5bbd2",
+      "packed_sha256": "468338226459b1ff194448cede6bd026bdaaa16613770d982bb5737ba9e5a499",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.7385,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        12,
+        18,
+        36
+      ],
+      "known_record_hints": [],
+      "head_hex": "01 08 01 07 09 04 01 06 09 05 01 01 01 08 08 08 08 08 08 08 08 08 01 01 07 01 09 07 09 09 09 09 09 09 09 04 04 03 01 01 01 06 06 09 09 09 09 09 09 09 05 09 03 05 01 01 01 01 01 01 01 08 08 08",
+      "tail_hex": "09 09 09 09 09 04 04 03 01 06 06 09 09 09 09 09 09 09 09 09 09 09 09 09 09 09 05 09 03 05 00 08",
+      "ascii_candidates": [
+        {
+          "offset": 28,
+          "length": 7,
+          "text": "\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 43,
+          "length": 7,
+          "text": "\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 114,
+          "length": 15,
+          "text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 135,
+          "length": 15,
+          "text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 279,
+          "length": 4,
+          "text": "\t\t\t\t"
+        },
+        {
+          "offset": 458,
+          "length": 4,
+          "text": "\t\t\t\t"
+        },
+        {
+          "offset": 496,
+          "length": 7,
+          "text": "\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 511,
+          "length": 7,
+          "text": "\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 582,
+          "length": 15,
+          "text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 603,
+          "length": 15,
+          "text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 796,
+          "length": 5,
+          "text": "|o}~U"
+        },
+        {
+          "offset": 907,
+          "length": 4,
+          "text": "`fdj"
+        },
+        {
+          "offset": 1227,
+          "length": 5,
+          "text": "\t\t\tRS"
+        },
+        {
+          "offset": 1432,
+          "length": 7,
+          "text": "\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 1447,
+          "length": 7,
+          "text": "\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 1518,
+          "length": 15,
+          "text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 1539,
+          "length": 15,
+          "text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 1590,
+          "length": 7,
+          "text": "78787BA"
+        },
+        {
+          "offset": 1606,
+          "length": 6,
+          "text": "GOGOmO"
+        },
+        {
+          "offset": 1674,
+          "length": 15,
+          "text": "\t\t\t\tL\tJ\tJ\tJ\tJ\tJ"
+        },
+        {
+          "offset": 1695,
+          "length": 15,
+          "text": "\t\t\t\t\t\tM\tK\tK\tK\tK"
+        },
+        {
+          "offset": 1857,
+          "length": 9,
+          "text": "w\tK\tK\tK\tK"
+        },
+        {
+          "offset": 1994,
+          "length": 5,
+          "text": "J\tJ\tJ"
+        },
+        {
+          "offset": 2058,
+          "length": 7,
+          "text": "78787BA"
+        },
+        {
+          "offset": 2074,
+          "length": 6,
+          "text": "GOGOmO"
+        },
+        {
+          "offset": 2142,
+          "length": 15,
+          "text": "\t\t\t\tL\tJ\tJ\tJ\tJ\tJ"
+        },
+        {
+          "offset": 2163,
+          "length": 15,
+          "text": "\t\t\t\t\t\tM\tK\tK\tK\tK"
+        },
+        {
+          "offset": 2212,
+          "length": 7,
+          "text": "\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 2227,
+          "length": 7,
+          "text": "\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 2298,
+          "length": 15,
+          "text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 2319,
+          "length": 15,
+          "text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 1674,
+          "length": 9,
+          "text": "\t\t\tL\tJ\tJ\t"
+        },
+        {
+          "offset": 1675,
+          "length": 9,
+          "text": "\t\tL\tJ\tJ\tJ"
+        },
+        {
+          "offset": 1676,
+          "length": 9,
+          "text": "\tL\tJ\tJ\tJ\t"
+        },
+        {
+          "offset": 1677,
+          "length": 9,
+          "text": "L\tJ\tJ\tJ\tJ"
+        },
+        {
+          "offset": 1679,
+          "length": 9,
+          "text": "J\tJ\tJ\tJ\tJ"
+        },
+        {
+          "offset": 1696,
+          "length": 9,
+          "text": "\t\t\t\tM\tK\tK"
+        },
+        {
+          "offset": 1697,
+          "length": 9,
+          "text": "\t\t\tM\tK\tK\t"
+        },
+        {
+          "offset": 1698,
+          "length": 9,
+          "text": "\t\tM\tK\tK\tK"
+        },
+        {
+          "offset": 1699,
+          "length": 9,
+          "text": "\tM\tK\tK\tK\t"
+        },
+        {
+          "offset": 1700,
+          "length": 9,
+          "text": "M\tK\tK\tK\tK"
+        },
+        {
+          "offset": 2142,
+          "length": 9,
+          "text": "\t\t\tL\tJ\tJ\t"
+        },
+        {
+          "offset": 2143,
+          "length": 9,
+          "text": "\t\tL\tJ\tJ\tJ"
+        },
+        {
+          "offset": 2144,
+          "length": 9,
+          "text": "\tL\tJ\tJ\tJ\t"
+        },
+        {
+          "offset": 2145,
+          "length": 9,
+          "text": "L\tJ\tJ\tJ\tJ"
+        },
+        {
+          "offset": 2147,
+          "length": 9,
+          "text": "J\tJ\tJ\tJ\tJ"
+        },
+        {
+          "offset": 2164,
+          "length": 9,
+          "text": "\t\t\t\tM\tK\tK"
+        },
+        {
+          "offset": 2165,
+          "length": 9,
+          "text": "\t\t\tM\tK\tK\t"
+        },
+        {
+          "offset": 2166,
+          "length": 9,
+          "text": "\t\tM\tK\tK\tK"
+        },
+        {
+          "offset": 2167,
+          "length": 9,
+          "text": "\tM\tK\tK\tK\t"
+        },
+        {
+          "offset": 2168,
+          "length": 9,
+          "text": "M\tK\tK\tK\tK"
+        }
+      ],
+      "byte_histogram_top16": {
+        "08": 424,
+        "09": 323,
+        "01": 315,
+        "00": 163,
+        "0b": 136,
+        "0a": 88,
+        "03": 60,
+        "07": 40,
+        "06": 40,
+        "04": 37,
+        "05": 36,
+        "ea": 23,
+        "e4": 21,
+        "4a": 20,
+        "4b": 20,
+        "11": 16
+      },
+      "warnings": []
+    },
+    {
+      "id": 13,
+      "toc_entry_offset": 56,
+      "packed_relative_offset": 9169,
+      "packed_absolute_offset": 9270,
+      "raw_size": 2340,
+      "packed_size": 2140,
+      "decoded_size": 2340,
+      "decoded_sha256": "b8f1c415ed9a605c7ac5ee8116be7804344f01ec1d1ca4816f941df06b074761",
+      "packed_sha256": "b09d1314ccd6fffcd6e0e7d8a171405c3474afb1a89297abdf0547e682dfa323",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.9145,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        12,
+        18,
+        36
+      ],
+      "known_record_hints": [],
+      "head_hex": "01 ef 01 98 dd f0 01 97 de f1 01 01 01 04 78 05 d8 dc d9 da eb db 01 01 98 01 79 98 c8 c9 cd e4 cc e6 cc e8 e7 03 01 01 01 97 97 79 ca cb e3 ee e5 ed e9 ce 03 ea 01 01 01 01 01 01 01 04 08 79",
+      "tail_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00",
+      "ascii_candidates": [
+        {
+          "offset": 83,
+          "length": 5,
+          "text": "KS>TX"
+        },
+        {
+          "offset": 90,
+          "length": 5,
+          "text": "JMKJM"
+        },
+        {
+          "offset": 97,
+          "length": 5,
+          "text": "LMJIM"
+        },
+        {
+          "offset": 239,
+          "length": 5,
+          "text": "JKJKJ"
+        },
+        {
+          "offset": 246,
+          "length": 5,
+          "text": "KLKJK"
+        },
+        {
+          "offset": 253,
+          "length": 5,
+          "text": "JKJLJ"
+        },
+        {
+          "offset": 481,
+          "length": 9,
+          "text": "MK^MJ^ML^"
+        },
+        {
+          "offset": 494,
+          "length": 11,
+          "text": "KdJLJJKKLWW"
+        },
+        {
+          "offset": 509,
+          "length": 11,
+          "text": "kkKJLKJLJlK"
+        },
+        {
+          "offset": 529,
+          "length": 50,
+          "text": "MJKJKJ^MKJJJL^MJJJKJ^MJKJJJ^MJJJJL^MLJKJJ^MKJJLJ^d"
+        },
+        {
+          "offset": 580,
+          "length": 19,
+          "text": "KdJJJLKJJJJJJLJJKWW"
+        },
+        {
+          "offset": 601,
+          "length": 19,
+          "text": "kkJJLKJJJKJJJJLKJlJ"
+        },
+        {
+          "offset": 637,
+          "length": 9,
+          "text": "ML^MO^Me^"
+        },
+        {
+          "offset": 650,
+          "length": 11,
+          "text": "LdJK01FfF.<"
+        },
+        {
+          "offset": 665,
+          "length": 11,
+          "text": "kkLKJ01Ff/G"
+        },
+        {
+          "offset": 685,
+          "length": 50,
+          "text": "MJKLJJ^MJJKJL^MLJJJK^MKS>TX^MJMKJM^MLMJIM^MJMJJM^d"
+        },
+        {
+          "offset": 736,
+          "length": 19,
+          "text": "LdKJJLTXJMJMIMJMJoW"
+        },
+        {
+          "offset": 757,
+          "length": 19,
+          "text": "kkLJKLJJSKMJMJMLMlM"
+        },
+        {
+          "offset": 863,
+          "length": 5,
+          "text": "KU\\VX"
+        },
+        {
+          "offset": 870,
+          "length": 5,
+          "text": "JZ[YM"
+        },
+        {
+          "offset": 877,
+          "length": 5,
+          "text": "LZ[RM"
+        },
+        {
+          "offset": 949,
+          "length": 9,
+          "text": "ML^M5^M8^"
+        },
+        {
+          "offset": 962,
+          "length": 6,
+          "text": "LdJK67"
+        },
+        {
+          "offset": 977,
+          "length": 7,
+          "text": "kkLKJ67"
+        },
+        {
+          "offset": 997,
+          "length": 50,
+          "text": "MJKLJJ^MJJKJL^MLJJJK^MKU\\VX^MJZ[YM^MLZ[RM^MJP]QM^d"
+        },
+        {
+          "offset": 1048,
+          "length": 19,
+          "text": "LdKJJLVXYMYMRMYMYom"
+        },
+        {
+          "offset": 1069,
+          "length": 19,
+          "text": "kkLJKLJJUKZJZJZLZlZ"
+        },
+        {
+          "offset": 1573,
+          "length": 9,
+          "text": "3C2A BA@B"
+        },
+        {
+          "offset": 1586,
+          "length": 11,
+          "text": "@p @@  @@rr"
+        },
+        {
+          "offset": 1601,
+          "length": 11,
+          "text": "qq@@  @@ s@"
+        },
+        {
+          "offset": 1626,
+          "length": 45,
+          "text": "C2A @ @ BA@ @ @BA @ @ BA@ @ @BA @ @ BA@ @ @Bp"
+        },
+        {
+          "offset": 1672,
+          "length": 19,
+          "text": "@p @@  @@  @@  @@rr"
+        },
+        {
+          "offset": 1693,
+          "length": 19,
+          "text": "qq@@  @@  @@  @@ s@"
+        },
+        {
+          "offset": 1748,
+          "length": 5,
+          "text": " @@rr"
+        },
+        {
+          "offset": 1757,
+          "length": 11,
+          "text": "qq@'(%&@ s@"
+        },
+        {
+          "offset": 1777,
+          "length": 50,
+          "text": "3CC4CC2A@ D@ BAaaDaaBA``D``BA@EDE@BA @D@ BA@ D @Bp"
+        },
+        {
+          "offset": 1828,
+          "length": 19,
+          "text": "@p B\"B!B`BEB@B B@rr"
+        },
+        {
+          "offset": 1849,
+          "length": 19,
+          "text": "qq@A A#A$A`AEA@A s@"
+        },
+        {
+          "offset": 1885,
+          "length": 9,
+          "text": "3C2A BA@B"
+        },
+        {
+          "offset": 1898,
+          "length": 11,
+          "text": "@p @@  @@rr"
+        },
+        {
+          "offset": 1913,
+          "length": 11,
+          "text": "qq@@  @@ s@"
+        },
+        {
+          "offset": 1938,
+          "length": 45,
+          "text": "C2A @ @ BA@ @ @BA @ @ BA@ @ @BA @ @ BA@ @ @Bp"
+        },
+        {
+          "offset": 1984,
+          "length": 19,
+          "text": "@p @@  @@  @@  @@rr"
+        },
+        {
+          "offset": 2005,
+          "length": 19,
+          "text": "qq@@  @@  @@  @@ s@"
+        },
+        {
+          "offset": 2041,
+          "length": 9,
+          "text": "3C2A BA@B"
+        },
+        {
+          "offset": 2054,
+          "length": 11,
+          "text": "@p @@  @@rr"
+        },
+        {
+          "offset": 2069,
+          "length": 11,
+          "text": "qq@@  @@ s@"
+        },
+        {
+          "offset": 2094,
+          "length": 45,
+          "text": "C2A @ @ BA@ @ @BA @ @ BA@ @ @BA @ @ BA@ @ @Bp"
+        },
+        {
+          "offset": 2140,
+          "length": 19,
+          "text": "@p @@  @@  @@  @@rr"
+        },
+        {
+          "offset": 2161,
+          "length": 19,
+          "text": "qq@@  @@  @@  @@ s@"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 1625,
+          "length": 23,
+          "text": "C2A @ @ BA@ @ @BA @ @ B"
+        },
+        {
+          "offset": 1629,
+          "length": 32,
+          "text": "@ @ BA@ @ @BA @ @ BA@ @ @BA @ @ "
+        },
+        {
+          "offset": 1631,
+          "length": 32,
+          "text": "@ BA@ @ @BA @ @ BA@ @ @BA @ @ BA"
+        },
+        {
+          "offset": 1633,
+          "length": 32,
+          "text": "BA@ @ @BA @ @ BA@ @ @BA @ @ BA@ "
+        },
+        {
+          "offset": 1637,
+          "length": 32,
+          "text": "@ @BA @ @ BA@ @ @BA @ @ BA@ @ @B"
+        },
+        {
+          "offset": 1786,
+          "length": 32,
+          "text": "D@ BAaaDaaBA``D``BA@EDE@BA @D@ B"
+        },
+        {
+          "offset": 1789,
+          "length": 32,
+          "text": "BAaaDaaBA``D``BA@EDE@BA @D@ BA@ "
+        },
+        {
+          "offset": 1937,
+          "length": 23,
+          "text": "C2A @ @ BA@ @ @BA @ @ B"
+        },
+        {
+          "offset": 1941,
+          "length": 32,
+          "text": "@ @ BA@ @ @BA @ @ BA@ @ @BA @ @ "
+        },
+        {
+          "offset": 1943,
+          "length": 32,
+          "text": "@ BA@ @ @BA @ @ BA@ @ @BA @ @ BA"
+        },
+        {
+          "offset": 1945,
+          "length": 32,
+          "text": "BA@ @ @BA @ @ BA@ @ @BA @ @ BA@ "
+        },
+        {
+          "offset": 1949,
+          "length": 32,
+          "text": "@ @BA @ @ BA@ @ @BA @ @ BA@ @ @B"
+        },
+        {
+          "offset": 2093,
+          "length": 23,
+          "text": "C2A @ @ BA@ @ @BA @ @ B"
+        },
+        {
+          "offset": 2097,
+          "length": 32,
+          "text": "@ @ BA@ @ @BA @ @ BA@ @ @BA @ @ "
+        },
+        {
+          "offset": 2099,
+          "length": 32,
+          "text": "@ BA@ @ @BA @ @ BA@ @ @BA @ @ BA"
+        },
+        {
+          "offset": 2101,
+          "length": 32,
+          "text": "BA@ @ @BA @ @ BA@ @ @BA @ @ BA@ "
+        },
+        {
+          "offset": 2105,
+          "length": 32,
+          "text": "@ @BA @ @ BA@ @ @BA @ @ BA@ @ @B"
+        }
+      ],
+      "byte_histogram_top16": {
+        "01": 322,
+        "ff": 174,
+        "40": 158,
+        "00": 142,
+        "4a": 128,
+        "20": 120,
+        "4d": 71,
+        "79": 68,
+        "4b": 61,
+        "03": 56,
+        "4c": 45,
+        "fd": 44,
+        "41": 38,
+        "42": 38,
+        "08": 35,
+        "5e": 30
+      },
+      "warnings": []
+    },
+    {
+      "id": 15,
+      "toc_entry_offset": 65,
+      "packed_relative_offset": 11309,
+      "packed_absolute_offset": 11410,
+      "raw_size": 2340,
+      "packed_size": 1781,
+      "decoded_size": 2340,
+      "decoded_sha256": "64b6690dc4146ebfa5c66ba9a63291975c34162255a13a57fc59cf351bf1a089",
+      "packed_sha256": "eeb1e1f4ff120cda954ad13189a0c8c2c502de2496aa400a29e7f2b99ba3faf6",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.7611,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        12,
+        18,
+        36
+      ],
+      "known_record_hints": [],
+      "head_hex": "01 89 01 60 38 39 01 61 38 3a 01 01 01 7b 43 7c 3f 7d 40 7f 7e 80 01 01 60 01 6f 60 81 82 3f b6 3f b6 31 86 85 01 01 01 01 61 61 6c 83 84 b5 40 b5 40 87 32 01 88 01 01 01 01 01 01 01 2c 63 7a",
+      "tail_hex": "0e 0e 0e 0e 0e 0e 0e 00 00 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 00 0e 00 0e",
+      "ascii_candidates": [
+        {
+          "offset": 13,
+          "length": 6,
+          "text": "{C|?}@"
+        },
+        {
+          "offset": 61,
+          "length": 17,
+          "text": ",czczcbd^yxDJof0A"
+        },
+        {
+          "offset": 79,
+          "length": 4,
+          "text": "B+/i"
+        },
+        {
+          "offset": 95,
+          "length": 8,
+          "text": "p.ETUSF/"
+        },
+        {
+          "offset": 107,
+          "length": 4,
+          "text": "VI/`"
+        },
+        {
+          "offset": 112,
+          "length": 18,
+          "text": "o`howpueugunupuhus"
+        },
+        {
+          "offset": 133,
+          "length": 19,
+          "text": "aaophevntptetgthtrt"
+        },
+        {
+          "offset": 169,
+          "length": 9,
+          "text": "{C|=}>3~4"
+        },
+        {
+          "offset": 217,
+          "length": 16,
+          "text": ",czczcbd^yxDJof0"
+        },
+        {
+          "offset": 251,
+          "length": 6,
+          "text": "p. UUU"
+        },
+        {
+          "offset": 268,
+          "length": 18,
+          "text": "o`howpueugunupuhus"
+        },
+        {
+          "offset": 289,
+          "length": 19,
+          "text": "aaophevntptetgthtrt"
+        },
+        {
+          "offset": 325,
+          "length": 4,
+          "text": "OcbR"
+        },
+        {
+          "offset": 338,
+          "length": 4,
+          "text": "o`dl"
+        },
+        {
+          "offset": 353,
+          "length": 5,
+          "text": "aaloh"
+        },
+        {
+          "offset": 373,
+          "length": 9,
+          "text": "OcbcOcbM^"
+        },
+        {
+          "offset": 384,
+          "length": 7,
+          "text": "JLjJo]]"
+        },
+        {
+          "offset": 424,
+          "length": 4,
+          "text": "o`Lb"
+        },
+        {
+          "offset": 445,
+          "length": 8,
+          "text": "aa-oLM^J"
+        },
+        {
+          "offset": 481,
+          "length": 9,
+          "text": "bc,endgpm"
+        },
+        {
+          "offset": 494,
+          "length": 11,
+          "text": "l`nopdemgss"
+        },
+        {
+          "offset": 509,
+          "length": 11,
+          "text": "aaoldehgnrm"
+        },
+        {
+          "offset": 529,
+          "length": 11,
+          "text": "bcOcbcOendh"
+        },
+        {
+          "offset": 545,
+          "length": 6,
+          "text": "gphlfe"
+        },
+        {
+          "offset": 554,
+          "length": 6,
+          "text": "nedpdn"
+        },
+        {
+          "offset": 563,
+          "length": 4,
+          "text": "pepf"
+        },
+        {
+          "offset": 570,
+          "length": 9,
+          "text": "lemhnled`"
+        },
+        {
+          "offset": 580,
+          "length": 19,
+          "text": "d`plnhdfednpmlldess"
+        },
+        {
+          "offset": 601,
+          "length": 19,
+          "text": "aa-plehgdefpdepgnrh"
+        },
+        {
+          "offset": 637,
+          "length": 9,
+          "text": "ocbgpfend"
+        },
+        {
+          "offset": 650,
+          "length": 11,
+          "text": "o`dlgfpdess"
+        },
+        {
+          "offset": 665,
+          "length": 11,
+          "text": "aalohgdefrd"
+        },
+        {
+          "offset": 685,
+          "length": 9,
+          "text": "ocbcocbM^"
+        },
+        {
+          "offset": 698,
+          "length": 5,
+          "text": "jJo]]"
+        },
+        {
+          "offset": 726,
+          "length": 4,
+          "text": "jM]e"
+        },
+        {
+          "offset": 731,
+          "length": 4,
+          "text": "ned`"
+        },
+        {
+          "offset": 736,
+          "length": 4,
+          "text": "o`Lb"
+        },
+        {
+          "offset": 749,
+          "length": 6,
+          "text": "j^dNss"
+        },
+        {
+          "offset": 757,
+          "length": 14,
+          "text": "aafoLM^JogLLZJ"
+        },
+        {
+          "offset": 772,
+          "length": 4,
+          "text": "e^rh"
+        },
+        {
+          "offset": 841,
+          "length": 22,
+          "text": "Ocbcocbexyxyxhg/ozl.fe"
+        },
+        {
+          "offset": 913,
+          "length": 4,
+          "text": "aadp"
+        },
+        {
+          "offset": 949,
+          "length": 9,
+          "text": "cb,RPdQ*m"
+        },
+        {
+          "offset": 962,
+          "length": 6,
+          "text": "o`po[\\"
+        },
+        {
+          "offset": 977,
+          "length": 9,
+          "text": "aalln[\\XW"
+        },
+        {
+          "offset": 997,
+          "length": 11,
+          "text": "O,cO,bcphdp"
+        },
+        {
+          "offset": 1009,
+          "length": 10,
+          "text": "pnengnhlfh"
+        },
+        {
+          "offset": 1023,
+          "length": 4,
+          "text": "edgd"
+        },
+        {
+          "offset": 1029,
+          "length": 5,
+          "text": "\tnppn"
+        },
+        {
+          "offset": 1037,
+          "length": 4,
+          "text": "dngm"
+        },
+        {
+          "offset": 1048,
+          "length": 6,
+          "text": "o`dfgn"
+        },
+        {
+          "offset": 1055,
+          "length": 5,
+          "text": "m\to\tn"
+        },
+        {
+          "offset": 1069,
+          "length": 8,
+          "text": "aaolnhpe"
+        },
+        {
+          "offset": 1105,
+          "length": 4,
+          "text": "OcbR"
+        },
+        {
+          "offset": 1118,
+          "length": 4,
+          "text": "o`dl"
+        },
+        {
+          "offset": 1133,
+          "length": 5,
+          "text": "aaloh"
+        },
+        {
+          "offset": 1153,
+          "length": 9,
+          "text": "OcbcOcbM^"
+        },
+        {
+          "offset": 1164,
+          "length": 7,
+          "text": "JLjJo]]"
+        },
+        {
+          "offset": 1204,
+          "length": 4,
+          "text": "o`Lb"
+        },
+        {
+          "offset": 1225,
+          "length": 8,
+          "text": "aa-oLM^J"
+        },
+        {
+          "offset": 1309,
+          "length": 22,
+          "text": "Ocbcocbexyxyxhg/ozl.fe"
+        },
+        {
+          "offset": 1336,
+          "length": 9,
+          "text": "d^/nkp.pe"
+        },
+        {
+          "offset": 1350,
+          "length": 9,
+          "text": "lN/pdN.d`"
+        },
+        {
+          "offset": 1375,
+          "length": 4,
+          "text": "d.ss"
+        },
+        {
+          "offset": 1381,
+          "length": 4,
+          "text": "aadp"
+        },
+        {
+          "offset": 1530,
+          "length": 5,
+          "text": "'7h$$"
+        },
+        {
+          "offset": 1573,
+          "length": 4,
+          "text": "{C|?"
+        },
+        {
+          "offset": 1621,
+          "length": 15,
+          "text": ",czczcbd^yxDJof"
+        },
+        {
+          "offset": 1672,
+          "length": 18,
+          "text": "o`howpueugunupuhus"
+        },
+        {
+          "offset": 1693,
+          "length": 19,
+          "text": "aaophevntptetgthtrt"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "0e": 526,
+        "01": 260,
+        "00": 227,
+        "64": 54,
+        "65": 52,
+        "60": 50,
+        "61": 50,
+        "6f": 47,
+        "70": 46,
+        "6e": 37,
+        "68": 36,
+        "63": 34,
+        "0d": 33,
+        "6c": 31,
+        "67": 31,
+        "66": 28
+      },
+      "warnings": []
+    },
+    {
+      "id": 17,
+      "toc_entry_offset": 74,
+      "packed_relative_offset": 13090,
+      "packed_absolute_offset": 13191,
+      "raw_size": 2340,
+      "packed_size": 1444,
+      "decoded_size": 2340,
+      "decoded_sha256": "ca0b4d4402896e7848b5a3bb6ba1093a5aeb01a702bf6d54f4eaf429c8712826",
+      "packed_sha256": "8d3e209e4d632899a9d1ade6d41374a28c2afc676d4ebfd26f0906f1bb9c0048",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.6171,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        12,
+        18,
+        36
+      ],
+      "known_record_hints": [],
+      "head_hex": "01 b9 01 a9 bc ba 01 aa bc bb 01 01 01 b3 62 63 6c 6b b0 34 34 34 01 01 ac 01 f1 ac a4 b1 a5 b2 5a 2e ae ba e1 03 01 01 01 ad ad b1 f1 b6 f0 b5 2f 5a bb af 03 bb 01 01 01 01 01 01 01 a3 62 f2",
+      "tail_hex": "0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 0e 01 0e",
+      "ascii_candidates": [
+        {
+          "offset": 14,
+          "length": 4,
+          "text": "bclk"
+        },
+        {
+          "offset": 69,
+          "length": 5,
+          "text": "QHPV^"
+        },
+        {
+          "offset": 77,
+          "length": 4,
+          "text": "hjUo"
+        },
+        {
+          "offset": 83,
+          "length": 5,
+          "text": "l[QR["
+        },
+        {
+          "offset": 89,
+          "length": 14,
+          "text": "Z\\\\ZZ\\ZX]]XX]X"
+        },
+        {
+          "offset": 124,
+          "length": 6,
+          "text": "l..113"
+        },
+        {
+          "offset": 141,
+          "length": 4,
+          "text": "h;ol"
+        },
+        {
+          "offset": 146,
+          "length": 6,
+          "text": "/l0/20"
+        },
+        {
+          "offset": 170,
+          "length": 4,
+          "text": "fclK"
+        },
+        {
+          "offset": 186,
+          "length": 4,
+          "text": "_lZw"
+        },
+        {
+          "offset": 218,
+          "length": 4,
+          "text": "fbcf"
+        },
+        {
+          "offset": 233,
+          "length": 4,
+          "text": "noto"
+        },
+        {
+          "offset": 239,
+          "length": 5,
+          "text": "l;mq["
+        },
+        {
+          "offset": 248,
+          "length": 14,
+          "text": "Zp\\Zu]`X`uXagw"
+        },
+        {
+          "offset": 297,
+          "length": 4,
+          "text": "h;ol"
+        },
+        {
+          "offset": 325,
+          "length": 4,
+          "text": "> =)"
+        },
+        {
+          "offset": 340,
+          "length": 9,
+          "text": "!\")*)*'%#"
+        },
+        {
+          "offset": 355,
+          "length": 9,
+          "text": "b!\")*)*&("
+        },
+        {
+          "offset": 406,
+          "length": 4,
+          "text": ",ZX+"
+        },
+        {
+          "offset": 434,
+          "length": 7,
+          "text": ",[,.,1,"
+        },
+        {
+          "offset": 455,
+          "length": 7,
+          "text": "+l+/+0+"
+        },
+        {
+          "offset": 537,
+          "length": 5,
+          "text": "QHKV^"
+        },
+        {
+          "offset": 562,
+          "length": 4,
+          "text": "\\ZX]"
+        },
+        {
+          "offset": 640,
+          "length": 4,
+          "text": "szrx"
+        },
+        {
+          "offset": 652,
+          "length": 9,
+          "text": "STsrsDCBA"
+        },
+        {
+          "offset": 667,
+          "length": 9,
+          "text": "bSTsrCrED"
+        },
+        {
+          "offset": 723,
+          "length": 4,
+          "text": "~i6X"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "0e": 622,
+        "00": 340,
+        "01": 204,
+        "8b": 63,
+        "8a": 53,
+        "89": 41,
+        "03": 40,
+        "49": 40,
+        "8e": 38,
+        "62": 21,
+        "ac": 21,
+        "2b": 20,
+        "be": 20,
+        "2c": 19,
+        "5a": 18,
+        "6c": 16
+      },
+      "warnings": []
+    },
+    {
+      "id": 19,
+      "toc_entry_offset": 83,
+      "packed_relative_offset": 14534,
+      "packed_absolute_offset": 14635,
+      "raw_size": 2340,
+      "packed_size": 1767,
+      "decoded_size": 2340,
+      "decoded_sha256": "7f8a525627f2e2dca6fb0ac2906dbef34760208bd6795bf38554c532b1751f01",
+      "packed_sha256": "a4888339aca1349eb2f93dc587952d373db0f1cbcef5f256a1157acb64e8644d",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.7551,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        12,
+        18,
+        36
+      ],
+      "known_record_hints": [],
+      "head_hex": "01 b3 01 d4 d5 0e 01 d7 d6 0f 01 01 01 d2 d2 d2 0b 0b 0b 0b 0b 0b 01 01 70 01 a4 70 0a a5 0a 0a 0a 0a 0a 0e 0e 03 01 01 01 71 71 a3 a6 0a 0a 0a 0a 0a 0f 0a 03 0f 01 01 01 01 01 01 01 26 26 26",
+      "tail_hex": "4a 0a 4a 0a 4a 0e 6a 03 01 0d 0d 0a 0a 0a 0a c0 0a 4b 0a 4b 0a 4b 0a 4b 0a 4b 0f 4b 03 6b 00 0b",
+      "ascii_candidates": [
+        {
+          "offset": 61,
+          "length": 7,
+          "text": "&&&&&&&"
+        },
+        {
+          "offset": 183,
+          "length": 8,
+          "text": "pcOLPLPL"
+        },
+        {
+          "offset": 200,
+          "length": 6,
+          "text": "MWLPLP"
+        },
+        {
+          "offset": 217,
+          "length": 7,
+          "text": "&&&&&&&"
+        },
+        {
+          "offset": 328,
+          "length": 5,
+          "text": "|o}~T"
+        },
+        {
+          "offset": 358,
+          "length": 4,
+          "text": "aNQN"
+        },
+        {
+          "offset": 373,
+          "length": 7,
+          "text": "&&&&&&&"
+        },
+        {
+          "offset": 439,
+          "length": 4,
+          "text": "`fdj"
+        },
+        {
+          "offset": 451,
+          "length": 4,
+          "text": "cc[a"
+        },
+        {
+          "offset": 481,
+          "length": 9,
+          "text": "===))))))"
+        },
+        {
+          "offset": 494,
+          "length": 11,
+          "text": "9p);)))))77"
+        },
+        {
+          "offset": 509,
+          "length": 11,
+          "text": "qq:<)))))8)"
+        },
+        {
+          "offset": 529,
+          "length": 50,
+          "text": "&&&&&&&))))))))))))))))))))))))))))))))))))))))))p"
+        },
+        {
+          "offset": 580,
+          "length": 19,
+          "text": "9p)9)))))))))))))77"
+        },
+        {
+          "offset": 601,
+          "length": 19,
+          "text": "qq::)))))))))))))8)"
+        },
+        {
+          "offset": 637,
+          "length": 4,
+          "text": "===)"
+        },
+        {
+          "offset": 642,
+          "length": 4,
+          "text": "))B)"
+        },
+        {
+          "offset": 685,
+          "length": 10,
+          "text": "&&&&&&&)))"
+        },
+        {
+          "offset": 696,
+          "length": 5,
+          "text": ")))))"
+        },
+        {
+          "offset": 704,
+          "length": 5,
+          "text": "))))$"
+        },
+        {
+          "offset": 710,
+          "length": 6,
+          "text": "C))))$"
+        },
+        {
+          "offset": 717,
+          "length": 6,
+          "text": "C))))$"
+        },
+        {
+          "offset": 724,
+          "length": 6,
+          "text": "C))))$"
+        },
+        {
+          "offset": 731,
+          "length": 4,
+          "text": "C))p"
+        },
+        {
+          "offset": 736,
+          "length": 4,
+          "text": "9p)9"
+        },
+        {
+          "offset": 741,
+          "length": 14,
+          "text": ")J)J)J)J)J)J7j"
+        },
+        {
+          "offset": 757,
+          "length": 6,
+          "text": "qq::))"
+        },
+        {
+          "offset": 764,
+          "length": 12,
+          "text": ")K)K)K)K)K8K"
+        },
+        {
+          "offset": 841,
+          "length": 7,
+          "text": "&&&&&&&"
+        },
+        {
+          "offset": 963,
+          "length": 10,
+          "text": "phruvuvuxw"
+        },
+        {
+          "offset": 982,
+          "length": 6,
+          "text": "uvuviv"
+        },
+        {
+          "offset": 997,
+          "length": 7,
+          "text": "&&&&&&&"
+        },
+        {
+          "offset": 1069,
+          "length": 4,
+          "text": "qqAA"
+        },
+        {
+          "offset": 1153,
+          "length": 7,
+          "text": "&&&&&&&"
+        },
+        {
+          "offset": 1275,
+          "length": 10,
+          "text": "phruvuvuxw"
+        },
+        {
+          "offset": 1294,
+          "length": 6,
+          "text": "uvuviv"
+        },
+        {
+          "offset": 1309,
+          "length": 7,
+          "text": "&&&&&&&"
+        },
+        {
+          "offset": 1777,
+          "length": 7,
+          "text": "&&&&&&&"
+        },
+        {
+          "offset": 2056,
+          "length": 7,
+          "text": "cWLPLPL"
+        },
+        {
+          "offset": 2072,
+          "length": 6,
+          "text": "cWLPLP"
+        },
+        {
+          "offset": 2212,
+          "length": 7,
+          "text": "cWLPLPL"
+        },
+        {
+          "offset": 2228,
+          "length": 6,
+          "text": "cWLPLP"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "01": 293,
+        "0b": 227,
+        "00": 166,
+        "0a": 158,
+        "29": 132,
+        "26": 70,
+        "96": 64,
+        "8e": 64,
+        "b5": 62,
+        "03": 58,
+        "b4": 58,
+        "ce": 51,
+        "88": 50,
+        "70": 40,
+        "71": 40,
+        "ea": 38
+      },
+      "warnings": []
+    },
+    {
+      "id": 22,
+      "toc_entry_offset": 92,
+      "packed_relative_offset": 16301,
+      "packed_absolute_offset": 16402,
+      "raw_size": 2340,
+      "packed_size": 1515,
+      "decoded_size": 2340,
+      "decoded_sha256": "55f709478e6125cd1738c3005c84ca835b022e54880e6e55b997f70bb5773c7b",
+      "packed_sha256": "1e88ae21bc772f65902a476a003f0148555230f5fdbc56b2870bbb0e215b0bb5",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.6474,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        12,
+        18,
+        36
+      ],
+      "known_record_hints": [],
+      "head_hex": "01 a4 01 0c a8 b8 01 0d a1 b9 01 01 01 b5 b5 b5 aa ac ab a7 a2 a6 01 01 0c 01 9b 0c 9a 9b 98 0a 98 0a 96 0e b0 03 01 01 01 0d 0d b7 b7 9e b6 99 b6 99 0f 97 03 b3 01 01 01 01 01 01 01 b5 b5 b5",
+      "tail_hex": "19 19 19 19 19 30 30 03 01 32 32 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 31 19 03 31 00 18",
+      "ascii_candidates": [
+        {
+          "offset": 76,
+          "length": 4,
+          "text": "(S_R"
+        },
+        {
+          "offset": 172,
+          "length": 5,
+          "text": "|o}~U"
+        },
+        {
+          "offset": 283,
+          "length": 4,
+          "text": "`fdj"
+        },
+        {
+          "offset": 640,
+          "length": 6,
+          "text": ",)-*98"
+        },
+        {
+          "offset": 651,
+          "length": 10,
+          "text": "5sr66734pp"
+        },
+        {
+          "offset": 668,
+          "length": 8,
+          "text": "ut3647q6"
+        },
+        {
+          "offset": 807,
+          "length": 10,
+          "text": "5sr667nm00"
+        },
+        {
+          "offset": 824,
+          "length": 8,
+          "text": "ut36v71w"
+        },
+        {
+          "offset": 1432,
+          "length": 7,
+          "text": "\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 1447,
+          "length": 7,
+          "text": "\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 1518,
+          "length": 15,
+          "text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        },
+        {
+          "offset": 1539,
+          "length": 15,
+          "text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "18": 454,
+        "01": 315,
+        "19": 208,
+        "ed": 190,
+        "0b": 121,
+        "08": 87,
+        "09": 65,
+        "03": 56,
+        "00": 52,
+        "b5": 41,
+        "0a": 40,
+        "b6": 40,
+        "35": 35,
+        "32": 35,
+        "30": 31,
+        "31": 31
+      },
+      "warnings": []
+    }
+  ]
+}

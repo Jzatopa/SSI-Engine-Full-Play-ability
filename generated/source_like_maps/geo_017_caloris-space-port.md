@@ -1,0 +1,109 @@
+# GEO 17: Caloris Space Port
+
+ECL block: `17`
+
+This is a first-pass source-like reconstruction from GEO event ids and nearby ECL text. It is not original source.
+
+```text
+module geo_017_caloris_space_port {
+  name = 'Caloris Space Port'
+  ecl_block = 17
+
+  event 01 at 0x880A:
+    text_hint = '"\'WELCOME TO CALORIS. I AM LORD BERKELEY\'S CHANCELLOR, ALPHONSE DE SADE. LORD BERKELEY SENDS HIS GREETINGS. THE CORONATION WILL BEGIN SHORTLY.\' HE TURNS HIS BACK AND QUICKLY MOVES AWAY."'
+
+  event 02 at 0x88E8:
+    text_hint = "'LUNARIANS STAND WATCH. DO YOU QUESTION THEM?'"
+
+  event 03 at 0x8579:
+    text_hint = '"\'WELCOME TO CALORIS. I AM LORD BERKELEY\'S CHANCELLOR, ALPHONSE DE SADE. LORD BERKELEY SENDS HIS GREETINGS. THE CORONATION WILL BEGIN SHORTLY.\' HE TURNS HIS BACK AND QUICKLY MOVES AWAY."'
+
+  event 04 at 0x8A30:
+    text_hint = "'THE TELLTALE ON THE DOOR READS,'"
+
+  event 05 at 0x8A41:
+    text_hint = "'THE TELLTALE ON THE DOOR READS,'"
+
+  event 06 at 0x8A52:
+    text_hint = "'THE TELLTALE ON THE DOOR READS,'"
+
+  event 07 at 0x8C46:
+    text_hint = "'THE TELLTALE ON THE DOOR READS,' RETURN"
+
+  event 08 at 0x8D74:
+    text_hint = '"A SERVICE DROID APPROACHES YOU. \'WELCOME TO THE RISING SUN. ARE YOU STAYING?\'"'
+
+  event 09 at 0x8DD2:
+    text_hint = "'AN OLD ROCKET JOCK WITH BLEARY EYES GREETS YOU WITH A SLURRED VOICE.'"
+
+  event 10 at 0x8E2E:
+    text_hint = '"A DISEMBODIED VOICE ECHOES THROUGH THE HALL, \'" \'<string at area2.word_000>\' \'<string at scratch.word_0208>\''
+
+  event 11 at 0x8E9E:
+    text_hint = '"A DISEMBODIED VOICE ECHOES THROUGH THE HALL, \'" \'<string at area2.word_000>\' \'<string at scratch.word_0208>\''
+
+  event 12 at 0x8F39:
+    text_hint = "'YOU ENTER A DOCKSIDE BAR. '"
+
+  event 13 at 0x8F3A:
+    text_hint = "'YOU ENTER A DOCKSIDE BAR. '"
+
+  event 14 at 0x90EE:
+    text_hint = '"A TINNY VOICE INTONES, \'THIS IS A CARGO ELEVATOR ONLY. PLEASE EXIT.\'"'
+
+  event 15 at 0x9125:
+    text_hint = "'TECHNICIANS ARE BUSY AT THEIR COM STATIONS.'"
+
+  event 16 at 0x9178:
+    text_hint = "'THE PORTMASTER IS TOO BUSY TO SPEAK TO YOU.' 'HONOR GUARDS STAND AT ATTENTION. '"
+
+  event 17 at 0x91A6:
+    text_hint = "'HONOR GUARDS STAND AT ATTENTION. '"
+
+  event 18 at 0x91C3:
+    text_hint = '"CHANCELLOR DE SADE SHAKES YOUR HAND GRACIOUSLY. \'"'
+
+  event 19 at 0x92FB:
+    text_hint = '"CHANCELLOR DE SADE SHAKES YOUR HAND GRACIOUSLY. \'" \'WITH BERKELEY DEAD, THERE IS NO NEED TO CONTINUE ANY NEGOTIATIONS ON AN ALLIANCE. NEVERTHELESS,\' \'IT IS GOOD THAT YOU WERE HERE, AND TO SHOW OUR APPRECIATION,\''
+
+  event 20 at 0x96CF:
+    text_hint = '"A MAN CARRYING A BUNDLE OF PAPERS RUSHES UP TO YOU. HE GRABS YOUR ARM DESPERATELY. \'I AM DR. ROMNEY. PLEASE HELP ME GET TO THE SUN KING. IT IS MOST URGENT.\'"'
+
+  event 21 at 0x9B80:
+    text_hint = "'THIS IS A PRIVATE RESIDENCE.'"
+
+  event 22 at 0x9BA1:
+    text_hint = "'THE HALL IS THRONGED WITH DIGNITARIES AND PERSONAGES FROM DIVERSE CULTURES: DANCERS, MUSICIANS, LUNARIANS, VENUSIANS, AND TERRANS.'"
+
+  event 23 at 0x9BA1:
+    text_hint = "'THE HALL IS THRONGED WITH DIGNITARIES AND PERSONAGES FROM DIVERSE CULTURES: DANCERS, MUSICIANS, LUNARIANS, VENUSIANS, AND TERRANS.'"
+
+  event 24 at 0x9BA2:
+    text_hint = "'THE HALL IS THRONGED WITH DIGNITARIES AND PERSONAGES FROM DIVERSE CULTURES: DANCERS, MUSICIANS, LUNARIANS, VENUSIANS, AND TERRANS.'"
+
+  event 25 at 0x9BB8:
+    text_hint = "'THE HALL IS THRONGED WITH DIGNITARIES AND PERSONAGES FROM DIVERSE CULTURES: DANCERS, MUSICIANS, LUNARIANS, VENUSIANS, AND TERRANS.'"
+
+  event 26 at 0xA036:
+    text_hint = "'A PLAQUE READS,' RETURN"
+
+  event 27 at 0xA049:
+    text_hint = "'A PLAQUE READS,' RETURN"
+
+  event 28 at 0xA0AA:
+    text_hint = '"THE AUTODOCS HUM SOOTHINGLY. \'DO YOU NEED HEALING?\'"'
+
+  event 29 at 0xA04A:
+    text_hint = "'A PLAQUE READS,' RETURN"
+
+  event 30 at 0xA176:
+    text_hint = '"HOLD ON, A MESSAGE FOR YOU IS JUST COMING IN.\'"'
+
+  event 31 at 0xA05F:
+    text_hint = "'A PLAQUE READS,' RETURN"
+
+  event 32 at 0xA074:
+    text_hint = "'A PLAQUE READS,' RETURN"
+
+}
+```

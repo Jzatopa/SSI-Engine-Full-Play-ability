@@ -1,0 +1,53 @@
+{
+  "valid": true,
+  "file": "CURSOR.DAX",
+  "bytes": 132,
+  "sha256": "581189a42a1a3b747824115ef8c27ee6ea3c7480db278cb36bc145f125d372a3",
+  "toc_len": 9,
+  "data_offset": 11,
+  "block_count": 1,
+  "semantic_status": "structural decode only: semantic format not yet named",
+  "warnings": [],
+  "blocks": [
+    {
+      "id": 1,
+      "toc_entry_offset": 2,
+      "packed_relative_offset": 0,
+      "packed_absolute_offset": 11,
+      "raw_size": 134,
+      "packed_size": 121,
+      "decoded_size": 134,
+      "decoded_sha256": "04c21162911af7c5b13b034b0c87851f8d4e4f31c7995f481df039f2809e00ed",
+      "packed_sha256": "a253214e31fb9fb182b7be4c4adde5680d2591206f46827064b380ad2c29d239",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.903,
+      "record_size_divisors": [
+        2
+      ],
+      "known_record_hints": [],
+      "head_hex": "08 01 00 00 00 00 01 00 00 0f 00 00 00 00 00 2a 00 2a 00 00 2a 2a 2a 00 00 2a 00 2a 2a 15 00 2a 2a 2a 15 15 15 15 15 3f 15 3f 15 15 3f 3f 3f 15 15 3f 15 3f 3f 3f 15 3f 3f 3f 01 23 45 67 89 ab",
+      "tail_hex": "00 0f 0f 0d 0d 0f 0f 00 00 00 0f 0f 0f 0f 00 00 0d 00 00 0f 0f 00 00 0d 0d 0d 00 00 00 00 0d 0d",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 46,
+        "0f": 21,
+        "0d": 16,
+        "15": 13,
+        "3f": 12,
+        "2a": 11,
+        "01": 3,
+        "08": 1,
+        "23": 1,
+        "45": 1,
+        "67": 1,
+        "89": 1,
+        "ab": 1,
+        "cd": 1,
+        "ef": 1,
+        "4e": 1
+      },
+      "warnings": []
+    }
+  ]
+}

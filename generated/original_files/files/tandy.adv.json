@@ -1,0 +1,243 @@
+{
+  "file": "TANDY.ADV",
+  "kind": "audio/music/driver data",
+  "bytes": 8125,
+  "sha256": "87b05eac2b7f6b94c5d055d46f8343d8498ebe012d3f694a0723008e1f4e8471",
+  "head_hex": "20 00 43 6f 70 79 72 69 67 68 74 20 28 43 29 20 31 39 39 31 20 4a 6f 68 6e 20 4d 69 6c 65 73 1a 64 00 e3 08 65 00 f5 02 66 00 7f 16 67 00 c5 13 68 00 96 17 96 00 11 18 bd 00 28 18 be 00 4e 18 97 00 69 18 98 00 ad 19 aa 00 f1 19 ab 00 81 1a ad 00 bf 1a ae 00 f4 1a af 00 97 1c b1 00 31 1d b0 00 71 1c b2 00 bd 1c b6 00 ae 1d b7 00 e7 1d b9 00 1c 1e c0 00 66 1b c2 00 92 1b b3 00 1a 1b",
+  "ascii_candidates": [
+    {
+      "offset": 2,
+      "length": 29,
+      "text": "Copyright (C) 1991 John Miles"
+    },
+    {
+      "offset": 210,
+      "length": 28,
+      "text": "Tandy 3-voice internal sound"
+    },
+    {
+      "offset": 336,
+      "length": 45,
+      "text": "52/,*(%#!?<852/,*(%#!?<852/,*(%#!?<852/,*(%#!"
+    },
+    {
+      "offset": 472,
+      "length": 8,
+      "text": "\t\t\t\t\t\t\t\t"
+    },
+    {
+      "offset": 566,
+      "length": 15,
+      "text": "RUX[^adgjmpsvy|"
+    },
+    {
+      "offset": 785,
+      "length": 4,
+      "text": "=anu"
+    },
+    {
+      "offset": 1188,
+      "length": 4,
+      "text": "u\t_^"
+    },
+    {
+      "offset": 2355,
+      "length": 5,
+      "text": "@rnop"
+    },
+    {
+      "offset": 2369,
+      "length": 5,
+      "text": "D0_N)"
+    },
+    {
+      "offset": 2919,
+      "length": 4,
+      "text": "<CAu"
+    },
+    {
+      "offset": 2932,
+      "length": 4,
+      "text": "<FOt"
+    },
+    {
+      "offset": 2960,
+      "length": 4,
+      "text": "IDtJ"
+    },
+    {
+      "offset": 3061,
+      "length": 4,
+      "text": "<FOu"
+    },
+    {
+      "offset": 3093,
+      "length": 4,
+      "text": "IDtR"
+    },
+    {
+      "offset": 3119,
+      "length": 4,
+      "text": "|BSQ"
+    },
+    {
+      "offset": 3597,
+      "length": 4,
+      "text": "<@|\""
+    },
+    {
+      "offset": 3639,
+      "length": 5,
+      "text": "<@|'W"
+    },
+    {
+      "offset": 3658,
+      "length": 4,
+      "text": "CSPU"
+    },
+    {
+      "offset": 3700,
+      "length": 4,
+      "text": "<@|\""
+    },
+    {
+      "offset": 3775,
+      "length": 5,
+      "text": "t\"<@|"
+    },
+    {
+      "offset": 4150,
+      "length": 31,
+      "text": "t<<vt]<wt[<ttY<utW<otU<ntT<stS."
+    },
+    {
+      "offset": 4456,
+      "length": 5,
+      "text": "@|!PU"
+    },
+    {
+      "offset": 4503,
+      "length": 6,
+      "text": "XdCSPU"
+    },
+    {
+      "offset": 4791,
+      "length": 8,
+      "text": "<Xt:<QtY"
+    },
+    {
+      "offset": 5092,
+      "length": 7,
+      "text": "L:;L>rg"
+    },
+    {
+      "offset": 5168,
+      "length": 4,
+      "text": "D,-d"
+    },
+    {
+      "offset": 5188,
+      "length": 5,
+      "text": "TB;TJ"
+    },
+    {
+      "offset": 5197,
+      "length": 4,
+      "text": ";DH}"
+    },
+    {
+      "offset": 5220,
+      "length": 4,
+      "text": "D,-d"
+    },
+    {
+      "offset": 5228,
+      "length": 6,
+      "text": "D.;D0u"
+    },
+    {
+      "offset": 5236,
+      "length": 6,
+      "text": "D ;D\"u"
+    },
+    {
+      "offset": 5522,
+      "length": 4,
+      "text": "HRQS"
+    },
+    {
+      "offset": 5583,
+      "length": 5,
+      "text": "@dRQP"
+    },
+    {
+      "offset": 5631,
+      "length": 5,
+      "text": "T4+D6"
+    },
+    {
+      "offset": 5701,
+      "length": 5,
+      "text": "T&+D("
+    },
+    {
+      "offset": 6441,
+      "length": 4,
+      "text": "=TIu"
+    },
+    {
+      "offset": 6463,
+      "length": 4,
+      "text": "=RBu"
+    },
+    {
+      "offset": 6486,
+      "length": 4,
+      "text": "=EVt"
+    },
+    {
+      "offset": 7141,
+      "length": 6,
+      "text": "=RBu{&"
+    },
+    {
+      "offset": 7150,
+      "length": 5,
+      "text": "RNus&"
+    },
+    {
+      "offset": 7391,
+      "length": 7,
+      "text": "D0+D.t?"
+    },
+    {
+      "offset": 7420,
+      "length": 4,
+      "text": "]QRP"
+    },
+    {
+      "offset": 7507,
+      "length": 7,
+      "text": "D\"+D tH"
+    },
+    {
+      "offset": 7536,
+      "length": 4,
+      "text": "]QRP"
+    },
+    {
+      "offset": 8020,
+      "length": 5,
+      "text": "/\tRPS"
+    }
+  ],
+  "pascal_candidates": [
+    {
+      "offset": 4149,
+      "length": 7,
+      "text": "t<<vt]<"
+    }
+  ],
+  "record_hints": [],
+  "semantic_status": "file-level structural evidence only"
+}

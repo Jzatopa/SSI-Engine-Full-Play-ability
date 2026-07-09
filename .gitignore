@@ -1,0 +1,42 @@
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+tmp/
+saves/
+
+# Original SSI game binaries/assets and local save/roster files stay external.
+*.DAX
+*.dax
+*.OVR
+*.ovr
+*.EXE
+*.exe
+*.WHO
+*.who
+*.STF
+*.stf
+*.SAV
+*.sav
+*.DAT
+*.dat
+*.XMI
+*.xmi
+*.ADV
+*.adv
+*.BNK
+*.bnk
+*.CAT
+*.cat
+*.BIN
+*.bin
+
+# Generated visual captures derived from original games stay local unless
+# explicitly reviewed for redistribution.
+generated/liveplay/**/screens/
+generated/wall_textures/
+docs/reference_dosbox_title.png
+
+# Local toolchains/build products.
+.tools/
+target/

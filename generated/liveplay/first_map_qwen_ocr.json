@@ -1,0 +1,105 @@
+{
+  "source": "manual consolidation of Qwen OCR sidecar outputs",
+  "date": "2026-06-30",
+  "model": "ollama/qwen3.6:latest",
+  "status": "partial",
+  "boundary": "Current DOSBox-X/Xvfb first-map captures are corrupted and are not valid original map text evidence.",
+  "capture_runs": [
+    {
+      "path": "generated/liveplay/first_map_capture",
+      "screens": 20,
+      "nonblank": 20,
+      "result": "corrupted viewport"
+    },
+    {
+      "path": "generated/liveplay/first_map_fresh_capture",
+      "screens": 26,
+      "nonblank": 26,
+      "result": "corrupted viewport"
+    },
+    {
+      "path": "generated/liveplay/first_map_fresh_capture_noescape",
+      "screens": 25,
+      "nonblank": 25,
+      "result": "corrupted viewport"
+    },
+    {
+      "path": "generated/liveplay/first_map_direct_probe",
+      "screens": 1,
+      "nonblank": 1,
+      "result": "corrupted boot viewport"
+    }
+  ],
+  "ocr_results": [
+    {
+      "path": "generated/liveplay/screens/team_00_menu.png",
+      "usable": true,
+      "text": [
+        "Main CPU Video Sound DOS Capture Drive Help",
+        "CREATE NEW CHARACTER",
+        "ADD CHARACTER TO TEAM",
+        "LOAD SAVED GAME",
+        "JOYSTICK/MOUSE INITIALIZE",
+        "EXIT TO DOS",
+        "CHOOSE A FUNCTION SELECT"
+      ],
+      "qwen_verdict": "High-contrast menu text is easy to read."
+    },
+    {
+      "path": "generated/liveplay/screens/team3_00_load_from.png",
+      "usable": true,
+      "text": [
+        "Main CPU Video Sound DOS Capture Drive Help",
+        "LOAD FROM: MATRIX COUNTDOWN"
+      ],
+      "qwen_verdict": "Text is clearly legible with high contrast."
+    },
+    {
+      "path": "generated/liveplay/screens/gamesave_00_full_menu.png",
+      "usable": true,
+      "text": [
+        "Main CPU Video Sound DOS Capture Drive Help",
+        "NAME AC HP",
+        "CAR1 4 38",
+        "CREATE NEW CHARACTER",
+        "PURGE CHARACTER",
+        "MODIFY CHARACTER",
+        "ICON SELECT",
+        "VIEW CHARACTER",
+        "ADD CHARACTER TO TEAM",
+        "REMOVE CHARACTER FROM TEAM",
+        "SAVE CURRENT GAME",
+        "BEGIN ADVENTURING",
+        "EXIT TO DOS",
+        "CHOOSE A FUNCTION SELECT"
+      ],
+      "qwen_verdict": "Text is legible despite the pixelated font."
+    },
+    {
+      "path": "generated/liveplay/screens/s00_boot.png",
+      "usable": true,
+      "text": [
+        "Quit DOSBox-X warning",
+        "You are currently running a program or game.",
+        "Are you sure to quit anyway now?",
+        "No Yes",
+        "Main CPU Video Sound DOS Capture Drive Help",
+        "THE 25TH CENTURY BUCK ROGERS",
+        "SCIENCE FICTION ROLE-PLAYING COMPUTER GAME, VOL II",
+        "@ 1992 TSR, INC.",
+        "(c) 1992 THE DILLE FAMILY TRUST",
+        "@ 1992 STRATEGIC SIMULATIONS, INC. ALL RIGHTS RESERVED"
+      ],
+      "qwen_verdict": "Dialog obscures context, but title/menu text remains legible."
+    },
+    {
+      "path": "generated/liveplay/first_map_fresh_capture_noescape/screens/11_first_map_world.png",
+      "usable": false,
+      "text": [
+        "Main CPU Video Sound DOS Capture Drive Help",
+        "^ ^"
+      ],
+      "qwen_verdict": "The game viewport is corrupted and consists of illegible memory-dump-like characters rather than readable text."
+    }
+  ]
+}

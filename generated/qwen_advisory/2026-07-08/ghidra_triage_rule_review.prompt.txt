@@ -1,0 +1,38 @@
+Matrix Cubed reconstruction Qwen-Coder advisory job: Ghidra function triage rule review
+
+Use only the supplied evidence. Do not invent paths, offsets, APIs,
+names, source files, test results, or original-game facts.
+
+Return compact Markdown, maximum 700 words, with these sections:
+VERIFIED_FROM_PROMPT, CANDIDATES, RISKS, LOCAL_VALIDATION_STEPS,
+UNSUPPORTED_CLAIMS.
+
+Treat every match/name as a candidate until a local agent verifies it
+against original bytes, generated artifacts, source code, and tests.
+
+Goal: review an all-623-function candidate triage artifact generated from metadata. Do not classify all rows yourself. Instead, critique the heuristic, identify risks, and propose local validation steps. Artifact path: generated/qwen_advisory/2026-07-08/ghidra_function_triage_candidates.tsv.
+
+Subsystem choices used: overlay/runtime, text/ui, menu/input, save/load, file/resource, combat, combat-ai, map/navigation, character/party, skills/effects, items/loot/shop, space/ship, graphics/sound, tiny-thunk/helper, unknown.
+
+Defined strings table:
+address	data_type	length	text
+0000:6ded	string	16	 is your pilot.
+0000:9047	string	17	  Repairing Ship
+0000:9776	string	22	 slips into a coma.2
+0000:b1db	string	9	Dodge 
+0000:ed3b	string	27	Cant identify wild terrain
+1000:5c61	string	25	  Using Leadership Skill
+1000:6db4	string	32	lost olddude in alterpartyorder
+1000:7f2f	string	9	Select 
+1000:8f15	string	23	 can't be modified.
+1000:c45a	string	18	Weapon\nClip  Fill
+1000:f63f	string	33	Unexpected error during save: !
+2000:0d77	string	21	Load Which Game: 
+2000:e322	string	10	Yes No
+
+
+Segment summary:
+segment 0000: count=320 max_body=1173 thunks=3
+segment 1000: count=113 max_body=856 thunks=0
+segment 2000: count=145 max_body=1776 thunks=0
+segment 3000: count=45 max_body=1976 thunks=0

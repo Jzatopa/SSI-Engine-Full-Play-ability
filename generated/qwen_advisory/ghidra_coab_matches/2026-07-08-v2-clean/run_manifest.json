@@ -1,0 +1,26 @@
+{
+  "model": "qwen3-coder:30b",
+  "endpoint": "http://192.168.2.2:11434/api/generate",
+  "settings": {
+    "temperature": 0.15,
+    "top_p": 0.9,
+    "num_ctx": 32768,
+    "num_predict": 700,
+    "seed": 42,
+    "format": "json",
+    "stream": false
+  },
+  "catalog_sha256": "190d7fefa04060c5b1651c33f7a39e6d3dbeb06ac3426b3e3bea669c37524579",
+  "catalog_count": 659,
+  "total_functions": 623,
+  "processed": 12,
+  "remaining": 0,
+  "verdicts": {
+    "match": 3,
+    "none": 8,
+    "weak": 1
+  },
+  "parse_failures": 0,
+  "http_errors": 0,
+  "timeout": 120
+}

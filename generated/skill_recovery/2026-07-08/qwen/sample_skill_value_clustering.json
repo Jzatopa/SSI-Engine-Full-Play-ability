@@ -1,0 +1,9 @@
+{
+  "job": "sample_skill_value_clustering",
+  "model": "ollama/qwen3-coder:30b",
+  "started": "2026-07-08T18:52:28",
+  "finished": "2026-07-08T18:54:23",
+  "returncode": 0,
+  "prompt_path": "generated/skill_recovery/2026-07-08/qwen/sample_skill_value_clustering.prompt.txt",
+  "raw_path": "generated/skill_recovery/2026-07-08/qwen/sample_skill_value_clustering.raw.txt"
+}

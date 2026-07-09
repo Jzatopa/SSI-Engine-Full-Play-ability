@@ -1,0 +1,533 @@
+Matrix Cubed v1.0 	Play Demo
+Matrix Cubed v1.0
+]tD1
+<AP1
+GAME.OVR
+*.exe
+A:\'Sorry, disk A can't be write-protected.;If these are your masters, use DISKCOPY to make duplicates.4GRAPHICS ADAPTER TYPE:  [1] EGA  [2] Tandy  [3] VGA 
+SOUND TYPE:  [1] PC speaker
+             [2] Sound Blaster
+             [3] Adlib
+             [4] Roland MT32
+             [5] Tandy 1000
+             [6] Silent=ALTERNATE INPUT TYPE:  [1] JOYSTICK  [2] MOUSE  [3] NEITHER  
+SAVE
+PATH TO SAVE DATA (DEFAULT - 
+):  
+USING DEFAULT PATH: 
+:\SAVE
+:\BUCK\SAVE+PATH TO SAVE DATA FOR COUNTDOWN TO DOOMSDAY
+(DEFAULT - +TANDY 1000 USERS - Make sure NUMLOCK is on.)Not enough memory to run game.  You need 
+ more bytes.
+Overlay error, program abort!U
+>qCCs1
+>qCAu
+B:u)
+B\t(
+CCs)
+B:u)
+B\t(
+<A<Eu+
+D<Tu/
+<A<Pu
+<<Su
+1<Au
+&<Ru
+<A<Ju
+><AFu
+.daxU
+r ;F
+r ;F
+r ;F
+r ;F
+...U
+8X8d1
+.daxU
+xh:F
+xh:F
+yh:F
+yh:F
+yh:F
+xh:F
+h<Hu
+]<Iu
+R<Ku
+G< u
+<<Mu
+1<Ou
+&<Pu
+< u_
+<!rg<zwc
+Loading...Please WaitU
+Saving...Please WaitU
+6lh3
+game.ovr
+Please insert overlay disk.U
+:\*.*U
+	: <ENTER>
+Couldn't find 
+. Check install.U
+|/<~
+	debug.txtU
+HHP1
+.xmi
+fatv9.U
+Test
+PSQRVWU
+f	r	w
+]_^ZY[X.
+f	.;
+	r	w
+	s	.
+	t%.
+Cou:&
+pyu2&
+!$'*-0369;>ACFIKNPRUWY[^`bdfgiklnpqrtuvwxyz{{|}}~~~~~~~~~~~}}|{{zyxwvutrqpnlkigfdb`^[YWURPNKIFCA>;9630-*'$!
+xxxxxxxxxxxxxxxx)#
+Z}	8%
+Ijy%
+Ge8*F
+yzvx
+)m>b
+Z[X.
+;D$r
+PSWV
+^_[X]
+PSWV
+^_[X]
+HPush JOYSTICK #1 to the extreme upper left position and press BUTTON #1.2Couldn't read the joystick.  Aborting calibration.IPush JOYSTICK #1 to the extreme lower right position and press BUTTON #1.U
+ Nv(
+ Nv(
+r	:6?
+tDI<
+tO< r
+tcQRW
+^ZY[
+!PSQRVU
+<\t(,@
+PATH=U
+=t=;
+=r%;
+!r>;
+PSQRVW
+_^ZY[X]
+=s73
+X[YZ^_]
+0<:r
+!#$456789:;<=>?uRuntime error 
+ at 
+Portions Copyright (c) 1983,90 BorlandU
+=t[&;U
+WSQ&
+t3SQ&
+=rE;
+<(sg
+WVQUSP
+[ZY]
+Y^_s
+<lr\
+<lr	
+YRSP
+sURSP
+Y^_PQ
+`1pF,
+!wS<
+FXc~
+YAAQ
+RSPQW
+	.;T
+=$tD&
+!RP3
+![YRP
+:\FF
+:u $
+!%*.3=EIOSX\
+'*-/3
+#$%&\]
+"#$%&
+ !"#$%&
+SUOaaS[.a5YQcP
+PHJMH
+\OZ^.a5cZcPcab
+TLSIVYW
+mfchg4g;fYbcg]fd4Y\h
+ZMP\MOW\
+VdSidaX2ebWfe2]UgT
+XMLNX
+aYOS^a.`SR\OSZ
+de_jWih[ldeY6W_h[j[\WY
+_SWdV2e9WfSd[b2WZf
+^]POT]X]Z_^
+_WMQ\_,MT_UY
+JKRGKY
+eXYYb3f:XaT^3eX__\^
+^OXZGS
+Wc^^b/^c/aTccT[
+\TQQF
+[VXXcf3f:eb_lTg3AeW
+^WWTX
+\TReeR1df`ZcVedj^
+TJIN[
+de`]Za1cVUZc^c`ed
+RSSW
+^`TcVe_Z1VYe1cVg`
+TUYOXV
+\UT_,PQ^aVZU
+		NLWJ[XWPR
+QVNY-]N_a-RUa
+YQXGNY
+Y[UggYa4[b]Vfihg]X4U
+HIIR
+e]SWbe2`[SfbSU2WZf
+ZGUXNZ
+[NY]-`4VYNXNZ
+MTO_RL
+mfchg4g;fchWYf]X4VU`
+MXUH_I
+[X_hjW_Z6i=dd_kg6e_hWc
+[ZMLI^VQ
+kY[md8]`l8\jYgZY8`lY]\8Y
+		VXX[N]J]\
+XhVfXe3f:lXa`be3AeW
+JKTO[X
+OTL]+PNTWZ[
+SNLJG
+`U\,QT`,[`ZU
+UPHSW_L
+hc^VaemZ5ih^gdZ]i5Z]i
+K[IYKX
+_WMQ\_,_[XQ`
+LXM[
+b__T0UXd0^_0Ud_^
+NUPRVVS
+b]XP[_gT/X[PZP\
+MKVQ^VWK
+The team has found 
+booty!
+UUUUU
+spits acid
+Move Area View Look Change Save
+Order Purge 
+%Novice Cadet Trooper Veteran Ace Exit
+Messages Anim Level Exit
+Slow
+Average
+Fast
+est"!! 
+Select Exit
+Place Exit
+Create New Character
+Purge Character
+Modify Character
+Icon Select
+Train Character
+View Character
+Add Character to Team
+Remove Character from Team
+Load Saved Game
+Save Current Game
+Begin Adventuring
+JoyStick/Mouse Initialize
+Exit to DOS
+               
+Closing    
+Retreating 
+Maneuvering
+HIMQPOKG
+ .*,?/\:;|SC83456;
+=>?ALS<J>APT
+!Press button or enter to continue"~Press button or enter to continue
+matrix.cfg	Van Allen
+Hubble
+Copernicus
+Kepler
+Goddard
+Adder
+Viper
+Anaconda
+Sidewinder	Boomslang
+Mohave
+Sahara
+Gobi
+Outback
+Kalihari
+Flare
+Corona
+Hermes
+Osiris
+Apollo
+	Liberator
+Eclipse
+Daisy
+Gambit
+Dervish
+Laser
+P-laser
+Gyrocann
+Missile
+Hv-missl
+K-cannon
+acl-Cann
+hv-Accel
+Hull
+Sens
+Ctrl
+Life
+Fuel
+Engn
+Weap
+Hull
+Sensors
+Control systems
+Life support
+Fuel
+Engines
+Fighter
+	Asterover
+Scout cruiser
+Lt freighter
+Hv freighter
+Md cruiser
+Lt transport
+Hv transport
+Hv cruiser
+Space liner
+Battler
+Rocket Jock
+Medic
+Warrior
+Engineer
+Rogue
+Scout
+Monster
+Terran
+Martian
+Venusian
+	Mercurian
+Tinker
+Desert Runner
+lunarian
+	lowlander
+Male
+Female	No status
+Okay
+Gone
+Dead
+Dying
+Unconc
+Fleeing
+Poisoned
+Comatose
+Not here
+Dodging
+	Sprinting
+Failed ZeroG
+Used Jetpack
+Using Jetpac
+Career Skills
+Dexterity Skills
+Constitution Skills
+Intelligence Skills
+Wisdom Skills
+Charisma Skills
+technical Skills
+Repair Electrical
+Repair Mechanical
+Repair Nuclear Engine
+Repair Life Support
+Repair Rocket Hull
+Jury Rig
+Bypass Security
+	Open Lock
+Commo Operation
+Sensor Operation
+Demolitions
+Cook
+	First Aid
+Repair Weapon
+Repair Computer
+Life Suspension Tech
+Treat Light Wounds
+Treat Serious Wounds
+Treat Critical Wounds
+Treat Poisoning
+Treat Stun/Paralysis
+Treat Disease
+Diagnose
+General Knowledge
+	Ship Lore
+Composition
+Mathematics
+Physics
+Geology
+Planetology
+Battle Tactics
+	Chemistry
+Biology
+Design Engineering
+History
+	Astronomy
+Botany
+Literature
+	Economics
+Metallurgy
+Speak/Read Lang.
+Programming
+Crytography
+Library Search
+Astrogation
+Navigation
+Mimic
+Memorize
+Disguise
+Pilot Rocket
+Pilot Fixed Wing
+Drive Ground Car
+Pilot Rotor Wing
+Drive Motorcycle
+Use Jetpack
+Pilot Ship/Sub
+Drive Hvy Grnd Vehc
+Drive Jetcar
+Animal Riding
+Hide in Shadows
+Move Silently
+Pick Pockets
+Acrobatics
+Climb
+Swimming
+Maneuver in 0G
+Play Instrumnt
+Paint/Draw
+Hypnosis
+Intimidate
+Leadership
+Befriend Animal
+Animal Training
+Fast Talk/Convince
+Singing
+Distract
+	Etiquette
+Tracking
+	Shadowing
+	Read Lips
+Notice
+Planetary Survival
+Evil
+Nuclear
+Death
+Martian
+From
+Chicago
+Good
+	Wholesome
+Space
+Cadet
+Knife
+Mono
+Cutlass
+Sword
+D.R. X-bow
+Needle
+Bolt
+Laser
+Pistol
+Rocket
+	Microwave
+Rifle
+Heat
+Sonic Stunner
+Grenade
+Lnchr.
+Plasma Thrwr
+Martian
+Venusian
+	Mercurian
+Lunarian
+	Spacesuit
+	Smartsuit
+Heavy Body
+Armor
+Battle armor
+w/fields
+	Explosive
+Stun
+Dazzle
+Chaff
+Aerosol Mist
+Demo Charge
+ECM package
+Protective
+Goggles
+Breathing Mask
+Rope
+Jetpack
+Poison Antidote
+Polearm
+mini
+BLANK ITEM
+Insert disk 3 in drive 
+Insert disk 2 in drive 
+Insert disk 3 in drive 
+Insert disk 4 in drive 
+Insert disk 5 in drive 
+Insert disk 6 in drive 
+Insert disk 7 in drive 
+Beam laser
+Pumped laser
+Gyrocannon
+Missile mount
+Heavy missile mount
+K-cannon
+Light acceleration gun
+Heavy acceleration gun
+Affected
+Unaffected
+Helpless
+Scared
+Blind
+Stunned
+Dizzy
+OPQK MGHIHHHHHHHHHHHKHHHHHHHHHMKKHHHHHHHMMKKKHHHHHMMMKKKKHHHMMMMKKKKKHMMMMMKKKKPPPMMMMKKKPPPPPMMMKKPPPPPPPMMKPPPPPPPPPMPPPPPPPPPPP
+	Trade to?
+Select type of coin 	How much 
+will you trade? 
+.stf
+.hid
+.sfx
+savgam
+Put save disk in ((())**++,,--..//0011((((***,,,...00022244(()*+,-./0123456789:;((((***,,,...00022244((())**++,,--..//0011(()*+,-./0123456789:;
+5(CUS(3U82
+<CPJ7
+I2CU>
+L(=(>2S(
+>KA(J
+P2S-T-CF
+Items: 
+Buy&                                      
+In the Log Book on page
+following the heading
+what is the 
+word? 
+first  
+second 
+third  
+fourth 
+fifth  
+sixth  
+seventh
+eighth 
+ninth
+tenth
+89632147 
+"3DUfw
+buckc
+bucka
+bucka
+buckb
+buckc
+pcspkr.adv
+sbfm.adv
+	adlib.adv
+mt32mpu.adv
+	tandy.adv

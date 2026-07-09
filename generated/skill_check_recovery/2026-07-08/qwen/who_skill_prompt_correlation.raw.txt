@@ -1,0 +1,45 @@
+[state-migrations] Legacy state migration warnings:
+- Skipped Memory Core legacy memory index import for agent main because legacy rows could not be imported: Error: legacy memory meta rows conflict with canonical memory index rows
+│
+◇  Doctor warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - Skipped Memory Core legacy memory index import for agent main         │
+│    because legacy rows could not be imported: Error: legacy memory meta  │
+│    rows conflict with canonical memory index rows                        │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+model.run via local
+provider: ollama
+model: qwen3-coder:30b
+outputs: 1
+# WHO Prompt and Skill Table Correlation Advisory
+
+## VERIFIED_FROM_PROMPT
+- **Block 35, row 0x8EB5**: "WHO WILL REPROGRAM?" prompt uses `WHO <select player>` opcode
+- **Block 35, row 0xA168**: "WHO WILL FAST TALK?" prompt uses `WHO <select player>` opcode  
+- **Block 82, row 0x8CB5**: "WHO MAKES THE ATTEMPT?" prompt uses `WHO <select player>` opcode
+- All three prompts are followed by skill-check opcodes (`COMPARE Values: X == area2.selected_player_in_combat`)
+- Prompt text references player selection for skill-based actions
+
+## CANDIDATES
+Based on skill table offsets and prompt context:
+- **Repair Computer** (offset 62586, skill_id 15) - matches "WHO WILL REPROGRAM?" 
+- **Fast Talk/Convince** (offset 63879, skill_id 76) - matches "WHO WILL FAST TALK?"
+- **Jury Rig** (offset 62397, skill_id 6) - contextually appropriate for "WHO MAKES THE ATTEMPT?"
+
+## RISKS
+- No direct evidence that prompt text maps to specific skills beyond general category matching
+- Skill-check opcodes reference `selected_player_in_combat` which may not correlate with prompt selection
+- Contextual skill relevance (e.g., "reprogram" vs. "fast talk") is speculative without explicit opcode behavior mapping
+
+## LOCAL_VALIDATION_STEPS
+1. Verify that `area2.selected_player_in_combat` value matches expected player ID for each prompt
+2. Confirm skill-check opcodes properly reference the same player index as WHO selection
+3. Validate that prompt text and skill table offsets align with actual execution paths
+4. Check that selected player's skill points or attribute match expected skill check difficulty
+
+## UNSUPPORTED_CLAIMS
+- No evidence that "WHO WILL REPROGRAM?" directly maps to Repair Computer
+- No evidence that "WHO WILL FAST TALK?" directly maps to Fast Talk/Convince  
+- No evidence that "WHO MAKES THE ATTEMPT?" directly maps to Jury Rig
+- No evidence of opcode behavior or skill-check result correlation from provided data

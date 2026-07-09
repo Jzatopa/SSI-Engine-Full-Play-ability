@@ -1,0 +1,536 @@
+{
+  "valid": true,
+  "file": "PIC7.DAX",
+  "bytes": 7705,
+  "sha256": "bc59baa7f63d419be502213f346f19df9a1eb0cb3c846443cbb6e523bdecf474",
+  "toc_len": 9,
+  "data_offset": 11,
+  "block_count": 1,
+  "semantic_status": "structural decode only: semantic format not yet named",
+  "warnings": [],
+  "blocks": [
+    {
+      "id": 105,
+      "toc_entry_offset": 2,
+      "packed_relative_offset": 0,
+      "packed_absolute_offset": 11,
+      "raw_size": 7659,
+      "packed_size": 7694,
+      "decoded_size": 7659,
+      "decoded_sha256": "ad367902d7b3b31493ff3fac85fd910e99ed7165c9027782211d3b8101a6d452",
+      "packed_sha256": "1fb469e60b497d58152c053f9ce9b9d5f1ea4fb977574fd9c880a28f3425c4b9",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0046,
+      "record_size_divisors": [
+        3,
+        9
+      ],
+      "known_record_hints": [],
+      "head_hex": "58 00 0b 00 00 00 00 00 00 20 e0 1c 0e 00 13 09 00 03 1d 01 0a 17 03 09 0c 04 0b 16 0c 29 0d 02 1e 01 01 13 00 07 09 00 06 25 25 3f 1d 1d 3f 34 19 08 00 20 20 0c 0c 38 25 00 00 0e 30 30 00 26",
+      "tail_hex": "29 ac ff 29 09 e2 00 e2 7f 29 ac 29 ac 29 0f ff 57 ff 4b 02 57 4b 57 fe 4b fe 49 01 38 ac fc 29",
+      "ascii_candidates": [
+        {
+          "offset": 434,
+          "length": 4,
+          "text": "%%?4"
+        },
+        {
+          "offset": 488,
+          "length": 6,
+          "text": "/-?%%?"
+        },
+        {
+          "offset": 536,
+          "length": 6,
+          "text": "?9*2-2"
+        },
+        {
+          "offset": 611,
+          "length": 5,
+          "text": "?,%7%"
+        },
+        {
+          "offset": 635,
+          "length": 5,
+          "text": "?9*?;"
+        },
+        {
+          "offset": 706,
+          "length": 43,
+          "text": "\"\"\"\"\"\"\"\"\"\"\"33333DDDDDDDDDDUUUUVfffffgwwwwwx"
+        },
+        {
+          "offset": 904,
+          "length": 6,
+          "text": "POPOdO"
+        },
+        {
+          "offset": 960,
+          "length": 6,
+          "text": "OePOeP"
+        },
+        {
+          "offset": 1039,
+          "length": 4,
+          "text": "PdOP"
+        },
+        {
+          "offset": 1101,
+          "length": 8,
+          "text": "PdPOPeOP"
+        },
+        {
+          "offset": 1147,
+          "length": 8,
+          "text": "PeOedPed"
+        },
+        {
+          "offset": 1318,
+          "length": 4,
+          "text": "iV()"
+        },
+        {
+          "offset": 1440,
+          "length": 4,
+          "text": "V)()"
+        },
+        {
+          "offset": 1601,
+          "length": 4,
+          "text": "WSW "
+        },
+        {
+          "offset": 1661,
+          "length": 10,
+          "text": "POUWSM,&,&"
+        },
+        {
+          "offset": 1675,
+          "length": 4,
+          "text": ")U(h"
+        },
+        {
+          "offset": 1727,
+          "length": 6,
+          "text": "UMWS W"
+        },
+        {
+          "offset": 1784,
+          "length": 13,
+          "text": "U(?=>\"OUaMW&M"
+        },
+        {
+          "offset": 1878,
+          "length": 4,
+          "text": "#ePe"
+        },
+        {
+          "offset": 1916,
+          "length": 5,
+          "text": "@ Wa "
+        },
+        {
+          "offset": 1983,
+          "length": 4,
+          "text": "< M:"
+        },
+        {
+          "offset": 1997,
+          "length": 4,
+          "text": "u)v>"
+        },
+        {
+          "offset": 2214,
+          "length": 4,
+          "text": "qpq#"
+        },
+        {
+          "offset": 2223,
+          "length": 7,
+          "text": "PePePeP"
+        },
+        {
+          "offset": 2272,
+          "length": 4,
+          "text": "\"$\"q"
+        },
+        {
+          "offset": 2344,
+          "length": 6,
+          "text": "#\"prq\""
+        },
+        {
+          "offset": 2378,
+          "length": 4,
+          "text": "$feP"
+        },
+        {
+          "offset": 2505,
+          "length": 4,
+          "text": "ePeP"
+        },
+        {
+          "offset": 2853,
+          "length": 4,
+          "text": "`*CD"
+        },
+        {
+          "offset": 2884,
+          "length": 4,
+          "text": "ePeP"
+        },
+        {
+          "offset": 2908,
+          "length": 4,
+          "text": "ePef"
+        },
+        {
+          "offset": 3120,
+          "length": 4,
+          "text": "!MeP"
+        },
+        {
+          "offset": 3132,
+          "length": 4,
+          "text": "ePeP"
+        },
+        {
+          "offset": 3226,
+          "length": 4,
+          "text": "#-eP"
+        },
+        {
+          "offset": 3268,
+          "length": 5,
+          "text": "%! z}"
+        },
+        {
+          "offset": 3364,
+          "length": 5,
+          "text": "!ePe#"
+        },
+        {
+          "offset": 3372,
+          "length": 4,
+          "text": "#ePe"
+        },
+        {
+          "offset": 3392,
+          "length": 6,
+          "text": "-)ePfe"
+        },
+        {
+          "offset": 3457,
+          "length": 4,
+          "text": "#e#P"
+        },
+        {
+          "offset": 3486,
+          "length": 6,
+          "text": "ePiePe"
+        },
+        {
+          "offset": 3505,
+          "length": 4,
+          "text": "3L\tB"
+        },
+        {
+          "offset": 3577,
+          "length": 4,
+          "text": "iePe"
+        },
+        {
+          "offset": 3635,
+          "length": 9,
+          "text": "#PeYgPkeP"
+        },
+        {
+          "offset": 3660,
+          "length": 4,
+          "text": "o#PV"
+        },
+        {
+          "offset": 3678,
+          "length": 5,
+          "text": "8c];H"
+        },
+        {
+          "offset": 3710,
+          "length": 4,
+          "text": "w}z}"
+        },
+        {
+          "offset": 3731,
+          "length": 5,
+          "text": "YTPhP"
+        },
+        {
+          "offset": 3737,
+          "length": 5,
+          "text": "efePe"
+        },
+        {
+          "offset": 3753,
+          "length": 7,
+          "text": "o#iPePU"
+        },
+        {
+          "offset": 3769,
+          "length": 4,
+          "text": "X]8H"
+        },
+        {
+          "offset": 3809,
+          "length": 4,
+          "text": "o#Pe"
+        },
+        {
+          "offset": 3824,
+          "length": 4,
+          "text": "hgYe"
+        },
+        {
+          "offset": 3834,
+          "length": 5,
+          "text": "ePe3v"
+        },
+        {
+          "offset": 3905,
+          "length": 11,
+          "text": "q#ePekhUhTe"
+        },
+        {
+          "offset": 3950,
+          "length": 4,
+          "text": "^X3K"
+        },
+        {
+          "offset": 3987,
+          "length": 7,
+          "text": "wsr$Peh"
+        },
+        {
+          "offset": 4001,
+          "length": 5,
+          "text": "UhUTP"
+        },
+        {
+          "offset": 4042,
+          "length": 4,
+          "text": "^X3K"
+        },
+        {
+          "offset": 4063,
+          "length": 4,
+          "text": "#P#r"
+        },
+        {
+          "offset": 4081,
+          "length": 4,
+          "text": "$PUe"
+        },
+        {
+          "offset": 4103,
+          "length": 11,
+          "text": "P%eQfQPfV)7"
+        },
+        {
+          "offset": 4132,
+          "length": 5,
+          "text": "U^c3K"
+        },
+        {
+          "offset": 4258,
+          "length": 4,
+          "text": "#Pe("
+        },
+        {
+          "offset": 4286,
+          "length": 8,
+          "text": "Qf$Q$fP8"
+        },
+        {
+          "offset": 4402,
+          "length": 7,
+          "text": "(uvpqr%"
+        },
+        {
+          "offset": 4476,
+          "length": 5,
+          "text": "(UhP8"
+        },
+        {
+          "offset": 4503,
+          "length": 5,
+          "text": "U58IG"
+        },
+        {
+          "offset": 4541,
+          "length": 4,
+          "text": "P#P#"
+        },
+        {
+          "offset": 4554,
+          "length": 4,
+          "text": "#$u("
+        },
+        {
+          "offset": 4569,
+          "length": 8,
+          "text": "Q\th)V)U#"
+        },
+        {
+          "offset": 4598,
+          "length": 6,
+          "text": "p%_(I3"
+        },
+        {
+          "offset": 4667,
+          "length": 7,
+          "text": "Q(UY(U)"
+        },
+        {
+          "offset": 4763,
+          "length": 5,
+          "text": "(Y/(K"
+        },
+        {
+          "offset": 4794,
+          "length": 4,
+          "text": "\"8_K"
+        },
+        {
+          "offset": 5034,
+          "length": 4,
+          "text": "yuyu"
+        },
+        {
+          "offset": 5235,
+          "length": 4,
+          "text": "GHI8"
+        },
+        {
+          "offset": 5273,
+          "length": 4,
+          "text": "IHI8"
+        },
+        {
+          "offset": 5329,
+          "length": 4,
+          "text": "HIK8"
+        },
+        {
+          "offset": 5423,
+          "length": 5,
+          "text": "8)v)#"
+        },
+        {
+          "offset": 5436,
+          "length": 4,
+          "text": ")vu("
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 706,
+          "length": 34,
+          "text": "\"\"\"\"\"\"\"\"\"\"33333DDDDDDDDDDUUUUVffff"
+        },
+        {
+          "offset": 707,
+          "length": 34,
+          "text": "\"\"\"\"\"\"\"\"\"33333DDDDDDDDDDUUUUVfffff"
+        },
+        {
+          "offset": 708,
+          "length": 34,
+          "text": "\"\"\"\"\"\"\"\"33333DDDDDDDDDDUUUUVfffffg"
+        },
+        {
+          "offset": 709,
+          "length": 34,
+          "text": "\"\"\"\"\"\"\"33333DDDDDDDDDDUUUUVfffffgw"
+        },
+        {
+          "offset": 710,
+          "length": 34,
+          "text": "\"\"\"\"\"\"33333DDDDDDDDDDUUUUVfffffgww"
+        },
+        {
+          "offset": 711,
+          "length": 34,
+          "text": "\"\"\"\"\"33333DDDDDDDDDDUUUUVfffffgwww"
+        },
+        {
+          "offset": 712,
+          "length": 34,
+          "text": "\"\"\"\"33333DDDDDDDDDDUUUUVfffffgwwww"
+        },
+        {
+          "offset": 713,
+          "length": 34,
+          "text": "\"\"\"33333DDDDDDDDDDUUUUVfffffgwwwww"
+        },
+        {
+          "offset": 714,
+          "length": 34,
+          "text": "\"\"33333DDDDDDDDDDUUUUVfffffgwwwwwx"
+        },
+        {
+          "offset": 903,
+          "length": 5,
+          "text": "POPOd"
+        },
+        {
+          "offset": 959,
+          "length": 5,
+          "text": "OePOe"
+        },
+        {
+          "offset": 1100,
+          "length": 7,
+          "text": "PdPOPeO"
+        },
+        {
+          "offset": 1146,
+          "length": 7,
+          "text": "PeOedPe"
+        },
+        {
+          "offset": 2222,
+          "length": 6,
+          "text": "PePePe"
+        },
+        {
+          "offset": 3363,
+          "length": 4,
+          "text": "!ePe"
+        },
+        {
+          "offset": 4666,
+          "length": 6,
+          "text": "Q(UY(U"
+        }
+      ],
+      "byte_histogram_top16": {
+        "ff": 704,
+        "00": 497,
+        "01": 368,
+        "65": 341,
+        "50": 297,
+        "fe": 246,
+        "38": 243,
+        "29": 178,
+        "ac": 166,
+        "ab": 159,
+        "02": 143,
+        "28": 138,
+        "4f": 131,
+        "23": 130,
+        "09": 114,
+        "a6": 106
+      },
+      "warnings": []
+    }
+  ]
+}

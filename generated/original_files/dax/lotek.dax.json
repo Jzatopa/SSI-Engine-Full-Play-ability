@@ -1,0 +1,458 @@
+{
+  "valid": true,
+  "file": "LOTEK.DAX",
+  "bytes": 16267,
+  "sha256": "9b015a4bb7d4ca0c6fcd65420d35569af2d2bb3d92e550b4a56d45ca1b2699e1",
+  "toc_len": 9,
+  "data_offset": 11,
+  "block_count": 1,
+  "semantic_status": "structural decode only: semantic format not yet named",
+  "warnings": [],
+  "blocks": [
+    {
+      "id": 1,
+      "toc_entry_offset": 2,
+      "packed_relative_offset": 0,
+      "packed_absolute_offset": 11,
+      "raw_size": 30078,
+      "packed_size": 16256,
+      "decoded_size": 30078,
+      "decoded_sha256": "02a0dc0e3507502a961eeb44d0c80c594293486abbcca6131165f7bc1d63f4fb",
+      "packed_sha256": "606f8b2b65a8d3981c33c774dbf33d5765c2f95e4b3610e53b1fa17b6cf266ce",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.5405,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18
+      ],
+      "known_record_hints": [],
+      "head_hex": "18 03 00 00 00 00 34 00 20 1f 1c 0c 08 28 00 28 00 14 00 1c 0c 08 00 00 00 00 14 00 3c 2c 00 28 28 28 1c 0c 08 38 10 10 1c 0c 08 38 10 10 30 30 3c 3c 2c 00 38 28 20 1c 0c 08 38 10 10 20 10 00",
+      "tail_hex": "2a 2a 00 00 2a 2a 2a 00 2a 35 31 2a 3a 35 3a 31 2a 35 2a 3a 2a 2a 2a 00 2a 00 2a 2a 00 00 2a 2a",
+      "ascii_candidates": [
+        {
+          "offset": 46,
+          "length": 5,
+          "text": "00<<,"
+        },
+        {
+          "offset": 84,
+          "length": 6,
+          "text": "(00<<,"
+        },
+        {
+          "offset": 91,
+          "length": 4,
+          "text": "8( 8"
+        },
+        {
+          "offset": 97,
+          "length": 5,
+          "text": "00<88"
+        },
+        {
+          "offset": 109,
+          "length": 6,
+          "text": "\"Efwww"
+        },
+        {
+          "offset": 967,
+          "length": 4,
+          "text": "**:*"
+        },
+        {
+          "offset": 992,
+          "length": 4,
+          "text": "*:1*"
+        },
+        {
+          "offset": 1018,
+          "length": 5,
+          "text": "1:***"
+        },
+        {
+          "offset": 1055,
+          "length": 7,
+          "text": ":1;:1:1"
+        },
+        {
+          "offset": 1065,
+          "length": 6,
+          "text": "**51**"
+        },
+        {
+          "offset": 1080,
+          "length": 6,
+          "text": ":1;151"
+        },
+        {
+          "offset": 1091,
+          "length": 5,
+          "text": "51*1*"
+        },
+        {
+          "offset": 1104,
+          "length": 6,
+          "text": "11::51"
+        },
+        {
+          "offset": 1116,
+          "length": 7,
+          "text": "1*1:***"
+        },
+        {
+          "offset": 1130,
+          "length": 4,
+          "text": ":155"
+        },
+        {
+          "offset": 1140,
+          "length": 6,
+          "text": ":*:1**"
+        },
+        {
+          "offset": 1154,
+          "length": 4,
+          "text": ";111"
+        },
+        {
+          "offset": 1164,
+          "length": 7,
+          "text": ":*51*1*"
+        },
+        {
+          "offset": 1188,
+          "length": 9,
+          "text": "*151*1***"
+        },
+        {
+          "offset": 1209,
+          "length": 12,
+          "text": "*15*15:*:*:*"
+        },
+        {
+          "offset": 1233,
+          "length": 13,
+          "text": "*15*:*1;*1*:*"
+        },
+        {
+          "offset": 1257,
+          "length": 14,
+          "text": "*1:*;*:1*11:**"
+        },
+        {
+          "offset": 1860,
+          "length": 12,
+          "text": ":11*:*:1:*:*"
+        },
+        {
+          "offset": 1881,
+          "length": 16,
+          "text": "*1;51*1:*:1**1**"
+        },
+        {
+          "offset": 1905,
+          "length": 17,
+          "text": "*1:51*;*:11*;1*:*"
+        },
+        {
+          "offset": 1929,
+          "length": 18,
+          "text": "*1;*1*1*;1*511*5:*"
+        },
+        {
+          "offset": 1953,
+          "length": 14,
+          "text": "*1511*1*:1*5*1"
+        },
+        {
+          "offset": 1968,
+          "length": 5,
+          "text": "51***"
+        },
+        {
+          "offset": 1977,
+          "length": 14,
+          "text": "*15:>11*;**5*1"
+        },
+        {
+          "offset": 1992,
+          "length": 6,
+          "text": ":1*:**"
+        },
+        {
+          "offset": 2001,
+          "length": 21,
+          "text": "*:15*11:*:*::5:*1*:**"
+        },
+        {
+          "offset": 2028,
+          "length": 18,
+          "text": "5*1>:*:1;151*1*1*:"
+        },
+        {
+          "offset": 2048,
+          "length": 22,
+          "text": "**1:5*151*11:151:1:1*1"
+        },
+        {
+          "offset": 2072,
+          "length": 22,
+          "text": "**1*1*:51*11*1*1:111*1"
+        },
+        {
+          "offset": 2096,
+          "length": 22,
+          "text": "*:*51*:11*11*1*:5:1:51"
+        },
+        {
+          "offset": 2120,
+          "length": 22,
+          "text": "*:55**51**:1*1*:5*115:"
+        },
+        {
+          "offset": 2143,
+          "length": 16,
+          "text": "**:*5**51*5*1*1*"
+        },
+        {
+          "offset": 2160,
+          "length": 23,
+          "text": "5*:1:***:*:*151:*1*1*::"
+        },
+        {
+          "offset": 2184,
+          "length": 6,
+          "text": ":**1*1"
+        },
+        {
+          "offset": 2191,
+          "length": 16,
+          "text": "**:1*:51*51*1:1:"
+        },
+        {
+          "offset": 2208,
+          "length": 6,
+          "text": ":*:1*1"
+        },
+        {
+          "offset": 2216,
+          "length": 22,
+          "text": "*1:*15**51*::51;*151::"
+        },
+        {
+          "offset": 2240,
+          "length": 22,
+          "text": "***1:1**:1**151:*15:5:"
+        },
+        {
+          "offset": 2266,
+          "length": 20,
+          "text": "**5*;5*:**1:15:15*51"
+        },
+        {
+          "offset": 2289,
+          "length": 21,
+          "text": "**:5:1*****1*151::*51"
+        },
+        {
+          "offset": 2312,
+          "length": 22,
+          "text": "*****;1*:1**1*151*:*51"
+        },
+        {
+          "offset": 2341,
+          "length": 10,
+          "text": "*::15*51*:"
+        },
+        {
+          "offset": 2352,
+          "length": 6,
+          "text": "1*5::1"
+        },
+        {
+          "offset": 2366,
+          "length": 9,
+          "text": "*1:5:5**1"
+        },
+        {
+          "offset": 2376,
+          "length": 6,
+          "text": "1*51:1"
+        },
+        {
+          "offset": 2390,
+          "length": 9,
+          "text": "*1**15*1:"
+        },
+        {
+          "offset": 2400,
+          "length": 6,
+          "text": "1**1*:"
+        },
+        {
+          "offset": 2418,
+          "length": 5,
+          "text": "*;1:*"
+        },
+        {
+          "offset": 2424,
+          "length": 6,
+          "text": ":**1*5"
+        },
+        {
+          "offset": 2434,
+          "length": 21,
+          "text": "1;:1511:*;:*1:*51*:**"
+        },
+        {
+          "offset": 2459,
+          "length": 21,
+          "text": "::1511:*1:*1;*51*1***"
+        },
+        {
+          "offset": 2482,
+          "length": 20,
+          "text": "*:1155115*:*11*5::1*"
+        },
+        {
+          "offset": 2507,
+          "length": 20,
+          "text": "*1;:5115*1*11*1*:1**"
+        },
+        {
+          "offset": 2533,
+          "length": 18,
+          "text": ":15:15*1:51*1*:*:*"
+        },
+        {
+          "offset": 2557,
+          "length": 17,
+          "text": ";1:;1;*5:5*51*1*;"
+        },
+        {
+          "offset": 2583,
+          "length": 18,
+          "text": "*:1::51:*5151*****"
+        },
+        {
+          "offset": 2608,
+          "length": 15,
+          "text": ":;;151:*5151:**"
+        },
+        {
+          "offset": 2632,
+          "length": 17,
+          "text": ";::151;:*15:1****"
+        },
+        {
+          "offset": 2658,
+          "length": 17,
+          "text": "*:11:5*15:1**1***"
+        },
+        {
+          "offset": 2683,
+          "length": 14,
+          "text": "*1:*5*1551:***"
+        },
+        {
+          "offset": 2708,
+          "length": 17,
+          "text": "11*51::51*15:****"
+        },
+        {
+          "offset": 2732,
+          "length": 16,
+          "text": "1:*551:5**155*1*"
+        },
+        {
+          "offset": 2756,
+          "length": 18,
+          "text": "**:5**1***1:5*15**"
+        },
+        {
+          "offset": 2788,
+          "length": 10,
+          "text": "**:*1:151*"
+        },
+        {
+          "offset": 2814,
+          "length": 10,
+          "text": "5*1*:1****"
+        },
+        {
+          "offset": 2825,
+          "length": 6,
+          "text": "******"
+        },
+        {
+          "offset": 2838,
+          "length": 11,
+          "text": "5*1*:1**:**"
+        },
+        {
+          "offset": 2862,
+          "length": 11,
+          "text": "5*1:*1*5*1*"
+        },
+        {
+          "offset": 2886,
+          "length": 15,
+          "text": ":*15*1:5*1*****"
+        },
+        {
+          "offset": 2910,
+          "length": 13,
+          "text": "**15:1*:*1*1*"
+        },
+        {
+          "offset": 2934,
+          "length": 15,
+          "text": "*:;*:5*15:*1***"
+        },
+        {
+          "offset": 2957,
+          "length": 19,
+          "text": "**51*:5*155*1*:****"
+        },
+        {
+          "offset": 2982,
+          "length": 15,
+          "text": "*51*:5:1*5*:***"
+        },
+        {
+          "offset": 3305,
+          "length": 4,
+          "text": "****"
+        },
+        {
+          "offset": 3313,
+          "length": 4,
+          "text": "****"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "08": 16176,
+        "2a": 4905,
+        "00": 2594,
+        "31": 1881,
+        "3a": 1820,
+        "35": 991,
+        "3b": 430,
+        "06": 342,
+        "30": 138,
+        "04": 124,
+        "2e": 92,
+        "02": 88,
+        "0a": 77,
+        "22": 62,
+        "07": 55,
+        "0e": 40
+      },
+      "warnings": []
+    }
+  ]
+}

@@ -1,0 +1,612 @@
+{
+  "file": "FATV9.BNK",
+  "kind": "audio/music/driver data",
+  "bytes": 8350,
+  "sha256": "c040bd4bdbbd132d4d6a4dd2e70aae1618ece131cfe7148d70db13263ba1ebd2",
+  "head_hex": "01 00 41 44 4c 49 42 2d af 00 00 01 1c 00 00 00 1c 0c 00 00 00 00 00 00 00 00 00 00 00 00 01 41 31 36 4e 4f 54 45 00 00 01 00 01 42 41 53 53 31 00 00 00 00 02 00 01 42 41 53 53 32 00 00 00 00 03 00 01 42 41 53 53 4f 4f 4e 00 00 04 00 01 42 42 41 53 53 00 00 00 00 05 00 01 42 45 4c 4c 53 00 00 00 00 06 00 01 42 45 4c 53 48 4f 52 54 00 07 00 01 42 52 41 53 53 31 00 00 00 08 00 01 42",
+  "ascii_candidates": [
+    {
+      "offset": 2,
+      "length": 6,
+      "text": "ADLIB-"
+    },
+    {
+      "offset": 31,
+      "length": 7,
+      "text": "A16NOTE"
+    },
+    {
+      "offset": 43,
+      "length": 5,
+      "text": "BASS1"
+    },
+    {
+      "offset": 55,
+      "length": 5,
+      "text": "BASS2"
+    },
+    {
+      "offset": 67,
+      "length": 7,
+      "text": "BASSOON"
+    },
+    {
+      "offset": 79,
+      "length": 5,
+      "text": "BBASS"
+    },
+    {
+      "offset": 91,
+      "length": 5,
+      "text": "BELLS"
+    },
+    {
+      "offset": 103,
+      "length": 8,
+      "text": "BELSHORT"
+    },
+    {
+      "offset": 115,
+      "length": 6,
+      "text": "BRASS1"
+    },
+    {
+      "offset": 127,
+      "length": 6,
+      "text": "BRASS2"
+    },
+    {
+      "offset": 139,
+      "length": 5,
+      "text": "CELLO"
+    },
+    {
+      "offset": 151,
+      "length": 5,
+      "text": "CHIRP"
+    },
+    {
+      "offset": 163,
+      "length": 7,
+      "text": "DABASS1"
+    },
+    {
+      "offset": 175,
+      "length": 7,
+      "text": "DABASS2"
+    },
+    {
+      "offset": 187,
+      "length": 8,
+      "text": "DCELEST1"
+    },
+    {
+      "offset": 199,
+      "length": 8,
+      "text": "DCELEST2"
+    },
+    {
+      "offset": 211,
+      "length": 7,
+      "text": "DCHORAL"
+    },
+    {
+      "offset": 223,
+      "length": 8,
+      "text": "DCLHIHAT"
+    },
+    {
+      "offset": 235,
+      "length": 8,
+      "text": "DENGHORN"
+    },
+    {
+      "offset": 247,
+      "length": 7,
+      "text": "DGITAR1"
+    },
+    {
+      "offset": 259,
+      "length": 8,
+      "text": "DGLASSES"
+    },
+    {
+      "offset": 271,
+      "length": 8,
+      "text": "DHARMOPN"
+    },
+    {
+      "offset": 283,
+      "length": 7,
+      "text": "DHIBONG"
+    },
+    {
+      "offset": 295,
+      "length": 6,
+      "text": "DKICK1"
+    },
+    {
+      "offset": 307,
+      "length": 7,
+      "text": "dlobong"
+    },
+    {
+      "offset": 319,
+      "length": 5,
+      "text": "DOBOE"
+    },
+    {
+      "offset": 331,
+      "length": 7,
+      "text": "DORGAN1"
+    },
+    {
+      "offset": 343,
+      "length": 7,
+      "text": "DORGAN2"
+    },
+    {
+      "offset": 355,
+      "length": 6,
+      "text": "DPIPE1"
+    },
+    {
+      "offset": 367,
+      "length": 6,
+      "text": "DPIPE2"
+    },
+    {
+      "offset": 379,
+      "length": 6,
+      "text": "DRIDE1"
+    },
+    {
+      "offset": 391,
+      "length": 6,
+      "text": "DSNARE"
+    },
+    {
+      "offset": 403,
+      "length": 6,
+      "text": "DSQWVE"
+    },
+    {
+      "offset": 415,
+      "length": 8,
+      "text": "DTAIKRIM"
+    },
+    {
+      "offset": 427,
+      "length": 5,
+      "text": "dtamb"
+    },
+    {
+      "offset": 439,
+      "length": 7,
+      "text": "DTBONE1"
+    },
+    {
+      "offset": 451,
+      "length": 6,
+      "text": "DTIMP1"
+    },
+    {
+      "offset": 463,
+      "length": 4,
+      "text": "dtom"
+    },
+    {
+      "offset": 475,
+      "length": 5,
+      "text": "dtoms"
+    },
+    {
+      "offset": 487,
+      "length": 7,
+      "text": "DTRUMP1"
+    },
+    {
+      "offset": 499,
+      "length": 6,
+      "text": "DTUBA1"
+    },
+    {
+      "offset": 511,
+      "length": 7,
+      "text": "DVIBES1"
+    },
+    {
+      "offset": 523,
+      "length": 7,
+      "text": "DWMBELL"
+    },
+    {
+      "offset": 535,
+      "length": 7,
+      "text": "FBDRUM3"
+    },
+    {
+      "offset": 547,
+      "length": 6,
+      "text": "FBEEP1"
+    },
+    {
+      "offset": 559,
+      "length": 6,
+      "text": "fbssn1"
+    },
+    {
+      "offset": 571,
+      "length": 7,
+      "text": "FCASAB2"
+    },
+    {
+      "offset": 583,
+      "length": 6,
+      "text": "FCLAP1"
+    },
+    {
+      "offset": 595,
+      "length": 6,
+      "text": "FCLAV1"
+    },
+    {
+      "offset": 607,
+      "length": 7,
+      "text": "FCLAVE1"
+    },
+    {
+      "offset": 619,
+      "length": 7,
+      "text": "fclave2"
+    },
+    {
+      "offset": 631,
+      "length": 7,
+      "text": "FCLHAT2"
+    },
+    {
+      "offset": 643,
+      "length": 7,
+      "text": "FCLRNT1"
+    },
+    {
+      "offset": 655,
+      "length": 7,
+      "text": "FCLRNT2"
+    },
+    {
+      "offset": 667,
+      "length": 8,
+      "text": "FCNTRBS1"
+    },
+    {
+      "offset": 679,
+      "length": 7,
+      "text": "FCRASH1"
+    },
+    {
+      "offset": 691,
+      "length": 7,
+      "text": "fcrash2"
+    },
+    {
+      "offset": 703,
+      "length": 7,
+      "text": "FDEMAT1"
+    },
+    {
+      "offset": 715,
+      "length": 7,
+      "text": "FDEMAT2"
+    },
+    {
+      "offset": 727,
+      "length": 6,
+      "text": "FDOOR1"
+    },
+    {
+      "offset": 739,
+      "length": 8,
+      "text": "FECHOBL1"
+    },
+    {
+      "offset": 751,
+      "length": 8,
+      "text": "FECHOPN1"
+    },
+    {
+      "offset": 763,
+      "length": 7,
+      "text": "FENERG1"
+    },
+    {
+      "offset": 775,
+      "length": 7,
+      "text": "fepian1"
+    },
+    {
+      "offset": 787,
+      "length": 8,
+      "text": "fepiano1"
+    },
+    {
+      "offset": 799,
+      "length": 7,
+      "text": "FFANTA1"
+    },
+    {
+      "offset": 811,
+      "length": 7,
+      "text": "ffbass1"
+    },
+    {
+      "offset": 823,
+      "length": 7,
+      "text": "FFLUTE1"
+    },
+    {
+      "offset": 835,
+      "length": 7,
+      "text": "FFLUTE2"
+    },
+    {
+      "offset": 847,
+      "length": 7,
+      "text": "fflute3"
+    },
+    {
+      "offset": 859,
+      "length": 8,
+      "text": "FFRHORN1"
+    },
+    {
+      "offset": 871,
+      "length": 6,
+      "text": "FHARP1"
+    },
+    {
+      "offset": 883,
+      "length": 8,
+      "text": "FHARPSI1"
+    },
+    {
+      "offset": 895,
+      "length": 6,
+      "text": "fhiss1"
+    },
+    {
+      "offset": 907,
+      "length": 5,
+      "text": "FLUTE"
+    },
+    {
+      "offset": 919,
+      "length": 6,
+      "text": "FLUTE2"
+    },
+    {
+      "offset": 931,
+      "length": 7,
+      "text": "FMARAC1"
+    },
+    {
+      "offset": 943,
+      "length": 5,
+      "text": "FMAT1"
+    },
+    {
+      "offset": 955,
+      "length": 6,
+      "text": "FOHAT1"
+    },
+    {
+      "offset": 967,
+      "length": 6,
+      "text": "FOHAT2"
+    },
+    {
+      "offset": 979,
+      "length": 6,
+      "text": "fohat3"
+    },
+    {
+      "offset": 991,
+      "length": 6,
+      "text": "fohat4"
+    },
+    {
+      "offset": 1003,
+      "length": 8,
+      "text": "FORCHIT1"
+    },
+    {
+      "offset": 1015,
+      "length": 8,
+      "text": "forchit2"
+    },
+    {
+      "offset": 1027,
+      "length": 7,
+      "text": "FORGAN2"
+    },
+    {
+      "offset": 1039,
+      "length": 7,
+      "text": "FPHASE1"
+    },
+    {
+      "offset": 1051,
+      "length": 7,
+      "text": "FPIANO1"
+    },
+    {
+      "offset": 1063,
+      "length": 6,
+      "text": "FPING1"
+    },
+    {
+      "offset": 1075,
+      "length": 6,
+      "text": "FPIZZ1"
+    },
+    {
+      "offset": 1087,
+      "length": 7,
+      "text": "FRECOR1"
+    },
+    {
+      "offset": 1099,
+      "length": 5,
+      "text": "FRED1"
+    },
+    {
+      "offset": 1111,
+      "length": 6,
+      "text": "FRIDE1"
+    },
+    {
+      "offset": 1123,
+      "length": 5,
+      "text": "FRIM1"
+    },
+    {
+      "offset": 1135,
+      "length": 5,
+      "text": "frim2"
+    },
+    {
+      "offset": 1147,
+      "length": 6,
+      "text": "FSCAN1"
+    },
+    {
+      "offset": 1159,
+      "length": 7,
+      "text": "fshaku1"
+    },
+    {
+      "offset": 1171,
+      "length": 7,
+      "text": "FSNARE1"
+    },
+    {
+      "offset": 1183,
+      "length": 8,
+      "text": "FSNDTRK2"
+    },
+    {
+      "offset": 1195,
+      "length": 8,
+      "text": "FSPHASE1"
+    },
+    {
+      "offset": 1207,
+      "length": 8,
+      "text": "FSTRING1"
+    },
+    {
+      "offset": 1219,
+      "length": 8,
+      "text": "FSTRING2"
+    },
+    {
+      "offset": 1231,
+      "length": 8,
+      "text": "FSTRING3"
+    },
+    {
+      "offset": 1243,
+      "length": 6,
+      "text": "FSTRP2"
+    },
+    {
+      "offset": 1255,
+      "length": 8,
+      "text": "FSYNBRS2"
+    },
+    {
+      "offset": 1267,
+      "length": 8,
+      "text": "FSYNBRS3"
+    },
+    {
+      "offset": 1279,
+      "length": 8,
+      "text": "fsynbrs4"
+    },
+    {
+      "offset": 1291,
+      "length": 6,
+      "text": "FTAMB1"
+    },
+    {
+      "offset": 1303,
+      "length": 5,
+      "text": "FTOM1"
+    },
+    {
+      "offset": 1315,
+      "length": 6,
+      "text": "FTORP1"
+    },
+    {
+      "offset": 1327,
+      "length": 8,
+      "text": "FTRIANG1"
+    },
+    {
+      "offset": 1339,
+      "length": 6,
+      "text": "FVIEW1"
+    },
+    {
+      "offset": 1351,
+      "length": 6,
+      "text": "FVIEW2"
+    },
+    {
+      "offset": 1363,
+      "length": 8,
+      "text": "HARMONCA"
+    },
+    {
+      "offset": 1375,
+      "length": 8,
+      "text": "JAVAICAN"
+    },
+    {
+      "offset": 1387,
+      "length": 7,
+      "text": "katmos1"
+    },
+    {
+      "offset": 1399,
+      "length": 6,
+      "text": "kbass1"
+    },
+    {
+      "offset": 1411,
+      "length": 6,
+      "text": "kbass2"
+    },
+    {
+      "offset": 1423,
+      "length": 6,
+      "text": "kbass3"
+    },
+    {
+      "offset": 1435,
+      "length": 6,
+      "text": "kbass4"
+    },
+    {
+      "offset": 1447,
+      "length": 7,
+      "text": "kbottl1"
+    }
+  ],
+  "pascal_candidates": [],
+  "record_hints": [],
+  "semantic_status": "file-level structural evidence only"
+}

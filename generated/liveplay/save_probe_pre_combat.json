@@ -1,0 +1,195 @@
+{
+  "save_dir": "generated/liveplay/pre_combat",
+  "characters": [
+    {
+      "stem": "CHRDATA1",
+      "who_path": "generated/liveplay/pre_combat/CHRDATA1.SAV",
+      "stf_path": "generated/liveplay/pre_combat/CHRDATA1.STF",
+      "who": {
+        "name": "CAR1",
+        "ability_scores": {
+          "str": 10,
+          "dex": 16,
+          "con": 15,
+          "int": 12,
+          "wis": 13,
+          "cha": 15,
+          "tech": 15
+        },
+        "current_ability_scores": {
+          "str": 10,
+          "dex": 16,
+          "con": 15,
+          "int": 12,
+          "wis": 13,
+          "cha": 15,
+          "tech": 15
+        },
+        "race_id": 1,
+        "race": "terran",
+        "gender_id": 0,
+        "gender": "male",
+        "career_id": 2,
+        "career": "medic",
+        "level": 7,
+        "credits": 1000,
+        "experience": 48000,
+        "age": 22,
+        "hit_points_candidate": 38
+      },
+      "stf_size": 124
+    },
+    {
+      "stem": "GEN1",
+      "who_path": "generated/liveplay/pre_combat/GEN1.WHO",
+      "stf_path": "generated/liveplay/pre_combat/GEN1.STF",
+      "who": {
+        "name": "GEN1",
+        "ability_scores": {
+          "str": 16,
+          "dex": 13,
+          "con": 14,
+          "int": 15,
+          "wis": 15,
+          "cha": 16,
+          "tech": 12
+        },
+        "current_ability_scores": {
+          "str": 16,
+          "dex": 13,
+          "con": 14,
+          "int": 15,
+          "wis": 15,
+          "cha": 16,
+          "tech": 12
+        },
+        "race_id": 1,
+        "race": "terran",
+        "gender_id": 1,
+        "gender": "female",
+        "career_id": 1,
+        "career": "rocket_jock",
+        "level": 7,
+        "credits": 1000,
+        "experience": 40000,
+        "age": 20,
+        "hit_points_candidate": 34
+      },
+      "stf_size": 124
+    },
+    {
+      "stem": "RAC1",
+      "who_path": "generated/liveplay/pre_combat/RAC1.WHO",
+      "stf_path": "generated/liveplay/pre_combat/RAC1.STF",
+      "who": {
+        "name": "RAC1",
+        "ability_scores": {
+          "str": 16,
+          "dex": 14,
+          "con": 15,
+          "int": 15,
+          "wis": 11,
+          "cha": 16,
+          "tech": 14
+        },
+        "current_ability_scores": {
+          "str": 16,
+          "dex": 14,
+          "con": 15,
+          "int": 15,
+          "wis": 11,
+          "cha": 16,
+          "tech": 14
+        },
+        "race_id": 2,
+        "race": "martian",
+        "gender_id": 0,
+        "gender": "male",
+        "career_id": 1,
+        "career": "rocket_jock",
+        "level": 7,
+        "credits": 1000,
+        "experience": 40000,
+        "age": 19,
+        "hit_points_candidate": 43
+      },
+      "stf_size": 124
+    },
+    {
+      "stem": "TST1",
+      "who_path": "generated/liveplay/pre_combat/TST1.WHO",
+      "stf_path": "generated/liveplay/pre_combat/TST1.STF",
+      "who": {
+        "name": "TST1",
+        "ability_scores": {
+          "str": 13,
+          "dex": 16,
+          "con": 14,
+          "int": 15,
+          "wis": 13,
+          "cha": 13,
+          "tech": 14
+        },
+        "current_ability_scores": {
+          "str": 13,
+          "dex": 16,
+          "con": 14,
+          "int": 15,
+          "wis": 13,
+          "cha": 13,
+          "tech": 14
+        },
+        "race_id": 1,
+        "race": "terran",
+        "gender_id": 0,
+        "gender": "male",
+        "career_id": 1,
+        "career": "rocket_jock",
+        "level": 7,
+        "credits": 1000,
+        "experience": 40000,
+        "age": 22,
+        "hit_points_candidate": 31
+      },
+      "stf_size": 124
+    },
+    {
+      "stem": "TST2",
+      "who_path": "generated/liveplay/pre_combat/TST2.WHO",
+      "stf_path": "generated/liveplay/pre_combat/TST2.STF",
+      "who": {
+        "name": "TST2",
+        "ability_scores": {
+          "str": 17,
+          "dex": 14,
+          "con": 13,
+          "int": 14,
+          "wis": 15,
+          "cha": 13,
+          "tech": 15
+        },
+        "current_ability_scores": {
+          "str": 17,
+          "dex": 14,
+          "con": 13,
+          "int": 14,
+          "wis": 15,
+          "cha": 13,
+          "tech": 15
+        },
+        "race_id": 1,
+        "race": "terran",
+        "gender_id": 0,
+        "gender": "male",
+        "career_id": 1,
+        "career": "rocket_jock",
+        "level": 7,
+        "credits": 1000,
+        "experience": 40000,
+        "age": 24,
+        "hit_points_candidate": 31
+      },
+      "stf_size": 124
+    }
+  ]
+}

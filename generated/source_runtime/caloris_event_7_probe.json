@@ -1,0 +1,118 @@
+{
+  "map_id": 17,
+  "map_name": "Caloris Space Port",
+  "row": 0,
+  "col": 13,
+  "facing": "south",
+  "steps": 0,
+  "active_event_id": 7,
+  "active_event_type": "combat",
+  "active_encounter": "GEO 017 event 7: RAM WARRIOR",
+  "active_combat": {
+    "map_id": 17,
+    "event_id": 7,
+    "summary": "GEO 017 event 7: RAM WARRIOR",
+    "monster_names": [
+      "RAM WARRIOR"
+    ],
+    "candidate_monster_names": [],
+    "unresolved_monster_refs": [],
+    "encounters": [
+      {
+        "monster_id": 52,
+        "monster_ref": "52",
+        "monster_name": "RAM WARRIOR",
+        "address": "0x8C54",
+        "kind": "setup_monster",
+        "resolution": "constant",
+        "max_distance": "0",
+        "copies": null,
+        "pic_ref": "255",
+        "stats": {
+          "strength": 18,
+          "intelligence": 17,
+          "wisdom": 10,
+          "dexterity": 10,
+          "constitution": 10,
+          "charisma": 10,
+          "extraordinary_strength": 10
+        },
+        "candidate_resolution": null
+      }
+    ]
+  },
+  "last_execution": {
+    "map_id": 17,
+    "event_id": 7,
+    "event_type": "combat",
+    "summary": "show_text, queue_combat",
+    "commands": [
+      {
+        "kind": "show_text",
+        "label": "Show decoded event text",
+        "payload": {
+          "text": "'THE TELLTALE ON THE DOOR READS,' RETURN"
+        },
+        "evidence": "event_atlas text extraction"
+      },
+      {
+        "kind": "queue_combat",
+        "label": "Queue decoded encounter",
+        "payload": {
+          "encounters": [
+            {
+              "monster_id": 52,
+              "monster_ref": "52",
+              "monster_name": "RAM WARRIOR",
+              "address": "0x8C54",
+              "kind": "setup_monster",
+              "resolution": "constant",
+              "max_distance": "0",
+              "copies": null,
+              "pic_ref": "255",
+              "stats": {
+                "strength": 18,
+                "intelligence": 17,
+                "wisdom": 10,
+                "dexterity": 10,
+                "constitution": 10,
+                "charisma": 10,
+                "extraordinary_strength": 10
+              },
+              "candidate_resolution": null
+            }
+          ],
+          "monster_names": [
+            "RAM WARRIOR"
+          ],
+          "unresolved_monster_refs": [],
+          "candidate_monster_names": []
+        },
+        "evidence": "SETUP_MONSTER operands cross-referenced to MON0CHA.DAX"
+      }
+    ]
+  },
+  "party": {
+    "hp": 100,
+    "credits": 0,
+    "inventory": [],
+    "flags": []
+  },
+  "event_text": "'THE TELLTALE ON THE DOOR READS,' RETURN",
+  "encounters": [
+    {
+      "monster_id": 52,
+      "monster_ref": "52",
+      "monster_name": "RAM WARRIOR",
+      "address": "0x8C54",
+      "kind": "setup_monster",
+      "resolution": "constant",
+      "candidate_resolution": null
+    }
+  ],
+  "log": [
+    "entered map: GEO 017 event 4",
+    "probe: GEO 017 event 7",
+    "combat queued GEO 017 event 7: RAM WARRIOR"
+  ]
+}

@@ -1,0 +1,87 @@
+[state-migrations] Legacy state migration warnings:
+- Skipped Memory Core legacy memory index import for agent main because legacy rows could not be imported: Error: legacy memory meta rows conflict with canonical memory index rows
+│
+◇  Doctor warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - Skipped Memory Core legacy memory index import for agent main         │
+│    because legacy rows could not be imported: Error: legacy memory meta  │
+│    rows conflict with canonical memory index rows                        │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+model.run via local
+provider: ollama
+model: qwen3-coder:30b
+outputs: 1
+# Matrix Cubed Reconstruction: Test Matrix Generation
+
+## VERIFIED_FROM_PROMPT
+
+- Java fork `f10f96f` plus local Matrix Cubed changes and COAB commit `9dc46f1`
+- COAB evidence clarifies VM stubs for PARTY_STRENGTH, PARTY_CHECK, PARTY_SKILL_CHECK2/3, SURPRISE, SKILL_CHECK, SPACE_COMBAT, TREASURE*, ROB, encounter movement constants, FIND_ITEM, DESTROY_ITEM, CLOCK1/2, NPC_ADD/FIND/REMOVE, WHO
+- Combat subsystem port map defines COAB combat flow: MainCombatLoop → BattleSetup → Initiative → Turn order → Per-turn → Round end → Attack resolution
+- Test artifacts validate character fields (WHO), combat AI (QuickFightPlanner), party/NPC lifecycle (NpcPartyService), and time service (GameClock)
+
+## CANDIDATES
+
+### Character Fields
+- `PARTY_STRENGTH`: `ovr025.player_strength_group`
+- `PARTY_CHECK`: party/player iteration and status logic
+- `PARTY_SKILL_CHECK2/3`: `Player.SkillLevel`, COAB command dispatch
+- `SKILL_CHECK`: COAB skill access and command framework
+- `WHO`: Python `.WHO`/CHRDATA offset evidence, character mapping
+
+### Combat Integration
+- `SURPRISE`: `ovr003.CMD_PartySurprise` / `CMD_Surprise`
+- `SPACE_COMBAT`: Game-specific encounter subsystem (Matrix-only unresolved)
+- Combat flow: MainCombatLoop → Initiative → Turn order → Per-turn → Round end → Attack resolution
+
+### Party/NPC/Clock
+- `NPC_ADD/FIND/REMOVE`: `ovr003.CMD_AddNPC`, `ovr017.load_npc`
+- `CLOCK1/2`: `ovr003.CMD_EclClock`, `ovr021.NormalizeClock`
+- Encounter movement constants: `ovr008.calc_group_movement`
+
+### Save/Load
+- `TREASURE*`: `ovr003.CMD_Treasure`, `ovr006` distribution, `MoneySet`
+- `ROB`: `ovr008.RobMoney` / `RobItems`
+- `FIND_ITEM`: `ovr003.CMD_FindItem`
+- `DESTROY_ITEM`: `ovr003.CMD_DestroyItems`
+
+## RISKS
+
+- **Unresolved stubs**: `SPACE_COMBAT`, movement rate/THACO formulas
+- **Data alignment**: COAB values must not be promoted as Matrix evidence without independent validation
+- **Combat logic**: Ported combat decisions may require further refinement or replacement with Matrix-specific implementations
+- **Timing effects**: Clock behavior and aging hooks need verification against original game state
+
+## LOCAL_VALIDATION_STEPS
+
+1. **Character fields**:
+   - Confirm `WHO` offsets match Python evidence in `CharacterBuckRogersTest`
+   - Validate `PARTY_STRENGTH` aggregate calculation using `ovr025.player_strength_group`
+   - Verify skill table decoding for `SKILL_CHECK` and `PARTY_SKILL_CHECK2/3`
+
+2. **Combat integration**:
+   - Execute `QuickFightPlannerTest` to validate COAB decision branches
+   - Confirm combat flow from `MainCombatLoop` through all subsystems
+   - Test initiative calculation with surprise flag handling
+
+3. **Party/NPC lifecycle**:
+   - Run `NpcPartyServiceTest` for NPC add/load/assign logic
+   - Validate party limits and morale/control behaviors
+   - Test treasure sharing mechanics in NPC lifecycle
+
+4. **Time service**:
+   - Execute `GameClockTest` to validate time carry behavior
+   - Verify aging hooks fire correctly at radix boundaries
+   - Confirm slot normalization subtracts only one radix per pass
+
+## UNSUPPORTED_CLAIMS
+
+- No evidence that AD&D record offsets, spell tables, item layouts, or formulas apply to Matrix Cubed
+- COAB commit `9dc46f1` has no root license file; all reused code must be recorded with provenance
+- `SPACE_COMBAT` opcode handler remains unresolved and requires recovery from `GAME.OVR`
+- Movement rate/THACO formulas are intentionally left as scaffolding (returning 0)
+- Matrix-specific skill table and opcode result convention remain undecoded for `SKILL_CHECK`
+- Item identity/name in Matrix differs from COAB's ITEM0/MON0ITM layout
+- No cross-game compatibility tests included due to lack of evidence
+- All recovered fields must be verified against original bytes or generated artifacts before promotion

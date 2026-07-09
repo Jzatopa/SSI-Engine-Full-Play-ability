@@ -1,0 +1,9 @@
+{
+  "job": "disassembler_label_boundary",
+  "model": "ollama/qwen3-coder:30b",
+  "started": "2026-07-08T19:47:10",
+  "finished": "2026-07-08T19:48:49",
+  "returncode": 0,
+  "prompt_path": "generated/skill_check_recovery/2026-07-08/qwen/disassembler_label_boundary.prompt.txt",
+  "raw_path": "generated/skill_check_recovery/2026-07-08/qwen/disassembler_label_boundary.raw.txt"
+}

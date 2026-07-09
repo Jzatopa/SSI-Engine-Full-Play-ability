@@ -1,0 +1,470 @@
+vm_run_1           0x8055
+SearchLocation     0x805C
+PreCampCheck       0x8054
+CampInterrupted    0x8054
+ecl_initial_entry  0x8014
+
+0x8014 0x03 COMPARE Values: area1.LastEclBlockId == 84
+
+0x801A 0x16 IF = <if compare flag is false, skip next op>
+0x801B 0x00 EXIT
+0x801C 0x09 SAVE area1.LastEclBlockId = 84
+
+0x8022 0x09 SAVE area2.word_58C = 85
+
+0x8028 0x09 SAVE mapPosX = 8
+
+0x802E 0x09 SAVE mapPosY = 0
+
+0x8034 0x12 PRINTCLEAR '- SECOND FLOOR -'
+
+0x8043 0x33 PRINT RETURN
+0x8044 0x11 PRINT '- LABORATORIES -'
+
+0x8055 0x09 SAVE area1.LastEclBlockId = 84
+
+0x805B 0x00 EXIT
+0x805C 0x03 COMPARE Values: area1.event_word_31E == 1
+
+0x8062 0x16 IF = <if compare flag is false, skip next op>
+0x8063 0x01 GOTO 0x80C5
+
+0x8067 0x2F AND area2.event_scratch1 = 63 & abs_C04F
+
+0x8070 0x25 ON GOTO area2.event_scratch1 of [0x8122, 0x81F0, 0x8272, 0x82F2, 0x84E4, 0x8778, 0x87CC, 0x8811, 0x8905, 0x8921, 0x8C77, 0x8C92, 0x8CAE, 0x8E99, 0x8EC4, 0x8EE9, 0x8F22, 0x8FA0, 0x8FEB, 0x9003, 0x92C3, 0x95DE, 0x964B, 0x9685, 0x982C, 0xA1D0]
+
+0x80C4 0x00 EXIT
+0x80C5 0x2F AND area2.event_scratch1 = 63 & abs_C04F
+
+0x80CE 0x25 ON GOTO area2.event_scratch1 of [0xA1DC, 0x81F0, 0xA1DC, 0xA1DC, 0x84E4, 0x8778, 0x87CC, 0x8811, 0x8905, 0xA1DC, 0x8C77, 0x8C92, 0xA1DC, 0x8E99, 0x8EC4, 0x8EE9, 0x8F22, 0x8FA0, 0x8FEB, 0x9003, 0x92C3, 0x95DE, 0x964B, 0x9685, 0x982C, 0xA1D0]
+
+0x8122 0x03 COMPARE Values: area1.event_word_312 == 1
+
+0x8128 0x17 IF <> <if compare flag is false, skip next op>
+0x8129 0x00 EXIT
+0x812A 0x03 COMPARE Values: area1.event_word_204 == 8
+
+0x8130 0x18 IF < <if compare flag is false, skip next op>
+0x8131 0x01 GOTO 0x813F
+
+0x8135 0x04 ADD area1.event_word_204 = 1 + area1.event_word_204
+
+0x813E 0x00 EXIT
+0x813F 0x08 RANDOM area2.event_scratch0 = random 1..99
+
+0x8145 0x03 COMPARE Values: area2.event_scratch0 == 10
+
+0x814B 0x18 IF < <if compare flag is false, skip next op>
+0x814C 0x00 EXIT
+0x814D 0x03 COMPARE Values: area1.event_word_316 == 3
+
+0x8153 0x18 IF < <if compare flag is false, skip next op>
+0x8154 0x01 GOTO 0x81A0
+
+0x8158 0x04 ADD area1.event_word_316 = 1 + area1.event_word_316
+
+0x8161 0x12 PRINTCLEAR 'ROVING PURGE GUARDS ATTACK!'
+
+0x8179 0x0C SETUP MONSTER sprite_id: 5 max_distance: 0 pic_id: 255
+
+0x8180 0x00 EXIT
+
+0x81A0 0x03 COMPARE Values: area1.event_word_316 == 5
+
+0x81A6 0x18 IF < <if compare flag is false, skip next op>
+0x81A7 0x00 EXIT
+0x81A8 0x04 ADD area1.event_word_316 = 1 + area1.event_word_316
+
+0x81B1 0x12 PRINTCLEAR 'A WANDERING GROUP OF PURGE SCIENTISTS ATTACKS!'
+
+0x81D7 0x0C SETUP MONSTER sprite_id: 12 max_distance: 0 pic_id: 255
+
+0x81DE 0x00 EXIT
+
+0x81F0 0x12 PRINTCLEAR 'AN ELEVATOR GOING DOWN. DO YOU USE IT?'
+
+0x8272 0x03 COMPARE Values: mapDirection == 2
+
+0x8278 0x17 IF <> <if compare flag is false, skip next op>
+0x8279 0x00 EXIT
+0x827A 0x12 PRINTCLEAR 'AN EMPTY COMPUTER LAB. '
+
+0x828F 0x2F AND area2.event_scratch0 = 1 & area1.event_word_310
+
+0x8298 0x17 IF <> <if compare flag is false, skip next op>
+0x8299 0x00 EXIT
+0x829A 0x09 SAVE area2.event_scratch1 = 1
+
+0x82A0 0x09 SAVE area2.event_scratch2 = 2
+
+0x82A6 0x22 PARTY SURPRISE zone: 83, result: area2.event_scratch1
+
+0x82AF 0x03 COMPARE Values: area2.event_scratch2 == 2
+
+0x82B5 0x19 IF > <if compare flag is false, skip next op>
+0x82B6 0x00 EXIT
+0x82B7 0x0A LOAD CHARACTER index: area2.event_scratch1
+
+0x82BC 0x12 PRINTCLEAR '<string at area2.selected_player_name>'
+
+0x82C0 0x11 PRINT ' NOTICES THAT A COMPUTER AT THE SOUTH END OF THE ROOM IS ON.'
+
+0x82F2 0x2F AND area2.event_scratch0 = 1 & area1.event_word_310
+
+0x82FB 0x17 IF <> <if compare flag is false, skip next op>
+0x82FC 0x01 GOTO 0x84D1
+
+0x8300 0x2F AND area2.event_scratch0 = 2 & area1.event_word_310
+
+0x8309 0x17 IF <> <if compare flag is false, skip next op>
+0x830A 0x01 GOTO 0x839D
+
+0x830E 0x12 PRINTCLEAR 'THE TERMINAL OF THIS COMPUTER IS ACTIVE. DO YOU TRY TO OPERATE THE COMPUTER?'
+
+0x839D 0x12 PRINTCLEAR 'THE COMPUTER SCREEN READS:'
+
+0x83B4 0x33 PRINT RETURN
+0x83B5 0x33 PRINT RETURN
+0x83B6 0x11 PRINT '- RUN CURRENT SEQUENCE? -'
+
+0x83CC 0x33 PRINT RETURN
+0x83CD 0x33 PRINT RETURN
+0x83CE 0x33 PRINT RETURN
+0x83CF 0x31 SPRITE OFF
+
+0x83D3 0x00 EXIT
+
+0x84D1 0x12 PRINTCLEAR 'THE COMPUTER IS OFF.'
+
+0x84E3 0x00 EXIT
+0x84E4 0x03 COMPARE Values: mapDirection == 1
+
+0x84EA 0x17 IF <> <if compare flag is false, skip next op>
+0x84EB 0x00 EXIT
+0x84EC 0x12 PRINTCLEAR 'A WEAPONS LABORATORY. '
+
+0x8500 0x2F AND area2.event_scratch0 = 4 & area1.event_word_310
+
+0x8509 0x17 IF <> <if compare flag is false, skip next op>
+0x850A 0x00 EXIT
+0x850B 0x0C SETUP MONSTER sprite_id: 12 max_distance: 2 pic_id: 255
+
+0x8512 0x00 EXIT
+
+0x8778 0x2F AND area2.event_scratch0 = 16 & area1.event_word_310
+
+0x8781 0x17 IF <> <if compare flag is false, skip next op>
+0x8782 0x00 EXIT
+0x8783 0x12 PRINTCLEAR "SEARCHING THE LAB, YOU FIND SKETCHES OF A GUN TITLED, 'RAPID-LOADING BOLT GUN.'"
+
+0x87CC 0x03 COMPARE Values: mapDirection == 2
+
+0x87D2 0x17 IF <> <if compare flag is false, skip next op>
+0x87D3 0x00 EXIT
+0x87D4 0x12 PRINTCLEAR 'A WEAPONS LABORATORY. NO ONE IS HERE. SMALL PARTS LIE ON TABLES EVERYWHERE.'
+
+0x8810 0x00 EXIT
+0x8811 0x2F AND area2.event_scratch0 = 32 & area1.event_word_310
+
+0x881A 0x17 IF <> <if compare flag is false, skip next op>
+0x881B 0x00 EXIT
+0x881C 0x12 PRINTCLEAR 'SEARCHING THE LAB, YOU FIND PARTS OF A DISMANTLED LASER RIFLE.'
+
+0x8905 0x03 COMPARE Values: mapDirection == 2
+
+0x890B 0x17 IF <> <if compare flag is false, skip next op>
+0x890C 0x00 EXIT
+0x890D 0x12 PRINTCLEAR 'AN EMPTY PHYSICS LAB.'
+
+0x8920 0x00 EXIT
+0x8921 0x03 COMPARE Values: mapDirection == 1
+
+0x8927 0x17 IF <> <if compare flag is false, skip next op>
+0x8928 0x00 EXIT
+0x8929 0x12 PRINTCLEAR 'A CHEMISTRY LAB. '
+
+0x8939 0x2F AND area2.event_scratch0 = 64 & area1.event_word_310
+
+0x8942 0x17 IF <> <if compare flag is false, skip next op>
+0x8943 0x00 EXIT
+0x8944 0x11 PRINT 'A PURGE SCIENTIST IS WORKING AT THE FAR END OF THE ROOM.'
+
+0x8971 0x33 PRINT RETURN
+0x8972 0x31 SPRITE OFF
+
+0x8976 0x00 EXIT
+
+0x8C77 0x03 COMPARE Values: mapDirection == 0
+
+0x8C7D 0x17 IF <> <if compare flag is false, skip next op>
+0x8C7E 0x00 EXIT
+0x8C7F 0x12 PRINTCLEAR 'AN EMPTY BOTANY LAB.'
+
+0x8C91 0x00 EXIT
+0x8C92 0x03 COMPARE Values: mapDirection == 0
+
+0x8C98 0x17 IF <> <if compare flag is false, skip next op>
+0x8C99 0x00 EXIT
+0x8C9A 0x12 PRINTCLEAR 'AN EMPTY BIOLOGY LAB.'
+
+0x8CAD 0x00 EXIT
+0x8CAE 0x03 COMPARE Values: mapDirection == 0
+
+0x8CB4 0x17 IF <> <if compare flag is false, skip next op>
+0x8CB5 0x00 EXIT
+0x8CB6 0x12 PRINTCLEAR 'A MEDIA LAB.'
+
+0x8CC2 0x2F AND area2.event_scratch0 = 128 & area1.event_word_310
+
+0x8CCB 0x17 IF <> <if compare flag is false, skip next op>
+0x8CCC 0x00 EXIT
+0x8CCD 0x11 PRINT ' PURGE SCIENTISTS ARE GATHERED AROUND A TABLE. '
+
+0x8CF4 0x31 SPRITE OFF
+
+0x8CF8 0x00 EXIT
+
+0x8E99 0x03 COMPARE Values: mapDirection == 3
+
+0x8E9F 0x17 IF <> <if compare flag is false, skip next op>
+0x8EA0 0x00 EXIT
+0x8EA1 0x12 PRINTCLEAR 'AUDIO AND VIDEO CAPSULES ARE STORED HERE.'
+
+0x8EC3 0x00 EXIT
+0x8EC4 0x03 COMPARE Values: mapDirection == 0
+
+0x8ECA 0x17 IF <> <if compare flag is false, skip next op>
+0x8ECB 0x00 EXIT
+0x8ECC 0x12 PRINTCLEAR 'A RESTING LOUNGE. NO ONE IS HERE.'
+
+0x8EE8 0x00 EXIT
+0x8EE9 0x03 COMPARE Values: mapDirection == 2
+
+0x8EEF 0x17 IF <> <if compare flag is false, skip next op>
+0x8EF0 0x00 EXIT
+0x8EF1 0x12 PRINTCLEAR 'A MEETING ROOM. A LARGE TABLE SURROUNDED BY CHAIRS IS HERE.'
+
+0x8F21 0x00 EXIT
+0x8F22 0x03 COMPARE Values: mapDirection == 2
+
+0x8F28 0x17 IF <> <if compare flag is false, skip next op>
+0x8F29 0x00 EXIT
+0x8F2A 0x12 PRINTCLEAR 'A COMPUTER LAB. '
+
+0x8F39 0x2F AND area2.event_scratch0 = 1 & area1.event_word_31C
+
+0x8F42 0x17 IF <> <if compare flag is false, skip next op>
+0x8F43 0x00 EXIT
+
+0x8F45 0x09 SAVE area2.event_scratch1 = 1
+
+0x8F4B 0x09 SAVE area2.event_scratch2 = 2
+
+0x8F51 0x22 PARTY SURPRISE zone: 83, result: area2.event_scratch1
+
+0x8F5A 0x03 COMPARE Values: area2.event_scratch2 == 2
+
+0x8F60 0x19 IF > <if compare flag is false, skip next op>
+0x8F61 0x00 EXIT
+0x8F62 0x0A LOAD CHARACTER index: area2.event_scratch1
+
+0x8F66 0x12 PRINTCLEAR '<string at area2.selected_player_name>'
+
+0x8F6A 0x11 PRINT ' NOTICES A NOTE PAD SITTING AT THE COMPUTER DESK ACROSS THE ROOM.'
+
+0x8FA0 0x2F AND area2.event_scratch0 = 1 & area1.event_word_31C
+
+0x8FA9 0x17 IF <> <if compare flag is false, skip next op>
+0x8FAA 0x00 EXIT
+0x8FAB 0x12 PRINTCLEAR 'YOU FIND A NOTE PAD SITTING ON THE COMPUTER DESK'
+
+0x8FD2 0x3F FIND SPECIAL raw=(abs_000A)
+
+0x8FDF 0x00 EXIT
+
+0x8FEB 0x03 COMPARE Values: mapDirection == 2
+
+0x8FF1 0x17 IF <> <if compare flag is false, skip next op>
+0x8FF2 0x00 EXIT
+0x8FF3 0x12 PRINTCLEAR 'A BROOM CLOSET.'
+
+0x9002 0x00 EXIT
+0x9003 0x03 COMPARE Values: mapDirection == 3
+
+0x9009 0x17 IF <> <if compare flag is false, skip next op>
+0x900A 0x00 EXIT
+0x900B 0x2F AND area2.event_scratch0 = 2 & area1.event_word_31C
+
+0x9014 0x17 IF <> <if compare flag is false, skip next op>
+0x9015 0x01 GOTO 0x9220
+
+0x9019 0x12 PRINTCLEAR 'AS YOU ENTER THE ROOM, HANIBL SOOTH RISES FROM A CHAIR. HE PULLS A CLUSTER OF ELECTRODES FROM HIS SCALP. A TECHNICIAN ATTENDS HIM.'
+
+0x9220 0x12 PRINTCLEAR 'THE BODY OF THE PURGE COMMANDER, HANIBL SOOTH, LIES HERE'
+
+0x924D 0x2F AND area2.event_scratch0 = 4 & area1.event_word_31C
+
+0x9256 0x17 IF <> <if compare flag is false, skip next op>
+0x9257 0x11 PRINT '.'
+
+0x925B 0x17 IF <> <if compare flag is false, skip next op>
+0x925C 0x00 EXIT
+0x925D 0x11 PRINT ', APPARENTLY, DEAD FROM BATTLE WOUNDS.'
+
+0x92C3 0x03 COMPARE Values: mapDirection == 0
+
+0x92C9 0x17 IF <> <if compare flag is false, skip next op>
+0x92CA 0x00 EXIT
+0x92CB 0x2F AND area2.event_scratch0 = 16 & area1.event_word_31C
+
+0x92D4 0x17 IF <> <if compare flag is false, skip next op>
+0x92D5 0x01 GOTO 0x9584
+
+0x92D9 0x12 PRINTCLEAR "YOU HEAR HANIBL SOOTH'S VOICE TO THE EAST!"
+
+0x9520 0x09 SAVE area2.word_58C = 100
+
+0x9526 0x09 SAVE area2.surprise_result = 1
+
+0x952C 0x0C SETUP MONSTER sprite_id: 255 max_distance: 2 pic_id: 31
+
+0x9533 0x00 EXIT
+
+0x9584 0x2F AND area2.event_scratch0 = 32 & area1.event_word_31C
+
+0x958D 0x16 IF = <if compare flag is false, skip next op>
+0x958E 0x01 GOTO 0x95B4
+
+0x9592 0x2F AND area2.event_scratch0 = 128 & area1.event_word_314
+
+0x959B 0x16 IF = <if compare flag is false, skip next op>
+0x959C 0x01 GOTO 0x9520
+
+0x95A0 0x17 IF <> <if compare flag is false, skip next op>
+0x95A1 0x12 PRINTCLEAR "DR. MALCOLN'S LAB."
+
+0x95B2 0x17 IF <> <if compare flag is false, skip next op>
+0x95B3 0x00 EXIT
+0x95B4 0x0C SETUP MONSTER sprite_id: 12 max_distance: 0 pic_id: 255
+
+0x95BB 0x00 EXIT
+
+0x95DE 0x03 COMPARE Values: area1.event_word_31E == 1
+
+0x95E4 0x16 IF = <if compare flag is false, skip next op>
+0x95E5 0x01 GOTO 0x9631
+
+0x95E9 0x12 PRINTCLEAR 'THE SCREEN OF THIS COMPUTER READS:'
+
+0x9606 0x33 PRINT RETURN
+0x9607 0x33 PRINT RETURN
+0x9608 0x11 PRINT ' -- ACCESS DENIED --'
+
+0x961A 0x33 PRINT RETURN
+0x961B 0x11 PRINT '--SOOTH.DOP OVERRIDE --'
+
+0x9630 0x00 EXIT
+0x9631 0x12 PRINTCLEAR 'THESE COMPUTERS ARE INACTIVE.'
+
+0x964A 0x00 EXIT
+0x964B 0x03 COMPARE Values: mapDirection == 1
+
+0x9651 0x17 IF <> <if compare flag is false, skip next op>
+0x9652 0x00 EXIT
+0x9653 0x12 PRINTCLEAR 'THE SIGN OVER THE DOOR READS:'
+
+0x966C 0x33 PRINT RETURN
+0x966D 0x33 PRINT RETURN
+0x966E 0x11 PRINT '-- MAIN COMPUTER TRUNK --'
+
+0x9684 0x00 EXIT
+0x9685 0x03 COMPARE Values: area1.event_word_31E == 1
+
+0x968B 0x16 IF = <if compare flag is false, skip next op>
+0x968C 0x01 GOTO 0x9631
+
+0x9690 0x2F AND area2.event_scratch0 = 8 & area1.event_word_31C
+
+0x9699 0x17 IF <> <if compare flag is false, skip next op>
+0x969A 0x01 GOTO 0x95DE
+
+0x969E 0x02 GOSUB 0xA1DD
+
+0x96A2 0x12 PRINTCLEAR 'YOU ENTER THE MAIN COMPUTER TRUNK. THE MONITORS HERE FLICKER WITH MAD ACTIVITY.'
+
+0x96E1 0x02 GOSUB 0xA1DD
+
+0x96E6 0x12 PRINTCLEAR "SOOTH.DOP, HANIBL SOOTH'S DIGITAL PERSONALITY, IS TRYING TO SHUT DOWN THE SYSTEM! YOU HEAR HIS VOICE COMING FROM MANY SMALL COMPUTER SPEAKERS."
+
+0x9754 0x02 GOSUB 0xA1DD
+
+0x9759 0x12 PRINTCLEAR "'...DAMN MALCOLN! HIS SECURITY SYSTEM IS TOO STRONG!..MUST LEARN MORE ABOUT IT, AND...ARGHH! CURSE THE ICE!.."
+
+0x97AE 0x02 GOSUB 0xA1DD
+
+0x97B3 0x00 EXIT
+
+0x982C 0x03 COMPARE Values: area1.event_word_31E == 1
+
+0x9832 0x16 IF = <if compare flag is false, skip next op>
+0x9833 0x12 PRINTCLEAR 'THE MAIN COMPUTER IS SHUT DOWN.'
+
+0x984E 0x16 IF = <if compare flag is false, skip next op>
+0x984F 0x00 EXIT
+0x9850 0x12 PRINTCLEAR 'THE TERMINAL HERE IS ACTIVE.'
+
+0x9868 0x2F AND area2.event_scratch0 = 64 & area1.event_word_31C
+
+0x9871 0x17 IF <> <if compare flag is false, skip next op>
+0x9872 0x01 GOTO 0x99E0
+
+0x9876 0x11 PRINT " SOOTH.DOP'S VOICE ISSUES FROM A SPEAKER."
+
+0x99E1 0x12 PRINTCLEAR "DO YOU TRY TO RETRIEVE DR. MALCOLN'S NOTES?"
+
+0xA1D0 0x03 COMPARE Values: mapDirection == 0
+
+0xA1D6 0x17 IF <> <if compare flag is false, skip next op>
+0xA1D7 0x00 EXIT
+0xA1D8 0x01 GOTO 0x9220
+
+0xA1DC 0x00 EXIT
+0xA1DD 0x09 SAVE area1.event_word_312 = 1
+
+0xA1E4 0x00 EXIT
+
+Text fallthrough boundaries skipped:
+- 0x8053: 0x29 after PRINT
+- 0x8210: 0x2C after PRINTCLEAR
+- 0x82F0: 0x29 after PRINT
+- 0x834A: 0x2C after PRINTCLEAR
+- 0x87C2: 0x29 after PRINTCLEAR
+- 0x884E: 0x29 after PRINTCLEAR
+- 0x8F9E: 0x29 after PRINT
+- 0x907E: 0x29 after PRINTCLEAR
+- 0x92FC: 0x29 after PRINTCLEAR
+- 0x9898: 0x29 after PRINT
+- 0x927D: 0x29 after PRINT
+- 0x9A05: 0x2C after PRINTCLEAR
+
+Prefixed branch targets normalized:
+- 0x99E0 -> 0x99E1 from GOTO
+
+Prefixed fallthroughs normalized:
+- 0x82AC -> 0x82AF
+- 0x82BB -> 0x82BC
+- 0x8973 -> 0x8976
+- 0x8CF5 -> 0x8CF8
+- 0x8F44 -> 0x8F45
+- 0x8F57 -> 0x8F5A
+- 0x96E5 -> 0x96E6
+- 0x9758 -> 0x9759
+- 0x83D0 -> 0x83D3
+
+Unknown-prefixed branch targets normalized:
+- 0x8054 -> 0x8055 from PreCampCheck
+- 0x8054 -> 0x8055 from CampInterrupted
+
+Unknown-prefixed fallthroughs normalized:
+- 0x97B2 -> 0x97B3
+- 0xA1E3 -> 0xA1E4

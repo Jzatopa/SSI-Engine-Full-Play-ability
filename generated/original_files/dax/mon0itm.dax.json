@@ -1,0 +1,2266 @@
+{
+  "valid": true,
+  "file": "MON0ITM.DAX",
+  "bytes": 8636,
+  "sha256": "ffa78372cf0a838aaeb3bc0a6b57263c0063931697fb0bba34be7f24976597a2",
+  "toc_len": 378,
+  "data_offset": 380,
+  "block_count": 42,
+  "semantic_status": "structural decode only: semantic format not yet named",
+  "warnings": [],
+  "blocks": [
+    {
+      "id": 1,
+      "toc_entry_offset": 2,
+      "packed_relative_offset": 0,
+      "packed_absolute_offset": 380,
+      "raw_size": 372,
+      "packed_size": 375,
+      "decoded_size": 372,
+      "decoded_sha256": "cefa166fb94b7a5fbdef9055242146a7dc7a55c8033f9c0008df233018431e9f",
+      "packed_sha256": "c3d19e53aaf419e1a727ffac01f424c1cc7c7ec26682f0a2a1f8035071c75b75",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0081,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        6,
+        12,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "50 9a b4 02 6e 4e 83 c4 02 0b c0 75 03 e9 09 ff 83 7e fe 00 74 63 8b 76 f6 c4 5e 06 26 8a 40 01 98 40 89 46 f0 b8 03 00 50 00 00 00 7f 38 06 07 06 15 03 00 20 00 03 00 14 48 03 00 00 00 4e 83",
+      "tail_hex": "04 a2 5d 56 8b 76 0a c4 5e 06 26 00 00 00 00 00 19 00 00 23 00 00 00 00 01 00 02 64 00 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 81,
+        "8b": 16,
+        "46": 14,
+        "03": 11,
+        "06": 11,
+        "c4": 10,
+        "02": 8,
+        "83": 8,
+        "50": 7,
+        "fa": 7,
+        "0b": 6,
+        "fe": 6,
+        "5e": 6,
+        "26": 6,
+        "b8": 6,
+        "07": 6
+      },
+      "warnings": []
+    },
+    {
+      "id": 2,
+      "toc_entry_offset": 11,
+      "packed_relative_offset": 375,
+      "packed_absolute_offset": 755,
+      "raw_size": 124,
+      "packed_size": 124,
+      "decoded_size": 124,
+      "decoded_sha256": "4cc48c531fc219a36059f63447ef2b8fa7720d1fda3d95f1b2cd5f8731336a8e",
+      "packed_sha256": "ed6e0e10f65c30dac652e63c62e55f13e528aa9535929d4645024d4e20e94475",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0,
+      "record_size_divisors": [
+        2,
+        4,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "7f 02 00 7d 05 2b c0 5d cb 90 ff 76 10 ff 76 0e c4 5e 12 26 ff 77 02 26 ff 37 ff 76 08 ff 76 06 0e e8 06 00 83 c4 0c 5d cb 00 00 00 a9 38 11 00 00 12 00 00 e0 00 4b 00 0a 40 06 00 0a 80 26 ff",
+      "tail_hex": "6c 07 9a 92 22 10 4c 83 c4 08 3d 00 00 00 00 00 06 07 06 15 03 00 20 00 03 00 10 48 03 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 25,
+        "ff": 10,
+        "06": 8,
+        "76": 6,
+        "10": 4,
+        "c4": 4,
+        "26": 4,
+        "03": 4,
+        "08": 3,
+        "83": 3,
+        "07": 3,
+        "02": 2,
+        "5d": 2,
+        "cb": 2,
+        "0e": 2,
+        "12": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 3,
+      "toc_entry_offset": 20,
+      "packed_relative_offset": 499,
+      "packed_absolute_offset": 879,
+      "raw_size": 124,
+      "packed_size": 118,
+      "decoded_size": 124,
+      "decoded_sha256": "f66fd8c92d53421c95e9525273daf6f566d852829efc641292c220e66462f58e",
+      "packed_sha256": "3cda38403ac06fddcd4041e01ea6341bd978d6277109fe6bfe10989eb3bb1422",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.9516,
+      "record_size_divisors": [
+        2,
+        4,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "ea 75 15 8b 46 ea 01 46 fe c7 46 f0 20 00 8b 46 fe 39 46 f0 74 24 7e 08 2b c0 5e 8b e5 5d cb 90 8b 76 f0 c4 5e 06 26 8a 40 00 00 00 c3 38 06 07 06 16 04 00 e0 00 00 00 14 00 00 00 00 00 55 8b",
+      "tail_hex": "c4 06 8d 46 d2 16 50 b8 20 00 50 00 00 00 00 00 09 0a 09 16 04 00 60 00 00 00 64 00 00 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 29,
+        "46": 6,
+        "8b": 5,
+        "06": 5,
+        "f0": 3,
+        "5e": 3,
+        "c4": 3,
+        "26": 3,
+        "16": 3,
+        "04": 3,
+        "ff": 3,
+        "ea": 2,
+        "fe": 2,
+        "20": 2,
+        "08": 2,
+        "5d": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "toc_entry_offset": 29,
+      "packed_relative_offset": 617,
+      "packed_absolute_offset": 997,
+      "raw_size": 62,
+      "packed_size": 63,
+      "decoded_size": 62,
+      "decoded_sha256": "6d9394adc2bad8c367f2f504d88f9f36ee8dac780e349acd324f36d303d4478f",
+      "packed_sha256": "b10e66806ee1e51d89499dad1084fff7e59d27e357a582cab0f11e9e407c0fd4",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0161,
+      "record_size_divisors": [
+        2,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "fa 01 74 0c 50 0e e8 6d 01 83 c4 02 0b c0 74 99 ff 76 f8 ff 76 08 ff 76 06 0e e8 c9 01 83 c4 06 0b c0 74 85 8b 46 f6 89 46 00 00 00 00 00 11 00 00 12 03 00 e0 00 00 00 06 00 00 00 0a 80",
+      "tail_hex": "c4 06 0b c0 74 85 8b 46 f6 89 46 00 00 00 00 00 11 00 00 12 03 00 e0 00 00 00 06 00 00 00 0a 80",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 14,
+        "01": 3,
+        "74": 3,
+        "ff": 3,
+        "76": 3,
+        "06": 3,
+        "0e": 2,
+        "e8": 2,
+        "83": 2,
+        "c4": 2,
+        "0b": 2,
+        "c0": 2,
+        "46": 2,
+        "fa": 1,
+        "0c": 1,
+        "50": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "toc_entry_offset": 38,
+      "packed_relative_offset": 680,
+      "packed_absolute_offset": 1060,
+      "raw_size": 434,
+      "packed_size": 167,
+      "decoded_size": 434,
+      "decoded_sha256": "024c3f23fe0ebdbe2c3516a0d3816873406d8cc60c3bf11ba242e5ddaa6cb139",
+      "packed_sha256": "8dad9cbaa488958041203b72398bacd6ffd8f2e3825b5d8f5108b7225ae0b8c6",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3848,
+      "record_size_divisors": [
+        2,
+        7,
+        14,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0f 37 1a 00 00 24 00 00 a0 00 01 00 00 32 00 00 00 00 00 00",
+      "tail_hex": "70 6c 65 73 73 00 00 00 00 00 00 00 00 00 00 00 16 00 1a 19 00 00 a0 00 23 00 00 a4 06 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 151,
+          "length": 10,
+          "text": "Unaffected"
+        },
+        {
+          "offset": 399,
+          "length": 8,
+          "text": "Helpless"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 150,
+          "length": 10,
+          "text": "Unaffected"
+        },
+        {
+          "offset": 398,
+          "length": 8,
+          "text": "Helpless"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 353,
+        "37": 6,
+        "01": 6,
+        "a0": 4,
+        "65": 4,
+        "32": 3,
+        "02": 3,
+        "08": 3,
+        "1a": 2,
+        "1b": 2,
+        "25": 2,
+        "0a": 2,
+        "66": 2,
+        "0d": 2,
+        "10": 2,
+        "21": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 6,
+      "toc_entry_offset": 47,
+      "packed_relative_offset": 847,
+      "packed_absolute_offset": 1227,
+      "raw_size": 372,
+      "packed_size": 219,
+      "decoded_size": 372,
+      "decoded_sha256": "fb1d1631b69ee9cbb1ec4d02e87eaacfd7833e7d80b5233da02689137ceb5974",
+      "packed_sha256": "550c3406a7d3a0b276e8b2134da9e8de7d86dcfeba9502d8c1442c87c6b742a3",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.5887,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        6,
+        12,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "00 00 00 00 00 00 05 44 69 7a 7a 79 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 70 37 06 07 06 13 01 00 a0 00 03 00 14 a4 01 00 00 00 00 00",
+      "tail_hex": "63 68 20 10 77 69 6c 6c 20 79 6f 00 00 00 00 00 15 00 00 18 00 00 a0 00 1e 00 00 b0 04 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 7,
+          "length": 5,
+          "text": "Dizzy"
+        },
+        {
+          "offset": 186,
+          "length": 41,
+          "text": "HHHHHHHHKHHHHHHHHHMKKHHHHHHHMMKKKHHHHHMMM"
+        },
+        {
+          "offset": 248,
+          "length": 41,
+          "text": "KKKPPPMMMMKKKPPPPPMMMKKPPPPPPPMMKPPPPPPPP"
+        },
+        {
+          "offset": 313,
+          "length": 30,
+          "text": "Select type of coin \tHow much "
+        },
+        {
+          "offset": 344,
+          "length": 7,
+          "text": "will yo"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 6,
+          "length": 5,
+          "text": "Dizzy"
+        },
+        {
+          "offset": 312,
+          "length": 20,
+          "text": "Select type of coin "
+        },
+        {
+          "offset": 333,
+          "length": 9,
+          "text": "How much "
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 186,
+        "48": 30,
+        "50": 23,
+        "4b": 15,
+        "4d": 15,
+        "20": 9,
+        "01": 6,
+        "37": 5,
+        "6f": 5,
+        "06": 4,
+        "69": 3,
+        "79": 3,
+        "74": 3,
+        "10": 3,
+        "80": 3,
+        "02": 3
+      },
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "toc_entry_offset": 56,
+      "packed_relative_offset": 1066,
+      "packed_absolute_offset": 1446,
+      "raw_size": 186,
+      "packed_size": 187,
+      "decoded_size": 186,
+      "decoded_sha256": "0eb210f4cabddc3911e7e1b97e18ec36969572524eb92132acc7ea0b9315f53a",
+      "packed_sha256": "f71f5c448252d147d9ca121616f97b1f7b61f9e95d850606da47f53b605c8a79",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0054,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "01 ff 83 7e fc 00 74 54 83 7e ec 00 75 0c 83 7e f6 00 75 06 83 7e fe 00 74 14 b8 2b 28 1e 50 9a 3c 07 6e 4e 83 c4 04 0b c0 00 00 00 50 39 06 00 07 06 00 00 a0 00 03 00 32 d2 00 00 00 00 06 0b",
+      "tail_hex": "3c 07 6e 4e 83 c4 04 8d 46 de 16 00 00 00 00 00 02 00 01 02 00 00 20 00 01 00 00 c8 00 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 43,
+        "83": 8,
+        "06": 6,
+        "75": 5,
+        "28": 5,
+        "1e": 5,
+        "50": 5,
+        "07": 5,
+        "c4": 5,
+        "04": 5,
+        "7e": 4,
+        "b8": 4,
+        "9a": 4,
+        "3c": 4,
+        "6e": 4,
+        "4e": 4
+      },
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "toc_entry_offset": 65,
+      "packed_relative_offset": 1253,
+      "packed_absolute_offset": 1633,
+      "raw_size": 186,
+      "packed_size": 165,
+      "decoded_size": 186,
+      "decoded_sha256": "dfcb2e40a50cceefd25e86c0f3f014fb4bc9aeb334183ba53e3bbd4bdf4df31b",
+      "packed_sha256": "1b2539063ddfd01e9e3ffd0c15b2a106a4e4ecfa68f361a55ea19c82e68b11b9",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.8871,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "26 3d 6b 2e ff 0e 3b 6b e8 04 07 2e 8f 06 3d 6b 5f 5e 5a 59 5b 07 1f 8b e5 5d 2e ff 26 3d 6b 00 00 00 00 00 00 00 00 00 00 00 00 00 74 38 06 00 07 06 02 00 e0 00 00 00 14 00 00 00 00 00 1e 57",
+      "tail_hex": "32 73 03 e9 83 00 3c 3a 74 26 3c 00 00 00 00 00 04 00 10 20 00 00 40 00 00 00 01 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 4,
+          "text": "&=k."
+        },
+        {
+          "offset": 14,
+          "length": 7,
+          "text": "=k_^ZY["
+        },
+        {
+          "offset": 127,
+          "length": 6,
+          "text": "VWSQR2"
+        },
+        {
+          "offset": 151,
+          "length": 5,
+          "text": "xc-2s"
+        },
+        {
+          "offset": 160,
+          "length": 5,
+          "text": "<:t&<"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 13,
+          "length": 6,
+          "text": "=k_^ZY"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 58,
+        "2e": 6,
+        "ff": 6,
+        "64": 5,
+        "6b": 4,
+        "07": 4,
+        "06": 4,
+        "5b": 4,
+        "26": 3,
+        "3d": 3,
+        "1f": 3,
+        "74": 3,
+        "10": 3,
+        "0e": 2,
+        "04": 2,
+        "59": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 12,
+      "toc_entry_offset": 74,
+      "packed_relative_offset": 1418,
+      "packed_absolute_offset": 1798,
+      "raw_size": 186,
+      "packed_size": 185,
+      "decoded_size": 186,
+      "decoded_sha256": "41d95a8d0be0708bc76a1a02c25a2611dfab360b7aa01a534dc4ca0223423744",
+      "packed_sha256": "d07de60b0558d3dd0d800f6f76ad7393b7ce2e54d24865327d53ad40523258c8",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.9946,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "03 e9 d0 00 3d 44 00 74 23 3d 48 00 75 03 e9 9d 00 3d 4b 00 75 03 e9 95 00 3d 4d 00 75 03 e9 9f 00 3d 50 00 75 03 e9 97 00 00 00 00 ad 39 16 1a 19 15 03 00 a0 00 23 00 00 90 1a 00 00 00 36 24",
+      "tail_hex": "e4 ff 4e e2 83 7e ee 00 74 5c ff 00 00 00 00 00 08 04 02 15 03 00 20 00 01 00 00 a0 0f 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 7,
+          "length": 4,
+          "text": "t#=H"
+        },
+        {
+          "offset": 81,
+          "length": 4,
+          "text": "H-nN"
+        },
+        {
+          "offset": 124,
+          "length": 4,
+          "text": "H-nN"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 48,
+        "03": 10,
+        "e9": 6,
+        "3d": 6,
+        "46": 6,
+        "83": 5,
+        "ff": 5,
+        "75": 4,
+        "50": 4,
+        "01": 4,
+        "48": 3,
+        "8b": 3,
+        "4e": 3,
+        "c4": 3,
+        "08": 3,
+        "e4": 3
+      },
+      "warnings": []
+    },
+    {
+      "id": 13,
+      "toc_entry_offset": 83,
+      "packed_relative_offset": 1603,
+      "packed_absolute_offset": 1983,
+      "raw_size": 248,
+      "packed_size": 252,
+      "decoded_size": 248,
+      "decoded_sha256": "e61adf1bd899485d4c6ed49187c999b11f23988f89c49420150efb7c5b1fd6e0",
+      "packed_sha256": "779d1b16b8fc650e4fb721ca0896b8367ee2c2025644b6a8a6c695ff04058b6f",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0161,
+      "record_size_divisors": [
+        2,
+        4,
+        8,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "c4 08 83 7e f8 00 75 03 e9 0b fe ff 76 f6 ff 76 f4 9a 70 38 6e 4e 83 c4 04 ff 76 e6 ff 76 fa 9a 82 06 6e 4e 83 c4 04 83 7e 00 00 00 ca 39 16 00 1a 19 00 00 a0 00 23 00 00 a4 06 00 00 00 8b e5",
+      "tail_hex": "83 6e 08 03 83 7e fe 00 74 09 8b 00 00 00 00 00 08 04 02 14 02 00 a0 00 01 00 00 b8 0b 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 18,
+          "length": 4,
+          "text": "p8nN"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 62,
+        "46": 8,
+        "83": 7,
+        "c7": 7,
+        "8b": 6,
+        "08": 5,
+        "04": 5,
+        "06": 5,
+        "01": 5,
+        "c4": 4,
+        "7e": 4,
+        "0b": 4,
+        "ff": 4,
+        "76": 4,
+        "9a": 4,
+        "6e": 4
+      },
+      "warnings": []
+    },
+    {
+      "id": 14,
+      "toc_entry_offset": 92,
+      "packed_relative_offset": 1855,
+      "packed_absolute_offset": 2235,
+      "raw_size": 248,
+      "packed_size": 250,
+      "decoded_size": 248,
+      "decoded_sha256": "7e26afdd040ea2b1988357ff8ffbaab8820fee86aa2f1efc02bc871b789a52d6",
+      "packed_sha256": "40bca0bf3f0038e2d993b3d6a13ff79e8d0ecb80d199f765022919c3c9312f2e",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0081,
+      "record_size_divisors": [
+        2,
+        4,
+        8,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "3c 20 74 39 3c 3b 74 35 3c 2e 74 49 3c 2a 75 03 e9 82 00 3c 3f 74 7e 8a c8 eb c6 e9 9a 00 84 ff 75 f9 83 ff 01 74 f4 83 ff 00 00 00 5a 38 16 1a 19 16 04 00 a0 00 23 00 00 34 21 00 00 00 0f 83",
+      "tail_hex": "84 c0 74 e0 eb d9 b8 ce 00 84 d2 00 00 00 00 00 06 07 06 16 04 00 a0 00 03 00 14 1a 04 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 15,
+          "text": "< t9<;t5<.tI<*u"
+        },
+        {
+          "offset": 19,
+          "length": 4,
+          "text": "<?t~"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 50,
+        "ff": 16,
+        "74": 11,
+        "eb": 11,
+        "83": 9,
+        "3c": 8,
+        "03": 8,
+        "01": 7,
+        "84": 6,
+        "75": 5,
+        "04": 5,
+        "e9": 4,
+        "02": 4,
+        "06": 4,
+        "08": 4,
+        "38": 3
+      },
+      "warnings": []
+    },
+    {
+      "id": 15,
+      "toc_entry_offset": 101,
+      "packed_relative_offset": 2105,
+      "packed_absolute_offset": 2485,
+      "raw_size": 248,
+      "packed_size": 224,
+      "decoded_size": 248,
+      "decoded_sha256": "99f8356f8b431897727ef410f0550fbf613f327f1b4ed9232a90cecd4db47c58",
+      "packed_sha256": "c67ac2d956f17f063770f963fcee9cf75c2f2f4c52dbb3c1824a09c00dba153f",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.9032,
+      "record_size_divisors": [
+        2,
+        4,
+        8,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 b8 0c 00 e8 15 fd c7 46 fc 00 00 f7 00 00 00 7a 38 16 1a 19 16 04 00 a0 00 23 00 00 34 21 00 00 00 8b 46",
+      "tail_hex": "cd 21 3a c6 b8 57 00 74 ba 8a d6 00 00 00 00 00 06 07 06 16 04 00 a0 00 03 00 00 1a 04 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 85,
+        "b8": 6,
+        "21": 6,
+        "01": 6,
+        "04": 5,
+        "0c": 4,
+        "46": 4,
+        "74": 4,
+        "b4": 4,
+        "cd": 4,
+        "e9": 4,
+        "e8": 3,
+        "fc": 3,
+        "f7": 3,
+        "38": 3,
+        "16": 3
+      },
+      "warnings": []
+    },
+    {
+      "id": 16,
+      "toc_entry_offset": 110,
+      "packed_relative_offset": 2329,
+      "packed_absolute_offset": 2709,
+      "raw_size": 248,
+      "packed_size": 225,
+      "decoded_size": 248,
+      "decoded_sha256": "2836bba3f7e6c596204fdf21a8aac820219b2e881b2d7338a89cc7679858f166",
+      "packed_sha256": "9ad0668f1bd48dc2ad5c933aa1e37b81480b7b8f7ec9e91856789aebf099df5b",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.9073,
+      "record_size_divisors": [
+        2,
+        4,
+        8,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "00 20 46 69 6c 65 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 54 20 00 20 c4 c4 c4 c4 c4 c4 c4 c4 00 00 00 23 37 16 1a 19 16 04 00 a0 00 23 00 00 34 21 00 00 00 58 54",
+      "tail_hex": "00 23 49 17 09 17 00 17 4a 24 0a 00 00 00 00 00 20 10 1d 2c 00 00 00 00 01 00 01 32 00 00 06 80",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 30,
+          "text": " File                       T "
+        },
+        {
+          "offset": 62,
+          "length": 6,
+          "text": "XTree "
+        },
+        {
+          "offset": 69,
+          "length": 6,
+          "text": " File "
+        },
+        {
+          "offset": 76,
+          "length": 11,
+          "text": " Directory "
+        },
+        {
+          "offset": 88,
+          "length": 8,
+          "text": " Volume "
+        },
+        {
+          "offset": 97,
+          "length": 5,
+          "text": " Tag "
+        },
+        {
+          "offset": 134,
+          "length": 24,
+          "text": "S00R.S1O2P3Q4K6M7G8H9I 9"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 133,
+          "length": 22,
+          "text": "S00R.S1O2P3Q4K6M7G8H9I"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 60,
+        "20": 41,
+        "c4": 8,
+        "65": 6,
+        "23": 6,
+        "0a": 5,
+        "37": 4,
+        "16": 4,
+        "21": 4,
+        "17": 4,
+        "46": 3,
+        "69": 3,
+        "6c": 3,
+        "54": 3,
+        "04": 3,
+        "72": 3
+      },
+      "warnings": []
+    },
+    {
+      "id": 17,
+      "toc_entry_offset": 119,
+      "packed_relative_offset": 2554,
+      "packed_absolute_offset": 2934,
+      "raw_size": 124,
+      "packed_size": 125,
+      "decoded_size": 124,
+      "decoded_sha256": "af12cadc096e3ea9c980d8b9837be266e9d918a8c3d2c29197fbbff15d82b9f4",
+      "packed_sha256": "9dab763737a47922586ce61b23272aaf5437d11c48d79d5228703e6fb1ffab75",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0081,
+      "record_size_divisors": [
+        2,
+        4,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "b8 0e 00 50 b8 17 00 50 9a 30 08 6e 4e 83 c4 06 8e 06 24 56 26 8a 26 24 07 b0 11 50 b8 4b 00 50 b8 17 00 e9 c2 fe 83 be 38 00 00 00 2c 3a 06 07 06 16 04 00 60 00 00 00 14 00 00 00 00 00 be 01",
+      "tail_hex": "38 fb 00 00 83 be 38 fb 00 74 09 00 00 00 00 00 11 00 00 12 00 00 e0 00 00 00 0a 00 00 00 0a 80",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 35,
+        "38": 5,
+        "b8": 4,
+        "50": 4,
+        "06": 4,
+        "fb": 4,
+        "83": 3,
+        "be": 3,
+        "86": 3,
+        "e0": 3,
+        "17": 2,
+        "24": 2,
+        "26": 2,
+        "07": 2,
+        "11": 2,
+        "e9": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 19,
+      "toc_entry_offset": 128,
+      "packed_relative_offset": 2679,
+      "packed_absolute_offset": 3059,
+      "raw_size": 248,
+      "packed_size": 252,
+      "decoded_size": 248,
+      "decoded_sha256": "123f0002956b05546308e5710ab7605a8ddec3c303505265ae3e1a4bd05a9697",
+      "packed_sha256": "b0f975bea7da277ca53f4be869929e2717dc58d4a9b1be43b6b910a3dff7f6cb",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0161,
+      "record_size_divisors": [
+        2,
+        4,
+        8,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "8b 86 30 fb 03 86 38 fb 50 8b 86 48 fb 03 86 3a fb 50 9a 30 08 6e 4e 83 c4 06 c7 86 44 fb 01 00 83 be 38 fb 3c 74 03 e9 88 00 00 00 4a 3a 17 00 1b 15 03 03 a0 00 4b 00 00 10 27 00 00 00 fb 7c",
+      "tail_hex": "b4 07 83 c4 08 eb 2b 90 8e 06 24 00 00 00 00 00 25 00 10 21 00 00 00 00 01 00 03 32 00 00 08 80",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 48,
+        "fb": 19,
+        "86": 14,
+        "03": 13,
+        "8b": 7,
+        "3a": 6,
+        "ff": 6,
+        "38": 5,
+        "08": 5,
+        "83": 4,
+        "01": 4,
+        "50": 3,
+        "c4": 3,
+        "06": 3,
+        "e9": 3,
+        "88": 3
+      },
+      "warnings": []
+    },
+    {
+      "id": 20,
+      "toc_entry_offset": 137,
+      "packed_relative_offset": 2931,
+      "packed_absolute_offset": 3311,
+      "raw_size": 248,
+      "packed_size": 250,
+      "decoded_size": 248,
+      "decoded_sha256": "0bf3075fa28a46eaf1622254f0fdebe05fc5706778a00819332c78f65c739395",
+      "packed_sha256": "114476e718b0d4eb2e664fa1ee7230101678f69d59f56d9f4c7de2ee1a54fd8f",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0081,
+      "record_size_divisors": [
+        2,
+        4,
+        8,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "50 8b 86 2a fb 40 50 ff b6 3e fb 9a 48 2d 6e 4e 83 c4 08 8b 46 fc 89 86 2e fb 8b c8 d1 e0 03 c1 05 0e 00 89 86 2a fb 8b 86 00 00 00 6a 3a 18 1c 1b 15 03 03 a0 00 50 00 00 e0 2e 00 00 00 8b 86",
+      "tail_hex": "5e 8b e5 5d cb 90 83 be 44 fb 00 00 00 00 00 00 21 00 10 1d 00 00 00 00 01 00 03 32 00 00 06 80",
+      "ascii_candidates": [
+        {
+          "offset": 12,
+          "length": 4,
+          "text": "H-nN"
+        },
+        {
+          "offset": 73,
+          "length": 4,
+          "text": "H-nN"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 45,
+        "fb": 9,
+        "83": 9,
+        "03": 9,
+        "ff": 8,
+        "06": 7,
+        "50": 6,
+        "8b": 6,
+        "c4": 6,
+        "0e": 6,
+        "76": 6,
+        "86": 5,
+        "08": 5,
+        "04": 5,
+        "9a": 4,
+        "3a": 4
+      },
+      "warnings": []
+    },
+    {
+      "id": 21,
+      "toc_entry_offset": 146,
+      "packed_relative_offset": 3181,
+      "packed_absolute_offset": 3561,
+      "raw_size": 124,
+      "packed_size": 124,
+      "decoded_size": 124,
+      "decoded_sha256": "c1719e5efce60cbc421b8c68d6c6398275091849a86b037901c3d16ea99da878",
+      "packed_sha256": "6587f8ccac8bcbefaab3b6c0ca8814f01e5b53d6f81e22eaea062ac762672d7c",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0,
+      "record_size_divisors": [
+        2,
+        4,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "01 00 50 b8 4f 00 50 ff 76 fe 2b c0 50 ff 76 fe 9a 02 02 6e 4e 83 c4 0c b8 0a 00 50 9a b4 02 6e 4e 83 c4 02 5e 8b e5 5d cb 00 00 00 a9 3a 11 00 00 12 00 00 60 00 00 00 02 00 00 00 0a 80 e9 85",
+      "tail_hex": "83 7e f8 3c 7c e5 8b 46 0a 39 46 00 00 00 00 00 0d 0d 09 15 03 00 60 00 00 00 32 00 00 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 35,
+        "02": 5,
+        "50": 4,
+        "46": 4,
+        "f8": 4,
+        "b8": 3,
+        "ff": 3,
+        "76": 3,
+        "6e": 3,
+        "83": 3,
+        "c4": 3,
+        "0a": 3,
+        "8b": 3,
+        "fe": 2,
+        "9a": 2,
+        "4e": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 23,
+      "toc_entry_offset": 155,
+      "packed_relative_offset": 3305,
+      "packed_absolute_offset": 3685,
+      "raw_size": 186,
+      "packed_size": 187,
+      "decoded_size": 186,
+      "decoded_sha256": "c4340edfb5f37515b5d7f2c2f75a2e21f9e705d4f567097a14b27d6fa933f1b8",
+      "packed_sha256": "5dd124b35774f4ed677a6b803bd684a53598c30a8649a5b1ad36adc81ba99744",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0054,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "06 26 c6 40 02 00 ff 46 fa 8b 76 fc c4 5e 06 8a 46 fa 26 88 40 01 8b 46 fa 05 02 00 01 46 fc ff 46 fe 8e 06 18 56 26 c4 1e 00 00 00 bf 3a 15 00 18 14 00 02 a0 00 1e 00 00 10 0e 00 00 00 5e 8b",
+      "tail_hex": "9a f2 04 a2 5d 56 c7 46 fe 3c 00 00 00 00 00 00 09 0a 09 14 02 00 a0 00 01 00 64 e8 03 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 43,
+        "46": 10,
+        "02": 9,
+        "8b": 7,
+        "fc": 6,
+        "ff": 5,
+        "01": 5,
+        "06": 4,
+        "26": 4,
+        "76": 4,
+        "fe": 4,
+        "5d": 4,
+        "c7": 4,
+        "fa": 3,
+        "14": 3,
+        "04": 3
+      },
+      "warnings": []
+    },
+    {
+      "id": 29,
+      "toc_entry_offset": 164,
+      "packed_relative_offset": 3492,
+      "packed_absolute_offset": 3872,
+      "raw_size": 186,
+      "packed_size": 70,
+      "decoded_size": 186,
+      "decoded_sha256": "430624cc39a235d2047187a807c6a8b411ae57665e0380172bc3a5f26c6df9ed",
+      "packed_sha256": "7c405c43b48284707c84bdaf37036d917867ec74af164ee6140dd0444311f79a",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3763,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 37 0d 0d 09 15 03 00 a0 00 05 00 64 ec 09 00 00 00 00 00",
+      "tail_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 08 04 02 15 03 00 20 00 01 00 00 a0 0f 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 89,
+          "length": 8,
+          "text": "Affected"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 88,
+          "length": 8,
+          "text": "Affected"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 146,
+        "03": 3,
+        "37": 2,
+        "0d": 2,
+        "09": 2,
+        "15": 2,
+        "a0": 2,
+        "64": 2,
+        "08": 2,
+        "66": 2,
+        "65": 2,
+        "20": 2,
+        "02": 2,
+        "05": 1,
+        "ec": 1,
+        "41": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 30,
+      "toc_entry_offset": 173,
+      "packed_relative_offset": 3562,
+      "packed_absolute_offset": 3942,
+      "raw_size": 62,
+      "packed_size": 16,
+      "decoded_size": 62,
+      "decoded_sha256": "15c1ad00b7cf5ebfce60acb6d24c7062a8dbd4914d38582dbed8edb5fef1d38c",
+      "packed_sha256": "916cc9560ae7f6bfdd4f5502fb735e350650686d670f290fd50356533e769a92",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.2581,
+      "record_size_divisors": [
+        2,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 01 02 2c 02 00 e0 00 00 00 00 05 00 00 00 00",
+      "tail_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 01 02 2c 02 00 e0 00 00 00 00 05 00 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 55,
+        "02": 3,
+        "01": 1,
+        "2c": 1,
+        "e0": 1,
+        "05": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 31,
+      "toc_entry_offset": 182,
+      "packed_relative_offset": 3578,
+      "packed_absolute_offset": 3958,
+      "raw_size": 186,
+      "packed_size": 191,
+      "decoded_size": 186,
+      "decoded_sha256": "5f72c57a53d446f15560fec9abf1570a44e713363ef308af6752ffeb0848a1c2",
+      "packed_sha256": "a4ad10a2ed8bd35e5dd3a3305aa6d77f82f31d8b9d05048062e5d5e19f14e450",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0269,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "c4 1e 14 08 8b 46 fe 26 89 40 0c 26 c7 40 0e 00 00 83 7e fe 00 75 22 c7 46 d6 00 00 eb 1b b8 14 00 f7 6e d4 8b f0 8e 06 28 00 00 00 f3 3a 21 10 0e 1d 0a 00 80 00 01 00 0f 96 00 00 0b 80 f0 8e",
+      "tail_hex": "75 1f 8d 46 d8 16 50 b8 01 00 50 00 00 00 00 00 07 00 07 08 00 00 20 00 02 00 00 d2 00 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 42,
+        "46": 7,
+        "08": 6,
+        "26": 6,
+        "14": 5,
+        "8b": 5,
+        "40": 5,
+        "b8": 5,
+        "c4": 4,
+        "89": 4,
+        "0e": 4,
+        "01": 4,
+        "50": 4,
+        "1e": 3,
+        "c7": 3,
+        "f7": 3
+      },
+      "warnings": []
+    },
+    {
+      "id": 33,
+      "toc_entry_offset": 191,
+      "packed_relative_offset": 3769,
+      "packed_absolute_offset": 4149,
+      "raw_size": 310,
+      "packed_size": 315,
+      "decoded_size": 310,
+      "decoded_sha256": "bd15d48c3995bcd69e728e4fb2c42e0bdd5014d43d7d9e0af96dd9a3adf8c05c",
+      "packed_sha256": "cdedde906d7bc4cb276ddd1f30c0fcf2acdf5ad37f17282f5ce84292a6cfc611",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0161,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "75 08 2b c0 5e 8b e5 5d cb 90 83 7e 16 0e 74 0c 83 7e 16 10 74 06 83 7e 16 12 75 16 ff 76 16 ff 76 12 ff 76 10 ff 76 da 9a 00 00 00 1d 3b 0e 07 0e 15 03 00 a7 00 02 00 0a d0 07 00 00 00 07 d6",
+      "tail_hex": "1e 10 08 8b 46 0e 26 39 47 1a 75 00 00 00 00 00 1a 00 00 24 00 00 a0 00 01 00 00 32 00 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 69,
+        "26": 13,
+        "8b": 11,
+        "08": 9,
+        "10": 8,
+        "89": 8,
+        "c4": 7,
+        "46": 7,
+        "16": 6,
+        "06": 6,
+        "ff": 6,
+        "56": 6,
+        "83": 5,
+        "0e": 5,
+        "76": 5,
+        "1e": 5
+      },
+      "warnings": []
+    },
+    {
+      "id": 35,
+      "toc_entry_offset": 200,
+      "packed_relative_offset": 4084,
+      "packed_absolute_offset": 4464,
+      "raw_size": 248,
+      "packed_size": 248,
+      "decoded_size": 248,
+      "decoded_sha256": "f3d5135cf655b1276ed73ca947634d8a57fee9f20c74d30f91d7663bebfc5e5d",
+      "packed_sha256": "3172bca01c553046f1b8b9ede3d428a27e18d42b94614ac5bd63a6176da6cc37",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0,
+      "record_size_divisors": [
+        2,
+        4,
+        8,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "fc ac 84 c0 75 03 e9 9b 00 47 9a 78 63 bd 30 73 03 e9 83 00 3c 3a 74 26 3c 2f 74 41 3c 5c 74 3d 3c 20 74 39 3c 3b 74 35 3c 00 00 00 0d 37 10 00 11 10 00 00 e0 00 00 00 00 64 00 00 00 00 75 f9",
+      "tail_hex": "84 c0 75 05 b8 02 00 eb 27 9a 78 00 00 00 00 00 0d 0d 09 15 03 00 60 00 00 00 64 dc 05 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 20,
+          "length": 21,
+          "text": "<:t&</tA<\\t=< t9<;t5<"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 54,
+        "ff": 12,
+        "74": 10,
+        "83": 8,
+        "84": 7,
+        "03": 6,
+        "3c": 6,
+        "eb": 6,
+        "80": 6,
+        "75": 5,
+        "e9": 5,
+        "01": 5,
+        "c0": 4,
+        "10": 4,
+        "77": 4,
+        "08": 4
+      },
+      "warnings": []
+    },
+    {
+      "id": 38,
+      "toc_entry_offset": 209,
+      "packed_relative_offset": 4332,
+      "packed_absolute_offset": 4712,
+      "raw_size": 124,
+      "packed_size": 105,
+      "decoded_size": 124,
+      "decoded_sha256": "04d9e67f3074f21f19192410bfaaad5b5dd8318aef1846808432c224e9dd9d4c",
+      "packed_sha256": "38c3b9a04b8b3791ab142738b79324999bbcb2e6ec9725cb3f1f1c1d2e57161b",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.8468,
+      "record_size_divisors": [
+        2,
+        4,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "20 20 73 61 76 65 20 6c 61 73 74 79 20 79 70 6f 73 0d 0d 00 00 00 06 06 00 00 56 38 08 00 50 38 1e 00 20 20 20 20 20 20 20 00 00 00 56 38 07 00 0d 08 03 00 a0 00 05 00 fa 08 07 00 00 00 00 00",
+      "tail_hex": "00 00 08 00 59 38 00 00 56 38 08 00 00 00 00 00 16 1a 19 14 02 00 a0 00 23 00 00 04 10 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 17,
+          "text": "  save lasty ypos"
+        },
+        {
+          "offset": 34,
+          "length": 7,
+          "text": "       "
+        },
+        {
+          "offset": 72,
+          "length": 20,
+          "text": "                exit"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 38,
+        "20": 27,
+        "38": 7,
+        "08": 6,
+        "73": 3,
+        "0d": 3,
+        "56": 3,
+        "61": 2,
+        "65": 2,
+        "74": 2,
+        "79": 2,
+        "06": 2,
+        "07": 2,
+        "a0": 2,
+        "14": 2,
+        "76": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 43,
+      "toc_entry_offset": 218,
+      "packed_relative_offset": 4437,
+      "packed_absolute_offset": 4817,
+      "raw_size": 248,
+      "packed_size": 251,
+      "decoded_size": 248,
+      "decoded_sha256": "84c7de7c5c8ce612c38842dfbdf4fca590df98ff3b55916468b2de80616e46b4",
+      "packed_sha256": "e9fa1c710eb70a8da8fb7c61632f36120714f9c17551152e8d18fab126a6248b",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0121,
+      "record_size_divisors": [
+        2,
+        4,
+        8,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "83 ff 30 eb ef 84 ff 74 0f 83 ff 01 76 03 eb 58 90 b7 01 33 ff eb 09 90 83 ff 09 76 f4 eb 75 90 32 f6 8a c8 e9 6a ff ac 84 00 00 00 5a 38 07 07 08 14 02 00 a0 00 02 00 64 76 02 00 00 00 83 ff",
+      "tail_hex": "2e 80 4f 03 40 f7 c2 01 00 74 12 00 00 00 00 00 02 01 02 16 04 00 20 00 01 00 00 e8 03 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 155,
+          "length": 5,
+          "text": "ZY[_^"
+        },
+        {
+          "offset": 161,
+          "length": 4,
+          "text": "PSQR"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 48,
+        "02": 11,
+        "ff": 10,
+        "eb": 10,
+        "74": 10,
+        "03": 9,
+        "01": 8,
+        "83": 6,
+        "80": 6,
+        "84": 5,
+        "c2": 5,
+        "08": 4,
+        "b8": 4,
+        "04": 4,
+        "f7": 4,
+        "76": 3
+      },
+      "warnings": []
+    },
+    {
+      "id": 44,
+      "toc_entry_offset": 227,
+      "packed_relative_offset": 4688,
+      "packed_absolute_offset": 5068,
+      "raw_size": 310,
+      "packed_size": 312,
+      "decoded_size": 310,
+      "decoded_sha256": "3243071ef1c6a68dc5658fbc7a87af12e54a357abac29b68ccab58fe758fc0a9",
+      "packed_sha256": "afa911450ff3d20f8dd9f9a06c062d09581c09f07d8a4a0d7571e0f704f73673",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0065,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "e8 9d 12 83 c4 04 89 46 10 89 56 12 0b d0 74 36 ff 76 12 50 b8 0f 00 50 8d 46 fa 16 50 ff 76 08 ff 76 06 0e e8 17 02 83 c4 00 00 00 d5 3b 17 00 1b 13 01 01 a0 00 4b 00 00 88 13 00 00 00 0b c0",
+      "tail_hex": "46 14 2b 46 fc 50 8b 46 fe 03 46 00 00 00 00 00 02 01 02 16 04 00 20 00 01 00 00 e8 03 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 60,
+        "46": 15,
+        "ff": 14,
+        "76": 14,
+        "c4": 8,
+        "50": 8,
+        "06": 8,
+        "02": 8,
+        "04": 7,
+        "01": 7,
+        "fe": 7,
+        "03": 7,
+        "8b": 7,
+        "83": 6,
+        "e8": 5,
+        "12": 5
+      },
+      "warnings": []
+    },
+    {
+      "id": 45,
+      "toc_entry_offset": 236,
+      "packed_relative_offset": 5000,
+      "packed_absolute_offset": 5380,
+      "raw_size": 186,
+      "packed_size": 177,
+      "decoded_size": 186,
+      "decoded_sha256": "7ce2ef9f656d3ad5e93dc34b1d2060b89957c95cae226c88a67c0dff7a22a58e",
+      "packed_sha256": "f7f0d4786bfd985b6af4d536b21e23b3e99e0ac2f1a90c4b429dbfbaadbb5b03",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.9516,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "26 01 07 b8 01 00 5e 8b e5 5d cb 90 55 8b ec b8 14 00 9a f2 04 a2 5d 83 7e 12 00 74 29 ff 76 16 ff 76 14 ff 76 12 ff 76 18 00 00 00 03 3c 10 00 11 10 00 00 e0 00 00 00 00 00 00 00 00 00 2b c0",
+      "tail_hex": "07 c7 46 18 03 00 eb 05 c7 46 18 00 00 00 00 00 06 07 06 14 02 00 60 00 00 00 64 00 00 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 49,
+        "46": 8,
+        "ff": 7,
+        "76": 7,
+        "c7": 7,
+        "07": 6,
+        "8b": 5,
+        "26": 4,
+        "14": 4,
+        "18": 4,
+        "5d": 3,
+        "83": 3,
+        "7e": 3,
+        "12": 3,
+        "10": 3,
+        "fe": 3
+      },
+      "warnings": []
+    },
+    {
+      "id": 46,
+      "toc_entry_offset": 245,
+      "packed_relative_offset": 5177,
+      "packed_absolute_offset": 5557,
+      "raw_size": 186,
+      "packed_size": 188,
+      "decoded_size": 186,
+      "decoded_sha256": "f700e69edf796ddc6f6cf7f2e5483a86df17deab7a3cd75b77d9fca048c6d6ca",
+      "packed_sha256": "fe14d31ad7882f28231f2783200c014d5d19acdcfcf7307bcbe8184a6b76f622",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0108,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "05 83 c4 08 0b c0 74 0e 8e 06 3a 56 26 a1 90 07 01 46 fe eb 05 90 83 46 fe 2b 8b 46 0c 01 46 fe b8 00 10 2b 46 fe 3b 46 0a 00 00 00 30 3c 02 01 02 13 01 00 a1 00 01 00 00 90 01 00 00 00 00 8b",
+      "tail_hex": "16 f6 07 26 c4 1e f4 07 26 8b 47 00 00 00 00 00 21 00 10 1d 00 00 00 00 01 00 01 32 00 00 06 80",
+      "ascii_candidates": [
+        {
+          "offset": 94,
+          "length": 4,
+          "text": ".\tnN"
+        },
+        {
+          "offset": 132,
+          "length": 4,
+          "text": "V`RP"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 38,
+        "01": 8,
+        "26": 6,
+        "46": 6,
+        "c4": 5,
+        "06": 5,
+        "83": 4,
+        "90": 4,
+        "07": 4,
+        "fe": 4,
+        "8b": 4,
+        "c0": 3,
+        "56": 3,
+        "2b": 3,
+        "b8": 3,
+        "10": 3
+      },
+      "warnings": []
+    },
+    {
+      "id": 48,
+      "toc_entry_offset": 254,
+      "packed_relative_offset": 5365,
+      "packed_absolute_offset": 5745,
+      "raw_size": 124,
+      "packed_size": 128,
+      "decoded_size": 124,
+      "decoded_sha256": "ac45610191174c9f8a42f75818fd5f19cbd4bd8ad55d02d5fec2c117317ebf24",
+      "packed_sha256": "5fb98739b5d626e49ddd8a3fa8072301e9d3efc7da47e06384bc372c6e1f106c",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0323,
+      "record_size_divisors": [
+        2,
+        4,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "5e 06 8a 46 0a 26 88 40 02 8b 76 fa d1 e6 c4 5e 06 26 c7 80 ca 00 01 00 8b 76 fa d1 e6 d1 e6 c4 5e 06 8b 46 f2 8b 56 f4 26 00 00 00 52 3c 25 00 10 21 00 00 c0 00 01 00 01 32 00 00 08 01 ec 33",
+      "tail_hex": "cb 90 2b c0 5d cb 55 8b ec 33 c0 00 00 00 00 00 20 10 1d 2c 00 00 40 00 01 00 0a 32 00 00 06 01",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 24,
+        "06": 9,
+        "01": 7,
+        "8b": 5,
+        "c0": 4,
+        "5e": 3,
+        "26": 3,
+        "d1": 3,
+        "e6": 3,
+        "5d": 3,
+        "83": 3,
+        "7e": 3,
+        "46": 2,
+        "0a": 2,
+        "40": 2,
+        "76": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 49,
+      "toc_entry_offset": 263,
+      "packed_relative_offset": 5493,
+      "packed_absolute_offset": 5873,
+      "raw_size": 248,
+      "packed_size": 252,
+      "decoded_size": 248,
+      "decoded_sha256": "86b109a7e998295bfb43c6a95e8141cd8b7c20ea412854e84e73614d2b5bb9b8",
+      "packed_sha256": "d5fcc4a3bf59be70abe30da51330e15f5e7623cc0df4f9b18a114c2d07bf5643",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0161,
+      "record_size_divisors": [
+        2,
+        4,
+        8,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "2a c1 89 46 fc e9 fe 00 e8 1b fb 80 fc 03 73 07 81 e2 07 00 89 56 0a c5 56 1c e8 06 02 88 46 fe 8b 46 0a b4 3d cd 21 73 3e 00 00 00 3e 37 11 00 00 12 00 00 60 00 00 00 05 00 00 00 0a 01 0a 07",
+      "tail_hex": "c2 80 74 24 f6 c2 01 74 07 2e 80 00 00 00 00 00 25 00 0f 21 00 00 40 00 01 00 01 32 00 00 08 01",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 61,
+        "46": 11,
+        "01": 10,
+        "8b": 7,
+        "e8": 6,
+        "03": 6,
+        "07": 6,
+        "0a": 6,
+        "80": 5,
+        "02": 5,
+        "89": 4,
+        "fc": 4,
+        "e9": 4,
+        "fe": 4,
+        "fb": 4,
+        "21": 4
+      },
+      "warnings": []
+    },
+    {
+      "id": 50,
+      "toc_entry_offset": 272,
+      "packed_relative_offset": 5745,
+      "packed_absolute_offset": 6125,
+      "raw_size": 186,
+      "packed_size": 190,
+      "decoded_size": 186,
+      "decoded_sha256": "325469731ccf5494f3b4eaa3fea0629b321e9294a53f977a40dd0dfe79d68037",
+      "packed_sha256": "b94836243f5b7511916c180d4eeb7dd81859e124cd15f392b975c90680c8e014",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0215,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "38 45 83 c4 08 c7 46 fa 20 00 eb 52 8b 5e fc c4 76 06 26 8a 00 98 89 46 fe 50 0e e8 d0 fa 83 c4 02 0b c0 74 39 8b 46 0a 39 00 00 00 a7 3c 07 00 07 08 00 00 e0 00 06 00 fa fa 00 00 00 00 03 c6",
+      "tail_hex": "38 45 83 c4 08 c7 46 fa 20 00 e9 00 00 00 00 00 23 00 10 1f 00 00 40 00 01 00 02 32 00 00 0c 80",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 42,
+        "46": 7,
+        "fa": 6,
+        "8b": 6,
+        "c4": 5,
+        "50": 5,
+        "83": 4,
+        "08": 4,
+        "76": 4,
+        "52": 3,
+        "02": 3,
+        "c0": 3,
+        "9a": 3,
+        "5d": 3,
+        "ff": 3,
+        "10": 3
+      },
+      "warnings": []
+    },
+    {
+      "id": 51,
+      "toc_entry_offset": 281,
+      "packed_relative_offset": 5935,
+      "packed_absolute_offset": 6315,
+      "raw_size": 248,
+      "packed_size": 255,
+      "decoded_size": 248,
+      "decoded_sha256": "f1a90c957b37e756997b505fa5cb62309471d19c074a588ee330b05526956761",
+      "packed_sha256": "d49258d8940d067892b0c0331a3b0c77880a1119b98dbdad0af1e01a7582d1fe",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0282,
+      "record_size_divisors": [
+        2,
+        4,
+        8,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "c7 46 fc 20 00 eb 2b 90 8b 76 fe c4 5e 06 26 80 78 01 00 74 1d ff 76 0e ff 76 0c 8b c6 03 c3 8c c2 05 02 00 52 50 9a 16 06 00 00 00 cd 3c 0c 07 0c 15 03 00 60 00 04 00 96 b0 04 00 00 00 08 ff",
+      "tail_hex": "ff 76 08 ff 76 06 0e e8 32 fa 83 00 00 00 00 00 21 00 10 1d 00 00 40 00 01 00 01 32 00 00 06 80",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 51,
+        "46": 11,
+        "76": 8,
+        "ff": 8,
+        "8b": 7,
+        "fe": 7,
+        "0c": 7,
+        "06": 6,
+        "01": 6,
+        "04": 6,
+        "c7": 4,
+        "fc": 4,
+        "90": 4,
+        "5e": 4,
+        "02": 4,
+        "c0": 4
+      },
+      "warnings": []
+    },
+    {
+      "id": 52,
+      "toc_entry_offset": 290,
+      "packed_relative_offset": 6190,
+      "packed_absolute_offset": 6570,
+      "raw_size": 310,
+      "packed_size": 310,
+      "decoded_size": 310,
+      "decoded_sha256": "4da6398ccd5aef867643a4274fc7be8903386042609bca99d184a57b94f9e188",
+      "packed_sha256": "e4956615a58ff6d7c5157790256301f0be944d8825ea033a5654e93689ce60fe",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "fc c4 5e 06 26 8a 40 01 98 03 c6 05 02 00 c4 5e 0c 26 89 07 8b 46 fc 5e 8b e5 5d cb 55 8b ec b8 08 00 9a f2 04 a2 5d ff 76 00 00 00 f3 3c 0b 0d 0b 13 01 00 a1 00 06 00 32 b0 04 00 00 00 56 26",
+      "tail_hex": "fe 83 c4 04 89 46 fa 89 56 fc 0b 00 00 00 00 00 19 00 00 23 00 00 00 00 01 00 02 64 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 125,
+          "length": 4,
+          "text": "V`RP"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 63,
+        "26": 14,
+        "89": 10,
+        "08": 10,
+        "06": 9,
+        "8b": 9,
+        "c4": 8,
+        "04": 8,
+        "ff": 8,
+        "56": 8,
+        "01": 7,
+        "76": 6,
+        "07": 5,
+        "46": 5,
+        "5d": 5,
+        "fc": 4
+      },
+      "warnings": []
+    },
+    {
+      "id": 53,
+      "toc_entry_offset": 299,
+      "packed_relative_offset": 6500,
+      "packed_absolute_offset": 6880,
+      "raw_size": 124,
+      "packed_size": 125,
+      "decoded_size": 124,
+      "decoded_sha256": "da6366e2e151469b2447d1177fa95c84e0a76d2af81b540b361ac840036cd93e",
+      "packed_sha256": "af54d9179b9d3f1f1ff7d16375a17613554945134c4a911ee9132361e6b7e029",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0081,
+      "record_size_divisors": [
+        2,
+        4,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "08 89 46 f8 89 56 fa 0b d0 74 43 8e 06 40 56 26 a1 64 07 26 8b 16 66 07 05 18 00 83 d2 00 89 46 fc 89 56 fe ff 76 08 ff 76 00 00 00 0f 3d 09 00 0a 09 00 00 a0 00 02 00 a0 4f 01 00 00 00 9a 8a",
+      "tail_hex": "00 50 b8 0e 00 99 52 50 b8 a6 d5 00 00 00 00 00 15 00 18 13 01 01 a0 00 1e 00 00 60 09 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 27,
+        "89": 6,
+        "46": 5,
+        "56": 4,
+        "ff": 4,
+        "76": 4,
+        "08": 3,
+        "26": 3,
+        "09": 3,
+        "a0": 3,
+        "01": 3,
+        "b8": 3,
+        "0b": 2,
+        "06": 2,
+        "07": 2,
+        "8b": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 54,
+      "toc_entry_offset": 308,
+      "packed_relative_offset": 6625,
+      "packed_absolute_offset": 7005,
+      "raw_size": 248,
+      "packed_size": 251,
+      "decoded_size": 248,
+      "decoded_sha256": "08e253ee20d1c4e92a53db8647f2ff3c76daa2ddaf68cbd134d0e26021acb09d",
+      "packed_sha256": "7304447638eeb6845984b73cb0b8216dc3bff23bc3c468b75681e080e29ca55c",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0121,
+      "record_size_divisors": [
+        2,
+        4,
+        8,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "07 26 ff 77 3a 26 ff 77 38 b8 a6 d5 ba 56 60 52 50 9a b2 12 10 4c 83 c4 08 89 46 fc 89 56 fe ff 76 08 ff 76 06 52 50 9a 2a 00 00 00 2b 3d 08 04 02 13 01 00 a1 00 01 00 00 d0 07 00 00 00 00 c4",
+      "tail_hex": "8b 46 fe 89 46 0a e9 5a ff 90 55 00 00 00 00 00 21 00 10 1d 00 00 00 00 01 00 02 32 00 00 06 80",
+      "ascii_candidates": [
+        {
+          "offset": 13,
+          "length": 4,
+          "text": "V`RP"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 48,
+        "46": 11,
+        "01": 10,
+        "8b": 9,
+        "26": 8,
+        "89": 7,
+        "07": 6,
+        "fe": 6,
+        "06": 6,
+        "5e": 6,
+        "ff": 5,
+        "c4": 5,
+        "fc": 5,
+        "02": 5,
+        "50": 4,
+        "08": 4
+      },
+      "warnings": []
+    },
+    {
+      "id": 55,
+      "toc_entry_offset": 317,
+      "packed_relative_offset": 6876,
+      "packed_absolute_offset": 7256,
+      "raw_size": 186,
+      "packed_size": 190,
+      "decoded_size": 186,
+      "decoded_sha256": "5184b742c4d8a2a7c827947a80dbada0b6991f48ea984a7690545da0cc464e30",
+      "packed_sha256": "48914005f872bf9dcbbace34b396579396fdc62d15575c942740430a257e3ece",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0215,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "a0 b2 1f 04 02 2a e4 50 56 9a 06 09 b3 30 83 c4 0c 2b c0 50 b8 01 00 50 50 a0 b2 1f 04 03 2a e4 50 56 9a ee 0d b3 30 83 c4 00 00 00 ff 36 0d 0d 09 14 02 00 a0 00 05 00 fa 6c 07 00 00 00 11 40",
+      "tail_hex": "cb 90 9a 50 0c 8e 32 5e 5f 8b e5 00 00 00 00 00 23 00 10 1f 00 00 00 00 01 00 0a 32 00 00 0c 80",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 33,
+        "50": 11,
+        "9a": 6,
+        "0c": 6,
+        "2a": 5,
+        "c4": 5,
+        "46": 5,
+        "a0": 4,
+        "02": 4,
+        "e4": 4,
+        "56": 4,
+        "06": 4,
+        "83": 4,
+        "8b": 4,
+        "32": 4,
+        "1f": 3
+      },
+      "warnings": []
+    },
+    {
+      "id": 57,
+      "toc_entry_offset": 326,
+      "packed_relative_offset": 7066,
+      "packed_absolute_offset": 7446,
+      "raw_size": 62,
+      "packed_size": 62,
+      "decoded_size": 62,
+      "decoded_sha256": "37e8dfd4d89d19d5de2470788dfca366410a743da686ea823d6fbcb71fe6d9d7",
+      "packed_sha256": "768eb27fbb32181bd59903dcdf427cb078a2b0788d339d34e518c4f9da056085",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0,
+      "record_size_divisors": [
+        2,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "34 89 46 f4 89 56 f6 c7 46 fa 00 00 8b 4e fa 8c 5e ec c5 76 f4 eb 11 90 8c d8 3b 76 0a 75 05 3b 46 0c 74 0a c5 74 06 41 8c 00 00 00 00 00 06 00 00 07 07 00 e0 00 01 00 fa 0c 02 00 00 00",
+      "tail_hex": "05 3b 46 0c 74 0a c5 74 06 41 8c 00 00 00 00 00 06 00 00 07 07 00 e0 00 01 00 fa 0c 02 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 15,
+        "46": 3,
+        "fa": 3,
+        "8c": 3,
+        "89": 2,
+        "f4": 2,
+        "c5": 2,
+        "76": 2,
+        "3b": 2,
+        "0a": 2,
+        "0c": 2,
+        "74": 2,
+        "06": 2,
+        "07": 2,
+        "34": 1,
+        "56": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 58,
+      "toc_entry_offset": 335,
+      "packed_relative_offset": 7128,
+      "packed_absolute_offset": 7508,
+      "raw_size": 310,
+      "packed_size": 312,
+      "decoded_size": 310,
+      "decoded_sha256": "1f638596b1761cdd5e0ccc8caaadd4a03508898c223a6414237f72c3bfc2344c",
+      "packed_sha256": "553411b25e92e20ffe73cf6b686e19d5e1c0b0f818a7099fb648b2aa9530b99a",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0065,
+      "record_size_divisors": [
+        2,
+        5,
+        10,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "76 0e ff 76 0c ff 76 f4 ff 76 f2 9a 5a 14 10 4c 83 c4 08 8e 06 44 56 26 a3 00 08 26 89 16 02 08 26 c4 1e 00 08 26 80 4f 09 00 00 00 85 3d 16 00 1a 19 00 00 a0 00 23 00 00 a4 06 00 00 00 8e 06",
+      "tail_hex": "10 00 7e 0a 8e 06 36 56 8e c2 26 00 00 00 00 00 08 00 04 02 00 00 20 00 01 00 00 e8 03 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 65,
+        "26": 17,
+        "ff": 12,
+        "76": 11,
+        "89": 11,
+        "08": 9,
+        "06": 9,
+        "56": 8,
+        "8e": 7,
+        "46": 7,
+        "01": 7,
+        "10": 6,
+        "8b": 6,
+        "83": 5,
+        "c4": 5,
+        "02": 5
+      },
+      "warnings": []
+    },
+    {
+      "id": 59,
+      "toc_entry_offset": 344,
+      "packed_relative_offset": 7440,
+      "packed_absolute_offset": 7820,
+      "raw_size": 248,
+      "packed_size": 250,
+      "decoded_size": 248,
+      "decoded_sha256": "49586c2904eda59801e8718dfa8ad447b5c04d33f9ae46c499d4cb617e37c5fa",
+      "packed_sha256": "fbdb033a3c708c92cab4adc222d3da622f0d4617b4952931d3ecb3c0eabf633e",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0081,
+      "record_size_divisors": [
+        2,
+        4,
+        8,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "26 8b 57 0c 89 46 f8 89 56 fa 8e 06 44 56 26 8e 06 02 08 8b 46 0e 8b 56 10 26 89 47 04 26 89 57 06 8e 06 44 56 26 c4 1e 00 00 00 00 a9 3d 16 00 1a 19 00 00 a0 00 23 00 00 a4 06 00 00 00 9a e0",
+      "tail_hex": "06 ff 76 1e ff 76 1c 9a 1e 0e a2 00 00 00 00 00 07 00 07 08 00 00 20 00 02 00 0a d2 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 193,
+          "length": 4,
+          "text": ".\tnN"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 54,
+        "ff": 17,
+        "76": 12,
+        "06": 8,
+        "26": 7,
+        "8b": 6,
+        "56": 6,
+        "50": 6,
+        "0a": 6,
+        "9a": 5,
+        "b8": 5,
+        "01": 5,
+        "89": 4,
+        "8e": 4,
+        "02": 4,
+        "08": 4
+      },
+      "warnings": []
+    },
+    {
+      "id": 60,
+      "toc_entry_offset": 353,
+      "packed_relative_offset": 7690,
+      "packed_absolute_offset": 8070,
+      "raw_size": 186,
+      "packed_size": 189,
+      "decoded_size": 186,
+      "decoded_sha256": "a8a4acee54d25701710d8d78e2f1fd09f0df4d7864045a12bd934b8287409c52",
+      "packed_sha256": "0b95a040c7200f6e5c93dc613ec919580feb9825426c15d36eba1f106eead297",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0161,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "77 02 26 ff 37 ff 76 06 9a 5a 03 9d 4a 83 c4 06 8d 46 d2 16 50 b8 20 00 50 ff 76 06 9a 92 22 9d 4a 83 c4 08 3d 20 00 74 07 00 00 00 55 37 05 00 00 05 00 00 a0 00 04 00 fa 6e 00 00 00 00 4d 75",
+      "tail_hex": "7f 08 b8 02 00 8b e5 5d cb 90 b8 00 00 00 00 00 08 00 04 02 00 00 20 00 01 00 00 e8 03 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 45,
+        "26": 9,
+        "8b": 6,
+        "02": 5,
+        "06": 5,
+        "46": 5,
+        "08": 5,
+        "c4": 4,
+        "20": 4,
+        "ff": 3,
+        "37": 3,
+        "83": 3,
+        "b8": 3,
+        "3d": 3,
+        "07": 3,
+        "04": 3
+      },
+      "warnings": []
+    },
+    {
+      "id": 61,
+      "toc_entry_offset": 362,
+      "packed_relative_offset": 7879,
+      "packed_absolute_offset": 8259,
+      "raw_size": 186,
+      "packed_size": 189,
+      "decoded_size": 186,
+      "decoded_sha256": "aecfc6f9286e52205acda405be824d229d86659d89fecf5c179cc263ae17b39c",
+      "packed_sha256": "d48b635e4bd1ef55a929f95c7a3f94ac6147905de01adbff6ab761878b196e80",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0161,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "66 fd 16 50 b8 16 00 50 ff 76 0a ff 76 08 ff 76 06 9a 4a 19 e6 3a 83 c4 0c 89 86 6e fd 0b c0 74 0e 8b f0 c4 5e 06 26 8a 40 00 00 00 e5 3d 13 00 2b 14 02 00 a0 00 04 00 00 68 01 00 00 00 80 78",
+      "tail_hex": "ff b6 58 fd ff b6 56 fd ff b6 5c 00 00 00 00 00 16 1a 19 14 02 02 a0 00 23 00 00 ec 13 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 35,
+        "fd": 11,
+        "ff": 11,
+        "76": 7,
+        "02": 7,
+        "86": 5,
+        "50": 4,
+        "8b": 4,
+        "b6": 4,
+        "16": 3,
+        "e6": 3,
+        "89": 3,
+        "26": 3,
+        "14": 3,
+        "5c": 3,
+        "70": 3
+      },
+      "warnings": []
+    },
+    {
+      "id": 62,
+      "toc_entry_offset": 371,
+      "packed_relative_offset": 8068,
+      "packed_absolute_offset": 8448,
+      "raw_size": 186,
+      "packed_size": 188,
+      "decoded_size": 186,
+      "decoded_sha256": "a30744ef1b67f57ec108162323a9769d3d1db0f221825b07b508e5b43d24fb88",
+      "packed_sha256": "13b062a96c444da5b6f1bc85ab90d82456b111a3c54880ce6b047cdd71866b1a",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0108,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        62
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 62,
+          "basis": "existing data_model structural hint only"
+        }
+      ],
+      "head_hex": "76 08 ff 76 06 9a 5a 05 73 39 83 c4 08 8e 06 18 56 26 c4 1e 10 08 26 8b 47 1c 26 ff 47 1c 89 46 ce 50 ff 76 cc 9a d8 08 73 00 00 00 6d 37 13 00 2b 14 02 00 a0 00 04 00 00 68 01 00 00 00 d2 b8",
+      "tail_hex": "8b 40 0c 26 8b 50 0e 89 46 c4 89 00 00 00 00 00 16 1a 19 14 02 02 a0 00 23 00 00 ec 13 00 00 00",
+      "ascii_candidates": [],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 34,
+        "26": 11,
+        "14": 10,
+        "08": 7,
+        "8b": 7,
+        "c4": 6,
+        "89": 6,
+        "06": 5,
+        "02": 5,
+        "8e": 4,
+        "56": 4,
+        "1e": 4,
+        "16": 4,
+        "40": 4,
+        "76": 3,
+        "ff": 3
+      },
+      "warnings": []
+    }
+  ]
+}

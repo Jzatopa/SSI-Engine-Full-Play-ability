@@ -1,0 +1,1521 @@
+{
+  "map_id": 21,
+  "map_name": "21",
+  "row": 3,
+  "col": 2,
+  "facing": "south",
+  "steps": 0,
+  "active_event_id": 4,
+  "active_event_type": "combat",
+  "active_encounter": "GEO 021 event 4: MER. WARRIOR, PIRATE LEADER, RAM WARRIOR, SECURITY ROBOT",
+  "active_combat": {
+    "map_id": 21,
+    "event_id": 4,
+    "summary": "GEO 021 event 4: MER. WARRIOR, PIRATE LEADER, RAM WARRIOR, SECURITY ROBOT",
+    "monster_names": [],
+    "candidate_monster_names": [
+      "MER. WARRIOR",
+      "PIRATE LEADER",
+      "RAM WARRIOR",
+      "SECURITY ROBOT"
+    ],
+    "unresolved_monster_refs": [
+      "area2.event_scratch7"
+    ],
+    "encounters": [
+      {
+        "monster_id": null,
+        "monster_ref": "area2.event_scratch7",
+        "monster_name": null,
+        "address": "0x863A",
+        "kind": "setup_monster",
+        "resolution": "candidate_table",
+        "max_distance": "0",
+        "copies": null,
+        "pic_ref": "255",
+        "stats": null,
+        "candidate_resolution": {
+          "source": "ecl_local_table",
+          "monster_table": "0x8FCD",
+          "pic_table": null,
+          "indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "index_note": "3 + area2.event_scratch8; event_scratch8 source unresolved",
+          "raw_monster_values": [
+            0,
+            0,
+            52,
+            50,
+            52,
+            52,
+            52,
+            52,
+            50,
+            52,
+            52,
+            52,
+            52,
+            50,
+            52,
+            52,
+            52,
+            44,
+            44,
+            44,
+            44,
+            44,
+            33,
+            50,
+            33,
+            50,
+            50
+          ],
+          "raw_pic_values": [],
+          "candidate_monsters": [
+            {
+              "id": 52,
+              "name": "RAM WARRIOR",
+              "stats": {
+                "strength": 18,
+                "intelligence": 17,
+                "wisdom": 10,
+                "dexterity": 10,
+                "constitution": 10,
+                "charisma": 10,
+                "extraordinary_strength": 10
+              },
+              "matrix_variant_candidates": {
+                "offset_0x29": 6,
+                "offset_0x33": 48,
+                "offset_0x36": 12,
+                "offset_0x37": 50,
+                "offset_0x45": 47,
+                "offset_0x6B": 30,
+                "offset_0x8A": 50,
+                "offset_0x8F": 35,
+                "offset_0xB2": 44,
+                "offset_0xE3": 47
+              },
+              "visuals": {
+                "head_portrait": 11,
+                "body_portrait": 11,
+                "head_icon": 0,
+                "weapon_icon": 0,
+                "icon_size": 0,
+                "colors": {
+                  "body": 0,
+                  "arm": 0,
+                  "leg": 0,
+                  "head": 0,
+                  "shield": 0,
+                  "weapon": 0
+                }
+              }
+            },
+            {
+              "id": 50,
+              "name": "SECURITY ROBOT",
+              "stats": {
+                "strength": 16,
+                "intelligence": 16,
+                "wisdom": 10,
+                "dexterity": 3,
+                "constitution": 10,
+                "charisma": 10,
+                "extraordinary_strength": 10
+              },
+              "matrix_variant_candidates": {
+                "offset_0x29": 0,
+                "offset_0x33": 46,
+                "offset_0x36": 12,
+                "offset_0x37": 60,
+                "offset_0x45": 40,
+                "offset_0x6B": 0,
+                "offset_0x8A": 0,
+                "offset_0x8F": 85,
+                "offset_0xB2": 194,
+                "offset_0xE3": 40
+              },
+              "visuals": {
+                "head_portrait": 0,
+                "body_portrait": 0,
+                "head_icon": 0,
+                "weapon_icon": 0,
+                "icon_size": 0,
+                "colors": {
+                  "body": 0,
+                  "arm": 0,
+                  "leg": 0,
+                  "head": 0,
+                  "shield": 0,
+                  "weapon": 0
+                }
+              }
+            },
+            {
+              "id": 44,
+              "name": "PIRATE LEADER",
+              "stats": {
+                "strength": 18,
+                "intelligence": 18,
+                "wisdom": 17,
+                "dexterity": 10,
+                "constitution": 10,
+                "charisma": 10,
+                "extraordinary_strength": 10
+              },
+              "matrix_variant_candidates": {
+                "offset_0x29": 9,
+                "offset_0x33": 50,
+                "offset_0x36": 12,
+                "offset_0x37": 50,
+                "offset_0x45": 58,
+                "offset_0x6B": 65,
+                "offset_0x8A": 50,
+                "offset_0x8F": 95,
+                "offset_0xB2": 126,
+                "offset_0xE3": 58
+              },
+              "visuals": {
+                "head_portrait": 2,
+                "body_portrait": 6,
+                "head_icon": 6,
+                "weapon_icon": 0,
+                "icon_size": 0,
+                "colors": {
+                  "body": 0,
+                  "arm": 0,
+                  "leg": 0,
+                  "head": 0,
+                  "shield": 0,
+                  "weapon": 0
+                }
+              }
+            },
+            {
+              "id": 33,
+              "name": "MER. WARRIOR",
+              "stats": {
+                "strength": 13,
+                "intelligence": 15,
+                "wisdom": 10,
+                "dexterity": 10,
+                "constitution": 10,
+                "charisma": 10,
+                "extraordinary_strength": 10
+              },
+              "matrix_variant_candidates": {
+                "offset_0x29": 0,
+                "offset_0x33": 46,
+                "offset_0x36": 12,
+                "offset_0x37": 50,
+                "offset_0x45": 49,
+                "offset_0x6B": 30,
+                "offset_0x8A": 75,
+                "offset_0x8F": 50,
+                "offset_0xB2": 194,
+                "offset_0xE3": 49
+              },
+              "visuals": {
+                "head_portrait": 0,
+                "body_portrait": 0,
+                "head_icon": 0,
+                "weapon_icon": 0,
+                "icon_size": 0,
+                "colors": {
+                  "body": 0,
+                  "arm": 0,
+                  "leg": 0,
+                  "head": 0,
+                  "shield": 0,
+                  "weapon": 0
+                }
+              }
+            }
+          ],
+          "sentinel_values": [
+            0
+          ]
+        }
+      },
+      {
+        "monster_id": null,
+        "monster_ref": "area2.event_scratch7",
+        "monster_name": null,
+        "address": "0x86EC",
+        "kind": "setup_monster",
+        "resolution": "candidate_table",
+        "max_distance": "0",
+        "copies": null,
+        "pic_ref": "255",
+        "stats": null,
+        "candidate_resolution": {
+          "source": "ecl_local_table",
+          "monster_table": "0x8FCD",
+          "pic_table": null,
+          "indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "index_note": "4 + area2.event_scratch8; event_scratch8 source unresolved",
+          "raw_monster_values": [
+            0,
+            0,
+            52,
+            50,
+            52,
+            52,
+            52,
+            52,
+            50,
+            52,
+            52,
+            52,
+            52,
+            50,
+            52,
+            52,
+            52,
+            44,
+            44,
+            44,
+            44,
+            44,
+            33,
+            50,
+            33,
+            50,
+            50
+          ],
+          "raw_pic_values": [],
+          "candidate_monsters": [
+            {
+              "id": 52,
+              "name": "RAM WARRIOR",
+              "stats": {
+                "strength": 18,
+                "intelligence": 17,
+                "wisdom": 10,
+                "dexterity": 10,
+                "constitution": 10,
+                "charisma": 10,
+                "extraordinary_strength": 10
+              },
+              "matrix_variant_candidates": {
+                "offset_0x29": 6,
+                "offset_0x33": 48,
+                "offset_0x36": 12,
+                "offset_0x37": 50,
+                "offset_0x45": 47,
+                "offset_0x6B": 30,
+                "offset_0x8A": 50,
+                "offset_0x8F": 35,
+                "offset_0xB2": 44,
+                "offset_0xE3": 47
+              },
+              "visuals": {
+                "head_portrait": 11,
+                "body_portrait": 11,
+                "head_icon": 0,
+                "weapon_icon": 0,
+                "icon_size": 0,
+                "colors": {
+                  "body": 0,
+                  "arm": 0,
+                  "leg": 0,
+                  "head": 0,
+                  "shield": 0,
+                  "weapon": 0
+                }
+              }
+            },
+            {
+              "id": 50,
+              "name": "SECURITY ROBOT",
+              "stats": {
+                "strength": 16,
+                "intelligence": 16,
+                "wisdom": 10,
+                "dexterity": 3,
+                "constitution": 10,
+                "charisma": 10,
+                "extraordinary_strength": 10
+              },
+              "matrix_variant_candidates": {
+                "offset_0x29": 0,
+                "offset_0x33": 46,
+                "offset_0x36": 12,
+                "offset_0x37": 60,
+                "offset_0x45": 40,
+                "offset_0x6B": 0,
+                "offset_0x8A": 0,
+                "offset_0x8F": 85,
+                "offset_0xB2": 194,
+                "offset_0xE3": 40
+              },
+              "visuals": {
+                "head_portrait": 0,
+                "body_portrait": 0,
+                "head_icon": 0,
+                "weapon_icon": 0,
+                "icon_size": 0,
+                "colors": {
+                  "body": 0,
+                  "arm": 0,
+                  "leg": 0,
+                  "head": 0,
+                  "shield": 0,
+                  "weapon": 0
+                }
+              }
+            },
+            {
+              "id": 44,
+              "name": "PIRATE LEADER",
+              "stats": {
+                "strength": 18,
+                "intelligence": 18,
+                "wisdom": 17,
+                "dexterity": 10,
+                "constitution": 10,
+                "charisma": 10,
+                "extraordinary_strength": 10
+              },
+              "matrix_variant_candidates": {
+                "offset_0x29": 9,
+                "offset_0x33": 50,
+                "offset_0x36": 12,
+                "offset_0x37": 50,
+                "offset_0x45": 58,
+                "offset_0x6B": 65,
+                "offset_0x8A": 50,
+                "offset_0x8F": 95,
+                "offset_0xB2": 126,
+                "offset_0xE3": 58
+              },
+              "visuals": {
+                "head_portrait": 2,
+                "body_portrait": 6,
+                "head_icon": 6,
+                "weapon_icon": 0,
+                "icon_size": 0,
+                "colors": {
+                  "body": 0,
+                  "arm": 0,
+                  "leg": 0,
+                  "head": 0,
+                  "shield": 0,
+                  "weapon": 0
+                }
+              }
+            },
+            {
+              "id": 33,
+              "name": "MER. WARRIOR",
+              "stats": {
+                "strength": 13,
+                "intelligence": 15,
+                "wisdom": 10,
+                "dexterity": 10,
+                "constitution": 10,
+                "charisma": 10,
+                "extraordinary_strength": 10
+              },
+              "matrix_variant_candidates": {
+                "offset_0x29": 0,
+                "offset_0x33": 46,
+                "offset_0x36": 12,
+                "offset_0x37": 50,
+                "offset_0x45": 49,
+                "offset_0x6B": 30,
+                "offset_0x8A": 75,
+                "offset_0x8F": 50,
+                "offset_0xB2": 194,
+                "offset_0xE3": 49
+              },
+              "visuals": {
+                "head_portrait": 0,
+                "body_portrait": 0,
+                "head_icon": 0,
+                "weapon_icon": 0,
+                "icon_size": 0,
+                "colors": {
+                  "body": 0,
+                  "arm": 0,
+                  "leg": 0,
+                  "head": 0,
+                  "shield": 0,
+                  "weapon": 0
+                }
+              }
+            }
+          ],
+          "sentinel_values": [
+            0
+          ]
+        }
+      }
+    ]
+  },
+  "last_execution": {
+    "map_id": 21,
+    "event_id": 4,
+    "event_type": "combat",
+    "summary": "show_text, queue_combat",
+    "commands": [
+      {
+        "kind": "show_text",
+        "label": "Show decoded event text",
+        "payload": {
+          "text": "'THESE CONTROLS ARE DAMAGED.'"
+        },
+        "evidence": "event_atlas text extraction"
+      },
+      {
+        "kind": "queue_combat",
+        "label": "Queue decoded encounter",
+        "payload": {
+          "encounters": [
+            {
+              "monster_id": null,
+              "monster_ref": "area2.event_scratch7",
+              "monster_name": null,
+              "address": "0x863A",
+              "kind": "setup_monster",
+              "resolution": "candidate_table",
+              "max_distance": "0",
+              "copies": null,
+              "pic_ref": "255",
+              "stats": null,
+              "candidate_resolution": {
+                "source": "ecl_local_table",
+                "monster_table": "0x8FCD",
+                "pic_table": null,
+                "indices": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27
+                ],
+                "index_note": "3 + area2.event_scratch8; event_scratch8 source unresolved",
+                "raw_monster_values": [
+                  0,
+                  0,
+                  52,
+                  50,
+                  52,
+                  52,
+                  52,
+                  52,
+                  50,
+                  52,
+                  52,
+                  52,
+                  52,
+                  50,
+                  52,
+                  52,
+                  52,
+                  44,
+                  44,
+                  44,
+                  44,
+                  44,
+                  33,
+                  50,
+                  33,
+                  50,
+                  50
+                ],
+                "raw_pic_values": [],
+                "candidate_monsters": [
+                  {
+                    "id": 52,
+                    "name": "RAM WARRIOR",
+                    "stats": {
+                      "strength": 18,
+                      "intelligence": 17,
+                      "wisdom": 10,
+                      "dexterity": 10,
+                      "constitution": 10,
+                      "charisma": 10,
+                      "extraordinary_strength": 10
+                    },
+                    "matrix_variant_candidates": {
+                      "offset_0x29": 6,
+                      "offset_0x33": 48,
+                      "offset_0x36": 12,
+                      "offset_0x37": 50,
+                      "offset_0x45": 47,
+                      "offset_0x6B": 30,
+                      "offset_0x8A": 50,
+                      "offset_0x8F": 35,
+                      "offset_0xB2": 44,
+                      "offset_0xE3": 47
+                    },
+                    "visuals": {
+                      "head_portrait": 11,
+                      "body_portrait": 11,
+                      "head_icon": 0,
+                      "weapon_icon": 0,
+                      "icon_size": 0,
+                      "colors": {
+                        "body": 0,
+                        "arm": 0,
+                        "leg": 0,
+                        "head": 0,
+                        "shield": 0,
+                        "weapon": 0
+                      }
+                    }
+                  },
+                  {
+                    "id": 50,
+                    "name": "SECURITY ROBOT",
+                    "stats": {
+                      "strength": 16,
+                      "intelligence": 16,
+                      "wisdom": 10,
+                      "dexterity": 3,
+                      "constitution": 10,
+                      "charisma": 10,
+                      "extraordinary_strength": 10
+                    },
+                    "matrix_variant_candidates": {
+                      "offset_0x29": 0,
+                      "offset_0x33": 46,
+                      "offset_0x36": 12,
+                      "offset_0x37": 60,
+                      "offset_0x45": 40,
+                      "offset_0x6B": 0,
+                      "offset_0x8A": 0,
+                      "offset_0x8F": 85,
+                      "offset_0xB2": 194,
+                      "offset_0xE3": 40
+                    },
+                    "visuals": {
+                      "head_portrait": 0,
+                      "body_portrait": 0,
+                      "head_icon": 0,
+                      "weapon_icon": 0,
+                      "icon_size": 0,
+                      "colors": {
+                        "body": 0,
+                        "arm": 0,
+                        "leg": 0,
+                        "head": 0,
+                        "shield": 0,
+                        "weapon": 0
+                      }
+                    }
+                  },
+                  {
+                    "id": 44,
+                    "name": "PIRATE LEADER",
+                    "stats": {
+                      "strength": 18,
+                      "intelligence": 18,
+                      "wisdom": 17,
+                      "dexterity": 10,
+                      "constitution": 10,
+                      "charisma": 10,
+                      "extraordinary_strength": 10
+                    },
+                    "matrix_variant_candidates": {
+                      "offset_0x29": 9,
+                      "offset_0x33": 50,
+                      "offset_0x36": 12,
+                      "offset_0x37": 50,
+                      "offset_0x45": 58,
+                      "offset_0x6B": 65,
+                      "offset_0x8A": 50,
+                      "offset_0x8F": 95,
+                      "offset_0xB2": 126,
+                      "offset_0xE3": 58
+                    },
+                    "visuals": {
+                      "head_portrait": 2,
+                      "body_portrait": 6,
+                      "head_icon": 6,
+                      "weapon_icon": 0,
+                      "icon_size": 0,
+                      "colors": {
+                        "body": 0,
+                        "arm": 0,
+                        "leg": 0,
+                        "head": 0,
+                        "shield": 0,
+                        "weapon": 0
+                      }
+                    }
+                  },
+                  {
+                    "id": 33,
+                    "name": "MER. WARRIOR",
+                    "stats": {
+                      "strength": 13,
+                      "intelligence": 15,
+                      "wisdom": 10,
+                      "dexterity": 10,
+                      "constitution": 10,
+                      "charisma": 10,
+                      "extraordinary_strength": 10
+                    },
+                    "matrix_variant_candidates": {
+                      "offset_0x29": 0,
+                      "offset_0x33": 46,
+                      "offset_0x36": 12,
+                      "offset_0x37": 50,
+                      "offset_0x45": 49,
+                      "offset_0x6B": 30,
+                      "offset_0x8A": 75,
+                      "offset_0x8F": 50,
+                      "offset_0xB2": 194,
+                      "offset_0xE3": 49
+                    },
+                    "visuals": {
+                      "head_portrait": 0,
+                      "body_portrait": 0,
+                      "head_icon": 0,
+                      "weapon_icon": 0,
+                      "icon_size": 0,
+                      "colors": {
+                        "body": 0,
+                        "arm": 0,
+                        "leg": 0,
+                        "head": 0,
+                        "shield": 0,
+                        "weapon": 0
+                      }
+                    }
+                  }
+                ],
+                "sentinel_values": [
+                  0
+                ]
+              }
+            },
+            {
+              "monster_id": null,
+              "monster_ref": "area2.event_scratch7",
+              "monster_name": null,
+              "address": "0x86EC",
+              "kind": "setup_monster",
+              "resolution": "candidate_table",
+              "max_distance": "0",
+              "copies": null,
+              "pic_ref": "255",
+              "stats": null,
+              "candidate_resolution": {
+                "source": "ecl_local_table",
+                "monster_table": "0x8FCD",
+                "pic_table": null,
+                "indices": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27
+                ],
+                "index_note": "4 + area2.event_scratch8; event_scratch8 source unresolved",
+                "raw_monster_values": [
+                  0,
+                  0,
+                  52,
+                  50,
+                  52,
+                  52,
+                  52,
+                  52,
+                  50,
+                  52,
+                  52,
+                  52,
+                  52,
+                  50,
+                  52,
+                  52,
+                  52,
+                  44,
+                  44,
+                  44,
+                  44,
+                  44,
+                  33,
+                  50,
+                  33,
+                  50,
+                  50
+                ],
+                "raw_pic_values": [],
+                "candidate_monsters": [
+                  {
+                    "id": 52,
+                    "name": "RAM WARRIOR",
+                    "stats": {
+                      "strength": 18,
+                      "intelligence": 17,
+                      "wisdom": 10,
+                      "dexterity": 10,
+                      "constitution": 10,
+                      "charisma": 10,
+                      "extraordinary_strength": 10
+                    },
+                    "matrix_variant_candidates": {
+                      "offset_0x29": 6,
+                      "offset_0x33": 48,
+                      "offset_0x36": 12,
+                      "offset_0x37": 50,
+                      "offset_0x45": 47,
+                      "offset_0x6B": 30,
+                      "offset_0x8A": 50,
+                      "offset_0x8F": 35,
+                      "offset_0xB2": 44,
+                      "offset_0xE3": 47
+                    },
+                    "visuals": {
+                      "head_portrait": 11,
+                      "body_portrait": 11,
+                      "head_icon": 0,
+                      "weapon_icon": 0,
+                      "icon_size": 0,
+                      "colors": {
+                        "body": 0,
+                        "arm": 0,
+                        "leg": 0,
+                        "head": 0,
+                        "shield": 0,
+                        "weapon": 0
+                      }
+                    }
+                  },
+                  {
+                    "id": 50,
+                    "name": "SECURITY ROBOT",
+                    "stats": {
+                      "strength": 16,
+                      "intelligence": 16,
+                      "wisdom": 10,
+                      "dexterity": 3,
+                      "constitution": 10,
+                      "charisma": 10,
+                      "extraordinary_strength": 10
+                    },
+                    "matrix_variant_candidates": {
+                      "offset_0x29": 0,
+                      "offset_0x33": 46,
+                      "offset_0x36": 12,
+                      "offset_0x37": 60,
+                      "offset_0x45": 40,
+                      "offset_0x6B": 0,
+                      "offset_0x8A": 0,
+                      "offset_0x8F": 85,
+                      "offset_0xB2": 194,
+                      "offset_0xE3": 40
+                    },
+                    "visuals": {
+                      "head_portrait": 0,
+                      "body_portrait": 0,
+                      "head_icon": 0,
+                      "weapon_icon": 0,
+                      "icon_size": 0,
+                      "colors": {
+                        "body": 0,
+                        "arm": 0,
+                        "leg": 0,
+                        "head": 0,
+                        "shield": 0,
+                        "weapon": 0
+                      }
+                    }
+                  },
+                  {
+                    "id": 44,
+                    "name": "PIRATE LEADER",
+                    "stats": {
+                      "strength": 18,
+                      "intelligence": 18,
+                      "wisdom": 17,
+                      "dexterity": 10,
+                      "constitution": 10,
+                      "charisma": 10,
+                      "extraordinary_strength": 10
+                    },
+                    "matrix_variant_candidates": {
+                      "offset_0x29": 9,
+                      "offset_0x33": 50,
+                      "offset_0x36": 12,
+                      "offset_0x37": 50,
+                      "offset_0x45": 58,
+                      "offset_0x6B": 65,
+                      "offset_0x8A": 50,
+                      "offset_0x8F": 95,
+                      "offset_0xB2": 126,
+                      "offset_0xE3": 58
+                    },
+                    "visuals": {
+                      "head_portrait": 2,
+                      "body_portrait": 6,
+                      "head_icon": 6,
+                      "weapon_icon": 0,
+                      "icon_size": 0,
+                      "colors": {
+                        "body": 0,
+                        "arm": 0,
+                        "leg": 0,
+                        "head": 0,
+                        "shield": 0,
+                        "weapon": 0
+                      }
+                    }
+                  },
+                  {
+                    "id": 33,
+                    "name": "MER. WARRIOR",
+                    "stats": {
+                      "strength": 13,
+                      "intelligence": 15,
+                      "wisdom": 10,
+                      "dexterity": 10,
+                      "constitution": 10,
+                      "charisma": 10,
+                      "extraordinary_strength": 10
+                    },
+                    "matrix_variant_candidates": {
+                      "offset_0x29": 0,
+                      "offset_0x33": 46,
+                      "offset_0x36": 12,
+                      "offset_0x37": 50,
+                      "offset_0x45": 49,
+                      "offset_0x6B": 30,
+                      "offset_0x8A": 75,
+                      "offset_0x8F": 50,
+                      "offset_0xB2": 194,
+                      "offset_0xE3": 49
+                    },
+                    "visuals": {
+                      "head_portrait": 0,
+                      "body_portrait": 0,
+                      "head_icon": 0,
+                      "weapon_icon": 0,
+                      "icon_size": 0,
+                      "colors": {
+                        "body": 0,
+                        "arm": 0,
+                        "leg": 0,
+                        "head": 0,
+                        "shield": 0,
+                        "weapon": 0
+                      }
+                    }
+                  }
+                ],
+                "sentinel_values": [
+                  0
+                ]
+              }
+            }
+          ],
+          "monster_names": [],
+          "unresolved_monster_refs": [
+            "area2.event_scratch7"
+          ],
+          "candidate_monster_names": [
+            "MER. WARRIOR",
+            "PIRATE LEADER",
+            "RAM WARRIOR",
+            "SECURITY ROBOT"
+          ]
+        },
+        "evidence": "SETUP_MONSTER operands cross-referenced to MON0CHA.DAX"
+      }
+    ]
+  },
+  "party": {
+    "hp": 100,
+    "credits": 0,
+    "inventory": [],
+    "flags": []
+  },
+  "event_text": "'THESE CONTROLS ARE DAMAGED.'",
+  "encounters": [
+    {
+      "monster_id": null,
+      "monster_ref": "area2.event_scratch7",
+      "monster_name": null,
+      "address": "0x863A",
+      "kind": "setup_monster",
+      "resolution": "candidate_table",
+      "candidate_resolution": {
+        "source": "ecl_local_table",
+        "monster_table": "0x8FCD",
+        "pic_table": null,
+        "indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "index_note": "3 + area2.event_scratch8; event_scratch8 source unresolved",
+        "raw_monster_values": [
+          0,
+          0,
+          52,
+          50,
+          52,
+          52,
+          52,
+          52,
+          50,
+          52,
+          52,
+          52,
+          52,
+          50,
+          52,
+          52,
+          52,
+          44,
+          44,
+          44,
+          44,
+          44,
+          33,
+          50,
+          33,
+          50,
+          50
+        ],
+        "raw_pic_values": [],
+        "candidate_monsters": [
+          {
+            "id": 52,
+            "name": "RAM WARRIOR",
+            "stats": {
+              "strength": 18,
+              "intelligence": 17,
+              "wisdom": 10,
+              "dexterity": 10,
+              "constitution": 10,
+              "charisma": 10,
+              "extraordinary_strength": 10
+            },
+            "matrix_variant_candidates": {
+              "offset_0x29": 6,
+              "offset_0x33": 48,
+              "offset_0x36": 12,
+              "offset_0x37": 50,
+              "offset_0x45": 47,
+              "offset_0x6B": 30,
+              "offset_0x8A": 50,
+              "offset_0x8F": 35,
+              "offset_0xB2": 44,
+              "offset_0xE3": 47
+            },
+            "visuals": {
+              "head_portrait": 11,
+              "body_portrait": 11,
+              "head_icon": 0,
+              "weapon_icon": 0,
+              "icon_size": 0,
+              "colors": {
+                "body": 0,
+                "arm": 0,
+                "leg": 0,
+                "head": 0,
+                "shield": 0,
+                "weapon": 0
+              }
+            }
+          },
+          {
+            "id": 50,
+            "name": "SECURITY ROBOT",
+            "stats": {
+              "strength": 16,
+              "intelligence": 16,
+              "wisdom": 10,
+              "dexterity": 3,
+              "constitution": 10,
+              "charisma": 10,
+              "extraordinary_strength": 10
+            },
+            "matrix_variant_candidates": {
+              "offset_0x29": 0,
+              "offset_0x33": 46,
+              "offset_0x36": 12,
+              "offset_0x37": 60,
+              "offset_0x45": 40,
+              "offset_0x6B": 0,
+              "offset_0x8A": 0,
+              "offset_0x8F": 85,
+              "offset_0xB2": 194,
+              "offset_0xE3": 40
+            },
+            "visuals": {
+              "head_portrait": 0,
+              "body_portrait": 0,
+              "head_icon": 0,
+              "weapon_icon": 0,
+              "icon_size": 0,
+              "colors": {
+                "body": 0,
+                "arm": 0,
+                "leg": 0,
+                "head": 0,
+                "shield": 0,
+                "weapon": 0
+              }
+            }
+          },
+          {
+            "id": 44,
+            "name": "PIRATE LEADER",
+            "stats": {
+              "strength": 18,
+              "intelligence": 18,
+              "wisdom": 17,
+              "dexterity": 10,
+              "constitution": 10,
+              "charisma": 10,
+              "extraordinary_strength": 10
+            },
+            "matrix_variant_candidates": {
+              "offset_0x29": 9,
+              "offset_0x33": 50,
+              "offset_0x36": 12,
+              "offset_0x37": 50,
+              "offset_0x45": 58,
+              "offset_0x6B": 65,
+              "offset_0x8A": 50,
+              "offset_0x8F": 95,
+              "offset_0xB2": 126,
+              "offset_0xE3": 58
+            },
+            "visuals": {
+              "head_portrait": 2,
+              "body_portrait": 6,
+              "head_icon": 6,
+              "weapon_icon": 0,
+              "icon_size": 0,
+              "colors": {
+                "body": 0,
+                "arm": 0,
+                "leg": 0,
+                "head": 0,
+                "shield": 0,
+                "weapon": 0
+              }
+            }
+          },
+          {
+            "id": 33,
+            "name": "MER. WARRIOR",
+            "stats": {
+              "strength": 13,
+              "intelligence": 15,
+              "wisdom": 10,
+              "dexterity": 10,
+              "constitution": 10,
+              "charisma": 10,
+              "extraordinary_strength": 10
+            },
+            "matrix_variant_candidates": {
+              "offset_0x29": 0,
+              "offset_0x33": 46,
+              "offset_0x36": 12,
+              "offset_0x37": 50,
+              "offset_0x45": 49,
+              "offset_0x6B": 30,
+              "offset_0x8A": 75,
+              "offset_0x8F": 50,
+              "offset_0xB2": 194,
+              "offset_0xE3": 49
+            },
+            "visuals": {
+              "head_portrait": 0,
+              "body_portrait": 0,
+              "head_icon": 0,
+              "weapon_icon": 0,
+              "icon_size": 0,
+              "colors": {
+                "body": 0,
+                "arm": 0,
+                "leg": 0,
+                "head": 0,
+                "shield": 0,
+                "weapon": 0
+              }
+            }
+          }
+        ],
+        "sentinel_values": [
+          0
+        ]
+      }
+    },
+    {
+      "monster_id": null,
+      "monster_ref": "area2.event_scratch7",
+      "monster_name": null,
+      "address": "0x86EC",
+      "kind": "setup_monster",
+      "resolution": "candidate_table",
+      "candidate_resolution": {
+        "source": "ecl_local_table",
+        "monster_table": "0x8FCD",
+        "pic_table": null,
+        "indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "index_note": "4 + area2.event_scratch8; event_scratch8 source unresolved",
+        "raw_monster_values": [
+          0,
+          0,
+          52,
+          50,
+          52,
+          52,
+          52,
+          52,
+          50,
+          52,
+          52,
+          52,
+          52,
+          50,
+          52,
+          52,
+          52,
+          44,
+          44,
+          44,
+          44,
+          44,
+          33,
+          50,
+          33,
+          50,
+          50
+        ],
+        "raw_pic_values": [],
+        "candidate_monsters": [
+          {
+            "id": 52,
+            "name": "RAM WARRIOR",
+            "stats": {
+              "strength": 18,
+              "intelligence": 17,
+              "wisdom": 10,
+              "dexterity": 10,
+              "constitution": 10,
+              "charisma": 10,
+              "extraordinary_strength": 10
+            },
+            "matrix_variant_candidates": {
+              "offset_0x29": 6,
+              "offset_0x33": 48,
+              "offset_0x36": 12,
+              "offset_0x37": 50,
+              "offset_0x45": 47,
+              "offset_0x6B": 30,
+              "offset_0x8A": 50,
+              "offset_0x8F": 35,
+              "offset_0xB2": 44,
+              "offset_0xE3": 47
+            },
+            "visuals": {
+              "head_portrait": 11,
+              "body_portrait": 11,
+              "head_icon": 0,
+              "weapon_icon": 0,
+              "icon_size": 0,
+              "colors": {
+                "body": 0,
+                "arm": 0,
+                "leg": 0,
+                "head": 0,
+                "shield": 0,
+                "weapon": 0
+              }
+            }
+          },
+          {
+            "id": 50,
+            "name": "SECURITY ROBOT",
+            "stats": {
+              "strength": 16,
+              "intelligence": 16,
+              "wisdom": 10,
+              "dexterity": 3,
+              "constitution": 10,
+              "charisma": 10,
+              "extraordinary_strength": 10
+            },
+            "matrix_variant_candidates": {
+              "offset_0x29": 0,
+              "offset_0x33": 46,
+              "offset_0x36": 12,
+              "offset_0x37": 60,
+              "offset_0x45": 40,
+              "offset_0x6B": 0,
+              "offset_0x8A": 0,
+              "offset_0x8F": 85,
+              "offset_0xB2": 194,
+              "offset_0xE3": 40
+            },
+            "visuals": {
+              "head_portrait": 0,
+              "body_portrait": 0,
+              "head_icon": 0,
+              "weapon_icon": 0,
+              "icon_size": 0,
+              "colors": {
+                "body": 0,
+                "arm": 0,
+                "leg": 0,
+                "head": 0,
+                "shield": 0,
+                "weapon": 0
+              }
+            }
+          },
+          {
+            "id": 44,
+            "name": "PIRATE LEADER",
+            "stats": {
+              "strength": 18,
+              "intelligence": 18,
+              "wisdom": 17,
+              "dexterity": 10,
+              "constitution": 10,
+              "charisma": 10,
+              "extraordinary_strength": 10
+            },
+            "matrix_variant_candidates": {
+              "offset_0x29": 9,
+              "offset_0x33": 50,
+              "offset_0x36": 12,
+              "offset_0x37": 50,
+              "offset_0x45": 58,
+              "offset_0x6B": 65,
+              "offset_0x8A": 50,
+              "offset_0x8F": 95,
+              "offset_0xB2": 126,
+              "offset_0xE3": 58
+            },
+            "visuals": {
+              "head_portrait": 2,
+              "body_portrait": 6,
+              "head_icon": 6,
+              "weapon_icon": 0,
+              "icon_size": 0,
+              "colors": {
+                "body": 0,
+                "arm": 0,
+                "leg": 0,
+                "head": 0,
+                "shield": 0,
+                "weapon": 0
+              }
+            }
+          },
+          {
+            "id": 33,
+            "name": "MER. WARRIOR",
+            "stats": {
+              "strength": 13,
+              "intelligence": 15,
+              "wisdom": 10,
+              "dexterity": 10,
+              "constitution": 10,
+              "charisma": 10,
+              "extraordinary_strength": 10
+            },
+            "matrix_variant_candidates": {
+              "offset_0x29": 0,
+              "offset_0x33": 46,
+              "offset_0x36": 12,
+              "offset_0x37": 50,
+              "offset_0x45": 49,
+              "offset_0x6B": 30,
+              "offset_0x8A": 75,
+              "offset_0x8F": 50,
+              "offset_0xB2": 194,
+              "offset_0xE3": 49
+            },
+            "visuals": {
+              "head_portrait": 0,
+              "body_portrait": 0,
+              "head_icon": 0,
+              "weapon_icon": 0,
+              "icon_size": 0,
+              "colors": {
+                "body": 0,
+                "arm": 0,
+                "leg": 0,
+                "head": 0,
+                "shield": 0,
+                "weapon": 0
+              }
+            }
+          }
+        ],
+        "sentinel_values": [
+          0
+        ]
+      }
+    }
+  ],
+  "log": [
+    "entered map: GEO 021 event 1",
+    "probe: GEO 021 event 4",
+    "combat queued GEO 021 event 4: MER. WARRIOR, PIRATE LEADER, RAM WARRIOR, SECURITY ROBOT"
+  ]
+}

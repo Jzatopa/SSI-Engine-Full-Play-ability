@@ -1,0 +1,36 @@
+Extracting COAB catalog...
+  Found 659 COAB functions
+Catalog: /home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/qwen_advisory/ghidra_coab_matches/2026-07-08-full/coab_catalog.tsv (659 lines)
+Loading strings...
+  Loaded 13 strings
+Starting matching loop...
+Starting matching: 623 pending, 0 already done
+Output: /home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/qwen_advisory/ghidra_coab_matches/2026-07-08-full/matches.jsonl
+  [25/623] 0000:06f3 OK 758ms
+  [50/623] 0000:09d3 OK 651ms
+  [75/623] 0000:0d34 OK 635ms
+  [100/623] 0000:1348 OK 851ms
+  [125/623] 0000:2575 OK 703ms
+  [150/623] 0000:3215 OK 706ms
+  [175/623] 0000:45fc OK 919ms
+  [200/623] 0000:657f OK 953ms
+  [225/623] 0000:7919 OK 882ms
+  [250/623] 0000:ac2d OK 1130ms
+  [275/623] 0000:d62d OK 1228ms
+  [300/623] 0000:e281 OK 684ms
+  [325/623] 1000:0e7a OK 830ms
+  [350/623] 1000:19b3 OK 2330ms
+  [375/623] 1000:5a95 OK 1040ms
+  [400/623] 1000:bcd7 OK 663ms
+  [425/623] 1000:ef71 OK 701ms
+  [450/623] 2000:5e38 OK 874ms
+  [475/623] 2000:7e91 OK 799ms
+  [500/623] 2000:a111 OK 1442ms
+  [525/623] 2000:bf38 OK 1533ms
+  [550/623] 2000:d226 OK 689ms
+  [575/623] 2000:fd91 OK 714ms
+  [600/623] 3000:20ce OK 851ms
+
+Matching complete: 623 processed
+Rollup: /home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/qwen_advisory/ghidra_coab_matches/2026-07-08-full/matches_rollup.tsv
+Manifest: /home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/qwen_advisory/ghidra_coab_matches/2026-07-08-full/run_manifest.json

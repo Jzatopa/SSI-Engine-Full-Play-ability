@@ -1,0 +1,207 @@
+{
+  "packages": [
+    {
+      "name": "START reverse-engineering package",
+      "zip_path": "/home/jzatopa/.openclaw/media/inbound/START_reverse_engineering_package---35e28ac5-a822-4a78-bfe6-e973e63fd973.zip",
+      "sha256": "6772a1989d76e8fa706cd997f3d4cc0c55e3a7c3180fea43b91b83708245b404",
+      "members": [
+        {
+          "name": "README.md",
+          "bytes": 1853,
+          "compressed_bytes": 974,
+          "is_dir": false
+        },
+        {
+          "name": "START.unpacked.disassembly.asm",
+          "bytes": 1398685,
+          "compressed_bytes": 212512,
+          "is_dir": false
+        },
+        {
+          "name": "START.unpacked.exe",
+          "bytes": 78208,
+          "compressed_bytes": 38207,
+          "is_dir": false
+        },
+        {
+          "name": "START.unpacked.loadimage.unrelocated.bin",
+          "bytes": 75344,
+          "compressed_bytes": 36259,
+          "is_dir": false
+        },
+        {
+          "name": "START.unpacked.memory.bin",
+          "bytes": 75344,
+          "compressed_bytes": 36271,
+          "is_dir": false
+        },
+        {
+          "name": "START.unpacked.strings.txt",
+          "bytes": 6689,
+          "compressed_bytes": 3970,
+          "is_dir": false
+        }
+      ],
+      "extract_dir": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/reverse_engineering/imported/start"
+    },
+    {
+      "name": "GAME.OVR reverse-engineering package",
+      "zip_path": "/home/jzatopa/.openclaw/media/inbound/GAME_OVR_reverse_engineering_package---5461e321-756c-48f6-a105-e13acb723264.zip",
+      "sha256": "c6cac25cf56e52892ce68dcb44361fbd4a853fab87fbf1c5b9eb017449b9d87d",
+      "members": [
+        {
+          "name": "game_ovr_reverse_engineering/",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "is_dir": true
+        },
+        {
+          "name": "game_ovr_reverse_engineering/metadata.json",
+          "bytes": 496,
+          "compressed_bytes": 309,
+          "is_dir": false
+        },
+        {
+          "name": "game_ovr_reverse_engineering/GAME.OVR.strings.txt",
+          "bytes": 20970,
+          "compressed_bytes": 9705,
+          "is_dir": false
+        },
+        {
+          "name": "game_ovr_reverse_engineering/GAME.OVR.strings.csv",
+          "bytes": 27438,
+          "compressed_bytes": 13076,
+          "is_dir": false
+        },
+        {
+          "name": "game_ovr_reverse_engineering/GAME.OVR.pascal_style_strings.txt",
+          "bytes": 27791,
+          "compressed_bytes": 8878,
+          "is_dir": false
+        },
+        {
+          "name": "game_ovr_reverse_engineering/GAME.OVR.keyword_hits.txt",
+          "bytes": 5569,
+          "compressed_bytes": 1910,
+          "is_dir": false
+        },
+        {
+          "name": "game_ovr_reverse_engineering/GAME.OVR.first_4k.hex.txt",
+          "bytes": 19456,
+          "compressed_bytes": 5836,
+          "is_dir": false
+        },
+        {
+          "name": "game_ovr_reverse_engineering/GAME.OVR.payload_after_fbov_header.bin",
+          "bytes": 212521,
+          "compressed_bytes": 98637,
+          "is_dir": false
+        },
+        {
+          "name": "game_ovr_reverse_engineering/GAME.OVR.raw_8086_disassembly.asm",
+          "bytes": 4123606,
+          "compressed_bytes": 590312,
+          "is_dir": false
+        },
+        {
+          "name": "game_ovr_reverse_engineering/GAME.OVR.payload_8086_disassembly.asm",
+          "bytes": 4123439,
+          "compressed_bytes": 590336,
+          "is_dir": false
+        },
+        {
+          "name": "game_ovr_reverse_engineering/README.md",
+          "bytes": 3481,
+          "compressed_bytes": 1669,
+          "is_dir": false
+        }
+      ],
+      "extract_dir": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/reverse_engineering/imported/game_ovr"
+    }
+  ],
+  "start_review": {
+    "original": {
+      "path": "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/START.EXE",
+      "mz": true,
+      "bytes": 70277,
+      "sha256": "20d039d341c9d0851fe935d4eeb4de07e255e71aeb555cdb779d2ecf7e680597",
+      "declared_file_size": 70277,
+      "header_size": 512,
+      "load_image_size": 69765,
+      "relocations": 0,
+      "entry_cs_ip": "109B:0012",
+      "stack_ss_sp": "12D3:0080",
+      "reloc_table_offset": 28,
+      "overlay_number": 0
+    },
+    "package_unpacked_exe": {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/reverse_engineering/imported/start/START.unpacked.exe",
+      "mz": true,
+      "bytes": 78208,
+      "sha256": "2694f750e7f5e43745ad8b8ca84aa6dd205e6a87d9be815082e77e4b86c44840",
+      "declared_file_size": 78208,
+      "header_size": 2864,
+      "load_image_size": 75344,
+      "relocations": 708,
+      "entry_cs_ip": "0000:002F",
+      "stack_ss_sp": "18A1:4000",
+      "reloc_table_offset": 28,
+      "overlay_number": 0
+    },
+    "package_unpacked_memory": {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/reverse_engineering/imported/start/START.unpacked.memory.bin",
+      "bytes": 75344,
+      "sha256": "7a10dc6e363bf8303e6c8eba4a6f7bdd5d51de4694da1212249c8db0fdc131db"
+    },
+    "package_disassembly": {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/reverse_engineering/imported/start/START.unpacked.disassembly.asm",
+      "bytes": 1398685,
+      "sha256": "2c890109dbf31306d51c320021b5fa051de456941b20edcb9584d2a5ea6e1ab8"
+    },
+    "unpacked_strings_nonempty_lines": 532,
+    "original_contains_packed_corrupt_string": true,
+    "unpacked_contains_borland_copyright": true,
+    "verdict": "The package START.EXE hash matches the local original. The supplied unpacked EXE is a derived MZ artifact and should be treated as externally supplied best-effort evidence until its unpacking method is reproduced locally."
+  },
+  "game_ovr_review": {
+    "original": {
+      "path": "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/GAME.OVR",
+      "bytes": 212529,
+      "sha256": "d40f0309a114dbf2d9155c68404b0fb57cadb00e4841b3bfc335075a72296f67",
+      "fbov_magic": true,
+      "fbov_declared_payload_size": 212521,
+      "bytes_after_8_byte_fbov_header": 212521
+    },
+    "external_metadata": {
+      "file": "GAME.OVR",
+      "size_bytes": 212529,
+      "size_hex": "0x33e31",
+      "sha256": "d40f0309a114dbf2d9155c68404b0fb57cadb00e4841b3bfc335075a72296f67",
+      "magic_first_16": "46 42 4f 56 29 3e 03 00 1c 57 41 52 4e 49 4e 47",
+      "ascii_first_16": "FBOV)>...WARNING",
+      "fbov_magic": true,
+      "fbov_declared_size_le_dword_at_0x04": 212521,
+      "bytes_after_8_byte_fbov_header": 212521,
+      "entropy_min_4k": 6.141923309174819,
+      "entropy_max_4k": 7.050697068380404,
+      "entropy_avg_4k": 6.577248209238791
+    },
+    "payload": {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/reverse_engineering/imported/game_ovr/game_ovr_reverse_engineering/GAME.OVR.payload_after_fbov_header.bin",
+      "bytes": 212521,
+      "sha256": "14e9bb10f384564716fddebe8c4970188dc2982612cf516a31bc863dd4a2834e",
+      "matches_original_after_8_byte_fbov_header": true
+    },
+    "raw_disassembly": {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/reverse_engineering/imported/game_ovr/game_ovr_reverse_engineering/GAME.OVR.raw_8086_disassembly.asm",
+      "bytes": 4123606,
+      "sha256": "2a166f26b8e90ccc42dd01dc9415565c456725dc644a694fbdc44931f487404a"
+    },
+    "payload_disassembly": {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/reverse_engineering/imported/game_ovr/game_ovr_reverse_engineering/GAME.OVR.payload_8086_disassembly.asm",
+      "bytes": 4123439,
+      "sha256": "1c350825e3fe9f564ff36877fab1b5c506c9d43d85e8a1199e900841bacedfd9"
+    },
+    "verdict": "The package payload exactly matches local GAME.OVR bytes after the 8-byte FBOV header. Raw disassemblies are useful search evidence but include code/data ambiguity until overlay segments and relocations are mapped."
+  }
+}

@@ -1,0 +1,80 @@
+[state-migrations] Legacy state migration warnings:
+- Skipped Memory Core legacy memory index import for agent main because legacy rows could not be imported: Error: legacy memory meta rows conflict with canonical memory index rows
+│
+◇  Doctor warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - Skipped Memory Core legacy memory index import for agent main         │
+│    because legacy rows could not be imported: Error: legacy memory meta  │
+│    rows conflict with canonical memory index rows                        │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+model.run via local
+provider: ollama
+model: qwen3-coder:30b
+outputs: 1
+# Matrix Cubed Reconstruction: COAB Port-Map Comparison
+
+## VERIFIED_FROM_PROMPT
+
+The prompt requests a compact Markdown comparison of documented port plans against current Java package listings, identifying missing integration surfaces and validation steps. Evidence includes:
+- COAB combat port map (`coab-combat-port-map.md`)
+- COAB provenance audit (`coab-provenance-audit-2026-07-08.md`)  
+- COAB-to-Java stub audit (`coab-java-stub-audit.md`)
+
+## CANDIDATES
+
+### Surviving Java Components (as per port map):
+- `CombatAssetLoader`, `BattlefieldBuffer`, `RecoveredBattlefieldGenerator`
+- `SwingCombatUiBridge`, `HeadlessCombatUiBridge`, `LegacyGoldBoxCombatUiBridge`
+- `EclCombatBridge` (VM entry)
+- `CombatSession`, `CombatSessionResult`, `CombatPosition`
+
+### Replaced/Restructured Java Components:
+- `CombatTurnQueue`: replaced by delay-based initiative logic
+- `CombatController`: restructured from C# combat loop into Java scaffolding
+
+### Missing Candidates (per COAB mapping):
+- `CalculateInitiative` logic
+- `FindNextCombatant` algorithm  
+- `MainCombatLoop` control flow
+- `DoPlayerCombatTurn` implementation
+- `BattleRoundChecks` round-end logic
+- `AttackTarget`, `can_attack_target`, `TrySweepAttack` (attack resolution)
+- `BattleSetup`, `place_combatant`, `SetupDungeonFloor` (battlefield setup)
+- `canReachTarget`, `CanSeeCombatant` (LOS/pathing)
+- `add_affect`, `remove_affect` (effects/affects)
+- `CalcMoves`, `calc_movement` (movement)
+
+### Vague Citations (25 items):
+- Data records: `AttackOutcome`, `ReachResult`, `TileTraits`, `MoneyAccount`
+- Hook interfaces and methods with sub_ addresses
+- No exact file.function format in some cases
+
+## RISKS
+
+1. **Missing Combat Logic**: Core combat control flow (`MainCombatLoop`, `DoPlayerCombatTurn`) not yet implemented in Java.
+2. **Initiative System**: Dynamic delay-based initiative missing from current `CombatTurnQueue`.
+3. **Attack Resolution**: Missing COAB attack logic (`AttackTarget`, `can_attack_target`).
+4. **Affects/Effects**: No implementation for `add_affect`, `remove_affect`.
+5. **Pathing/LOS**: Missing `canReachTarget`, `CanSeeCombatant` logic.
+6. **Battlefield Setup**: `BattleSetup` and floor placement logic not ported.
+7. **Movement Logic**: `CalcMoves`, `calc_movement` unimplemented.
+8. **Provenance Risk**: Vague citations may obscure porting trail, though audit confirms no orphan logic.
+
+## LOCAL_VALIDATION_STEPS
+
+1. **Code Verification**: Confirm exact COAB function names match Java stubs via grep.
+2. **Control Flow Mapping**: Cross-check `MainCombatLoop` against `CombatController` scaffold.
+3. **Initiative Logic**: Implement delay-based system in `CombatTurnQueue`.
+4. **Attack Resolution**: Port attack logic (`AttackTarget`, `TrySweepAttack`) to `AttackResolver`.
+5. **Effect System**: Map `add_affect`, `remove_affect` to Java effect handlers.
+6. **Pathing/LOS**: Implement `canReachTarget`, `CanSeeCombatant`.
+7. **Movement**: Port movement calculations (`CalcMoves`, `calc_movement`).
+8. **Audit Trail**: Validate all 48 cited-verified functions against COAB commit.
+
+## UNSUPPORTED_CLAIMS
+
+- No evidence supports claims that AD&D numeric tables in `AdndAttackRuleset` or `AdndCoinage` apply to Matrix Cubed — they are labeled "flavor, not Matrix Cubed evidence".
+- `NeutralAttackRuleset`, `SingleCurrencyFlavor`, `SimpleMoneyAccount` correctly state they are not ports.
+- No COAB code was copied due to missing root license file; all porting is documented with provenance records.
+- Claims about opcode semantics (`SPACE_COMBAT`, `TREASURE*`, `ROB`) remain unresolved without Matrix evidence.

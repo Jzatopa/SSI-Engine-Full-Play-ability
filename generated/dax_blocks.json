@@ -1,0 +1,4279 @@
+[
+  {
+    "file": "8X8D0.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 6206,
+    "packed_size": 4560
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 16818,
+    "packed_size": 15066
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 3,
+    "offset": 15066,
+    "raw_size": 16818,
+    "packed_size": 14867
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 5,
+    "offset": 29933,
+    "raw_size": 16818,
+    "packed_size": 15215
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 7,
+    "offset": 45148,
+    "raw_size": 16818,
+    "packed_size": 14874
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 9,
+    "offset": 60022,
+    "raw_size": 16818,
+    "packed_size": 14286
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 11,
+    "offset": 74308,
+    "raw_size": 16818,
+    "packed_size": 15651
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 13,
+    "offset": 89959,
+    "raw_size": 16818,
+    "packed_size": 16109
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 15,
+    "offset": 106068,
+    "raw_size": 16818,
+    "packed_size": 16004
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 17,
+    "offset": 122072,
+    "raw_size": 16818,
+    "packed_size": 16330
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 19,
+    "offset": 138402,
+    "raw_size": 16818,
+    "packed_size": 14906
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 22,
+    "offset": 153308,
+    "raw_size": 16818,
+    "packed_size": 14349
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 201,
+    "offset": 167657,
+    "raw_size": 2048,
+    "packed_size": 580
+  },
+  {
+    "file": "8X8D1.DAX",
+    "id": 202,
+    "offset": 168237,
+    "raw_size": 1350,
+    "packed_size": 540
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 7870,
+    "packed_size": 3906
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 129,
+    "offset": 3906,
+    "raw_size": 7870,
+    "packed_size": 4234
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 3,
+    "offset": 8140,
+    "raw_size": 7870,
+    "packed_size": 4574
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 131,
+    "offset": 12714,
+    "raw_size": 7870,
+    "packed_size": 3314
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 5,
+    "offset": 16028,
+    "raw_size": 7870,
+    "packed_size": 3166
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 133,
+    "offset": 19194,
+    "raw_size": 7870,
+    "packed_size": 3954
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 7,
+    "offset": 23148,
+    "raw_size": 7870,
+    "packed_size": 3907
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 135,
+    "offset": 27055,
+    "raw_size": 7870,
+    "packed_size": 4865
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 9,
+    "offset": 31920,
+    "raw_size": 7870,
+    "packed_size": 8062
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 11,
+    "offset": 39982,
+    "raw_size": 7870,
+    "packed_size": 2926
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 139,
+    "offset": 42908,
+    "raw_size": 7870,
+    "packed_size": 6845
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 13,
+    "offset": 49753,
+    "raw_size": 7870,
+    "packed_size": 6359
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 141,
+    "offset": 56112,
+    "raw_size": 7870,
+    "packed_size": 6827
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 15,
+    "offset": 62939,
+    "raw_size": 7870,
+    "packed_size": 7093
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 143,
+    "offset": 70032,
+    "raw_size": 7870,
+    "packed_size": 6928
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 17,
+    "offset": 76960,
+    "raw_size": 7870,
+    "packed_size": 8059
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 19,
+    "offset": 85019,
+    "raw_size": 7870,
+    "packed_size": 4476
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 147,
+    "offset": 89495,
+    "raw_size": 7870,
+    "packed_size": 7459
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 22,
+    "offset": 96954,
+    "raw_size": 7870,
+    "packed_size": 2679
+  },
+  {
+    "file": "BACK1.DAX",
+    "id": 150,
+    "offset": 99633,
+    "raw_size": 7870,
+    "packed_size": 5145
+  },
+  {
+    "file": "BIGPIC1.DAX",
+    "id": 112,
+    "offset": 0,
+    "raw_size": 37278,
+    "packed_size": 37238
+  },
+  {
+    "file": "BIGPIC1.DAX",
+    "id": 113,
+    "offset": 37238,
+    "raw_size": 37278,
+    "packed_size": 38399
+  },
+  {
+    "file": "BIGPIC1.DAX",
+    "id": 114,
+    "offset": 75637,
+    "raw_size": 37278,
+    "packed_size": 27332
+  },
+  {
+    "file": "BIGPIC1.DAX",
+    "id": 115,
+    "offset": 102969,
+    "raw_size": 37278,
+    "packed_size": 32287
+  },
+  {
+    "file": "BIGPIC1.DAX",
+    "id": 116,
+    "offset": 135256,
+    "raw_size": 37278,
+    "packed_size": 37171
+  },
+  {
+    "file": "BIGPIC1.DAX",
+    "id": 117,
+    "offset": 172427,
+    "raw_size": 37278,
+    "packed_size": 31000
+  },
+  {
+    "file": "BORDERS.DAX",
+    "id": 0,
+    "offset": 0,
+    "raw_size": 838,
+    "packed_size": 660
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 0,
+    "offset": 0,
+    "raw_size": 758,
+    "packed_size": 439
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 128,
+    "offset": 439,
+    "raw_size": 758,
+    "packed_size": 428
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 1,
+    "offset": 867,
+    "raw_size": 758,
+    "packed_size": 440
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 129,
+    "offset": 1307,
+    "raw_size": 758,
+    "packed_size": 436
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 2,
+    "offset": 1743,
+    "raw_size": 758,
+    "packed_size": 431
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 130,
+    "offset": 2174,
+    "raw_size": 758,
+    "packed_size": 423
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 3,
+    "offset": 2597,
+    "raw_size": 758,
+    "packed_size": 461
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 131,
+    "offset": 3058,
+    "raw_size": 758,
+    "packed_size": 455
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 4,
+    "offset": 3513,
+    "raw_size": 758,
+    "packed_size": 441
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 132,
+    "offset": 3954,
+    "raw_size": 758,
+    "packed_size": 427
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 5,
+    "offset": 4381,
+    "raw_size": 758,
+    "packed_size": 444
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 133,
+    "offset": 4825,
+    "raw_size": 758,
+    "packed_size": 425
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 6,
+    "offset": 5250,
+    "raw_size": 758,
+    "packed_size": 458
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 134,
+    "offset": 5708,
+    "raw_size": 758,
+    "packed_size": 463
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 7,
+    "offset": 6171,
+    "raw_size": 758,
+    "packed_size": 429
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 135,
+    "offset": 6600,
+    "raw_size": 758,
+    "packed_size": 427
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 8,
+    "offset": 7027,
+    "raw_size": 758,
+    "packed_size": 435
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 136,
+    "offset": 7462,
+    "raw_size": 758,
+    "packed_size": 428
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 9,
+    "offset": 7890,
+    "raw_size": 758,
+    "packed_size": 444
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 137,
+    "offset": 8334,
+    "raw_size": 758,
+    "packed_size": 425
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 10,
+    "offset": 8759,
+    "raw_size": 758,
+    "packed_size": 425
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 138,
+    "offset": 9184,
+    "raw_size": 758,
+    "packed_size": 418
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 11,
+    "offset": 9602,
+    "raw_size": 758,
+    "packed_size": 436
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 139,
+    "offset": 10038,
+    "raw_size": 758,
+    "packed_size": 422
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 12,
+    "offset": 10460,
+    "raw_size": 758,
+    "packed_size": 433
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 140,
+    "offset": 10893,
+    "raw_size": 758,
+    "packed_size": 436
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 13,
+    "offset": 11329,
+    "raw_size": 758,
+    "packed_size": 427
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 141,
+    "offset": 11756,
+    "raw_size": 758,
+    "packed_size": 422
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 14,
+    "offset": 12178,
+    "raw_size": 758,
+    "packed_size": 427
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 142,
+    "offset": 12605,
+    "raw_size": 758,
+    "packed_size": 425
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 15,
+    "offset": 13030,
+    "raw_size": 758,
+    "packed_size": 422
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 143,
+    "offset": 13452,
+    "raw_size": 758,
+    "packed_size": 425
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 16,
+    "offset": 13877,
+    "raw_size": 758,
+    "packed_size": 464
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 144,
+    "offset": 14341,
+    "raw_size": 758,
+    "packed_size": 452
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 17,
+    "offset": 14793,
+    "raw_size": 758,
+    "packed_size": 376
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 145,
+    "offset": 15169,
+    "raw_size": 758,
+    "packed_size": 373
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 18,
+    "offset": 15542,
+    "raw_size": 758,
+    "packed_size": 411
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 146,
+    "offset": 15953,
+    "raw_size": 758,
+    "packed_size": 385
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 19,
+    "offset": 16338,
+    "raw_size": 758,
+    "packed_size": 417
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 147,
+    "offset": 16755,
+    "raw_size": 758,
+    "packed_size": 404
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 20,
+    "offset": 17159,
+    "raw_size": 758,
+    "packed_size": 415
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 148,
+    "offset": 17574,
+    "raw_size": 758,
+    "packed_size": 399
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 21,
+    "offset": 17973,
+    "raw_size": 758,
+    "packed_size": 450
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 149,
+    "offset": 18423,
+    "raw_size": 758,
+    "packed_size": 424
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 22,
+    "offset": 18847,
+    "raw_size": 758,
+    "packed_size": 474
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 150,
+    "offset": 19321,
+    "raw_size": 758,
+    "packed_size": 441
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 23,
+    "offset": 19762,
+    "raw_size": 758,
+    "packed_size": 524
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 151,
+    "offset": 20286,
+    "raw_size": 758,
+    "packed_size": 485
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 24,
+    "offset": 20771,
+    "raw_size": 758,
+    "packed_size": 459
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 152,
+    "offset": 21230,
+    "raw_size": 758,
+    "packed_size": 426
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 25,
+    "offset": 21656,
+    "raw_size": 758,
+    "packed_size": 410
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 153,
+    "offset": 22066,
+    "raw_size": 758,
+    "packed_size": 412
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 26,
+    "offset": 22478,
+    "raw_size": 758,
+    "packed_size": 462
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 154,
+    "offset": 22940,
+    "raw_size": 758,
+    "packed_size": 424
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 27,
+    "offset": 23364,
+    "raw_size": 758,
+    "packed_size": 470
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 155,
+    "offset": 23834,
+    "raw_size": 758,
+    "packed_size": 477
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 28,
+    "offset": 24311,
+    "raw_size": 758,
+    "packed_size": 485
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 156,
+    "offset": 24796,
+    "raw_size": 758,
+    "packed_size": 456
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 29,
+    "offset": 25252,
+    "raw_size": 758,
+    "packed_size": 417
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 157,
+    "offset": 25669,
+    "raw_size": 758,
+    "packed_size": 398
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 30,
+    "offset": 26067,
+    "raw_size": 758,
+    "packed_size": 407
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 158,
+    "offset": 26474,
+    "raw_size": 758,
+    "packed_size": 367
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 31,
+    "offset": 26841,
+    "raw_size": 758,
+    "packed_size": 487
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 159,
+    "offset": 27328,
+    "raw_size": 758,
+    "packed_size": 493
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 32,
+    "offset": 27821,
+    "raw_size": 758,
+    "packed_size": 467
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 160,
+    "offset": 28288,
+    "raw_size": 758,
+    "packed_size": 457
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 33,
+    "offset": 28745,
+    "raw_size": 758,
+    "packed_size": 460
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 161,
+    "offset": 29205,
+    "raw_size": 758,
+    "packed_size": 444
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 34,
+    "offset": 29649,
+    "raw_size": 758,
+    "packed_size": 436
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 162,
+    "offset": 30085,
+    "raw_size": 758,
+    "packed_size": 437
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 35,
+    "offset": 30522,
+    "raw_size": 758,
+    "packed_size": 460
+  },
+  {
+    "file": "CHARS.DAX",
+    "id": 163,
+    "offset": 30982,
+    "raw_size": 758,
+    "packed_size": 438
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 702,
+    "packed_size": 429
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 129,
+    "offset": 429,
+    "raw_size": 702,
+    "packed_size": 429
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 2,
+    "offset": 858,
+    "raw_size": 702,
+    "packed_size": 417
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 130,
+    "offset": 1275,
+    "raw_size": 702,
+    "packed_size": 417
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 3,
+    "offset": 1692,
+    "raw_size": 702,
+    "packed_size": 362
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 131,
+    "offset": 2054,
+    "raw_size": 702,
+    "packed_size": 360
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 4,
+    "offset": 2414,
+    "raw_size": 702,
+    "packed_size": 218
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 132,
+    "offset": 2632,
+    "raw_size": 702,
+    "packed_size": 218
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 5,
+    "offset": 2850,
+    "raw_size": 702,
+    "packed_size": 196
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 133,
+    "offset": 3046,
+    "raw_size": 702,
+    "packed_size": 196
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 6,
+    "offset": 3242,
+    "raw_size": 702,
+    "packed_size": 152
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 134,
+    "offset": 3394,
+    "raw_size": 702,
+    "packed_size": 152
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 7,
+    "offset": 3546,
+    "raw_size": 702,
+    "packed_size": 228
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 135,
+    "offset": 3774,
+    "raw_size": 702,
+    "packed_size": 228
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 8,
+    "offset": 4002,
+    "raw_size": 702,
+    "packed_size": 226
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 136,
+    "offset": 4228,
+    "raw_size": 702,
+    "packed_size": 223
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 9,
+    "offset": 4451,
+    "raw_size": 702,
+    "packed_size": 207
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 137,
+    "offset": 4658,
+    "raw_size": 702,
+    "packed_size": 207
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 10,
+    "offset": 4865,
+    "raw_size": 702,
+    "packed_size": 198
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 138,
+    "offset": 5063,
+    "raw_size": 702,
+    "packed_size": 198
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 11,
+    "offset": 5261,
+    "raw_size": 702,
+    "packed_size": 198
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 139,
+    "offset": 5459,
+    "raw_size": 702,
+    "packed_size": 198
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 12,
+    "offset": 5657,
+    "raw_size": 702,
+    "packed_size": 182
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 140,
+    "offset": 5839,
+    "raw_size": 702,
+    "packed_size": 182
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 13,
+    "offset": 6021,
+    "raw_size": 702,
+    "packed_size": 256
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 141,
+    "offset": 6277,
+    "raw_size": 702,
+    "packed_size": 256
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 14,
+    "offset": 6533,
+    "raw_size": 702,
+    "packed_size": 256
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 142,
+    "offset": 6789,
+    "raw_size": 702,
+    "packed_size": 254
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 15,
+    "offset": 7043,
+    "raw_size": 702,
+    "packed_size": 206
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 143,
+    "offset": 7249,
+    "raw_size": 702,
+    "packed_size": 206
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 16,
+    "offset": 7455,
+    "raw_size": 702,
+    "packed_size": 451
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 144,
+    "offset": 7906,
+    "raw_size": 702,
+    "packed_size": 705
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 17,
+    "offset": 8611,
+    "raw_size": 702,
+    "packed_size": 331
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 145,
+    "offset": 8942,
+    "raw_size": 702,
+    "packed_size": 552
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 18,
+    "offset": 9494,
+    "raw_size": 702,
+    "packed_size": 550
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 146,
+    "offset": 10044,
+    "raw_size": 702,
+    "packed_size": 550
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 19,
+    "offset": 10594,
+    "raw_size": 702,
+    "packed_size": 493
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 147,
+    "offset": 11087,
+    "raw_size": 702,
+    "packed_size": 506
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 20,
+    "offset": 11593,
+    "raw_size": 702,
+    "packed_size": 226
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 148,
+    "offset": 11819,
+    "raw_size": 702,
+    "packed_size": 226
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 21,
+    "offset": 12045,
+    "raw_size": 702,
+    "packed_size": 658
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 149,
+    "offset": 12703,
+    "raw_size": 702,
+    "packed_size": 688
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 22,
+    "offset": 13391,
+    "raw_size": 702,
+    "packed_size": 689
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 150,
+    "offset": 14080,
+    "raw_size": 702,
+    "packed_size": 641
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 23,
+    "offset": 14721,
+    "raw_size": 702,
+    "packed_size": 348
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 151,
+    "offset": 15069,
+    "raw_size": 702,
+    "packed_size": 146
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 24,
+    "offset": 15215,
+    "raw_size": 702,
+    "packed_size": 532
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 152,
+    "offset": 15747,
+    "raw_size": 702,
+    "packed_size": 372
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 25,
+    "offset": 16119,
+    "raw_size": 702,
+    "packed_size": 205
+  },
+  {
+    "file": "COMSPR.DAX",
+    "id": 153,
+    "offset": 16324,
+    "raw_size": 702,
+    "packed_size": 204
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 982,
+    "packed_size": 633
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 129,
+    "offset": 633,
+    "raw_size": 982,
+    "packed_size": 615
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 2,
+    "offset": 1248,
+    "raw_size": 982,
+    "packed_size": 635
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 130,
+    "offset": 1883,
+    "raw_size": 982,
+    "packed_size": 617
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 3,
+    "offset": 2500,
+    "raw_size": 982,
+    "packed_size": 635
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 131,
+    "offset": 3135,
+    "raw_size": 982,
+    "packed_size": 613
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 4,
+    "offset": 3748,
+    "raw_size": 982,
+    "packed_size": 627
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 132,
+    "offset": 4375,
+    "raw_size": 982,
+    "packed_size": 610
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 5,
+    "offset": 4985,
+    "raw_size": 982,
+    "packed_size": 650
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 133,
+    "offset": 5635,
+    "raw_size": 982,
+    "packed_size": 642
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 8,
+    "offset": 6277,
+    "raw_size": 982,
+    "packed_size": 643
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 136,
+    "offset": 6920,
+    "raw_size": 982,
+    "packed_size": 631
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 9,
+    "offset": 7551,
+    "raw_size": 982,
+    "packed_size": 804
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 137,
+    "offset": 8355,
+    "raw_size": 982,
+    "packed_size": 827
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 10,
+    "offset": 9182,
+    "raw_size": 1558,
+    "packed_size": 928
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 138,
+    "offset": 10110,
+    "raw_size": 1558,
+    "packed_size": 952
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 11,
+    "offset": 11062,
+    "raw_size": 982,
+    "packed_size": 778
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 139,
+    "offset": 11840,
+    "raw_size": 982,
+    "packed_size": 755
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 12,
+    "offset": 12595,
+    "raw_size": 982,
+    "packed_size": 676
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 140,
+    "offset": 13271,
+    "raw_size": 982,
+    "packed_size": 702
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 13,
+    "offset": 13973,
+    "raw_size": 982,
+    "packed_size": 678
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 141,
+    "offset": 14651,
+    "raw_size": 982,
+    "packed_size": 703
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 14,
+    "offset": 15354,
+    "raw_size": 982,
+    "packed_size": 671
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 142,
+    "offset": 16025,
+    "raw_size": 982,
+    "packed_size": 616
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 17,
+    "offset": 16641,
+    "raw_size": 982,
+    "packed_size": 696
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 145,
+    "offset": 17337,
+    "raw_size": 982,
+    "packed_size": 728
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 18,
+    "offset": 18065,
+    "raw_size": 2710,
+    "packed_size": 2290
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 146,
+    "offset": 20355,
+    "raw_size": 2710,
+    "packed_size": 2135
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 19,
+    "offset": 22490,
+    "raw_size": 982,
+    "packed_size": 682
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 147,
+    "offset": 23172,
+    "raw_size": 982,
+    "packed_size": 634
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 21,
+    "offset": 23806,
+    "raw_size": 2710,
+    "packed_size": 1613
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 149,
+    "offset": 25419,
+    "raw_size": 2710,
+    "packed_size": 1625
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 22,
+    "offset": 27044,
+    "raw_size": 2710,
+    "packed_size": 1783
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 150,
+    "offset": 28827,
+    "raw_size": 2710,
+    "packed_size": 1688
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 23,
+    "offset": 30515,
+    "raw_size": 982,
+    "packed_size": 642
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 151,
+    "offset": 31157,
+    "raw_size": 982,
+    "packed_size": 590
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 24,
+    "offset": 31747,
+    "raw_size": 982,
+    "packed_size": 763
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 152,
+    "offset": 32510,
+    "raw_size": 982,
+    "packed_size": 717
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 25,
+    "offset": 33227,
+    "raw_size": 982,
+    "packed_size": 713
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 153,
+    "offset": 33940,
+    "raw_size": 982,
+    "packed_size": 670
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 26,
+    "offset": 34610,
+    "raw_size": 982,
+    "packed_size": 650
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 154,
+    "offset": 35260,
+    "raw_size": 982,
+    "packed_size": 667
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 29,
+    "offset": 35927,
+    "raw_size": 2710,
+    "packed_size": 1244
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 157,
+    "offset": 37171,
+    "raw_size": 2710,
+    "packed_size": 1296
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 30,
+    "offset": 38467,
+    "raw_size": 982,
+    "packed_size": 655
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 158,
+    "offset": 39122,
+    "raw_size": 982,
+    "packed_size": 659
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 31,
+    "offset": 39781,
+    "raw_size": 982,
+    "packed_size": 622
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 159,
+    "offset": 40403,
+    "raw_size": 982,
+    "packed_size": 613
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 32,
+    "offset": 41016,
+    "raw_size": 2710,
+    "packed_size": 1787
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 160,
+    "offset": 42803,
+    "raw_size": 2710,
+    "packed_size": 1839
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 33,
+    "offset": 44642,
+    "raw_size": 982,
+    "packed_size": 600
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 161,
+    "offset": 45242,
+    "raw_size": 982,
+    "packed_size": 634
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 35,
+    "offset": 45876,
+    "raw_size": 982,
+    "packed_size": 683
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 163,
+    "offset": 46559,
+    "raw_size": 982,
+    "packed_size": 712
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 36,
+    "offset": 47271,
+    "raw_size": 982,
+    "packed_size": 658
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 164,
+    "offset": 47929,
+    "raw_size": 982,
+    "packed_size": 653
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 37,
+    "offset": 48582,
+    "raw_size": 982,
+    "packed_size": 609
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 165,
+    "offset": 49191,
+    "raw_size": 982,
+    "packed_size": 673
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 39,
+    "offset": 49864,
+    "raw_size": 1558,
+    "packed_size": 1022
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 167,
+    "offset": 50886,
+    "raw_size": 1558,
+    "packed_size": 1134
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 40,
+    "offset": 52020,
+    "raw_size": 1558,
+    "packed_size": 1021
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 168,
+    "offset": 53041,
+    "raw_size": 1558,
+    "packed_size": 1071
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 41,
+    "offset": 54112,
+    "raw_size": 982,
+    "packed_size": 755
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 169,
+    "offset": 54867,
+    "raw_size": 982,
+    "packed_size": 780
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 42,
+    "offset": 55647,
+    "raw_size": 1558,
+    "packed_size": 1310
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 170,
+    "offset": 56957,
+    "raw_size": 1558,
+    "packed_size": 1351
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 43,
+    "offset": 58308,
+    "raw_size": 982,
+    "packed_size": 724
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 171,
+    "offset": 59032,
+    "raw_size": 982,
+    "packed_size": 697
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 44,
+    "offset": 59729,
+    "raw_size": 982,
+    "packed_size": 809
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 172,
+    "offset": 60538,
+    "raw_size": 982,
+    "packed_size": 718
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 45,
+    "offset": 61256,
+    "raw_size": 982,
+    "packed_size": 805
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 173,
+    "offset": 62061,
+    "raw_size": 982,
+    "packed_size": 802
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 46,
+    "offset": 62863,
+    "raw_size": 982,
+    "packed_size": 636
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 174,
+    "offset": 63499,
+    "raw_size": 982,
+    "packed_size": 635
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 47,
+    "offset": 64134,
+    "raw_size": 1558,
+    "packed_size": 1056
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 175,
+    "offset": 65190,
+    "raw_size": 1558,
+    "packed_size": 1260
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 48,
+    "offset": 66450,
+    "raw_size": 1558,
+    "packed_size": 1147
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 176,
+    "offset": 67597,
+    "raw_size": 1558,
+    "packed_size": 1186
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 49,
+    "offset": 68783,
+    "raw_size": 1558,
+    "packed_size": 1197
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 177,
+    "offset": 69980,
+    "raw_size": 1558,
+    "packed_size": 1275
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 50,
+    "offset": 71255,
+    "raw_size": 982,
+    "packed_size": 703
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 178,
+    "offset": 71958,
+    "raw_size": 982,
+    "packed_size": 697
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 51,
+    "offset": 72655,
+    "raw_size": 982,
+    "packed_size": 778
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 179,
+    "offset": 73433,
+    "raw_size": 982,
+    "packed_size": 784
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 52,
+    "offset": 74217,
+    "raw_size": 982,
+    "packed_size": 697
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 180,
+    "offset": 74914,
+    "raw_size": 982,
+    "packed_size": 708
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 53,
+    "offset": 75622,
+    "raw_size": 982,
+    "packed_size": 711
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 181,
+    "offset": 76333,
+    "raw_size": 982,
+    "packed_size": 695
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 54,
+    "offset": 77028,
+    "raw_size": 982,
+    "packed_size": 780
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 182,
+    "offset": 77808,
+    "raw_size": 982,
+    "packed_size": 774
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 55,
+    "offset": 78582,
+    "raw_size": 982,
+    "packed_size": 591
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 183,
+    "offset": 79173,
+    "raw_size": 982,
+    "packed_size": 591
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 56,
+    "offset": 79764,
+    "raw_size": 982,
+    "packed_size": 548
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 184,
+    "offset": 80312,
+    "raw_size": 982,
+    "packed_size": 521
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 57,
+    "offset": 80833,
+    "raw_size": 982,
+    "packed_size": 636
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 185,
+    "offset": 81469,
+    "raw_size": 982,
+    "packed_size": 626
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 58,
+    "offset": 82095,
+    "raw_size": 982,
+    "packed_size": 676
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 186,
+    "offset": 82771,
+    "raw_size": 982,
+    "packed_size": 699
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 59,
+    "offset": 83470,
+    "raw_size": 982,
+    "packed_size": 675
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 187,
+    "offset": 84145,
+    "raw_size": 982,
+    "packed_size": 699
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 60,
+    "offset": 84844,
+    "raw_size": 982,
+    "packed_size": 676
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 188,
+    "offset": 85520,
+    "raw_size": 982,
+    "packed_size": 688
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 61,
+    "offset": 86208,
+    "raw_size": 982,
+    "packed_size": 746
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 189,
+    "offset": 86954,
+    "raw_size": 982,
+    "packed_size": 650
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 63,
+    "offset": 87604,
+    "raw_size": 1558,
+    "packed_size": 1147
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 191,
+    "offset": 88751,
+    "raw_size": 1558,
+    "packed_size": 1208
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 64,
+    "offset": 89959,
+    "raw_size": 982,
+    "packed_size": 699
+  },
+  {
+    "file": "CPIC1.DAX",
+    "id": 192,
+    "offset": 90658,
+    "raw_size": 982,
+    "packed_size": 633
+  },
+  {
+    "file": "CURSOR.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 134,
+    "packed_size": 121
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 3702,
+    "packed_size": 3850
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 2,
+    "offset": 3850,
+    "raw_size": 764,
+    "packed_size": 796
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 16,
+    "offset": 4646,
+    "raw_size": 33,
+    "packed_size": 40
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 17,
+    "offset": 4686,
+    "raw_size": 9008,
+    "packed_size": 9235
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 18,
+    "offset": 13921,
+    "raw_size": 8537,
+    "packed_size": 8755
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 19,
+    "offset": 22676,
+    "raw_size": 9210,
+    "packed_size": 9644
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 20,
+    "offset": 32320,
+    "raw_size": 7483,
+    "packed_size": 7836
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 21,
+    "offset": 40156,
+    "raw_size": 4320,
+    "packed_size": 4418
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 24,
+    "offset": 44574,
+    "raw_size": 622,
+    "packed_size": 619
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 32,
+    "offset": 45193,
+    "raw_size": 8407,
+    "packed_size": 8334
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 33,
+    "offset": 53527,
+    "raw_size": 8954,
+    "packed_size": 9156
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 34,
+    "offset": 62683,
+    "raw_size": 8967,
+    "packed_size": 9207
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 35,
+    "offset": 71890,
+    "raw_size": 9212,
+    "packed_size": 9430
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 36,
+    "offset": 81320,
+    "raw_size": 7777,
+    "packed_size": 7974
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 37,
+    "offset": 89294,
+    "raw_size": 9205,
+    "packed_size": 9437
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 38,
+    "offset": 98731,
+    "raw_size": 8978,
+    "packed_size": 9224
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 48,
+    "offset": 107955,
+    "raw_size": 8884,
+    "packed_size": 8900
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 49,
+    "offset": 116855,
+    "raw_size": 9130,
+    "packed_size": 9318
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 50,
+    "offset": 126173,
+    "raw_size": 9158,
+    "packed_size": 9401
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 64,
+    "offset": 135574,
+    "raw_size": 9208,
+    "packed_size": 9489
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 65,
+    "offset": 145063,
+    "raw_size": 6027,
+    "packed_size": 6189
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 66,
+    "offset": 151252,
+    "raw_size": 8804,
+    "packed_size": 8986
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 80,
+    "offset": 160238,
+    "raw_size": 9193,
+    "packed_size": 9397
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 81,
+    "offset": 169635,
+    "raw_size": 5942,
+    "packed_size": 6094
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 82,
+    "offset": 175729,
+    "raw_size": 8084,
+    "packed_size": 8272
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 84,
+    "offset": 184001,
+    "raw_size": 8896,
+    "packed_size": 9095
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 95,
+    "offset": 193096,
+    "raw_size": 6136,
+    "packed_size": 6369
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 96,
+    "offset": 199465,
+    "raw_size": 9212,
+    "packed_size": 9489
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 97,
+    "offset": 208954,
+    "raw_size": 7360,
+    "packed_size": 7564
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 98,
+    "offset": 216518,
+    "raw_size": 9167,
+    "packed_size": 9441
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 112,
+    "offset": 225959,
+    "raw_size": 9216,
+    "packed_size": 9444
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 113,
+    "offset": 235403,
+    "raw_size": 8787,
+    "packed_size": 8955
+  },
+  {
+    "file": "ECL1.DAX",
+    "id": 114,
+    "offset": 244358,
+    "raw_size": 9190,
+    "packed_size": 9375
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 1026,
+    "packed_size": 887
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 17,
+    "offset": 887,
+    "raw_size": 1026,
+    "packed_size": 794
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 18,
+    "offset": 1681,
+    "raw_size": 1026,
+    "packed_size": 207
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 21,
+    "offset": 1888,
+    "raw_size": 1026,
+    "packed_size": 840
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 33,
+    "offset": 2728,
+    "raw_size": 1026,
+    "packed_size": 983
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 34,
+    "offset": 3711,
+    "raw_size": 1026,
+    "packed_size": 967
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 35,
+    "offset": 4678,
+    "raw_size": 1026,
+    "packed_size": 876
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 38,
+    "offset": 5554,
+    "raw_size": 1026,
+    "packed_size": 908
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 49,
+    "offset": 6462,
+    "raw_size": 1026,
+    "packed_size": 790
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 50,
+    "offset": 7252,
+    "raw_size": 1026,
+    "packed_size": 752
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 51,
+    "offset": 8004,
+    "raw_size": 1026,
+    "packed_size": 803
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 52,
+    "offset": 8807,
+    "raw_size": 1026,
+    "packed_size": 871
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 64,
+    "offset": 9678,
+    "raw_size": 1026,
+    "packed_size": 887
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 65,
+    "offset": 10565,
+    "raw_size": 1026,
+    "packed_size": 891
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 66,
+    "offset": 11456,
+    "raw_size": 1026,
+    "packed_size": 993
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 80,
+    "offset": 12449,
+    "raw_size": 1026,
+    "packed_size": 1023
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 81,
+    "offset": 13472,
+    "raw_size": 1026,
+    "packed_size": 947
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 82,
+    "offset": 14419,
+    "raw_size": 1026,
+    "packed_size": 890
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 84,
+    "offset": 15309,
+    "raw_size": 1026,
+    "packed_size": 840
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 96,
+    "offset": 16149,
+    "raw_size": 1026,
+    "packed_size": 955
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 97,
+    "offset": 17104,
+    "raw_size": 1026,
+    "packed_size": 949
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 112,
+    "offset": 18053,
+    "raw_size": 1026,
+    "packed_size": 939
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 113,
+    "offset": 18992,
+    "raw_size": 1026,
+    "packed_size": 917
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 114,
+    "offset": 19909,
+    "raw_size": 1026,
+    "packed_size": 819
+  },
+  {
+    "file": "GEO1.DAX",
+    "id": 115,
+    "offset": 20728,
+    "raw_size": 1026,
+    "packed_size": 325
+  },
+  {
+    "file": "HITEK.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 30654,
+    "packed_size": 16512
+  },
+  {
+    "file": "ITEM0.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 1456,
+    "packed_size": 1523
+  },
+  {
+    "file": "LOTEK.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 30078,
+    "packed_size": 16256
+  },
+  {
+    "file": "MARSCOM.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 24318,
+    "packed_size": 15730
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 259,
+    "packed_size": 105
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 2,
+    "offset": 105,
+    "raw_size": 259,
+    "packed_size": 95
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 3,
+    "offset": 200,
+    "raw_size": 259,
+    "packed_size": 95
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 4,
+    "offset": 295,
+    "raw_size": 259,
+    "packed_size": 94
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 5,
+    "offset": 389,
+    "raw_size": 259,
+    "packed_size": 104
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 6,
+    "offset": 493,
+    "raw_size": 259,
+    "packed_size": 103
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 7,
+    "offset": 596,
+    "raw_size": 259,
+    "packed_size": 107
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 8,
+    "offset": 703,
+    "raw_size": 259,
+    "packed_size": 108
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 9,
+    "offset": 811,
+    "raw_size": 259,
+    "packed_size": 84
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 10,
+    "offset": 895,
+    "raw_size": 259,
+    "packed_size": 87
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 11,
+    "offset": 982,
+    "raw_size": 259,
+    "packed_size": 83
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 12,
+    "offset": 1065,
+    "raw_size": 259,
+    "packed_size": 108
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 13,
+    "offset": 1173,
+    "raw_size": 259,
+    "packed_size": 112
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 14,
+    "offset": 1285,
+    "raw_size": 259,
+    "packed_size": 109
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 15,
+    "offset": 1394,
+    "raw_size": 259,
+    "packed_size": 162
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 16,
+    "offset": 1556,
+    "raw_size": 259,
+    "packed_size": 107
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 17,
+    "offset": 1663,
+    "raw_size": 259,
+    "packed_size": 105
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 18,
+    "offset": 1768,
+    "raw_size": 259,
+    "packed_size": 96
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 19,
+    "offset": 1864,
+    "raw_size": 259,
+    "packed_size": 108
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 20,
+    "offset": 1972,
+    "raw_size": 259,
+    "packed_size": 107
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 21,
+    "offset": 2079,
+    "raw_size": 259,
+    "packed_size": 105
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 22,
+    "offset": 2184,
+    "raw_size": 259,
+    "packed_size": 95
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 23,
+    "offset": 2279,
+    "raw_size": 259,
+    "packed_size": 100
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 24,
+    "offset": 2379,
+    "raw_size": 259,
+    "packed_size": 103
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 25,
+    "offset": 2482,
+    "raw_size": 259,
+    "packed_size": 74
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 26,
+    "offset": 2556,
+    "raw_size": 259,
+    "packed_size": 100
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 27,
+    "offset": 2656,
+    "raw_size": 259,
+    "packed_size": 121
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 28,
+    "offset": 2777,
+    "raw_size": 259,
+    "packed_size": 138
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 29,
+    "offset": 2915,
+    "raw_size": 259,
+    "packed_size": 149
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 30,
+    "offset": 3064,
+    "raw_size": 259,
+    "packed_size": 170
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 31,
+    "offset": 3234,
+    "raw_size": 259,
+    "packed_size": 106
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 32,
+    "offset": 3340,
+    "raw_size": 259,
+    "packed_size": 98
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 33,
+    "offset": 3438,
+    "raw_size": 259,
+    "packed_size": 102
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 35,
+    "offset": 3540,
+    "raw_size": 259,
+    "packed_size": 111
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 36,
+    "offset": 3651,
+    "raw_size": 259,
+    "packed_size": 92
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 37,
+    "offset": 3743,
+    "raw_size": 259,
+    "packed_size": 92
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 38,
+    "offset": 3835,
+    "raw_size": 259,
+    "packed_size": 90
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 39,
+    "offset": 3925,
+    "raw_size": 259,
+    "packed_size": 104
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 40,
+    "offset": 4029,
+    "raw_size": 259,
+    "packed_size": 93
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 41,
+    "offset": 4122,
+    "raw_size": 259,
+    "packed_size": 91
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 42,
+    "offset": 4213,
+    "raw_size": 259,
+    "packed_size": 94
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 43,
+    "offset": 4307,
+    "raw_size": 259,
+    "packed_size": 116
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 44,
+    "offset": 4423,
+    "raw_size": 259,
+    "packed_size": 123
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 45,
+    "offset": 4546,
+    "raw_size": 259,
+    "packed_size": 102
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 46,
+    "offset": 4648,
+    "raw_size": 259,
+    "packed_size": 117
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 47,
+    "offset": 4765,
+    "raw_size": 259,
+    "packed_size": 101
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 48,
+    "offset": 4866,
+    "raw_size": 259,
+    "packed_size": 107
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 49,
+    "offset": 4973,
+    "raw_size": 259,
+    "packed_size": 101
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 50,
+    "offset": 5074,
+    "raw_size": 259,
+    "packed_size": 103
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 51,
+    "offset": 5177,
+    "raw_size": 259,
+    "packed_size": 106
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 52,
+    "offset": 5283,
+    "raw_size": 259,
+    "packed_size": 114
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 53,
+    "offset": 5397,
+    "raw_size": 259,
+    "packed_size": 104
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 54,
+    "offset": 5501,
+    "raw_size": 259,
+    "packed_size": 121
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 55,
+    "offset": 5622,
+    "raw_size": 259,
+    "packed_size": 144
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 56,
+    "offset": 5766,
+    "raw_size": 259,
+    "packed_size": 125
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 57,
+    "offset": 5891,
+    "raw_size": 259,
+    "packed_size": 168
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 58,
+    "offset": 6059,
+    "raw_size": 259,
+    "packed_size": 109
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 59,
+    "offset": 6168,
+    "raw_size": 259,
+    "packed_size": 107
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 60,
+    "offset": 6275,
+    "raw_size": 259,
+    "packed_size": 144
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 61,
+    "offset": 6419,
+    "raw_size": 259,
+    "packed_size": 113
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 62,
+    "offset": 6532,
+    "raw_size": 259,
+    "packed_size": 155
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 63,
+    "offset": 6687,
+    "raw_size": 259,
+    "packed_size": 96
+  },
+  {
+    "file": "MON0CHA.DAX",
+    "id": 64,
+    "offset": 6783,
+    "raw_size": 259,
+    "packed_size": 103
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 372,
+    "packed_size": 375
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 2,
+    "offset": 375,
+    "raw_size": 124,
+    "packed_size": 124
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 3,
+    "offset": 499,
+    "raw_size": 124,
+    "packed_size": 118
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 4,
+    "offset": 617,
+    "raw_size": 62,
+    "packed_size": 63
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 5,
+    "offset": 680,
+    "raw_size": 434,
+    "packed_size": 167
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 6,
+    "offset": 847,
+    "raw_size": 372,
+    "packed_size": 219
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 7,
+    "offset": 1066,
+    "raw_size": 186,
+    "packed_size": 187
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 8,
+    "offset": 1253,
+    "raw_size": 186,
+    "packed_size": 165
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 12,
+    "offset": 1418,
+    "raw_size": 186,
+    "packed_size": 185
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 13,
+    "offset": 1603,
+    "raw_size": 248,
+    "packed_size": 252
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 14,
+    "offset": 1855,
+    "raw_size": 248,
+    "packed_size": 250
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 15,
+    "offset": 2105,
+    "raw_size": 248,
+    "packed_size": 224
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 16,
+    "offset": 2329,
+    "raw_size": 248,
+    "packed_size": 225
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 17,
+    "offset": 2554,
+    "raw_size": 124,
+    "packed_size": 125
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 19,
+    "offset": 2679,
+    "raw_size": 248,
+    "packed_size": 252
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 20,
+    "offset": 2931,
+    "raw_size": 248,
+    "packed_size": 250
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 21,
+    "offset": 3181,
+    "raw_size": 124,
+    "packed_size": 124
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 23,
+    "offset": 3305,
+    "raw_size": 186,
+    "packed_size": 187
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 29,
+    "offset": 3492,
+    "raw_size": 186,
+    "packed_size": 70
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 30,
+    "offset": 3562,
+    "raw_size": 62,
+    "packed_size": 16
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 31,
+    "offset": 3578,
+    "raw_size": 186,
+    "packed_size": 191
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 33,
+    "offset": 3769,
+    "raw_size": 310,
+    "packed_size": 315
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 35,
+    "offset": 4084,
+    "raw_size": 248,
+    "packed_size": 248
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 38,
+    "offset": 4332,
+    "raw_size": 124,
+    "packed_size": 105
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 43,
+    "offset": 4437,
+    "raw_size": 248,
+    "packed_size": 251
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 44,
+    "offset": 4688,
+    "raw_size": 310,
+    "packed_size": 312
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 45,
+    "offset": 5000,
+    "raw_size": 186,
+    "packed_size": 177
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 46,
+    "offset": 5177,
+    "raw_size": 186,
+    "packed_size": 188
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 48,
+    "offset": 5365,
+    "raw_size": 124,
+    "packed_size": 128
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 49,
+    "offset": 5493,
+    "raw_size": 248,
+    "packed_size": 252
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 50,
+    "offset": 5745,
+    "raw_size": 186,
+    "packed_size": 190
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 51,
+    "offset": 5935,
+    "raw_size": 248,
+    "packed_size": 255
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 52,
+    "offset": 6190,
+    "raw_size": 310,
+    "packed_size": 310
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 53,
+    "offset": 6500,
+    "raw_size": 124,
+    "packed_size": 125
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 54,
+    "offset": 6625,
+    "raw_size": 248,
+    "packed_size": 251
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 55,
+    "offset": 6876,
+    "raw_size": 186,
+    "packed_size": 190
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 57,
+    "offset": 7066,
+    "raw_size": 62,
+    "packed_size": 62
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 58,
+    "offset": 7128,
+    "raw_size": 310,
+    "packed_size": 312
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 59,
+    "offset": 7440,
+    "raw_size": 248,
+    "packed_size": 250
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 60,
+    "offset": 7690,
+    "raw_size": 186,
+    "packed_size": 189
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 61,
+    "offset": 7879,
+    "raw_size": 186,
+    "packed_size": 189
+  },
+  {
+    "file": "MON0ITM.DAX",
+    "id": 62,
+    "offset": 8068,
+    "raw_size": 186,
+    "packed_size": 188
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 2,
+    "offset": 0,
+    "raw_size": 45,
+    "packed_size": 48
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 3,
+    "offset": 48,
+    "raw_size": 45,
+    "packed_size": 48
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 4,
+    "offset": 96,
+    "raw_size": 54,
+    "packed_size": 58
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 8,
+    "offset": 154,
+    "raw_size": 45,
+    "packed_size": 48
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 9,
+    "offset": 202,
+    "raw_size": 18,
+    "packed_size": 18
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 10,
+    "offset": 220,
+    "raw_size": 9,
+    "packed_size": 8
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 11,
+    "offset": 228,
+    "raw_size": 9,
+    "packed_size": 8
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 17,
+    "offset": 236,
+    "raw_size": 45,
+    "packed_size": 48
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 18,
+    "offset": 284,
+    "raw_size": 27,
+    "packed_size": 28
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 21,
+    "offset": 312,
+    "raw_size": 45,
+    "packed_size": 48
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 22,
+    "offset": 360,
+    "raw_size": 9,
+    "packed_size": 8
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 29,
+    "offset": 368,
+    "raw_size": 18,
+    "packed_size": 18
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 32,
+    "offset": 386,
+    "raw_size": 45,
+    "packed_size": 48
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 35,
+    "offset": 434,
+    "raw_size": 45,
+    "packed_size": 48
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 36,
+    "offset": 482,
+    "raw_size": 9,
+    "packed_size": 8
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 37,
+    "offset": 490,
+    "raw_size": 36,
+    "packed_size": 38
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 38,
+    "offset": 528,
+    "raw_size": 18,
+    "packed_size": 18
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 39,
+    "offset": 546,
+    "raw_size": 18,
+    "packed_size": 18
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 40,
+    "offset": 564,
+    "raw_size": 18,
+    "packed_size": 18
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 41,
+    "offset": 582,
+    "raw_size": 18,
+    "packed_size": 18
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 42,
+    "offset": 600,
+    "raw_size": 27,
+    "packed_size": 28
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 44,
+    "offset": 628,
+    "raw_size": 9,
+    "packed_size": 8
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 45,
+    "offset": 636,
+    "raw_size": 63,
+    "packed_size": 68
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 46,
+    "offset": 704,
+    "raw_size": 27,
+    "packed_size": 28
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 47,
+    "offset": 732,
+    "raw_size": 18,
+    "packed_size": 18
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 48,
+    "offset": 750,
+    "raw_size": 45,
+    "packed_size": 48
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 49,
+    "offset": 798,
+    "raw_size": 45,
+    "packed_size": 48
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 50,
+    "offset": 846,
+    "raw_size": 45,
+    "packed_size": 48
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 51,
+    "offset": 894,
+    "raw_size": 45,
+    "packed_size": 48
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 52,
+    "offset": 942,
+    "raw_size": 9,
+    "packed_size": 8
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 54,
+    "offset": 950,
+    "raw_size": 18,
+    "packed_size": 18
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 56,
+    "offset": 968,
+    "raw_size": 27,
+    "packed_size": 28
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 57,
+    "offset": 996,
+    "raw_size": 72,
+    "packed_size": 78
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 63,
+    "offset": 1074,
+    "raw_size": 27,
+    "packed_size": 28
+  },
+  {
+    "file": "MON0SPC.DAX",
+    "id": 64,
+    "offset": 1102,
+    "raw_size": 9,
+    "packed_size": 8
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 11358,
+    "packed_size": 11489
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 2,
+    "offset": 11489,
+    "raw_size": 2082,
+    "packed_size": 2107
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 3,
+    "offset": 13596,
+    "raw_size": 1044,
+    "packed_size": 1060
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 4,
+    "offset": 14656,
+    "raw_size": 862,
+    "packed_size": 876
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 5,
+    "offset": 15532,
+    "raw_size": 626,
+    "packed_size": 635
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 6,
+    "offset": 16167,
+    "raw_size": 720,
+    "packed_size": 724
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 7,
+    "offset": 16891,
+    "raw_size": 624,
+    "packed_size": 636
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 8,
+    "offset": 17527,
+    "raw_size": 720,
+    "packed_size": 734
+  },
+  {
+    "file": "MUSIC.DAX",
+    "id": 9,
+    "offset": 18261,
+    "raw_size": 1078,
+    "packed_size": 1097
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 7751,
+    "packed_size": 7813
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 2,
+    "offset": 7813,
+    "raw_size": 7562,
+    "packed_size": 7623
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 4,
+    "offset": 15436,
+    "raw_size": 7850,
+    "packed_size": 7915
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 11,
+    "offset": 23351,
+    "raw_size": 7548,
+    "packed_size": 7353
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 18,
+    "offset": 30704,
+    "raw_size": 8552,
+    "packed_size": 8479
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 23,
+    "offset": 39183,
+    "raw_size": 8257,
+    "packed_size": 8336
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 24,
+    "offset": 47519,
+    "raw_size": 6989,
+    "packed_size": 6838
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 29,
+    "offset": 54357,
+    "raw_size": 7950,
+    "packed_size": 7429
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 30,
+    "offset": 61786,
+    "raw_size": 7527,
+    "packed_size": 7092
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 31,
+    "offset": 68878,
+    "raw_size": 7496,
+    "packed_size": 7123
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 32,
+    "offset": 76001,
+    "raw_size": 8542,
+    "packed_size": 8111
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 39,
+    "offset": 84112,
+    "raw_size": 22049,
+    "packed_size": 22569
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 41,
+    "offset": 106681,
+    "raw_size": 20811,
+    "packed_size": 21068
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 42,
+    "offset": 127749,
+    "raw_size": 8152,
+    "packed_size": 8138
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 55,
+    "offset": 135887,
+    "raw_size": 8358,
+    "packed_size": 8076
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 56,
+    "offset": 143963,
+    "raw_size": 6278,
+    "packed_size": 6043
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 57,
+    "offset": 150006,
+    "raw_size": 8368,
+    "packed_size": 8060
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 60,
+    "offset": 158066,
+    "raw_size": 7402,
+    "packed_size": 7043
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 80,
+    "offset": 165109,
+    "raw_size": 7148,
+    "packed_size": 7161
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 81,
+    "offset": 172270,
+    "raw_size": 7528,
+    "packed_size": 7600
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 82,
+    "offset": 179870,
+    "raw_size": 9334,
+    "packed_size": 9215
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 83,
+    "offset": 189085,
+    "raw_size": 14100,
+    "packed_size": 14043
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 84,
+    "offset": 203128,
+    "raw_size": 8048,
+    "packed_size": 7702
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 85,
+    "offset": 210830,
+    "raw_size": 6387,
+    "packed_size": 6083
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 86,
+    "offset": 216913,
+    "raw_size": 8253,
+    "packed_size": 8054
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 87,
+    "offset": 224967,
+    "raw_size": 18790,
+    "packed_size": 18742
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 89,
+    "offset": 243709,
+    "raw_size": 8714,
+    "packed_size": 8467
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 91,
+    "offset": 252176,
+    "raw_size": 8067,
+    "packed_size": 8158
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 93,
+    "offset": 260334,
+    "raw_size": 8323,
+    "packed_size": 8005
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 94,
+    "offset": 268339,
+    "raw_size": 7929,
+    "packed_size": 7652
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 95,
+    "offset": 275991,
+    "raw_size": 8448,
+    "packed_size": 8374
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 96,
+    "offset": 284365,
+    "raw_size": 7573,
+    "packed_size": 7625
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 97,
+    "offset": 291990,
+    "raw_size": 6888,
+    "packed_size": 6973
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 98,
+    "offset": 298963,
+    "raw_size": 7402,
+    "packed_size": 7542
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 99,
+    "offset": 306505,
+    "raw_size": 7502,
+    "packed_size": 7570
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 100,
+    "offset": 314075,
+    "raw_size": 12042,
+    "packed_size": 12235
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 101,
+    "offset": 326310,
+    "raw_size": 6100,
+    "packed_size": 6277
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 102,
+    "offset": 332587,
+    "raw_size": 6410,
+    "packed_size": 6545
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 103,
+    "offset": 339132,
+    "raw_size": 4782,
+    "packed_size": 4862
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 104,
+    "offset": 343994,
+    "raw_size": 6171,
+    "packed_size": 6288
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 106,
+    "offset": 350282,
+    "raw_size": 8156,
+    "packed_size": 7973
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 107,
+    "offset": 358255,
+    "raw_size": 7539,
+    "packed_size": 7273
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 108,
+    "offset": 365528,
+    "raw_size": 6869,
+    "packed_size": 6921
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 109,
+    "offset": 372449,
+    "raw_size": 7803,
+    "packed_size": 7834
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 110,
+    "offset": 380283,
+    "raw_size": 9199,
+    "packed_size": 9469
+  },
+  {
+    "file": "PIC1.DAX",
+    "id": 111,
+    "offset": 389752,
+    "raw_size": 6957,
+    "packed_size": 6762
+  },
+  {
+    "file": "PIC7.DAX",
+    "id": 105,
+    "offset": 0,
+    "raw_size": 7659,
+    "packed_size": 7694
+  },
+  {
+    "file": "PIC8.DAX",
+    "id": 92,
+    "offset": 0,
+    "raw_size": 6499,
+    "packed_size": 6178
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 0,
+    "offset": 0,
+    "raw_size": 17582,
+    "packed_size": 6955
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 1,
+    "offset": 6955,
+    "raw_size": 17582,
+    "packed_size": 6859
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 2,
+    "offset": 13814,
+    "raw_size": 17582,
+    "packed_size": 7008
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 3,
+    "offset": 20822,
+    "raw_size": 17582,
+    "packed_size": 6302
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 4,
+    "offset": 27124,
+    "raw_size": 17582,
+    "packed_size": 5721
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 10,
+    "offset": 32845,
+    "raw_size": 9342,
+    "packed_size": 2981
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 11,
+    "offset": 35826,
+    "raw_size": 5830,
+    "packed_size": 815
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 12,
+    "offset": 36641,
+    "raw_size": 3910,
+    "packed_size": 453
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 13,
+    "offset": 37094,
+    "raw_size": 3910,
+    "packed_size": 600
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 14,
+    "offset": 37694,
+    "raw_size": 2310,
+    "packed_size": 877
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 15,
+    "offset": 38571,
+    "raw_size": 2630,
+    "packed_size": 711
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 16,
+    "offset": 39282,
+    "raw_size": 2118,
+    "packed_size": 1204
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 17,
+    "offset": 40486,
+    "raw_size": 1350,
+    "packed_size": 459
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 18,
+    "offset": 40945,
+    "raw_size": 1030,
+    "packed_size": 369
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 19,
+    "offset": 41314,
+    "raw_size": 1030,
+    "packed_size": 632
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 20,
+    "offset": 41946,
+    "raw_size": 838,
+    "packed_size": 359
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 21,
+    "offset": 42305,
+    "raw_size": 838,
+    "packed_size": 249
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 22,
+    "offset": 42554,
+    "raw_size": 582,
+    "packed_size": 356
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 23,
+    "offset": 42910,
+    "raw_size": 326,
+    "packed_size": 209
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 24,
+    "offset": 43119,
+    "raw_size": 646,
+    "packed_size": 203
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 25,
+    "offset": 43322,
+    "raw_size": 326,
+    "packed_size": 165
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 26,
+    "offset": 43487,
+    "raw_size": 894,
+    "packed_size": 643
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 27,
+    "offset": 44130,
+    "raw_size": 510,
+    "packed_size": 268
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 28,
+    "offset": 44398,
+    "raw_size": 510,
+    "packed_size": 388
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 29,
+    "offset": 44786,
+    "raw_size": 510,
+    "packed_size": 375
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 30,
+    "offset": 45161,
+    "raw_size": 510,
+    "packed_size": 395
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 31,
+    "offset": 45556,
+    "raw_size": 510,
+    "packed_size": 426
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 32,
+    "offset": 45982,
+    "raw_size": 510,
+    "packed_size": 355
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 33,
+    "offset": 46337,
+    "raw_size": 254,
+    "packed_size": 202
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 34,
+    "offset": 46539,
+    "raw_size": 254,
+    "packed_size": 226
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 35,
+    "offset": 46765,
+    "raw_size": 254,
+    "packed_size": 225
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 36,
+    "offset": 46990,
+    "raw_size": 254,
+    "packed_size": 230
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 37,
+    "offset": 47220,
+    "raw_size": 254,
+    "packed_size": 243
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 38,
+    "offset": 47463,
+    "raw_size": 254,
+    "packed_size": 230
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 40,
+    "offset": 47693,
+    "raw_size": 108,
+    "packed_size": 79
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 41,
+    "offset": 47772,
+    "raw_size": 108,
+    "packed_size": 93
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 42,
+    "offset": 47865,
+    "raw_size": 108,
+    "packed_size": 93
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 43,
+    "offset": 47958,
+    "raw_size": 108,
+    "packed_size": 85
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 44,
+    "offset": 48043,
+    "raw_size": 108,
+    "packed_size": 78
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 50,
+    "offset": 48121,
+    "raw_size": 108,
+    "packed_size": 82
+  },
+  {
+    "file": "SHIPS.DAX",
+    "id": 128,
+    "offset": 48203,
+    "raw_size": 31102,
+    "packed_size": 2187
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 5,
+    "offset": 0,
+    "raw_size": 2565,
+    "packed_size": 1978
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 9,
+    "offset": 1978,
+    "raw_size": 3926,
+    "packed_size": 3481
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 12,
+    "offset": 5459,
+    "raw_size": 2868,
+    "packed_size": 2218
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 14,
+    "offset": 7677,
+    "raw_size": 2725,
+    "packed_size": 2086
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 19,
+    "offset": 9763,
+    "raw_size": 2815,
+    "packed_size": 2184
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 26,
+    "offset": 11947,
+    "raw_size": 2873,
+    "packed_size": 2433
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 33,
+    "offset": 14380,
+    "raw_size": 2973,
+    "packed_size": 2512
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 36,
+    "offset": 16892,
+    "raw_size": 3658,
+    "packed_size": 3200
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 37,
+    "offset": 20092,
+    "raw_size": 2962,
+    "packed_size": 2520
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 40,
+    "offset": 22612,
+    "raw_size": 2145,
+    "packed_size": 1543
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 41,
+    "offset": 24155,
+    "raw_size": 2497,
+    "packed_size": 2019
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 42,
+    "offset": 26174,
+    "raw_size": 2577,
+    "packed_size": 2101
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 44,
+    "offset": 28275,
+    "raw_size": 2600,
+    "packed_size": 2117
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 45,
+    "offset": 30392,
+    "raw_size": 4503,
+    "packed_size": 4055
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 47,
+    "offset": 34447,
+    "raw_size": 2534,
+    "packed_size": 2064
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 49,
+    "offset": 36511,
+    "raw_size": 4527,
+    "packed_size": 4094
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 50,
+    "offset": 40605,
+    "raw_size": 3541,
+    "packed_size": 3098
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 51,
+    "offset": 43703,
+    "raw_size": 4746,
+    "packed_size": 4318
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 52,
+    "offset": 48021,
+    "raw_size": 2524,
+    "packed_size": 2003
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 60,
+    "offset": 50024,
+    "raw_size": 2688,
+    "packed_size": 2245
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 61,
+    "offset": 52269,
+    "raw_size": 2741,
+    "packed_size": 2282
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 63,
+    "offset": 54551,
+    "raw_size": 4547,
+    "packed_size": 4115
+  },
+  {
+    "file": "SPRIT1.DAX",
+    "id": 64,
+    "offset": 58666,
+    "raw_size": 2341,
+    "packed_size": 1895
+  },
+  {
+    "file": "TITLE.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 23894,
+    "packed_size": 3725
+  },
+  {
+    "file": "TITLE.DAX",
+    "id": 2,
+    "offset": 3725,
+    "raw_size": 42326,
+    "packed_size": 11336
+  },
+  {
+    "file": "TITLE.DAX",
+    "id": 3,
+    "offset": 15061,
+    "raw_size": 9558,
+    "packed_size": 3306
+  },
+  {
+    "file": "TITLE.DAX",
+    "id": 4,
+    "offset": 18367,
+    "raw_size": 59734,
+    "packed_size": 43637
+  },
+  {
+    "file": "VENUSCOM.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 25470,
+    "packed_size": 16248
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 1,
+    "offset": 0,
+    "raw_size": 2340,
+    "packed_size": 1613
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 3,
+    "offset": 1613,
+    "raw_size": 2340,
+    "packed_size": 1331
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 5,
+    "offset": 2944,
+    "raw_size": 2340,
+    "packed_size": 1591
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 7,
+    "offset": 4535,
+    "raw_size": 2340,
+    "packed_size": 1682
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 9,
+    "offset": 6217,
+    "raw_size": 2340,
+    "packed_size": 1224
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 11,
+    "offset": 7441,
+    "raw_size": 2340,
+    "packed_size": 1728
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 13,
+    "offset": 9169,
+    "raw_size": 2340,
+    "packed_size": 2140
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 15,
+    "offset": 11309,
+    "raw_size": 2340,
+    "packed_size": 1781
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 17,
+    "offset": 13090,
+    "raw_size": 2340,
+    "packed_size": 1444
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 19,
+    "offset": 14534,
+    "raw_size": 2340,
+    "packed_size": 1767
+  },
+  {
+    "file": "WALLDEF1.DAX",
+    "id": 22,
+    "offset": 16301,
+    "raw_size": 2340,
+    "packed_size": 1515
+  }
+]

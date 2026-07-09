@@ -1,0 +1,11 @@
+{
+  "file": "SEG00036.001",
+  "kind": "unknown binary",
+  "bytes": 30,
+  "sha256": "8271833359e6377473d57a958d3c890c1c3737e9bfe517b402be3ee99b3c1894",
+  "head_hex": "1a 17 30 2b 00 30 0a 00 00 00 30 0a 00 0a 00 30 02 2d 17 17 0a 30 17 0a 10 00 00 17 00 00",
+  "ascii_candidates": [],
+  "pascal_candidates": [],
+  "record_hints": [],
+  "semantic_status": "file-level structural evidence only"
+}

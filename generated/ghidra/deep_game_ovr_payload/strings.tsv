@@ -1,0 +1,14 @@
+address	data_type	length	text
+0000:6ded	string	16	 is your pilot.
+0000:9047	string	17	  Repairing Ship
+0000:9776	string	22	 slips into a coma.2
+0000:b1db	string	9	Dodge 
+0000:ed3b	string	27	Cant identify wild terrain
+1000:5c61	string	25	  Using Leadership Skill
+1000:6db4	string	32	lost olddude in alterpartyorder
+1000:7f2f	string	9	Select 
+1000:8f15	string	23	 can't be modified.
+1000:c45a	string	18	Weapon\nClip  Fill
+1000:f63f	string	33	Unexpected error during save: !
+2000:0d77	string	21	Load Which Game: 
+2000:e322	string	10	Yes No

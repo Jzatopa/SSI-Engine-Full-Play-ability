@@ -1,0 +1,1322 @@
+{
+  "52": [
+    {
+      "ecl_block": 17,
+      "map_name": "Caloris Space Port",
+      "address": "0x85E9",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 17,
+      "map_name": "Caloris Space Port",
+      "address": "0x8C54",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 33,
+      "map_name": "Losangelorg Sprawls",
+      "address": "0x942F",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 34,
+      "map_name": "Historical Museum, Levels 2-1",
+      "address": "0x8A85",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 34,
+      "map_name": "Historical Museum, Levels 2-1",
+      "address": "0x8BF2",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 34,
+      "map_name": "Historical Museum, Levels 2-1",
+      "address": "0x988D",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 34,
+      "map_name": "Historical Museum, Levels 2-1",
+      "address": "0x9E87",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 35,
+      "map_name": "Asteroid Base",
+      "address": "0x9EFB",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 36,
+      "map_name": "",
+      "address": "0x89D7",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 36,
+      "map_name": "",
+      "address": "0x8D35",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 36,
+      "map_name": "",
+      "address": "0x90E6",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 36,
+      "map_name": "",
+      "address": "0x9C6C",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 37,
+      "map_name": "",
+      "address": "0x86A5",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 37,
+      "map_name": "",
+      "address": "0x904F",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 37,
+      "map_name": "",
+      "address": "0x9095",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 37,
+      "map_name": "",
+      "address": "0x93A9",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 66,
+      "map_name": "RAM Battler, Deimos Level 19-41",
+      "address": "0x9494",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 66,
+      "map_name": "RAM Battler, Deimos Level 19-41",
+      "address": "0x94DF",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 66,
+      "map_name": "RAM Battler, Deimos Level 19-41",
+      "address": "0x9976",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 66,
+      "map_name": "RAM Battler, Deimos Level 19-41",
+      "address": "0x9B98",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 80,
+      "map_name": "Mars Prison, Level 1",
+      "address": "0x9FD6",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 82,
+      "map_name": "NEO Installation",
+      "address": "0x8610",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 114,
+      "map_name": "Jupiter Finale",
+      "address": "0xA087",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "50": [
+    {
+      "ecl_block": 17,
+      "map_name": "Caloris Space Port",
+      "address": "0x86ED",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 17,
+      "map_name": "Caloris Space Port",
+      "address": "0x89EF",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 34,
+      "map_name": "Historical Museum, Levels 2-1",
+      "address": "0x84B7",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 34,
+      "map_name": "Historical Museum, Levels 2-1",
+      "address": "0x9FDD",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 50,
+      "map_name": "Venus Laboratory, Level 1",
+      "address": "0x8EAB",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 66,
+      "map_name": "RAM Battler, Deimos Level 19-41",
+      "address": "0x9A90",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 80,
+      "map_name": "Mars Prison, Level 1",
+      "address": "0x9F60",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 113,
+      "map_name": "Genetics Foundation Building, Levels 1-4",
+      "address": "0x8B47",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 113,
+      "map_name": "Genetics Foundation Building, Levels 1-4",
+      "address": "0x9395",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 114,
+      "map_name": "Jupiter Finale",
+      "address": "0xA0D6",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "5": [
+    {
+      "ecl_block": 17,
+      "map_name": "Caloris Space Port",
+      "address": "0x8732",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 17,
+      "map_name": "Caloris Space Port",
+      "address": "0x8C27",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 38,
+      "map_name": "Losangelorg Sprawls",
+      "address": "0x9B5B",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 50,
+      "map_name": "Venus Laboratory, Level 1",
+      "address": "0x874B",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 50,
+      "map_name": "Venus Laboratory, Level 1",
+      "address": "0x89B7",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 50,
+      "map_name": "Venus Laboratory, Level 1",
+      "address": "0x8C94",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 50,
+      "map_name": "Venus Laboratory, Level 1",
+      "address": "0x8DD2",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 50,
+      "map_name": "Venus Laboratory, Level 1",
+      "address": "0x8EFD",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 50,
+      "map_name": "Venus Laboratory, Level 1",
+      "address": "0x917A",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 50,
+      "map_name": "Venus Laboratory, Level 1",
+      "address": "0x9247",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 50,
+      "map_name": "Venus Laboratory, Level 1",
+      "address": "0x94D5",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 50,
+      "map_name": "Venus Laboratory, Level 1",
+      "address": "0x9AA7",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 64,
+      "map_name": "Luna Base",
+      "address": "0x97C6",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 65,
+      "map_name": "Tsai Weaponry Labs",
+      "address": "0x85A4",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 65,
+      "map_name": "Tsai Weaponry Labs",
+      "address": "0x85D4",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 81,
+      "map_name": "PURGE Headquarters, Floors Ground-Upper",
+      "address": "0x8750",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 81,
+      "map_name": "PURGE Headquarters, Floors Ground-Upper",
+      "address": "0x953C",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 84,
+      "map_name": "Mars Prison, Level 2",
+      "address": "0x8179",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "33": [
+    {
+      "ecl_block": 17,
+      "map_name": "Caloris Space Port",
+      "address": "0x87B0",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 17,
+      "map_name": "Caloris Space Port",
+      "address": "0x91EA",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 50,
+      "map_name": "Venus Laboratory, Level 1",
+      "address": "0x8CCE",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 50,
+      "map_name": "Venus Laboratory, Level 1",
+      "address": "0x8E6E",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 50,
+      "map_name": "Venus Laboratory, Level 1",
+      "address": "0xA227",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 114,
+      "map_name": "Jupiter Finale",
+      "address": "0x9E1B",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 114,
+      "map_name": "Jupiter Finale",
+      "address": "0xA025",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "47": [
+    {
+      "ecl_block": 21,
+      "map_name": "21",
+      "address": "0x8AC6",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 80,
+      "map_name": "Mars Prison, Level 1",
+      "address": "0x8402",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 82,
+      "map_name": "NEO Installation",
+      "address": "0x8641",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "12": [
+    {
+      "ecl_block": 33,
+      "map_name": "Losangelorg Sprawls",
+      "address": "0x8C1C",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 33,
+      "map_name": "Losangelorg Sprawls",
+      "address": "0x966B",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 33,
+      "map_name": "Losangelorg Sprawls",
+      "address": "0x9B3B",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 33,
+      "map_name": "Losangelorg Sprawls",
+      "address": "0x9ED5",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 37,
+      "map_name": "",
+      "address": "0x8384",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 37,
+      "map_name": "",
+      "address": "0x870F",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 37,
+      "map_name": "",
+      "address": "0x87F1",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 37,
+      "map_name": "",
+      "address": "0x8ACA",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 37,
+      "map_name": "",
+      "address": "0x8BBC",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 37,
+      "map_name": "",
+      "address": "0x9278",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 37,
+      "map_name": "",
+      "address": "0x94A8",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 37,
+      "map_name": "",
+      "address": "0x988C",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 37,
+      "map_name": "",
+      "address": "0xA192",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 37,
+      "map_name": "",
+      "address": "0xA1EE",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 38,
+      "map_name": "Losangelorg Sprawls",
+      "address": "0x99F8",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 84,
+      "map_name": "Mars Prison, Level 2",
+      "address": "0x81D7",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 84,
+      "map_name": "Mars Prison, Level 2",
+      "address": "0x850B",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 84,
+      "map_name": "Mars Prison, Level 2",
+      "address": "0x95B4",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "49": [
+    {
+      "ecl_block": 36,
+      "map_name": "",
+      "address": "0x8A2D",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 36,
+      "map_name": "",
+      "address": "0x921D",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 36,
+      "map_name": "",
+      "address": "0x985A",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 80,
+      "map_name": "Mars Prison, Level 1",
+      "address": "0x9371",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 82,
+      "map_name": "NEO Installation",
+      "address": "0x865F",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 113,
+      "map_name": "Genetics Foundation Building, Levels 1-4",
+      "address": "0x8BA6",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 114,
+      "map_name": "Jupiter Finale",
+      "address": "0x8373",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 114,
+      "map_name": "Jupiter Finale",
+      "address": "0x9F95",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "11": [
+    {
+      "ecl_block": 38,
+      "map_name": "Losangelorg Sprawls",
+      "address": "0x9754",
+      "kind": "load_monster",
+      "max_distance": null,
+      "pic_ref": "11",
+      "copies": "10"
+    }
+  ],
+  "61": [
+    {
+      "ecl_block": 49,
+      "map_name": "Lowlander Village",
+      "address": "0x8536",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 49,
+      "map_name": "Lowlander Village",
+      "address": "0x955E",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 49,
+      "map_name": "Lowlander Village",
+      "address": "0x9876",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 49,
+      "map_name": "Lowlander Village",
+      "address": "0x995D",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 49,
+      "map_name": "Lowlander Village",
+      "address": "0xA28B",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 50,
+      "map_name": "Venus Laboratory, Level 1",
+      "address": "0x85A3",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 50,
+      "map_name": "Venus Laboratory, Level 1",
+      "address": "0x9E34",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "41": [
+    {
+      "ecl_block": 49,
+      "map_name": "Lowlander Village",
+      "address": "0xA0EE",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 49,
+      "map_name": "Lowlander Village",
+      "address": "0xA254",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "14": [
+    {
+      "ecl_block": 64,
+      "map_name": "Luna Base",
+      "address": "0x97FE",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "51": [
+    {
+      "ecl_block": 82,
+      "map_name": "NEO Installation",
+      "address": "0x906A",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 113,
+      "map_name": "Genetics Foundation Building, Levels 1-4",
+      "address": "0x8FA0",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 113,
+      "map_name": "Genetics Foundation Building, Levels 1-4",
+      "address": "0x94FD",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 114,
+      "map_name": "Jupiter Finale",
+      "address": "0xA341",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "44": [
+    {
+      "ecl_block": 96,
+      "map_name": "Living Ship",
+      "address": "0x82D4",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 96,
+      "map_name": "Living Ship",
+      "address": "0x841F",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 96,
+      "map_name": "Living Ship",
+      "address": "0x87DB",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 96,
+      "map_name": "Living Ship",
+      "address": "0x8826",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 96,
+      "map_name": "Living Ship",
+      "address": "0x8D1B",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 97,
+      "map_name": "Living Ship",
+      "address": "0x83E6",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 97,
+      "map_name": "Living Ship",
+      "address": "0x8BA7",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 97,
+      "map_name": "Living Ship",
+      "address": "0x8FAF",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 97,
+      "map_name": "Living Ship",
+      "address": "0x947F",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 97,
+      "map_name": "Living Ship",
+      "address": "0x983F",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 98,
+      "map_name": "",
+      "address": "0x87D0",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 98,
+      "map_name": "",
+      "address": "0x9472",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 98,
+      "map_name": "",
+      "address": "0x9AEE",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "36": [
+    {
+      "ecl_block": 96,
+      "map_name": "Living Ship",
+      "address": "0x8362",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "45": [
+    {
+      "ecl_block": 96,
+      "map_name": "Living Ship",
+      "address": "0x9B21",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 97,
+      "map_name": "Living Ship",
+      "address": "0x847A",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 97,
+      "map_name": "Living Ship",
+      "address": "0x84B4",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 97,
+      "map_name": "Living Ship",
+      "address": "0x9AAD",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 98,
+      "map_name": "",
+      "address": "0x81A4",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 98,
+      "map_name": "",
+      "address": "0x8B5D",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "19": [
+    {
+      "ecl_block": 112,
+      "map_name": "Stormrider University",
+      "address": "0x840D",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 112,
+      "map_name": "Stormrider University",
+      "address": "0x8443",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 112,
+      "map_name": "Stormrider University",
+      "address": "0x8655",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 112,
+      "map_name": "Stormrider University",
+      "address": "0x8ACE",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 112,
+      "map_name": "Stormrider University",
+      "address": "0x8DAF",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 112,
+      "map_name": "Stormrider University",
+      "address": "0x8E8B",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 112,
+      "map_name": "Stormrider University",
+      "address": "0x8FFF",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 112,
+      "map_name": "Stormrider University",
+      "address": "0x93E0",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 112,
+      "map_name": "Stormrider University",
+      "address": "0x957F",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 113,
+      "map_name": "Genetics Foundation Building, Levels 1-4",
+      "address": "0x8A36",
+      "kind": "setup_monster",
+      "max_distance": "area2.event_scratch0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 113,
+      "map_name": "Genetics Foundation Building, Levels 1-4",
+      "address": "0x8A86",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 113,
+      "map_name": "Genetics Foundation Building, Levels 1-4",
+      "address": "0x98D4",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 113,
+      "map_name": "Genetics Foundation Building, Levels 1-4",
+      "address": "0x9A5F",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "63": [
+    {
+      "ecl_block": 112,
+      "map_name": "Stormrider University",
+      "address": "0x84A0",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 112,
+      "map_name": "Stormrider University",
+      "address": "0x8796",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    },
+    {
+      "ecl_block": 112,
+      "map_name": "Stormrider University",
+      "address": "0x88D9",
+      "kind": "setup_monster",
+      "max_distance": "0",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "64": [
+    {
+      "ecl_block": 113,
+      "map_name": "Genetics Foundation Building, Levels 1-4",
+      "address": "0x9D96",
+      "kind": "setup_monster",
+      "max_distance": "2",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "40": [
+    {
+      "ecl_block": 114,
+      "map_name": "Jupiter Finale",
+      "address": "0x85AF",
+      "kind": "setup_monster",
+      "max_distance": "1",
+      "pic_ref": "255",
+      "copies": null
+    }
+  ],
+  "39": [
+    {
+      "ecl_block": 114,
+      "map_name": "Jupiter Finale",
+      "address": "0xA19C",
+      "kind": "load_monster",
+      "max_distance": null,
+      "pic_ref": "39",
+      "copies": "area1.event_word_21C"
+    }
+  ],
+  "32": [
+    {
+      "ecl_block": 114,
+      "map_name": "Jupiter Finale",
+      "address": "0xA1A4",
+      "kind": "load_monster",
+      "max_distance": null,
+      "pic_ref": "32",
+      "copies": "area2.event_scratch0"
+    }
+  ]
+}

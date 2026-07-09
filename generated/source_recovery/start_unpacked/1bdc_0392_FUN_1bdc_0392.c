@@ -1,0 +1,99 @@
+/*
+ * Matrix Cubed source recovery corpus
+ * Program: START.unpacked.exe
+ * Ghidra entry: 1bdc:0392
+ * Ghidra name: FUN_1bdc_0392
+ * Linear address: 0x1C152
+ * Body addresses: 173
+ * Calling convention: __stdcall16far
+ * Evidence limit: Imported as unpacked MZ executable. Pseudocode is call-graph/control-flow evidence, not original source text.
+ */
+
+void __stdcall16far FUN_1bdc_0392(undefined4 param_1)
+
+{
+  byte bVar1;
+  int iVar2;
+  uint uVar3;
+  uint extraout_DX;
+  uint extraout_DX_00;
+  uint extraout_DX_01;
+  uint uVar4;
+  uint uVar5;
+  int iVar6;
+  int iVar7;
+  undefined2 uVar8;
+  undefined2 uVar9;
+  undefined2 unaff_DS;
+  
+  uVar8 = (undefined2)((ulong)param_1 >> 0x10);
+  iVar6 = (int)param_1;
+  uVar3 = *(int *)(iVar6 + 4) - 2;
+  uVar9 = (undefined2)((ulong)*(undefined4 *)(iVar6 + 0xc) >> 0x10);
+  iVar7 = (int)*(undefined4 *)(iVar6 + 0xc);
+  uVar4 = 0;
+  uVar5 = *(uint *)(iVar6 + 8);
+LAB_1bdc_03a8:
+  do {
+    *(undefined1 *)0x9f45 = 0;
+    bVar1 = FUN_1bdc_030d();
+    iVar2 = 1;
+    if ((bVar1 == 8) || (bVar1 == 0x13)) {
+LAB_1bdc_03ec:
+      do {
+        if (uVar4 == 0) break;
+        FUN_1bdc_047c();
+        FUN_1bdc_047c();
+        FUN_1bdc_047c();
+        uVar4 = uVar4 - 1;
+        iVar2 = iVar2 + -1;
+        uVar3 = extraout_DX_00;
+      } while (iVar2 != 0);
+      goto LAB_1bdc_03a8;
+    }
+    if (bVar1 == 4) {
+LAB_1bdc_0404:
+      do {
+        if ((uVar4 == uVar5) || (*(byte *)(uVar4 + iVar7) < 0x20)) break;
+        FUN_1bdc_047c();
+        uVar4 = uVar4 + 1;
+        iVar2 = iVar2 + -1;
+        uVar3 = extraout_DX_01;
+      } while (iVar2 != 0);
+    }
+    else {
+      iVar2 = 0;
+      if ((bVar1 == 0x1b) || (bVar1 == 1)) goto LAB_1bdc_03ec;
+      if (bVar1 == 6) goto LAB_1bdc_0404;
+      if (bVar1 == 0x1a) {
+        if (*(char *)0x9f35 != '\0') {
+          *(undefined1 *)(uVar4 + iVar7) = 0x1a;
+          iVar7 = uVar4 + 1;
+LAB_1bdc_042e:
+          *(undefined2 *)(iVar6 + 8) = 0;
+          *(int *)(iVar6 + 10) = iVar7;
+          return;
+        }
+      }
+      else {
+        if (bVar1 == 0xd) {
+          FUN_1bdc_0475();
+          *(undefined2 *)(uVar4 + iVar7) = 0xa0d;
+          iVar7 = uVar4 + 2;
+          goto LAB_1bdc_042e;
+        }
+        if ((0x1f < bVar1) && (uVar4 != uVar3)) {
+          *(byte *)(uVar4 + iVar7) = bVar1;
+          uVar4 = uVar4 + 1;
+          FUN_1bdc_047c();
+          uVar3 = extraout_DX;
+          if (uVar5 < uVar4) {
+            uVar5 = uVar4;
+          }
+        }
+      }
+    }
+  } while( true );
+}
+
+

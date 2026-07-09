@@ -1,0 +1,823 @@
+{
+  "file": "BUCKA.XMI",
+  "kind": "audio/music/driver data",
+  "bytes": 12178,
+  "sha256": "7adcb56eb45ec2760b5222170a6ccd2e44037bab24f37ed3714338a349322bea",
+  "head_hex": "46 4f 52 4d 00 00 00 0e 58 44 49 52 49 4e 46 4f 00 00 00 02 07 00 43 41 54 20 00 00 2f 74 58 4d 49 44 46 4f 52 4d 00 00 0f e8 58 4d 49 44 54 49 4d 42 00 00 00 12 08 00 18 00 19 00 70 00 5d 00 30 00 26 7f 24 7f 31 7f 45 56 4e 54 00 00 0f c2 ff 58 04 04 02 18 08 ff 01 08 20 20 20 20 20 20 20 20 ff 01 08 54 72 75 6d 70 65 74 73 ff 01 08 54 72 61 63 6b 2d 31 73 ff 01 08 4c 6f 77 42 72",
+  "ascii_candidates": [
+    {
+      "offset": 0,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 8,
+      "length": 8,
+      "text": "XDIRINFO"
+    },
+    {
+      "offset": 22,
+      "length": 4,
+      "text": "CAT "
+    },
+    {
+      "offset": 28,
+      "length": 10,
+      "text": "/tXMIDFORM"
+    },
+    {
+      "offset": 42,
+      "length": 8,
+      "text": "XMIDTIMB"
+    },
+    {
+      "offset": 72,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 90,
+      "length": 8,
+      "text": "        "
+    },
+    {
+      "offset": 101,
+      "length": 8,
+      "text": "Trumpets"
+    },
+    {
+      "offset": 112,
+      "length": 8,
+      "text": "Track-1s"
+    },
+    {
+      "offset": 123,
+      "length": 8,
+      "text": "LowBrass"
+    },
+    {
+      "offset": 134,
+      "length": 8,
+      "text": "Timpani "
+    },
+    {
+      "offset": 145,
+      "length": 8,
+      "text": "F Horn  "
+    },
+    {
+      "offset": 156,
+      "length": 8,
+      "text": "Strings "
+    },
+    {
+      "offset": 167,
+      "length": 8,
+      "text": "Perc    "
+    },
+    {
+      "offset": 266,
+      "length": 4,
+      "text": "Bk+@"
+    },
+    {
+      "offset": 418,
+      "length": 4,
+      "text": "IkAA"
+    },
+    {
+      "offset": 456,
+      "length": 4,
+      "text": "FT@@"
+    },
+    {
+      "offset": 497,
+      "length": 4,
+      "text": "DU<@"
+    },
+    {
+      "offset": 1312,
+      "length": 4,
+      "text": "'i*'"
+    },
+    {
+      "offset": 1357,
+      "length": 4,
+      "text": "RB(+"
+    },
+    {
+      "offset": 1366,
+      "length": 4,
+      "text": "^B'+"
+    },
+    {
+      "offset": 1375,
+      "length": 4,
+      "text": "[B'+"
+    },
+    {
+      "offset": 2365,
+      "length": 4,
+      "text": "=Y.."
+    },
+    {
+      "offset": 2387,
+      "length": 4,
+      "text": "B|.."
+    },
+    {
+      "offset": 2493,
+      "length": 4,
+      "text": "K~F."
+    },
+    {
+      "offset": 3276,
+      "length": 4,
+      "text": "LEFH"
+    },
+    {
+      "offset": 3656,
+      "length": 4,
+      "text": "CJ40"
+    },
+    {
+      "offset": 4106,
+      "length": 4,
+      "text": "8].."
+    },
+    {
+      "offset": 4114,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 4122,
+      "length": 8,
+      "text": "XMIDTIMB"
+    },
+    {
+      "offset": 4150,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 4168,
+      "length": 8,
+      "text": "Trumpets"
+    },
+    {
+      "offset": 4179,
+      "length": 8,
+      "text": "Echopets"
+    },
+    {
+      "offset": 4190,
+      "length": 8,
+      "text": "Timpani "
+    },
+    {
+      "offset": 4201,
+      "length": 8,
+      "text": "LowBrass"
+    },
+    {
+      "offset": 4212,
+      "length": 8,
+      "text": "F Horn  "
+    },
+    {
+      "offset": 4223,
+      "length": 8,
+      "text": "Perc    "
+    },
+    {
+      "offset": 4314,
+      "length": 4,
+      "text": "Bd#9"
+    },
+    {
+      "offset": 4466,
+      "length": 4,
+      "text": "Is99"
+    },
+    {
+      "offset": 4613,
+      "length": 4,
+      "text": ".d\"%"
+    },
+    {
+      "offset": 4732,
+      "length": 4,
+      "text": ".d\t%"
+    },
+    {
+      "offset": 4766,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 4774,
+      "length": 8,
+      "text": "XMIDTIMB"
+    },
+    {
+      "offset": 4804,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 4822,
+      "length": 8,
+      "text": "Trumpets"
+    },
+    {
+      "offset": 4833,
+      "length": 8,
+      "text": "LowBrass"
+    },
+    {
+      "offset": 4844,
+      "length": 8,
+      "text": "F Horn  "
+    },
+    {
+      "offset": 4855,
+      "length": 8,
+      "text": "Strings "
+    },
+    {
+      "offset": 4866,
+      "length": 8,
+      "text": "Timpani "
+    },
+    {
+      "offset": 4877,
+      "length": 8,
+      "text": "Perc    "
+    },
+    {
+      "offset": 5192,
+      "length": 4,
+      "text": "@E4\t"
+    },
+    {
+      "offset": 5811,
+      "length": 4,
+      "text": "&n\t\t"
+    },
+    {
+      "offset": 5816,
+      "length": 4,
+      "text": "$m\t\t"
+    },
+    {
+      "offset": 5821,
+      "length": 4,
+      "text": "&k\t\t"
+    },
+    {
+      "offset": 5826,
+      "length": 4,
+      "text": "$i\t\t"
+    },
+    {
+      "offset": 5831,
+      "length": 4,
+      "text": "&g\t\t"
+    },
+    {
+      "offset": 5836,
+      "length": 4,
+      "text": "$e\t\t"
+    },
+    {
+      "offset": 5841,
+      "length": 4,
+      "text": "&c\t\t"
+    },
+    {
+      "offset": 5846,
+      "length": 4,
+      "text": "$a\t\t"
+    },
+    {
+      "offset": 5851,
+      "length": 4,
+      "text": "&_\t\t"
+    },
+    {
+      "offset": 5856,
+      "length": 4,
+      "text": "$\\\t\t"
+    },
+    {
+      "offset": 5861,
+      "length": 4,
+      "text": "&Z\t\t"
+    },
+    {
+      "offset": 5866,
+      "length": 4,
+      "text": "&W\t\t"
+    },
+    {
+      "offset": 5876,
+      "length": 4,
+      "text": "&Q\t\t"
+    },
+    {
+      "offset": 5881,
+      "length": 4,
+      "text": "&N\t\t"
+    },
+    {
+      "offset": 5886,
+      "length": 4,
+      "text": "&K\t\t"
+    },
+    {
+      "offset": 5891,
+      "length": 4,
+      "text": "&H\t\t"
+    },
+    {
+      "offset": 5896,
+      "length": 4,
+      "text": "&D\t\t"
+    },
+    {
+      "offset": 5901,
+      "length": 4,
+      "text": "&@\t\t"
+    },
+    {
+      "offset": 5906,
+      "length": 4,
+      "text": "&<\t\t"
+    },
+    {
+      "offset": 5911,
+      "length": 4,
+      "text": "&8\t\t"
+    },
+    {
+      "offset": 5916,
+      "length": 4,
+      "text": "&3\t\t"
+    },
+    {
+      "offset": 5921,
+      "length": 4,
+      "text": "&.\t\t"
+    },
+    {
+      "offset": 5934,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 5942,
+      "length": 8,
+      "text": "XMIDTIMB"
+    },
+    {
+      "offset": 5964,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 5982,
+      "length": 8,
+      "text": "Strings1"
+    },
+    {
+      "offset": 5993,
+      "length": 8,
+      "text": "LowBrass"
+    },
+    {
+      "offset": 6004,
+      "length": 8,
+      "text": "Strings2"
+    },
+    {
+      "offset": 6015,
+      "length": 8,
+      "text": "SoundTrk"
+    },
+    {
+      "offset": 6026,
+      "length": 8,
+      "text": "Fantasy "
+    },
+    {
+      "offset": 6352,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 6360,
+      "length": 8,
+      "text": "XMIDTIMB"
+    },
+    {
+      "offset": 6388,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 6406,
+      "length": 8,
+      "text": "Brass   "
+    },
+    {
+      "offset": 6417,
+      "length": 8,
+      "text": "Strings "
+    },
+    {
+      "offset": 6428,
+      "length": 8,
+      "text": "Oboe    "
+    },
+    {
+      "offset": 6439,
+      "length": 8,
+      "text": "Harp    "
+    },
+    {
+      "offset": 6450,
+      "length": 8,
+      "text": "Timpani "
+    },
+    {
+      "offset": 6461,
+      "length": 8,
+      "text": "Brass 2 "
+    },
+    {
+      "offset": 6472,
+      "length": 8,
+      "text": "Perc    "
+    },
+    {
+      "offset": 7063,
+      "length": 4,
+      "text": "L!+'"
+    },
+    {
+      "offset": 7158,
+      "length": 4,
+      "text": "H),$"
+    },
+    {
+      "offset": 7213,
+      "length": 4,
+      "text": "D!Z^"
+    },
+    {
+      "offset": 7226,
+      "length": 4,
+      "text": "C![_"
+    },
+    {
+      "offset": 7277,
+      "length": 4,
+      "text": "A:+/"
+    },
+    {
+      "offset": 7282,
+      "length": 4,
+      "text": "D%,0"
+    },
+    {
+      "offset": 7308,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 7316,
+      "length": 8,
+      "text": "XMIDTIMB"
+    },
+    {
+      "offset": 7350,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 7368,
+      "length": 8,
+      "text": "Brass   "
+    },
+    {
+      "offset": 7379,
+      "length": 8,
+      "text": "F Horn  "
+    },
+    {
+      "offset": 7390,
+      "length": 8,
+      "text": "PipeOrgn"
+    },
+    {
+      "offset": 7401,
+      "length": 8,
+      "text": "Timpani "
+    },
+    {
+      "offset": 7412,
+      "length": 8,
+      "text": "OrchHits"
+    },
+    {
+      "offset": 7423,
+      "length": 8,
+      "text": "Taiko Dm"
+    },
+    {
+      "offset": 7434,
+      "length": 8,
+      "text": "Perc    "
+    },
+    {
+      "offset": 8036,
+      "length": 4,
+      "text": "FORM"
+    },
+    {
+      "offset": 8043,
+      "length": 9,
+      "text": "&XMIDTIMB"
+    },
+    {
+      "offset": 8076,
+      "length": 4,
+      "text": "EVNT"
+    },
+    {
+      "offset": 8094,
+      "length": 8,
+      "text": "F Horn  "
+    },
+    {
+      "offset": 8105,
+      "length": 8,
+      "text": "LowBrass"
+    },
+    {
+      "offset": 8116,
+      "length": 8,
+      "text": "Trumpets"
+    },
+    {
+      "offset": 8127,
+      "length": 8,
+      "text": "Strings "
+    },
+    {
+      "offset": 8138,
+      "length": 8,
+      "text": "Piccolo "
+    },
+    {
+      "offset": 8149,
+      "length": 8,
+      "text": "Timpani "
+    },
+    {
+      "offset": 8160,
+      "length": 8,
+      "text": "Perc    "
+    }
+  ],
+  "pascal_candidates": [
+    {
+      "offset": 100,
+      "length": 8,
+      "text": "Trumpets"
+    },
+    {
+      "offset": 111,
+      "length": 8,
+      "text": "Track-1s"
+    },
+    {
+      "offset": 122,
+      "length": 8,
+      "text": "LowBrass"
+    },
+    {
+      "offset": 133,
+      "length": 8,
+      "text": "Timpani "
+    },
+    {
+      "offset": 144,
+      "length": 8,
+      "text": "F Horn  "
+    },
+    {
+      "offset": 155,
+      "length": 8,
+      "text": "Strings "
+    },
+    {
+      "offset": 166,
+      "length": 8,
+      "text": "Perc    "
+    },
+    {
+      "offset": 4167,
+      "length": 8,
+      "text": "Trumpets"
+    },
+    {
+      "offset": 4178,
+      "length": 8,
+      "text": "Echopets"
+    },
+    {
+      "offset": 4189,
+      "length": 8,
+      "text": "Timpani "
+    },
+    {
+      "offset": 4200,
+      "length": 8,
+      "text": "LowBrass"
+    },
+    {
+      "offset": 4211,
+      "length": 8,
+      "text": "F Horn  "
+    },
+    {
+      "offset": 4222,
+      "length": 8,
+      "text": "Perc    "
+    },
+    {
+      "offset": 4821,
+      "length": 8,
+      "text": "Trumpets"
+    },
+    {
+      "offset": 4832,
+      "length": 8,
+      "text": "LowBrass"
+    },
+    {
+      "offset": 4843,
+      "length": 8,
+      "text": "F Horn  "
+    },
+    {
+      "offset": 4854,
+      "length": 8,
+      "text": "Strings "
+    },
+    {
+      "offset": 4865,
+      "length": 8,
+      "text": "Timpani "
+    },
+    {
+      "offset": 4876,
+      "length": 8,
+      "text": "Perc    "
+    },
+    {
+      "offset": 5981,
+      "length": 8,
+      "text": "Strings1"
+    },
+    {
+      "offset": 5992,
+      "length": 8,
+      "text": "LowBrass"
+    },
+    {
+      "offset": 6003,
+      "length": 8,
+      "text": "Strings2"
+    },
+    {
+      "offset": 6014,
+      "length": 8,
+      "text": "SoundTrk"
+    },
+    {
+      "offset": 6025,
+      "length": 8,
+      "text": "Fantasy "
+    },
+    {
+      "offset": 6405,
+      "length": 8,
+      "text": "Brass   "
+    },
+    {
+      "offset": 6416,
+      "length": 8,
+      "text": "Strings "
+    },
+    {
+      "offset": 6427,
+      "length": 8,
+      "text": "Oboe    "
+    },
+    {
+      "offset": 6438,
+      "length": 8,
+      "text": "Harp    "
+    },
+    {
+      "offset": 6449,
+      "length": 8,
+      "text": "Timpani "
+    },
+    {
+      "offset": 6460,
+      "length": 8,
+      "text": "Brass 2 "
+    },
+    {
+      "offset": 6471,
+      "length": 8,
+      "text": "Perc    "
+    },
+    {
+      "offset": 7367,
+      "length": 8,
+      "text": "Brass   "
+    },
+    {
+      "offset": 7378,
+      "length": 8,
+      "text": "F Horn  "
+    },
+    {
+      "offset": 7389,
+      "length": 8,
+      "text": "PipeOrgn"
+    },
+    {
+      "offset": 7400,
+      "length": 8,
+      "text": "Timpani "
+    },
+    {
+      "offset": 7411,
+      "length": 8,
+      "text": "OrchHits"
+    },
+    {
+      "offset": 7422,
+      "length": 8,
+      "text": "Taiko Dm"
+    },
+    {
+      "offset": 7433,
+      "length": 8,
+      "text": "Perc    "
+    },
+    {
+      "offset": 8093,
+      "length": 8,
+      "text": "F Horn  "
+    },
+    {
+      "offset": 8104,
+      "length": 8,
+      "text": "LowBrass"
+    },
+    {
+      "offset": 8115,
+      "length": 8,
+      "text": "Trumpets"
+    },
+    {
+      "offset": 8126,
+      "length": 8,
+      "text": "Strings "
+    },
+    {
+      "offset": 8137,
+      "length": 8,
+      "text": "Piccolo "
+    },
+    {
+      "offset": 8148,
+      "length": 8,
+      "text": "Timpani "
+    },
+    {
+      "offset": 8159,
+      "length": 8,
+      "text": "Perc    "
+    }
+  ],
+  "record_hints": [],
+  "semantic_status": "file-level structural evidence only"
+}

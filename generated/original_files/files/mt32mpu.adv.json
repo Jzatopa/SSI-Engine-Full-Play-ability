@@ -1,0 +1,273 @@
+{
+  "file": "MT32MPU.ADV",
+  "kind": "audio/music/driver data",
+  "bytes": 10401,
+  "sha256": "cd96da1bc0ba7e1641f1a2cd103e7a8635aafbc6f98f0819eca06dd89e39f534",
+  "head_hex": "20 00 43 6f 70 79 72 69 67 68 74 20 28 43 29 20 31 39 39 31 20 4a 6f 68 6e 20 4d 69 6c 65 73 1a 64 00 89 0c 65 00 4d 04 66 00 22 1f 67 00 68 1c 68 00 76 20 96 00 f5 20 bd 00 0c 21 be 00 32 21 97 00 4d 21 98 00 91 22 aa 00 d5 22 ab 00 65 23 ad 00 a3 23 ae 00 d8 23 af 00 7b 25 b1 00 15 26 b0 00 55 25 b2 00 a1 25 b6 00 92 26 b7 00 cb 26 b9 00 00 27 c0 00 4a 24 c2 00 76 24 b3 00 fe 23",
+  "ascii_candidates": [
+    {
+      "offset": 2,
+      "length": 29,
+      "text": "Copyright (C) 1991 John Miles"
+    },
+    {
+      "offset": 210,
+      "length": 57,
+      "text": "Roland MT-32 or compatible with Roland MPU MIDI Interface"
+    },
+    {
+      "offset": 268,
+      "length": 13,
+      "text": "Roland LAPC-1"
+    },
+    {
+      "offset": 1987,
+      "length": 4,
+      "text": "SPPU"
+    },
+    {
+      "offset": 2114,
+      "length": 6,
+      "text": "SPQRPU"
+    },
+    {
+      "offset": 2215,
+      "length": 6,
+      "text": "SPQRPU"
+    },
+    {
+      "offset": 3182,
+      "length": 4,
+      "text": "]PPU"
+    },
+    {
+      "offset": 3856,
+      "length": 4,
+      "text": "VW_^"
+    },
+    {
+      "offset": 3888,
+      "length": 5,
+      "text": "<TIu2"
+    },
+    {
+      "offset": 3896,
+      "length": 4,
+      "text": "MBu+"
+    },
+    {
+      "offset": 4553,
+      "length": 5,
+      "text": "@rnop"
+    },
+    {
+      "offset": 4567,
+      "length": 5,
+      "text": "D0_N)"
+    },
+    {
+      "offset": 5117,
+      "length": 4,
+      "text": "<CAu"
+    },
+    {
+      "offset": 5130,
+      "length": 4,
+      "text": "<FOt"
+    },
+    {
+      "offset": 5158,
+      "length": 4,
+      "text": "IDtJ"
+    },
+    {
+      "offset": 5259,
+      "length": 4,
+      "text": "<FOu"
+    },
+    {
+      "offset": 5291,
+      "length": 4,
+      "text": "IDtR"
+    },
+    {
+      "offset": 5317,
+      "length": 4,
+      "text": "|BSQ"
+    },
+    {
+      "offset": 5795,
+      "length": 4,
+      "text": "<@|\""
+    },
+    {
+      "offset": 5837,
+      "length": 5,
+      "text": "<@|'W"
+    },
+    {
+      "offset": 5856,
+      "length": 4,
+      "text": "CSPU"
+    },
+    {
+      "offset": 5898,
+      "length": 4,
+      "text": "<@|\""
+    },
+    {
+      "offset": 5973,
+      "length": 5,
+      "text": "t\"<@|"
+    },
+    {
+      "offset": 6348,
+      "length": 31,
+      "text": "t<<vt]<wt[<ttY<utW<otU<ntT<stS."
+    },
+    {
+      "offset": 6654,
+      "length": 5,
+      "text": "@|!PU"
+    },
+    {
+      "offset": 6701,
+      "length": 6,
+      "text": "XdCSPU"
+    },
+    {
+      "offset": 6989,
+      "length": 8,
+      "text": "<Xt:<QtY"
+    },
+    {
+      "offset": 7303,
+      "length": 7,
+      "text": "L:;L>rg"
+    },
+    {
+      "offset": 7379,
+      "length": 4,
+      "text": "D,-d"
+    },
+    {
+      "offset": 7399,
+      "length": 5,
+      "text": "TB;TJ"
+    },
+    {
+      "offset": 7408,
+      "length": 4,
+      "text": ";DH}"
+    },
+    {
+      "offset": 7431,
+      "length": 4,
+      "text": "D,-d"
+    },
+    {
+      "offset": 7439,
+      "length": 6,
+      "text": "D.;D0u"
+    },
+    {
+      "offset": 7447,
+      "length": 6,
+      "text": "D ;D\"u"
+    },
+    {
+      "offset": 7733,
+      "length": 4,
+      "text": "HRQS"
+    },
+    {
+      "offset": 7794,
+      "length": 5,
+      "text": "@dRQP"
+    },
+    {
+      "offset": 7842,
+      "length": 5,
+      "text": "T4+D6"
+    },
+    {
+      "offset": 7912,
+      "length": 5,
+      "text": "T&+D("
+    },
+    {
+      "offset": 8717,
+      "length": 4,
+      "text": "=TIu"
+    },
+    {
+      "offset": 8739,
+      "length": 4,
+      "text": "=RBu"
+    },
+    {
+      "offset": 8762,
+      "length": 4,
+      "text": "=EVt"
+    },
+    {
+      "offset": 9417,
+      "length": 6,
+      "text": "=RBu{&"
+    },
+    {
+      "offset": 9426,
+      "length": 5,
+      "text": "RNus&"
+    },
+    {
+      "offset": 9667,
+      "length": 7,
+      "text": "D0+D.t?"
+    },
+    {
+      "offset": 9696,
+      "length": 4,
+      "text": "]QRP"
+    },
+    {
+      "offset": 9783,
+      "length": 7,
+      "text": "D\"+D tH"
+    },
+    {
+      "offset": 9812,
+      "length": 4,
+      "text": "]QRP"
+    }
+  ],
+  "pascal_candidates": [
+    {
+      "offset": 216,
+      "length": 32,
+      "text": "MT-32 or compatible with Roland "
+    },
+    {
+      "offset": 219,
+      "length": 45,
+      "text": "32 or compatible with Roland MPU MIDI Interfa"
+    },
+    {
+      "offset": 222,
+      "length": 32,
+      "text": "or compatible with Roland MPU MI"
+    },
+    {
+      "offset": 225,
+      "length": 32,
+      "text": "compatible with Roland MPU MIDI "
+    },
+    {
+      "offset": 6347,
+      "length": 7,
+      "text": "t<<vt]<"
+    }
+  ],
+  "record_hints": [],
+  "semantic_status": "file-level structural evidence only"
+}

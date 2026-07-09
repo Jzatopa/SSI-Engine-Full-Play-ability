@@ -1,0 +1,15 @@
+geo_id	geo_name	ecl_block	event_id	event_target_hex	dialog_target_hex	choice_labels	choice_targets	confidence
+17	Caloris Space Port	17	20	0x96CF	0x96CF	HELP ROMNEY		attached_missing_text_near_branch
+17	Caloris Space Port	17	28	0xA0AA	0xA0AA	SOMEONE ELSE?		attached_missing_text_near_branch
+38	Losangelorg Sprawls	38	5	0x88BD	0x88BD	SMOKING GUN SLOTS		attached_missing_text_near_branch
+38	Losangelorg Sprawls	38	6	0x8949	0x8949	SOMEONE ELSE?		attached_missing_text_near_branch
+51	Venus Laboratory, Level 2	50	25	0x8EF2	0x8EF2	MOVE CLOSER		attached_missing_text_near_branch
+64	Luna Base	64	5	0x8243	0x8243	COPERNICUS POLICE		attached_missing_text_near_branch
+64	Luna Base	64	7	0x8350	0x8350	HE CONTINUES,		attached_missing_text_near_branch
+64	Luna Base	64	33	0x946A	0x946A	GIOTTO MINING		attached_missing_text_near_branch
+66	RAM Battler, Deimos Level 19-41	66	6	0x8A10	0x8A10	HE CONTINUES; HIS OFFER	; 	attached_missing_text_near_branch
+66	RAM Battler, Deimos Level 19-41	66	17	0x94DF	0x94DF	DECLINE		attached_missing_text_near_branch
+81	PURGE Headquarters, Floors Ground-Upper	81	24	0x955B	0x955B	HE CONTINUES		attached_missing_text_near_branch
+82	NEO Installation	82	18	0x90C7	0x90C7	WHO WILL TRY?; WILBUR	; 	attached_missing_text_near_branch
+112	Stormrider University	112	27	0x992F	0x992F	DEFUSE; SOMEONE ELSE?	; 	attached_missing_text_near_branch
+113	Genetics Foundation Building, Levels 1-4	113	18	0x9682	0x9682	WHO TRIES?		attached_missing_text_near_branch

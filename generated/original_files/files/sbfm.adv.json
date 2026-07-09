@@ -1,0 +1,273 @@
+{
+  "file": "SBFM.ADV",
+  "kind": "audio/music/driver data",
+  "bytes": 13937,
+  "sha256": "5d0e03fbf692959abe98f1b9ef76d0d50149f60b72ecbee17d17e55ac9ff4b9c",
+  "head_hex": "20 00 43 6f 70 79 72 69 67 68 74 20 28 43 29 20 31 39 39 31 20 4a 6f 68 6e 20 4d 69 6c 65 73 1a 64 00 84 1f 65 00 19 11 66 00 20 2d 67 00 66 2a 68 00 4a 2e 96 00 c5 2e bd 00 dc 2e be 00 02 2f 97 00 1d 2f 98 00 61 30 aa 00 a5 30 ab 00 35 31 ad 00 73 31 ae 00 a8 31 af 00 4b 33 b1 00 e5 33 b0 00 25 33 b2 00 71 33 b6 00 62 34 b7 00 9b 34 b9 00 d0 34 c0 00 1a 32 c2 00 46 32 b3 00 ce 31",
+  "ascii_candidates": [
+    {
+      "offset": 2,
+      "length": 29,
+      "text": "Copyright (C) 1991 John Miles"
+    },
+    {
+      "offset": 210,
+      "length": 40,
+      "text": "Creative Labs Sound Blaster(TM) FM Sound"
+    },
+    {
+      "offset": 251,
+      "length": 38,
+      "text": "Media Vision Thunderboard(TM) FM Sound"
+    },
+    {
+      "offset": 930,
+      "length": 22,
+      "text": "??????????????????????"
+    },
+    {
+      "offset": 1112,
+      "length": 15,
+      "text": "RUX[^adgjmpsvy|"
+    },
+    {
+      "offset": 5079,
+      "length": 5,
+      "text": "<TIu("
+    },
+    {
+      "offset": 5087,
+      "length": 4,
+      "text": "MBu!"
+    },
+    {
+      "offset": 5724,
+      "length": 4,
+      "text": "\tt4."
+    },
+    {
+      "offset": 5917,
+      "length": 4,
+      "text": "@u)."
+    },
+    {
+      "offset": 5925,
+      "length": 4,
+      "text": " u#."
+    },
+    {
+      "offset": 7303,
+      "length": 4,
+      "text": "@}#."
+    },
+    {
+      "offset": 7785,
+      "length": 4,
+      "text": "quJ."
+    },
+    {
+      "offset": 8148,
+      "length": 5,
+      "text": "@rnop"
+    },
+    {
+      "offset": 8162,
+      "length": 5,
+      "text": "D0_N)"
+    },
+    {
+      "offset": 8712,
+      "length": 4,
+      "text": "<CAu"
+    },
+    {
+      "offset": 8725,
+      "length": 4,
+      "text": "<FOt"
+    },
+    {
+      "offset": 8753,
+      "length": 4,
+      "text": "IDtJ"
+    },
+    {
+      "offset": 8854,
+      "length": 4,
+      "text": "<FOu"
+    },
+    {
+      "offset": 8886,
+      "length": 4,
+      "text": "IDtR"
+    },
+    {
+      "offset": 8912,
+      "length": 4,
+      "text": "|BSQ"
+    },
+    {
+      "offset": 9390,
+      "length": 4,
+      "text": "<@|\""
+    },
+    {
+      "offset": 9432,
+      "length": 5,
+      "text": "<@|'W"
+    },
+    {
+      "offset": 9451,
+      "length": 4,
+      "text": "CSPU"
+    },
+    {
+      "offset": 9493,
+      "length": 4,
+      "text": "<@|\""
+    },
+    {
+      "offset": 9568,
+      "length": 5,
+      "text": "t\"<@|"
+    },
+    {
+      "offset": 9943,
+      "length": 31,
+      "text": "t<<vt]<wt[<ttY<utW<otU<ntT<stS."
+    },
+    {
+      "offset": 10249,
+      "length": 5,
+      "text": "@|!PU"
+    },
+    {
+      "offset": 10296,
+      "length": 6,
+      "text": "XdCSPU"
+    },
+    {
+      "offset": 10584,
+      "length": 8,
+      "text": "<Xt:<QtY"
+    },
+    {
+      "offset": 10885,
+      "length": 7,
+      "text": "L:;L>rg"
+    },
+    {
+      "offset": 10961,
+      "length": 4,
+      "text": "D,-d"
+    },
+    {
+      "offset": 10981,
+      "length": 5,
+      "text": "TB;TJ"
+    },
+    {
+      "offset": 10990,
+      "length": 4,
+      "text": ";DH}"
+    },
+    {
+      "offset": 11013,
+      "length": 4,
+      "text": "D,-d"
+    },
+    {
+      "offset": 11021,
+      "length": 6,
+      "text": "D.;D0u"
+    },
+    {
+      "offset": 11029,
+      "length": 6,
+      "text": "D ;D\"u"
+    },
+    {
+      "offset": 11315,
+      "length": 4,
+      "text": "HRQS"
+    },
+    {
+      "offset": 11376,
+      "length": 5,
+      "text": "@dRQP"
+    },
+    {
+      "offset": 11424,
+      "length": 5,
+      "text": "T4+D6"
+    },
+    {
+      "offset": 11494,
+      "length": 5,
+      "text": "T&+D("
+    },
+    {
+      "offset": 11722,
+      "length": 4,
+      "text": "!QRP"
+    },
+    {
+      "offset": 12253,
+      "length": 4,
+      "text": "=TIu"
+    },
+    {
+      "offset": 12275,
+      "length": 4,
+      "text": "=RBu"
+    },
+    {
+      "offset": 12298,
+      "length": 4,
+      "text": "=EVt"
+    },
+    {
+      "offset": 12953,
+      "length": 6,
+      "text": "=RBu{&"
+    },
+    {
+      "offset": 12962,
+      "length": 5,
+      "text": "RNus&"
+    },
+    {
+      "offset": 13203,
+      "length": 7,
+      "text": "D0+D.t?"
+    },
+    {
+      "offset": 13232,
+      "length": 4,
+      "text": "]QRP"
+    },
+    {
+      "offset": 13319,
+      "length": 7,
+      "text": "D\"+D tH"
+    },
+    {
+      "offset": 13348,
+      "length": 4,
+      "text": "]QRP"
+    }
+  ],
+  "pascal_candidates": [
+    {
+      "offset": 256,
+      "length": 32,
+      "text": "Vision Thunderboard(TM) FM Sound"
+    },
+    {
+      "offset": 9942,
+      "length": 7,
+      "text": "t<<vt]<"
+    }
+  ],
+  "record_hints": [],
+  "semantic_status": "file-level structural evidence only"
+}

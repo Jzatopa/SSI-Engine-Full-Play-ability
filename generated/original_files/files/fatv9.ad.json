@@ -1,0 +1,37 @@
+{
+  "file": "FATV9.AD",
+  "kind": "audio/music/driver data",
+  "bytes": 3042,
+  "sha256": "23bbcf1eb5c5c969a8ce60bc0f2b3d2e0073ac2f24bcd317f64b9d0887e0eb0b",
+  "head_hex": "00 00 92 03 00 00 01 00 a0 03 00 00 02 00 ae 03 00 00 03 00 bc 03 00 00 04 00 ca 03 00 00 05 00 d8 03 00 00 06 00 e6 03 00 00 07 00 f4 03 00 00 08 00 02 04 00 00 09 00 10 04 00 00 0a 00 1e 04 00 00 0b 00 2c 04 00 00 0c 00 3a 04 00 00 0d 00 48 04 00 00 0e 00 56 04 00 00 0f 00 64 04 00 00 10 00 72 04 00 00 11 00 80 04 00 00 12 00 8e 04 00 00 13 00 9c 04 00 00 14 00 aa 04 00 00 15 00",
+  "ascii_candidates": [
+    {
+      "offset": 1371,
+      "length": 4,
+      "text": "u@uB"
+    },
+    {
+      "offset": 1561,
+      "length": 4,
+      "text": "GMxB"
+    },
+    {
+      "offset": 1589,
+      "length": 4,
+      "text": "1@q!"
+    },
+    {
+      "offset": 2205,
+      "length": 4,
+      "text": "!&aj"
+    },
+    {
+      "offset": 2219,
+      "length": 4,
+      "text": "!&aj"
+    }
+  ],
+  "pascal_candidates": [],
+  "record_hints": [],
+  "semantic_status": "file-level structural evidence only"
+}

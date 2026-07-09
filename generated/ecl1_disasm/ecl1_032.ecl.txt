@@ -1,0 +1,629 @@
+vm_run_1           0x8224
+SearchLocation     0x8259
+PreCampCheck       0x8223
+CampInterrupted    0x8223
+ecl_initial_entry  0x8014
+
+0x8014 0x09 SAVE area1.event_word_210 = 0
+
+0x801A 0x03 COMPARE Values: area1.word_16E == 1
+
+0x8020 0x16 IF = <if compare flag is false, skip next op>
+0x8021 0x09 SAVE area1.event_word_210 = 1
+
+0x8027 0x17 IF <> <if compare flag is false, skip next op>
+0x8028 0x09 SAVE area1.event_word_20C = 1
+
+0x802E 0x03 COMPARE Values: area1.LastEclBlockId == 32
+
+0x8034 0x17 IF <> <if compare flag is false, skip next op>
+0x8035 0x01 GOTO 0x803F
+
+0x803A 0x00 EXIT
+
+0x803F 0x09 SAVE area1.word_16E = 4
+
+0x8045 0x09 SAVE area1.inDungeon = 168
+
+0x804B 0x21 LOAD FILES Load GEO 127 raw=(127, 127, 255)
+
+0x8052 0x09 SAVE area2.word_58C = 90
+
+0x8058 0x03 COMPARE Values: area1.LastEclBlockId == 81
+
+0x805E 0x16 IF = <if compare flag is false, skip next op>
+0x805F 0x01 GOTO 0x80DB
+
+0x8063 0x03 COMPARE Values: area1.LastEclBlockId == 33
+
+0x8069 0x16 IF = <if compare flag is false, skip next op>
+0x806A 0x01 GOTO 0x81CE
+
+0x806E 0x03 COMPARE Values: area1.LastEclBlockId == 34
+
+0x8074 0x16 IF = <if compare flag is false, skip next op>
+0x8075 0x01 GOTO 0x81F9
+
+0x8079 0x03 COMPARE Values: area1.LastEclBlockId == 38
+
+0x807F 0x16 IF = <if compare flag is false, skip next op>
+0x8080 0x01 GOTO 0x80C4
+
+0x8084 0x09 SAVE area1.LastEclBlockId = 32
+
+0x808A 0x09 SAVE area1.word_186 = 20
+
+0x8090 0x09 SAVE area1.word_188 = 5
+
+0x8097 0x00 EXIT
+
+0x80C4 0x09 SAVE area1.LastEclBlockId = 32
+
+0x80CB 0x00 EXIT
+
+0x80DB 0x09 SAVE area1.LastEclBlockId = 32
+
+0x80E1 0x09 SAVE area1.word_186 = 6
+
+0x80E7 0x09 SAVE area1.word_188 = 13
+
+0x80EE 0x00 EXIT
+
+0x81CE 0x09 SAVE area1.LastEclBlockId = 32
+
+0x81D4 0x09 SAVE area1.word_186 = 35
+
+0x81DA 0x09 SAVE area1.word_188 = 1
+
+0x81E1 0x00 EXIT
+
+0x81F9 0x09 SAVE area1.LastEclBlockId = 32
+
+0x81FF 0x09 SAVE area1.word_186 = 24
+
+0x8205 0x09 SAVE area1.word_188 = 13
+
+0x820C 0x00 EXIT
+
+0x8223 0x00 EXIT
+0x8224 0x03 COMPARE Values: area1.event_word_20C == 1
+
+0x822A 0x16 IF = <if compare flag is false, skip next op>
+0x822B 0x09 SAVE area1.event_word_20C = 0
+
+0x8231 0x16 IF = <if compare flag is false, skip next op>
+0x8232 0x00 EXIT
+0x8233 0x26 ON GOSUB mapDirection of [0x9BBB, 0x9BCF, 0x9BE5, 0x9BF9, 0x9C0F, 0x9C23, 0x9C39, 0x9C4D]
+
+0x8251 0x16 IF = <if compare flag is false, skip next op>
+0x8252 0x09 SAVE area2.word_592 = 255
+
+0x8258 0x00 EXIT
+0x8259 0x2F AND area2.event_scratch0 = 2 & area1.event_word_2B8
+
+0x8262 0x16 IF = <if compare flag is false, skip next op>
+0x8263 0x01 GOTO 0x8272
+
+0x8267 0x03 COMPARE Values: area1.word_188 == 3
+
+0x826D 0x16 IF = <if compare flag is false, skip next op>
+0x826E 0x02 GOSUB 0x96CA
+
+0x8272 0x03 COMPARE Values: area1.word_16E == 10
+
+0x8278 0x19 IF > <if compare flag is false, skip next op>
+0x8279 0x01 GOTO 0x82AF
+
+0x827D 0x03 COMPARE Values: area1.word_16E == 20
+
+0x8283 0x19 IF > <if compare flag is false, skip next op>
+0x8284 0x01 GOTO 0x82D1
+
+0x8288 0x05 SUBTRACT area2.event_scratch0 = area1.word_16E - 20
+
+0x8291 0x25 ON GOTO area2.event_scratch0 of [0x8550, 0x85F4, 0x8648, 0x8A60, 0x8BB0, 0x8BFF, 0x8C96, 0x9047]
+
+0x82AF 0x03 COMPARE Values: area1.event_word_210 == 1
+
+0x82B5 0x16 IF = <if compare flag is false, skip next op>
+0x82B6 0x01 GOTO 0x82C6
+
+0x82BA 0x03 COMPARE Values: area1.event_word_208 == area1.word_16E
+
+0x82C1 0x17 IF <> <if compare flag is false, skip next op>
+0x82C2 0x02 GOSUB 0x9B25
+
+0x82C6 0x09 SAVE area1.event_word_208 = area1.word_16E
+
+0x82CD 0x01 GOTO 0x919F
+
+0x82D1 0x05 SUBTRACT area2.event_scratch0 = area1.word_16E - 10
+
+0x82DA 0x14 COMPARE AND Values: 1 == area1.event_word_210 && 4 == area2.event_scratch0
+
+0x82E5 0x16 IF = <if compare flag is false, skip next op>
+0x82E6 0x01 GOTO 0x8316
+
+0x82EA 0x03 COMPARE Values: area1.event_word_210 == 1
+
+0x82F0 0x16 IF = <if compare flag is false, skip next op>
+0x82F1 0x00 EXIT
+0x82F2 0x25 ON GOTO area2.event_scratch0 of [0x8337, 0x834F, 0x836F, 0x8382, 0x839C, 0x8481, 0x84A1, 0x84B3, 0x84CC, 0x84E3]
+
+0x8316 0x12 PRINTCLEAR 'YOU LAND AT TOWER ISLE.'
+
+0x8337 0x09 SAVE scratch.word_0000 = abs_000E
+
+0x834B 0x01 GOTO 0x84F5
+
+0x834F 0x09 SAVE scratch.word_0000 = abs_0016
+
+0x836B 0x01 GOTO 0x84F5
+
+0x836F 0x09 SAVE scratch.word_0000 = abs_0009
+
+0x837E 0x01 GOTO 0x84F5
+
+0x8382 0x09 SAVE scratch.word_0000 = abs_0010
+
+0x8398 0x01 GOTO 0x84F5
+
+0x839C 0x09 SAVE scratch.word_0000 = abs_0018
+
+0x83BA 0x03 COMPARE Values: area1.event_word_26E == 2
+
+0x83C0 0x17 IF <> <if compare flag is false, skip next op>
+0x83C1 0x01 GOTO 0x84F5
+
+0x83C5 0x2F AND area2.event_scratch0 = 32 & area1.event_word_296
+
+0x83CE 0x17 IF <> <if compare flag is false, skip next op>
+0x83CF 0x01 GOTO 0x841C
+
+0x83D3 0x12 PRINTCLEAR 'YOU APPROACH '
+
+0x83E0 0x11 PRINT '<string at scratch.word_0000>'
+
+0x83E4 0x11 PRINT ' WITH THE PASSCARD BUCK ROGERS GAVE YOU. DO YOU ENTER?'
+
+0x841C 0x12 PRINTCLEAR "YOU CAN GET RED CARRIN'S BOAT AT THE TOWER ISLE DOCK. DO YOU?"
+
+0x8481 0x09 SAVE scratch.word_0000 = abs_0016
+
+0x849D 0x01 GOTO 0x84F5
+
+0x84A1 0x09 SAVE scratch.word_0000 = abs_0008
+
+0x84AF 0x01 GOTO 0x84F5
+
+0x84B3 0x09 SAVE scratch.word_0000 = abs_000F
+
+0x84C8 0x01 GOTO 0x84F5
+
+0x84CC 0x09 SAVE scratch.word_0000 = abs_000D
+
+0x84DF 0x01 GOTO 0x84F5
+
+0x84E3 0x09 SAVE scratch.word_0000 = abs_000C
+
+0x84F5 0x12 PRINTCLEAR 'REGULATIONS DISALLOW YOUR ENTRANCE TO THE NEWPORG '
+
+0x851E 0x11 PRINT '<string at scratch.word_0000>'
+
+0x8522 0x11 PRINT ' WITHOUT POSSESSION OF THE PROPERLY AUTHORIZED PASSCARD.'
+
+0x854F 0x00 EXIT
+0x8550 0x03 COMPARE Values: area1.event_word_210 == 1
+
+0x8556 0x16 IF = <if compare flag is false, skip next op>
+0x8557 0x01 GOTO 0x85B5
+
+0x855B 0x12 PRINTCLEAR 'YOU REACH YOUR BOAT. DO YOU USE IT?'
+
+0x85B5 0x12 PRINTCLEAR 'YOU LAND AT SANTA CATALINA ISLAND. DO YOU RETURN TO YOUR BOAT?'
+
+0x85F4 0x12 PRINTCLEAR 'A SECTION OF THE SPRAWL HAS BEEN WALLED OFF. FURTHER DOWN YOU SEE AN OPENING. DO YOU GO THROUGH IT?'
+
+0x8648 0x2F AND area2.event_scratch0 = 2 & area1.event_word_296
+
+0x8651 0x17 IF <> <if compare flag is false, skip next op>
+0x8652 0x01 GOTO 0x89B4
+
+0x8656 0x30 OR area1.event_word_296 = 2 | area1.event_word_296
+
+0x865F 0x12 PRINTCLEAR 'AS YOU APPROACH THE BUILDING, A NEO AGENT BECKONS TO YOU FROM NEARBY. IT IS WILMA DEERING.'
+
+0x89B4 0x12 PRINTCLEAR 'YOU ARE AT PURGE HEADQUARTERS.'
+
+0x8A60 0x2F AND area2.event_scratch0 = 2 & area1.event_word_2B8
+
+0x8A69 0x16 IF = <if compare flag is false, skip next op>
+0x8A6A 0x00 EXIT
+0x8A6B 0x2F AND area2.event_scratch0 = 4 & area1.event_word_296
+
+0x8A74 0x17 IF <> <if compare flag is false, skip next op>
+0x8A75 0x01 GOTO 0x8B8C
+
+0x8A79 0x12 PRINTCLEAR "AS YOU APPROACH THE MESA, A BEEPING SOUND ISSUES FROM THE DEVICE YOU FOUND IN THE GANG'S QUARTER."
+
+0x8AC6 0x00 EXIT
+
+0x8B8C 0x12 PRINTCLEAR 'DO YOU ENTER THE HISTORICAL MUSEUM?'
+
+0x8BB0 0x12 PRINTCLEAR "DUKE'S HILL SPACEPORT. YOUR SHIP IS HERE. DO YOU LEAVE EARTH?"
+
+0x8BFF 0x2F AND area2.event_scratch0 = 8 & area1.event_word_296
+
+0x8C08 0x17 IF <> <if compare flag is false, skip next op>
+0x8C09 0x00 EXIT
+0x8C0A 0x30 OR area1.event_word_296 = 8 | area1.event_word_296
+
+0x8C13 0x03 COMPARE Values: area2.party_size == 2
+
+0x8C19 0x19 IF > <if compare flag is false, skip next op>
+0x8C1A 0x00 EXIT
+0x8C1B 0x0A LOAD CHARACTER index: 1
+
+0x8C1E 0x09 SAVE area2.word_056 = 0
+
+0x8C25 0x12 PRINTCLEAR 'A THIEF STEALS '
+
+0x8C34 0x11 PRINT '<string at area2.selected_player_name>'
+
+0x8C38 0x11 PRINT "'S WALLET! HE SPRINTS TOWARDS A TUNNEL DUG INTO SOME RUBBLE. DO YOU CHASE HIM?"
+
+0x8C96 0x2F AND area2.event_scratch0 = 16 & area1.event_word_314
+
+0x8C9F 0x17 IF <> <if compare flag is false, skip next op>
+0x8CA0 0x01 GOTO 0x8D06
+
+0x8CA4 0x12 PRINTCLEAR "YOU FIND A SMALL BUILDING. THE SIGN OVER THE DOOR READS, 'KRUN -- HOME OF QUALITY ROCK 'N ROLL.' DO YOU ENTER?"
+
+0x8D06 0x2F AND area2.event_scratch0 = 128 & area1.event_word_298
+
+0x8D0F 0x17 IF <> <if compare flag is false, skip next op>
+0x8D10 0x01 GOTO 0x8CA4
+
+0x8D14 0x2F AND area2.event_scratch0 = 2 & area1.event_word_29A
+
+0x8D1D 0x17 IF <> <if compare flag is false, skip next op>
+0x8D1E 0x01 GOTO 0x8FC8
+
+0x8D22 0x30 OR area1.event_word_29A = 2 | area1.event_word_29A
+
+0x8D2B 0x12 PRINTCLEAR 'YOU APPROACH '
+
+0x8D38 0x2F AND area2.event_scratch0 = 1 & area1.event_word_29A
+
+0x8D41 0x16 IF = <if compare flag is false, skip next op>
+0x8D42 0x01 GOTO 0x8F38
+
+0x8D46 0x11 PRINT 'THE KRUN BUILDING. MAD DOG RUNS UP TO YOU.'
+
+0x8F38 0x11 PRINT 'A SMALL BUILDING. A DESERT RUNNER RUNS UP TO YOU.'
+
+0x8FC8 0x12 PRINTCLEAR "BAD DOG MEETS YOU. 'HEY, COOL, YOU'RE BACK! READY TO GO FIGHT THE BAD GUYS?'"
+
+0x9047 0x2F AND area2.event_scratch0 = 16 & area1.event_word_296
+
+0x9050 0x17 IF <> <if compare flag is false, skip next op>
+0x9051 0x00 EXIT
+0x9052 0x30 OR area1.event_word_296 = 16 | area1.event_word_296
+
+0x905B 0x12 PRINTCLEAR 'SOME WARREN DWELLERS ARE GATHERED AROUND A LARGE SEWER DRAIN. DO YOU APPROACH THEM?'
+
+0x919F 0x03 COMPARE Values: area1.event_word_20E == 7
+
+0x91A5 0x19 IF > <if compare flag is false, skip next op>
+0x91A6 0x04 ADD area1.event_word_20E = 1 + area1.event_word_20E
+
+0x91AF 0x19 IF > <if compare flag is false, skip next op>
+0x91B0 0x00 EXIT
+0x91B1 0x08 RANDOM area2.event_scratch0 = random 1..99
+
+0x91B7 0x03 COMPARE Values: area2.event_scratch0 == 12
+
+0x91BD 0x19 IF > <if compare flag is false, skip next op>
+0x91BE 0x01 GOTO 0x91C3
+
+0x91C2 0x00 EXIT
+0x91C3 0x09 SAVE area1.event_word_20E = 0
+
+0x91C9 0x03 COMPARE Values: area1.word_16E == 2
+
+0x91CF 0x16 IF = <if compare flag is false, skip next op>
+0x91D0 0x01 GOTO 0x94C6
+
+0x91D4 0x03 COMPARE Values: area1.word_16E == 3
+
+0x91DA 0x17 IF <> <if compare flag is false, skip next op>
+0x91DB 0x00 EXIT
+0x91DC 0x2F AND area2.event_scratch0 = 1 & area1.event_word_29A
+
+0x91E5 0x17 IF <> <if compare flag is false, skip next op>
+0x91E6 0x01 GOTO 0x92B4
+
+0x91EA 0x08 RANDOM area2.event_scratch0 = random 1..4
+
+0x91F0 0x25 ON GOTO area2.event_scratch0 of [0x9205, 0x9205, 0x922D, 0x925F, 0x928A]
+
+0x9205 0x0C SETUP MONSTER sprite_id: 255 max_distance: 0 pic_id: 255
+
+0x920C 0x00 EXIT
+
+0x922D 0x0C SETUP MONSTER sprite_id: 255 max_distance: 1 pic_id: 255
+
+0x9234 0x00 EXIT
+
+0x925F 0x0C SETUP MONSTER sprite_id: 255 max_distance: 0 pic_id: 255
+
+0x9266 0x00 EXIT
+
+0x928A 0x0C SETUP MONSTER sprite_id: 255 max_distance: 0 pic_id: 255
+
+0x9291 0x00 EXIT
+
+0x92B4 0x2F AND area2.event_scratch0 = 4 & area1.event_word_29A
+
+0x92BD 0x17 IF <> <if compare flag is false, skip next op>
+0x92BE 0x01 GOTO 0x91EA
+
+0x92C2 0x30 OR area1.event_word_29A = 4 | area1.event_word_29A
+
+0x92CB 0x12 PRINTCLEAR 'CLIMBING OVER A SAND DUNE, YOU SEE A GROUP IN THE DISTANCE. RAM SOLDIERS GUARD A LINE OF DESERT RUNNERS IN CHAINS.'
+
+0x94C6 0x03 COMPARE Values: area1.event_word_29C == 5
+
+0x94CC 0x18 IF < <if compare flag is false, skip next op>
+0x94CD 0x00 EXIT
+0x94CE 0x09 SAVE area2.event_scratch0 = area1.event_word_29C
+
+0x94D5 0x04 ADD area1.event_word_29C = 1 + area1.event_word_29C
+
+0x94DE 0x12 PRINTCLEAR 'A WARREN DWELLER CARRYING A RADIO PASSES YOU. YOU HEAR SOME OF THE BROADCAST.'
+
+0x96CA 0x2F AND area2.event_scratch0 = 1 & area1.event_word_296
+
+0x96D3 0x17 IF <> <if compare flag is false, skip next op>
+0x96D4 0x13 RETURN
+0x96D5 0x30 OR area1.event_word_296 = 1 | area1.event_word_296
+
+0x96DE 0x12 PRINTCLEAR 'A SMALL CROWD HAS GATHERED AROUND A GARISHLY PAINTED HAND CART. DO YOU INVESTIGATE?'
+
+0x9B25 0x03 COMPARE Values: area1.word_16E == 2
+
+0x9B2B 0x16 IF = <if compare flag is false, skip next op>
+0x9B2C 0x02 GOSUB 0x9B9A
+
+0x9B30 0x03 COMPARE Values: area1.word_16E == 3
+
+0x9B36 0x16 IF = <if compare flag is false, skip next op>
+0x9B37 0x02 GOSUB 0x9B52
+
+0x9B3B 0x03 COMPARE Values: area1.word_16E == 5
+
+0x9B41 0x16 IF = <if compare flag is false, skip next op>
+0x9B42 0x02 GOSUB 0x9B66
+
+0x9B46 0x03 COMPARE Values: area1.word_16E == 6
+
+0x9B4C 0x16 IF = <if compare flag is false, skip next op>
+0x9B4D 0x02 GOSUB 0x9B80
+
+0x9B51 0x13 RETURN
+0x9B52 0x12 PRINTCLEAR 'YOU ENTER THE DESERT.'
+
+0x9B65 0x13 RETURN
+0x9B66 0x12 PRINTCLEAR 'YOU WALK ALONG A MUDDY RIVER.'
+
+0x9B7F 0x13 RETURN
+0x9B80 0x12 PRINTCLEAR 'YOU WALK ON A RUINED FREEWAY.'
+
+0x9B99 0x13 RETURN
+0x9B9A 0x12 PRINTCLEAR 'YOU ENTER THE POVERTY STRICKEN SPRAWL.'
+
+0x9BBA 0x13 RETURN
+0x9BBB 0x05 SUBTRACT area2.event_scratch2 = area1.word_188 - 1
+
+0x9BC4 0x09 SAVE area2.event_scratch1 = area1.word_186
+
+0x9BCB 0x01 GOTO 0x9C5F
+
+0x9BCF 0x05 SUBTRACT area2.event_scratch2 = area1.word_188 - 1
+
+0x9BD8 0x04 ADD area2.event_scratch1 = 1 + area1.word_186
+
+0x9BE1 0x01 GOTO 0x9C5F
+
+0x9BE5 0x09 SAVE area2.event_scratch2 = area1.word_188
+
+0x9BEC 0x04 ADD area2.event_scratch1 = 1 + area1.word_186
+
+0x9BF5 0x01 GOTO 0x9C5F
+
+0x9BF9 0x04 ADD area2.event_scratch2 = 1 + area1.word_188
+
+0x9C02 0x04 ADD area2.event_scratch1 = 1 + area1.word_186
+
+0x9C0B 0x01 GOTO 0x9C5F
+
+0x9C0F 0x04 ADD area2.event_scratch2 = 1 + area1.word_188
+
+0x9C18 0x09 SAVE area2.event_scratch1 = area1.word_186
+
+0x9C1F 0x01 GOTO 0x9C5F
+
+0x9C23 0x04 ADD area2.event_scratch2 = 1 + area1.word_188
+
+0x9C2C 0x05 SUBTRACT area2.event_scratch1 = area1.word_186 - 1
+
+0x9C35 0x01 GOTO 0x9C5F
+
+0x9C39 0x09 SAVE area2.event_scratch2 = area1.word_188
+
+0x9C40 0x05 SUBTRACT area2.event_scratch1 = area1.word_186 - 1
+
+0x9C49 0x01 GOTO 0x9C5F
+
+0x9C4D 0x05 SUBTRACT area2.event_scratch2 = area1.word_188 - 1
+
+0x9C56 0x05 SUBTRACT area2.event_scratch1 = area1.word_186 - 1
+
+0x9C5F 0x03 COMPARE Values: area2.event_scratch1 == 37
+
+0x9C65 0x18 IF < <if compare flag is false, skip next op>
+0x9C66 0x01 GOTO 0x9CA0
+
+0x9C6A 0x03 COMPARE Values: area2.event_scratch2 == 14
+
+0x9C70 0x18 IF < <if compare flag is false, skip next op>
+0x9C71 0x01 GOTO 0x9CA0
+
+0x9C75 0x02 GOSUB 0x9DC2
+
+0x9C79 0x03 COMPARE Values: area1.event_word_210 == 1
+
+0x9C7F 0x16 IF = <if compare flag is false, skip next op>
+0x9C80 0x01 GOTO 0x9CEF
+
+0x9C84 0x03 COMPARE Values: area1.word_16E == 1
+
+0x9C8A 0x16 IF = <if compare flag is false, skip next op>
+0x9C8B 0x01 GOTO 0x9CA7
+
+0x9C8F 0x03 COMPARE Values: area1.word_16E == 7
+
+0x9C95 0x16 IF = <if compare flag is false, skip next op>
+0x9C96 0x01 GOTO 0x9CCA
+
+0x9C9A 0x03 COMPARE Values: 0 == 1
+
+0x9C9F 0x13 RETURN
+0x9CA0 0x3A DELAY
+0x9CA1 0x03 COMPARE Values: 0 == 0
+
+0x9CA6 0x13 RETURN
+0x9CA7 0x03 COMPARE Values: area1.event_word_210 == 1
+
+0x9CAD 0x16 IF = <if compare flag is false, skip next op>
+0x9CAE 0x01 GOTO 0x9C9A
+
+0x9CB2 0x12 PRINTCLEAR "YOU DON'T HAVE A BOAT!"
+
+0x9CC6 0x01 GOTO 0x9CA0
+
+0x9CCA 0x12 PRINTCLEAR 'YOU CROSS THE BAY ON A NEWPORG BRIDGE.'
+
+0x9CEA 0x3A DELAY
+0x9CEB 0x01 GOTO 0x9C9A
+
+0x9CEF 0x03 COMPARE Values: area1.word_16E == 14
+
+0x9CF5 0x16 IF = <if compare flag is false, skip next op>
+0x9CF6 0x01 GOTO 0x9C9A
+
+0x9CFA 0x03 COMPARE Values: area1.word_16E == 20
+
+0x9D00 0x16 IF = <if compare flag is false, skip next op>
+0x9D01 0x01 GOTO 0x9C9A
+
+0x9D05 0x03 COMPARE Values: area1.word_16E == 7
+
+0x9D0B 0x16 IF = <if compare flag is false, skip next op>
+0x9D0C 0x01 GOTO 0x9C9A
+
+0x9D10 0x03 COMPARE Values: area1.word_16E == 1
+
+0x9D16 0x16 IF = <if compare flag is false, skip next op>
+0x9D17 0x01 GOTO 0x9C9A
+
+0x9D1B 0x03 COMPARE Values: area1.word_16E == 9
+
+0x9D21 0x18 IF < <if compare flag is false, skip next op>
+0x9D22 0x12 PRINTCLEAR 'YOU MAY ONLY DOCK AT TOWER ISLE IN THE FJORD.'
+
+0x9D47 0x1B IF >= <if compare flag is false, skip next op>
+0x9D48 0x12 PRINTCLEAR 'THE ROUGH SURF MAKES IT IMPOSSIBLE TO LAND HERE.'
+
+0x9D6F 0x09 SAVE area1.word_16E = area1.event_word_208
+
+0x9D76 0x01 GOTO 0x9CA0
+
+0x9DC2 0x25 ON GOTO area2.event_scratch2 of [0x9DF5, 0x9E00, 0x9E0B, 0x9E16, 0x9E21, 0x9E2C, 0x9E37, 0x9E42, 0x9E4D, 0x9E58, 0x9E63, 0x9E6E, 0x9E79, 0x9E84, 0x9E8F]
+
+0x9DF5 0x2A GETTABLE area1.word_16E = abs_9E9A[area2.event_scratch1]
+
+0x9DFF 0x13 RETURN
+0x9E00 0x2A GETTABLE area1.word_16E = abs_9EC0[area2.event_scratch1]
+
+0x9E0A 0x13 RETURN
+0x9E0B 0x2A GETTABLE area1.word_16E = abs_9EE6[area2.event_scratch1]
+
+0x9E15 0x13 RETURN
+0x9E16 0x2A GETTABLE area1.word_16E = abs_9F0C[area2.event_scratch1]
+
+0x9E20 0x13 RETURN
+0x9E21 0x2A GETTABLE area1.word_16E = abs_9F32[area2.event_scratch1]
+
+0x9E2B 0x13 RETURN
+0x9E2C 0x2A GETTABLE area1.word_16E = abs_9F58[area2.event_scratch1]
+
+0x9E36 0x13 RETURN
+0x9E37 0x2A GETTABLE area1.word_16E = abs_9F7E[area2.event_scratch1]
+
+0x9E41 0x13 RETURN
+0x9E42 0x2A GETTABLE area1.word_16E = abs_9FA4[area2.event_scratch1]
+
+0x9E4C 0x13 RETURN
+0x9E4D 0x2A GETTABLE area1.word_16E = abs_9FCA[area2.event_scratch1]
+
+0x9E57 0x13 RETURN
+0x9E58 0x2A GETTABLE area1.word_16E = abs_9FF0[area2.event_scratch1]
+
+0x9E62 0x13 RETURN
+0x9E63 0x2A GETTABLE area1.word_16E = abs_A016[area2.event_scratch1]
+
+0x9E6D 0x13 RETURN
+0x9E6E 0x2A GETTABLE area1.word_16E = abs_A03C[area2.event_scratch1]
+
+0x9E78 0x13 RETURN
+0x9E79 0x2A GETTABLE area1.word_16E = abs_A062[area2.event_scratch1]
+
+0x9E83 0x13 RETURN
+0x9E84 0x2A GETTABLE area1.word_16E = abs_A088[area2.event_scratch1]
+
+0x9E8E 0x13 RETURN
+0x9E8F 0x2A GETTABLE area1.word_16E = abs_A0AE[area2.event_scratch1]
+
+0x9E99 0x13 RETURN
+
+Text fallthrough boundaries skipped:
+- 0x9720: 0x2C after PRINTCLEAR
+- 0x832B: 0x29 after PRINTCLEAR
+- 0x8579: 0x2C after PRINTCLEAR
+- 0x8642: 0x2C after PRINTCLEAR
+- 0x86A6: 0x29 after PRINTCLEAR
+- 0x8BE1: 0x2C after PRINTCLEAR
+- 0x8C76: 0x2C after PRINT
+- 0x8CFA: 0x2C after PRINTCLEAR
+- 0x909D: 0x2C after PRINTCLEAR
+- 0x8410: 0x2C after PRINT
+- 0x85E7: 0x2C after PRINTCLEAR
+- 0x89CE: 0x29 after PRINTCLEAR
+- 0x8BAA: 0x2C after PRINTCLEAR
+- 0x8D69: 0x29 after PRINT
+- 0x844D: 0x2C after PRINTCLEAR
+- 0x9004: 0x2C after PRINTCLEAR
+- 0x8F60: 0x29 after PRINT
+- 0x951B: 0x29 after PRINTCLEAR
+- 0x9324: 0x29 after PRINTCLEAR
+
+Unknown-prefixed fallthroughs normalized:
+- 0x8039 -> 0x803A
+- 0x8AC5 -> 0x8AC6
+- 0x8C24 -> 0x8C25
+- 0x8096 -> 0x8097
+- 0x80ED -> 0x80EE
+- 0x81E0 -> 0x81E1
+- 0x820B -> 0x820C
+- 0x80CA -> 0x80CB

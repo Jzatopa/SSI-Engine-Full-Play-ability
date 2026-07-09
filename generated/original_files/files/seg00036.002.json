@@ -1,0 +1,118 @@
+{
+  "file": "SEG00036.002",
+  "kind": "unknown binary",
+  "bytes": 202,
+  "sha256": "b40b7a88b2a76f74d419c9ce8fb9c6b50ca711056310fda98e1d94f49a301b6a",
+  "head_hex": "20 6c 64 0a 6e 78 50 0a 4a 20 69 20 20 6c 20 6c 68 69 20 69 20 72 4e 20 20 73 66 2e 65 73 20 78 54 20 4f 20 68 74 39 20 77 0a 35 20 74 6c 2e 0d 54 65 23 20 20 0d 20 20 69 69 64 43 20 73 20 20 73 64 43 0a 70 65 65 43 0a 72 20 2e 20 65 20 73 20 6c 69 20 20 77 78 0a 56 66 20 64 65 6e 20 20 20 6c 2c 20 75 65 49 0d 75 63 78 20 20 77 73 61 54 20 20 66 20 6f 20 20 20 61 69 20 20 74 20 20",
+  "ascii_candidates": [
+    {
+      "offset": 8,
+      "length": 33,
+      "text": "J i  l lhi i rN  sf.es xT O ht9 w"
+    },
+    {
+      "offset": 42,
+      "length": 5,
+      "text": "5 tl."
+    },
+    {
+      "offset": 48,
+      "length": 5,
+      "text": "Te#  "
+    },
+    {
+      "offset": 54,
+      "length": 13,
+      "text": "  iidC s  sdC"
+    },
+    {
+      "offset": 68,
+      "length": 4,
+      "text": "peeC"
+    },
+    {
+      "offset": 73,
+      "length": 14,
+      "text": "r . e s li  wx"
+    },
+    {
+      "offset": 88,
+      "length": 15,
+      "text": "Vf den   l, ueI"
+    },
+    {
+      "offset": 104,
+      "length": 38,
+      "text": "ucx  wsaT  f o   ai  t   os sue l    g"
+    },
+    {
+      "offset": 151,
+      "length": 9,
+      "text": " df  b  l"
+    },
+    {
+      "offset": 161,
+      "length": 4,
+      "text": "h rn"
+    },
+    {
+      "offset": 167,
+      "length": 10,
+      "text": "pgt s i f "
+    },
+    {
+      "offset": 178,
+      "length": 5,
+      "text": "e 0 a"
+    },
+    {
+      "offset": 184,
+      "length": 4,
+      "text": "9 ei"
+    },
+    {
+      "offset": 194,
+      "length": 8,
+      "text": "   ehaT "
+    }
+  ],
+  "pascal_candidates": [
+    {
+      "offset": 7,
+      "length": 10,
+      "text": "J i  l lhi"
+    },
+    {
+      "offset": 53,
+      "length": 13,
+      "text": "  iidC s  sdC"
+    },
+    {
+      "offset": 72,
+      "length": 10,
+      "text": "r . e s li"
+    },
+    {
+      "offset": 87,
+      "length": 10,
+      "text": "Vf den   l"
+    },
+    {
+      "offset": 103,
+      "length": 13,
+      "text": "ucx  wsaT  f "
+    },
+    {
+      "offset": 107,
+      "length": 32,
+      "text": " wsaT  f o   ai  t   os sue l   "
+    },
+    {
+      "offset": 108,
+      "length": 32,
+      "text": "wsaT  f o   ai  t   os sue l    "
+    }
+  ],
+  "record_hints": [],
+  "semantic_status": "file-level structural evidence only"
+}

@@ -1,0 +1,125 @@
+Matrix Cubed skill-check opcode Qwen-Coder advisory job: opcode 0x23 callsite review
+
+Use only the supplied evidence. Do not invent paths, offsets, APIs,
+opcode names, skill names, test results, DOS behavior, or original-game
+facts.
+
+Return compact Markdown, maximum 700 words, with these sections:
+VERIFIED_FROM_PROMPT, CANDIDATES, RISKS, LOCAL_VALIDATION_STEPS,
+UNSUPPORTED_CLAIMS.
+
+Treat all output as advisory. Local bytes, generated artifacts, source
+review, and tests decide what is accepted.
+
+Goal: review whether the supplied callsite evidence supports treating Matrix ECL opcode 0x23 as a SKILL_CHECK candidate, and identify operand-role hypotheses that need local validation. Do not recommend VM integration in this pass.
+
+Recovery README:
+# Matrix Cubed Skill-Check Opcode Recovery - 2026-07-08
+
+This artifact records ECL opcode `0x23` callsites as Matrix `SKILL_CHECK` candidates.
+The current generic listing still labels them as `SURPRISE`; operand semantics are not implemented here.
+
+## Summary
+
+- opcode `0x23` callsites: 3
+- callsites with constant first operand that maps to the recovered skill table: 1
+- callsites with variable first operand: 2
+- WHO prompt contexts recorded for correlation: 3
+
+## 0x23 Callsites
+
+| ECL block | Address | Operands | Candidate skill | Context |
+|---:|---:|---|---|---|
+| 34 | 0xA13D | `area2.event_scratch1, area2.event_scratch2, area2.event_scratch3, area2.word_002` | variable/unknown | region 0xA131 |
+| 95 | 0x9705 | `79, area2.event_scratch0, area2.event_scratch1, scratch.word_0002` | 79 / Etiquette (.WHO 0x9B) | region 0x96F9 |
+| 98 | 0xA21C | `area2.event_scratch1, area2.event_scratch2, area2.event_scratch3` | variable/unknown | region 0xA202 |
+
+## Boundary
+
+- `candidate_skill_id` is only filled when operand 0 is a numeric id present in the recovered skill table.
+- Variable operands need backward dataflow through nearby `SAVE`, `RANDOM`, and branch rows before they can be named.
+- No runtime opcode behavior, roll threshold, selected-character rule, advancement rule, or VM writeback rule is promoted by this artifact.
+
+
+Callsites TSV:
+block_id	address	address_hex	opcode	current_listing_label	matrix_candidate_label	operand_count	operands	first_operand_kind	candidate_skill_id	candidate_skill_name	candidate_who_offset	result_operand	branch_region_target	branch_region_incoming	nearest_previous_who	previous_rows	following_rows	evidence_limit
+34	41277	0xA13D	0x23	SURPRISE	SKILL_CHECK	4	area2.event_scratch1 | area2.event_scratch2 | area2.event_scratch3 | area2.word_002	variable				area2.word_002	0xA131	0x84B1 GOSUB 0xA131		0x9FC6 0x2F AND area2.event_scratch0 = 32 & area1.event_word_2CA | 0x9FCF 0x17 IF <> <if compare flag is false, skip next op> | 0x9FD0 0x01 GOTO 0x85F6 | 0x9FD4 0x30 OR area1.event_word_2CA = 32 | area1.event_word_2CA | 0x9FDD 0x0C SETUP MONSTER sprite_id: 50 max_distance: 2 pic_id: 255 | 0x9FE4 0x00 EXIT | 0xA131 0x09 SAVE area2.event_scratch2 = 1 | 0xA137 0x09 SAVE area2.event_scratch3 = 0	0xA14B 0x00 EXIT | 0xA158 0x03 COMPARE Values: 0 == 0 | 0xA15D 0x13 RETURN | 0xA15E 0x12 PRINTCLEAR 'AN EXHIBIT OF A ' | 0xA16D 0x13 RETURN | 0xA16E 0x12 PRINTCLEAR 'A DISPLAY FEATURING THE ' | 0xA183 0x13 RETURN | 0xA184 0x09 SAVE area2.event_scratch2 = 1	Opcode 0x23 is treated as a Matrix SKILL_CHECK candidate from the stub audit, but operand roles and success rules require local VM/DOS validation.
+95	38661	0x9705	0x23	SURPRISE	SKILL_CHECK	4	79 | area2.event_scratch0 | area2.event_scratch1 | scratch.word_0002	constant	79	Etiquette	155	scratch.word_0002	0x96F9	0x87CE GOSUB 0x96F9		0x8ED8 0x12 PRINTCLEAR 'YOU ARE IN THE MAIN PORT AREA.' | 0x8EF2 0x33 PRINT RETURN | 0x8EF3 0x33 PRINT RETURN | 0x8EF4 0x31 SPRITE OFF | 0x8EF5 0x01 GOTO 0x004C | 0x96F5 0x01 GOTO 0x8D0E | 0x96F9 0x08 RANDOM area2.event_scratch1 = random 1..4 | 0x96FF 0x09 SAVE area2.event_scratch0 = 1	0x9712 0x00 EXIT | 0x9789 0x08 RANDOM area2.event_scratch0 = random 1..99 | 0x978F 0x03 COMPARE Values: 25 == area2.event_scratch0 | 0x9795 0x19 IF > <if compare flag is false, skip next op> | 0x9796 0x13 RETURN | 0x9797 0x03 COMPARE Values: 0 == 0 | 0x979C 0x13 RETURN	Opcode 0x23 is treated as a Matrix SKILL_CHECK candidate from the stub audit, but operand roles and success rules require local VM/DOS validation.
+98	41500	0xA21C	0x23	SURPRISE	SKILL_CHECK	3	area2.event_scratch1 | area2.event_scratch2 | area2.event_scratch3	variable				area2.event_scratch3	0xA202	0xA1ED GOTO 0xA202		0xA1FD 0x16 IF = <if compare flag is false, skip next op> | 0xA1FE 0x01 GOTO 0xA1AF | 0xA202 0x09 SAVE area2.event_scratch2 = 1 | 0xA208 0x03 COMPARE Values: 9 == area2.event_scratch1 | 0xA20E 0x16 IF = <if compare flag is false, skip next op> | 0xA20F 0x09 SAVE area2.event_scratch3 = 2 | 0xA215 0x17 IF <> <if compare flag is false, skip next op> | 0xA216 0x09 SAVE area2.event_scratch3 = 3	0xA227 0x03 COMPARE Values: 2 == area2.event_scratch3 | 0xA22D 0x18 IF < <if compare flag is false, skip next op> | 0xA22E 0x01 GOTO 0xA25B | 0xA232 0x04 ADD area1.event_word_3DE = 1 + area1.event_word_3DE | 0xA23B 0x30 OR area1.event_word_244 = area2.event_scratch8 | area1.event_word_244 | 0xA245 0x04 ADD scratch.word_0008 = 1 + scratch.word_0008 | 0xA24F 0x00 EXIT | 0xA25B 0x12 PRINTCLEAR 'THE DEVICE FLASHES. THEN A SHUDDER PASSES THROUGH THE SHIP AS THE FLESH SUDDENLY LIGHTS UP AND THEN GOES DEAD.'	Opcode 0x23 is treated as a Matrix SKILL_CHECK candidate from the stub audit, but operand roles and success rules require local VM/DOS validation.
+
+
+Stub audit:
+# COAB-to-Java Stub Audit
+
+## Scope and evidence boundary
+
+Audited against Java fork `f10f96f` plus the local Matrix Cubed changes and
+COAB commit `9dc46f1`. COAB is evidence for Gold Box control flow and subsystem
+shape. It is not evidence that AD&D record offsets, spell tables, item layouts,
+or formulas apply to Matrix Cubed. The inspected COAB checkout has no root
+license file, so no COAB source is copied here.
+
+`GameMechanics` is the universal extension boundary. An empty `OptionalInt`
+means unresolved; it must not silently become a successful zero.
+
+## VM stubs COAB can clarify
+
+| Java gap | COAB evidence | Clarification | Matrix status / next evidence |
+|---|---|---|---|
+| `PARTY_STRENGTH` | `ovr025.player_strength_group`, effective-stat/affect code | Aggregate an effective strength measure, not raw bytes blindly. | Universal stub. Recover Matrix opcode semantics and strength modifiers from `GAME.OVR`. |
+| `PARTY_CHECK` | COAB party/player iteration and status logic | A predicate over eligible party members with title-specific selectors. | Universal stub; Matrix opcode profile does not select it. |
+| `PARTY_SKILL_CHECK2/3` | `Player.SkillLevel`, COAB command dispatch | Resolve eligible members, skill id, roll/threshold, and output destination separately. | Matrix uses three-argument form. Skill records beyond proven pilot-rocket byte remain undecoded. |
+| `SURPRISE` | `ovr003.CMD_PartySurprise` / `CMD_Surprise` | Encounter initiative state, not a UI-only flag. | Universal stub; Matrix maps opcode `23` to `SKILL_CHECK`. |
+| `SKILL_CHECK` | COAB skill access and command framework | Title rules choose skill namespace and success convention. | Matrix-specific stub; decode skill table and opcode result convention. |
+| `SPACE_COMBAT` | no portable COAB equivalent | Game-specific encounter subsystem. | Matrix-only unresolved handler; recover from `GAME.OVR`. |
+| `TREASURE*` | `ovr003.CMD_Treasure`, `ovr006` distribution, `MoneySet` | Build a temporary treasure pool, then explicitly take/share/discard. | Universal inventory/treasure stub; Matrix ITEM0/MON0ITM layout differs. |
+| `ROB` | `ovr008.RobMoney` / `RobItems` | Money scaling and probabilistic item loss are separate operations. | Universal stub; Matrix credits and item weight semantics need recovery. |
+| encounter movement constants | `ovr008.calc_group_movement` | Min/max come from effective member movement, including effects. | Replaces hard-coded `6/12` once movement fields/effects are decoded. |
+| `FIND_ITEM` | `ovr003.CMD_FindItem` | Search party inventories by script item identity and set selected-character state. | Universal stub; Matrix item identity/name is partly decoded, inventory chains are not complete. |
+| `DESTROY_ITEM` | `ovr003.CMD_DestroyItems` | Remove matching items according to title quantity/equipped rules. | Universal stub; must not mutate recovered raw items yet. |
+| `CLOCK1/2` | `ovr003.CMD_EclClock`, `ovr021.NormalizeClock` | Normalize minute/hour/day/year carries and process timed effects/rest. | Universal time service; Matrix clock addresses are configured but effect hooks are missing. |
+| `NPC_ADD/FIND/REMOVE` | `ovr003.CMD_AddNPC`, `ovr017.load_npc` | NPC lifecycle includes load, party limits, morale/control, and treasure share. | Universal party service with title character decoder. |
+| `WHO` | COAB selected-player and eligibility patterns | Select a party member and update selected-character memory consistently. | Existing Java UI path needs conformance tests, not COAB code copying. |
+| `SPELL` | `Spells`, `SpellList`, `ovr010/013/014/023/024` | Casting is ruleset-owned: availability, target, range, save, damage/effect, duration. | Universal stub. Buck Rogers needs its own power/skill evidence; AD&D spell tables are not portable. |
+| `HAS_EFFECT` | `Affect`, `ovr024`, `ovr025.FindAffect` | Effects require stable id, duration/data, add/remove hooks, and serialization. | Universal effect service; Matrix effect records not decoded. |
+| `GIVE_EXP` | COAB post-combat/level flow and character EXP field | Award policy and splitting are ruleset/title-owned; persistence is character-format-owned. | Java can mutate EXP, but opcode split/mode semantics remain unresolved. |
+| `UNKNOWN_44`, `48`-`4B` | no verified COAB mapping | Opcode numbers are profile-dependent; never infer semantics from numeric equality alone. | Explicit game-opcode stub until a title profile and local ECL evidence identify each operation. |
+
+## Non-VM Java placeholders COAB can clarify
+
+| Java gap | Clarification |
+|---|---|
+| `Character*.getMovementRate()` | COAB proves movement is stored/effective state modified by haste/slow and encumbrance. Matrix field is not yet proven. |
+| `Character*.getTHACO()` | Ruleset calculation belongs behind mechanics; COAB AD&D THAC0 cannot be used for Buck Rogers. |
+| `Character*.getSkills()` | COAB demonstrates typed skills and serialized values. Matrix needs a dedicated skill enum and verified offsets. |
+| `CharacterForgottenRealms` item/equipped methods | COAB Item serialization can guide the AD&D adapter only. |
+| `CharacterSheetImpl` fake values | Corrected: decoded movement/THAC0 are shown when positive; unsupported equipment/AC/damage fields say `UNRESOLVED`. |
+| dungeon door opening | COAB map collision/action flow can guide a universal door interaction service; wall/door bit meanings remain title data. |
+| renderer TODO ranges | UI/resource-format work, not mechanics; COAB may visually validate but does not define Matrix assets. |
+| FRUA menu parsing | FRUA-specific profile adapter; unrelated to Matrix completion. |
+
+## Combat stubs
+
+COAB clarifies the required universal components: combatant preparation,
+effective stats/effects, initiative/movement, occupancy for multi-tile actors,
+pathfinding (`SteppingPath` and `ovr025/032`), target validation, action
+selection, attacks, saves, morale, spells, victory, experience, treasure, and
+state restoration. Current Matrix combat has verified asset loading, battlefield
+generation, VM handoff, turn state, and partial original AI/item evidence, but
+its range, terrain movement, initiative, damage, morale, equipped-weapon
+selection, and several AI scores remain explicitly unresolved. COAB algorithms
+must not be substituted for those Matrix formulas without DOS or `GAME.OVR`
+validation.
+
+## Completion order
+
+1. Decode the complete Matrix skill and inventory/equipped records.
+2. Connect `GameMechanics` through the VM and provide a Matrix implementation.
+3. Replace encounter movement constants with decoded effective movement.
+4. Implement Matrix item find/destroy and treasure using verified item identity.
+5. Recover Matrix clock/effect hooks and NPC lifecycle.
+6. Complete combat terrain/pathing, initiative, weapon/range/damage, morale,
+   and outcome persistence against original captures.
+7. Implement AD&D/COAB-informed adapters separately and run cross-title
+   conformance tests to keep universal code honest.
+

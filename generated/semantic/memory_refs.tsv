@@ -1,0 +1,144 @@
+ref	count	top_file	example
+area2.event_scratch0	1699	geo_082_neo-installation.structured.md:341	area2.event_scratch0 = 4 & area1.event_word_25E;  // 0x880A
+area2.event_scratch1	184	geo_096_living-ship.structured.md:82	gettable(area2.event_scratch1 = abs_A2F0[area1.event_word_21C]);  // 0x852B
+area1.event_word_2C0	107	geo_034_historical-museum-levels-2-1.structured.md:107	area2.event_scratch0 = 4 & area1.event_word_2C0;  // 0x860E
+area1.event_word_21A	72	geo_066_ram-battler-deimos-level-19-41.structured.md:32	if (0 != area1.event_word_21A) {
+area1.event_word_20A	67	geo_034_historical-museum-levels-2-1.structured.md:18	if (area1.event_word_20A == area1.event_word_20C) {
+area1.event_word_214	66	geo_064_luna-base.structured.md:20	mapPosX = area1.event_word_214;  // 0x84E7
+area1.event_word_372	65	geo_112_stormrider-university.structured.md:65	switch (area1.event_word_372) {
+area1.event_word_218	62	geo_034_historical-museum-levels-2-1.structured.md:45	area2.event_scratch0 = area1.event_word_218 & 32;  // 0x86C5
+area1.event_word_2BE	60	geo_034_historical-museum-levels-2-1.structured.md:60	area2.event_scratch0 = 16 & area1.event_word_2BE;  // 0x8659
+area1.event_word_376	57	geo_112_stormrider-university.structured.md:57	area2.event_scratch0 = 128 & area1.event_word_376;  // 0x88CE
+area2.event_scratch2	53	geo_034_historical-museum-levels-2-1.structured.md:18	add(area2.event_scratch2 = 4 + area2.event_scratch8);  // 0x86D9
+area1.event_word_204	53	geo_081_purge-headquarters-floors-ground-upper.structured.md:17	and(area1.event_word_204 = 63 & abs_C04F);  // 0x83F4
+area1.event_word_206	52	geo_049_lowlander-village.structured.md:24	if (39 < area1.event_word_206) {
+area1.event_word_34E	51	geo_082_neo-installation.structured.md:51	area2.event_scratch0 = 64 & area1.event_word_34E;  // 0x87E7
+area1.event_word_24A	51	geo_096_living-ship.structured.md:51	area2.event_scratch0 = 8 & area1.event_word_24A;  // 0xA14E
+area1.event_word_34A	47	geo_082_neo-installation.structured.md:47	area2.event_scratch0 = 32 & area1.event_word_34A;  // 0x8978
+area1.event_word_20C	45	geo_064_luna-base.structured.md:19	if (1 == area1.event_word_20C) {
+area1.event_word_21C	44	geo_034_historical-museum-levels-2-1.structured.md:27	random(area1.event_word_21C = random 1..3);  // 0x8525
+area1.event_word_200	42	geo_064_luna-base.structured.md:42	area2.event_scratch0 = area1.event_word_200 & 1;  // 0x819C
+area1.event_word_2EC	40	geo_049_lowlander-village.structured.md:40	add(area1.event_word_2EC = 1 + area1.event_word_2EC);  // 0x9015
+scratch.word_0258	39	geo_064_luna-base.structured.md:39	scratch.word_0258 = abs_000C;  // 0x822D
+area1.event_word_370	38	geo_112_stormrider-university.structured.md:38	area2.event_scratch0 = 1 & area1.event_word_370;  // 0x864A
+scratch.word_0208	37	geo_017_caloris-space-port.structured.md:37	scratch.word_0208 = abs_0007;  // 0x88D7
+area1.event_word_210	36	geo_034_historical-museum-levels-2-1.structured.md:24	compare_and(Values: area1.event_word_210 == mapPosX && area1.event_word_212 == mapPosY);  // 0x83BC
+area1.event_word_348	33	geo_082_neo-installation.structured.md:33	area2.event_scratch0 = 8 & area1.event_word_348;  // 0x8855
+abs_C04E	32	geo_034_historical-museum-levels-2-1.structured.md:13	if (0 != abs_C04E) {
+area1.event_word_20E	32	geo_034_historical-museum-levels-2-1.structured.md:9	area1.event_word_20E = 2;  // 0x8F2F
+area1.event_word_386	32	geo_113_genetics-foundation-building-levels-1-4.structured.md:32	area2.event_scratch0 = 4 & area1.event_word_386;  // 0x8D4A
+area1.event_word_2C2	31	geo_034_historical-museum-levels-2-1.structured.md:31	area2.event_scratch0 = 4 & area1.event_word_2C2;  // 0x875A
+area1.event_word_2E6	30	geo_052_lowlander-mines.structured.md:20	area2.event_scratch0 = 64 & area1.event_word_2E6;  // 0x8CCB
+area1.event_word_234	30	geo_080_mars-prison-level-1.structured.md:28	mapPosY = area1.event_word_234;  // 0x9B1A
+area1.event_word_242	30	geo_096_living-ship.structured.md:30	area2.event_scratch1 = 15 & area1.event_word_242;  // 0x8F5B
+area1.event_word_208	29	geo_112_stormrider-university.structured.md:10	if (1 == area1.event_word_208) {
+area1.event_word_298	28	geo_038_losangelorg-sprawls.structured.md:28	area2.event_scratch0 = 1 & area1.event_word_298;  // 0x8BB9
+area1.event_word_384	28	geo_113_genetics-foundation-building-levels-1-4.structured.md:28	area2.event_scratch0 = 1 & area1.event_word_384;  // 0x8F12
+area1.event_word_212	27	geo_066_ram-battler-deimos-level-19-41.structured.md:17	compare_and(Values: area1.event_word_210 == mapPosX && area1.event_word_212 == mapPosY);  // 0x83BC
+area1.event_word_2BC	27	geo_034_historical-museum-levels-2-1.structured.md:27	if (8 > area1.event_word_2BC) {
+area1.event_word_2EA	24	geo_049_lowlander-village.structured.md:24	area2.event_scratch0 = area1.event_word_206 & area1.event_word_2EA;  // 0x8D72
+area1.event_word_246	24	geo_096_living-ship.structured.md:24	area2.event_scratch0 = 8 & area1.event_word_246;  // 0x8ED1
+area1.event_word_22A	22	geo_017_caloris-space-port.structured.md:15	area1.event_word_22A = abs_0001;  // 0x88B8
+area1.event_word_3AC	22	geo_035_asteroid-base.structured.md:22	area2.event_scratch0 = area1.event_word_3AC & 8;  // 0x85B4
+area1.event_word_31E	22	geo_081_purge-headquarters-floors-ground-upper.structured.md:20	if (area1.event_word_31E == 1) {
+area1.event_word_202	21	geo_112_stormrider-university.structured.md:12	area1.event_word_202 = 0;  // 0x83B6
+area1.event_word_3B0	21	geo_035_asteroid-base.structured.md:21	area2.event_scratch0 = area1.event_word_3B0 & 1;  // 0x85BF
+area2.event_scratch3	21	geo_051_venus-laboratory-level-2.structured.md:10	area2.event_scratch3 = 2;  // 0x9657
+area1.event_word_226	20	geo_017_caloris-space-port.structured.md:15	area1.event_word_226 = 0;  // 0x88BF
+area2.selected_player_name	20	geo_017_caloris-space-port.structured.md:6	- Text hint: "A DISEMBODIED VOICE ECHOES THROUGH THE HALL, '" '<string at area2.selected_player_name>' '<string at scratch.word_0208>'
+area1.event_word_216	19	geo_080_mars-prison-level-1.structured.md:8	mapPosY = area1.event_word_216;  // 0x84EE
+area1.event_word_2E4	19	geo_049_lowlander-village.structured.md:18	area2.event_scratch0 = 8 & area1.event_word_2E4;  // 0x9028
+area1.event_word_3E4	19	geo_096_living-ship.structured.md:19	if (255 == area1.event_word_3E4) {
+area2.selected_player_in_combat	18	geo_082_neo-installation.structured.md:16	if (1 != area2.selected_player_in_combat) {
+area1.event_word_232	18	geo_080_mars-prison-level-1.structured.md:16	mapPosX = area1.event_word_232;  // 0x9B13
+area1.event_word_34C	18	geo_082_neo-installation.structured.md:18	area2.event_scratch0 = 2 & area1.event_word_34C;  // 0x8F92
+area1.event_word_2FE	17	geo_050_venus-laboratory-level-1.structured.md:14	area2.event_scratch0 = 1 & area1.event_word_2FE;  // 0x844F
+area1.event_word_2FC	16	geo_051_venus-laboratory-level-2.structured.md:10	if (area1.event_word_2FC == 1) {
+area2.event_scratch7	14	geo_021_21.structured.md:14	gettable(area2.event_scratch7 = ecl.byte_0FCD[area2.event_scratch2]);  // 0x86E2
+area1.event_word_352	14	geo_082_neo-installation.structured.md:14	if (1 != area1.event_word_352) {
+area1.event_word_25E	13	geo_017_caloris-space-port.structured.md:13	area2.event_scratch0 = 4 & area1.event_word_25E;  // 0x880A
+scratch.word_0000	13	geo_017_caloris-space-port.structured.md:13	scratch.word_0000 = abs_000C;  // 0x88C5
+abs_0004	13	geo_082_neo-installation.structured.md:11	scratch.word_0208 = abs_0004;  // 0x89D9
+area1.event_word_3AE	13	geo_035_asteroid-base.structured.md:13	area2.event_scratch0 = area1.event_word_3AE & 2;  // 0x8DDE
+area1.event_word_306	13	geo_051_venus-laboratory-level-2.structured.md:11	area2.event_scratch0 = 128 & area1.event_word_306;  // 0x8C39
+area2.event_scratch6	13	geo_096_living-ship.structured.md:13	area2.event_scratch6 = 23;  // 0xA07D
+area1.event_word_314	11	geo_038_losangelorg-sprawls.structured.md:5	area2.event_scratch0 = 16 & area1.event_word_314;  // 0x9B3A
+area1.event_word_350	11	geo_082_neo-installation.structured.md:11	if (4 == area1.event_word_350) {
+area1.event_word_248	11	geo_096_living-ship.structured.md:11	area2.event_scratch1 = area2.event_scratch0 & area1.event_word_248;  // 0xA0C3
+area1.event_word_308	10	geo_051_venus-laboratory-level-2.structured.md:8	area2.event_scratch0 = 64 & area1.event_word_308;  // 0x8832
+area1.event_word_30E	10	geo_081_purge-headquarters-floors-ground-upper.structured.md:10	area2.event_scratch0 = 4 & area1.event_word_30E;  // 0x87E0
+abs_0001	9	geo_017_caloris-space-port.structured.md:9	area1.event_word_22A = abs_0001;  // 0x88B8
+area1.event_word_25C	9	geo_017_caloris-space-port.structured.md:9	area2.event_scratch0 = 1 & area1.event_word_25C;  // 0x8DD2
+abs_A2F0	9	geo_034_historical-museum-levels-2-1.structured.md:9	gettable(area2.event_scratch1 = abs_A2F0[area1.event_word_21C]);  // 0x852B
+abs_A2EC	9	geo_034_historical-museum-levels-2-1.structured.md:9	gettable(area2.event_scratch2 = abs_A2EC[area1.event_word_21C]);  // 0x8535
+area1.event_word_29A	9	geo_038_losangelorg-sprawls.structured.md:9	area2.event_scratch0 = 1 & area1.event_word_29A;  // 0x9C81
+area1.event_word_312	9	geo_081_purge-headquarters-floors-ground-upper.structured.md:9	if (area1.event_word_312 == 1) {
+area1.event_word_31C	9	geo_084_mars-prison-level-2.structured.md:8	area2.event_scratch0 = 64 & area1.event_word_31C;  // 0x8D30
+area1.event_word_356	9	geo_082_neo-installation.structured.md:9	area2.event_scratch0 = 1 & area1.event_word_356;  // 0x8C43
+abs_000C	8	geo_017_caloris-space-port.structured.md:4	scratch.word_0000 = abs_000C;  // 0x88C5
+area1.event_word_3B6	8	geo_035_asteroid-base.structured.md:8	area2.event_scratch0 = area1.event_word_3B6 & 8;  // 0x9A85
+area1.event_word_2E8	8	geo_052_lowlander-mines.structured.md:6	area2.event_scratch0 = 2 & area1.event_word_2E8;  // 0x8D0B
+abs_A370	8	geo_049_lowlander-village.structured.md:8	gettable(area1.event_word_20A = abs_A370[area2.event_scratch1]);  // 0x8D55
+abs_A378	8	geo_049_lowlander-village.structured.md:8	gettable(area1.event_word_206 = abs_A378[area2.event_scratch1]);  // 0x8D5F
+area1.event_word_222	8	geo_066_ram-battler-deimos-level-19-41.structured.md:8	area1.event_word_222 = 0;  // 0x9101
+area1.event_word_23A	8	geo_080_mars-prison-level-1.structured.md:8	load_monster(monster_id: area1.event_word_23A copies: area2.event_scratch0 cpic_id: area1.event_word_23A);  // 0x863E
+abs_0006	7	geo_017_caloris-space-port.structured.md:5	scratch.word_0000 = abs_0006;  // 0x89CD
+abs_0009	7	geo_017_caloris-space-port.structured.md:4	scratch.word_0208 = abs_0009;  // 0x8A76
+area2.event_scratch8	7	geo_021_21.structured.md:7	add(area2.event_scratch2 = 4 + area2.event_scratch8);  // 0x86D9
+area1.event_word_300	7	geo_050_venus-laboratory-level-1.structured.md:7	if (area1.event_word_300 == 1) {
+area1.event_word_230	7	geo_066_ram-battler-deimos-level-19-41.structured.md:7	if (area1.event_word_230 == 1) {
+area1.event_word_224	7	geo_066_ram-battler-deimos-level-19-41.structured.md:7	area1.event_word_224 = 0;  // 0x90FB
+area1.event_word_258	6	geo_017_caloris-space-port.structured.md:6	if (0 == area1.event_word_258) {
+area1.event_word_2EE	6	geo_052_lowlander-mines.structured.md:5	if (area1.event_word_2EE == 1) {
+area1.event_word_304	6	geo_050_venus-laboratory-level-1.structured.md:6	if (area1.event_word_304 <= 5) {
+area1.event_word_316	6	geo_081_purge-headquarters-floors-ground-upper.structured.md:6	if (area1.event_word_316 < 3) {
+area1.event_word_26A	6	geo_096_living-ship.structured.md:6	area2.event_scratch0 = 105 & area1.event_word_26A;  // 0x839A
+area1.event_word_38C	6	geo_113_genetics-foundation-building-levels-1-4.structured.md:6	area2.event_scratch0 = 1 & area1.event_word_38C;  // 0x9F2C
+abs_000B	5	geo_064_luna-base.structured.md:3	scratch.word_0208 = abs_000B;  // 0xA04A
+area2.surprise_result	5	geo_035_asteroid-base.structured.md:3	area2.surprise_result = 2;  // 0x9C86
+area2.word_58E	5	geo_080_mars-prison-level-1.structured.md:4	if (area2.word_58E <= 128) {
+abs_000E	5	geo_064_luna-base.structured.md:4	scratch.word_0258 = abs_000E;  // 0x8A44
+abs_000A	5	geo_064_luna-base.structured.md:3	scratch.word_0258 = abs_000A;  // 0x9472
+area1.event_word_22C	5	geo_066_ram-battler-deimos-level-19-41.structured.md:5	if (area1.event_word_22C == 1) {
+area1.LastEclBlockId	5	geo_096_living-ship.structured.md:3	area1.LastEclBlockId = 81;  // 0x8362
+area1.event_word_310	5	geo_084_mars-prison-level-2.structured.md:5	area2.event_scratch0 = 1 & area1.event_word_310;  // 0x828F
+area1.event_word_3E0	5	geo_096_living-ship.structured.md:5	if (0 != area1.event_word_3E0) {
+abs_0007	4	geo_017_caloris-space-port.structured.md:3	scratch.word_0208 = abs_0007;  // 0x88D7
+area1.event_word_25A	4	geo_017_caloris-space-port.structured.md:4	area2.event_scratch0 = 16 & area1.event_word_25A;  // 0x88F3
+area1.event_word_2CC	4	geo_034_historical-museum-levels-2-1.structured.md:4	area2.event_scratch0 = 1 & area1.event_word_2CC;  // 0x8AE8
+area1.lastXPos	4	geo_035_asteroid-base.structured.md:2	mapPosX = area1.lastXPos;  // 0xA208
+area1.lastYPos	4	geo_035_asteroid-base.structured.md:2	mapPosY = area1.lastYPos;  // 0xA20F
+area1.event_word_276	4	geo_066_ram-battler-deimos-level-19-41.structured.md:4	if (area1.event_word_276 == 1) {
+abs_A3BD	4	geo_080_mars-prison-level-1.structured.md:4	gettable(area2.event_scratch0 = abs_A3BD[area1.event_word_21A]);  // 0x8427
+abs_A3CD	4	geo_080_mars-prison-level-1.structured.md:4	gettable(area2.event_scratch0 = abs_A3CD[area1.event_word_21A]);  // 0x8627
+area1.event_word_236	4	geo_080_mars-prison-level-1.structured.md:4	if (255 == area1.event_word_236) {
+area1.event_word_2C4	3	geo_034_historical-museum-levels-2-1.structured.md:3	area2.event_scratch0 = 16 & area1.event_word_2C4;  // 0x8372
+area2.word_58C	3	geo_084_mars-prison-level-2.structured.md:2	area2.word_58C = 80;  // 0x83BC
+area1.event_word_2CA	3	geo_034_historical-museum-levels-2-1.structured.md:3	area2.event_scratch0 = 128 & area1.event_word_2CA;  // 0x9FB8
+area1.event_word_296	3	geo_038_losangelorg-sprawls.structured.md:3	area2.event_scratch0 = 64 & area1.event_word_296;  // 0x8954
+area1.event_word_302	3	geo_050_venus-laboratory-level-1.structured.md:3	if (area1.event_word_302 <= 3) {
+area1.event_word_220	3	geo_066_ram-battler-deimos-level-19-41.structured.md:3	area1.event_word_220 = 1;  // 0x84E5
+area1.event_word_3C0	3	geo_066_ram-battler-deimos-level-19-41.structured.md:3	if (area1.event_word_3C0 == 1) {
+abs_0002	3	geo_081_purge-headquarters-floors-ground-upper.structured.md:3	find_special(raw=(abs_0002));  // 0x8BBD
+abs_0024	2	geo_017_caloris-space-port.structured.md:2	scratch.word_0208 = abs_0024;  // 0x8ED8
+abs_0005	2	geo_017_caloris-space-port.structured.md:2	scratch.word_0208 = abs_0005;  // 0xA176
+area1.time_minutes_tens	2	geo_034_historical-museum-levels-2-1.structured.md:2	add(area1.time_minutes_tens = 2 + area1.time_minutes_tens);  // 0x83E0
+area1.event_word_2F4	2	geo_052_lowlander-mines.structured.md:2	if (area1.event_word_2F4 <= 3) {
+abs_000D	2	geo_064_luna-base.structured.md:2	scratch.word_0258 = abs_000D;  // 0x824B
+area1.event_word_21E	2	geo_066_ram-battler-deimos-level-19-41.structured.md:1	if (area1.event_word_21E == 1) {
+area2.tried_to_exit_map	2	geo_081_purge-headquarters-floors-ground-upper.structured.md:2	if (area2.tried_to_exit_map == 1) {
+area1.event_word_3E6	2	geo_096_living-ship.structured.md:2	area2.event_scratch0 = 160 & area1.event_word_3E6;  // 0x83F3
+area1.event_word_244	2	geo_096_living-ship.structured.md:2	area2.event_scratch1 = area2.event_scratch0 & area1.event_word_244;  // 0x8D63
+area2.word_6DA	2	geo_112_stormrider-university.structured.md:2	area2.word_6DA = 32;  // 0xA132
+area2.word_7EC	2	geo_112_stormrider-university.structured.md:2	area2.word_7EC = 1;  // 0xA138
+area1.event_word_2CE	1	geo_034_historical-museum-levels-2-1.structured.md:1	if (0 != area1.event_word_2CE) {
+area1.inDungeon	1	geo_034_historical-museum-levels-2-1.structured.md:1	area1.inDungeon = 132;  // 0x8014
+area2.word_592	1	geo_034_historical-museum-levels-2-1.structured.md:1	area2.word_592 = 255;  // 0x8336
+area1.event_word_2C8	1	geo_034_historical-museum-levels-2-1.structured.md:1	area2.event_scratch0 = 32 & area1.event_word_2C8;  // 0x83C2
+abs_C04F	1	geo_034_historical-museum-levels-2-1.structured.md:1	and(area1.event_word_204 = 63 & abs_C04F);  // 0x83F4
+area1.event_word_2F2	1	geo_052_lowlander-mines.structured.md:1	if (area1.event_word_2F2 == 1) {
+abs_0015	1	geo_064_luna-base.structured.md:1	scratch.word_0258 = abs_0015;  // 0x8AC3
+area2.training_class_mask	1	geo_064_luna-base.structured.md:1	area2.training_class_mask = 127;  // 0x9460
+area1.event_word_228	1	geo_080_mars-prison-level-1.structured.md:1	area1.event_word_228 = 255;  // 0x9513
+area1.event_word_31A	1	geo_081_purge-headquarters-floors-ground-upper.structured.md:1	if (area1.event_word_31A == 1) {
+area1.event_word_240	1	geo_096_living-ship.structured.md:1	area2.event_scratch0 = 16 & area1.event_word_240;  // 0x881B

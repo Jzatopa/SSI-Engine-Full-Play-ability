@@ -1,0 +1,573 @@
+{
+  "source": "scripts/audit_original_capture_targets.py",
+  "summary": {
+    "status": "partial",
+    "archive_status": "partial",
+    "capture_status": "partial",
+    "missing_archive_names": [
+      "GEO2.DAX",
+      "GEO3.DAX",
+      "GEO4.DAX",
+      "ECL2.DAX",
+      "ECL3.DAX",
+      "ECL4.DAX"
+    ],
+    "missing_capture_targets": [
+      "ship_service_menus",
+      "caloris_luna_transitions"
+    ],
+    "needs_new_combat_state_capture": true,
+    "boundary": "This audit records current local evidence and capture gaps. It does not infer absent archives from other releases or claim OCR-confirmed DOS text."
+  },
+  "archives": {
+    "status": "partial",
+    "game_dirs": [
+      "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX",
+      "/home/jzatopa/Downloads/matrix-cubed-liveplay"
+    ],
+    "expected": [
+      {
+        "file": "GEO1.DAX",
+        "present": true,
+        "locations": [
+          {
+            "path": "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/GEO1.DAX",
+            "exists": true,
+            "size": 21280,
+            "sha256": "398bab0120f5d16102aa121178d8f10d932a8db2bc23d96cb615dc6bb1171598"
+          },
+          {
+            "path": "/home/jzatopa/Downloads/matrix-cubed-liveplay/GEO1.DAX",
+            "exists": true,
+            "size": 21280,
+            "sha256": "398bab0120f5d16102aa121178d8f10d932a8db2bc23d96cb615dc6bb1171598"
+          }
+        ]
+      },
+      {
+        "file": "GEO2.DAX",
+        "present": false,
+        "locations": []
+      },
+      {
+        "file": "GEO3.DAX",
+        "present": false,
+        "locations": []
+      },
+      {
+        "file": "GEO4.DAX",
+        "present": false,
+        "locations": []
+      },
+      {
+        "file": "ECL1.DAX",
+        "present": true,
+        "locations": [
+          {
+            "path": "/home/jzatopa/Downloads/Buck Rogers Matrix Cubed - Source/MATRIX/ECL1.DAX",
+            "exists": true,
+            "size": 254032,
+            "sha256": "5330bb436b3cac474506265db90cb3e0a888d7a9e5b0b65051d302035b60d854"
+          },
+          {
+            "path": "/home/jzatopa/Downloads/matrix-cubed-liveplay/ECL1.DAX",
+            "exists": true,
+            "size": 254032,
+            "sha256": "5330bb436b3cac474506265db90cb3e0a888d7a9e5b0b65051d302035b60d854"
+          }
+        ]
+      },
+      {
+        "file": "ECL2.DAX",
+        "present": false,
+        "locations": []
+      },
+      {
+        "file": "ECL3.DAX",
+        "present": false,
+        "locations": []
+      },
+      {
+        "file": "ECL4.DAX",
+        "present": false,
+        "locations": []
+      }
+    ],
+    "missing": [
+      "GEO2.DAX",
+      "GEO3.DAX",
+      "GEO4.DAX",
+      "ECL2.DAX",
+      "ECL3.DAX",
+      "ECL4.DAX"
+    ],
+    "conclusion": "The supplied local game files contain GEO1.DAX and ECL1.DAX only; no GEO2-4/ECL2-4 archives are present in the audited directories."
+  },
+  "captures": {
+    "status": "partial",
+    "liveplay_image_count": 142,
+    "targets": [
+      {
+        "id": "ship_service_menus",
+        "label": "ship-service menus",
+        "status": "missing",
+        "note": "No existing capture is confidently tied to original ship-service UI.",
+        "matching_capture_count": 0,
+        "captures": []
+      },
+      {
+        "id": "choice_dialogs",
+        "label": "choice dialogs",
+        "status": "available",
+        "note": "Existing captures anchor interaction/search scene families, not OCR-confirmed choices.",
+        "matching_capture_count": 2,
+        "captures": [
+          {
+            "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/screens/12_after_interaction.png",
+            "exists": true,
+            "size": 27506,
+            "sha256": "fa9cd5ff299e2eb8e1b50441f56dc27d526a4fb191a0ab71b5357f887c2e8114",
+            "width": 1280,
+            "height": 1024
+          },
+          {
+            "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/screens/f_04_after_search.png",
+            "exists": true,
+            "size": 4696,
+            "sha256": "6acf96cd641bdf91828793c936b6c810ef94512a44b2084f334f8dcae5cfeae1",
+            "width": 1280,
+            "height": 1024
+          }
+        ]
+      },
+      {
+        "id": "caloris_luna_transitions",
+        "label": "Caloris/Luna transitions",
+        "status": "missing",
+        "note": "Traversal data exists, but no exact DOS transition capture is present.",
+        "matching_capture_count": 0,
+        "captures": []
+      },
+      {
+        "id": "combat_state_changes",
+        "label": "combat state changes",
+        "status": "available",
+        "note": "Combat UI capture exists; current pre/post SAVGAMA pair is byte-identical.",
+        "matching_capture_count": 1,
+        "captures": [
+          {
+            "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/screens/14_after_combat_inputs.png",
+            "exists": true,
+            "size": 3911,
+            "sha256": "ce05dfe1e7b292bb09f6121ecb712a08605424597cd21726f5e4dafe58cd43d4",
+            "width": 1280,
+            "height": 1024
+          }
+        ]
+      }
+    ]
+  },
+  "decoded_transition_anchors": {
+    "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/traversal/map_traversal_reference.json",
+    "exists": true,
+    "anchor_count": 37,
+    "anchors": [
+      {
+        "kind": "ecl_load",
+        "ecl_block": 1,
+        "address": "0x808E",
+        "target_geo": 1,
+        "map_pos_x": 9,
+        "map_pos_y": 4,
+        "target_loaded": true
+      },
+      {
+        "kind": "ecl_load",
+        "ecl_block": 17,
+        "address": "0x805E",
+        "target_geo": 17,
+        "map_pos_x": null,
+        "map_pos_y": null,
+        "target_loaded": true
+      },
+      {
+        "kind": "ecl_load",
+        "ecl_block": 19,
+        "address": "0x8051",
+        "target_geo": 17,
+        "map_pos_x": null,
+        "map_pos_y": null,
+        "target_loaded": true
+      },
+      {
+        "kind": "ecl_load",
+        "ecl_block": 24,
+        "address": "0x803E",
+        "target_geo": 64,
+        "map_pos_x": 13,
+        "map_pos_y": 8,
+        "target_loaded": true
+      },
+      {
+        "kind": "ecl_load",
+        "ecl_block": 64,
+        "address": "0x803A",
+        "target_geo": 64,
+        "map_pos_x": 11,
+        "map_pos_y": 15,
+        "target_loaded": true
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 2,
+        "col": 4,
+        "target_geo": 33,
+        "target_loaded": true,
+        "interpretation": "promoted_transition"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 2,
+        "col": 10,
+        "target_geo": 15,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 2,
+        "col": 14,
+        "target_geo": 26,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 4,
+        "col": 2,
+        "target_geo": 37,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 4,
+        "col": 3,
+        "target_geo": 37,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 4,
+        "col": 8,
+        "target_geo": 28,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 5,
+        "col": 1,
+        "target_geo": 15,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 6,
+        "col": 2,
+        "target_geo": 30,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 6,
+        "col": 8,
+        "target_geo": 15,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 8,
+        "col": 11,
+        "target_geo": 16,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 11,
+        "col": 3,
+        "target_geo": 21,
+        "target_loaded": true,
+        "interpretation": "promoted_transition"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 11,
+        "col": 7,
+        "target_geo": 11,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 11,
+        "col": 8,
+        "target_geo": 13,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 13,
+        "col": 7,
+        "target_geo": 4,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 13,
+        "col": 13,
+        "target_geo": 5,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 1,
+        "source_name": "Luna Base",
+        "row": 14,
+        "col": 3,
+        "target_geo": 19,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 2,
+        "col": 4,
+        "target_geo": 33,
+        "target_loaded": true,
+        "interpretation": "promoted_transition"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 2,
+        "col": 10,
+        "target_geo": 15,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 2,
+        "col": 14,
+        "target_geo": 26,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 4,
+        "col": 2,
+        "target_geo": 37,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 4,
+        "col": 3,
+        "target_geo": 37,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 4,
+        "col": 8,
+        "target_geo": 28,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 5,
+        "col": 1,
+        "target_geo": 15,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 6,
+        "col": 2,
+        "target_geo": 30,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 6,
+        "col": 8,
+        "target_geo": 15,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 8,
+        "col": 11,
+        "target_geo": 16,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 11,
+        "col": 3,
+        "target_geo": 21,
+        "target_loaded": true,
+        "interpretation": "promoted_transition"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 11,
+        "col": 7,
+        "target_geo": 11,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 11,
+        "col": 8,
+        "target_geo": 13,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 13,
+        "col": 7,
+        "target_geo": 4,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 13,
+        "col": 13,
+        "target_geo": 5,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      },
+      {
+        "kind": "cell_edge",
+        "source_geo": 64,
+        "source_name": "Luna Base",
+        "row": 14,
+        "col": 3,
+        "target_geo": 19,
+        "target_loaded": false,
+        "interpretation": "local_event_or_unresolved_exit"
+      }
+    ],
+    "boundary": "Decoded traversal anchors are route targets for capture, not DOS-screen validation by themselves."
+  },
+  "combat_savgama": {
+    "pre": {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/pre_combat/SAVGAMA.DAT",
+      "exists": true,
+      "size": 2901,
+      "sha256": "ae0f4283336d809349e0dd08d997fd63920ae8be0e97d125eeb1da41b975f581"
+    },
+    "post": {
+      "path": "/home/jzatopa/.openclaw/workspace/matrix-cubed-re/generated/liveplay/post_combat/SAVGAMA.DAT",
+      "exists": true,
+      "size": 2901,
+      "sha256": "ae0f4283336d809349e0dd08d997fd63920ae8be0e97d125eeb1da41b975f581"
+    },
+    "status": "available",
+    "byte_diff": {
+      "total_changed_bytes": 0,
+      "changed_regions": [],
+      "changes": [],
+      "before_md5": "92e7d2620e43b3163286164334118eb0",
+      "after_md5": "92e7d2620e43b3163286164334118eb0"
+    },
+    "state_mutation_proven": false,
+    "interpretation": "Current pre/post combat SAVGAMA.DAT evidence is byte-identical; it does not prove original combat/session state mutation."
+  },
+  "recommended_next_captures": [
+    "Ship-service menu route with screenshots before selection, each menu page, and save/memory snapshot after service actions.",
+    "OCR-readable choice-dialog capture for Caloris Dr. Romney/autodoc and one branch selection.",
+    "Caloris-to-Luna/Luna-to-Caloris transition capture with pre/post SAVGAMA.DAT and screen after arrival.",
+    "Combat capture that actually changes SAVGAMA.DAT or character files, with pre/post byte diff retained."
+  ]
+}

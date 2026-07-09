@@ -1,0 +1,893 @@
+{
+  "save_dir": "/home/jzatopa/Downloads/matrix-cubed-liveplay/MATRIX/SAVE",
+  "baseline": "TST2",
+  "characters": [
+    {
+      "stem": "CHRDATA1",
+      "who_path": "/home/jzatopa/Downloads/matrix-cubed-liveplay/MATRIX/SAVE/CHRDATA1.SAV",
+      "stf_path": "/home/jzatopa/Downloads/matrix-cubed-liveplay/MATRIX/SAVE/CHRDATA1.STF",
+      "who": {
+        "name": "CAR1",
+        "ability_scores": {
+          "str": 10,
+          "dex": 16,
+          "con": 15,
+          "int": 12,
+          "wis": 13,
+          "cha": 15,
+          "tech": 15
+        },
+        "current_ability_scores": {
+          "str": 10,
+          "dex": 16,
+          "con": 15,
+          "int": 12,
+          "wis": 13,
+          "cha": 15,
+          "tech": 15
+        },
+        "race_id": 1,
+        "race": "terran",
+        "gender_id": 0,
+        "gender": "male",
+        "career_id": 2,
+        "career": "medic",
+        "level": 7,
+        "credits": 1000,
+        "experience": 48000,
+        "age": 22,
+        "hit_points_candidate": 38
+      },
+      "stf_size": 124,
+      "intent": "terran male medic career variant"
+    },
+    {
+      "stem": "GEN1",
+      "who_path": "/home/jzatopa/Downloads/matrix-cubed-liveplay/MATRIX/SAVE/GEN1.WHO",
+      "stf_path": "/home/jzatopa/Downloads/matrix-cubed-liveplay/MATRIX/SAVE/GEN1.STF",
+      "who": {
+        "name": "GEN1",
+        "ability_scores": {
+          "str": 16,
+          "dex": 13,
+          "con": 14,
+          "int": 15,
+          "wis": 15,
+          "cha": 16,
+          "tech": 12
+        },
+        "current_ability_scores": {
+          "str": 16,
+          "dex": 13,
+          "con": 14,
+          "int": 15,
+          "wis": 15,
+          "cha": 16,
+          "tech": 12
+        },
+        "race_id": 1,
+        "race": "terran",
+        "gender_id": 1,
+        "gender": "female",
+        "career_id": 1,
+        "career": "rocket_jock",
+        "level": 7,
+        "credits": 1000,
+        "experience": 40000,
+        "age": 20,
+        "hit_points_candidate": 34
+      },
+      "stf_size": 124,
+      "intent": "terran female rocket_jock gender variant"
+    },
+    {
+      "stem": "RAC1",
+      "who_path": "/home/jzatopa/Downloads/matrix-cubed-liveplay/MATRIX/SAVE/RAC1.WHO",
+      "stf_path": "/home/jzatopa/Downloads/matrix-cubed-liveplay/MATRIX/SAVE/RAC1.STF",
+      "who": {
+        "name": "RAC1",
+        "ability_scores": {
+          "str": 16,
+          "dex": 14,
+          "con": 15,
+          "int": 15,
+          "wis": 11,
+          "cha": 16,
+          "tech": 14
+        },
+        "current_ability_scores": {
+          "str": 16,
+          "dex": 14,
+          "con": 15,
+          "int": 15,
+          "wis": 11,
+          "cha": 16,
+          "tech": 14
+        },
+        "race_id": 2,
+        "race": "martian",
+        "gender_id": 0,
+        "gender": "male",
+        "career_id": 1,
+        "career": "rocket_jock",
+        "level": 7,
+        "credits": 1000,
+        "experience": 40000,
+        "age": 19,
+        "hit_points_candidate": 43
+      },
+      "stf_size": 124,
+      "intent": "martian male rocket_jock race variant"
+    },
+    {
+      "stem": "TST1",
+      "who_path": "/home/jzatopa/Downloads/matrix-cubed-liveplay/MATRIX/SAVE/TST1.WHO",
+      "stf_path": "/home/jzatopa/Downloads/matrix-cubed-liveplay/MATRIX/SAVE/TST1.STF",
+      "who": {
+        "name": "TST1",
+        "ability_scores": {
+          "str": 13,
+          "dex": 16,
+          "con": 14,
+          "int": 15,
+          "wis": 13,
+          "cha": 13,
+          "tech": 14
+        },
+        "current_ability_scores": {
+          "str": 13,
+          "dex": 16,
+          "con": 14,
+          "int": 15,
+          "wis": 13,
+          "cha": 13,
+          "tech": 14
+        },
+        "race_id": 1,
+        "race": "terran",
+        "gender_id": 0,
+        "gender": "male",
+        "career_id": 1,
+        "career": "rocket_jock",
+        "level": 7,
+        "credits": 1000,
+        "experience": 40000,
+        "age": 22,
+        "hit_points_candidate": 31
+      },
+      "stf_size": 124,
+      "intent": "terran male rocket_jock baseline"
+    },
+    {
+      "stem": "TST2",
+      "who_path": "/home/jzatopa/Downloads/matrix-cubed-liveplay/MATRIX/SAVE/TST2.WHO",
+      "stf_path": "/home/jzatopa/Downloads/matrix-cubed-liveplay/MATRIX/SAVE/TST2.STF",
+      "who": {
+        "name": "TST2",
+        "ability_scores": {
+          "str": 17,
+          "dex": 14,
+          "con": 13,
+          "int": 14,
+          "wis": 15,
+          "cha": 13,
+          "tech": 15
+        },
+        "current_ability_scores": {
+          "str": 17,
+          "dex": 14,
+          "con": 13,
+          "int": 14,
+          "wis": 15,
+          "cha": 13,
+          "tech": 15
+        },
+        "race_id": 1,
+        "race": "terran",
+        "gender_id": 0,
+        "gender": "male",
+        "career_id": 1,
+        "career": "rocket_jock",
+        "level": 7,
+        "credits": 1000,
+        "experience": 40000,
+        "age": 24,
+        "hit_points_candidate": 31
+      },
+      "stf_size": 124,
+      "intent": "terran male rocket_jock baseline"
+    }
+  ],
+  "confirmed_enum_offsets": [
+    {
+      "offset": "0x26",
+      "field": "gender_id_candidate",
+      "observations": {
+        "0": "male",
+        "1": "female"
+      },
+      "evidence": [
+        "TST1",
+        "TST2",
+        "RAC1",
+        "GEN1",
+        "CAR1"
+      ]
+    },
+    {
+      "offset": "0x27",
+      "field": "race_id_candidate",
+      "observations": {
+        "1": "terran",
+        "2": "martian"
+      },
+      "evidence": [
+        "TST1",
+        "TST2",
+        "RAC1",
+        "GEN1",
+        "CAR1"
+      ]
+    },
+    {
+      "offset": "0x28",
+      "field": "career_id_candidate",
+      "observations": {
+        "1": "rocket_jock",
+        "2": "medic"
+      },
+      "evidence": [
+        "TST1",
+        "TST2",
+        "RAC1",
+        "GEN1",
+        "CAR1"
+      ]
+    }
+  ],
+  "byte_diffs_vs_baseline": {
+    "CHRDATA1": [
+      {
+        "offset": "0x01",
+        "baseline": 84,
+        "sample": 67
+      },
+      {
+        "offset": "0x02",
+        "baseline": 83,
+        "sample": 65
+      },
+      {
+        "offset": "0x03",
+        "baseline": 84,
+        "sample": 82
+      },
+      {
+        "offset": "0x04",
+        "baseline": 50,
+        "sample": 49
+      },
+      {
+        "offset": "0x10",
+        "baseline": 17,
+        "sample": 10
+      },
+      {
+        "offset": "0x11",
+        "baseline": 14,
+        "sample": 16
+      },
+      {
+        "offset": "0x12",
+        "baseline": 13,
+        "sample": 15
+      },
+      {
+        "offset": "0x13",
+        "baseline": 14,
+        "sample": 12
+      },
+      {
+        "offset": "0x14",
+        "baseline": 15,
+        "sample": 13
+      },
+      {
+        "offset": "0x15",
+        "baseline": 13,
+        "sample": 15
+      },
+      {
+        "offset": "0x17",
+        "baseline": 17,
+        "sample": 10
+      },
+      {
+        "offset": "0x18",
+        "baseline": 14,
+        "sample": 16
+      },
+      {
+        "offset": "0x19",
+        "baseline": 13,
+        "sample": 15
+      },
+      {
+        "offset": "0x1a",
+        "baseline": 14,
+        "sample": 12
+      },
+      {
+        "offset": "0x1b",
+        "baseline": 15,
+        "sample": 13
+      },
+      {
+        "offset": "0x1c",
+        "baseline": 13,
+        "sample": 15
+      },
+      {
+        "offset": "0x28",
+        "baseline": 1,
+        "sample": 2
+      },
+      {
+        "offset": "0x2f",
+        "baseline": 64,
+        "sample": 128
+      },
+      {
+        "offset": "0x30",
+        "baseline": 156,
+        "sample": 187
+      },
+      {
+        "offset": "0x33",
+        "baseline": 43,
+        "sample": 44
+      },
+      {
+        "offset": "0x38",
+        "baseline": 24,
+        "sample": 22
+      },
+      {
+        "offset": "0x45",
+        "baseline": 31,
+        "sample": 38
+      },
+      {
+        "offset": "0x48",
+        "baseline": 0,
+        "sample": 192
+      },
+      {
+        "offset": "0x59",
+        "baseline": 25,
+        "sample": 0
+      },
+      {
+        "offset": "0x5d",
+        "baseline": 0,
+        "sample": 50
+      },
+      {
+        "offset": "0x5e",
+        "baseline": 0,
+        "sample": 40
+      },
+      {
+        "offset": "0x5f",
+        "baseline": 0,
+        "sample": 75
+      },
+      {
+        "offset": "0x60",
+        "baseline": 0,
+        "sample": 40
+      },
+      {
+        "offset": "0x61",
+        "baseline": 0,
+        "sample": 60
+      },
+      {
+        "offset": "0x63",
+        "baseline": 0,
+        "sample": 15
+      },
+      {
+        "offset": "0x67",
+        "baseline": 25,
+        "sample": 0
+      },
+      {
+        "offset": "0x6b",
+        "baseline": 0,
+        "sample": 5
+      },
+      {
+        "offset": "0x70",
+        "baseline": 20,
+        "sample": 0
+      },
+      {
+        "offset": "0x7a",
+        "baseline": 70,
+        "sample": 0
+      },
+      {
+        "offset": "0x7f",
+        "baseline": 85,
+        "sample": 0
+      },
+      {
+        "offset": "0x80",
+        "baseline": 10,
+        "sample": 0
+      },
+      {
+        "offset": "0x81",
+        "baseline": 40,
+        "sample": 0
+      },
+      {
+        "offset": "0x82",
+        "baseline": 10,
+        "sample": 0
+      },
+      {
+        "offset": "0x83",
+        "baseline": 10,
+        "sample": 0
+      },
+      {
+        "offset": "0x84",
+        "baseline": 50,
+        "sample": 0
+      },
+      {
+        "offset": "0x85",
+        "baseline": 10,
+        "sample": 0
+      },
+      {
+        "offset": "0x86",
+        "baseline": 10,
+        "sample": 0
+      },
+      {
+        "offset": "0x87",
+        "baseline": 10,
+        "sample": 0
+      },
+      {
+        "offset": "0x8f",
+        "baseline": 85,
+        "sample": 80
+      },
+      {
+        "offset": "0x96",
+        "baseline": 0,
+        "sample": 55
+      },
+      {
+        "offset": "0x9f",
+        "baseline": 40,
+        "sample": 0
+      },
+      {
+        "offset": "0xb8",
+        "baseline": 32,
+        "sample": 0
+      },
+      {
+        "offset": "0xb9",
+        "baseline": 10,
+        "sample": 0
+      },
+      {
+        "offset": "0xd8",
+        "baseline": 44,
+        "sample": 45
+      },
+      {
+        "offset": "0xd9",
+        "baseline": 50,
+        "sample": 56
+      },
+      {
+        "offset": "0xda",
+        "baseline": 48,
+        "sample": 52
+      },
+      {
+        "offset": "0xdf",
+        "baseline": 2,
+        "sample": 4
+      },
+      {
+        "offset": "0xe1",
+        "baseline": 1,
+        "sample": 0
+      },
+      {
+        "offset": "0xe3",
+        "baseline": 31,
+        "sample": 38
+      },
+      {
+        "offset": "0xe8",
+        "baseline": 0,
+        "sample": 2
+      },
+      {
+        "offset": "0xed",
+        "baseline": 0,
+        "sample": 76
+      },
+      {
+        "offset": "0xee",
+        "baseline": 0,
+        "sample": 79
+      },
+      {
+        "offset": "0xf1",
+        "baseline": 0,
+        "sample": 72
+      },
+      {
+        "offset": "0xf2",
+        "baseline": 0,
+        "sample": 79
+      },
+      {
+        "offset": "0xf7",
+        "baseline": 8,
+        "sample": 0
+      },
+      {
+        "offset": "0xf9",
+        "baseline": 250,
+        "sample": 72
+      },
+      {
+        "offset": "0xfa",
+        "baseline": 86,
+        "sample": 79
+      }
+    ],
+    "GEN1": [
+      {
+        "offset": "0x01",
+        "baseline": 84,
+        "sample": 71
+      },
+      {
+        "offset": "0x02",
+        "baseline": 83,
+        "sample": 69
+      },
+      {
+        "offset": "0x03",
+        "baseline": 84,
+        "sample": 78
+      },
+      {
+        "offset": "0x04",
+        "baseline": 50,
+        "sample": 49
+      },
+      {
+        "offset": "0x10",
+        "baseline": 17,
+        "sample": 16
+      },
+      {
+        "offset": "0x11",
+        "baseline": 14,
+        "sample": 13
+      },
+      {
+        "offset": "0x12",
+        "baseline": 13,
+        "sample": 14
+      },
+      {
+        "offset": "0x13",
+        "baseline": 14,
+        "sample": 15
+      },
+      {
+        "offset": "0x15",
+        "baseline": 13,
+        "sample": 16
+      },
+      {
+        "offset": "0x16",
+        "baseline": 15,
+        "sample": 12
+      },
+      {
+        "offset": "0x17",
+        "baseline": 17,
+        "sample": 16
+      },
+      {
+        "offset": "0x18",
+        "baseline": 14,
+        "sample": 13
+      },
+      {
+        "offset": "0x19",
+        "baseline": 13,
+        "sample": 14
+      },
+      {
+        "offset": "0x1a",
+        "baseline": 14,
+        "sample": 15
+      },
+      {
+        "offset": "0x1c",
+        "baseline": 13,
+        "sample": 16
+      },
+      {
+        "offset": "0x1d",
+        "baseline": 15,
+        "sample": 12
+      },
+      {
+        "offset": "0x26",
+        "baseline": 0,
+        "sample": 1
+      },
+      {
+        "offset": "0x38",
+        "baseline": 24,
+        "sample": 20
+      },
+      {
+        "offset": "0x45",
+        "baseline": 31,
+        "sample": 34
+      },
+      {
+        "offset": "0xb8",
+        "baseline": 32,
+        "sample": 33
+      },
+      {
+        "offset": "0xd8",
+        "baseline": 44,
+        "sample": 43
+      },
+      {
+        "offset": "0xe3",
+        "baseline": 31,
+        "sample": 34
+      }
+    ],
+    "RAC1": [
+      {
+        "offset": "0x01",
+        "baseline": 84,
+        "sample": 82
+      },
+      {
+        "offset": "0x02",
+        "baseline": 83,
+        "sample": 65
+      },
+      {
+        "offset": "0x03",
+        "baseline": 84,
+        "sample": 67
+      },
+      {
+        "offset": "0x04",
+        "baseline": 50,
+        "sample": 49
+      },
+      {
+        "offset": "0x10",
+        "baseline": 17,
+        "sample": 16
+      },
+      {
+        "offset": "0x12",
+        "baseline": 13,
+        "sample": 15
+      },
+      {
+        "offset": "0x13",
+        "baseline": 14,
+        "sample": 15
+      },
+      {
+        "offset": "0x14",
+        "baseline": 15,
+        "sample": 11
+      },
+      {
+        "offset": "0x15",
+        "baseline": 13,
+        "sample": 16
+      },
+      {
+        "offset": "0x16",
+        "baseline": 15,
+        "sample": 14
+      },
+      {
+        "offset": "0x17",
+        "baseline": 17,
+        "sample": 16
+      },
+      {
+        "offset": "0x19",
+        "baseline": 13,
+        "sample": 15
+      },
+      {
+        "offset": "0x1a",
+        "baseline": 14,
+        "sample": 15
+      },
+      {
+        "offset": "0x1b",
+        "baseline": 15,
+        "sample": 11
+      },
+      {
+        "offset": "0x1c",
+        "baseline": 13,
+        "sample": 16
+      },
+      {
+        "offset": "0x1d",
+        "baseline": 15,
+        "sample": 14
+      },
+      {
+        "offset": "0x1e",
+        "baseline": 12,
+        "sample": 14
+      },
+      {
+        "offset": "0x22",
+        "baseline": 11,
+        "sample": 10
+      },
+      {
+        "offset": "0x23",
+        "baseline": 14,
+        "sample": 13
+      },
+      {
+        "offset": "0x24",
+        "baseline": 11,
+        "sample": 12
+      },
+      {
+        "offset": "0x25",
+        "baseline": 11,
+        "sample": 10
+      },
+      {
+        "offset": "0x27",
+        "baseline": 1,
+        "sample": 2
+      },
+      {
+        "offset": "0x38",
+        "baseline": 24,
+        "sample": 19
+      },
+      {
+        "offset": "0x45",
+        "baseline": 31,
+        "sample": 43
+      },
+      {
+        "offset": "0xd8",
+        "baseline": 44,
+        "sample": 43
+      },
+      {
+        "offset": "0xe3",
+        "baseline": 31,
+        "sample": 43
+      }
+    ],
+    "TST1": [
+      {
+        "offset": "0x04",
+        "baseline": 50,
+        "sample": 49
+      },
+      {
+        "offset": "0x10",
+        "baseline": 17,
+        "sample": 13
+      },
+      {
+        "offset": "0x11",
+        "baseline": 14,
+        "sample": 16
+      },
+      {
+        "offset": "0x12",
+        "baseline": 13,
+        "sample": 14
+      },
+      {
+        "offset": "0x13",
+        "baseline": 14,
+        "sample": 15
+      },
+      {
+        "offset": "0x14",
+        "baseline": 15,
+        "sample": 13
+      },
+      {
+        "offset": "0x16",
+        "baseline": 15,
+        "sample": 14
+      },
+      {
+        "offset": "0x17",
+        "baseline": 17,
+        "sample": 13
+      },
+      {
+        "offset": "0x18",
+        "baseline": 14,
+        "sample": 16
+      },
+      {
+        "offset": "0x19",
+        "baseline": 13,
+        "sample": 14
+      },
+      {
+        "offset": "0x1a",
+        "baseline": 14,
+        "sample": 15
+      },
+      {
+        "offset": "0x1b",
+        "baseline": 15,
+        "sample": 13
+      },
+      {
+        "offset": "0x1d",
+        "baseline": 15,
+        "sample": 14
+      },
+      {
+        "offset": "0x38",
+        "baseline": 24,
+        "sample": 22
+      },
+      {
+        "offset": "0xd8",
+        "baseline": 44,
+        "sample": 43
+      },
+      {
+        "offset": "0xd9",
+        "baseline": 50,
+        "sample": 52
+      },
+      {
+        "offset": "0xe1",
+        "baseline": 1,
+        "sample": 0
+      }
+    ]
+  }
+}

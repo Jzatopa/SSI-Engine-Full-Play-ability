@@ -1,0 +1,9 @@
+{
+  "job": "port_map_comparison",
+  "model": "ollama/qwen3-coder:30b",
+  "started": "2026-07-08T16:51:42",
+  "finished": "2026-07-08T16:53:45",
+  "returncode": 0,
+  "prompt_path": "generated/qwen_advisory/2026-07-08/port_map_comparison.prompt.txt",
+  "raw_path": "generated/qwen_advisory/2026-07-08/port_map_comparison.raw.txt"
+}

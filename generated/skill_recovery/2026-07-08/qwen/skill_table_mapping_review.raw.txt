@@ -1,0 +1,44 @@
+[state-migrations] Legacy state migration warnings:
+- Skipped Memory Core legacy memory index import for agent main because legacy rows could not be imported: Error: legacy memory meta rows conflict with canonical memory index rows
+│
+◇  Doctor warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - Skipped Memory Core legacy memory index import for agent main         │
+│    because legacy rows could not be imported: Error: legacy memory meta  │
+│    rows conflict with canonical memory index rows                        │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+model.run via local
+provider: ollama
+model: qwen3-coder:30b
+outputs: 1
+# Matrix Cubed Skill Recovery Advisory
+
+## VERIFIED_FROM_PROMPT
+- Skill table maps skill_id 1..84 to START.EXE names and WHO offsets 0x4C + skill_id
+- Decompiler evidence shows access patterns consistent with `*(undefined1 *)((int)uVar1 + (uint)local_3 + 0x4c)` where offset 0x4C is used
+- Function `FUN_1000_8467` populates values at WHO offsets starting from 0x4C
+- Function `FUN_2000_b375` accesses `*(char *)(iVar3 + iVar2 + 0x4c)` confirming offset usage
+- Function `FUN_2000_5605` accesses `*(char *)((int)*(undefined4 *)0x57fb + (int)local_3 + 0x4c)` confirming skill data at WHO+0x4C
+
+## CANDIDATES
+- All skill_ids 1..84 potentially map to START.EXE names and WHO offsets 0x4C + skill_id as shown in the table
+- Evidence confirms WHO offset access pattern at 0x4C + skill_id in decompiled functions
+
+## RISKS
+- No direct evidence confirms mapping between specific skill_id values and their text entries
+- No evidence of skill_id=0 being handled differently or mapped to "technical Skills"
+- Function `FUN_1000_8467` loops from 1 to 85 (0x55), but the table starts at skill_id=1, implying skill_id=0 might not be covered
+- No evidence confirms that skill_id=0 corresponds to "technical Skills" text entry
+
+## LOCAL_VALIDATION_STEPS
+1. Confirm `FUN_1000_8467` populates WHO offsets starting at 0x4C with skill values for skills 1..84
+2. Validate that `FUN_2000_b375` and `FUN_2000_5605` read from WHO+0x4C as expected
+3. Check if skill_id=0 is handled by separate code or omitted from table
+4. Cross-reference the actual skill text entries in START.EXE with the decompiled function that accesses these offsets
+
+## UNSUPPORTED_CLAIMS
+- Skill table's mapping of skill_id 0 to "technical Skills" is not supported by evidence
+- Mapping between specific skill_id values and their corresponding text entries is not validated
+- No evidence provided for how skill_id=0 maps to WHO offset 0x4C + 0 = 0x4C
+- No validation that skill_id=1 maps to the exact text "Repair Electrical" or any other specific name

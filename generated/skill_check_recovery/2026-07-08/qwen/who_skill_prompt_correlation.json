@@ -1,0 +1,9 @@
+{
+  "job": "who_skill_prompt_correlation",
+  "model": "ollama/qwen3-coder:30b",
+  "started": "2026-07-08T19:46:14",
+  "finished": "2026-07-08T19:47:10",
+  "returncode": 0,
+  "prompt_path": "generated/skill_check_recovery/2026-07-08/qwen/who_skill_prompt_correlation.prompt.txt",
+  "raw_path": "generated/skill_check_recovery/2026-07-08/qwen/who_skill_prompt_correlation.raw.txt"
+}

@@ -1,0 +1,1207 @@
+{
+  "valid": true,
+  "file": "MUSIC.DAX",
+  "bytes": 19441,
+  "sha256": "0e73439aa5858a181800c923fd98441801678e51a0bcbe12bb6435fa274d4b5c",
+  "toc_len": 81,
+  "data_offset": 83,
+  "block_count": 9,
+  "semantic_status": "structural decode only: semantic format not yet named",
+  "warnings": [],
+  "blocks": [
+    {
+      "id": 1,
+      "toc_entry_offset": 2,
+      "packed_relative_offset": 0,
+      "packed_absolute_offset": 83,
+      "raw_size": 11358,
+      "packed_size": 11489,
+      "decoded_size": 11358,
+      "decoded_sha256": "463c42eadee1de625661094a74a9bb31928bea0cc47324281f23d499e68a9313",
+      "packed_sha256": "8c3cb5bd24ad42e20f51b480f9328cbebaff95c01471193683d9a950d752eb51",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0115,
+      "record_size_divisors": [
+        2,
+        3,
+        6,
+        9,
+        18
+      ],
+      "known_record_hints": [],
+      "head_hex": "55 8b ec 1e 06 8c c8 05 af 02 8e d8 8e c0 8b 46 0a 50 8b 46 08 50 8b 46 06 50 e8 13 02 5b 5b 5b 07 1f 5d cb 55 8b ec 83 ec 16 56 57 8b 7e 08 c4 5e 04 8c 46 f8 89 5e f6 b8 0c 00 50 16 8d 46 ea",
+      "tail_hex": "67 01 53 01 40 01 2e 01 1d 01 0d 01 fe 00 f0 00 e2 00 01 00 c6 aa bb 55 20 02 40 02 80 02 c0 02",
+      "ascii_candidates": [
+        {
+          "offset": 445,
+          "length": 4,
+          "text": "'YY="
+        },
+        {
+          "offset": 470,
+          "length": 5,
+          "text": "'YY=!"
+        },
+        {
+          "offset": 1645,
+          "length": 4,
+          "text": "T\"YP"
+        },
+        {
+          "offset": 3187,
+          "length": 4,
+          "text": "YY^]"
+        },
+        {
+          "offset": 3497,
+          "length": 4,
+          "text": "YY_^"
+        },
+        {
+          "offset": 5037,
+          "length": 4,
+          "text": "YY_^"
+        },
+        {
+          "offset": 5396,
+          "length": 4,
+          "text": "YY^]"
+        },
+        {
+          "offset": 5610,
+          "length": 4,
+          "text": "YY_^"
+        },
+        {
+          "offset": 5842,
+          "length": 4,
+          "text": "YY_^"
+        },
+        {
+          "offset": 6138,
+          "length": 4,
+          "text": "YY_^"
+        },
+        {
+          "offset": 7999,
+          "length": 14,
+          "text": "A a f M R W \\ "
+        },
+        {
+          "offset": 8275,
+          "length": 4,
+          "text": "U!g!"
+        },
+        {
+          "offset": 8284,
+          "length": 11,
+          "text": "\"i\"i\"i\"i\"6\""
+        },
+        {
+          "offset": 8661,
+          "length": 5,
+          "text": "YY_^]"
+        },
+        {
+          "offset": 9945,
+          "length": 4,
+          "text": "@@PW"
+        },
+        {
+          "offset": 10338,
+          "length": 5,
+          "text": "*)FF&"
+        },
+        {
+          "offset": 10401,
+          "length": 6,
+          "text": "PSQRVW"
+        },
+        {
+          "offset": 10413,
+          "length": 6,
+          "text": "_^ZY[X"
+        },
+        {
+          "offset": 10422,
+          "length": 4,
+          "text": ".*)."
+        },
+        {
+          "offset": 10625,
+          "length": 5,
+          "text": "!_^]r"
+        },
+        {
+          "offset": 10707,
+          "length": 4,
+          "text": "s\tFG"
+        },
+        {
+          "offset": 10739,
+          "length": 18,
+          "text": "Invalid Parts File"
+        },
+        {
+          "offset": 10758,
+          "length": 20,
+          "text": "Invalid part (%d/%d)"
+        },
+        {
+          "offset": 10781,
+          "length": 5,
+          "text": "adlib"
+        },
+        {
+          "offset": 10791,
+          "length": 5,
+          "text": "innov"
+        },
+        {
+          "offset": 10797,
+          "length": 5,
+          "text": "covox"
+        },
+        {
+          "offset": 10803,
+          "length": 4,
+          "text": "tsnd"
+        },
+        {
+          "offset": 10808,
+          "length": 4,
+          "text": "psnd"
+        },
+        {
+          "offset": 10813,
+          "length": 25,
+          "text": "Song out of range (%d/%d)"
+        },
+        {
+          "offset": 10891,
+          "length": 17,
+          "text": "all outputs taken"
+        },
+        {
+          "offset": 10909,
+          "length": 13,
+          "text": "setreg %d %0x"
+        },
+        {
+          "offset": 11060,
+          "length": 19,
+          "text": "%d already assigned"
+        },
+        {
+          "offset": 11080,
+          "length": 17,
+          "text": "all outputs taken"
+        },
+        {
+          "offset": 11098,
+          "length": 20,
+          "text": "forcing inst chan %d"
+        },
+        {
+          "offset": 11172,
+          "length": 23,
+          "text": "all innov outputs taken"
+        },
+        {
+          "offset": 11196,
+          "length": 12,
+          "text": "setreg %d %d"
+        },
+        {
+          "offset": 11276,
+          "length": 17,
+          "text": "all outputs taken"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 10890,
+          "length": 14,
+          "text": "all outputs ta"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 803,
+        "8b": 625,
+        "50": 391,
+        "46": 310,
+        "e8": 304,
+        "ff": 280,
+        "06": 263,
+        "04": 259,
+        "59": 248,
+        "03": 243,
+        "01": 236,
+        "02": 228,
+        "83": 197,
+        "fe": 195,
+        "b8": 188,
+        "8a": 186
+      },
+      "warnings": []
+    },
+    {
+      "id": 2,
+      "toc_entry_offset": 11,
+      "packed_relative_offset": 11489,
+      "packed_absolute_offset": 11572,
+      "raw_size": 2082,
+      "packed_size": 2107,
+      "decoded_size": 2082,
+      "decoded_sha256": "6c22834e71cf7ce2ab1e222695d8ca569e7240c40dab2342ac6710a489f4a23a",
+      "packed_sha256": "9596b7f6fd4dec0c36ae6e70745f6c46c4d2b041b9ec92d9305cde2099b49f13",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.012,
+      "record_size_divisors": [
+        2,
+        3,
+        6
+      ],
+      "known_record_hints": [],
+      "head_hex": "47 4c 42 52 00 00 01 bc ff ff 00 20 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08",
+      "tail_hex": "80 03 32 03 80 03 32 03 80 03 32 03 80 03 32 12 80 13 32 03 80 03 32 42 32 0a 80 03 80 00 ff ff",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 4,
+          "text": "GLBR"
+        },
+        {
+          "offset": 444,
+          "length": 4,
+          "text": "SLBR"
+        },
+        {
+          "offset": 856,
+          "length": 5,
+          "text": "LBLCL"
+        },
+        {
+          "offset": 904,
+          "length": 7,
+          "text": "2D2C2B2"
+        },
+        {
+          "offset": 1212,
+          "length": 7,
+          "text": "HCHAH@H"
+        },
+        {
+          "offset": 1226,
+          "length": 5,
+          "text": "MAMBM"
+        },
+        {
+          "offset": 1244,
+          "length": 5,
+          "text": "MCMBM"
+        },
+        {
+          "offset": 1250,
+          "length": 9,
+          "text": "JDJCJBJBJ"
+        },
+        {
+          "offset": 1272,
+          "length": 5,
+          "text": "2C2B2"
+        },
+        {
+          "offset": 1568,
+          "length": 5,
+          "text": "ACABA"
+        },
+        {
+          "offset": 1604,
+          "length": 7,
+          "text": "ECEBE@E"
+        },
+        {
+          "offset": 1618,
+          "length": 5,
+          "text": "JAJBJ"
+        },
+        {
+          "offset": 1632,
+          "length": 5,
+          "text": "HAHCH"
+        },
+        {
+          "offset": 1644,
+          "length": 7,
+          "text": "JRJBJBJ"
+        },
+        {
+          "offset": 1664,
+          "length": 5,
+          "text": "2C2B2"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 1249,
+          "length": 4,
+          "text": "JDJC"
+        }
+      ],
+      "byte_histogram_top16": {
+        "03": 434,
+        "80": 280,
+        "00": 185,
+        "32": 139,
+        "4a": 76,
+        "48": 73,
+        "43": 71,
+        "13": 69,
+        "4c": 68,
+        "01": 63,
+        "4d": 61,
+        "02": 59,
+        "14": 53,
+        "42": 40,
+        "04": 34,
+        "45": 34
+      },
+      "warnings": []
+    },
+    {
+      "id": 3,
+      "toc_entry_offset": 20,
+      "packed_relative_offset": 13596,
+      "packed_absolute_offset": 13679,
+      "raw_size": 1044,
+      "packed_size": 1060,
+      "decoded_size": 1044,
+      "decoded_sha256": "079e158f6b5c21c611be8f40c16203eff1aae9347d6ee859694a08af8f8c97db",
+      "packed_sha256": "8c1a38c09a970275b35fcf1abea27e1a27051511986924a1de9ed84c7ab7485b",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0153,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        6,
+        9,
+        12,
+        18,
+        36
+      ],
+      "known_record_hints": [],
+      "head_hex": "47 4c 42 52 00 00 01 bc ff ff 00 20 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08",
+      "tail_hex": "2e 04 2d 04 80 04 2e 44 2e 04 2d 04 80 02 80 01 80 03 30 03 80 03 32 43 32 41 32 02 80 02 ff ff",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 4,
+          "text": "GLBR"
+        },
+        {
+          "offset": 444,
+          "length": 4,
+          "text": "SLBR"
+        },
+        {
+          "offset": 622,
+          "length": 5,
+          "text": "QCQCQ"
+        },
+        {
+          "offset": 644,
+          "length": 5,
+          "text": "QCQCQ"
+        },
+        {
+          "offset": 650,
+          "length": 5,
+          "text": ":D:C:"
+        },
+        {
+          "offset": 668,
+          "length": 5,
+          "text": "QDQCQ"
+        },
+        {
+          "offset": 696,
+          "length": 5,
+          "text": "Q@QAQ"
+        },
+        {
+          "offset": 704,
+          "length": 7,
+          "text": "J@JAJCJ"
+        },
+        {
+          "offset": 712,
+          "length": 5,
+          "text": "ODOCO"
+        },
+        {
+          "offset": 718,
+          "length": 4,
+          "text": "QTQ@"
+        },
+        {
+          "offset": 724,
+          "length": 5,
+          "text": "QAQBQ"
+        },
+        {
+          "offset": 762,
+          "length": 5,
+          "text": "QCQAQ"
+        },
+        {
+          "offset": 830,
+          "length": 5,
+          "text": "MCMAM"
+        },
+        {
+          "offset": 1034,
+          "length": 5,
+          "text": "2C2A2"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 621,
+          "length": 4,
+          "text": "QCQC"
+        },
+        {
+          "offset": 667,
+          "length": 4,
+          "text": "QDQC"
+        },
+        {
+          "offset": 711,
+          "length": 4,
+          "text": "ODOC"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 195,
+        "04": 87,
+        "80": 81,
+        "01": 70,
+        "03": 69,
+        "02": 34,
+        "43": 29,
+        "51": 29,
+        "0c": 28,
+        "44": 26,
+        "3a": 26,
+        "2e": 26,
+        "0a": 22,
+        "0f": 18,
+        "39": 18,
+        "32": 18
+      },
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "toc_entry_offset": 29,
+      "packed_relative_offset": 14656,
+      "packed_absolute_offset": 14739,
+      "raw_size": 862,
+      "packed_size": 876,
+      "decoded_size": 862,
+      "decoded_sha256": "724fd88ea0a0d70079485d03956d7d5c42e8f184375f0d27d7ad9bdb57eaf409",
+      "packed_sha256": "46eba1fb5a425532efb740f27902bac17846189f2f421d943d425eb1c1e86bb6",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0162,
+      "record_size_divisors": [
+        2
+      ],
+      "known_record_hints": [],
+      "head_hex": "47 4c 42 52 00 00 01 bc ff ff 00 20 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08",
+      "tail_hex": "40 44 40 43 40 03 80 03 80 03 80 04 40 44 40 02 40 42 40 04 80 04 41 43 41 12 80 13 80 01 ff ff",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 4,
+          "text": "GLBR"
+        },
+        {
+          "offset": 444,
+          "length": 4,
+          "text": "SLBR"
+        },
+        {
+          "offset": 492,
+          "length": 5,
+          "text": "%D%C%"
+        },
+        {
+          "offset": 504,
+          "length": 5,
+          "text": "%D%C%"
+        },
+        {
+          "offset": 562,
+          "length": 5,
+          "text": "5C5B5"
+        },
+        {
+          "offset": 586,
+          "length": 5,
+          "text": "HDHCH"
+        },
+        {
+          "offset": 606,
+          "length": 5,
+          "text": "IDICI"
+        },
+        {
+          "offset": 612,
+          "length": 5,
+          "text": "ICICI"
+        },
+        {
+          "offset": 640,
+          "length": 5,
+          "text": "ISICI"
+        },
+        {
+          "offset": 660,
+          "length": 5,
+          "text": "ACABA"
+        },
+        {
+          "offset": 684,
+          "length": 5,
+          "text": "DDDCD"
+        },
+        {
+          "offset": 692,
+          "length": 5,
+          "text": "DCDCD"
+        },
+        {
+          "offset": 706,
+          "length": 5,
+          "text": "DDDCD"
+        },
+        {
+          "offset": 732,
+          "length": 5,
+          "text": "DDDCD"
+        },
+        {
+          "offset": 776,
+          "length": 5,
+          "text": "ADACA"
+        },
+        {
+          "offset": 798,
+          "length": 5,
+          "text": "@D@C@"
+        },
+        {
+          "offset": 806,
+          "length": 5,
+          "text": "@D@C@"
+        },
+        {
+          "offset": 830,
+          "length": 5,
+          "text": "@D@C@"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 585,
+          "length": 4,
+          "text": "HDHC"
+        },
+        {
+          "offset": 605,
+          "length": 4,
+          "text": "IDIC"
+        },
+        {
+          "offset": 683,
+          "length": 4,
+          "text": "DDDC"
+        },
+        {
+          "offset": 691,
+          "length": 4,
+          "text": "DCDC"
+        },
+        {
+          "offset": 705,
+          "length": 4,
+          "text": "DDDC"
+        },
+        {
+          "offset": 731,
+          "length": 4,
+          "text": "DDDC"
+        },
+        {
+          "offset": 775,
+          "length": 4,
+          "text": "ADAC"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 182,
+        "80": 64,
+        "01": 61,
+        "03": 54,
+        "44": 53,
+        "02": 39,
+        "04": 35,
+        "0a": 29,
+        "43": 29,
+        "0c": 26,
+        "41": 19,
+        "0f": 17,
+        "40": 17,
+        "08": 16,
+        "ff": 15,
+        "06": 14
+      },
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "toc_entry_offset": 38,
+      "packed_relative_offset": 15532,
+      "packed_absolute_offset": 15615,
+      "raw_size": 626,
+      "packed_size": 635,
+      "decoded_size": 626,
+      "decoded_sha256": "b4d922031ee02e438b9686fd624108206b23ced6b80c24b8ec4f941c2d717f20",
+      "packed_sha256": "953d0dbb842d7ab643b8d8961de9879884c25dae6f7b7d2df8c105d95315f3b3",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0144,
+      "record_size_divisors": [
+        2
+      ],
+      "known_record_hints": [],
+      "head_hex": "47 4c 42 52 00 00 01 bc ff ff 00 20 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08",
+      "tail_hex": "32 42 32 42 32 03 80 03 30 01 80 02 80 04 30 44 30 43 30 41 30 13 80 14 2e 43 2e 42 2e 01 ff ff",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 4,
+          "text": "GLBR"
+        },
+        {
+          "offset": 444,
+          "length": 4,
+          "text": "SLBR"
+        },
+        {
+          "offset": 478,
+          "length": 5,
+          "text": "MAMJM"
+        },
+        {
+          "offset": 496,
+          "length": 5,
+          "text": "LBLCL"
+        },
+        {
+          "offset": 502,
+          "length": 7,
+          "text": "HDHAHCH"
+        },
+        {
+          "offset": 510,
+          "length": 5,
+          "text": "EDEBE"
+        },
+        {
+          "offset": 516,
+          "length": 5,
+          "text": "JCJBJ"
+        },
+        {
+          "offset": 532,
+          "length": 5,
+          "text": "MAMJM"
+        },
+        {
+          "offset": 550,
+          "length": 5,
+          "text": "LBLCL"
+        },
+        {
+          "offset": 556,
+          "length": 7,
+          "text": "HDHAHCH"
+        },
+        {
+          "offset": 564,
+          "length": 5,
+          "text": "EDEBE"
+        },
+        {
+          "offset": 570,
+          "length": 5,
+          "text": "JCJBJ"
+        },
+        {
+          "offset": 594,
+          "length": 5,
+          "text": "2B2B2"
+        },
+        {
+          "offset": 608,
+          "length": 7,
+          "text": "0D0C0A0"
+        },
+        {
+          "offset": 618,
+          "length": 5,
+          "text": ".C.B."
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 501,
+          "length": 4,
+          "text": "HDHA"
+        },
+        {
+          "offset": 509,
+          "length": 4,
+          "text": "EDEB"
+        },
+        {
+          "offset": 555,
+          "length": 4,
+          "text": "HDHA"
+        },
+        {
+          "offset": 563,
+          "length": 4,
+          "text": "EDEB"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 188,
+        "01": 54,
+        "03": 33,
+        "0c": 28,
+        "0a": 23,
+        "0f": 19,
+        "08": 16,
+        "80": 15,
+        "ff": 14,
+        "06": 14,
+        "42": 12,
+        "4a": 12,
+        "04": 12,
+        "45": 10,
+        "43": 10,
+        "4c": 8
+      },
+      "warnings": []
+    },
+    {
+      "id": 6,
+      "toc_entry_offset": 47,
+      "packed_relative_offset": 16167,
+      "packed_absolute_offset": 16250,
+      "raw_size": 720,
+      "packed_size": 724,
+      "decoded_size": 720,
+      "decoded_sha256": "d9ae6aa46f43066c1d11e1fe3ea517e2a7903f48bda16c39e9ead49baa9591d9",
+      "packed_sha256": "17ec7910bcce890ca4efa2ef454b4f473f105fb3006704b49994a9d68a23f9e7",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0056,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        16,
+        18,
+        24,
+        36,
+        48
+      ],
+      "known_record_hints": [],
+      "head_hex": "47 4c 42 52 00 00 01 bc ff ff 00 20 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08",
+      "tail_hex": "2d 03 80 03 2d 03 80 03 2d 03 80 03 2d 02 28 43 28 14 80 13 28 03 80 03 28 03 80 03 28 02 ff ff",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 4,
+          "text": "GLBR"
+        },
+        {
+          "offset": 444,
+          "length": 4,
+          "text": "SLBR"
+        },
+        {
+          "offset": 502,
+          "length": 5,
+          "text": "GBGCG"
+        },
+        {
+          "offset": 580,
+          "length": 5,
+          "text": "HCHCH"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 196,
+        "01": 64,
+        "03": 52,
+        "80": 49,
+        "0c": 26,
+        "43": 25,
+        "0a": 22,
+        "08": 18,
+        "0f": 18,
+        "06": 15,
+        "ff": 14,
+        "48": 14,
+        "13": 14,
+        "02": 13,
+        "12": 12,
+        "14": 12
+      },
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "toc_entry_offset": 56,
+      "packed_relative_offset": 16891,
+      "packed_absolute_offset": 16974,
+      "raw_size": 624,
+      "packed_size": 636,
+      "decoded_size": 624,
+      "decoded_sha256": "6b996b66329988477529bc15f69b76664b3cfc097e8f5c7b2c1175dcf497c94d",
+      "packed_sha256": "5dd6821bba193ebdbcddad4f6bb46c63600d9ba6498e6ac584f2b31ea3e8047b",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0192,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        6,
+        8,
+        12,
+        16,
+        24,
+        48
+      ],
+      "known_record_hints": [],
+      "head_hex": "47 4c 42 52 00 00 01 bc ff ff 00 20 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08",
+      "tail_hex": "82 1a 81 00 32 04 3b 84 37 04 3c 04 3b 04 37 03 3e 43 3e 41 3e 02 80 02 80 01 80 00 80 00 ff ff",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 4,
+          "text": "GLBR"
+        },
+        {
+          "offset": 444,
+          "length": 4,
+          "text": "SLBR"
+        },
+        {
+          "offset": 492,
+          "length": 9,
+          "text": "GCGBGBGCG"
+        },
+        {
+          "offset": 570,
+          "length": 5,
+          "text": "CBCAC"
+        },
+        {
+          "offset": 608,
+          "length": 5,
+          "text": ">C>A>"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 569,
+          "length": 4,
+          "text": "CBCA"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 198,
+        "01": 58,
+        "0c": 29,
+        "80": 24,
+        "03": 23,
+        "0a": 23,
+        "04": 21,
+        "0f": 20,
+        "ff": 17,
+        "08": 16,
+        "47": 14,
+        "06": 14,
+        "02": 11,
+        "43": 11,
+        "12": 8,
+        "21": 7
+      },
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "toc_entry_offset": 65,
+      "packed_relative_offset": 17527,
+      "packed_absolute_offset": 17610,
+      "raw_size": 720,
+      "packed_size": 734,
+      "decoded_size": 720,
+      "decoded_sha256": "53262ef74af013d9c3898cc9272384fb568e72297e181b1cc5eca5ddc4a61b96",
+      "packed_sha256": "d4f167a9c8d56e3275db4e8fb634f51027cca36fd3582fe8e07ec0a07b890461",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0194,
+      "record_size_divisors": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        16,
+        18,
+        24,
+        36,
+        48
+      ],
+      "known_record_hints": [],
+      "head_hex": "47 4c 42 52 00 00 01 bc ff ff 00 20 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08",
+      "tail_hex": "2d 03 80 03 2d 03 80 03 2d 03 80 03 2d 02 28 43 28 14 80 13 28 03 80 03 28 03 80 03 28 02 ff ff",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 4,
+          "text": "GLBR"
+        },
+        {
+          "offset": 444,
+          "length": 4,
+          "text": "SLBR"
+        },
+        {
+          "offset": 502,
+          "length": 5,
+          "text": "GBGCG"
+        },
+        {
+          "offset": 580,
+          "length": 5,
+          "text": "HCHCH"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 189,
+        "01": 64,
+        "03": 53,
+        "80": 48,
+        "0c": 31,
+        "43": 26,
+        "0a": 17,
+        "0f": 17,
+        "08": 16,
+        "ff": 15,
+        "06": 15,
+        "02": 14,
+        "48": 14,
+        "13": 14,
+        "12": 12,
+        "14": 12
+      },
+      "warnings": []
+    },
+    {
+      "id": 9,
+      "toc_entry_offset": 74,
+      "packed_relative_offset": 18261,
+      "packed_absolute_offset": 18344,
+      "raw_size": 1078,
+      "packed_size": 1097,
+      "decoded_size": 1078,
+      "decoded_sha256": "757a9b0fbaaf45c7244e3be6a24d6f1c868f59740941549c45efea92182d0824",
+      "packed_sha256": "91d5099851c80225ba7acfc253bb54f004cd5d7c751cbe1ea510041950117039",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 1.0176,
+      "record_size_divisors": [
+        2,
+        7,
+        14
+      ],
+      "known_record_hints": [],
+      "head_hex": "47 4c 42 52 00 00 01 bc ff ff 00 20 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 0c 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08",
+      "tail_hex": "2c 04 31 44 31 02 2c 02 29 42 29 04 24 44 24 43 24 03 29 43 29 43 29 04 24 44 24 02 29 01 ff ff",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 4,
+          "text": "GLBR"
+        },
+        {
+          "offset": 94,
+          "length": 4,
+          "text": "bS),"
+        },
+        {
+          "offset": 444,
+          "length": 4,
+          "text": "SLBR"
+        },
+        {
+          "offset": 554,
+          "length": 7,
+          "text": "=C=B=B="
+        },
+        {
+          "offset": 564,
+          "length": 5,
+          "text": "<D<C<"
+        },
+        {
+          "offset": 582,
+          "length": 5,
+          "text": "5D5C5"
+        },
+        {
+          "offset": 588,
+          "length": 5,
+          "text": ":C:C:"
+        },
+        {
+          "offset": 610,
+          "length": 5,
+          "text": "5D5C5"
+        },
+        {
+          "offset": 642,
+          "length": 5,
+          "text": "5D5C5"
+        },
+        {
+          "offset": 716,
+          "length": 9,
+          "text": "=C=B=B=C="
+        },
+        {
+          "offset": 870,
+          "length": 5,
+          "text": "5S5C5"
+        },
+        {
+          "offset": 880,
+          "length": 5,
+          "text": "5C5C5"
+        },
+        {
+          "offset": 896,
+          "length": 5,
+          "text": "5D5C5"
+        },
+        {
+          "offset": 924,
+          "length": 5,
+          "text": "5D5C5"
+        },
+        {
+          "offset": 948,
+          "length": 5,
+          "text": ")C)C)"
+        },
+        {
+          "offset": 954,
+          "length": 5,
+          "text": "$D$C$"
+        },
+        {
+          "offset": 968,
+          "length": 5,
+          "text": ",D,C,"
+        },
+        {
+          "offset": 974,
+          "length": 5,
+          "text": "'C'C'"
+        },
+        {
+          "offset": 994,
+          "length": 5,
+          "text": "1C1C1"
+        },
+        {
+          "offset": 1008,
+          "length": 5,
+          "text": ",D,C,"
+        },
+        {
+          "offset": 1022,
+          "length": 5,
+          "text": ")D)C)"
+        },
+        {
+          "offset": 1036,
+          "length": 5,
+          "text": "1D1C1"
+        },
+        {
+          "offset": 1042,
+          "length": 5,
+          "text": ",C,C,"
+        },
+        {
+          "offset": 1058,
+          "length": 5,
+          "text": "$D$C$"
+        },
+        {
+          "offset": 1064,
+          "length": 5,
+          "text": ")C)C)"
+        }
+      ],
+      "pascal_candidates": [],
+      "byte_histogram_top16": {
+        "00": 182,
+        "80": 88,
+        "04": 78,
+        "01": 67,
+        "03": 66,
+        "35": 47,
+        "02": 43,
+        "43": 35,
+        "44": 33,
+        "0c": 27,
+        "38": 26,
+        "0a": 22,
+        "42": 20,
+        "29": 19,
+        "0f": 19,
+        "08": 17
+      },
+      "warnings": []
+    }
+  ]
+}

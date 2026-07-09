@@ -1,0 +1,3667 @@
+{
+  "valid": true,
+  "file": "MON0CHA.DAX",
+  "bytes": 7455,
+  "sha256": "3a8386b4a7a6f6baf1808d2d9f73a5248b193bcc0d2d84ab5eb970efc8cd5c7c",
+  "toc_len": 567,
+  "data_offset": 569,
+  "block_count": 63,
+  "semantic_status": "partially decoded: 63 monster/character records parsed",
+  "warnings": [],
+  "blocks": [
+    {
+      "id": 1,
+      "toc_entry_offset": 2,
+      "packed_relative_offset": 0,
+      "packed_absolute_offset": 569,
+      "raw_size": 259,
+      "packed_size": 105,
+      "decoded_size": 259,
+      "decoded_sha256": "423b0cc3b19906a1c388e891fccb9ba3b206f3e607086dd937e7db05b3f8a0ab",
+      "packed_sha256": "24059bcb8fdebe5cbf1b5b00a6aeeaf8a10625c06ab0f2acbea861ee603228ad",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4054,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0a 53 49 44 20 52 45 46 55 47 45 00 00 00 00 00 10 0e 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 03 0c 00 7b 00 00 00 00 00 00 00 32 01 00 09 32 19 00 00 00 02 00 01 00",
+      "tail_hex": "54 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7b 38 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 10,
+          "text": "SID REFUGE"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "SID REFUGE"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 194,
+        "0a": 13,
+        "01": 8,
+        "0d": 4,
+        "32": 4,
+        "0e": 3,
+        "06": 3,
+        "08": 3,
+        "45": 2,
+        "10": 2,
+        "7b": 2,
+        "54": 2,
+        "53": 1,
+        "49": 1,
+        "44": 1,
+        "20": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 2,
+      "toc_entry_offset": 11,
+      "packed_relative_offset": 105,
+      "packed_absolute_offset": 674,
+      "raw_size": 259,
+      "packed_size": 95,
+      "decoded_size": 259,
+      "decoded_sha256": "7b994430cdcadb4492f214cbeb1e74a662bc641c05ae21669ad4d78a5ba5a3ec",
+      "packed_sha256": "c063c70d0bbdc4aee03d76fcd6b09cc4aa9b28148ca07b7071637704cfc93a3f",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3668,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0a 53 49 44 20 52 45 46 55 47 45 00 00 00 00 00 11 10 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 00 0d 00 48 00 00 00 00 00 00 00 33 01 00 09 3a 19 00 01 00 02 00 01 00",
+      "tail_hex": "5b 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a5 38 00 00 a0 38 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 10,
+          "text": "SID REFUGE"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "SID REFUGE"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 199,
+        "0a": 14,
+        "01": 8,
+        "0d": 5,
+        "45": 2,
+        "10": 2,
+        "0e": 2,
+        "09": 2,
+        "02": 2,
+        "5b": 2,
+        "38": 2,
+        "53": 1,
+        "49": 1,
+        "44": 1,
+        "20": 1,
+        "52": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 3,
+      "toc_entry_offset": 20,
+      "packed_relative_offset": 200,
+      "packed_absolute_offset": 769,
+      "raw_size": 259,
+      "packed_size": 95,
+      "decoded_size": 259,
+      "decoded_sha256": "86c0df6f4cea8641b48cfee9ba29080d4fd353f33c3a658f9138c57381190b8d",
+      "packed_sha256": "4ff73508f192e08964db740736effa2acf5f518b53b7d4b76068e776d0d4aaad",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3668,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0a 53 49 44 20 52 45 46 55 47 45 00 00 00 00 00 12 11 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 00 0e 00 00 00 00 00 00 00 00 00 33 01 00 12 3c 19 00 02 00 02 00 01 00",
+      "tail_hex": "62 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 bf 38 00 00 ba 38 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 10,
+          "text": "SID REFUGE"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "SID REFUGE"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 190,
+        "0a": 14,
+        "19": 11,
+        "01": 7,
+        "0d": 4,
+        "0e": 3,
+        "45": 2,
+        "12": 2,
+        "02": 2,
+        "62": 2,
+        "38": 2,
+        "53": 1,
+        "49": 1,
+        "44": 1,
+        "20": 1,
+        "52": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "toc_entry_offset": 29,
+      "packed_relative_offset": 295,
+      "packed_absolute_offset": 864,
+      "raw_size": 259,
+      "packed_size": 94,
+      "decoded_size": 259,
+      "decoded_sha256": "d0cf808324dd414976c8ec679b5d962856341b646acb23858ac75ef84a9361a6",
+      "packed_sha256": "3cdc5f2ba778495afe53bab3943090a1e8579d1128a676241988ecb1b702b3c4",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3629,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0a 53 49 44 20 52 45 46 55 47 45 00 00 00 00 00 12 12 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 00 0f 00 00 00 00 00 00 00 00 00 34 01 00 12 3c 19 00 02 00 02 00 03 00",
+      "tail_hex": "69 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff 36 00 00 f9 36 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 10,
+          "text": "SID REFUGE"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "SID REFUGE"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 190,
+        "0a": 14,
+        "19": 11,
+        "01": 6,
+        "0d": 5,
+        "12": 3,
+        "45": 2,
+        "0f": 2,
+        "0e": 2,
+        "02": 2,
+        "03": 2,
+        "69": 2,
+        "36": 2,
+        "53": 1,
+        "49": 1,
+        "44": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "toc_entry_offset": 38,
+      "packed_relative_offset": 389,
+      "packed_absolute_offset": 958,
+      "raw_size": 259,
+      "packed_size": 104,
+      "decoded_size": 259,
+      "decoded_sha256": "74f4f18a8290c1b02286bc2a5a4312f3886811416a37d7927683e8993472e15c",
+      "packed_sha256": "5b0729d32ccbb3e8a60c657d42d0555f2a6d525868d851ac7ed55b96a0ba0402",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4015,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0e 50 55 52 47 45 20 43 4f 4d 4d 41 4e 44 4f 00 0e 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 00 08 00 4c 00 00 00 00 00 00 00 2f 01 00 0c 33 19 00 00 02 00 01 00 06",
+      "tail_hex": "38 00 00 00 a3 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0b 37 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 14,
+          "text": "PURGE COMMANDO"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 14,
+          "text": "PURGE COMMANDO"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 186,
+        "0a": 13,
+        "19": 11,
+        "01": 7,
+        "0e": 4,
+        "0d": 4,
+        "4f": 2,
+        "4d": 2,
+        "02": 2,
+        "38": 2,
+        "32": 2,
+        "50": 1,
+        "55": 1,
+        "52": 1,
+        "47": 1,
+        "45": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 6,
+      "toc_entry_offset": 47,
+      "packed_relative_offset": 493,
+      "packed_absolute_offset": 1062,
+      "raw_size": 259,
+      "packed_size": 103,
+      "decoded_size": 259,
+      "decoded_sha256": "992bfe934f9212d8f7094d7dda9f0be8817b6ba80afa1c88c49d7111be439b9f",
+      "packed_sha256": "35f89c8cd48d60351bfbf3618145711b0977a3c8f132637dc7ea43234dfa1dfd",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3977,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0d 50 55 52 47 45 20 57 41 52 52 49 4f 52 00 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 00 06 00 35 00 00 00 00 00 00 00 2d 01 00 0c 33 19 00 00 00 02 00 01 00",
+      "tail_hex": "2a 00 00 00 9e 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 6c 37 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 13,
+          "text": "PURGE WARRIOR"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 13,
+          "text": "PURGE WARRIOR"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 187,
+        "0a": 14,
+        "19": 11,
+        "01": 8,
+        "0d": 5,
+        "52": 4,
+        "32": 3,
+        "0e": 2,
+        "06": 2,
+        "2a": 2,
+        "50": 1,
+        "55": 1,
+        "47": 1,
+        "45": 1,
+        "20": 1,
+        "57": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "toc_entry_offset": 56,
+      "packed_relative_offset": 596,
+      "packed_absolute_offset": 1165,
+      "raw_size": 259,
+      "packed_size": 107,
+      "decoded_size": 259,
+      "decoded_sha256": "41adb5ed0093d096399da5de654d3f2a5c9b3b43eefb57fed9dc26c083faf337",
+      "packed_sha256": "c7d9701675155038e6fbeb27cbd55f501102beb218bbcdfe9723c1ff95fa813d",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4131,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "07 57 41 52 52 49 4f 52 00 00 00 00 00 00 00 00 12 11 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0d 0c 0c 0b 0b 0e 0b 0b 00 00 03 07 00 33 00 00 00 e8 03 00 00 30 01 00 0c 32 19 00 02 04 00 01 00 06",
+      "tail_hex": "3f 00 00 00 99 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4c 39 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 7,
+          "text": "WARRIOR"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 7,
+          "text": "WARRIOR"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 196,
+        "0a": 12,
+        "01": 8,
+        "0b": 4,
+        "52": 3,
+        "0c": 3,
+        "02": 3,
+        "06": 3,
+        "07": 2,
+        "03": 2,
+        "32": 2,
+        "3f": 2,
+        "57": 1,
+        "41": 1,
+        "49": 1,
+        "4f": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "toc_entry_offset": 65,
+      "packed_relative_offset": 703,
+      "packed_absolute_offset": 1272,
+      "raw_size": 259,
+      "packed_size": 108,
+      "decoded_size": 259,
+      "decoded_sha256": "68e049242dc672ec9f280dcbab9037b3a30c8b409dcd1885474e04b17b925a98",
+      "packed_sha256": "459916c256abfe6bf3e5a35bf0bd2e4dbc3d92cc65c72c6f1f587222de6516f3",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.417,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0f 50 55 52 47 45 20 53 45 43 20 52 4f 42 4f 54 0a 12 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0e 0d 0d 0c 0c 0d 0a 0a 00 00 00 08 00 00 00 00 00 00 00 00 00 2f 01 00 18 3e 00 00 02 00 04 00 02 00",
+      "tail_hex": "3c 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 70 38 00 00 6b 38 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 15,
+          "text": "PURGE SEC ROBOT"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 15,
+          "text": "PURGE SEC ROBOT"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 201,
+        "0a": 8,
+        "01": 6,
+        "0d": 3,
+        "02": 3,
+        "52": 2,
+        "45": 2,
+        "20": 2,
+        "4f": 2,
+        "0c": 2,
+        "08": 2,
+        "3c": 2,
+        "38": 2,
+        "0f": 1,
+        "50": 1,
+        "55": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 9,
+      "toc_entry_offset": 74,
+      "packed_relative_offset": 811,
+      "packed_absolute_offset": 1380,
+      "raw_size": 259,
+      "packed_size": 84,
+      "decoded_size": 259,
+      "decoded_sha256": "e675c7072a101fc26f7f75fd8da72820bb4ceb20bdc0f3a6d21c5c22ff2d5106",
+      "packed_sha256": "f27fd75a9c16c6bb0f4964b8c678f4f711eb26d780e4b8c58889129faafee859",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3243,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "09 4f 52 47 20 53 4b 4f 52 50 00 00 00 00 00 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 00 08 00 00 00 00 00 00 00 00 00 2f 01 00 0f 3a 19 00 00 04 02 01 01 06",
+      "tail_hex": "38 00 00 00 a8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 77 39 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "\tORG SKORP"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 9,
+          "text": "ORG SKORP"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 202,
+        "0a": 14,
+        "01": 8,
+        "0d": 4,
+        "09": 2,
+        "4f": 2,
+        "52": 2,
+        "0f": 2,
+        "0e": 2,
+        "08": 2,
+        "02": 2,
+        "38": 2,
+        "47": 1,
+        "20": 1,
+        "53": 1,
+        "4b": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 10,
+      "toc_entry_offset": 83,
+      "packed_relative_offset": 895,
+      "packed_absolute_offset": 1464,
+      "raw_size": 259,
+      "packed_size": 87,
+      "decoded_size": 259,
+      "decoded_sha256": "7fec30965a8720c0c70eefd9b2f948129af0f19233f8f8f58b9bd8bbcc298724",
+      "packed_sha256": "f4187298128b88edb4f725a517a769186211211daa8fd8a2d3b88a55af7f8c5e",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3359,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "08 43 4f 59 4f 44 4f 52 47 00 00 00 00 00 00 00 0e 0f 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 00 07 00 00 00 00 00 00 00 00 00 31 03 00 12 38 19 00 00 04 02 01 02 04",
+      "tail_hex": "31 00 00 00 a8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 9a 39 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 8,
+          "text": "COYODORG"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 8,
+          "text": "COYODORG"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 201,
+        "0a": 13,
+        "01": 9,
+        "0d": 4,
+        "4f": 3,
+        "0e": 3,
+        "31": 3,
+        "0f": 2,
+        "04": 2,
+        "02": 2,
+        "08": 1,
+        "43": 1,
+        "59": 1,
+        "44": 1,
+        "52": 1,
+        "47": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 11,
+      "toc_entry_offset": 92,
+      "packed_relative_offset": 982,
+      "packed_absolute_offset": 1551,
+      "raw_size": 259,
+      "packed_size": 83,
+      "decoded_size": 259,
+      "decoded_sha256": "fec690cdf22d7ffd11e5e0087fe27e7734e6db40387a523b40647db4ea888805",
+      "packed_sha256": "09e078e1e912603c5df10a27b8bcaa7e658a90b4fe210728a53c9ae737c3183e",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3205,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "08 52 41 54 57 55 52 53 54 00 00 00 00 00 00 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 00 07 00 00 00 00 00 00 00 00 00 32 01 00 12 38 19 00 00 04 02 01 01 04",
+      "tail_hex": "34 00 00 00 9e 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 9c 39 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 8,
+          "text": "RATWURST"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 8,
+          "text": "RATWURST"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 203,
+        "0a": 15,
+        "01": 9,
+        "0d": 4,
+        "52": 2,
+        "54": 2,
+        "0e": 2,
+        "04": 2,
+        "34": 2,
+        "08": 1,
+        "41": 1,
+        "57": 1,
+        "55": 1,
+        "53": 1,
+        "0f": 1,
+        "10": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 12,
+      "toc_entry_offset": 101,
+      "packed_relative_offset": 1065,
+      "packed_absolute_offset": 1634,
+      "raw_size": 259,
+      "packed_size": 108,
+      "decoded_size": 259,
+      "decoded_sha256": "63cb70612b734ecb019252465768d06a7f63ae47e8a4e219921c9f9657f1ecf4",
+      "packed_sha256": "d00c475d63a29b95b724340b659d801d7580a2a2ea24ae00d2aa22e17ac8d03b",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.417,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0b 47 41 4e 47 20 4c 45 41 44 45 52 00 00 00 00 12 10 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 03 0b 00 79 00 00 00 00 00 00 00 32 01 00 0c 32 19 00 01 00 02 00 01 00",
+      "tail_hex": "4d 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a9 39 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 11,
+          "text": "GANG LEADER"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 11,
+          "text": "GANG LEADER"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 192,
+        "0a": 12,
+        "01": 8,
+        "0d": 5,
+        "05": 3,
+        "0b": 2,
+        "47": 2,
+        "41": 2,
+        "45": 2,
+        "10": 2,
+        "0e": 2,
+        "32": 2,
+        "0c": 2,
+        "4d": 2,
+        "3c": 2,
+        "08": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 13,
+      "toc_entry_offset": 110,
+      "packed_relative_offset": 1173,
+      "packed_absolute_offset": 1742,
+      "raw_size": 259,
+      "packed_size": 112,
+      "decoded_size": 259,
+      "decoded_sha256": "05185f25f4aebd48f88eb9ddb0371bbf683081163c4811515eca4f75c0d7e0b3",
+      "packed_sha256": "a61304adc44c9cc3898a66bc920fd782537c17649e2bc8a96c3dffefb1b47c43",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4324,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0c 47 41 4e 47 20 56 45 54 45 52 41 4e 00 00 00 12 10 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 03 08 00 19 00 00 00 e8 03 00 00 30 01 00 0c 32 19 00 01 00 02 00 01 00",
+      "tail_hex": "38 00 00 00 a8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 c6 39 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 12,
+          "text": "GANG VETERAN"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 12,
+          "text": "GANG VETERAN"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 190,
+        "0a": 12,
+        "01": 8,
+        "0d": 5,
+        "08": 4,
+        "02": 3,
+        "0c": 2,
+        "47": 2,
+        "41": 2,
+        "4e": 2,
+        "45": 2,
+        "10": 2,
+        "0e": 2,
+        "03": 2,
+        "19": 2,
+        "32": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 14,
+      "toc_entry_offset": 119,
+      "packed_relative_offset": 1285,
+      "packed_absolute_offset": 1854,
+      "raw_size": 259,
+      "packed_size": 109,
+      "decoded_size": 259,
+      "decoded_sha256": "0fe5ed2b1f7f24ae638a174cf16c9a16574993257f4a7e91fa22774cd08edd5e",
+      "packed_sha256": "46dd0fd1905ee20ba852b2cd054ccdb1c3aa7025214f22976290e610e26c3e9d",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4208,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0d 4c 55 4e 41 52 49 41 4e 20 57 41 52 52 00 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0f 0e 0d 0b 0e 0e 0e 00 00 03 08 00 51 00 00 00 e8 03 00 00 2f 01 00 0c 32 19 00 00 00 02 00 01 00",
+      "tail_hex": "38 00 00 00 a8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 56 38 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 13,
+          "text": "LUNARIAN WARR"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 13,
+          "text": "LUNARIAN WARR"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 189,
+        "0a": 15,
+        "01": 10,
+        "0e": 5,
+        "41": 3,
+        "52": 3,
+        "38": 3,
+        "0d": 2,
+        "4e": 2,
+        "0f": 2,
+        "03": 2,
+        "32": 2,
+        "02": 2,
+        "4c": 1,
+        "55": 1,
+        "49": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 15,
+      "toc_entry_offset": 128,
+      "packed_relative_offset": 1394,
+      "packed_absolute_offset": 1963,
+      "raw_size": 259,
+      "packed_size": 162,
+      "decoded_size": 259,
+      "decoded_sha256": "8e28fa83f993d9bec4613f2bb00fdced64d186b5ae31c589c337d04b9198ebe4",
+      "packed_sha256": "e87ab771a85188e699360715349d0db5ae10b2b5a7d1c012627113fe351d6307",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.6255,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0d 4c 55 4e 41 52 49 41 4e 20 57 41 52 52 00 00 0f 11 0e 11 0f 0d 10 0a 0a 0a 0a 0a 0a 0a 0f 0f 0e 0d 0b 0e 0e 0e 00 07 03 08 00 51 00 00 00 c2 f5 01 00 2f 01 00 0c 32 19 00 02 02 00 01 00 06",
+      "tail_hex": "38 00 00 00 a8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 76 38 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 13,
+          "text": "LUNARIAN WARR"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 13,
+          "text": "LUNARIAN WARR"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 173,
+        "0a": 10,
+        "01": 7,
+        "0e": 6,
+        "41": 4,
+        "0f": 4,
+        "0d": 3,
+        "4e": 3,
+        "52": 3,
+        "07": 3,
+        "0c": 3,
+        "02": 3,
+        "38": 3,
+        "4c": 2,
+        "49": 2,
+        "11": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 16,
+      "toc_entry_offset": 137,
+      "packed_relative_offset": 1556,
+      "packed_absolute_offset": 2125,
+      "raw_size": 259,
+      "packed_size": 107,
+      "decoded_size": 259,
+      "decoded_sha256": "992cbc2d573666880fb4f66d837cd3830f7d24d83d5408a6b37a223b0273426e",
+      "packed_sha256": "a7de65185ca926b126d192394edd242c2460724e6c4d802c571dd662e7820b41",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4131,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0f 4c 55 4e 41 52 49 41 4e 20 4c 45 41 44 45 52 0e 0d 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 03 0a 00 6b 00 00 00 00 00 00 00 31 01 00 0c 32 19 00 00 00 02 00 01 00",
+      "tail_hex": "46 00 00 00 ad 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 1f 37 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 15,
+          "text": "LUNARIAN LEADER"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 15,
+          "text": "LUNARIAN LEADER"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 189,
+        "0a": 13,
+        "01": 7,
+        "0d": 5,
+        "41": 4,
+        "0e": 3,
+        "23": 3,
+        "0f": 2,
+        "4c": 2,
+        "4e": 2,
+        "52": 2,
+        "45": 2,
+        "10": 2,
+        "32": 2,
+        "46": 2,
+        "08": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 17,
+      "toc_entry_offset": 146,
+      "packed_relative_offset": 1663,
+      "packed_absolute_offset": 2232,
+      "raw_size": 259,
+      "packed_size": 105,
+      "decoded_size": 259,
+      "decoded_sha256": "348c1c0c6d65ece37960bf46a7fc4f072ccad4743fb68bbaeb26ad8223049a6d",
+      "packed_sha256": "a4309e051a6e453163498177c185ccf23c7834d183b3a8eb89ceed5fb8165765",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4054,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0f 4c 55 4e 41 52 20 53 45 43 20 52 4f 42 4f 54 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 00 0f 00 00 00 00 00 00 00 00 00 35 01 00 0a 3f 19 00 00 00 04 00 02 00",
+      "tail_hex": "69 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 3a 00 00 23 3a 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 15,
+          "text": "LUNAR SEC ROBOT"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 15,
+          "text": "LUNAR SEC ROBOT"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 193,
+        "0a": 15,
+        "01": 6,
+        "0d": 4,
+        "0f": 3,
+        "52": 2,
+        "20": 2,
+        "4f": 2,
+        "0e": 2,
+        "02": 2,
+        "69": 2,
+        "23": 2,
+        "3a": 2,
+        "4c": 1,
+        "55": 1,
+        "4e": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 18,
+      "toc_entry_offset": 155,
+      "packed_relative_offset": 1768,
+      "packed_absolute_offset": 2337,
+      "raw_size": 259,
+      "packed_size": 96,
+      "decoded_size": 259,
+      "decoded_sha256": "b14e0fb547037857d0b4922d7abaf9ed59a91cdfcb97bbc5e68c6a619b5ddd7f",
+      "packed_sha256": "33a51c2fc900fa9f4a72d43b1a38f897521623a62273cfcffa8f9f02f6d9e810",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3707,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "09 43 41 52 4e 49 46 45 52 4e 00 00 00 00 00 00 0a 0a 0a 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 00 0d 00 00 00 00 00 00 00 00 00 33 04 00 06 38 19 00 00 08 00 02 00 06",
+      "tail_hex": "5b 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 49 38 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "\tCARNIFERN"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 9,
+          "text": "CARNIFERN"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 203,
+        "0a": 13,
+        "0d": 5,
+        "01": 5,
+        "06": 3,
+        "19": 3,
+        "52": 2,
+        "4e": 2,
+        "49": 2,
+        "0e": 2,
+        "38": 2,
+        "08": 2,
+        "5b": 2,
+        "09": 1,
+        "43": 1,
+        "41": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 19,
+      "toc_entry_offset": 164,
+      "packed_relative_offset": 1864,
+      "packed_absolute_offset": 2433,
+      "raw_size": 259,
+      "packed_size": 108,
+      "decoded_size": 259,
+      "decoded_sha256": "e3ccc0d620f07c7cc1847b4d74e1e11e5f2b271805fe6ca23fd2f53b67d14052",
+      "packed_sha256": "fe786b95a803a0f9e7ad24563d53600dd4f182f59ace0f08f1e067259afe011e",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.417,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0e 41 4d 41 4c 54 48 45 41 4e 20 57 41 52 52 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 03 0c 00 38 00 00 00 00 00 00 00 32 01 00 0c 32 19 00 00 00 02 00 01 00",
+      "tail_hex": "54 00 00 00 9e 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 46 3a 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 14,
+          "text": "AMALTHEAN WARR"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 14,
+          "text": "AMALTHEAN WARR"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 189,
+        "0a": 14,
+        "01": 10,
+        "41": 4,
+        "0d": 4,
+        "0e": 3,
+        "54": 3,
+        "32": 3,
+        "52": 2,
+        "03": 2,
+        "0c": 2,
+        "08": 2,
+        "4d": 1,
+        "4c": 1,
+        "48": 1,
+        "45": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 20,
+      "toc_entry_offset": 173,
+      "packed_relative_offset": 1972,
+      "packed_absolute_offset": 2541,
+      "raw_size": 259,
+      "packed_size": 107,
+      "decoded_size": 259,
+      "decoded_sha256": "f9e417423fa5cd66947a0544efe236543c4be1c20e8dc05bfdce4ef2d91f4e05",
+      "packed_sha256": "8bf55fe7be6952129696bc6ffac704afb13a64d0b9a97cd78de8bced7ed80b8f",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4131,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0e 41 4d 41 4c 54 48 45 41 4e 20 4c 45 41 44 00 0a 0e 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 03 0d 00 7d 00 00 00 00 00 00 00 33 01 00 0c 32 19 00 00 00 02 00 01 00",
+      "tail_hex": "5b 00 00 00 a8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 66 3a 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 14,
+          "text": "AMALTHEAN LEAD"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 14,
+          "text": "AMALTHEAN LEAD"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 189,
+        "0a": 13,
+        "01": 10,
+        "0d": 5,
+        "0e": 4,
+        "41": 4,
+        "03": 4,
+        "4c": 2,
+        "45": 2,
+        "5b": 2,
+        "4d": 1,
+        "54": 1,
+        "48": 1,
+        "4e": 1,
+        "20": 1,
+        "44": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 21,
+      "toc_entry_offset": 182,
+      "packed_relative_offset": 2079,
+      "packed_absolute_offset": 2648,
+      "raw_size": 259,
+      "packed_size": 105,
+      "decoded_size": 259,
+      "decoded_sha256": "60876ece6bd0150109c99db1156af42d9b5782327688641f04693df46533dc4d",
+      "packed_sha256": "f32e0c4a009ef0a97e8587b19adca95cf2063d07d23bf84a5ce2ce760aa3ecbf",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4054,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0e 41 4d 41 4c 54 48 20 53 45 43 20 42 4f 54 00 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 00 0d 00 00 00 00 00 00 00 00 00 32 04 00 12 3f 19 00 00 00 02 00 03 00",
+      "tail_hex": "5b 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a5 3a 00 00 a0 3a 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 14,
+          "text": "AMALTH SEC BOT"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 14,
+          "text": "AMALTH SEC BOT"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 194,
+        "0a": 14,
+        "0d": 5,
+        "01": 5,
+        "0e": 3,
+        "32": 3,
+        "41": 2,
+        "54": 2,
+        "20": 2,
+        "06": 2,
+        "5b": 2,
+        "3a": 2,
+        "4d": 1,
+        "4c": 1,
+        "48": 1,
+        "53": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 22,
+      "toc_entry_offset": 191,
+      "packed_relative_offset": 2184,
+      "packed_absolute_offset": 2753,
+      "raw_size": 259,
+      "packed_size": 95,
+      "decoded_size": 259,
+      "decoded_sha256": "6bb29a59916a292fe3dce220d373a05d246c8c1085fec5bb625ab4e5537ed4eb",
+      "packed_sha256": "9b546f90f3ba8c3b35abfe898840845faf0be601e644b415c4ae8788cc42756a",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3668,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0e 56 45 4e 55 53 20 44 49 4e 4f 53 41 55 52 00 11 10 13 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0a 0d 0d 10 0d 0d 00 00 00 0d 00 00 00 00 00 00 00 00 00 34 04 00 0f 38 19 00 01 04 02 01 04 0a",
+      "tail_hex": "5b 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ae 3a 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 14,
+          "text": "VENUS DINOSAUR"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 14,
+          "text": "VENUS DINOSAUR"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 193,
+        "0a": 13,
+        "01": 8,
+        "0d": 5,
+        "04": 4,
+        "0e": 2,
+        "4e": 2,
+        "55": 2,
+        "53": 2,
+        "10": 2,
+        "0f": 2,
+        "19": 2,
+        "5b": 2,
+        "56": 1,
+        "45": 1,
+        "20": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 23,
+      "toc_entry_offset": 200,
+      "packed_relative_offset": 2279,
+      "packed_absolute_offset": 2848,
+      "raw_size": 259,
+      "packed_size": 100,
+      "decoded_size": 259,
+      "decoded_sha256": "b1629f103b3cd5f4e854555a19550a0e39632df39b6c614d8ce20871a22a47cd",
+      "packed_sha256": "17b1ee0d0ecd03b475171f2141777cebd5d9bfab80a2240d03aaac534bd2c2d6",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3861,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0f 4c 4f 57 4c 41 4e 44 45 52 20 4d 49 4e 45 52 11 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0d 0a 0c 0a 0c 12 08 12 00 00 00 06 00 09 00 00 00 00 00 00 00 2e 01 00 10 36 19 00 00 00 02 00 01 00",
+      "tail_hex": "1c 00 00 00 9e 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 bb 3a 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 15,
+          "text": "LOWLANDER MINER"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 15,
+          "text": "LOWLANDER MINER"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 195,
+        "0a": 15,
+        "01": 8,
+        "4c": 2,
+        "4e": 2,
+        "45": 2,
+        "52": 2,
+        "0c": 2,
+        "12": 2,
+        "19": 2,
+        "02": 2,
+        "1c": 2,
+        "0f": 1,
+        "4f": 1,
+        "57": 1,
+        "41": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 24,
+      "toc_entry_offset": 209,
+      "packed_relative_offset": 2379,
+      "packed_absolute_offset": 2948,
+      "raw_size": 259,
+      "packed_size": 103,
+      "decoded_size": 259,
+      "decoded_sha256": "9fb87227719a19d9e3e63cfb1ef071cb755d03b09d88e931e66a27883895edf8",
+      "packed_sha256": "8b4ba3398a6ec8c140f9c1310205e101a2acedd26cd0491a0a5b9b4bc3204c9d",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3977,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0f 54 45 52 52 49 4e 45 20 57 41 52 52 49 4f 52 10 0e 0c 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0c 0b 0a 0a 0b 0f 0b 0b 00 00 03 07 00 00 00 00 00 00 00 00 00 32 01 00 0f 35 19 00 00 04 00 01 00 06",
+      "tail_hex": "26 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 15,
+          "text": "TERRINE WARRIOR"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 15,
+          "text": "TERRINE WARRIOR"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 193,
+        "0a": 13,
+        "01": 8,
+        "52": 5,
+        "0b": 4,
+        "0f": 3,
+        "09": 3,
+        "45": 2,
+        "49": 2,
+        "0c": 2,
+        "03": 2,
+        "32": 2,
+        "19": 2,
+        "26": 2,
+        "54": 1,
+        "4e": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 25,
+      "toc_entry_offset": 218,
+      "packed_relative_offset": 2482,
+      "packed_absolute_offset": 3051,
+      "raw_size": 259,
+      "packed_size": 74,
+      "decoded_size": 259,
+      "decoded_sha256": "9684c648af4730025ce9006d840dbbcacb6ec7742771aa4caefae8d476d81896",
+      "packed_sha256": "6107d3e8456d7af20d02b32fec2dc628f67b02264d1c95c9fe09534723761ecc",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.2857,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "09 4c 4f 57 4c 41 4e 44 45 52 00 00 00 00 00 00 11 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0d 0a 0c 0a 0c 12 08 12 00 00 00 06 00 00 00 00 00 00 00 00 00 2e 01 00 0c 36 19 00 00 00 02 00 01 00",
+      "tail_hex": "1c 00 00 00 a3 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "\tLOWLANDER"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 9,
+          "text": "LOWLANDER"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 208,
+        "0a": 15,
+        "01": 8,
+        "0c": 3,
+        "4c": 2,
+        "12": 2,
+        "02": 2,
+        "1c": 2,
+        "09": 1,
+        "4f": 1,
+        "57": 1,
+        "41": 1,
+        "4e": 1,
+        "44": 1,
+        "45": 1,
+        "52": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 26,
+      "toc_entry_offset": 227,
+      "packed_relative_offset": 2556,
+      "packed_absolute_offset": 3125,
+      "raw_size": 259,
+      "packed_size": 100,
+      "decoded_size": 259,
+      "decoded_sha256": "1292e0a058132c409dd7091e326edba4101041f58ac4c3b1c99fdd6460218981",
+      "packed_sha256": "59f3c2e69882d0e0c735b35f9768fc91658a68e79cb6cf3ce23cb379f9f209fb",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3861,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0d 44 45 53 45 52 54 20 52 55 4e 4e 45 52 00 00 10 10 0f 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0d 0e 0d 0c 0b 0e 10 09 00 00 03 06 00 00 00 00 00 00 00 00 00 2e 01 00 0f 34 19 00 01 00 02 00 01 00",
+      "tail_hex": "2a 00 00 00 a8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 13,
+          "text": "DESERT RUNNER"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 13,
+          "text": "DESERT RUNNER"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 195,
+        "0a": 11,
+        "01": 10,
+        "0d": 3,
+        "45": 3,
+        "52": 3,
+        "10": 3,
+        "05": 3,
+        "4e": 2,
+        "0f": 2,
+        "0e": 2,
+        "06": 2,
+        "2a": 2,
+        "44": 1,
+        "53": 1,
+        "54": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 27,
+      "toc_entry_offset": 236,
+      "packed_relative_offset": 2656,
+      "packed_absolute_offset": 3225,
+      "raw_size": 259,
+      "packed_size": 121,
+      "decoded_size": 259,
+      "decoded_sha256": "09c68757882e14899ff0b32e89a44b1142e499c2571ab5529857606ae486bfa2",
+      "packed_sha256": "df3e6e56348a6b5dddbbc9bda76feb76c58edf7ca7354c28e7e2435c35ff0cdf",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4672,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "09 4c 4f 57 4c 41 4e 44 45 52 00 00 00 00 00 00 13 0f 10 0f 11 10 10 0a 0a 0a 0a 0a 0a 0a 0d 0a 0c 0a 0c 12 08 12 00 08 04 06 00 00 00 00 00 2a 6c 00 00 2e 01 00 0c 36 19 00 00 02 00 01 00 02",
+      "tail_hex": "1c 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "\tLOWLANDER"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 9,
+          "text": "LOWLANDER"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 191,
+        "0a": 9,
+        "01": 7,
+        "10": 3,
+        "0c": 3,
+        "19": 3,
+        "4c": 2,
+        "44": 2,
+        "0f": 2,
+        "12": 2,
+        "08": 2,
+        "2a": 2,
+        "36": 2,
+        "02": 2,
+        "1c": 2,
+        "14": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 28,
+      "toc_entry_offset": 245,
+      "packed_relative_offset": 2777,
+      "packed_absolute_offset": 3346,
+      "raw_size": 259,
+      "packed_size": 138,
+      "decoded_size": 259,
+      "decoded_sha256": "83efcf66cf17d00f554abdc9442c49320ebac4de26d5ec2a5cf30fe5287898f8",
+      "packed_sha256": "224744e3bbd01768d8eb35449bd03a06ec4ac4c49c1b07eb3a174231f35e5207",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.5328,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0d 44 45 53 45 52 54 20 52 55 4e 4e 45 52 00 00 13 12 10 0f 11 0d 0c 0a 0a 0a 0a 0a 0a 0a 0c 0d 0c 0b 0a 0d 0f 09 00 06 03 06 00 00 00 00 00 c9 81 00 00 30 01 00 0f 34 19 00 02 04 00 01 00 06",
+      "tail_hex": "37 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 13,
+          "text": "DESERT RUNNER"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 13,
+          "text": "DESERT RUNNER"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 181,
+        "0a": 8,
+        "01": 8,
+        "0d": 4,
+        "45": 3,
+        "52": 3,
+        "0f": 3,
+        "0c": 3,
+        "06": 3,
+        "37": 3,
+        "05": 3,
+        "4e": 2,
+        "30": 2,
+        "23": 2,
+        "44": 1,
+        "53": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 29,
+      "toc_entry_offset": 254,
+      "packed_relative_offset": 2915,
+      "packed_absolute_offset": 3484,
+      "raw_size": 259,
+      "packed_size": 149,
+      "decoded_size": 259,
+      "decoded_sha256": "94705a6f1552b69953be9dd0cd4bf49307751407c961ea574db8a60b33251b05",
+      "packed_sha256": "379c5fcf4593284dba6486b1d59f1b4fb5d6dedd70d18a0d0043019bc8d8d2fb",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.5753,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0a 53 54 4f 52 4d 52 49 44 45 52 00 00 00 00 00 13 0e 12 0f 0e 0d 11 0a 0a 0a 0a 0a 0a 0a 0f 0a 0e 0b 0c 12 0d 0a 00 00 03 0a 00 11 00 00 00 92 4c 08 00 32 04 00 0f 3a 1d 00 00 00 02 00 01 00",
+      "tail_hex": "54 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff 36 00 00 fd 36 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 10,
+          "text": "STORMRIDER"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "STORMRIDER"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 180,
+        "0a": 11,
+        "0e": 6,
+        "01": 5,
+        "0d": 4,
+        "54": 3,
+        "52": 3,
+        "0f": 3,
+        "12": 2,
+        "11": 2,
+        "4c": 2,
+        "1d": 2,
+        "02": 2,
+        "41": 2,
+        "36": 2,
+        "53": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 30,
+      "toc_entry_offset": 263,
+      "packed_relative_offset": 3064,
+      "packed_absolute_offset": 3633,
+      "raw_size": 259,
+      "packed_size": 170,
+      "decoded_size": 259,
+      "decoded_sha256": "4bf90fb58c98cfe904168aef211cbca591f4a67522507603f754fea19be26de1",
+      "packed_sha256": "785190280374f5b4145c262489945d22e28ac1733ea5c23f0a8cf4e089cef21c",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.6564,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0b 4b 49 4c 4c 45 52 20 4b 41 4e 45 00 00 00 00 10 12 10 11 0c 10 0d 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 01 01 0c 00 e6 00 00 00 6d bc 06 00 30 01 00 0f 32 19 00 02 02 00 01 00 02",
+      "tail_hex": "35 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 37 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 11,
+          "text": "KILLER KANE"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 11,
+          "text": "KILLER KANE"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 175,
+        "01": 8,
+        "0a": 7,
+        "0d": 5,
+        "4b": 4,
+        "10": 4,
+        "02": 3,
+        "50": 3,
+        "4c": 2,
+        "45": 2,
+        "41": 2,
+        "0c": 2,
+        "0f": 2,
+        "0e": 2,
+        "19": 2,
+        "35": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 31,
+      "toc_entry_offset": 272,
+      "packed_relative_offset": 3234,
+      "packed_absolute_offset": 3803,
+      "raw_size": 259,
+      "packed_size": 106,
+      "decoded_size": 259,
+      "decoded_sha256": "b40170c8e2d11c50bdf373dd5d1cb25050c36618b82e49fd513ad5e80f302288",
+      "packed_sha256": "94fd084f061ecdcc07b21a3dde891ffc6566a5a9033ed928a35de088aea79115",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4093,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0e 44 52 2e 20 4a 2e 20 4d 41 4c 43 4f 4c 4e 00 10 13 0f 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0d 0b 0b 0b 0b 10 0a 0a 00 00 00 0c 00 79 00 00 00 00 00 00 00 34 01 00 0c 32 19 00 03 00 02 00 01 00",
+      "tail_hex": "78 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ef 3a 00 00 ec 3a 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 14,
+          "text": "DR. J. MALCOLN"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 14,
+          "text": "DR. J. MALCOLN"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 193,
+        "0a": 13,
+        "01": 7,
+        "0b": 4,
+        "2e": 2,
+        "20": 2,
+        "4c": 2,
+        "10": 2,
+        "0c": 2,
+        "78": 2,
+        "4b": 2,
+        "3a": 2,
+        "0e": 1,
+        "44": 1,
+        "52": 1,
+        "4a": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 32,
+      "toc_entry_offset": 281,
+      "packed_relative_offset": 3340,
+      "packed_absolute_offset": 3909,
+      "raw_size": 259,
+      "packed_size": 98,
+      "decoded_size": 259,
+      "decoded_sha256": "2532873f454cdfecd3711790b40d5e9532927767fe6918f1caad7aa1efea6c2d",
+      "packed_sha256": "3c4bda5d7db7d0e997d6315f1679c8f375b7b48b7f2ac6a311e0442499add263",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3784,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0b 53 54 41 47 45 20 35 20 45 43 47 00 00 00 00 10 14 10 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0d 0c 0d 0d 10 0b 0b 00 00 00 0e 00 00 00 00 00 00 00 00 00 34 04 00 18 39 19 00 03 04 02 02 06 06",
+      "tail_hex": "62 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3b 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 11,
+          "text": "STAGE 5 ECG"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 11,
+          "text": "STAGE 5 ECG"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 195,
+        "0a": 11,
+        "06": 5,
+        "01": 5,
+        "0b": 3,
+        "20": 3,
+        "10": 3,
+        "0d": 3,
+        "47": 2,
+        "45": 2,
+        "0c": 2,
+        "04": 2,
+        "02": 2,
+        "62": 2,
+        "32": 2,
+        "b2": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 33,
+      "toc_entry_offset": 290,
+      "packed_relative_offset": 3438,
+      "packed_absolute_offset": 4007,
+      "raw_size": 259,
+      "packed_size": 102,
+      "decoded_size": 259,
+      "decoded_sha256": "9b9644db50dae90d75fb6ce38d53f037db021dbc87f99146e5fd7b485f6acf61",
+      "packed_sha256": "304b8ae0d6f593c6bb3e4f69670cfac3061a867c0372bb3d960529523a66a13c",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3938,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0c 4d 45 52 2e 20 57 41 52 52 49 4f 52 00 00 00 0d 0f 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0d 0c 0c 0b 08 0d 07 0e 00 00 00 00 00 2e 00 00 00 00 00 00 00 2e 01 00 0c 32 00 00 00 00 02 00 01 00",
+      "tail_hex": "31 00 00 00 9e 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 19 3b 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 12,
+          "text": "MER. WARRIOR"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 12,
+          "text": "MER. WARRIOR"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 207,
+        "01": 8,
+        "0a": 5,
+        "0c": 4,
+        "52": 4,
+        "2e": 3,
+        "0d": 3,
+        "07": 2,
+        "32": 2,
+        "31": 2,
+        "4d": 1,
+        "45": 1,
+        "20": 1,
+        "57": 1,
+        "41": 1,
+        "49": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 35,
+      "toc_entry_offset": 299,
+      "packed_relative_offset": 3540,
+      "packed_absolute_offset": 4109,
+      "raw_size": 259,
+      "packed_size": 111,
+      "decoded_size": 259,
+      "decoded_sha256": "370e269006d6a0c7ff48429854ceb044984c45dd5c83d5d8e2f9b7e3eeb15894",
+      "packed_sha256": "f07e7804ee797462d9bafff1d8ac225617a1d7c7682af8ccc02419047eca6c49",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4286,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0f 4d 45 52 2e 20 48 2e 53 2e 20 52 4f 42 4f 54 0e 0e 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0d 0c 0c 0b 0b 0e 0b 0b 00 00 00 00 00 00 00 00 00 e8 03 00 00 2e 01 00 09 3b 01 00 00 00 04 00 01 00",
+      "tail_hex": "4d 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 09 37 00 00 04 37 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 15,
+          "text": "MER. H.S. ROBOT"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 15,
+          "text": "MER. H.S. ROBOT"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 200,
+        "01": 8,
+        "2e": 4,
+        "0a": 4,
+        "0b": 4,
+        "4d": 3,
+        "0e": 3,
+        "09": 3,
+        "52": 2,
+        "20": 2,
+        "4f": 2,
+        "03": 2,
+        "0c": 2,
+        "04": 2,
+        "37": 2,
+        "0f": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 36,
+      "toc_entry_offset": 308,
+      "packed_relative_offset": 3651,
+      "packed_absolute_offset": 4220,
+      "raw_size": 259,
+      "packed_size": 92,
+      "decoded_size": 259,
+      "decoded_sha256": "7d775b4c680869ea3f2ca74e9eb2b7c7f26a49b735c1d64d10d0e293d3f18eaf",
+      "packed_sha256": "afec024fe041b5e837e1a16866fb1db28392c309ee274d51258318b2f111069c",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3552,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "09 48 59 50 45 52 43 52 41 42 00 00 00 00 00 00 12 0f 00 03 00 00 00 00 00 00 00 00 00 00 0b 0a 09 09 0a 0e 0a 0a 00 00 00 00 00 00 00 00 00 00 00 00 00 2f 01 00 0f 38 00 00 00 04 00 01 00 04",
+      "tail_hex": "1c 00 00 00 a3 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3b 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "\tHYPERCRAB"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 9,
+          "text": "HYPERCRAB"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 215,
+        "01": 8,
+        "0a": 4,
+        "09": 3,
+        "52": 2,
+        "41": 2,
+        "0f": 2,
+        "04": 2,
+        "1c": 2,
+        "48": 1,
+        "59": 1,
+        "50": 1,
+        "45": 1,
+        "43": 1,
+        "42": 1,
+        "12": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 37,
+      "toc_entry_offset": 317,
+      "packed_relative_offset": 3743,
+      "packed_absolute_offset": 4312,
+      "raw_size": 259,
+      "packed_size": 92,
+      "decoded_size": 259,
+      "decoded_sha256": "368e802540ce3b12ccd3ad45402e93ad5931ed6b724856c4c7688259e277416f",
+      "packed_sha256": "1196d436bb94c5eca96eeef61a7385e15313fcaef8a4d67211df1c543b31f990",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3552,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0a 48 59 50 45 52 53 4e 41 4b 45 00 00 00 00 00 10 11 00 03 00 00 00 00 00 00 00 00 00 00 0b 0a 09 09 0a 0e 0a 0a 00 00 00 00 00 00 00 00 00 00 00 00 00 2d 01 00 18 34 00 00 02 02 00 01 00 0a",
+      "tail_hex": "20 00 00 00 ad 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 85 3b 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 10,
+          "text": "HYPERSNAKE"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "HYPERSNAKE"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 214,
+        "01": 8,
+        "0a": 6,
+        "45": 2,
+        "09": 2,
+        "02": 2,
+        "20": 2,
+        "32": 2,
+        "48": 1,
+        "59": 1,
+        "50": 1,
+        "52": 1,
+        "53": 1,
+        "4e": 1,
+        "41": 1,
+        "4b": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 38,
+      "toc_entry_offset": 326,
+      "packed_relative_offset": 3835,
+      "packed_absolute_offset": 4404,
+      "raw_size": 259,
+      "packed_size": 90,
+      "decoded_size": 259,
+      "decoded_sha256": "e8d19c2b293fcd35b8fcd7c1a098912cdabc8d8ad2e9076a6a55516e6c9bf434",
+      "packed_sha256": "a20fb759ec564192e46d8705de84d80aee1c839801b44dd249fb45aa92d36e39",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3475,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0a 54 45 43 48 4e 49 43 49 41 4e 00 00 00 00 00 11 11 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0c 0b 0b 0a 09 0f 0b 0b 00 00 03 00 00 42 00 00 00 00 00 00 00 34 01 00 0c 32 19 00 02 00 02 00 01 00",
+      "tail_hex": "37 00 00 00 a8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 52 38 00 00 50 38 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 10,
+          "text": "TECHNICIAN"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "TECHNICIAN"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 201,
+        "0a": 14,
+        "01": 7,
+        "0b": 4,
+        "43": 2,
+        "4e": 2,
+        "49": 2,
+        "11": 2,
+        "0c": 2,
+        "03": 2,
+        "02": 2,
+        "37": 2,
+        "38": 2,
+        "54": 1,
+        "45": 1,
+        "48": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 39,
+      "toc_entry_offset": 335,
+      "packed_relative_offset": 3925,
+      "packed_absolute_offset": 4494,
+      "raw_size": 259,
+      "packed_size": 104,
+      "decoded_size": 259,
+      "decoded_sha256": "25b3cae2ccd88020a1ac8ad3357ed6bb2bc58a7530fb627ddc6c6cd9c0344c92",
+      "packed_sha256": "df01f31e954448e2c03a96a0e8cc77c338fdfb6dd49f7369572b79d93d166a87",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4015,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0f 4c 47 2e 20 45 2e 43 2e 20 47 45 4e 4e 49 45 13 13 13 03 0a 0a 0a 00 00 00 00 00 00 00 0e 0d 0d 0c 0c 0f 0c 0c 00 00 00 00 00 00 00 00 00 00 00 00 00 2c 03 00 0f 3a 01 00 00 04 02 01 01 02",
+      "tail_hex": "23 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 8b 3b 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 15,
+          "text": "LG. E.C. GENNIE"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 15,
+          "text": "LG. E.C. GENNIE"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 200,
+        "01": 9,
+        "0c": 4,
+        "0f": 3,
+        "2e": 3,
+        "45": 3,
+        "13": 3,
+        "0a": 3,
+        "02": 3,
+        "47": 2,
+        "20": 2,
+        "4e": 2,
+        "03": 2,
+        "0d": 2,
+        "2c": 2,
+        "23": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 40,
+      "toc_entry_offset": 344,
+      "packed_relative_offset": 4029,
+      "packed_absolute_offset": 4598,
+      "raw_size": 259,
+      "packed_size": 93,
+      "decoded_size": 259,
+      "decoded_sha256": "a679972bb5ef2cf4d564b8618b76b49735635de6a7390bfb408929caa2dd3d53",
+      "packed_sha256": "630be4044e4eef8145c478ddfbc273518c4c0e2e0669a383dad0ea41a9101fe0",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3591,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0a 53 41 4e 44 20 53 51 55 49 44 00 00 00 00 00 0e 16 00 03 00 00 00 00 00 00 00 00 00 00 0d 0c 0c 0b 0b 0e 0b 0b 00 00 00 00 00 00 00 00 00 00 00 00 00 2d 03 00 12 33 00 00 00 04 02 01 01 04",
+      "tail_hex": "24 00 00 00 9e 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 8f 3b 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 10,
+          "text": "SAND SQUID"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "SAND SQUID"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 212,
+        "01": 7,
+        "0b": 4,
+        "02": 3,
+        "53": 2,
+        "44": 2,
+        "55": 2,
+        "0e": 2,
+        "03": 2,
+        "0c": 2,
+        "04": 2,
+        "24": 2,
+        "0a": 1,
+        "41": 1,
+        "4e": 1,
+        "20": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 41,
+      "toc_entry_offset": 353,
+      "packed_relative_offset": 4122,
+      "packed_absolute_offset": 4691,
+      "raw_size": 259,
+      "packed_size": 91,
+      "decoded_size": 259,
+      "decoded_sha256": "f9d2aa94359c0e4a619358b57654c58f9e08c03b68b1540929620aa5f863030d",
+      "packed_sha256": "31f02fb001275e5f281e4aff64f7e37245e7f96d8c65cf99fa6da6093d9c1d4b",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3514,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "08 55 52 53 41 44 44 45 52 00 00 00 00 00 00 00 0f 11 00 03 00 00 00 00 00 00 00 00 00 00 0e 0d 0d 0c 0c 0f 06 12 00 00 00 00 00 00 00 00 00 00 00 00 00 30 01 00 0f 38 00 00 02 04 00 01 00 08",
+      "tail_hex": "26 00 00 00 a3 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 93 3b 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 8,
+          "text": "URSADDER"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 8,
+          "text": "URSADDER"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 216,
+        "01": 8,
+        "0f": 3,
+        "08": 2,
+        "52": 2,
+        "44": 2,
+        "0d": 2,
+        "0c": 2,
+        "26": 2,
+        "55": 1,
+        "53": 1,
+        "41": 1,
+        "45": 1,
+        "11": 1,
+        "03": 1,
+        "0e": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 42,
+      "toc_entry_offset": 362,
+      "packed_relative_offset": 4213,
+      "packed_absolute_offset": 4782,
+      "raw_size": 259,
+      "packed_size": 94,
+      "decoded_size": 259,
+      "decoded_sha256": "5cccb4483697578ba5b8a8e930dbd58524703b5b8c27f19a4cdb8dd57cf41ee1",
+      "packed_sha256": "538fda211814fb7cccea83ce8303257cfbd779381fb51bfe58ec4489eebd97e6",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3629,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "09 41 43 49 44 20 46 52 4f 47 00 00 00 00 00 00 0e 0f 00 03 00 00 00 00 00 00 00 00 00 00 0d 0c 0c 0b 0b 0e 05 11 00 00 00 00 00 00 00 00 00 00 00 00 00 2d 03 00 09 37 00 00 00 02 00 01 00 0a",
+      "tail_hex": "24 00 00 00 a3 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 98 3b 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "\tACID FROG"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 9,
+          "text": "ACID FROG"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 215,
+        "01": 6,
+        "09": 2,
+        "0e": 2,
+        "03": 2,
+        "0c": 2,
+        "0b": 2,
+        "02": 2,
+        "24": 2,
+        "28": 2,
+        "41": 1,
+        "43": 1,
+        "49": 1,
+        "44": 1,
+        "20": 1,
+        "46": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 43,
+      "toc_entry_offset": 371,
+      "packed_relative_offset": 4307,
+      "packed_absolute_offset": 4876,
+      "raw_size": 259,
+      "packed_size": 116,
+      "decoded_size": 259,
+      "decoded_sha256": "ca00229f3bc18bc73ff0c206fabbbf8d93140658db3a3fdffc31212a21953b05",
+      "packed_sha256": "095c52827ba7262e2f0fce50c997d6b97dde7ee580763b4ca812d6e1c23bdf1c",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4479,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0e 50 49 52 41 54 45 20 57 41 52 52 49 4f 52 00 11 11 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0d 0c 0c 0d 0b 0e 0b 0b 00 00 03 06 00 20 00 00 00 e8 03 00 00 30 01 00 0c 32 11 00 02 04 00 01 00 06",
+      "tail_hex": "2e 00 00 00 ad 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 56 38 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 14,
+          "text": "PIRATE WARRIOR"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 14,
+          "text": "PIRATE WARRIOR"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 195,
+        "01": 9,
+        "0a": 5,
+        "52": 4,
+        "0c": 4,
+        "11": 3,
+        "0b": 3,
+        "32": 3,
+        "0e": 2,
+        "49": 2,
+        "41": 2,
+        "20": 2,
+        "0d": 2,
+        "03": 2,
+        "06": 2,
+        "02": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 44,
+      "toc_entry_offset": 380,
+      "packed_relative_offset": 4423,
+      "packed_absolute_offset": 4992,
+      "raw_size": 259,
+      "packed_size": 123,
+      "decoded_size": 259,
+      "decoded_sha256": "5dd9b782f48093ce50c08952c45ddfb734da843ecaaecbccdbe07c7d10f77322",
+      "packed_sha256": "61e95b2ee86d1469c84dc9a303c7214bf83476d95dd334c6bcd4b64d1fd9447e",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4749,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0d 50 49 52 41 54 45 20 4c 45 41 44 45 52 00 00 12 12 11 0a 0a 0a 0a 00 00 00 00 00 00 00 0c 0d 0b 0a 0a 0d 0b 0a 00 00 03 09 00 58 00 00 00 e8 03 00 00 32 01 00 0c 32 0a 00 02 00 04 00 01 00",
+      "tail_hex": "3a 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d1 3b 00 00 d0 3b 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 13,
+          "text": "PIRATE LEADER"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 13,
+          "text": "PIRATE LEADER"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 193,
+        "0a": 8,
+        "01": 8,
+        "0d": 3,
+        "41": 3,
+        "45": 3,
+        "32": 3,
+        "02": 3,
+        "06": 3,
+        "52": 2,
+        "12": 2,
+        "0c": 2,
+        "0b": 2,
+        "03": 2,
+        "04": 2,
+        "3a": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 45,
+      "toc_entry_offset": 389,
+      "packed_relative_offset": 4546,
+      "packed_absolute_offset": 5115,
+      "raw_size": 259,
+      "packed_size": 102,
+      "decoded_size": 259,
+      "decoded_sha256": "09ffdcd04005b97086435bb26209df92583d2700931659b0a877bf128a5c2728",
+      "packed_sha256": "0485bf4d6e224dc49f10dddb5a0a07be2bae1e836b0470e6a3e80367f1d59cb2",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3938,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0f 50 49 52 2e 20 43 4f 4d 2e 20 52 4f 42 4f 54 10 11 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0d 0c 0c 0b 0b 0e 0b 0b 00 00 00 00 00 00 00 00 00 00 00 00 00 32 01 00 12 3a 00 00 02 00 04 00 01 00",
+      "tail_hex": "4a 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ff 3b 00 00 f8 3b 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 15,
+          "text": "PIR. COM. ROBOT"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 15,
+          "text": "PIR. COM. ROBOT"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 202,
+        "01": 8,
+        "0a": 5,
+        "0b": 4,
+        "4f": 3,
+        "52": 2,
+        "2e": 2,
+        "20": 2,
+        "0c": 2,
+        "0e": 2,
+        "4a": 2,
+        "3b": 2,
+        "0f": 1,
+        "50": 1,
+        "49": 1,
+        "43": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 46,
+      "toc_entry_offset": 398,
+      "packed_relative_offset": 4648,
+      "packed_absolute_offset": 5217,
+      "raw_size": 259,
+      "packed_size": 117,
+      "decoded_size": 259,
+      "decoded_sha256": "bd0f612eb07606038029c8319aa52ae26901cc624e9542252e9cbb56253c6704",
+      "packed_sha256": "3c0d59af2d58875d57f192a1ed1e0ca8ba2afc1352a365172cdaf5ddb4203d67",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4517,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0c 52 41 4d 20 41 53 53 41 53 53 49 4e 00 00 00 0d 10 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0c 0c 0c 0b 08 0d 07 0e 00 00 03 07 00 2d 00 00 00 e8 03 00 00 30 01 00 0d 32 0a 00 01 00 02 00 01 00",
+      "tail_hex": "39 00 00 00 99 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 2c 3c 00 00 29 3c 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 12,
+          "text": "RAM ASSASSIN"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 12,
+          "text": "RAM ASSASSIN"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 196,
+        "01": 9,
+        "0a": 6,
+        "0c": 4,
+        "53": 4,
+        "02": 4,
+        "41": 3,
+        "0d": 3,
+        "3c": 3,
+        "07": 2,
+        "03": 2,
+        "39": 2,
+        "4b": 2,
+        "52": 1,
+        "4d": 1,
+        "20": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 47,
+      "toc_entry_offset": 407,
+      "packed_relative_offset": 4765,
+      "packed_absolute_offset": 5334,
+      "raw_size": 259,
+      "packed_size": 101,
+      "decoded_size": 259,
+      "decoded_sha256": "c6ca149addba93fb741573d19b55d7da0a35e0b5c82b3ebad9b988411bbfa78f",
+      "packed_sha256": "93eb1cde32ec004ac4465db4fe273831022848dae18f0e01648c35df415e5abb",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.39,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0f 52 41 4d 20 47 2e 44 2e 20 47 45 4e 4e 49 45 12 10 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0b 05 09 09 0a 0e 0a 0a 00 00 00 00 00 00 00 00 00 00 00 00 00 31 03 00 0f 38 01 00 00 04 02 01 01 06",
+      "tail_hex": "37 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3a 3c 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 15,
+          "text": "RAM G.D. GENNIE"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 15,
+          "text": "RAM G.D. GENNIE"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 200,
+        "01": 9,
+        "0a": 7,
+        "0f": 3,
+        "02": 3,
+        "41": 2,
+        "20": 2,
+        "47": 2,
+        "2e": 2,
+        "45": 2,
+        "4e": 2,
+        "10": 2,
+        "03": 2,
+        "09": 2,
+        "37": 2,
+        "52": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 48,
+      "toc_entry_offset": 416,
+      "packed_relative_offset": 4866,
+      "packed_absolute_offset": 5435,
+      "raw_size": 259,
+      "packed_size": 107,
+      "decoded_size": 259,
+      "decoded_sha256": "ef455a860db59ba7b12972f771654dae8c1b64c95ebbe2b2dcead13943009884",
+      "packed_sha256": "003fab0cbac5d905f53a97e19b5877d8fc8fc9a85c1f26de14a2630288370786",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4131,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0d 41 53 53 41 55 4c 54 20 52 4f 42 4f 54 00 00 12 11 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0a 05 0a 0a 0a 03 05 08 00 00 00 00 00 00 00 00 00 64 00 00 00 31 03 00 09 41 01 00 02 04 00 01 00 08",
+      "tail_hex": "5b 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4e 3c 00 00 49 3c 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 13,
+          "text": "ASSAULT ROBOT"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 13,
+          "text": "ASSAULT ROBOT"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 202,
+        "0a": 8,
+        "01": 7,
+        "03": 4,
+        "41": 3,
+        "05": 3,
+        "53": 2,
+        "54": 2,
+        "4f": 2,
+        "08": 2,
+        "64": 2,
+        "04": 2,
+        "5b": 2,
+        "3c": 2,
+        "0d": 1,
+        "55": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 49,
+      "toc_entry_offset": 425,
+      "packed_relative_offset": 4973,
+      "packed_absolute_offset": 5542,
+      "raw_size": 259,
+      "packed_size": 101,
+      "decoded_size": 259,
+      "decoded_sha256": "33ddcf191589a097bb1c4dd349b0af59d547f0a073e5945308c0cf331b219cf7",
+      "packed_sha256": "e7a07b89c6dd6f7d939f89651603b4aaaf0c68afc75605f644903c5a616ac98d",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.39,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0c 43 4f 4d 42 41 54 20 52 4f 42 4f 54 00 00 00 10 10 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0c 0b 0b 0a 0a 0d 0a 0a 00 00 00 00 00 00 00 00 00 0a 00 00 00 31 03 00 09 42 01 00 00 04 00 01 00 08",
+      "tail_hex": "6c 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3a 37 00 00 35 37 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 12,
+          "text": "COMBAT ROBOT"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 12,
+          "text": "COMBAT ROBOT"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 206,
+        "0a": 9,
+        "01": 7,
+        "4f": 3,
+        "42": 3,
+        "0c": 2,
+        "54": 2,
+        "10": 2,
+        "03": 2,
+        "0b": 2,
+        "04": 2,
+        "6c": 2,
+        "37": 2,
+        "43": 1,
+        "4d": 1,
+        "41": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 50,
+      "toc_entry_offset": 434,
+      "packed_relative_offset": 5074,
+      "packed_absolute_offset": 5643,
+      "raw_size": 259,
+      "packed_size": 103,
+      "decoded_size": 259,
+      "decoded_sha256": "6df9c03e35b846f66ac855d694eca0303a1f7374c3928338cd9d835decbb9c15",
+      "packed_sha256": "45fbe13d9e75d097faa73f34aeb9aef65347b6fe9e16ad604282fe70ab3755a5",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3977,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0e 53 45 43 55 52 49 54 59 20 52 4f 42 4f 54 00 10 10 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0d 0c 0c 0b 0b 0c 09 09 00 00 00 00 00 00 00 00 00 0a 00 00 00 2e 01 00 0c 3c 01 00 01 04 00 01 00 06",
+      "tail_hex": "28 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a3 3c 00 00 9e 3c 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 14,
+          "text": "SECURITY ROBOT"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 14,
+          "text": "SECURITY ROBOT"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 202,
+        "01": 11,
+        "0a": 5,
+        "0c": 4,
+        "3c": 3,
+        "55": 2,
+        "52": 2,
+        "54": 2,
+        "4f": 2,
+        "10": 2,
+        "0b": 2,
+        "09": 2,
+        "28": 2,
+        "0e": 1,
+        "53": 1,
+        "45": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 51,
+      "toc_entry_offset": 443,
+      "packed_relative_offset": 5177,
+      "packed_absolute_offset": 5746,
+      "raw_size": 259,
+      "packed_size": 106,
+      "decoded_size": 259,
+      "decoded_sha256": "665774df006c2518163dedf4a6872db45ae65d7ab295393e38dc12c87cd52089",
+      "packed_sha256": "54817865b83c8b38713968930659792403c7f2d1f5563e0daaff32beca274bd9",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4093,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0d 44 45 46 45 4e 53 45 20 52 4f 42 4f 54 00 00 10 10 0a 03 0a 0a 0a 00 00 00 00 00 00 00 0c 0b 0b 0a 0a 0d 0a 0a 00 00 00 00 00 00 00 00 00 e8 03 00 00 2e 01 00 0b 3a 01 00 01 04 00 01 00 06",
+      "tail_hex": "33 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 c9 3c 00 00 c4 3c 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 13,
+          "text": "DEFENSE ROBOT"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 13,
+          "text": "DEFENSE ROBOT"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 202,
+        "01": 10,
+        "0a": 8,
+        "45": 3,
+        "0b": 3,
+        "0d": 2,
+        "4f": 2,
+        "10": 2,
+        "03": 2,
+        "33": 2,
+        "3c": 2,
+        "44": 1,
+        "46": 1,
+        "4e": 1,
+        "53": 1,
+        "20": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 52,
+      "toc_entry_offset": 452,
+      "packed_relative_offset": 5283,
+      "packed_absolute_offset": 5852,
+      "raw_size": 259,
+      "packed_size": 114,
+      "decoded_size": 259,
+      "decoded_sha256": "9efd4250c56c9084be820cbf04dbc86973e447e821c97791ea9870631c24932c",
+      "packed_sha256": "9dfeb863d336b13fa92cf6ff70a8706d2d8b2102b02c42215fb3ae9c5f6b7ca1",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4402,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0b 52 41 4d 20 57 41 52 52 49 4f 52 00 00 00 00 12 11 0a 0a 0a 0a 0a 00 00 00 00 00 00 00 0f 0d 0d 0c 0b 0e 0d 0b 00 00 03 06 00 43 00 00 00 00 00 00 00 30 01 00 0c 32 00 00 02 04 00 01 00 06",
+      "tail_hex": "2f 00 00 00 9e 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ef 3c 00 00 ee 3c 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 11,
+          "text": "RAM WARRIOR"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 11,
+          "text": "RAM WARRIOR"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 199,
+        "01": 8,
+        "0b": 6,
+        "0a": 5,
+        "52": 4,
+        "0d": 3,
+        "41": 2,
+        "0c": 2,
+        "06": 2,
+        "32": 2,
+        "02": 2,
+        "2f": 2,
+        "1e": 2,
+        "3c": 2,
+        "4d": 1,
+        "20": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 53,
+      "toc_entry_offset": 461,
+      "packed_relative_offset": 5397,
+      "packed_absolute_offset": 5966,
+      "raw_size": 259,
+      "packed_size": 104,
+      "decoded_size": 259,
+      "decoded_sha256": "e6c00257d2481f577494d02fe1ac7e0a0dcf599bd90c77ec9902edffb050a26f",
+      "packed_sha256": "6732e38e7932e1198840d3d91eb6819a06db49cdb84a1f69e9613a7fb314f109",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4015,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0a 54 45 43 48 4e 49 43 49 41 4e 00 00 00 00 00 0c 12 0a 0d 0a 0a 13 00 00 00 00 00 00 00 0e 0c 0c 0b 0a 0d 0c 0a 00 00 00 00 00 40 00 00 00 64 00 00 00 2c 01 00 0c 32 01 00 02 02 00 01 00 06",
+      "tail_hex": "20 00 00 00 94 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0b 3d 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 10,
+          "text": "TECHNICIAN"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "TECHNICIAN"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 207,
+        "01": 9,
+        "0a": 6,
+        "0c": 5,
+        "43": 2,
+        "4e": 2,
+        "49": 2,
+        "0d": 2,
+        "0b": 2,
+        "2c": 2,
+        "02": 2,
+        "20": 2,
+        "54": 1,
+        "45": 1,
+        "48": 1,
+        "41": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 54,
+      "toc_entry_offset": 470,
+      "packed_relative_offset": 5501,
+      "packed_absolute_offset": 6070,
+      "raw_size": 259,
+      "packed_size": 121,
+      "decoded_size": 259,
+      "decoded_sha256": "b6dc1770603eae8070db39e9dd1b675316565a2a7a3f14f45895dea48af4495b",
+      "packed_sha256": "5cd53f49a82e209d0a00f8e964d6a7d512dda09a7ef1fa6e081114712168ffe0",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4672,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0f 52 41 4d 20 43 42 54 2e 20 47 45 4e 4e 49 45 12 12 12 0a 0a 0a 0a 00 00 00 00 00 00 00 0a 09 08 08 09 0d 09 09 00 00 03 09 00 15 00 00 00 e8 03 00 00 32 01 00 11 32 02 00 02 04 00 02 00 08",
+      "tail_hex": "42 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 27 3d 00 00 25 3d 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 15,
+          "text": "RAM CBT. GENNIE"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 15,
+          "text": "RAM CBT. GENNIE"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 191,
+        "01": 6,
+        "0a": 5,
+        "09": 5,
+        "08": 5,
+        "02": 4,
+        "42": 3,
+        "4e": 3,
+        "12": 3,
+        "03": 3,
+        "52": 2,
+        "20": 2,
+        "45": 2,
+        "32": 2,
+        "06": 2,
+        "3d": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 55,
+      "toc_entry_offset": 479,
+      "packed_relative_offset": 5622,
+      "packed_absolute_offset": 6191,
+      "raw_size": 259,
+      "packed_size": 144,
+      "decoded_size": 259,
+      "decoded_sha256": "8297a72c8bec5a63ab6ee557c97759936fbed0eab0fc8ae1a2d1f6c88af95e68",
+      "packed_sha256": "85356bf4fff9462c3514fdc150119e9b0a010839b7bb4a596fe2ce9ce82c0966",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.556,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "07 4c 45 41 4e 44 45 52 00 00 00 00 00 00 00 00 11 0e 0e 11 11 0c 16 00 00 00 00 00 00 00 0a 08 0a 08 0a 12 05 11 00 08 03 08 00 8b 0c 00 00 5d 70 00 00 2f 01 00 0c 36 20 00 00 02 00 01 00 03",
+      "tail_hex": "2e 00 00 00 ad 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 fb 36 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 7,
+          "text": "LEANDER"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 7,
+          "text": "LEANDER"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 192,
+        "01": 7,
+        "11": 4,
+        "0c": 4,
+        "0a": 4,
+        "08": 4,
+        "07": 3,
+        "45": 2,
+        "0e": 2,
+        "03": 2,
+        "36": 2,
+        "02": 2,
+        "2e": 2,
+        "0f": 2,
+        "0d": 2,
+        "4c": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 56,
+      "toc_entry_offset": 488,
+      "packed_relative_offset": 5766,
+      "packed_absolute_offset": 6335,
+      "raw_size": 259,
+      "packed_size": 125,
+      "decoded_size": 259,
+      "decoded_sha256": "48bb8f8f410633335e7ac4f0039d7a9d0a7ee266f9516ce25c91e827503215e1",
+      "packed_sha256": "48c1416df3315db23dcd591a54bf0c831b43e743fc2c662cc605013d06138bd2",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4826,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "04 5a 41 4e 45 00 00 00 00 00 00 00 00 00 00 00 04 0c 06 0c 04 12 01 00 00 00 00 00 00 00 0c 0a 0c 0a 0c 13 07 13 00 08 05 01 00 03 00 00 00 87 00 00 00 2a 01 00 0a 36 05 00 00 02 00 01 00 03",
+      "tail_hex": "08 00 00 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0a 37 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 4,
+          "text": "ZANE"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 4,
+          "text": "ZANE"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 206,
+        "01": 8,
+        "0c": 6,
+        "0a": 6,
+        "03": 4,
+        "04": 3,
+        "08": 3,
+        "05": 3,
+        "02": 3,
+        "13": 2,
+        "5a": 1,
+        "41": 1,
+        "4e": 1,
+        "45": 1,
+        "06": 1,
+        "12": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 57,
+      "toc_entry_offset": 497,
+      "packed_relative_offset": 5891,
+      "packed_absolute_offset": 6460,
+      "raw_size": 259,
+      "packed_size": 168,
+      "decoded_size": 259,
+      "decoded_sha256": "3e314572b015dce16470bff6a778d3af9bb406c98966832c31368f76062c2944",
+      "packed_sha256": "8ad03e538bbf0ef4e7fc91f32614170c55b87bd084cdaeb04eb3c275322c4730",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.6486,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0b 42 55 43 4b 20 52 4f 47 45 52 53 00 00 00 00 11 12 0f 0e 0d 15 0a 0a 0a 0a 0a 0a 0a 0a 06 06 06 05 05 08 05 05 00 01 01 0c 00 36 06 00 00 2e 94 03 00 2e 01 00 0c 32 20 00 02 02 00 01 00 02",
+      "tail_hex": "3f 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0b 37 00 00 03 37 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 11,
+          "text": "BUCK ROGERS"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 11,
+          "text": "BUCK ROGERS"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 167,
+        "0a": 8,
+        "01": 8,
+        "06": 4,
+        "05": 4,
+        "14": 4,
+        "4b": 3,
+        "02": 3,
+        "2d": 3,
+        "19": 3,
+        "0b": 2,
+        "20": 2,
+        "52": 2,
+        "4f": 2,
+        "45": 2,
+        "0e": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 58,
+      "toc_entry_offset": 506,
+      "packed_relative_offset": 6059,
+      "packed_absolute_offset": 6628,
+      "raw_size": 259,
+      "packed_size": 109,
+      "decoded_size": 259,
+      "decoded_sha256": "9baa97855aaa73200d6f595909820a1e3179f163e06ac5a52932464a8a1cf3a6",
+      "packed_sha256": "49e40e2322273c3349d5c72585598a9431fb4bcae9e675ead7e7fec4fceaf6c4",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4208,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0b 47 41 4e 47 20 4d 45 4d 42 45 52 00 00 00 00 0e 0c 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 03 07 00 00 00 00 00 e8 03 00 00 2e 01 00 0c 32 19 00 00 00 02 00 01 00",
+      "tail_hex": "31 00 00 00 a3 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 81 3d 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 11,
+          "text": "GANG MEMBER"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 11,
+          "text": "GANG MEMBER"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 194,
+        "0a": 12,
+        "01": 8,
+        "0d": 4,
+        "0e": 3,
+        "02": 3,
+        "47": 2,
+        "4d": 2,
+        "45": 2,
+        "0c": 2,
+        "03": 2,
+        "32": 2,
+        "31": 2,
+        "0b": 1,
+        "41": 1,
+        "4e": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 59,
+      "toc_entry_offset": 515,
+      "packed_relative_offset": 6168,
+      "packed_absolute_offset": 6737,
+      "raw_size": 259,
+      "packed_size": 107,
+      "decoded_size": 259,
+      "decoded_sha256": "bafef1a4a0a4a54b79f270e68709fc37237ef8d7a0feedb52fae18847021e929",
+      "packed_sha256": "d3eb63fa8d7981795deb5971740225921b65cd7efee4feaf652fe5a4ffbc6236",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4131,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0c 47 41 4e 47 20 52 45 43 52 55 49 54 00 00 00 0c 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 03 06 00 00 00 00 00 e8 03 00 00 2d 01 00 0c 32 19 00 00 00 02 00 01 00",
+      "tail_hex": "2b 00 00 00 99 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a5 3d 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 12,
+          "text": "GANG RECRUIT"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 12,
+          "text": "GANG RECRUIT"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 194,
+        "0a": 13,
+        "01": 8,
+        "0d": 4,
+        "0c": 3,
+        "02": 3,
+        "47": 2,
+        "52": 2,
+        "0e": 2,
+        "03": 2,
+        "06": 2,
+        "19": 2,
+        "2b": 2,
+        "1e": 2,
+        "41": 1,
+        "4e": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 60,
+      "toc_entry_offset": 524,
+      "packed_relative_offset": 6275,
+      "packed_absolute_offset": 6844,
+      "raw_size": 259,
+      "packed_size": 144,
+      "decoded_size": 259,
+      "decoded_sha256": "409db6ce5f3519a00f713a09b3313deb5267f8e08f596545f1496d7fd80010fc",
+      "packed_sha256": "fd2bc6de3bf579df43c9d497313f3b6540c12301ab6ab25b130e4e358164537f",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.556,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0c 44 2e 52 2e 20 57 41 52 52 49 4f 52 00 00 00 13 11 11 0e 0e 0c 0d 00 00 00 00 00 00 00 0b 0c 0b 0a 09 0c 0e 08 00 06 03 07 00 2d 00 00 00 1e 37 01 00 30 01 00 0f 34 1f 00 02 04 00 01 00 06",
+      "tail_hex": "3a 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 51 37 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 12,
+          "text": "D.R. WARRIOR"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 12,
+          "text": "D.R. WARRIOR"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 186,
+        "01": 9,
+        "0c": 4,
+        "52": 4,
+        "2e": 3,
+        "0e": 3,
+        "3a": 3,
+        "05": 3,
+        "41": 2,
+        "49": 2,
+        "11": 2,
+        "0b": 2,
+        "06": 2,
+        "37": 2,
+        "0f": 2,
+        "35": 2
+      },
+      "warnings": []
+    },
+    {
+      "id": 61,
+      "toc_entry_offset": 533,
+      "packed_relative_offset": 6419,
+      "packed_absolute_offset": 6988,
+      "raw_size": 259,
+      "packed_size": 113,
+      "decoded_size": 259,
+      "decoded_sha256": "73e3f9f566b2854a3b8c38bd9e93e4842aa920c536e71ba92b3991c7b80fa6a5",
+      "packed_sha256": "d5fe70f5d6049ee05508bca15771a454ef422c7f504b8088bcab2ae8102e0433",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.4363,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0b 4c 4c 2e 20 57 41 52 52 49 4f 52 00 00 00 00 11 0e 10 0a 0a 0a 0a 00 00 00 00 00 00 00 0d 0a 0c 0a 0c 12 08 12 00 08 03 06 00 34 00 00 00 01 00 00 00 2e 01 00 0c 32 01 00 00 04 00 01 00 06",
+      "tail_hex": "2a 00 00 00 ad 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 e1 3d 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 11,
+          "text": "LL. WARRIOR"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 11,
+          "text": "LL. WARRIOR"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 199,
+        "01": 12,
+        "0a": 6,
+        "52": 3,
+        "0c": 3,
+        "13": 3,
+        "4c": 2,
+        "2e": 2,
+        "12": 2,
+        "08": 2,
+        "06": 2,
+        "2a": 2,
+        "0b": 1,
+        "20": 1,
+        "57": 1,
+        "41": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 62,
+      "toc_entry_offset": 542,
+      "packed_relative_offset": 6532,
+      "packed_absolute_offset": 7101,
+      "raw_size": 259,
+      "packed_size": 155,
+      "decoded_size": 259,
+      "decoded_sha256": "aa2c738470cdfc33c012ef8aa6441b33830db95b50ee0ef4bdf80177a646aa59",
+      "packed_sha256": "e21747e6d6fe9c9bfbc9e0c6dc0bedcba183f51d429ec47678f5db55401c8aca",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.5985,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0b 4c 4c 2e 20 57 41 52 52 49 4f 52 00 00 00 00 13 0f 0f 0d 0f 10 0e 00 00 00 00 00 00 00 0d 0a 0c 0a 0c 12 08 12 00 08 03 06 00 34 00 00 00 d0 b6 00 00 2f 01 00 0c 32 1c 00 00 04 00 01 00 06",
+      "tail_hex": "2a 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 69 37 00 00 00 00 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 11,
+          "text": "LL. WARRIOR"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 11,
+          "text": "LL. WARRIOR"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 188,
+        "01": 8,
+        "13": 4,
+        "52": 3,
+        "0f": 3,
+        "0c": 3,
+        "2a": 3,
+        "37": 3,
+        "4c": 2,
+        "0d": 2,
+        "0a": 2,
+        "12": 2,
+        "08": 2,
+        "06": 2,
+        "34": 2,
+        "0b": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 63,
+      "toc_entry_offset": 551,
+      "packed_relative_offset": 6687,
+      "packed_absolute_offset": 7256,
+      "raw_size": 259,
+      "packed_size": 96,
+      "decoded_size": 259,
+      "decoded_sha256": "64468f3838bee61afdb7ec2e9121ee41bc76f9c82fe9c744858ff750f611e978",
+      "packed_sha256": "878fad0cbe4e97c9391d2b479bb7bfec9083412f999c6ee16212d3645b492e79",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3707,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0d 4a 4f 56 49 41 4e 20 44 52 41 47 4f 4e 00 00 0a 13 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0e 0d 0d 0c 0c 0e 0c 0c 00 00 00 00 00 00 00 00 00 01 00 00 00 33 03 00 14 3e 01 00 03 04 02 02 05 06",
+      "tail_hex": "66 00 00 00 ad 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 fc 3d 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 13,
+          "text": "JOVIAN DRAGON"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 13,
+          "text": "JOVIAN DRAGON"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 195,
+        "0a": 13,
+        "01": 7,
+        "0c": 4,
+        "0d": 3,
+        "02": 3,
+        "4f": 2,
+        "41": 2,
+        "4e": 2,
+        "0e": 2,
+        "03": 2,
+        "04": 2,
+        "06": 2,
+        "66": 2,
+        "4a": 1,
+        "56": 1
+      },
+      "warnings": []
+    },
+    {
+      "id": 64,
+      "toc_entry_offset": 560,
+      "packed_relative_offset": 6783,
+      "packed_absolute_offset": 7352,
+      "raw_size": 259,
+      "packed_size": 103,
+      "decoded_size": 259,
+      "decoded_sha256": "9aaf9ff3ee2e99a74405ee89683238cb3f6246c43bf0fc47b8c1ba82075da15f",
+      "packed_sha256": "d3b331cf4806e9a4c96dfdaeefa0b359da5368f9c087140cd0dcf18edd88ca84",
+      "raw_size_matches_decoded_size": true,
+      "compression_ratio": 0.3977,
+      "record_size_divisors": [
+        7,
+        259
+      ],
+      "known_record_hints": [
+        {
+          "record_size": 259,
+          "basis": "existing monster/character record decoder"
+        }
+      ],
+      "head_hex": "0a 57 41 53 50 48 4f 50 50 45 52 00 00 00 00 00 0c 13 0f 03 06 02 01 0a 0a 0a 0a 0a 0a 0a 0f 0e 0e 0d 0d 10 0d 0d 00 00 00 00 00 00 00 00 00 00 00 00 00 32 01 00 18 3e 01 00 03 00 02 00 02 00",
+      "tail_hex": "18 00 00 00 b2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 47 38 00 00 00 00",
+      "ascii_candidates": [
+        {
+          "offset": 1,
+          "length": 10,
+          "text": "WASPHOPPER"
+        }
+      ],
+      "pascal_candidates": [
+        {
+          "offset": 0,
+          "length": 10,
+          "text": "WASPHOPPER"
+        }
+      ],
+      "byte_histogram_top16": {
+        "00": 202,
+        "0a": 8,
+        "01": 8,
+        "0d": 4,
+        "50": 3,
+        "02": 3,
+        "18": 3,
+        "0f": 2,
+        "03": 2,
+        "06": 2,
+        "0e": 2,
+        "57": 1,
+        "41": 1,
+        "53": 1,
+        "48": 1,
+        "4f": 1
+      },
+      "warnings": []
+    }
+  ]
+}

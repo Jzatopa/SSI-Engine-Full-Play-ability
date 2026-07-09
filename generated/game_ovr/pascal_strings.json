@@ -1,0 +1,3622 @@
+[
+  {
+    "offset": 8,
+    "length": 28,
+    "text": "WARNING: Insufficient Memory"
+  },
+  {
+    "offset": 16,
+    "length": 58,
+    "text": " Insufficient Memory$Insufficient Memory. Exiting ProgramU"
+  },
+  {
+    "offset": 17,
+    "length": 32,
+    "text": "Insufficient Memory$Insufficient"
+  },
+  {
+    "offset": 30,
+    "length": 32,
+    "text": "Memory$Insufficient Memory. Exit"
+  },
+  {
+    "offset": 37,
+    "length": 36,
+    "text": "Insufficient Memory. Exiting Program"
+  },
+  {
+    "offset": 393,
+    "length": 36,
+    "text": "CREATED BY:SSI SPECIAL PROJECTS TEAM"
+  },
+  {
+    "offset": 430,
+    "length": 17,
+    "text": "GAME DEVELOPMENT:"
+  },
+  {
+    "offset": 448,
+    "length": 12,
+    "text": "PROGRAMMING:"
+  },
+  {
+    "offset": 461,
+    "length": 14,
+    "text": "Rhonda Gilbert"
+  },
+  {
+    "offset": 476,
+    "length": 10,
+    "text": "Russ Brown"
+  },
+  {
+    "offset": 487,
+    "length": 11,
+    "text": "Kerry Bonin"
+  },
+  {
+    "offset": 499,
+    "length": 15,
+    "text": "ENCOUNTER CODE:"
+  },
+  {
+    "offset": 515,
+    "length": 12,
+    "text": "Dave Shelley"
+  },
+  {
+    "offset": 528,
+    "length": 13,
+    "text": "GRAPHIC ARTS:"
+  },
+  {
+    "offset": 542,
+    "length": 10,
+    "text": "Chris Carr"
+  },
+  {
+    "offset": 553,
+    "length": 11,
+    "text": "Laura Bowen"
+  },
+  {
+    "offset": 565,
+    "length": 7,
+    "text": "Tom Ono"
+  },
+  {
+    "offset": 573,
+    "length": 10,
+    "text": "Fred Butts"
+  },
+  {
+    "offset": 584,
+    "length": 10,
+    "text": "Ken Eklund"
+  },
+  {
+    "offset": 595,
+    "length": 15,
+    "text": "Maurine Starkey"
+  },
+  {
+    "offset": 611,
+    "length": 8,
+    "text": "Tony Van"
+  },
+  {
+    "offset": 620,
+    "length": 13,
+    "text": "Mike Provenza"
+  },
+  {
+    "offset": 634,
+    "length": 13,
+    "text": "Gary Shockley"
+  },
+  {
+    "offset": 648,
+    "length": 12,
+    "text": "Mark Johnson"
+  },
+  {
+    "offset": 661,
+    "length": 13,
+    "text": "Cynthia Huang"
+  },
+  {
+    "offset": 675,
+    "length": 9,
+    "text": "Cyrus Lum"
+  },
+  {
+    "offset": 685,
+    "length": 15,
+    "text": "Adragon Demello"
+  },
+  {
+    "offset": 701,
+    "length": 12,
+    "text": "Susan Manley"
+  },
+  {
+    "offset": 714,
+    "length": 6,
+    "text": "MUSIC:"
+  },
+  {
+    "offset": 721,
+    "length": 26,
+    "text": "Ralph Thomas & The Fat Man"
+  },
+  {
+    "offset": 748,
+    "length": 10,
+    "text": "PLAYTEST :"
+  },
+  {
+    "offset": 759,
+    "length": 26,
+    "text": "John Boockholdt, Al Brown,"
+  },
+  {
+    "offset": 786,
+    "length": 29,
+    "text": "Glen Cureton, Mike Gilmartin,"
+  },
+  {
+    "offset": 787,
+    "length": 71,
+    "text": "len Cureton, Mike Gilmartin,#Cyrus Harris, Rob Lupo, Sean House,$John K"
+  },
+  {
+    "offset": 791,
+    "length": 32,
+    "text": "Cureton, Mike Gilmartin,#Cyrus H"
+  },
+  {
+    "offset": 792,
+    "length": 67,
+    "text": "ureton, Mike Gilmartin,#Cyrus Harris, Rob Lupo, Sean House,$John Ki"
+  },
+  {
+    "offset": 799,
+    "length": 44,
+    "text": " Mike Gilmartin,#Cyrus Harris, Rob Lupo, Sea"
+  },
+  {
+    "offset": 800,
+    "length": 32,
+    "text": "Mike Gilmartin,#Cyrus Harris, Ro"
+  },
+  {
+    "offset": 801,
+    "length": 77,
+    "text": "ike Gilmartin,#Cyrus Harris, Rob Lupo, Sean House,$John Kirk, Alan Marenco, B"
+  },
+  {
+    "offset": 805,
+    "length": 32,
+    "text": "Gilmartin,#Cyrus Harris, Rob Lup"
+  },
+  {
+    "offset": 806,
+    "length": 71,
+    "text": "ilmartin,#Cyrus Harris, Rob Lupo, Sean House,$John Kirk, Alan Marenco, "
+  },
+  {
+    "offset": 815,
+    "length": 44,
+    "text": "#Cyrus Harris, Rob Lupo, Sean House,$John Ki"
+  },
+  {
+    "offset": 816,
+    "length": 35,
+    "text": "Cyrus Harris, Rob Lupo, Sean House,"
+  },
+  {
+    "offset": 817,
+    "length": 67,
+    "text": "yrus Harris, Rob Lupo, Sean House,$John Kirk, Alan Marenco, Brian L"
+  },
+  {
+    "offset": 822,
+    "length": 32,
+    "text": "Harris, Rob Lupo, Sean House,$Jo"
+  },
+  {
+    "offset": 829,
+    "length": 44,
+    "text": " Rob Lupo, Sean House,$John Kirk, Alan Maren"
+  },
+  {
+    "offset": 830,
+    "length": 32,
+    "text": "Rob Lupo, Sean House,$John Kirk,"
+  },
+  {
+    "offset": 834,
+    "length": 32,
+    "text": "Lupo, Sean House,$John Kirk, Ala"
+  },
+  {
+    "offset": 839,
+    "length": 44,
+    "text": " Sean House,$John Kirk, Alan Marenco, Brian "
+  },
+  {
+    "offset": 840,
+    "length": 32,
+    "text": "Sean House,$John Kirk, Alan Mare"
+  },
+  {
+    "offset": 845,
+    "length": 32,
+    "text": "House,$John Kirk, Alan Marenco, "
+  },
+  {
+    "offset": 852,
+    "length": 36,
+    "text": "John Kirk, Alan Marenco, Brian Lowe,"
+  },
+  {
+    "offset": 889,
+    "length": 28,
+    "text": "Jeff Shotwell, Larry Webber,"
+  },
+  {
+    "offset": 918,
+    "length": 28,
+    "text": "Chris Warshauer, James Young"
+  },
+  {
+    "offset": 2026,
+    "length": 5,
+    "text": "title"
+  },
+  {
+    "offset": 2154,
+    "length": 5,
+    "text": "title"
+  },
+  {
+    "offset": 3860,
+    "length": 4,
+    "text": "CPIC"
+  },
+  {
+    "offset": 7301,
+    "length": 15,
+    "text": "what do you do?"
+  },
+  {
+    "offset": 8458,
+    "length": 12,
+    "text": "succeeds at "
+  },
+  {
+    "offset": 8471,
+    "length": 5,
+    "text": "party"
+  },
+  {
+    "offset": 8477,
+    "length": 10,
+    "text": " fails at "
+  },
+  {
+    "offset": 10584,
+    "length": 27,
+    "text": "The entire party is killed!"
+  },
+  {
+    "offset": 12168,
+    "length": 16,
+    "text": " and you record "
+  },
+  {
+    "offset": 12185,
+    "length": 18,
+    "text": " as logbook entry "
+  },
+  {
+    "offset": 12762,
+    "length": 36,
+    "text": "Congrats. The team gains experience!"
+  },
+  {
+    "offset": 12799,
+    "length": 10,
+    "text": "Congrats. "
+  },
+  {
+    "offset": 12810,
+    "length": 18,
+    "text": " gains experience!"
+  },
+  {
+    "offset": 17125,
+    "length": 13,
+    "text": "+6+>+I+T+_+j+"
+  },
+  {
+    "offset": 17284,
+    "length": 10,
+    "text": "Enemy ship"
+  },
+  {
+    "offset": 18979,
+    "length": 29,
+    "text": " leaps clear of an explosion."
+  },
+  {
+    "offset": 19009,
+    "length": 7,
+    "text": " takes "
+  },
+  {
+    "offset": 19017,
+    "length": 18,
+    "text": " points of damage!"
+  },
+  {
+    "offset": 19036,
+    "length": 10,
+    "text": " is dead!!"
+  },
+  {
+    "offset": 19047,
+    "length": 10,
+    "text": " is dying!"
+  },
+  {
+    "offset": 19058,
+    "length": 16,
+    "text": " is unconscious!"
+  },
+  {
+    "offset": 19075,
+    "length": 22,
+    "text": " is seriously injured."
+  },
+  {
+    "offset": 19634,
+    "length": 7,
+    "text": " fires "
+  },
+  {
+    "offset": 19642,
+    "length": 6,
+    "text": "s and "
+  },
+  {
+    "offset": 19649,
+    "length": 9,
+    "text": "hits for "
+  },
+  {
+    "offset": 19659,
+    "length": 18,
+    "text": " points of damage!"
+  },
+  {
+    "offset": 19678,
+    "length": 7,
+    "text": "misses."
+  },
+  {
+    "offset": 20035,
+    "length": 14,
+    "text": " destroyed on "
+  },
+  {
+    "offset": 20052,
+    "length": 11,
+    "text": " destroyed!"
+  },
+  {
+    "offset": 21339,
+    "length": 9,
+    "text": "hits for "
+  },
+  {
+    "offset": 21349,
+    "length": 18,
+    "text": " points of damage!"
+  },
+  {
+    "offset": 21368,
+    "length": 7,
+    "text": "misses."
+  },
+  {
+    "offset": 21376,
+    "length": 16,
+    "text": " attacks with a "
+  },
+  {
+    "offset": 21393,
+    "length": 5,
+    "text": " and "
+  },
+  {
+    "offset": 21960,
+    "length": 28,
+    "text": " attempts a speed boost and "
+  },
+  {
+    "offset": 21961,
+    "length": 32,
+    "text": "attempts a speed boost and \tsucc"
+  },
+  {
+    "offset": 21989,
+    "length": 9,
+    "text": "succeeds!"
+  },
+  {
+    "offset": 21999,
+    "length": 6,
+    "text": "fails!"
+  },
+  {
+    "offset": 22476,
+    "length": 5,
+    "text": "Weap "
+  },
+  {
+    "offset": 22484,
+    "length": 4,
+    "text": "Quit"
+  },
+  {
+    "offset": 22554,
+    "length": 22,
+    "text": " attempts to jury-rig "
+  },
+  {
+    "offset": 22577,
+    "length": 14,
+    "text": " and succeeds!"
+  },
+  {
+    "offset": 22592,
+    "length": 11,
+    "text": " and fails."
+  },
+  {
+    "offset": 24463,
+    "length": 25,
+    "text": "Try to dodge enemy ship? "
+  },
+  {
+    "offset": 24725,
+    "length": 17,
+    "text": " attempts to ram!"
+  },
+  {
+    "offset": 24743,
+    "length": 9,
+    "text": "Your ship"
+  },
+  {
+    "offset": 24753,
+    "length": 23,
+    "text": " dodges out of the way!"
+  },
+  {
+    "offset": 24777,
+    "length": 19,
+    "text": "Ramming successful!"
+  },
+  {
+    "offset": 25113,
+    "length": 12,
+    "text": " is closing."
+  },
+  {
+    "offset": 25239,
+    "length": 15,
+    "text": " is retreating."
+  },
+  {
+    "offset": 25507,
+    "length": 24,
+    "text": "Select weapon to reload:"
+  },
+  {
+    "offset": 25534,
+    "length": 4,
+    "text": "Quit"
+  },
+  {
+    "offset": 25572,
+    "length": 11,
+    "text": " reloads a "
+  },
+  {
+    "offset": 27085,
+    "length": 33,
+    "text": "The enemy jury-rigs some systems."
+  },
+  {
+    "offset": 28148,
+    "length": 15,
+    "text": " is your pilot."
+  },
+  {
+    "offset": 28165,
+    "length": 10,
+    "text": "what does "
+  },
+  {
+    "offset": 28176,
+    "length": 12,
+    "text": " want to do?"
+  },
+  {
+    "offset": 28189,
+    "length": 12,
+    "text": "Fire Target "
+  },
+  {
+    "offset": 28202,
+    "length": 5,
+    "text": "Load "
+  },
+  {
+    "offset": 28208,
+    "length": 8,
+    "text": "Juryrig "
+  },
+  {
+    "offset": 28217,
+    "length": 10,
+    "text": "Quit View@"
+  },
+  {
+    "offset": 28228,
+    "length": 6,
+    "text": "Close "
+  },
+  {
+    "offset": 28235,
+    "length": 9,
+    "text": "Withdraw "
+  },
+  {
+    "offset": 28245,
+    "length": 4,
+    "text": "Ram "
+  },
+  {
+    "offset": 28250,
+    "length": 6,
+    "text": "Board "
+  },
+  {
+    "offset": 28257,
+    "length": 8,
+    "text": "Command "
+  },
+  {
+    "offset": 28266,
+    "length": 4,
+    "text": "Aid "
+  },
+  {
+    "offset": 28271,
+    "length": 14,
+    "text": "Boost engines "
+  },
+  {
+    "offset": 28286,
+    "length": 8,
+    "text": "Sensors "
+  },
+  {
+    "offset": 29430,
+    "length": 55,
+    "text": "You close with the injured vessel and attempt to board!"
+  },
+  {
+    "offset": 29434,
+    "length": 32,
+    "text": "close with the injured vessel an"
+  },
+  {
+    "offset": 29440,
+    "length": 32,
+    "text": "with the injured vessel and atte"
+  },
+  {
+    "offset": 29445,
+    "length": 32,
+    "text": "the injured vessel and attempt t"
+  },
+  {
+    "offset": 29449,
+    "length": 32,
+    "text": "injured vessel and attempt to bo"
+  },
+  {
+    "offset": 29486,
+    "length": 21,
+    "text": " takes over as pilot."
+  },
+  {
+    "offset": 29510,
+    "length": 20,
+    "text": "Target which system?"
+  },
+  {
+    "offset": 29531,
+    "length": 4,
+    "text": "Ram "
+  },
+  {
+    "offset": 29539,
+    "length": 8,
+    "text": "succeeds"
+  },
+  {
+    "offset": 29548,
+    "length": 5,
+    "text": "fails"
+  },
+  {
+    "offset": 29554,
+    "length": 21,
+    "text": " at sensor operation!"
+  },
+  {
+    "offset": 29576,
+    "length": 14,
+    "text": "Ship Character"
+  },
+  {
+    "offset": 29819,
+    "length": 4,
+    "text": "<Bui"
+  },
+  {
+    "offset": 29928,
+    "length": 4,
+    "text": "<Cuk"
+  },
+  {
+    "offset": 31037,
+    "length": 41,
+    "text": "The enemy ship recedes off your scanners."
+  },
+  {
+    "offset": 31041,
+    "length": 32,
+    "text": "enemy ship recedes off your scan"
+  },
+  {
+    "offset": 31047,
+    "length": 32,
+    "text": "ship recedes off your scanners.U"
+  },
+  {
+    "offset": 32565,
+    "length": 13,
+    "text": ".(.2.D.Q.i.s."
+  },
+  {
+    "offset": 35601,
+    "length": 18,
+    "text": "The team has fled."
+  },
+  {
+    "offset": 35620,
+    "length": 17,
+    "text": "The team has won."
+  },
+  {
+    "offset": 35638,
+    "length": 24,
+    "text": "Each character receives "
+  },
+  {
+    "offset": 35663,
+    "length": 18,
+    "text": "experience points."
+  },
+  {
+    "offset": 36075,
+    "length": 6,
+    "text": "Gear: "
+  },
+  {
+    "offset": 36082,
+    "length": 4,
+    "text": "Take"
+  },
+  {
+    "offset": 36577,
+    "length": 6,
+    "text": "Take: "
+  },
+  {
+    "offset": 36584,
+    "length": 17,
+    "text": "Credits Gear Exit"
+  },
+  {
+    "offset": 36942,
+    "length": 16,
+    "text": "  Repairing Ship"
+  },
+  {
+    "offset": 36960,
+    "length": 38,
+    "text": "Engineer         System         Result"
+  },
+  {
+    "offset": 37001,
+    "length": 6,
+    "text": " fixed"
+  },
+  {
+    "offset": 37002,
+    "length": 32,
+    "text": "fixed) units of fuel plundered f"
+  },
+  {
+    "offset": 37008,
+    "length": 41,
+    "text": " units of fuel plundered from enemy ship!"
+  },
+  {
+    "offset": 37009,
+    "length": 32,
+    "text": "units of fuel plundered from ene"
+  },
+  {
+    "offset": 37015,
+    "length": 32,
+    "text": "of fuel plundered from enemy shi"
+  },
+  {
+    "offset": 37050,
+    "length": 24,
+    "text": "  All repairs completed."
+  },
+  {
+    "offset": 38393,
+    "length": 16,
+    "text": "Use antidote on "
+  },
+  {
+    "offset": 38683,
+    "length": 20,
+    "text": "  Treating Poisoning"
+  },
+  {
+    "offset": 38684,
+    "length": 32,
+    "text": " Treating Poisoning&Medic       "
+  },
+  {
+    "offset": 38685,
+    "length": 32,
+    "text": "Treating Poisoning&Medic        "
+  },
+  {
+    "offset": 38694,
+    "length": 32,
+    "text": "Poisoning&Medic            Patie"
+  },
+  {
+    "offset": 38704,
+    "length": 38,
+    "text": "Medic            Patient        Result"
+  },
+  {
+    "offset": 38710,
+    "length": 32,
+    "text": "           Patient        Result"
+  },
+  {
+    "offset": 38743,
+    "length": 6,
+    "text": " cured"
+  },
+  {
+    "offset": 38750,
+    "length": 20,
+    "text": " is dying of poison!"
+  },
+  {
+    "offset": 38771,
+    "length": 9,
+    "text": " is cured"
+  },
+  {
+    "offset": 38781,
+    "length": 19,
+    "text": " slips into a coma."
+  },
+  {
+    "offset": 38833,
+    "length": 17,
+    "text": "  Treating Wounds"
+  },
+  {
+    "offset": 38853,
+    "length": 29,
+    "text": "  No injuries were sustained."
+  },
+  {
+    "offset": 38883,
+    "length": 26,
+    "text": "  No medics are available."
+  },
+  {
+    "offset": 38884,
+    "length": 32,
+    "text": " No medics are available.(  No i"
+  },
+  {
+    "offset": 38885,
+    "length": 32,
+    "text": "No medics are available.(  No in"
+  },
+  {
+    "offset": 38888,
+    "length": 32,
+    "text": "medics are available.(  No injur"
+  },
+  {
+    "offset": 38895,
+    "length": 32,
+    "text": "are available.(  No injuries wer"
+  },
+  {
+    "offset": 38899,
+    "length": 32,
+    "text": "available.(  No injuries were su"
+  },
+  {
+    "offset": 38910,
+    "length": 40,
+    "text": "  No injuries were successfully treated."
+  },
+  {
+    "offset": 38911,
+    "length": 32,
+    "text": " No injuries were successfully t"
+  },
+  {
+    "offset": 38912,
+    "length": 32,
+    "text": "No injuries were successfully tr"
+  },
+  {
+    "offset": 38915,
+    "length": 32,
+    "text": "injuries were successfully treat"
+  },
+  {
+    "offset": 38951,
+    "length": 20,
+    "text": "  Healing completed."
+  },
+  {
+    "offset": 40923,
+    "length": 5,
+    "text": "View "
+  },
+  {
+    "offset": 40929,
+    "length": 5,
+    "text": "Take "
+  },
+  {
+    "offset": 40935,
+    "length": 6,
+    "text": "Divvy "
+  },
+  {
+    "offset": 40942,
+    "length": 5,
+    "text": "Pool "
+  },
+  {
+    "offset": 40948,
+    "length": 7,
+    "text": "Status "
+  },
+  {
+    "offset": 40956,
+    "length": 4,
+    "text": "Exit"
+  },
+  {
+    "offset": 40961,
+    "length": 21,
+    "text": "Enemy ship destroyed."
+  },
+  {
+    "offset": 40983,
+    "length": 8,
+    "text": "~Yes ~No"
+  },
+  {
+    "offset": 40992,
+    "length": 28,
+    "text": "There is still booty left.  "
+  },
+  {
+    "offset": 40998,
+    "length": 32,
+    "text": "is still booty left.  $Do you wa"
+  },
+  {
+    "offset": 41001,
+    "length": 32,
+    "text": "still booty left.  $Do you want "
+  },
+  {
+    "offset": 41007,
+    "length": 32,
+    "text": "booty left.  $Do you want to go "
+  },
+  {
+    "offset": 41013,
+    "length": 32,
+    "text": "left.  $Do you want to go back a"
+  },
+  {
+    "offset": 41019,
+    "length": 32,
+    "text": " $Do you want to go back and cla"
+  },
+  {
+    "offset": 41020,
+    "length": 32,
+    "text": "$Do you want to go back and clai"
+  },
+  {
+    "offset": 41021,
+    "length": 36,
+    "text": "Do you want to go back and claim it?"
+  },
+  {
+    "offset": 41024,
+    "length": 32,
+    "text": "you want to go back and claim it"
+  },
+  {
+    "offset": 42150,
+    "length": 21,
+    "text": "Your team has met an "
+  },
+  {
+    "offset": 42172,
+    "length": 16,
+    "text": "unfortunate end."
+  },
+  {
+    "offset": 42727,
+    "length": 9,
+    "text": "=\tG\tQ\tV\t["
+  },
+  {
+    "offset": 45487,
+    "length": 5,
+    "text": "Move "
+  },
+  {
+    "offset": 45493,
+    "length": 12,
+    "text": "Target View "
+  },
+  {
+    "offset": 45506,
+    "length": 11,
+    "text": "Intimidate "
+  },
+  {
+    "offset": 45518,
+    "length": 6,
+    "text": "Quick "
+  },
+  {
+    "offset": 45525,
+    "length": 4,
+    "text": "Aid "
+  },
+  {
+    "offset": 45530,
+    "length": 7,
+    "text": "Sprint "
+  },
+  {
+    "offset": 45538,
+    "length": 6,
+    "text": "Dodge "
+  },
+  {
+    "offset": 45577,
+    "length": 8,
+    "text": "Jetpack "
+  },
+  {
+    "offset": 45586,
+    "length": 5,
+    "text": "Wait "
+  },
+  {
+    "offset": 45592,
+    "length": 6,
+    "text": "Guard "
+  },
+  {
+    "offset": 46843,
+    "length": 9,
+    "text": "Sprinting"
+  },
+  {
+    "offset": 46853,
+    "length": 7,
+    "text": "Dodging"
+  },
+  {
+    "offset": 46861,
+    "length": 11,
+    "text": "Move/Attack"
+  },
+  {
+    "offset": 46873,
+    "length": 14,
+    "text": ", Move Left = "
+  },
+  {
+    "offset": 46888,
+    "length": 5,
+    "text": " Done"
+  },
+  {
+    "offset": 46894,
+    "length": 5,
+    "text": "Flee:"
+  },
+  {
+    "offset": 46900,
+    "length": 14,
+    "text": "can't go there"
+  },
+  {
+    "offset": 47841,
+    "length": 17,
+    "text": "Not while running"
+  },
+  {
+    "offset": 47859,
+    "length": 20,
+    "text": "Not with that weapon"
+  },
+  {
+    "offset": 48422,
+    "length": 14,
+    "text": "flees in panic"
+  },
+  {
+    "offset": 50985,
+    "length": 25,
+    "text": "Move/Attack, Move Left = "
+  },
+  {
+    "offset": 53234,
+    "length": 10,
+    "text": "Surrenders"
+  },
+  {
+    "offset": 54192,
+    "length": 22,
+    "text": "readies a heavy weapon"
+  },
+  {
+    "offset": 60738,
+    "length": 26,
+    "text": "Cant identify wild terrain"
+  },
+  {
+    "offset": 61864,
+    "length": 7,
+    "text": "marscom"
+  },
+  {
+    "offset": 61872,
+    "length": 8,
+    "text": "venuscom"
+  },
+  {
+    "offset": 61881,
+    "length": 5,
+    "text": "lotek"
+  },
+  {
+    "offset": 61887,
+    "length": 5,
+    "text": "hitek"
+  },
+  {
+    "offset": 65335,
+    "length": 18,
+    "text": "A battle begins..."
+  },
+  {
+    "offset": 66308,
+    "length": 6,
+    "text": "COMSPR"
+  },
+  {
+    "offset": 66315,
+    "length": 6,
+    "text": "cursor"
+  },
+  {
+    "offset": 66322,
+    "length": 5,
+    "text": "ITEMS"
+  },
+  {
+    "offset": 69987,
+    "length": 9,
+    "text": "dodges it"
+  },
+  {
+    "offset": 70356,
+    "length": 11,
+    "text": "is poisoned"
+  },
+  {
+    "offset": 70368,
+    "length": 8,
+    "text": "is dizzy"
+  },
+  {
+    "offset": 70588,
+    "length": 11,
+    "text": "is poisoned"
+  },
+  {
+    "offset": 71815,
+    "length": 9,
+    "text": "8\tE\tR\t_\tl"
+  },
+  {
+    "offset": 71817,
+    "length": 9,
+    "text": "E\tR\t_\tl\ty"
+  },
+  {
+    "offset": 72594,
+    "length": 11,
+    "text": "-Backstabs-"
+  },
+  {
+    "offset": 72606,
+    "length": 14,
+    "text": "slays helpless"
+  },
+  {
+    "offset": 72621,
+    "length": 7,
+    "text": "Attacks"
+  },
+  {
+    "offset": 72629,
+    "length": 14,
+    "text": "(from behind) "
+  },
+  {
+    "offset": 72644,
+    "length": 19,
+    "text": "with one cruel blow"
+  },
+  {
+    "offset": 72664,
+    "length": 12,
+    "text": "Hitting for "
+  },
+  {
+    "offset": 72677,
+    "length": 7,
+    "text": " point "
+  },
+  {
+    "offset": 72685,
+    "length": 8,
+    "text": " points "
+  },
+  {
+    "offset": 72694,
+    "length": 9,
+    "text": "of damage"
+  },
+  {
+    "offset": 72704,
+    "length": 10,
+    "text": "and Misses"
+  },
+  {
+    "offset": 72715,
+    "length": 9,
+    "text": "goes down"
+  },
+  {
+    "offset": 72725,
+    "length": 12,
+    "text": "and is Dying"
+  },
+  {
+    "offset": 72770,
+    "length": 9,
+    "text": "is killed"
+  },
+  {
+    "offset": 74435,
+    "length": 8,
+    "text": "Got Away"
+  },
+  {
+    "offset": 74444,
+    "length": 17,
+    "text": "Escape is blocked"
+  },
+  {
+    "offset": 74942,
+    "length": 10,
+    "text": "is stunned"
+  },
+  {
+    "offset": 77490,
+    "length": 21,
+    "text": "launches a missile..."
+  },
+  {
+    "offset": 77512,
+    "length": 19,
+    "text": "throws a grenade..."
+  },
+  {
+    "offset": 77532,
+    "length": 14,
+    "text": "It goes astray"
+  },
+  {
+    "offset": 77547,
+    "length": 4,
+    "text": " and"
+  },
+  {
+    "offset": 77555,
+    "length": 11,
+    "text": " hits chaff"
+  },
+  {
+    "offset": 77599,
+    "length": 16,
+    "text": "leaps for cover!"
+  },
+  {
+    "offset": 77620,
+    "length": 25,
+    "text": "Bad tileNum in lingering-"
+  },
+  {
+    "offset": 80616,
+    "length": 32,
+    "text": "Weapon specials incorrectly set!"
+  },
+  {
+    "offset": 81698,
+    "length": 20,
+    "text": "fails at use jetpack"
+  },
+  {
+    "offset": 82674,
+    "length": 8,
+    "text": "Guarding"
+  },
+  {
+    "offset": 83620,
+    "length": 13,
+    "text": "Attack Ally: "
+  },
+  {
+    "offset": 83857,
+    "length": 7,
+    "text": "(short)"
+  },
+  {
+    "offset": 83865,
+    "length": 8,
+    "text": "(medium)"
+  },
+  {
+    "offset": 83874,
+    "length": 6,
+    "text": "(long)"
+  },
+  {
+    "offset": 83881,
+    "length": 8,
+    "text": "Range = "
+  },
+  {
+    "offset": 84114,
+    "length": 17,
+    "text": "Next Prev Manual "
+  },
+  {
+    "offset": 84132,
+    "length": 7,
+    "text": "Attack "
+  },
+  {
+    "offset": 84140,
+    "length": 11,
+    "text": "Center Exit"
+  },
+  {
+    "offset": 84152,
+    "length": 4,
+    "text": "Aim:"
+  },
+  {
+    "offset": 84872,
+    "length": 6,
+    "text": "Flying"
+  },
+  {
+    "offset": 84879,
+    "length": 5,
+    "text": "Land "
+  },
+  {
+    "offset": 84885,
+    "length": 6,
+    "text": "Attack"
+  },
+  {
+    "offset": 84892,
+    "length": 4,
+    "text": "Exit"
+  },
+  {
+    "offset": 84897,
+    "length": 18,
+    "text": "(Use Cursor keys) "
+  },
+  {
+    "offset": 86232,
+    "length": 17,
+    "text": "NumTargets < 1!!!"
+  },
+  {
+    "offset": 88308,
+    "length": 30,
+    "text": "Life was empty til I met buck!"
+  },
+  {
+    "offset": 88848,
+    "length": 21,
+    "text": " looks real menacing."
+  },
+  {
+    "offset": 88870,
+    "length": 21,
+    "text": " fails to intimidate."
+  },
+  {
+    "offset": 88892,
+    "length": 14,
+    "text": "is intimidated"
+  },
+  {
+    "offset": 89192,
+    "length": 24,
+    "text": "  Using Leadership Skill"
+  },
+  {
+    "offset": 89218,
+    "length": 7,
+    "text": " leads "
+  },
+  {
+    "offset": 89802,
+    "length": 7,
+    "text": " makes "
+  },
+  {
+    "offset": 89818,
+    "length": 14,
+    "text": " tactics roll."
+  },
+  {
+    "offset": 90261,
+    "length": 5,
+    "text": "made "
+  },
+  {
+    "offset": 90267,
+    "length": 7,
+    "text": "failed "
+  },
+  {
+    "offset": 90287,
+    "length": 17,
+    "text": "Zero-G skill roll"
+  },
+  {
+    "offset": 91468,
+    "length": 12,
+    "text": "E&E?ESEeEjE|"
+  },
+  {
+    "offset": 92313,
+    "length": 16,
+    "text": "Message Speed = "
+  },
+  {
+    "offset": 92338,
+    "length": 7,
+    "text": " Faster"
+  },
+  {
+    "offset": 92346,
+    "length": 7,
+    "text": " Slower"
+  },
+  {
+    "offset": 92354,
+    "length": 5,
+    "text": " Exit"
+  },
+  {
+    "offset": 92360,
+    "length": 14,
+    "text": "Message Speed:"
+  },
+  {
+    "offset": 93568,
+    "length": 13,
+    "text": "Party Order: "
+  },
+  {
+    "offset": 93582,
+    "length": 17,
+    "text": "has been selected"
+  },
+  {
+    "offset": 93600,
+    "length": 26,
+    "text": "lost pc in alterpartyorder"
+  },
+  {
+    "offset": 93627,
+    "length": 31,
+    "text": "lost olddude in alterpartyorder"
+  },
+  {
+    "offset": 94488,
+    "length": 12,
+    "text": "Animation on"
+  },
+  {
+    "offset": 94501,
+    "length": 13,
+    "text": "Animation off"
+  },
+  {
+    "offset": 94802,
+    "length": 17,
+    "text": "En route. Fuel = "
+  },
+  {
+    "offset": 94822,
+    "length": 4,
+    "text": "Done"
+  },
+  {
+    "offset": 95591,
+    "length": 12,
+    "text": "Quit TO DOS "
+  },
+  {
+    "offset": 95657,
+    "length": 8,
+    "text": "Not Here"
+  },
+  {
+    "offset": 95666,
+    "length": 4,
+    "text": "Exit"
+  },
+  {
+    "offset": 95671,
+    "length": 23,
+    "text": "Move Rocket Change Save"
+  },
+  {
+    "offset": 95699,
+    "length": 9,
+    "text": "Move Save"
+  },
+  {
+    "offset": 97230,
+    "length": 21,
+    "text": "Rest Save Change Exit"
+  },
+  {
+    "offset": 97252,
+    "length": 15,
+    "text": "The team rests."
+  },
+  {
+    "offset": 97792,
+    "length": 20,
+    "text": "disposing a nil char"
+  },
+  {
+    "offset": 98083,
+    "length": 18,
+    "text": "Choose a FUNCTION "
+  },
+  {
+    "offset": 98102,
+    "length": 7,
+    "text": "Select "
+  },
+  {
+    "offset": 98174,
+    "length": 12,
+    "text": "Quit to DOS "
+  },
+  {
+    "offset": 98187,
+    "length": 30,
+    "text": "Game NOT saved.  Quit anyway? "
+  },
+  {
+    "offset": 99509,
+    "length": 9,
+    "text": "Pick Race"
+  },
+  {
+    "offset": 99523,
+    "length": 6,
+    "text": "Select"
+  },
+  {
+    "offset": 99530,
+    "length": 11,
+    "text": "Pick Gender"
+  },
+  {
+    "offset": 99542,
+    "length": 10,
+    "text": "Pick Class"
+  },
+  {
+    "offset": 99553,
+    "length": 14,
+    "text": "Reroll stats? "
+  },
+  {
+    "offset": 99568,
+    "length": 16,
+    "text": "Character name: "
+  },
+  {
+    "offset": 99585,
+    "length": 5,
+    "text": "Save "
+  },
+  {
+    "offset": 102172,
+    "length": 19,
+    "text": " can't be modified."
+  },
+  {
+    "offset": 102224,
+    "length": 8,
+    "text": "Modify: "
+  },
+  {
+    "offset": 102233,
+    "length": 22,
+    "text": "Add Subtract Keep Exit"
+  },
+  {
+    "offset": 103973,
+    "length": 5,
+    "text": "Drop "
+  },
+  {
+    "offset": 103979,
+    "length": 10,
+    "text": " forever? "
+  },
+  {
+    "offset": 103990,
+    "length": 14,
+    "text": "Are you sure? "
+  },
+  {
+    "offset": 104005,
+    "length": 15,
+    "text": "You incinerate "
+  },
+  {
+    "offset": 104023,
+    "length": 25,
+    "text": " hitches the next rocket."
+  },
+  {
+    "offset": 104049,
+    "length": 24,
+    "text": " gives a sigh of relief."
+  },
+  {
+    "offset": 104476,
+    "length": 10,
+    "text": "load from:"
+  },
+  {
+    "offset": 104487,
+    "length": 16,
+    "text": "Matrix Countdown"
+  },
+  {
+    "offset": 104504,
+    "length": 17,
+    "text": "Add a character: "
+  },
+  {
+    "offset": 104522,
+    "length": 4,
+    "text": "Add "
+  },
+  {
+    "offset": 105758,
+    "length": 5,
+    "text": "CHARS"
+  },
+  {
+    "offset": 105764,
+    "length": 4,
+    "text": ".DAX"
+  },
+  {
+    "offset": 105769,
+    "length": 22,
+    "text": "Can't open CHARS.DAX! "
+  },
+  {
+    "offset": 107562,
+    "length": 14,
+    "text": "ready   action"
+  },
+  {
+    "offset": 107581,
+    "length": 20,
+    "text": "Select a body icon. "
+  },
+  {
+    "offset": 107602,
+    "length": 4,
+    "text": "Done"
+  },
+  {
+    "offset": 107607,
+    "length": 17,
+    "text": "Is this icon ok? "
+  },
+  {
+    "offset": 109064,
+    "length": 30,
+    "text": "we only train conscious people"
+  },
+  {
+    "offset": 109067,
+    "length": 32,
+    "text": "only train conscious people&maxi"
+  },
+  {
+    "offset": 109072,
+    "length": 32,
+    "text": "train conscious people&maximum l"
+  },
+  {
+    "offset": 109078,
+    "length": 32,
+    "text": "conscious people&maximum level i"
+  },
+  {
+    "offset": 109088,
+    "length": 32,
+    "text": "people&maximum level in game has"
+  },
+  {
+    "offset": 109095,
+    "length": 38,
+    "text": "maximum level in game has been reached"
+  },
+  {
+    "offset": 109134,
+    "length": 21,
+    "text": "Not enough experience"
+  },
+  {
+    "offset": 109156,
+    "length": 13,
+    "text": " will become:"
+  },
+  {
+    "offset": 109170,
+    "length": 12,
+    "text": "    a level "
+  },
+  {
+    "offset": 109185,
+    "length": 22,
+    "text": "Do you wish to train? "
+  },
+  {
+    "offset": 109208,
+    "length": 18,
+    "text": "Congratulations..."
+  },
+  {
+    "offset": 110072,
+    "length": 8,
+    "text": "mouse ON"
+  },
+  {
+    "offset": 110081,
+    "length": 9,
+    "text": "mouse OFF"
+  },
+  {
+    "offset": 110091,
+    "length": 11,
+    "text": "joystick ON"
+  },
+  {
+    "offset": 110103,
+    "length": 12,
+    "text": "joystick OFF"
+  },
+  {
+    "offset": 110116,
+    "length": 12,
+    "text": "disable both"
+  },
+  {
+    "offset": 110129,
+    "length": 21,
+    "text": "Init Mouse/Joystick: "
+  },
+  {
+    "offset": 110151,
+    "length": 6,
+    "text": "Select"
+  },
+  {
+    "offset": 111718,
+    "length": 37,
+    "text": "Push JOYSTICK #1 to the extreme upper"
+  },
+  {
+    "offset": 111723,
+    "length": 32,
+    "text": "JOYSTICK #1 to the extreme upper"
+  },
+  {
+    "offset": 111732,
+    "length": 32,
+    "text": "#1 to the extreme upper\"left pos"
+  },
+  {
+    "offset": 111733,
+    "length": 35,
+    "text": "1 to the extreme upper\"left positio"
+  },
+  {
+    "offset": 111734,
+    "length": 49,
+    "text": " to the extreme upper\"left position and press but"
+  },
+  {
+    "offset": 111735,
+    "length": 32,
+    "text": "to the extreme upper\"left positi"
+  },
+  {
+    "offset": 111738,
+    "length": 32,
+    "text": "the extreme upper\"left position "
+  },
+  {
+    "offset": 111742,
+    "length": 32,
+    "text": "extreme upper\"left position and "
+  },
+  {
+    "offset": 111750,
+    "length": 32,
+    "text": "upper\"left position and press bu"
+  },
+  {
+    "offset": 111756,
+    "length": 34,
+    "text": "left position and press button #1."
+  },
+  {
+    "offset": 111791,
+    "length": 23,
+    "text": "Unable to read joystick"
+  },
+  {
+    "offset": 111798,
+    "length": 32,
+    "text": "to read joystick%Push JOYSTICK #"
+  },
+  {
+    "offset": 111801,
+    "length": 32,
+    "text": "read joystick%Push JOYSTICK #1 t"
+  },
+  {
+    "offset": 111806,
+    "length": 32,
+    "text": "joystick%Push JOYSTICK #1 to the"
+  },
+  {
+    "offset": 111815,
+    "length": 37,
+    "text": "Push JOYSTICK #1 to the extreme lower"
+  },
+  {
+    "offset": 111820,
+    "length": 32,
+    "text": "JOYSTICK #1 to the extreme lower"
+  },
+  {
+    "offset": 111829,
+    "length": 32,
+    "text": "#1 to the extreme lower#right po"
+  },
+  {
+    "offset": 111830,
+    "length": 35,
+    "text": "1 to the extreme lower#right positi"
+  },
+  {
+    "offset": 111831,
+    "length": 49,
+    "text": " to the extreme lower#right position and press bu"
+  },
+  {
+    "offset": 111832,
+    "length": 32,
+    "text": "to the extreme lower#right posit"
+  },
+  {
+    "offset": 111835,
+    "length": 32,
+    "text": "the extreme lower#right position"
+  },
+  {
+    "offset": 111839,
+    "length": 32,
+    "text": "extreme lower#right position and"
+  },
+  {
+    "offset": 111847,
+    "length": 32,
+    "text": "lower#right position and press b"
+  },
+  {
+    "offset": 111853,
+    "length": 35,
+    "text": "right position and press button #1."
+  },
+  {
+    "offset": 113678,
+    "length": 15,
+    "text": "Personal funds:"
+  },
+  {
+    "offset": 113694,
+    "length": 15,
+    "text": "Pooled funds:  "
+  },
+  {
+    "offset": 114436,
+    "length": 10,
+    "text": "OverLoaded"
+  },
+  {
+    "offset": 114890,
+    "length": 6,
+    "text": " buys "
+  },
+  {
+    "offset": 114897,
+    "length": 8,
+    "text": " buys a "
+  },
+  {
+    "offset": 114906,
+    "length": 17,
+    "text": "Not enough Money."
+  },
+  {
+    "offset": 115785,
+    "length": 23,
+    "text": " has no missile weapons"
+  },
+  {
+    "offset": 115809,
+    "length": 6,
+    "text": "Weapon"
+  },
+  {
+    "offset": 115816,
+    "length": 10,
+    "text": "Clip  Fill"
+  },
+  {
+    "offset": 115828,
+    "length": 9,
+    "text": "Fill Clip"
+  },
+  {
+    "offset": 115838,
+    "length": 17,
+    "text": " purchases a clip"
+  },
+  {
+    "offset": 115856,
+    "length": 21,
+    "text": "'s weapon is reloaded"
+  },
+  {
+    "offset": 115878,
+    "length": 16,
+    "text": "Not enough Money"
+  },
+  {
+    "offset": 115895,
+    "length": 12,
+    "text": "Already full"
+  },
+  {
+    "offset": 116887,
+    "length": 8,
+    "text": "|W&;E+vQ"
+  },
+  {
+    "offset": 117369,
+    "length": 24,
+    "text": "Buy Sell Ammo View Pool "
+  },
+  {
+    "offset": 117394,
+    "length": 11,
+    "text": "Take Divvy "
+  },
+  {
+    "offset": 117406,
+    "length": 4,
+    "text": "Exit"
+  },
+  {
+    "offset": 117407,
+    "length": 69,
+    "text": "xitRAs you Leave the Shopkeeper says, \"Excuse me but you have Left So"
+  },
+  {
+    "offset": 117412,
+    "length": 65,
+    "text": "s you Leave the Shopkeeper says, \"Excuse me but you have Left Som"
+  },
+  {
+    "offset": 117414,
+    "length": 32,
+    "text": "you Leave the Shopkeeper says, \""
+  },
+  {
+    "offset": 117418,
+    "length": 32,
+    "text": "Leave the Shopkeeper says, \"Excu"
+  },
+  {
+    "offset": 117419,
+    "length": 76,
+    "text": "eave the Shopkeeper says, \"Excuse me but you have Left Some Money here.\"  *D"
+  },
+  {
+    "offset": 117424,
+    "length": 32,
+    "text": "the Shopkeeper says, \"Excuse me "
+  },
+  {
+    "offset": 117428,
+    "length": 32,
+    "text": "Shopkeeper says, \"Excuse me but "
+  },
+  {
+    "offset": 117439,
+    "length": 32,
+    "text": "says, \"Excuse me but you have Le"
+  },
+  {
+    "offset": 117444,
+    "length": 44,
+    "text": " \"Excuse me but you have Left Some Money her"
+  },
+  {
+    "offset": 117445,
+    "length": 32,
+    "text": "\"Excuse me but you have Left Som"
+  },
+  {
+    "offset": 117446,
+    "length": 34,
+    "text": "Excuse me but you have Left Some M"
+  },
+  {
+    "offset": 117447,
+    "length": 69,
+    "text": "xcuse me but you have Left Some Money here.\"  *Do you want to go back"
+  },
+  {
+    "offset": 117453,
+    "length": 32,
+    "text": "me but you have Left Some Money "
+  },
+  {
+    "offset": 117456,
+    "length": 32,
+    "text": "but you have Left Some Money her"
+  },
+  {
+    "offset": 117460,
+    "length": 32,
+    "text": "you have Left Some Money here.\" "
+  },
+  {
+    "offset": 117464,
+    "length": 32,
+    "text": "have Left Some Money here.\"  *Do"
+  },
+  {
+    "offset": 117469,
+    "length": 32,
+    "text": "Left Some Money here.\"  *Do you "
+  },
+  {
+    "offset": 117470,
+    "length": 76,
+    "text": "eft Some Money here.\"  *Do you want to go back and get your Money?%Thanks fo"
+  },
+  {
+    "offset": 117474,
+    "length": 32,
+    "text": "Some Money here.\"  *Do you want "
+  },
+  {
+    "offset": 117479,
+    "length": 32,
+    "text": "Money here.\"  *Do you want to go"
+  },
+  {
+    "offset": 117480,
+    "length": 77,
+    "text": "oney here.\"  *Do you want to go back and get your Money?%Thanks for the tip. "
+  },
+  {
+    "offset": 117485,
+    "length": 32,
+    "text": "here.\"  *Do you want to go back "
+  },
+  {
+    "offset": 117490,
+    "length": 46,
+    "text": "\"  *Do you want to go back and get your Money?"
+  },
+  {
+    "offset": 117491,
+    "length": 34,
+    "text": "  *Do you want to go back and get "
+  },
+  {
+    "offset": 117492,
+    "length": 32,
+    "text": " *Do you want to go back and get"
+  },
+  {
+    "offset": 117493,
+    "length": 32,
+    "text": "*Do you want to go back and get "
+  },
+  {
+    "offset": 117494,
+    "length": 42,
+    "text": "Do you want to go back and get your Money?"
+  },
+  {
+    "offset": 117495,
+    "length": 68,
+    "text": "o you want to go back and get your Money?%Thanks for the tip.  Have "
+  },
+  {
+    "offset": 117497,
+    "length": 32,
+    "text": "you want to go back and get your"
+  },
+  {
+    "offset": 117501,
+    "length": 32,
+    "text": "want to go back and get your Mon"
+  },
+  {
+    "offset": 117506,
+    "length": 32,
+    "text": "to go back and get your Money?%T"
+  },
+  {
+    "offset": 117509,
+    "length": 32,
+    "text": "go back and get your Money?%Than"
+  },
+  {
+    "offset": 117512,
+    "length": 32,
+    "text": "back and get your Money?%Thanks "
+  },
+  {
+    "offset": 117517,
+    "length": 32,
+    "text": "and get your Money?%Thanks for t"
+  },
+  {
+    "offset": 117521,
+    "length": 32,
+    "text": "get your Money?%Thanks for the t"
+  },
+  {
+    "offset": 117525,
+    "length": 32,
+    "text": "your Money?%Thanks for the tip. "
+  },
+  {
+    "offset": 117530,
+    "length": 32,
+    "text": "Money?%Thanks for the tip.  Have"
+  },
+  {
+    "offset": 117537,
+    "length": 37,
+    "text": "Thanks for the tip.  Have a nice day."
+  },
+  {
+    "offset": 119688,
+    "length": 4,
+    "text": ".dax"
+  },
+  {
+    "offset": 120175,
+    "length": 5,
+    "text": "SPRIT"
+  },
+  {
+    "offset": 124737,
+    "length": 6,
+    "text": "Select"
+  },
+  {
+    "offset": 125975,
+    "length": 12,
+    "text": "t(<!t$<(t <*"
+  },
+  {
+    "offset": 126079,
+    "length": 7,
+    "text": " dies. "
+  },
+  {
+    "offset": 126087,
+    "length": 12,
+    "text": " is hit FOR "
+  },
+  {
+    "offset": 126100,
+    "length": 18,
+    "text": " points of Damage."
+  },
+  {
+    "offset": 126461,
+    "length": 5,
+    "text": "ITEM0"
+  },
+  {
+    "offset": 126467,
+    "length": 4,
+    "text": ".dax"
+  },
+  {
+    "offset": 126472,
+    "length": 24,
+    "text": "Unable to find item file"
+  },
+  {
+    "offset": 127423,
+    "length": 4,
+    "text": ".SAV"
+  },
+  {
+    "offset": 127428,
+    "length": 16,
+    "text": "from saved game "
+  },
+  {
+    "offset": 128373,
+    "length": 5,
+    "text": "*.who"
+  },
+  {
+    "offset": 128543,
+    "length": 4,
+    "text": "BUCK"
+  },
+  {
+    "offset": 128550,
+    "length": 27,
+    "text": "Is your save disk in drive "
+  },
+  {
+    "offset": 128582,
+    "length": 30,
+    "text": "Unexpected error during save: "
+  },
+  {
+    "offset": 129234,
+    "length": 5,
+    "text": "CHARS"
+  },
+  {
+    "offset": 129318,
+    "length": 4,
+    "text": ".who"
+  },
+  {
+    "offset": 129511,
+    "length": 34,
+    "text": "Can't save.  No room on this disk."
+  },
+  {
+    "offset": 129546,
+    "length": 16,
+    "text": "Lose character? "
+  },
+  {
+    "offset": 129563,
+    "length": 20,
+    "text": "Ok  Try another disk"
+  },
+  {
+    "offset": 129584,
+    "length": 4,
+    "text": ".who"
+  },
+  {
+    "offset": 129591,
+    "length": 4,
+    "text": ".sav"
+  },
+  {
+    "offset": 129630,
+    "length": 30,
+    "text": "Unexpected error during save: "
+  },
+  {
+    "offset": 129661,
+    "length": 15,
+    "text": " already exists"
+  },
+  {
+    "offset": 129677,
+    "length": 27,
+    "text": "Overwrite Rename Abort save"
+  },
+  {
+    "offset": 129705,
+    "length": 15,
+    "text": "New file name: "
+  },
+  {
+    "offset": 133073,
+    "length": 5,
+    "text": "CHARS"
+  },
+  {
+    "offset": 133079,
+    "length": 4,
+    "text": "CPIC"
+  },
+  {
+    "offset": 133308,
+    "length": 4,
+    "text": ".dax"
+  },
+  {
+    "offset": 133313,
+    "length": 22,
+    "text": "Unable to load Monster"
+  },
+  {
+    "offset": 134491,
+    "length": 10,
+    "text": "load from:"
+  },
+  {
+    "offset": 134502,
+    "length": 16,
+    "text": "Matrix Countdown"
+  },
+  {
+    "offset": 134519,
+    "length": 4,
+    "text": ".dat"
+  },
+  {
+    "offset": 134526,
+    "length": 17,
+    "text": "Load Which Game: "
+  },
+  {
+    "offset": 134578,
+    "length": 4,
+    "text": ".sav"
+  },
+  {
+    "offset": 134583,
+    "length": 4,
+    "text": "CPIC"
+  },
+  {
+    "offset": 136471,
+    "length": 17,
+    "text": "Save Which Game: "
+  },
+  {
+    "offset": 136489,
+    "length": 19,
+    "text": "A B C D E F G H I J"
+  },
+  {
+    "offset": 136541,
+    "length": 4,
+    "text": ".dat"
+  },
+  {
+    "offset": 136546,
+    "length": 34,
+    "text": "Can't save.  No room on this disk."
+  },
+  {
+    "offset": 136615,
+    "length": 30,
+    "text": "Unexpected error during save: "
+  },
+  {
+    "offset": 136626,
+    "length": 32,
+    "text": "error during save: \"WARNING: Pro"
+  },
+  {
+    "offset": 136632,
+    "length": 32,
+    "text": "during save: \"WARNING: Problem S"
+  },
+  {
+    "offset": 136639,
+    "length": 32,
+    "text": "save: \"WARNING: Problem Saving C"
+  },
+  {
+    "offset": 136645,
+    "length": 32,
+    "text": "\"WARNING: Problem Saving Charact"
+  },
+  {
+    "offset": 136646,
+    "length": 34,
+    "text": "WARNING: Problem Saving Characters"
+  },
+  {
+    "offset": 136681,
+    "length": 6,
+    "text": "CHRDAT"
+  },
+  {
+    "offset": 137924,
+    "length": 5,
+    "text": "ships"
+  },
+  {
+    "offset": 137930,
+    "length": 4,
+    "text": ".dax"
+  },
+  {
+    "offset": 137935,
+    "length": 15,
+    "text": "Maelstrom Rider"
+  },
+  {
+    "offset": 139302,
+    "length": 7,
+    "text": "name  :"
+  },
+  {
+    "offset": 139314,
+    "length": 7,
+    "text": "race  :"
+  },
+  {
+    "offset": 139326,
+    "length": 7,
+    "text": "gender:"
+  },
+  {
+    "offset": 139334,
+    "length": 6,
+    "text": "thaco:"
+  },
+  {
+    "offset": 139341,
+    "length": 7,
+    "text": "career:"
+  },
+  {
+    "offset": 139349,
+    "length": 6,
+    "text": "level:"
+  },
+  {
+    "offset": 139356,
+    "length": 7,
+    "text": "status:"
+  },
+  {
+    "offset": 139364,
+    "length": 11,
+    "text": "experience:"
+  },
+  {
+    "offset": 139376,
+    "length": 7,
+    "text": "credit:"
+  },
+  {
+    "offset": 139384,
+    "length": 4,
+    "text": "age:"
+  },
+  {
+    "offset": 139389,
+    "length": 7,
+    "text": "movmnt:"
+  },
+  {
+    "offset": 139397,
+    "length": 12,
+    "text": "encumbrance:"
+  },
+  {
+    "offset": 139410,
+    "length": 7,
+    "text": "damage:"
+  },
+  {
+    "offset": 139418,
+    "length": 7,
+    "text": "weapon:"
+  },
+  {
+    "offset": 139426,
+    "length": 7,
+    "text": "armor :"
+  },
+  {
+    "offset": 139434,
+    "length": 10,
+    "text": "abilities:"
+  },
+  {
+    "offset": 139445,
+    "length": 14,
+    "text": "career skills:"
+  },
+  {
+    "offset": 141847,
+    "length": 21,
+    "text": "Weapon Specialization"
+  },
+  {
+    "offset": 141869,
+    "length": 5,
+    "text": "Train"
+  },
+  {
+    "offset": 141875,
+    "length": 16,
+    "text": "Select a weapon "
+  },
+  {
+    "offset": 141899,
+    "length": 30,
+    "text": "Maximum specialization reached"
+  },
+  {
+    "offset": 143125,
+    "length": 5,
+    "text": "Gear "
+  },
+  {
+    "offset": 143131,
+    "length": 7,
+    "text": "Skills "
+  },
+  {
+    "offset": 143171,
+    "length": 6,
+    "text": "Trade "
+  },
+  {
+    "offset": 143178,
+    "length": 9,
+    "text": "Wpn spec "
+  },
+  {
+    "offset": 143188,
+    "length": 4,
+    "text": "Exit"
+  },
+  {
+    "offset": 143754,
+    "length": 17,
+    "text": "Must be unreadied"
+  },
+  {
+    "offset": 143847,
+    "length": 14,
+    "text": "itemptr:      "
+  },
+  {
+    "offset": 143862,
+    "length": 14,
+    "text": "namenum(1):   "
+  },
+  {
+    "offset": 143877,
+    "length": 14,
+    "text": "namenum(2):   "
+  },
+  {
+    "offset": 143892,
+    "length": 14,
+    "text": "namenum(3):   "
+  },
+  {
+    "offset": 143907,
+    "length": 14,
+    "text": "plus:         "
+  },
+  {
+    "offset": 143922,
+    "length": 14,
+    "text": "plussave:     "
+  },
+  {
+    "offset": 143937,
+    "length": 14,
+    "text": "not joinable: "
+  },
+  {
+    "offset": 143952,
+    "length": 14,
+    "text": "not treasure: "
+  },
+  {
+    "offset": 143967,
+    "length": 14,
+    "text": "ready:        "
+  },
+  {
+    "offset": 143982,
+    "length": 14,
+    "text": "german:       "
+  },
+  {
+    "offset": 143997,
+    "length": 14,
+    "text": "encumberance: "
+  },
+  {
+    "offset": 144012,
+    "length": 14,
+    "text": "numitems:     "
+  },
+  {
+    "offset": 144027,
+    "length": 14,
+    "text": "value:        "
+  },
+  {
+    "offset": 144042,
+    "length": 14,
+    "text": "special 1:    "
+  },
+  {
+    "offset": 144057,
+    "length": 14,
+    "text": "special 2:    "
+  },
+  {
+    "offset": 144072,
+    "length": 14,
+    "text": "special 3:    "
+  },
+  {
+    "offset": 144087,
+    "length": 14,
+    "text": "dice:         "
+  },
+  {
+    "offset": 144102,
+    "length": 14,
+    "text": "sides:        "
+  },
+  {
+    "offset": 144117,
+    "length": 14,
+    "text": "adds:         "
+  },
+  {
+    "offset": 144132,
+    "length": 11,
+    "text": "press a key"
+  },
+  {
+    "offset": 145586,
+    "length": 13,
+    "text": " has no gear."
+  },
+  {
+    "offset": 145632,
+    "length": 5,
+    "text": "Ready"
+  },
+  {
+    "offset": 145670,
+    "length": 6,
+    "text": " Trade"
+  },
+  {
+    "offset": 145677,
+    "length": 5,
+    "text": " Drop"
+  },
+  {
+    "offset": 145683,
+    "length": 6,
+    "text": " Halve"
+  },
+  {
+    "offset": 145690,
+    "length": 5,
+    "text": " Join"
+  },
+  {
+    "offset": 145696,
+    "length": 5,
+    "text": " Sell"
+  },
+  {
+    "offset": 145702,
+    "length": 4,
+    "text": "Gear"
+  },
+  {
+    "offset": 145707,
+    "length": 10,
+    "text": "Ready Item"
+  },
+  {
+    "offset": 145718,
+    "length": 22,
+    "text": " loads a heavy weapon."
+  },
+  {
+    "offset": 145741,
+    "length": 5,
+    "text": "Your "
+  },
+  {
+    "offset": 145747,
+    "length": 21,
+    "text": " will be gone forever"
+  },
+  {
+    "offset": 145769,
+    "length": 9,
+    "text": "Drop It? "
+  },
+  {
+    "offset": 147244,
+    "length": 14,
+    "text": "already using "
+  },
+  {
+    "offset": 147667,
+    "length": 16,
+    "text": "Trade with Whom?"
+  },
+  {
+    "offset": 147684,
+    "length": 10,
+    "text": "Overloaded"
+  },
+  {
+    "offset": 148002,
+    "length": 16,
+    "text": "Can't halve that"
+  },
+  {
+    "offset": 148706,
+    "length": 14,
+    "text": "I'll give you "
+  },
+  {
+    "offset": 148721,
+    "length": 18,
+    "text": " credits for your "
+  },
+  {
+    "offset": 148740,
+    "length": 14,
+    "text": "Will you sell "
+  },
+  {
+    "offset": 148760,
+    "length": 6,
+    "text": "them? "
+  },
+  {
+    "offset": 148767,
+    "length": 5,
+    "text": "Your "
+  },
+  {
+    "offset": 148773,
+    "length": 20,
+    "text": " is worthless to me."
+  },
+  {
+    "offset": 148794,
+    "length": 31,
+    "text": "Shall I dispose of it for you? "
+  },
+  {
+    "offset": 148826,
+    "length": 15,
+    "text": " are worthless."
+  },
+  {
+    "offset": 148827,
+    "length": 32,
+    "text": "are worthless. Would you like to"
+  },
+  {
+    "offset": 148831,
+    "length": 32,
+    "text": "worthless. Would you like to dis"
+  },
+  {
+    "offset": 148842,
+    "length": 32,
+    "text": "Would you like to discard them? "
+  },
+  {
+    "offset": 148875,
+    "length": 5,
+    "text": "Sold!"
+  },
+  {
+    "offset": 148880,
+    "length": 33,
+    "text": "!I will give it to one of my sons"
+  },
+  {
+    "offset": 148881,
+    "length": 33,
+    "text": "I will give it to one of my sons."
+  },
+  {
+    "offset": 148915,
+    "length": 30,
+    "text": "Very well.  I'll recycle them."
+  },
+  {
+    "offset": 149589,
+    "length": 31,
+    "text": "how many credits will you give?"
+  },
+  {
+    "offset": 150246,
+    "length": 15,
+    "text": "Pick Character "
+  },
+  {
+    "offset": 150262,
+    "length": 11,
+    "text": "Select Exit"
+  },
+  {
+    "offset": 150977,
+    "length": 11,
+    "text": "is bandaged"
+  },
+  {
+    "offset": 150989,
+    "length": 10,
+    "text": "is treated"
+  },
+  {
+    "offset": 151339,
+    "length": 6,
+    "text": "Select"
+  },
+  {
+    "offset": 151346,
+    "length": 5,
+    "text": " View"
+  },
+  {
+    "offset": 151352,
+    "length": 5,
+    "text": " Exit"
+  },
+  {
+    "offset": 152278,
+    "length": 8,
+    "text": "-\tL\tc\ti\t"
+  },
+  {
+    "offset": 153713,
+    "length": 6,
+    "text": "Needs "
+  },
+  {
+    "offset": 153720,
+    "length": 11,
+    "text": " points in "
+  },
+  {
+    "offset": 154710,
+    "length": 14,
+    "text": "General skills"
+  },
+  {
+    "offset": 154725,
+    "length": 20,
+    "text": "Career skill points:"
+  },
+  {
+    "offset": 154746,
+    "length": 21,
+    "text": "General skill points:"
+  },
+  {
+    "offset": 154768,
+    "length": 18,
+    "text": "Maximum per skill:"
+  },
+  {
+    "offset": 154787,
+    "length": 18,
+    "text": "Points Bonus Total"
+  },
+  {
+    "offset": 156148,
+    "length": 23,
+    "text": " has no general skills."
+  },
+  {
+    "offset": 156172,
+    "length": 13,
+    "text": "Add Subtract "
+  },
+  {
+    "offset": 156186,
+    "length": 10,
+    "text": "Prev Next "
+  },
+  {
+    "offset": 156197,
+    "length": 4,
+    "text": "Done"
+  },
+  {
+    "offset": 156203,
+    "length": 27,
+    "text": "No career skill points left"
+  },
+  {
+    "offset": 156231,
+    "length": 27,
+    "text": "Prerequisites not satisfied"
+  },
+  {
+    "offset": 156259,
+    "length": 31,
+    "text": "Skill at maximum for this level"
+  },
+  {
+    "offset": 156291,
+    "length": 28,
+    "text": "No general skill points left"
+  },
+  {
+    "offset": 156292,
+    "length": 78,
+    "text": "o general skill points left#Skill at maximum for general skills%No more new sk"
+  },
+  {
+    "offset": 156294,
+    "length": 32,
+    "text": "general skill points left#Skill "
+  },
+  {
+    "offset": 156302,
+    "length": 32,
+    "text": "skill points left#Skill at maxim"
+  },
+  {
+    "offset": 156308,
+    "length": 32,
+    "text": "points left#Skill at maximum for"
+  },
+  {
+    "offset": 156315,
+    "length": 32,
+    "text": "left#Skill at maximum for genera"
+  },
+  {
+    "offset": 156320,
+    "length": 35,
+    "text": "Skill at maximum for general skills"
+  },
+  {
+    "offset": 156326,
+    "length": 32,
+    "text": "at maximum for general skills%No"
+  },
+  {
+    "offset": 156329,
+    "length": 32,
+    "text": "maximum for general skills%No mo"
+  },
+  {
+    "offset": 156337,
+    "length": 32,
+    "text": "for general skills%No more new s"
+  },
+  {
+    "offset": 156341,
+    "length": 32,
+    "text": "general skills%No more new skill"
+  },
+  {
+    "offset": 156349,
+    "length": 32,
+    "text": "skills%No more new skills allowe"
+  },
+  {
+    "offset": 156356,
+    "length": 37,
+    "text": "No more new skills allowed this level"
+  },
+  {
+    "offset": 156357,
+    "length": 78,
+    "text": "o more new skills allowed this level!some career points unspent. Exit?\"some ge"
+  },
+  {
+    "offset": 156359,
+    "length": 32,
+    "text": "more new skills allowed this lev"
+  },
+  {
+    "offset": 156364,
+    "length": 32,
+    "text": "new skills allowed this level!so"
+  },
+  {
+    "offset": 156368,
+    "length": 32,
+    "text": "skills allowed this level!some c"
+  },
+  {
+    "offset": 156375,
+    "length": 32,
+    "text": "allowed this level!some career p"
+  },
+  {
+    "offset": 156383,
+    "length": 32,
+    "text": "this level!some career points un"
+  },
+  {
+    "offset": 156388,
+    "length": 32,
+    "text": "level!some career points unspent"
+  },
+  {
+    "offset": 156394,
+    "length": 33,
+    "text": "some career points unspent. Exit?"
+  },
+  {
+    "offset": 156399,
+    "length": 32,
+    "text": "career points unspent. Exit?\"som"
+  },
+  {
+    "offset": 156406,
+    "length": 32,
+    "text": "points unspent. Exit?\"some gener"
+  },
+  {
+    "offset": 156413,
+    "length": 32,
+    "text": "unspent. Exit?\"some general poin"
+  },
+  {
+    "offset": 156422,
+    "length": 32,
+    "text": "Exit?\"some general points unspen"
+  },
+  {
+    "offset": 156428,
+    "length": 34,
+    "text": "some general points unspent. Exit?"
+  },
+  {
+    "offset": 160874,
+    "length": 10,
+    "text": "Credits : "
+  },
+  {
+    "offset": 160886,
+    "length": 32,
+    "text": "              How many credits w"
+  },
+  {
+    "offset": 160887,
+    "length": 32,
+    "text": "             How many credits wi"
+  },
+  {
+    "offset": 160888,
+    "length": 32,
+    "text": "            How many credits wil"
+  },
+  {
+    "offset": 160889,
+    "length": 32,
+    "text": "           How many credits will"
+  },
+  {
+    "offset": 160890,
+    "length": 32,
+    "text": "          How many credits will "
+  },
+  {
+    "offset": 160891,
+    "length": 32,
+    "text": "         How many credits will y"
+  },
+  {
+    "offset": 160892,
+    "length": 32,
+    "text": "        How many credits will yo"
+  },
+  {
+    "offset": 160893,
+    "length": 32,
+    "text": "       How many credits will you"
+  },
+  {
+    "offset": 160894,
+    "length": 32,
+    "text": "      How many credits will you "
+  },
+  {
+    "offset": 160895,
+    "length": 32,
+    "text": "     How many credits will you t"
+  },
+  {
+    "offset": 160896,
+    "length": 32,
+    "text": "    How many credits will you ta"
+  },
+  {
+    "offset": 160897,
+    "length": 32,
+    "text": "   How many credits will you tak"
+  },
+  {
+    "offset": 160898,
+    "length": 32,
+    "text": "  How many credits will you take"
+  },
+  {
+    "offset": 160899,
+    "length": 32,
+    "text": " How many credits will you take?"
+  },
+  {
+    "offset": 160900,
+    "length": 32,
+    "text": "How many credits will you take? "
+  },
+  {
+    "offset": 162335,
+    "length": 11,
+    "text": "is helpless"
+  },
+  {
+    "offset": 162674,
+    "length": 5,
+    "text": "thac0"
+  },
+  {
+    "offset": 163536,
+    "length": 6,
+    "text": "takes "
+  },
+  {
+    "offset": 163543,
+    "length": 18,
+    "text": " points of damage "
+  },
+  {
+    "offset": 163562,
+    "length": 24,
+    "text": "takes 1 point of damage "
+  },
+  {
+    "offset": 163587,
+    "length": 9,
+    "text": "Goes Down"
+  },
+  {
+    "offset": 163597,
+    "length": 14,
+    "text": ", and is Dying"
+  },
+  {
+    "offset": 163644,
+    "length": 9,
+    "text": "is killed"
+  },
+  {
+    "offset": 164093,
+    "length": 13,
+    "text": "is Unaffected"
+  },
+  {
+    "offset": 164515,
+    "length": 26,
+    "text": "The air clears a little..."
+  },
+  {
+    "offset": 165432,
+    "length": 6,
+    "text": " Yes  "
+  },
+  {
+    "offset": 166298,
+    "length": 9,
+    "text": "Hitpoints"
+  },
+  {
+    "offset": 166311,
+    "length": 10,
+    "text": "(helpless)"
+  },
+  {
+    "offset": 166322,
+    "length": 9,
+    "text": "(blinded)"
+  },
+  {
+    "offset": 166332,
+    "length": 9,
+    "text": "(stunned)"
+  },
+  {
+    "offset": 166342,
+    "length": 13,
+    "text": "(intimidated)"
+  },
+  {
+    "offset": 167245,
+    "length": 19,
+    "text": "Nil Item pointer..."
+  },
+  {
+    "offset": 167249,
+    "length": 32,
+    "text": "Item pointer...&Tried to Lose it"
+  },
+  {
+    "offset": 167254,
+    "length": 32,
+    "text": "pointer...&Tried to Lose item & "
+  },
+  {
+    "offset": 167265,
+    "length": 38,
+    "text": "Tried to Lose item & couldn't find it!"
+  },
+  {
+    "offset": 167271,
+    "length": 32,
+    "text": "to Lose item & couldn't find it!"
+  },
+  {
+    "offset": 172587,
+    "length": 5,
+    "text": " tons"
+  },
+  {
+    "offset": 172593,
+    "length": 5,
+    "text": " feet"
+  },
+  {
+    "offset": 173686,
+    "length": 17,
+    "text": "Sensors Destroyed"
+  },
+  {
+    "offset": 174105,
+    "length": 7,
+    "text": "Range: "
+  },
+  {
+    "offset": 174363,
+    "length": 8,
+    "text": "Weapons:"
+  },
+  {
+    "offset": 174372,
+    "length": 4,
+    "text": "Ammo"
+  },
+  {
+    "offset": 174377,
+    "length": 7,
+    "text": "Reloads"
+  },
+  {
+    "offset": 175434,
+    "length": 8,
+    "text": " camping"
+  },
+  {
+    "offset": 175443,
+    "length": 7,
+    "text": " search"
+  },
+  {
+    "offset": 177649,
+    "length": 19,
+    "text": " slips into a coma!"
+  },
+  {
+    "offset": 177669,
+    "length": 5,
+    "text": "s are"
+  },
+  {
+    "offset": 177679,
+    "length": 13,
+    "text": "Your Teammate"
+  },
+  {
+    "offset": 177693,
+    "length": 7,
+    "text": " Dying!"
+  },
+  {
+    "offset": 178170,
+    "length": 5,
+    "text": "name:"
+  },
+  {
+    "offset": 178176,
+    "length": 5,
+    "text": "type:"
+  },
+  {
+    "offset": 178182,
+    "length": 5,
+    "text": "race:"
+  },
+  {
+    "offset": 178188,
+    "length": 8,
+    "text": "tonnage:"
+  },
+  {
+    "offset": 178197,
+    "length": 7,
+    "text": "length:"
+  },
+  {
+    "offset": 178205,
+    "length": 6,
+    "text": "width:"
+  },
+  {
+    "offset": 178212,
+    "length": 6,
+    "text": "cargo:"
+  },
+  {
+    "offset": 178223,
+    "length": 5,
+    "text": "crew:"
+  },
+  {
+    "offset": 178229,
+    "length": 6,
+    "text": "speed:"
+  },
+  {
+    "offset": 178236,
+    "length": 6,
+    "text": "react:"
+  },
+  {
+    "offset": 178243,
+    "length": 6,
+    "text": "range:"
+  },
+  {
+    "offset": 178250,
+    "length": 7,
+    "text": "ramming"
+  },
+  {
+    "offset": 178258,
+    "length": 5,
+    "text": "short"
+  },
+  {
+    "offset": 178264,
+    "length": 6,
+    "text": "medium"
+  },
+  {
+    "offset": 178271,
+    "length": 4,
+    "text": "long"
+  },
+  {
+    "offset": 178276,
+    "length": 7,
+    "text": "extreme"
+  },
+  {
+    "offset": 178284,
+    "length": 17,
+    "text": "medical supplies:"
+  },
+  {
+    "offset": 179758,
+    "length": 9,
+    "text": "\"3\"N\"S\"a\""
+  },
+  {
+    "offset": 180384,
+    "length": 5,
+    "text": "ships"
+  },
+  {
+    "offset": 180532,
+    "length": 5,
+    "text": "ships"
+  },
+  {
+    "offset": 184962,
+    "length": 4,
+    "text": "Aim:"
+  },
+  {
+    "offset": 188094,
+    "length": 5,
+    "text": " Next"
+  },
+  {
+    "offset": 188100,
+    "length": 5,
+    "text": " Prev"
+  },
+  {
+    "offset": 188106,
+    "length": 5,
+    "text": " Exit"
+  },
+  {
+    "offset": 189225,
+    "length": 6,
+    "text": "Yes No"
+  },
+  {
+    "offset": 189658,
+    "length": 4,
+    "text": "Name"
+  },
+  {
+    "offset": 189663,
+    "length": 5,
+    "text": "AC HP"
+  },
+  {
+    "offset": 191379,
+    "length": 7,
+    "text": "Mercury"
+  },
+  {
+    "offset": 191387,
+    "length": 5,
+    "text": "Venus"
+  },
+  {
+    "offset": 191393,
+    "length": 5,
+    "text": "Earth"
+  },
+  {
+    "offset": 191399,
+    "length": 4,
+    "text": "Mars"
+  },
+  {
+    "offset": 191404,
+    "length": 9,
+    "text": "Asteroids"
+  },
+  {
+    "offset": 192080,
+    "length": 4,
+    "text": ".dax"
+  },
+  {
+    "offset": 192085,
+    "length": 13,
+    "text": "PIC not found"
+  },
+  {
+    "offset": 194512,
+    "length": 30,
+    "text": "Illegal range in Show3DSprite."
+  },
+  {
+    "offset": 194671,
+    "length": 6,
+    "text": "bigpic"
+  },
+  {
+    "offset": 198703,
+    "length": 4,
+    "text": "back"
+  },
+  {
+    "offset": 198844,
+    "length": 7,
+    "text": "WALLDEF"
+  },
+  {
+    "offset": 198852,
+    "length": 4,
+    "text": ".dax"
+  },
+  {
+    "offset": 198857,
+    "length": 15,
+    "text": "Unable to load "
+  },
+  {
+    "offset": 198873,
+    "length": 13,
+    "text": " from WALLDEF"
+  },
+  {
+    "offset": 199337,
+    "length": 4,
+    "text": ".dax"
+  },
+  {
+    "offset": 199342,
+    "length": 32,
+    "text": "Unable to load geo in Load3DMap."
+  },
+  {
+    "offset": 209445,
+    "length": 21,
+    "text": "!Start range error in"
+  },
+  {
+    "offset": 209446,
+    "length": 33,
+    "text": "Start range error in Load24x24Set"
+  },
+  {
+    "offset": 209781,
+    "length": 6,
+    "text": "COMSPR"
+  },
+  {
+    "offset": 209788,
+    "length": 4,
+    "text": "ICON"
+  },
+  {
+    "offset": 209793,
+    "length": 5,
+    "text": "CHARS"
+  },
+  {
+    "offset": 209799,
+    "length": 4,
+    "text": "CPIC"
+  },
+  {
+    "offset": 211126,
+    "length": 10,
+    "text": "slotnum = "
+  },
+  {
+    "offset": 211169,
+    "length": 7,
+    "text": "borders"
+  },
+  {
+    "offset": 211182,
+    "length": 15,
+    "text": "Unable to load "
+  },
+  {
+    "offset": 211198,
+    "length": 6,
+    "text": " from "
+  }
+]

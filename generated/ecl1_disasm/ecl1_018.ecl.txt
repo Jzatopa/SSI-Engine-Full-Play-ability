@@ -1,0 +1,217 @@
+vm_run_1           0x9128
+SearchLocation     0x9128
+PreCampCheck       0x9128
+CampInterrupted    0x9128
+ecl_initial_entry  0x8014
+
+0x8014 0x09 SAVE area1.word_1CE = 1
+
+0x801A 0x09 SAVE area1.word_1D0 = 1
+
+0x8020 0x09 SAVE area1.word_1D2 = 1
+
+0x8026 0x09 SAVE area2.word_58C = 85
+
+0x802C 0x09 SAVE area1.event_word_28A = 99
+
+0x8032 0x21 LOAD FILES Load GEO 18 raw=(18, 127, 255)
+
+0x8039 0x37 LOAD PIECES Load WALLDEF 127 127 5
+
+0x8040 0x09 SAVE area1.word_14A = 3
+
+0x8046 0x03 COMPARE Values: area1.LastEclBlockId == 17
+
+0x804C 0x17 IF <> <if compare flag is false, skip next op>
+0x804D 0x01 GOTO 0x825F
+
+0x8051 0x09 SAVE area1.event_word_2C6 = 10
+
+0x8057 0x03 COMPARE Values: area1.event_word_3CC == 20000
+
+0x805E 0x19 IF > <if compare flag is false, skip next op>
+0x805F 0x09 SAVE area1.event_word_3CC = 20000
+
+0x8067 0x00 EXIT
+
+0x825F 0x09 SAVE area1.event_word_20A = 0
+
+0x8265 0x03 COMPARE Values: area1.LastEclBlockId == 80
+
+0x826B 0x16 IF = <if compare flag is false, skip next op>
+0x826C 0x2F AND area2.event_scratch0 = 16 & area1.event_word_270
+
+0x8275 0x16 IF = <if compare flag is false, skip next op>
+0x8276 0x01 GOTO 0x82B0
+
+0x827B 0x00 EXIT
+
+0x82B0 0x30 OR area1.event_word_270 = 16 | area1.event_word_270
+
+0x82BA 0x00 EXIT
+
+0x9128 0x09 SAVE area1.LastEclBlockId = 18
+
+0x912E 0x0E PICTURE block_id: area1.event_word_28A
+
+0x9132 0x12 PRINTCLEAR 'WHERE DO YOU WISH TO GO?'
+
+0x9147 0x2B HORIZONTAL MENU area2.event_scratch0 = <selected index from menu> MENU: 'BAR', 'CLINIC', 'DEPOT', 'TRAINING', 'PORT'
+
+0x916C 0x26 ON GOSUB area2.event_scratch0 of [0x9432, 0x937C, 0x9422, 0x9185, 0x918F]
+
+0x9181 0x01 GOTO 0x9128
+
+0x9185 0x09 SAVE area2.training_class_mask = 127
+
+0x918B 0x38 PROGRAM StartGameMenu
+
+0x918E 0x13 RETURN
+0x918F 0x12 PRINTCLEAR 'YOU ARE IN THE SALVATION PORT AREA.'
+
+0x91AD 0x33 PRINT RETURN
+0x91AE 0x33 PRINT RETURN
+0x91AF 0x31 SPRITE OFF
+
+0x91B3 0x00 EXIT
+
+0x937C 0x09 SAVE area2.event_scratch0 = 0
+
+0x9382 0x12 PRINTCLEAR 'THE AUTODOC HEALS EVERYONE IN THE TEAM.'
+
+0x9422 0x09 SAVE area2.word_6DA = 16
+
+0x9428 0x09 SAVE area2.word_7EC = 1
+
+0x942F 0x00 EXIT
+
+0x9432 0x09 SAVE area1.event_word_206 = 0
+
+0x9438 0x12 PRINTCLEAR "YOU ENTER 'THE LOST ORBIT' -- SALVATION'S PORT LOUNGE."
+
+0x9464 0x33 PRINT RETURN
+0x9465 0x33 PRINT RETURN
+0x9466 0x11 PRINT 'WHAT DO YOU DO?'
+
+0x9475 0x2B HORIZONTAL MENU area2.event_scratch0 = <selected index from menu> MENU: 'BUY DRINKS', 'TALK', 'WAIT', 'EXIT'
+
+0x9494 0x25 ON GOTO area2.event_scratch0 of [0x94A6, 0x95C2, 0x9638, 0x9D42]
+
+0x94A6 0x07 MULTIPLY area2.event_scratch2 = area2.party_size * 4
+
+0x94AF 0x12 PRINTCLEAR 'A ROUND OF DRINKS WILL COST '
+
+0x94C7 0x11 PRINT area2.event_scratch2
+
+0x94CB 0x11 PRINT ' CREDITS.'
+
+0x95C2 0x03 COMPARE Values: area1.event_word_206 == 0
+
+0x95C8 0x16 IF = <if compare flag is false, skip next op>
+0x95C9 0x01 GOTO 0x9663
+
+0x95CD 0x05 SUBTRACT area1.event_word_206 = area1.event_word_206 - 1
+
+0x95D6 0x12 PRINTCLEAR 'YOU CHAT WITH THE OTHER PATRONS. '
+
+0x95F2 0x03 COMPARE Values: area1.event_word_26C == 7
+
+0x95F8 0x1A IF <= <if compare flag is false, skip next op>
+0x95F9 0x01 GOTO 0x961B
+
+0x95FD 0x03 COMPARE Values: area1.event_word_20A == 3
+
+0x9603 0x1A IF <= <if compare flag is false, skip next op>
+0x9604 0x01 GOTO 0x961B
+
+0x9608 0x08 RANDOM area2.event_scratch0 = random 1..99
+
+0x960E 0x03 COMPARE Values: area2.event_scratch0 == 40
+
+0x9614 0x19 IF > <if compare flag is false, skip next op>
+
+0x9616 0x19 IF > <if compare flag is false, skip next op>
+0x9617 0x01 GOTO 0x9714
+
+0x961B 0x11 PRINT 'NOTHING NOTEWORTHY HAPPENS.'
+
+0x9638 0x03 COMPARE Values: area1.event_word_206 == 0
+
+0x963E 0x16 IF = <if compare flag is false, skip next op>
+0x963F 0x01 GOTO 0x9663
+
+0x9643 0x05 SUBTRACT area1.event_word_206 = area1.event_word_206 - 1
+
+0x964C 0x12 PRINTCLEAR 'YOU WAIT IN THE BAR. '
+
+0x965F 0x01 GOTO 0x95F2
+
+0x9663 0x12 PRINTCLEAR 'THE BARTENDER YELLS, HEY! '
+
+0x967A 0x08 RANDOM area2.event_scratch0 = random 1..1
+
+0x9680 0x25 ON GOTO area2.event_scratch0 of [0x968C, 0x96AF]
+
+0x968C 0x11 PRINT 'YOU BUMS GONNA BUY A DRINK...OR WHAT?'
+
+0x96AB 0x01 GOTO 0x96E0
+
+0x96AF 0x11 PRINT "THIS AIN'T NO PUBLIC PARK! BUY A DRINK...OR BLAST OUTTA HERE!"
+
+0x96E0 0x33 PRINT RETURN
+0x96E1 0x33 PRINT RETURN
+0x96E2 0x11 PRINT 'DO YOU BUY A DRINK?'
+
+0x9714 0x25 ON GOTO area1.event_word_26C of [0x972F, 0x97CA, 0x9823, 0x9895, 0x9B01, 0x9B5B, 0x9C6C]
+
+0x972F 0x12 PRINTCLEAR "A CLERK APPROACHES YOUR TABLE. 'HEARD ABOUT WHAT HAPPENED IN NEW LONDONORG?"
+
+0x97CA 0x0E PICTURE block_id: 80
+
+0x97CD 0x12 PRINTCLEAR "CARLTON TURABIAN WALKS UP. 'STEP IT UP, FOLKS! DON'T YOU HAVE BETTER THINGS TO DO?'"
+
+0x9823 0x12 PRINTCLEAR "A NEO CAPTAIN BUYS A ROUND OF DRINKS. 'WE JUST SHOT UP A RAM CRUISER OFF AURORA!'"
+
+0x9895 0x12 PRINTCLEAR 'AN UNKEMPT LOOKING ROCKET JOCK STEPS UP.'
+
+0x9B01 0x0E PICTURE block_id: 80
+
+0x9B04 0x12 PRINTCLEAR 'YOU NOTICE CARLTON TURABIAN DRINKING IN A BACK BOOTH.'
+
+0x9B5B 0x12 PRINTCLEAR 'AN OLD WARRIOR EYES YOU WITH APPROVAL. HE DRAWS A FINE MONO SWORD.'
+
+0x9C6C 0x12 PRINTCLEAR "A MINER TELLS YOU ABOUT JUPITER, 'I'D LIKE TO GET INTO DIP MINING THE JUPITER ATMOSPHERE, BUT THOSE STORMRIDERS GOT IT ALL TIED UP!'"
+
+0x9CD2 0x01 GOTO 0x9CD6
+
+0x9CD6 0x04 ADD area1.event_word_26C = 1 + area1.event_word_26C
+
+0x9CDF 0x04 ADD area1.event_word_20A = 1 + area1.event_word_20A
+
+0x9CE9 0x01 GOTO 0x9464
+
+0x9D42 0x12 PRINTCLEAR 'YOU LEAVE THE BAR.'
+
+Text fallthrough boundaries skipped:
+- 0x94D5: 0x29 after PRINT
+- 0x93A3: 0x29 after PRINTCLEAR
+- 0x9D53: 0x29 after PRINTCLEAR
+- 0x9633: 0x29 after PRINT
+- 0x976B: 0x29 after PRINTCLEAR
+- 0x96F4: 0x2C after PRINT
+- 0x980F: 0x29 after PRINTCLEAR
+- 0x9863: 0x29 after PRINTCLEAR
+- 0x98B6: 0x29 after PRINTCLEAR
+- 0x9B2F: 0x29 after PRINTCLEAR
+- 0x9B90: 0x29 after PRINTCLEAR
+
+Prefixed fallthroughs normalized:
+- 0x91B0 -> 0x91B3
+- 0x9615 -> 0x9616
+- 0x9CE8 -> 0x9CE9
+
+Unknown-prefixed fallthroughs normalized:
+- 0x8066 -> 0x8067
+- 0x942E -> 0x942F
+- 0x827A -> 0x827B
+- 0x82B9 -> 0x82BA

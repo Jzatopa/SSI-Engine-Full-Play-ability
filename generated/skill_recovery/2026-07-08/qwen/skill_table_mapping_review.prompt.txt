@@ -1,0 +1,237 @@
+Matrix Cubed skill recovery Qwen-Coder advisory job: skill table mapping review
+
+Use only the supplied evidence. Do not invent paths, offsets, APIs, skill names,
+test results, or original-game facts.
+
+Return compact Markdown with these sections:
+VERIFIED_FROM_PROMPT, CANDIDATES, RISKS, LOCAL_VALIDATION_STEPS,
+UNSUPPORTED_CLAIMS.
+
+Treat all output as advisory. Local byte/source/test evidence decides what gets
+implemented.
+
+Goal: review whether the supplied evidence supports mapping skill ids 1..84 to START.EXE names and WHO offsets 0x4C + skill_id. Identify validation gaps.
+
+Skill table:
+skill_id	who_offset	start_exe_offset	text
+0		62241	technical Skills
+1	77	62262	Repair Electrical
+2	78	62289	Repair Mechanical
+3	79	62316	Repair Nuclear Engine
+4	80	62343	Repair Life Support
+5	81	62370	Repair Rocket Hull
+6	82	62397	Jury Rig
+7	83	62415	Bypass Security
+8	84	62440	Open Lock
+9	85	62459	Commo Operation
+10	86	62484	Sensor Operation
+11	87	62510	Demolitions
+12	88	62531	Cook
+13	89	62544	First Aid
+14	90	62563	Repair Weapon
+15	91	62586	Repair Computer
+16	92	62610	Life Suspension Tech
+17	93	62637	Treat Light Wounds
+18	94	62664	Treat Serious Wounds
+19	95	62691	Treat Critical Wounds
+20	96	62718	Treat Poisoning
+21	97	62743	Treat Stun/Paralysis
+22	98	62770	Treat Disease
+23	99	62793	Diagnose
+24	100	62811	General Knowledge
+25	101	62837	Ship Lore
+26	102	62855	Composition
+27	103	62875	Mathematics
+28	104	62896	Physics
+29	105	62912	Geology
+30	106	62928	Planetology
+31	107	62949	Battle Tactics
+32	108	62973	Chemistry
+33	109	62991	Biology
+34	110	63007	Design Engineering
+35	111	63034	History
+36	112	63050	Astronomy
+37	113	63069	Botany
+38	114	63084	Literature
+39	115	63103	Economics
+40	116	63121	Metallurgy
+41	117	63140	Speak/Read Lang.
+42	118	63165	Law
+43	119	63177	Programming
+44	120	63198	Crytography
+45	121	63218	Library Search
+46	122	63242	Astrogation
+47	123	63263	Navigation
+48	124	63283	Mimic
+49	125	63297	Memorize
+50	126	63314	Disguise
+51	127	63332	Pilot Rocket
+52	128	63354	Pilot Fixed Wing
+53	129	63380	Drive Ground Car
+54	130	63406	Pilot Rotor Wing
+55	131	63432	Drive Motorcycle
+56	132	63457	Use Jetpack
+57	133	63478	Pilot Ship/Sub
+58	134	63501	Drive Hvy Grnd Vehc
+59	135	63528	Drive Jetcar
+60	136	63550	Animal Riding
+61	137	63572	Hide in Shadows
+62	138	63597	Move Silently
+63	139	63620	Pick Pockets
+64	140	63642	Acrobatics
+65	141	63662	Climb
+66	142	63677	Swimming
+67	143	63694	Maneuver in 0G
+68	144	63718	Play Instrumnt
+69	145	63741	Paint/Draw
+70	146	63760	Hypnosis
+71	147	63777	Act
+72	148	63790	Intimidate
+73	149	63810	Leadership
+74	150	63830	Befriend Animal
+75	151	63855	Animal Training
+76	152	63879	Fast Talk/Convince
+77	153	63906	Singing
+78	154	63923	Distract
+79	155	63941	Etiquette
+80	156	63960	Tracking
+81	157	63978	Shadowing
+82	158	63997	Read Lips
+83	159	64015	Notice
+84	160	64031	Planetary Survival
+
+
+Decompiler evidence:
+## 1000_8467_FUN_1000_8467.c
+
+void __stdcall16far FUN_1000_8467(void)
+
+{
+  undefined4 uVar1;
+  undefined1 uVar2;
+  undefined2 unaff_CS;
+  undefined2 unaff_DS;
+  undefined1 local_3;
+  
+  uVar1 = *(undefined4 *)0x57fb;
+  local_3 = 1;
+  while( true ) {
+    uVar2 = FUN_0000_088a(unaff_CS,local_3,*(undefined2 *)0x57fb,*(undefined2 *)0x57fd);
+    *(undefined1 *)((int)uVar1 + (uint)local_3 + 0x4c) = uVar2;
+    if (local_3 == 0x55) break;
+    local_3 = local_3 + 1;
+    unaff_CS = 0x86;
+  }
+  return;
+}
+
+
+
+
+## 2000_b375_FUN_2000_b375.c
+
+undefined2 __stdcall16far FUN_2000_b375(char param_1,undefined4 param_2)
+
+{
+  char cVar1;
+  int iVar2;
+  int iVar3;
+  undefined2 uVar4;
+  undefined1 local_3;
+  
+  iVar2 = (int)param_1;
+  uVar4 = (undefined2)((ulong)param_2 >> 0x10);
+  iVar3 = (int)param_2;
+  if ((*(char *)(iVar3 + iVar2 + 0x4c) == '\0') || (*(char *)(iVar3 + 0xd5) == '\0')) {
+    local_3 = 0;
+  }
+  else {
+    cVar1 = FUN_2000_b332((int)param_1,iVar3,uVar4);
+    iVar2 = (uint)*(byte *)(iVar3 + param_1 + 0x4c) + (int)cVar1;
+    local_3 = (undefined1)iVar2;
+  }
+  return CONCAT11((char)((uint)iVar2 >> 8),local_3);
+}
+
+
+
+
+## 2000_5605_FUN_2000_5605.c
+
+void __cdecl16far FUN_2000_5605(void)
+
+{
+  char cVar1;
+  undefined2 uVar2;
+  undefined2 uVar3;
+  undefined2 unaff_DS;
+  undefined2 uVar4;
+  undefined2 uVar5;
+  char local_5;
+  char local_4;
+  char local_3;
+  
+  FUN_0000_e6d2(0);
+  FUN_0000_e6d2(0);
+  uVar5 = 0x44a5;
+  uVar4 = 7;
+  FUN_0000_e6d2(0);
+  *(undefined1 *)0x449e = 1;
+  *(undefined1 *)0x44a5 = 8;
+  for (local_3 = '\x01';
+      *(undefined1 *)(local_3 + 0x4449) =
+           *(undefined1 *)(*(char *)((int)*(undefined4 *)0x57fb + 0x28) * 8 + (int)local_3 + 0xfdb),
+      local_3 != '\b'; local_3 = local_3 + '\x01') {
+  }
+  local_5 = *(char *)0x1558;
+  *(undefined1 *)(local_5 + 0x449e) = 9;
+  local_4 = '\b';
+  *(undefined1 *)0x40e9 = 0;
+  local_3 = '\x01';
+  uVar3 = 0xcc0;
+  do {
+    if (((((((int)local_3 == (uint)*(byte *)0x444a) || ((int)local_3 == (uint)*(byte *)0x444b)) ||
+          ((int)local_3 == (uint)*(byte *)0x444c)) ||
+         (((int)local_3 == (uint)(byte)*(code *)FUN_0000_444d ||
+          ((int)local_3 == (uint)*(byte *)0x444e)))) ||
+        (((int)local_3 == (uint)*(byte *)0x444f ||
+         (((int)local_3 == (uint)*(byte *)0x4450 || ((int)local_3 == (uint)*(byte *)0x4451)))))) ||
+       (('\x0f' < local_3 && (local_3 < '\x18')))) {
+LAB_2000_57f5:
+      local_4 = local_4 + -1;
+      uVar2 = uVar3;
+    }
+    else {
+      uVar2 = uVar3;
+      if (*(char *)0x40ea != '\0') {
+        uVar2 = 0x99;
+        cVar1 = FUN_0000_0a6e(uVar3,(int)local_3,*(undefined2 *)0x57fb,*(undefined2 *)0x57fd,uVar4,
+                              uVar5);
+        uVar3 = uVar2;
+        if (cVar1 == '\0') goto LAB_2000_57f5;
+      }
+      uVar3 = uVar2;
+      if (*(char *)(local_3 * 0x1b + 0x153c) == '\0') goto LAB_2000_57f5;
+      if (*(char *)((int)*(undefined4 *)0x57fb + (int)local_3 + 0x4c) != '\0') {
+        *(char *)0x40e9 = *(char *)0x40e9 + '\x01';
+      }
+      *(char *)((int)local_3 + (int)local_4 + 0x4449) = local_3;
+      if (*(char *)(local_3 * 0x1b + 0x153d) != local_5) {
+        *(char *)(local_5 + 0x44a5) = local_3 + local_4 + -1;
+        local_5 = *(char *)(local_3 * 0x1b + 0x153d);
+        *(char *)(local_5 + 0x449e) = local_3 + local_4;
+      }
+    }
+    if (local_3 == 'T') {
+      *(char *)(local_5 + 0x44a5) = local_4 + 'T';
+      *(undefined1 *)0x44a0 = 9;
+      *(char *)0x44a7 = local_4 + 'T';
+      return;
+    }
+    local_3 = local_3 + '\x01';
+    uVar3 = uVar2;
+  } while( true );
+}
+
+
+

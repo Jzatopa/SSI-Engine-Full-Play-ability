@@ -1,0 +1,348 @@
+Matrix Cubed reconstruction Qwen-Coder advisory job: COAB port-map comparison
+
+Use only the supplied evidence. Do not invent paths, offsets, APIs,
+names, source files, test results, or original-game facts.
+
+Return compact Markdown, maximum 700 words, with these sections:
+VERIFIED_FROM_PROMPT, CANDIDATES, RISKS, LOCAL_VALIDATION_STEPS,
+UNSUPPORTED_CLAIMS.
+
+Treat every match/name as a candidate until a local agent verifies it
+against original bytes, generated artifacts, source code, and tests.
+
+Goal: compare the documented port plan/audit against the current Java package listing. Identify likely missing integration surfaces, branch risks, adapter boundaries, and validation steps. Do not recommend editing files currently claimed by Claude; produce an integration checklist.
+
+Current package listing:
+references/ssi-engine/src/main/java/data/character/AbstractCharacter.java
+references/ssi-engine/src/main/java/data/character/BuckRogersEmbeddedItem.java
+references/ssi-engine/src/main/java/data/character/BuckRogersItemCatalogBlock.java
+references/ssi-engine/src/main/java/data/character/BuckRogersMonsterInventoryBlock.java
+references/ssi-engine/src/main/java/data/character/CharacterBuckRogers.java
+references/ssi-engine/src/main/java/data/character/CharacterForgottenRealms.java
+references/ssi-engine/src/main/java/data/character/CharacterForgottenRealmsUnlimited.java
+references/ssi-engine/src/main/java/data/character/CharacterValue.java
+references/ssi-engine/src/main/java/data/character/CharacterValueType.java
+references/ssi-engine/src/main/java/data/character/CharacterValues.java
+references/ssi-engine/src/main/java/data/character/ClassSelections.java
+references/ssi-engine/src/main/java/data/character/DataType.java
+references/ssi-engine/src/main/java/data/character/ScriptModificationType.java
+references/ssi-engine/src/main/java/engine/Engine.java
+references/ssi-engine/src/main/java/engine/EngineAddress.java
+references/ssi-engine/src/main/java/engine/EngineCallback.java
+references/ssi-engine/src/main/java/engine/EngineConfiguration.java
+references/ssi-engine/src/main/java/engine/EngineInputAction.java
+references/ssi-engine/src/main/java/engine/VirtualMachine.java
+references/ssi-engine/src/main/java/engine/VirtualMemory.java
+references/ssi-engine/src/main/java/engine/character/CharacterCreator.java
+references/ssi-engine/src/main/java/engine/character/CharacterSheetImpl.java
+references/ssi-engine/src/main/java/engine/character/PlayerDataFactory.java
+references/ssi-engine/src/main/java/engine/character/PlayerDataType.java
+references/ssi-engine/src/main/java/engine/combat/BattlefieldBuffer.java
+references/ssi-engine/src/main/java/engine/combat/CombatAssetLoader.java
+references/ssi-engine/src/main/java/engine/combat/CombatController.java
+references/ssi-engine/src/main/java/engine/combat/CombatEncounterFactory.java
+references/ssi-engine/src/main/java/engine/combat/CombatPosition.java
+references/ssi-engine/src/main/java/engine/combat/CombatSession.java
+references/ssi-engine/src/main/java/engine/combat/CombatSessionResult.java
+references/ssi-engine/src/main/java/engine/combat/CombatState.java
+references/ssi-engine/src/main/java/engine/combat/CombatTurnQueue.java
+references/ssi-engine/src/main/java/engine/combat/CombatUiBridge.java
+references/ssi-engine/src/main/java/engine/combat/Combatant.java
+references/ssi-engine/src/main/java/engine/combat/EclCombatBridge.java
+references/ssi-engine/src/main/java/engine/combat/HeadlessCombatUiBridge.java
+references/ssi-engine/src/main/java/engine/combat/LegacyGoldBoxCombatUiBridge.java
+references/ssi-engine/src/main/java/engine/combat/OriginalItemCombatTable.java
+references/ssi-engine/src/main/java/engine/combat/RecoveredBattlefieldGenerator.java
+references/ssi-engine/src/main/java/engine/combat/RecoveredEnemyTactics.java
+references/ssi-engine/src/main/java/engine/combat/RecoveredItemOptionSelector.java
+references/ssi-engine/src/main/java/engine/combat/SimpleCombat.java
+references/ssi-engine/src/main/java/engine/combat/SsiEclCombatAdapter.java
+references/ssi-engine/src/main/java/engine/combat/ai/DiceRoller.java
+references/ssi-engine/src/main/java/engine/combat/ai/QuickFightBattleView.java
+references/ssi-engine/src/main/java/engine/combat/ai/QuickFightCombatantView.java
+references/ssi-engine/src/main/java/engine/combat/ai/QuickFightIntent.java
+references/ssi-engine/src/main/java/engine/combat/ai/QuickFightPlanner.java
+references/ssi-engine/src/main/java/engine/combat/ai/QuickFightTeam.java
+references/ssi-engine/src/main/java/engine/combat/ai/SpellcastJudge.java
+references/ssi-engine/src/main/java/engine/combat/attack/AdndAttackRuleset.java
+references/ssi-engine/src/main/java/engine/combat/attack/AttackOutcome.java
+references/ssi-engine/src/main/java/engine/combat/attack/AttackResolver.java
+references/ssi-engine/src/main/java/engine/combat/attack/AttackRuleset.java
+references/ssi-engine/src/main/java/engine/combat/attack/AttackTargetingRules.java
+references/ssi-engine/src/main/java/engine/combat/attack/AttackerView.java
+references/ssi-engine/src/main/java/engine/combat/attack/AttacksPerRoundCalculator.java
+references/ssi-engine/src/main/java/engine/combat/attack/DefenderView.java
+references/ssi-engine/src/main/java/engine/combat/attack/NeutralAttackRuleset.java
+references/ssi-engine/src/main/java/engine/combat/attack/SweepAttackPlanner.java
+references/ssi-engine/src/main/java/engine/combat/map/CombatMapService.java
+references/ssi-engine/src/main/java/engine/combat/map/CombatMovementBudget.java
+references/ssi-engine/src/main/java/engine/combat/map/CombatStepPath.java
+references/ssi-engine/src/main/java/engine/combat/map/MovementAffectHook.java
+references/ssi-engine/src/main/java/engine/combat/map/MovementTraits.java
+references/ssi-engine/src/main/java/engine/combat/map/RangeCheckResult.java
+references/ssi-engine/src/main/java/engine/combat/map/ReachResult.java
+references/ssi-engine/src/main/java/engine/combat/map/TileTraits.java
+references/ssi-engine/src/main/java/engine/debug/CodeBlock.java
+references/ssi-engine/src/main/java/engine/debug/CodeBlockConnection.java
+references/ssi-engine/src/main/java/engine/debug/CodeBlockConnectionType.java
+references/ssi-engine/src/main/java/engine/debug/CodeSection.java
+references/ssi-engine/src/main/java/engine/debug/Decompiler.java
+references/ssi-engine/src/main/java/engine/debug/Disassembler.java
+references/ssi-engine/src/main/java/engine/debug/EclInstructionCompareIf.java
+references/ssi-engine/src/main/java/engine/debug/EclInstructionData.java
+references/ssi-engine/src/main/java/engine/debug/EclinstructionWrapper.java
+references/ssi-engine/src/main/java/engine/input/CharacterSheetEXITHandler.java
+references/ssi-engine/src/main/java/engine/input/DialogBackHandler.java
+references/ssi-engine/src/main/java/engine/input/DungeonMovementHandler.java
+references/ssi-engine/src/main/java/engine/input/GameMenuAREAHandler.java
+references/ssi-engine/src/main/java/engine/input/GameMenuEXITHandler.java
+references/ssi-engine/src/main/java/engine/input/GameMenuLOOKHandler.java
+references/ssi-engine/src/main/java/engine/input/GameMenuMOVEHandler.java
+references/ssi-engine/src/main/java/engine/input/GameMenuSEARCHHandler.java
+references/ssi-engine/src/main/java/engine/input/InputHandler.java
+references/ssi-engine/src/main/java/engine/input/LoadHandler.java
+references/ssi-engine/src/main/java/engine/input/MenuHandler.java
+references/ssi-engine/src/main/java/engine/input/ModeMenuHandler.java
+references/ssi-engine/src/main/java/engine/input/MovementHandler.java
+references/ssi-engine/src/main/java/engine/input/OverlandMovementHandler.java
+references/ssi-engine/src/main/java/engine/input/ProgramMenuAddCharacterHandler.java
+references/ssi-engine/src/main/java/engine/input/ProgramMenuBeginHandler.java
+references/ssi-engine/src/main/java/engine/input/ProgramMenuCreateCharacterHandler.java
+references/ssi-engine/src/main/java/engine/input/ProgramMenuModifyCharacterHandler.java
+references/ssi-engine/src/main/java/engine/input/ProgramMenuRemoveCharacterHandler.java
+references/ssi-engine/src/main/java/engine/input/ProgramMenuViewCharacterHandler.java
+references/ssi-engine/src/main/java/engine/input/SaveHandler.java
+references/ssi-engine/src/main/java/engine/input/SpaceMovementHandler.java
+references/ssi-engine/src/main/java/engine/loot/AdndCoinage.java
+references/ssi-engine/src/main/java/engine/loot/CurrencyFlavor.java
+references/ssi-engine/src/main/java/engine/loot/ItemReceiver.java
+references/ssi-engine/src/main/java/engine/loot/LootItem.java
+references/ssi-engine/src/main/java/engine/loot/MoneyAccount.java
+references/ssi-engine/src/main/java/engine/loot/MoneyPool.java
+references/ssi-engine/src/main/java/engine/loot/RobItemsResult.java
+references/ssi-engine/src/main/java/engine/loot/RobOperations.java
+references/ssi-engine/src/main/java/engine/loot/SimpleMoneyAccount.java
+references/ssi-engine/src/main/java/engine/loot/SingleCurrencyFlavor.java
+references/ssi-engine/src/main/java/engine/loot/TreasurePool.java
+references/ssi-engine/src/main/java/engine/party/NpcCharacter.java
+references/ssi-engine/src/main/java/engine/party/NpcCharacterSource.java
+references/ssi-engine/src/main/java/engine/party/NpcPartyHooks.java
+references/ssi-engine/src/main/java/engine/party/NpcPartyService.java
+references/ssi-engine/src/main/java/engine/party/NpcTreasureShare.java
+references/ssi-engine/src/main/java/engine/party/PartyRoster.java
+references/ssi-engine/src/main/java/engine/rulesystem/Dice.java
+references/ssi-engine/src/main/java/engine/rulesystem/Flavor.java
+references/ssi-engine/src/main/java/engine/rulesystem/Flavors.java
+references/ssi-engine/src/main/java/engine/rulesystem/GameMechanics.java
+references/ssi-engine/src/main/java/engine/rulesystem/LevelInfo.java
+references/ssi-engine/src/main/java/engine/rulesystem/UnresolvedGameMechanics.java
+references/ssi-engine/src/main/java/engine/rulesystem/buckrogers/BuckRogersFlavor.java
+references/ssi-engine/src/main/java/engine/rulesystem/buckrogers/ClassData.java
+references/ssi-engine/src/main/java/engine/rulesystem/buckrogers/LevelData.java
+references/ssi-engine/src/main/java/engine/rulesystem/buckrogers/RaceData.java
+references/ssi-engine/src/main/java/engine/rulesystem/krynn/ClassData.java
+references/ssi-engine/src/main/java/engine/rulesystem/krynn/KrynnFlavor.java
+references/ssi-engine/src/main/java/engine/rulesystem/krynn/LevelData.java
+references/ssi-engine/src/main/java/engine/rulesystem/krynn/RaceData.java
+references/ssi-engine/src/main/java/engine/rulesystem/standard/ClassData.java
+references/ssi-engine/src/main/java/engine/rulesystem/standard/LevelData.java
+references/ssi-engine/src/main/java/engine/rulesystem/standard/RaceData.java
+references/ssi-engine/src/main/java/engine/rulesystem/standard/StandardFlavor.java
+references/ssi-engine/src/main/java/engine/script/EclArgument.java
+references/ssi-engine/src/main/java/engine/script/EclInstruction.java
+references/ssi-engine/src/main/java/engine/script/EclOpCode.java
+references/ssi-engine/src/main/java/engine/script/EclString.java
+references/ssi-engine/src/main/java/engine/text/Composite.java
+references/ssi-engine/src/main/java/engine/text/GoldboxStringPartFactory.java
+references/ssi-engine/src/main/java/engine/text/LineBreak.java
+references/ssi-engine/src/main/java/engine/text/Runes.java
+references/ssi-engine/src/main/java/engine/text/Space.java
+references/ssi-engine/src/main/java/engine/text/SpecialChar.java
+references/ssi-engine/src/main/java/engine/text/SpecialCharType.java
+references/ssi-engine/src/main/java/engine/text/TextColor.java
+references/ssi-engine/src/main/java/engine/text/Word.java
+references/ssi-engine/src/main/java/engine/time/GameClock.java
+
+
+Evidence:
+## references/ssi-engine/docs/coab-combat-port-map.md
+# COAB → Java Combat Port Map
+
+Date: 2026-07-07
+Author: Claude Code (survey pass; docs only, no source changes)
+
+## Purpose
+
+Combat is the main missing subsystem between the current ssi-engine fork and a
+fully playable game. Per James's 2026-07-07 reuse policy, COAB may be ported
+directly into the universal engine layer (record provenance, defer licensing).
+This document maps COAB's combat subsystem — a complete, working, per-overlay
+C# translation of the original Gold Box engine — onto the existing Java combat
+scaffold, and defines the port order.
+
+## Sources
+
+| Source | Location | Version | Role |
+|---|---|---|---|
+| COAB (Simeon Pilgrim et al.) | `/home/jzatopa/.local/opt/coab` | commit `9dc46f1` | Combat flow blueprint + AD&D reference flavor. No root license file; provenance must be recorded per ported unit; compliance pass deferred. |
+| Matrix Cubed Ghidra deep export | `generated/ghidra/deep_game_ovr_payload/` (624 functions, decompiled) | see `docs/ghidra-deep-pass-1.md` | Buck Rogers-specific rules/values; validation oracle for what carries over. |
+| Existing Java scaffold | `references/ssi-engine/src/main/java/engine/combat/` | uncommitted on `matrix-cubed-fork` | Target; parts survive, parts are replaced (see below). |
+
+Evidence rule: everything ported from COAB is labeled **ported (AD&D/COAB)**
+until independently confirmed against Matrix Cubed files or the GAME.OVR
+decompile. COAB values must not be promoted as Matrix evidence.
+
+## COAB combat call graph (verified by reading the C#)
+
+Confidence: read directly from `ovr009.cs`, `ovr014.cs` this pass; other
+overlays surveyed by function inventory only (marked *inventory*).
+
+- **`ovr009.MainCombatLoop`** (`sub_33100`): `ovr011.BattleSetup()` → loop
+  until one side is empty:
+  `ovr025.CountCombatTeamMembers()` → per-combatant
+  `ovr014.CalculateInitiative()` → `FindNextCombatant()` yields turn order →
+  `DoPlayerCombatTurn()` per combatant → `BattleRoundChecks()` → repeat.
+  Ends with `free_combat_stuff()`.
+- **Initiative** (`ovr014.CalculateInitiative`, `sub_3E000`):
+  `delay = 1d6 + DexReactionAdj(player)`, min 1; a surprise flag
+  (`area2_ptr.field_596` vs combat team) subtracts 6; result clamped to
+  0..20; `delay == 0` means no turn this round. Also resets per-round action
+  state and recalculates attacks (`reclac_attacks`) and half-moves.
+- **Turn order** (`ovr009.FindNextCombatant`, `sub_331BC`): repeatedly scans
+  all combatants, picks highest remaining `delay`, ties broken by a fresh
+  1d100 per scan; yields combatants until all delays are consumed. Note:
+  order is dynamic within the round, not a pre-sorted list.
+- **Per-turn** (`ovr009.DoPlayerCombatTurn`, `sub_33281`): resets
+  AttacksReceived / directionChanges / guarding, checks restrained affect,
+  `ovr025.reclac_player_values` (effective values recomputed every turn),
+  then either `ovr010.PlayerQuickFight` (AI) or `combat_menu` (interactive).
+- **Round end** (`ovr009.BattleRoundChecks`, `battle01`): steps game time,
+  increments `combat_round`, per-combatant affect ticks + poison cloud,
+  dying combatants accumulate `bleeding` (dead when > 9), bandage prompt,
+  recount teams; battle over when either side is empty or
+  `combat_round >= combat_round_no_action_limit`.
+- **Attack resolution** (*inventory*): `ovr014.AttackTarget` /
+  `can_attack_target` / `TrySweepAttack` / `RangedDefenseBonus`;
+  `ovr024.CanHitTarget`, `RollSavingThrow`, `roll_dice`;
+  `ovr025.CalculateAttackValues`, `strengthHitBonus`, `strengthDamBonus`,
+  `DexAcBonus`, `CalcArmorWeightEffect` (encumbrance).
+- **Battlefield setup** (*inventory*): `ovr011.BattleSetup`,
+  `place_combatant`, `SetupDungeonFloor` / `SetupWildernessFloor01`,
+  background-tile builders.
+- **LOS / pathing** (*inventory*): `ovr032.buildMapCache`,
+  `canReachTarget`, `CanSeeCombatant`, `FindCombatantDirection`.
+- **Effects/affects** (*inventory*): `ovr024.add_affect` / `remove_affect` /
+  `CheckAffectsEffect` (structure is universal); `ovr013` holds the
+  AD&D-specific affect implementations (Bless, Curse, etc. — flavor-only).
+- **Movement** (*inventory*): `ovr014.CalcMoves`, `ovr025.calc_movement`.
+
+## Mapping onto the existing Java scaffold
+
+### Survives as-is (asset/UI/bridge layer — orthogonal to combat rules)
+
+- `CombatAssetLoader`, `BattlefieldBuffer`, `RecoveredBattlefieldGenerator`
+- `SwingCombatUiBridge` / `HeadlessCombatUiBridge` /
+  `LegacyGoldBoxCombatUiBridge` and `CombatUiBridgeSelector` profile routing
+- `EclCombatBridge` VM entry (`LOAD_MON` → `COMBAT` → `COMBAT_RESULT`),
+  `CombatSession` / `CombatSessionResult`, `CombatPosition`
+
+### Replaced or restructured by the port
+
+| Java today | COAB counterpart | Change |
+|---|---|---|
+| `CombatTurnQueue` (fixed order, simple round counter) | `CalculateInitiative` + `FindNextCombatant` | Replace with delay-based initiative and dynamic max-delay selection with d100 tiebreak. |
+| `CombatController` scaffold turn/attack logic | `MainCombatLoop` / `DoPlayerCombatTurn` / `combat_menu` / `
+
+[TRUNCATED at 5000 chars from /home/jzatopa/.openclaw/workspace/matrix-cubed-re/references/ssi-engine/docs/coab-combat-port-map.md]
+
+
+## references/ssi-engine/docs/coab-provenance-audit-2026-07-08.md
+# COAB Provenance Audit — Tracks A/B/E (2026-07-08)
+
+Read-only audit of the three mega-pass packages whose porting agents were
+terminated before delivering final reports. Performed by a Haiku-tier
+subagent; every specific `file.function` citation was mechanically verified
+by grep against the COAB checkout (`~/.local/opt/coab`, commit `9dc46f1`).
+
+## Results
+
+| Classification | attack | map | loot | TOTAL |
+|---|---|---|---|---|
+| CITED-VERIFIED (citation names file.function; grep confirmed) | 18 | 10 | 20 | **48** |
+| CITED-UNVERIFIED (citation didn't check out) | 0 | 0 | 0 | **0** |
+| CITED-VAGUE (COAB referenced, no exact file.function) | 7 | 8 | 10 | **25** |
+| UNCITED-PORTED (ported logic with no citation) | 0 | 0 | 0 | **0** |
+| SELF-DEFINED (integrator interfaces/test scaffolding, labeled) | 10 | 2 | 5 | **17** |
+
+**Key outcomes:**
+- Zero invented citations: every exact citation resolves to a real function
+  in the named COAB file.
+- Zero orphan logic: no ported game logic lacks a COAB reference entirely.
+- AD&D numeric tables in `AdndAttackRuleset` and `AdndCoinage` are labeled
+  "flavor, not Matrix Cubed evidence" as required; `NeutralAttackRuleset`,
+  `SingleCurrencyFlavor`, `SimpleMoneyAccount` correctly state they are not
+  ports.
+
+## Disposition of the 25 CITED-VAGUE items
+
+They are predominantly data records and hook interfaces (e.g.
+`AttackOutcome`, `ReachResult`, `TileTraits`, `MoneyAccount`) whose
+semantics derive from an adjacent class that carries a verified citation;
+a few are methods citing sub_ addresses without the file.function format
+(`AttackResolver.largeWeaponDiceApply`, `CombatMapService.buildMapCache`,
+`TreasurePool.discardRemainder`). No evidence risk — the porting trail is
+recoverable in every case. Format tightening is DEFERRED to the dedicated
+licensing/attribution pass (already planned before any public release),
+where citation formatting will be normalized wholesale. The full per-file
+list lives in the audit agent's report (session 2026-07-08); the priority
+items are the ones named above.
+
+
+## references/ssi-engine/docs/coab-java-stub-audit.md
+# COAB-to-Java Stub Audit
+
+## Scope and evidence boundary
+
+Audited against Java fork `f10f96f` plus the local Matrix Cubed changes and
+COAB commit `9dc46f1`. COAB is evidence for Gold Box control flow and subsystem
+shape. It is not evidence that AD&D record offsets, spell tables, item layouts,
+or formulas apply to Matrix Cubed. The inspected COAB checkout has no root
+license file, so no COAB source is copied here.
+
+`GameMechanics` is the universal extension boundary. An empty `OptionalInt`
+means unresolved; it must not silently become a successful zero.
+
+## VM stubs COAB can clarify
+
+| Java gap | COAB evidence | Clarification | Matrix status / next evidence |
+|---|---|---|---|
+| `PARTY_STRENGTH` | `ovr025.player_strength_group`, effective-stat/affect code | Aggregate an effective strength measure, not raw bytes blindly. | Universal stub. Recover Matrix opcode semantics and strength modifiers from `GAME.OVR`. |
+| `PARTY_CHECK` | COAB party/player iteration and status logic | A predicate over eligible party members with title-specific selectors. | Universal stub; Matrix opcode profile does not select it. |
+| `PARTY_SKILL_CHECK2/3` | `Player.SkillLevel`, COAB command dispatch | Resolve eligible members, skill id, roll/threshold, and output destination separately. | Matrix uses three-argument form. Skill records beyond proven pilot-rocket byte remain undecoded. |
+| `SURPRISE` | `ovr003.CMD_PartySurprise` / `CMD_Surprise` | Encounter initiative state, not a UI-only flag. | Universal stub; Matrix maps opcode `23` to `SKILL_CHECK`. |
+| `SKILL_CHECK` | COAB skill access and command framework | Title rules choose skill namespace and success convention. | Matrix-specific stub; decode skill table and opcode result convention. |
+| `SPACE_COMBAT` | no portable COAB equivalent | Game-specific encounter subsystem. | Matrix-only unresolved handler; recover from `GAME.OVR`. |
+| `TREASURE*` | `ovr003.CMD_Treasure`, `ovr006` distribution, `MoneySet` | Build a temporary treasure pool, then explicitly take/share/discard. | Universal inventory/treasure stub; Matrix ITEM0/MON0ITM layout differs. |
+| `ROB` | `ovr008.RobMoney` / `RobItems` | Money scaling and probabilistic item loss are separate operations. | Universal stub; Matrix credits and item weight semantics need recovery. |
+| encounter movement constants | `ovr008.calc_group_movement` | Min/max come from effective member movement, including effects. | Replaces hard-coded `6/12` once movement fields/effects are decoded. |
+| `FIND_ITEM` | `ovr003.CMD_FindItem` | Search party inventories by script item identity and set selected-character state. | Universal stub; Matrix item identity/name is partly decoded, inventory chains are not complete. |
+| `DESTROY_ITEM` | `ovr003.CMD_DestroyItems` | Remove matching items according to title quantity/equipped rules. | Universal stub; must not mutate recovered raw items yet. |
+| `CLOCK1/2` | `ovr003.CMD_EclClock`, `ovr021.NormalizeClock` | Normalize minute/hour/day/year carries and process timed effects/rest. | Universal time service; Matrix clock addresses are configured but effect hooks are missing. |
+| `NPC_ADD/FIND/REMOVE` | `ovr003.CMD_AddNPC`, `ovr017.load_npc` | NPC lifecycle includes load, party limits, morale/control, and treasure share. | Universal party service with title character decoder. |
+| `WHO` | COAB selected-player and eligibility patterns | Select a party member and update selected-character memory consistently. | Existing Java UI path needs conformance tests, not COAB code copying. |
+| `SPELL` | `Spells`, `SpellList`, `ovr010/013/014/023/024` | Casting is ruleset-owned: availability, target, range, save, damage/effect, duration. | Universal stub. Buck Rogers needs its own power/skill evidence; AD&D spell tables are not portable. |
+| `HAS_EFFECT` | `Affect`, `ovr024`, `ovr025.FindAffect` | Effects require stable id, duration/data, add/remove hooks, and serialization. | Universal effect service; Matrix effect records not decoded. |
+| `GIVE_EXP` | COAB post-combat/level flow and character EXP field | Award policy and splitting are ruleset/title-owned; persistence is character-format-owned. | Java can mutate EXP, but opcode split/mode semantics remain unresolved. |
+| `UNKNOWN_44`, `48`-`4B` | no verified COAB mapping | Opcode numbers are profile-dependent; never infer semantics from numeric equality alone. | Explicit game-opcode stub until a title profile and local ECL evidence identify each operation. |
+
+## Non-VM Java placeholders COAB can clarify
+
+| Java gap | Clarification |
+|---|---|
+| `Character*.getMovementRate()` | COAB proves movement is stored/effective state modified by haste/slow and encumbrance. Matrix field is not yet proven. |
+| `Character*.getTHACO()` | Ruleset calculation belongs behind mechanics; COAB AD&D THAC0 cannot be used for Buck Rogers. |
+| `Character*.getSkills()` | COAB demonstrates typed skills and serialized values. Matrix needs a dedicated skill enum and verified offsets. |
+| `CharacterForgotte
+
+[TRUNCATED at 5000 chars from /home/jzatopa/.openclaw/workspace/matrix-cubed-re/references/ssi-engine/docs/coab-java-stub-audit.md]
+

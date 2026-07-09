@@ -1,0 +1,5671 @@
+{
+  "schema": "matrix-cubed-monster-inventory-evidence-v4",
+  "recovered_game_ovr_accessors": {
+    "equipped_item_category_search": {
+      "entry": "2000:3ea6",
+      "file_offset": 147118,
+      "observation": "requires record offset 0x34 bit 0x80 before accepting an item"
+    },
+    "stack_merge": {
+      "entry": "2000:42f6",
+      "file_offset": 148222,
+      "observation": "merges matching record offset 0x38 values with a 100-unit cap"
+    },
+    "stack_consume": {
+      "entry": "0000:309f",
+      "file_offset": 12455,
+      "observation": "decrements record offset 0x38 or removes the item record"
+    }
+  },
+  "source_files": {
+    "ITEM0.DAX": {
+      "size": 1534,
+      "sha256": "030793591f1b48ea23d5f866b8d14964a39caed68d333e1e4edf3698385b77dc"
+    },
+    "MON0ITM.DAX": {
+      "size": 8636,
+      "sha256": "ffa78372cf0a838aaeb3bc0a6b57263c0063931697fb0bba34be7f24976597a2"
+    }
+  },
+  "item0_template_count": 91,
+  "mon0itm_block_count": 42,
+  "record_layout": {
+    "record_size": 62,
+    "unresolved_prefix_size": 46,
+    "item_payload_offset": 46,
+    "item_payload_size": 16,
+    "all_blocks_divisible": true
+  },
+  "summary": {
+    "record_count": 143,
+    "exact_item0_match_count": 18,
+    "blocks_with_exact_matches": 13,
+    "stable_field_item0_match_count": 64,
+    "newly_recovered_mutable_match_count": 46,
+    "saved_stf_file_count": 5,
+    "saved_stf_record_count": 27,
+    "saved_exact_item0_match_count": 15
+  },
+  "blocks": [
+    {
+      "monster_id": 1,
+      "decoded_size": 372,
+      "decoded_sha256": "cefa166fb94b7a5fbdef9055242146a7dc7a55c8033f9c0008df233018431e9f",
+      "record_count": 6,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "78d479db2b082f4da49e83c3005801f87a5f3bed5f400ffbc92d9f915f788466",
+          "item_payload_hex": "06 07 06 15 03 00 20 00 03 00 14 48 03 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              54,
+              59
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 20
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "a4a7c3f72cc3079a41aca427d0a8c518b71938e5455a108d36f9f1069c945e05",
+          "item_payload_hex": "12 00 11 0b 00 00 a0 00 32 00 02 d0 07 00 0b 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              17
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 17,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 2
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "4bf09e79dc8c7e5d27bc5c0c45d7a4a44e6c20304287aaf19238a725f7aef13f",
+          "item_payload_hex": "03 00 00 03 00 00 20 00 04 00 00 64 00 00 00 00",
+          "exact_template_index": 2,
+          "template_comparison": {
+            "exact_template_index": 2,
+            "nearest_template_indices": [
+              2
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 2,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "aa88dcb8265fc46127686928b04dc66456083cd98fa5206152839793c3f7c908",
+          "item_payload_hex": "18 00 1c 1b 00 00 a0 00 50 00 00 b8 0b 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              23
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 23,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 4,
+          "record_offset": 248,
+          "item_payload_offset": 294,
+          "prefix_sha256": "01797c5e6b224236e26b827e853d26d4c0b650a720273f52f246e207fef947af",
+          "item_payload_hex": "23 00 10 1f 00 00 00 00 01 00 02 32 00 00 0c 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              34
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 34,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 2
+          }
+        },
+        {
+          "record_index": 5,
+          "record_offset": 310,
+          "item_payload_offset": 356,
+          "prefix_sha256": "be62146476e38a0fa82814b6a8e70b3a533f16e44cb9e6794fff5f3e6686ecf0",
+          "item_payload_hex": "19 00 00 23 00 00 00 00 01 00 02 64 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              24
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 24,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 2
+          }
+        }
+      ],
+      "exact_item0_matches": [
+        {
+          "offset": 170,
+          "record_index": 2,
+          "template_index": 2,
+          "itemptr": 3,
+          "raw_hex": "03 00 00 03 00 00 20 00 04 00 00 64 00 00 00 00"
+        }
+      ],
+      "unresolved_record_count": 5
+    },
+    {
+      "monster_id": 2,
+      "decoded_size": 124,
+      "decoded_sha256": "4cc48c531fc219a36059f63447ef2b8fa7720d1fda3d95f1b2cd5f8731336a8e",
+      "record_count": 2,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "aad2603085341f5cb3476c519e2cddf0ccbb332dbdbd4665897fd7706b0e1c58",
+          "item_payload_hex": "11 00 00 12 00 00 e0 00 4b 00 0a 40 06 00 0a 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              16
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 224
+              }
+            ],
+            "stable_field_template_index": 16,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 10
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "ac59af8669b3c6ab791f4335e567646d6c208b006b6a465130c86165ac4ed702",
+          "item_payload_hex": "06 07 06 15 03 00 20 00 03 00 10 48 03 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              54,
+              59
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 16
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 2
+    },
+    {
+      "monster_id": 3,
+      "decoded_size": 124,
+      "decoded_sha256": "f66fd8c92d53421c95e9525273daf6f566d852829efc641292c220e66462f58e",
+      "record_count": 2,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "ede01cbfc819ac2d46c745d65e8ef23fcde05a6922e39b346efa6ab7feac1848",
+          "item_payload_hex": "06 07 06 16 04 00 e0 00 00 00 14 00 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              42,
+              54,
+              59,
+              68,
+              70,
+              73,
+              89
+            ],
+            "nearest_byte_difference_count": 7,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 20
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "fa6a705ba51324a0028c753d8da82e1ad79aef7cb3ad623d01aa419c8fac169a",
+          "item_payload_hex": "09 0a 09 16 04 00 60 00 00 00 64 00 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              71
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 96
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 1,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 240,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 20,
+                "saved_value": 0
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 100
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 2
+    },
+    {
+      "monster_id": 4,
+      "decoded_size": 62,
+      "decoded_sha256": "6d9394adc2bad8c367f2f504d88f9f36ee8dac780e349acd324f36d303d4478f",
+      "record_count": 1,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "566bf25893696a626f7e6fc7b31a5f3e04591b940cc2f142ea1c2e65421225a4",
+          "item_payload_hex": "11 00 00 12 03 00 e0 00 00 00 06 00 00 00 0a 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              16
+            ],
+            "nearest_byte_difference_count": 6,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 4,
+                "template_value": 0,
+                "saved_value": 3
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 224
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 75,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 6
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 64,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 6,
+                "saved_value": 0
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 6
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 1
+    },
+    {
+      "monster_id": 5,
+      "decoded_size": 434,
+      "decoded_sha256": "024c3f23fe0ebdbe2c3516a0d3816873406d8cc60c3bf11ba242e5ddaa6cb139",
+      "record_count": 7,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "acc60f35680d9aab15ac749a65c66c83711eafad2b59cd0f3fff8af3b53c9d35",
+          "item_payload_hex": "1a 00 00 24 00 00 a0 00 01 00 00 32 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              25
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 25,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "ffeedad245b65a30777df2166ebf48937da19de0e55e330c2ac495b943b01d7b",
+          "item_payload_hex": "1b 00 26 25 00 00 a0 00 01 00 00 0a 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              26
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 26,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "c80beb44c7b60f2a986fc35f89778c07892950b60a3eb731dd2769a4132fd4c0",
+          "item_payload_hex": "0d 00 0d 09 00 00 a0 00 05 00 0e 7b 02 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              12
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 14
+              }
+            ],
+            "stable_field_template_index": 12,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 14
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "fe90a14c14859345db0dcc298dd29d2304952221b98e8bfdbb28d3c5137249af",
+          "item_payload_hex": "25 00 10 21 00 00 00 00 01 00 02 32 00 00 08 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              36
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 36,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 2
+          }
+        },
+        {
+          "record_index": 4,
+          "record_offset": 248,
+          "item_payload_offset": 294,
+          "prefix_sha256": "f08b7b237d902a0563d8eed412dc9df4456c8c730f02f15d39320fe48209cdc7",
+          "item_payload_hex": "21 00 10 1d 00 00 00 00 01 00 01 32 00 00 06 80",
+          "exact_template_index": 32,
+          "template_comparison": {
+            "exact_template_index": 32,
+            "nearest_template_indices": [
+              32
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 32,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 1
+          }
+        },
+        {
+          "record_index": 5,
+          "record_offset": 310,
+          "item_payload_offset": 356,
+          "prefix_sha256": "d89f63e12d08a6701bb9393b1a4d57d53d3c29e7883e797776a39f81508598c6",
+          "item_payload_hex": "08 00 04 02 00 00 20 00 01 00 00 e8 03 00 00 00",
+          "exact_template_index": 7,
+          "template_comparison": {
+            "exact_template_index": 7,
+            "nearest_template_indices": [
+              7
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 7,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 6,
+          "record_offset": 372,
+          "item_payload_offset": 418,
+          "prefix_sha256": "13e4b7ab4547469798cfb2b2252857605cdf5f8fe11b3ba7e3b5949816ca7185",
+          "item_payload_hex": "16 00 1a 19 00 00 a0 00 23 00 00 a4 06 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              21
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 21,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [
+        {
+          "offset": 294,
+          "record_index": 4,
+          "template_index": 32,
+          "itemptr": 33,
+          "raw_hex": "21 00 10 1d 00 00 00 00 01 00 01 32 00 00 06 80"
+        },
+        {
+          "offset": 356,
+          "record_index": 5,
+          "template_index": 7,
+          "itemptr": 8,
+          "raw_hex": "08 00 04 02 00 00 20 00 01 00 00 e8 03 00 00 00"
+        }
+      ],
+      "unresolved_record_count": 5
+    },
+    {
+      "monster_id": 6,
+      "decoded_size": 372,
+      "decoded_sha256": "fb1d1631b69ee9cbb1ec4d02e87eaacfd7833e7d80b5233da02689137ceb5974",
+      "record_count": 6,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "08657771946732f0316468891eb5d65904179518bc4ba124e5c20b916ad1b5eb",
+          "item_payload_hex": "06 07 06 13 01 00 a0 00 03 00 14 a4 01 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              42
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 20
+              }
+            ],
+            "stable_field_template_index": 42,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 20
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "144f2a1be08a74285f005c9ceff93432f7335c883de8351d5c5fc2e0816905e5",
+          "item_payload_hex": "21 00 10 1d 00 00 00 00 01 00 01 32 00 00 06 80",
+          "exact_template_index": 32,
+          "template_comparison": {
+            "exact_template_index": 32,
+            "nearest_template_indices": [
+              32
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 32,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 1
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "b074aeb56d36a5c96d504d3ac2cae469978a725d3d0f8481ea4fbebd5d236fb7",
+          "item_payload_hex": "0d 00 0d 09 00 00 20 00 06 00 0e 7b 02 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              12
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 8,
+                "template_value": 5,
+                "saved_value": 6
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 14
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 14
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "39b45f46e081a182367770b40016888f36224018e8a6271a8cdf589e9f3745c4",
+          "item_payload_hex": "25 00 10 21 00 00 00 00 01 00 02 32 00 00 08 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              36
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 36,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 2
+          }
+        },
+        {
+          "record_index": 4,
+          "record_offset": 248,
+          "item_payload_offset": 294,
+          "prefix_sha256": "696be509decfe2b51dde5d6bbef14d2733f1f0dc36f12899f28269ec9d08d62b",
+          "item_payload_hex": "08 00 04 02 00 00 20 00 01 00 00 e8 03 00 00 00",
+          "exact_template_index": 7,
+          "template_comparison": {
+            "exact_template_index": 7,
+            "nearest_template_indices": [
+              7
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 7,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 5,
+          "record_offset": 310,
+          "item_payload_offset": 356,
+          "prefix_sha256": "183d7cda83a3b90b7207b24e6fc0d7407f45b9e422fbdee6c781de5a2d8fa2a0",
+          "item_payload_hex": "15 00 00 18 00 00 a0 00 1e 00 00 b0 04 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              20
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 20,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [
+        {
+          "offset": 108,
+          "record_index": 1,
+          "template_index": 32,
+          "itemptr": 33,
+          "raw_hex": "21 00 10 1d 00 00 00 00 01 00 01 32 00 00 06 80"
+        },
+        {
+          "offset": 294,
+          "record_index": 4,
+          "template_index": 7,
+          "itemptr": 8,
+          "raw_hex": "08 00 04 02 00 00 20 00 01 00 00 e8 03 00 00 00"
+        }
+      ],
+      "unresolved_record_count": 4
+    },
+    {
+      "monster_id": 7,
+      "decoded_size": 186,
+      "decoded_sha256": "0eb210f4cabddc3911e7e1b97e18ec36969572524eb92132acc7ea0b9315f53a",
+      "record_count": 3,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "8094e0b1e0be94535670aa8ff0f400d1c81583cf352896f05163dff454b5a9a6",
+          "item_payload_hex": "06 00 07 06 00 00 a0 00 03 00 32 d2 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              5
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 50
+              }
+            ],
+            "stable_field_template_index": 5,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 50
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "27b560fe9ed3ea3e83f04cea8f3e6ad3c67b10fb282c0d0922b3e8ded5c7540c",
+          "item_payload_hex": "16 00 1a 19 00 00 a0 00 23 00 00 a4 06 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              21
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 21,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "6f393142bcd3e5d57da6144da91b328975e78e94253dbbe162065d1693a035cd",
+          "item_payload_hex": "02 00 01 02 00 00 20 00 01 00 00 c8 00 00 00 00",
+          "exact_template_index": 1,
+          "template_comparison": {
+            "exact_template_index": 1,
+            "nearest_template_indices": [
+              1
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 1,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [
+        {
+          "offset": 170,
+          "record_index": 2,
+          "template_index": 1,
+          "itemptr": 2,
+          "raw_hex": "02 00 01 02 00 00 20 00 01 00 00 c8 00 00 00 00"
+        }
+      ],
+      "unresolved_record_count": 2
+    },
+    {
+      "monster_id": 8,
+      "decoded_size": 186,
+      "decoded_sha256": "dfcb2e40a50cceefd25e86c0f3f014fb4bc9aeb334183ba53e3bbd4bdf4df31b",
+      "record_count": 3,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "36f9281e49e94d872f62a940498c201872a1c061f8580c9d81d69f82400f1736",
+          "item_payload_hex": "06 00 07 06 02 00 e0 00 00 00 14 00 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              5
+            ],
+            "nearest_byte_difference_count": 5,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 4,
+                "template_value": 0,
+                "saved_value": 2
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 224
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 3,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 20
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 210,
+                "saved_value": 0
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 20
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "d6a25c3a94840efba2e1cb9fd59691d1fb710f5a9fa4e0a6cf0ce5b338743e31",
+          "item_payload_hex": "10 00 11 10 00 00 60 00 00 00 00 00 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              15
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 96
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 3,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 244,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 1,
+                "saved_value": 0
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "af67a2146f0952b857d715f24820c7c12d01c6162acc691473904f0e00eabcd3",
+          "item_payload_hex": "04 00 10 20 00 00 40 00 00 00 01 00 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              3,
+              24,
+              28,
+              30,
+              35
+            ],
+            "nearest_byte_difference_count": 6,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 1
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 3
+    },
+    {
+      "monster_id": 12,
+      "decoded_size": 186,
+      "decoded_sha256": "41d95a8d0be0708bc76a1a02c25a2611dfab360b7aa01a534dc4ca0223423744",
+      "record_count": 3,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "85e4204e99c552bf7b71001916f9717c9a8d38d21b9929dcb0092b7de3840ac6",
+          "item_payload_hex": "16 1a 19 15 03 00 a0 00 23 00 00 90 1a 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              82,
+              86
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "29ef9f0529f367501b495351542a3ab481fba7083a370aa143a4d588060f78ff",
+          "item_payload_hex": "21 00 10 1d 00 00 00 00 01 00 02 32 00 00 06 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              32
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 32,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 2
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "e829208ee31ca76ed0f04b1353f4195e7fd3d8e0218cfdfb1f541008a870f677",
+          "item_payload_hex": "08 04 02 15 03 00 20 00 01 00 00 a0 0f 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              53
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 3,
+                "template_value": 20,
+                "saved_value": 21
+              },
+              {
+                "payload_offset": 4,
+                "template_value": 2,
+                "saved_value": 3
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 3
+    },
+    {
+      "monster_id": 13,
+      "decoded_size": 248,
+      "decoded_sha256": "e61adf1bd899485d4c6ed49187c999b11f23988f89c49420150efb7c5b1fd6e0",
+      "record_count": 4,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "6366652ce9b4ce7682b7485df6e5908b0b52ae503465439a3fbfa6b370c39413",
+          "item_payload_hex": "16 00 1a 19 00 00 a0 00 23 00 00 a4 06 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              21
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 21,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "9bbb54d0ffb379219941a1700427d2f011b0cf0ee8848b21a826f665825ab13e",
+          "item_payload_hex": "12 00 11 0b 00 00 20 00 32 00 0a d0 07 00 0b 80",
+          "exact_template_index": 17,
+          "template_comparison": {
+            "exact_template_index": 17,
+            "nearest_template_indices": [
+              17
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 17,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 10
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "5988b35659989d9b3b87dd0892a6bf73887b524ad580783573cfdec0b5c55ba9",
+          "item_payload_hex": "20 10 1d 2c 00 00 00 00 01 00 02 32 00 00 06 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              31
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 31,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 2
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "69f3cfb6307dc99d23ac07c717f0b7e3082cdde3fcb92cd24481e76aed5fba3e",
+          "item_payload_hex": "08 04 02 14 02 00 a0 00 01 00 00 b8 0b 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              53
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 160,
+                "saved_value": 184
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 15,
+                "saved_value": 11
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [
+        {
+          "offset": 108,
+          "record_index": 1,
+          "template_index": 17,
+          "itemptr": 18,
+          "raw_hex": "12 00 11 0b 00 00 20 00 32 00 0a d0 07 00 0b 80"
+        }
+      ],
+      "unresolved_record_count": 3
+    },
+    {
+      "monster_id": 14,
+      "decoded_size": 248,
+      "decoded_sha256": "7e26afdd040ea2b1988357ff8ffbaab8820fee86aa2f1efc02bc871b789a52d6",
+      "record_count": 4,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "9cd7c7a059cbcd0967232a670597a51a539925d1c1fcbbc8d04d3c9d8a74fed6",
+          "item_payload_hex": "16 1a 19 16 04 00 a0 00 23 00 00 34 21 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              90
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 64,
+                "saved_value": 52
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 106,
+                "saved_value": 33
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "af7455ae38dc0fa7a6284e6a0081253c172c61229647d5e6e123654fa232a299",
+          "item_payload_hex": "21 00 10 1d 00 00 00 00 01 00 02 32 00 00 06 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              32
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 32,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 2
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "587e434dac7fbdbd6755d9cb9ccd2abc75b262d65d9f5d0302e2deb02f898d39",
+          "item_payload_hex": "08 00 04 02 00 00 20 00 01 00 00 e8 03 00 00 00",
+          "exact_template_index": 7,
+          "template_comparison": {
+            "exact_template_index": 7,
+            "nearest_template_indices": [
+              7
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 7,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "655f224520f6d3b190a77f1bf90228df5f13df1a097c4fb036eceeafa3d0a6aa",
+          "item_payload_hex": "06 07 06 16 04 00 a0 00 03 00 14 1a 04 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              42,
+              54,
+              59
+            ],
+            "nearest_byte_difference_count": 6,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 20
+          }
+        }
+      ],
+      "exact_item0_matches": [
+        {
+          "offset": 170,
+          "record_index": 2,
+          "template_index": 7,
+          "itemptr": 8,
+          "raw_hex": "08 00 04 02 00 00 20 00 01 00 00 e8 03 00 00 00"
+        }
+      ],
+      "unresolved_record_count": 3
+    },
+    {
+      "monster_id": 15,
+      "decoded_size": 248,
+      "decoded_sha256": "99f8356f8b431897727ef410f0550fbf613f327f1b4ed9232a90cecd4db47c58",
+      "record_count": 4,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "c1293faa46314f035732d5bed545cb089d574077af56325c2e59d1de6c6e3b8a",
+          "item_payload_hex": "16 1a 19 16 04 00 a0 00 23 00 00 34 21 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              90
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 64,
+                "saved_value": 52
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 106,
+                "saved_value": 33
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "9ce8821264e7522744d43251b826ae56e0d060de8a164c425bb6a13d793928bb",
+          "item_payload_hex": "21 00 10 1d 00 00 00 00 01 00 02 32 00 00 06 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              32
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 32,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 2
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "72358de68c8a7f2363db374dd667d19e3153bac57dec1939ea82eb742b0aee98",
+          "item_payload_hex": "08 00 04 02 00 00 20 00 04 00 00 e8 03 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              7
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 8,
+                "template_value": 1,
+                "saved_value": 4
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "2169764b2af55c6c26d21cfd957223b2a64eba318db6fbedaabf81cee4bdfb74",
+          "item_payload_hex": "06 07 06 16 04 00 a0 00 03 00 00 1a 04 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              42,
+              54,
+              59
+            ],
+            "nearest_byte_difference_count": 6,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 4
+    },
+    {
+      "monster_id": 16,
+      "decoded_size": 248,
+      "decoded_sha256": "2836bba3f7e6c596204fdf21a8aac820219b2e881b2d7338a89cc7679858f166",
+      "record_count": 4,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "0f82d277c56bb94919604867260fcd67a90b6393a84168156180e3ad472eab49",
+          "item_payload_hex": "16 1a 19 16 04 00 a0 00 23 00 00 34 21 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              90
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 64,
+                "saved_value": 52
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 106,
+                "saved_value": 33
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "575814f6c632b5cbab6b75fc979ac505abc8a1d2afa17b18458fffbe56e15912",
+          "item_payload_hex": "0a 0a 0b 16 04 00 a0 00 03 00 0a d0 07 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              45
+            ],
+            "nearest_byte_difference_count": 5,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 3,
+                "template_value": 19,
+                "saved_value": 22
+              },
+              {
+                "payload_offset": 4,
+                "template_value": 1,
+                "saved_value": 4
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 232,
+                "saved_value": 208
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 3,
+                "saved_value": 7
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 10
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "e6ef4a7393e47fc04996e8c40501cfc442cb438ac02636fec0674ac5363fc826",
+          "item_payload_hex": "23 00 10 1f 00 00 00 00 01 00 02 32 00 00 0c 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              34
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 34,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 2
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "e70297b51f81e452bef60e8d2fc4de2a60cf681c40a52738d2424fcd18e172bf",
+          "item_payload_hex": "20 10 1d 2c 00 00 00 00 01 00 01 32 00 00 06 80",
+          "exact_template_index": 31,
+          "template_comparison": {
+            "exact_template_index": 31,
+            "nearest_template_indices": [
+              31
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 31,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 1
+          }
+        }
+      ],
+      "exact_item0_matches": [
+        {
+          "offset": 232,
+          "record_index": 3,
+          "template_index": 31,
+          "itemptr": 32,
+          "raw_hex": "20 10 1d 2c 00 00 00 00 01 00 01 32 00 00 06 80"
+        }
+      ],
+      "unresolved_record_count": 3
+    },
+    {
+      "monster_id": 17,
+      "decoded_size": 124,
+      "decoded_sha256": "af12cadc096e3ea9c980d8b9837be266e9d918a8c3d2c29197fbbff15d82b9f4",
+      "record_count": 2,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "d5200fe81e9363b8b28b7162ebafd07b2146105cfe9e0f1c94b9133bb89e2c43",
+          "item_payload_hex": "06 07 06 16 04 00 60 00 00 00 14 00 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              42,
+              54,
+              59,
+              68,
+              70,
+              73,
+              89
+            ],
+            "nearest_byte_difference_count": 7,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 20
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "150c8b9f646bd3e0b080a0ae05d6fb97a4e551bc1bddc0f8faead664b29e6ebb",
+          "item_payload_hex": "11 00 00 12 00 00 e0 00 00 00 0a 00 00 00 0a 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              16
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 224
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 75,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 64,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 6,
+                "saved_value": 0
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 10
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 2
+    },
+    {
+      "monster_id": 19,
+      "decoded_size": 248,
+      "decoded_sha256": "123f0002956b05546308e5710ab7605a8ddec3c303505265ae3e1a4bd05a9697",
+      "record_count": 4,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "42f3484daa7ab82ce5c7e1c1e0fb101d837ae6b813c9b1303ee6f204939edc68",
+          "item_payload_hex": "17 00 1b 15 03 03 a0 00 4b 00 00 10 27 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              83,
+              87
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "0eec9d235c881d0c7331ab635daf1fadf6a98b1b4fa3b534a71a9a97a631681c",
+          "item_payload_hex": "08 04 02 15 03 00 20 00 01 00 00 a0 0f 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              53
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 3,
+                "template_value": 20,
+                "saved_value": 21
+              },
+              {
+                "payload_offset": 4,
+                "template_value": 2,
+                "saved_value": 3
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "7aa71a8457ccd27940ca6a377baac0a54592a9576929c6606cb41238c5bb462a",
+          "item_payload_hex": "0b 0d 0b 15 03 00 a0 00 06 00 0a 08 07 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              49
+            ],
+            "nearest_byte_difference_count": 5,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 3,
+                "template_value": 19,
+                "saved_value": 21
+              },
+              {
+                "payload_offset": 4,
+                "template_value": 1,
+                "saved_value": 3
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 176,
+                "saved_value": 8
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 4,
+                "saved_value": 7
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 10
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "257adc3ddf450bb761359cef0f13231a5a3a665e3b6b423f78c0781d86b143eb",
+          "item_payload_hex": "25 00 10 21 00 00 00 00 01 00 03 32 00 00 08 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              36
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 3
+              }
+            ],
+            "stable_field_template_index": 36,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 3
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 4
+    },
+    {
+      "monster_id": 20,
+      "decoded_size": 248,
+      "decoded_sha256": "0bf3075fa28a46eaf1622254f0fdebe05fc5706778a00819332c78f65c739395",
+      "record_count": 4,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "1746b063ba11e53d2b4d397a7923145bfcd0b3404fee572719ddd1f8d602fff6",
+          "item_payload_hex": "18 1c 1b 15 03 03 a0 00 50 00 00 e0 2e 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              79
+            ],
+            "nearest_byte_difference_count": 6,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 3,
+                "template_value": 19,
+                "saved_value": 21
+              },
+              {
+                "payload_offset": 4,
+                "template_value": 1,
+                "saved_value": 3
+              },
+              {
+                "payload_offset": 5,
+                "template_value": 0,
+                "saved_value": 3
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 112,
+                "saved_value": 224
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 23,
+                "saved_value": 46
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "35bf78168f4c492748fced10bf5beeb540c4c42d988c13889661c81042d2fc42",
+          "item_payload_hex": "08 04 02 15 03 00 20 00 04 00 00 a0 0f 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              53
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 3,
+                "template_value": 20,
+                "saved_value": 21
+              },
+              {
+                "payload_offset": 4,
+                "template_value": 2,
+                "saved_value": 3
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 1,
+                "saved_value": 4
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "7bf5edd0019e530962aa65ed48912210b0ae992d690fec7c82daca61bd9d71b3",
+          "item_payload_hex": "06 07 06 15 03 00 20 00 03 00 14 48 03 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              54,
+              59
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 20
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "1ca34ac6e2e4cca3de18ec7f331c6aedccae8b189b852d7c33eb760bf63460b3",
+          "item_payload_hex": "21 00 10 1d 00 00 00 00 01 00 03 32 00 00 06 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              32
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 3
+              }
+            ],
+            "stable_field_template_index": 32,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 3
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 4
+    },
+    {
+      "monster_id": 21,
+      "decoded_size": 124,
+      "decoded_sha256": "c1719e5efce60cbc421b8c68d6c6398275091849a86b037901c3d16ea99da878",
+      "record_count": 2,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "590a67cfb84ded2a6594edc87757e7d409c7ee74957bcba1d4defb8ac54a2eec",
+          "item_payload_hex": "11 00 00 12 00 00 60 00 00 00 02 00 00 00 0a 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              16
+            ],
+            "nearest_byte_difference_count": 5,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 96
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 75,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 2
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 64,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 6,
+                "saved_value": 0
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 2
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "cb4f55aedca21eb2f7047abadc1d7a241614570c37535cfab1b87110478e4ecd",
+          "item_payload_hex": "0d 0d 09 15 03 00 60 00 00 00 32 00 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              65
+            ],
+            "nearest_byte_difference_count": 5,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 96
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 5,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 100,
+                "saved_value": 50
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 216,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 19,
+                "saved_value": 0
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 50
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 2
+    },
+    {
+      "monster_id": 23,
+      "decoded_size": 186,
+      "decoded_sha256": "c4340edfb5f37515b5d7f2c2f75a2e21f9e705d4f567097a14b27d6fa933f1b8",
+      "record_count": 3,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "b0c689fc1375c73b58535d504066e2ab9c67afe715c61b798a7c45bc768a7243",
+          "item_payload_hex": "15 00 18 14 00 02 a0 00 1e 00 00 10 0e 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              81
+            ],
+            "nearest_byte_difference_count": 5,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 4,
+                "template_value": 2,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 5,
+                "template_value": 0,
+                "saved_value": 2
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 192,
+                "saved_value": 16
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 18,
+                "saved_value": 14
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "91121bd358f04f8ddfe976c4bd52667b51e399c417c5b657878a201bcf7aa8f6",
+          "item_payload_hex": "02 01 02 14 02 00 20 00 01 00 00 58 02 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              51
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 11,
+                "template_value": 32,
+                "saved_value": 88
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 3,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "9c4451548950057b5f2c2629a5d651f5ea0281bca1da0dfc466ff0d980301eff",
+          "item_payload_hex": "09 0a 09 14 02 00 a0 00 01 00 64 e8 03 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              56
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 60,
+                "saved_value": 232
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 5,
+                "saved_value": 3
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 100
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 3
+    },
+    {
+      "monster_id": 29,
+      "decoded_size": 186,
+      "decoded_sha256": "430624cc39a235d2047187a807c6a8b411ae57665e0380172bc3a5f26c6df9ed",
+      "record_count": 3,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "88fdc50542963f9890af9a02245aff250adfd1ea751cca7df7437f62bd5186fb",
+          "item_payload_hex": "0d 0d 09 15 03 00 a0 00 05 00 64 ec 09 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              57,
+              65
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 100
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "84e71ce30dd0c3972595f4522e23c7ae18f26f3d073429234ad86103512445c0",
+          "item_payload_hex": "20 10 1d 2c 00 00 00 00 00 00 02 32 00 00 06 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              31
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 8,
+                "template_value": 1,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 2
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "878f32f76b159494f5a39f9321616c6068cdb82e88df89bcc739bbc1ea78e1f9",
+          "item_payload_hex": "08 04 02 15 03 00 20 00 01 00 00 a0 0f 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              53
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 3,
+                "template_value": 20,
+                "saved_value": 21
+              },
+              {
+                "payload_offset": 4,
+                "template_value": 2,
+                "saved_value": 3
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 3
+    },
+    {
+      "monster_id": 30,
+      "decoded_size": 62,
+      "decoded_sha256": "15c1ad00b7cf5ebfce60acb6d24c7062a8dbd4914d38582dbed8edb5fef1d38c",
+      "record_count": 1,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "878f32f76b159494f5a39f9321616c6068cdb82e88df89bcc739bbc1ea78e1f9",
+          "item_payload_hex": "02 01 02 2c 02 00 e0 00 00 00 00 05 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              51
+            ],
+            "nearest_byte_difference_count": 5,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 3,
+                "template_value": 20,
+                "saved_value": 44
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 224
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 1,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 32,
+                "saved_value": 5
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 3,
+                "saved_value": 0
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 1
+    },
+    {
+      "monster_id": 31,
+      "decoded_size": 186,
+      "decoded_sha256": "5f72c57a53d446f15560fec9abf1570a44e713363ef308af6752ffeb0848a1c2",
+      "record_count": 3,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "0bcfb1c4b32fb66021ae1583f635a97aef9d964d335f321991c517985166bf99",
+          "item_payload_hex": "21 10 0e 1d 0a 00 80 00 01 00 0f 96 00 00 0b 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              32
+            ],
+            "nearest_byte_difference_count": 7,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 1,
+                "template_value": 0,
+                "saved_value": 16
+              },
+              {
+                "payload_offset": 2,
+                "template_value": 16,
+                "saved_value": 14
+              },
+              {
+                "payload_offset": 4,
+                "template_value": 0,
+                "saved_value": 10
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 0,
+                "saved_value": 128
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 15
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 50,
+                "saved_value": 150
+              },
+              {
+                "payload_offset": 14,
+                "template_value": 6,
+                "saved_value": 11
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 15
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "556d9cd6182611f189892c3ff09d104e94b43eea3b107f5db45b4e874c546cab",
+          "item_payload_hex": "18 1c 1b 15 03 03 a0 00 4b 00 00 e0 2e 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              87
+            ],
+            "nearest_byte_difference_count": 6,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 0,
+                "template_value": 23,
+                "saved_value": 24
+              },
+              {
+                "payload_offset": 1,
+                "template_value": 0,
+                "saved_value": 28
+              },
+              {
+                "payload_offset": 5,
+                "template_value": 0,
+                "saved_value": 3
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 32,
+                "saved_value": 224
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 78,
+                "saved_value": 46
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "64dad348fb94b8ce8163e0e3b78ff52d9d90498690ce53ada4497e29ce0f24c8",
+          "item_payload_hex": "07 00 07 08 00 00 20 00 02 00 00 d2 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              6
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 0
+              }
+            ],
+            "stable_field_template_index": 6,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 3
+    },
+    {
+      "monster_id": 33,
+      "decoded_size": 310,
+      "decoded_sha256": "bd15d48c3995bcd69e728e4fb2c42e0bdd5014d43d7d9e0af96dd9a3adf8c05c",
+      "record_count": 5,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "75e7f18ed86a29eb6d720898d6821d640a8d008c08cd98b727a85eb9f8c0becc",
+          "item_payload_hex": "0e 07 0e 15 03 00 a7 00 02 00 0a d0 07 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              58,
+              67
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 10
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "6d3f53378e7d702f13ca4aae714f6773e9bd7dab4a493e1471d3d388d8cca9f1",
+          "item_payload_hex": "15 00 00 18 00 00 a4 00 1e 00 00 b0 04 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              20
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 164
+              }
+            ],
+            "stable_field_template_index": 20,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "d8588fb9f923790d56a0f8401d56c380aea7f5a1eedf032c5cdd5da6ff988689",
+          "item_payload_hex": "24 00 10 20 00 00 00 00 01 00 01 32 00 00 05 80",
+          "exact_template_index": 35,
+          "template_comparison": {
+            "exact_template_index": 35,
+            "nearest_template_indices": [
+              35
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 35,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 1
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "fdd26ce6e967e885c3710ea3aaef039e35401f4877f8f64c8c2b434915b506f3",
+          "item_payload_hex": "03 00 00 03 00 00 20 00 04 00 00 64 00 00 00 00",
+          "exact_template_index": 2,
+          "template_comparison": {
+            "exact_template_index": 2,
+            "nearest_template_indices": [
+              2
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 2,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 4,
+          "record_offset": 248,
+          "item_payload_offset": 294,
+          "prefix_sha256": "2169f560d1190045cae140cbee4f7ce1c0b629f9a32b1f80801446b93f836e06",
+          "item_payload_hex": "1a 00 00 24 00 00 a0 00 01 00 00 32 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              25
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 25,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [
+        {
+          "offset": 170,
+          "record_index": 2,
+          "template_index": 35,
+          "itemptr": 36,
+          "raw_hex": "24 00 10 20 00 00 00 00 01 00 01 32 00 00 05 80"
+        },
+        {
+          "offset": 232,
+          "record_index": 3,
+          "template_index": 2,
+          "itemptr": 3,
+          "raw_hex": "03 00 00 03 00 00 20 00 04 00 00 64 00 00 00 00"
+        }
+      ],
+      "unresolved_record_count": 3
+    },
+    {
+      "monster_id": 35,
+      "decoded_size": 248,
+      "decoded_sha256": "f3d5135cf655b1276ed73ca947634d8a57fee9f20c74d30f91d7663bebfc5e5d",
+      "record_count": 4,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "c6f41933ddbf7d16348957e26fe5fae4c9045c0e159e5b64c23b8da90dbd33e5",
+          "item_payload_hex": "10 00 11 10 00 00 e0 00 00 00 00 64 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              15
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 224
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 3,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 244,
+                "saved_value": 100
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 1,
+                "saved_value": 0
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "ed0d29b27b0f9ec7e59fcd76377cda9f838519884a5ff0da457cd1a6d3063b05",
+          "item_payload_hex": "21 00 10 1e 00 00 c0 00 00 00 01 32 00 00 07 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              33
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 0,
+                "template_value": 34,
+                "saved_value": 33
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 0,
+                "saved_value": 192
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 1,
+                "saved_value": 0
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 1
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "0387950c1a19b3fc937a20d1d5cb9ec625c6d5ac2d58a0609fb6deb25c1ee678",
+          "item_payload_hex": "24 00 10 20 00 00 40 00 00 00 01 32 00 00 05 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              35
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 0,
+                "saved_value": 64
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 1,
+                "saved_value": 0
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 1
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "191e8d755d0bc1531b2a9867f716a3ea6a02c56c7c6d372cb31f1af4c9e4287b",
+          "item_payload_hex": "0d 0d 09 15 03 00 60 00 00 00 64 dc 05 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              65
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 96
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 5,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 216,
+                "saved_value": 220
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 19,
+                "saved_value": 5
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 100
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 4
+    },
+    {
+      "monster_id": 38,
+      "decoded_size": 124,
+      "decoded_sha256": "04d9e67f3074f21f19192410bfaaad5b5dd8318aef1846808432c224e9dd9d4c",
+      "record_count": 2,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "a1bc20291068b7d6a5e4f90235279514bd9daa4094703c0b3b72de81fe06ea93",
+          "item_payload_hex": "07 00 0d 08 03 00 a0 00 05 00 fa 08 07 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              6,
+              12
+            ],
+            "nearest_byte_difference_count": 7,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 250
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "65d8f272a06933daa8c52679689fec4c19c0759419dca9ddf7845cd3b1d33823",
+          "item_payload_hex": "16 1a 19 14 02 00 a0 00 23 00 00 04 10 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              82
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 144,
+                "saved_value": 4
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 26,
+                "saved_value": 16
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 2
+    },
+    {
+      "monster_id": 43,
+      "decoded_size": 248,
+      "decoded_sha256": "84c7de7c5c8ce612c38842dfbdf4fca590df98ff3b55916468b2de80616e46b4",
+      "record_count": 4,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "85891fe6142d4df95d0d000cd64d5bb47403e430b8de785ad04e7fa1105053ae",
+          "item_payload_hex": "07 07 08 14 02 00 a0 00 02 00 64 76 02 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              55
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 72,
+                "saved_value": 118
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 3,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 100
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "2fe2d946bbe5a3c67e07b10ced8edb26af6c9b40ab1c637298fc357ae6d904ca",
+          "item_payload_hex": "0c 07 0c 14 02 00 20 00 02 00 0a b0 04 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              46
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 3,
+                "template_value": 19,
+                "saved_value": 20
+              },
+              {
+                "payload_offset": 4,
+                "template_value": 1,
+                "saved_value": 2
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 32,
+                "saved_value": 176
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 3,
+                "saved_value": 4
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 10
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "848374c572edc554e54c85aabab9f3fe8a3b4d74465543ef1b9e0e6ca243be61",
+          "item_payload_hex": "16 1a 19 14 02 02 a0 00 23 00 00 ec 13 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              82
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 5,
+                "template_value": 0,
+                "saved_value": 2
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 144,
+                "saved_value": 236
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 26,
+                "saved_value": 19
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "009d0f43e19ced6d4b49f3325e61fc3e73f11b00d63b221eefba7549ce4218fe",
+          "item_payload_hex": "02 01 02 16 04 00 20 00 01 00 00 e8 03 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              51
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 3,
+                "template_value": 20,
+                "saved_value": 22
+              },
+              {
+                "payload_offset": 4,
+                "template_value": 2,
+                "saved_value": 4
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 32,
+                "saved_value": 232
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 4
+    },
+    {
+      "monster_id": 44,
+      "decoded_size": 310,
+      "decoded_sha256": "3243071ef1c6a68dc5658fbc7a87af12e54a357abac29b68ccab58fe758fc0a9",
+      "record_count": 5,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "91faa58ac11bb94df7cd7df6eea485c6f1f46d8ec334d3d9fc572296ab9c466f",
+          "item_payload_hex": "17 00 1b 13 01 01 a0 00 4b 00 00 88 13 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              78
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 5,
+                "template_value": 0,
+                "saved_value": 1
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "52ba63ba66ebffd909d89bf6b681b76d8a40b085a531caeeda6ecf796e32b2c4",
+          "item_payload_hex": "06 07 06 15 03 00 a0 00 03 00 14 48 03 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              54,
+              59
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 20
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "2a06626c63af7b5a69e1c2450d1edb8230f4ed4425359b31e8f92519310791e4",
+          "item_payload_hex": "08 04 02 15 03 00 20 00 01 00 00 a0 0f 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              53
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 3,
+                "template_value": 20,
+                "saved_value": 21
+              },
+              {
+                "payload_offset": 4,
+                "template_value": 2,
+                "saved_value": 3
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "1dd6a5047a78491c5d0785560c75b1de58f6d0579f285f35876bc18aff29812c",
+          "item_payload_hex": "26 00 10 22 00 00 00 00 01 00 02 32 00 00 09 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              37
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 37,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 2
+          }
+        },
+        {
+          "record_index": 4,
+          "record_offset": 248,
+          "item_payload_offset": 294,
+          "prefix_sha256": "ccb0f13cd1ba0737220fe78737730aa867f4b5280365f3d15d68f4baa410c0f6",
+          "item_payload_hex": "02 01 02 16 04 00 20 00 01 00 00 e8 03 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              51
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 3,
+                "template_value": 20,
+                "saved_value": 22
+              },
+              {
+                "payload_offset": 4,
+                "template_value": 2,
+                "saved_value": 4
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 32,
+                "saved_value": 232
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 5
+    },
+    {
+      "monster_id": 45,
+      "decoded_size": 186,
+      "decoded_sha256": "7ce2ef9f656d3ad5e93dc34b1d2060b89957c95cae226c88a67c0dff7a22a58e",
+      "record_count": 3,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "e3f36e1c85e80730bbc05813193821cff7105e6ca3c956a866f9c9ea07b15ff2",
+          "item_payload_hex": "10 00 11 10 00 00 e0 00 00 00 00 00 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              15
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 224
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 3,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 244,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 1,
+                "saved_value": 0
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "8176378dde57ea53ca0cc6410194beac95ff8d72fa13660045e919e1ab037fdf",
+          "item_payload_hex": "20 10 1d 2c 00 00 c0 00 00 00 04 00 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              31
+            ],
+            "nearest_byte_difference_count": 6,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 0,
+                "saved_value": 192
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 1,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 4
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 50,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 14,
+                "template_value": 6,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 15,
+                "template_value": 128,
+                "saved_value": 0
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 4
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "ee80d415331d4a682491ff546ed705a4f9df0568a4f6668a996a337677f4e388",
+          "item_payload_hex": "06 07 06 14 02 00 60 00 00 00 64 00 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              54
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 96
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 3,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 72,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 3,
+                "saved_value": 0
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 100
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 3
+    },
+    {
+      "monster_id": 46,
+      "decoded_size": 186,
+      "decoded_sha256": "f700e69edf796ddc6f6cf7f2e5483a86df17deab7a3cd75b77d9fca048c6d6ca",
+      "record_count": 3,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "1692114ba4c9623ed0e1f08629184b886c98b2cc208580d5d5afec4e61d36e9a",
+          "item_payload_hex": "02 01 02 13 01 00 a1 00 01 00 00 90 01 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              38
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 161
+              }
+            ],
+            "stable_field_template_index": 38,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "4026c088bf0db3535d33ef4f8c8b15caadf044f3e5d2927436c88ff7fe8f5f6b",
+          "item_payload_hex": "16 00 1a 19 00 00 a6 00 23 00 00 a4 06 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              21
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 166
+              }
+            ],
+            "stable_field_template_index": 21,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "832afa61a2454b003a76d57b3d1b30f57a4241e2e64d5b640b97f6801634a4a9",
+          "item_payload_hex": "21 00 10 1d 00 00 00 00 01 00 01 32 00 00 06 80",
+          "exact_template_index": 32,
+          "template_comparison": {
+            "exact_template_index": 32,
+            "nearest_template_indices": [
+              32
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 32,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 1
+          }
+        }
+      ],
+      "exact_item0_matches": [
+        {
+          "offset": 170,
+          "record_index": 2,
+          "template_index": 32,
+          "itemptr": 33,
+          "raw_hex": "21 00 10 1d 00 00 00 00 01 00 01 32 00 00 06 80"
+        }
+      ],
+      "unresolved_record_count": 2
+    },
+    {
+      "monster_id": 48,
+      "decoded_size": 124,
+      "decoded_sha256": "ac45610191174c9f8a42f75818fd5f19cbd4bd8ad55d02d5fec2c117317ebf24",
+      "record_count": 2,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "218c25c76acf365438f97cd1eaddcf39e72bd0775a9c214d81c234729fefe15d",
+          "item_payload_hex": "25 00 10 21 00 00 c0 00 01 00 01 32 00 00 08 01",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              36
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 0,
+                "saved_value": 192
+              },
+              {
+                "payload_offset": 15,
+                "template_value": 128,
+                "saved_value": 1
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 1
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "2b6683c03edcca85d5167ad27066621e2f2c4c42e31ee6f3a1be64969a8f62f7",
+          "item_payload_hex": "20 10 1d 2c 00 00 40 00 01 00 0a 32 00 00 06 01",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              31
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 0,
+                "saved_value": 64
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 10
+              },
+              {
+                "payload_offset": 15,
+                "template_value": 128,
+                "saved_value": 1
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 10
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 2
+    },
+    {
+      "monster_id": 49,
+      "decoded_size": 248,
+      "decoded_sha256": "86b109a7e998295bfb43c6a95e8141cd8b7c20ea412854e84e73614d2b5bb9b8",
+      "record_count": 4,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "a75814e9c2eb33b8b242ecd3a66df942b448be3b38c54953df594a249dd74cd9",
+          "item_payload_hex": "11 00 00 12 00 00 60 00 00 00 05 00 00 00 0a 01",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              16
+            ],
+            "nearest_byte_difference_count": 6,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 96
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 75,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 5
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 64,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 6,
+                "saved_value": 0
+              },
+              {
+                "payload_offset": 15,
+                "template_value": 128,
+                "saved_value": 1
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 5
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "d01f7c125c7385618ee3f71c6088b4c21ebaa754ee3311bc445db3c2e73a6088",
+          "item_payload_hex": "0a 00 0d 0b 02 00 e0 00 00 00 fa 00 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              9,
+              10
+            ],
+            "nearest_byte_difference_count": 7,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 250
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "034c600c8cc06a3fb0073092db3a54b3a37f55ede7260ac8e943547a33525ca7",
+          "item_payload_hex": "21 00 10 1d 00 00 40 00 01 00 01 32 00 00 06 01",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              32
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 0,
+                "saved_value": 64
+              },
+              {
+                "payload_offset": 15,
+                "template_value": 128,
+                "saved_value": 1
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 1
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "c3caa70a47aa0819c26616c0ce9ad98ba22f354e0684219994a4e91da24f9ec0",
+          "item_payload_hex": "25 00 0f 21 00 00 40 00 01 00 01 32 00 00 08 01",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              36
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 2,
+                "template_value": 16,
+                "saved_value": 15
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 0,
+                "saved_value": 64
+              },
+              {
+                "payload_offset": 15,
+                "template_value": 128,
+                "saved_value": 1
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 1
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 4
+    },
+    {
+      "monster_id": 50,
+      "decoded_size": 186,
+      "decoded_sha256": "325469731ccf5494f3b4eaa3fea0629b321e9294a53f977a40dd0dfe79d68037",
+      "record_count": 3,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "7d75ab398cbec85722ef8d9e07b85063717e93573c72bd0f69c7ad22e79d6313",
+          "item_payload_hex": "07 00 07 08 00 00 e0 00 06 00 fa fa 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              6
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 224
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 2,
+                "saved_value": 6
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 250
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 210,
+                "saved_value": 250
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 250
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "1c102cfd44324b4404f4e5eb59f6a60cfe0155dc771816f22dadaf57421394a1",
+          "item_payload_hex": "10 00 11 10 00 00 e0 00 03 00 00 2c 01 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              15
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 224
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 244,
+                "saved_value": 44
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "71753fe72135f7920c89ed1e2bc299712c6d9a9330537899777655f9be03c552",
+          "item_payload_hex": "23 00 10 1f 00 00 40 00 01 00 02 32 00 00 0c 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              34
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 0,
+                "saved_value": 64
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 34,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 2
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 3
+    },
+    {
+      "monster_id": 51,
+      "decoded_size": 248,
+      "decoded_sha256": "f1a90c957b37e756997b505fa5cb62309471d19c074a588ee330b05526956761",
+      "record_count": 4,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "b672491efcd6b23a7a8ee2411c45c78010e63b43c549234f2584890805fcb6c2",
+          "item_payload_hex": "0c 07 0c 15 03 00 60 00 04 00 96 b0 04 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              63
+            ],
+            "nearest_byte_difference_count": 5,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 96
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 2,
+                "saved_value": 4
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 100,
+                "saved_value": 150
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 34,
+                "saved_value": 176
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 11,
+                "saved_value": 4
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 150
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "ca0c3cd75dd18f9ebca621c6de6d3438f099eb1769c173f4f00b228965f14a50",
+          "item_payload_hex": "10 00 11 10 00 00 e0 00 03 00 00 f4 01 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              15
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 224
+              }
+            ],
+            "stable_field_template_index": 15,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "7029c18898e30abbc2e44d158a9b9bd29a33a051ebf57ef3321238c30dfb2dac",
+          "item_payload_hex": "24 00 10 20 00 00 c0 00 01 00 02 32 00 00 05 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              35
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 0,
+                "saved_value": 192
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 35,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 2
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "1097e1fe1ac9fc1f85f5771502b7338a76806fade656cdf6c91387f1f171a1c4",
+          "item_payload_hex": "21 00 10 1d 00 00 40 00 01 00 01 32 00 00 06 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              32
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 0,
+                "saved_value": 64
+              }
+            ],
+            "stable_field_template_index": 32,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 1
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 4
+    },
+    {
+      "monster_id": 52,
+      "decoded_size": 310,
+      "decoded_sha256": "4da6398ccd5aef867643a4274fc7be8903386042609bca99d184a57b94f9e188",
+      "record_count": 5,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "9d3ec409113f2d038f5470da61b03f9cb774b64a088bce1cc680d43b2002be94",
+          "item_payload_hex": "0b 0d 0b 13 01 00 a1 00 06 00 32 b0 04 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              49
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 161
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 50
+              }
+            ],
+            "stable_field_template_index": 49,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 50
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "55f75dc7a0bb9a76e9f41e86cc795dc3b43fa34ded894cbe9fea24459f958c9b",
+          "item_payload_hex": "16 1a 19 13 01 01 a6 00 23 00 00 48 0d 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              77
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 5,
+                "template_value": 0,
+                "saved_value": 1
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 166
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "f618dc12e3dd62b6319b7298140d6e5850c00c7a90c139624ca2140e214707a5",
+          "item_payload_hex": "1b 00 26 25 00 00 a0 00 01 00 00 0a 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              26
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 26,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "c30f802db72253d7470d439c92d564ce31b9389132eccf624f235671dca577d8",
+          "item_payload_hex": "03 00 03 13 01 00 20 00 04 00 00 c8 00 00 00 00",
+          "exact_template_index": 39,
+          "template_comparison": {
+            "exact_template_index": 39,
+            "nearest_template_indices": [
+              39
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 39,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 4,
+          "record_offset": 248,
+          "item_payload_offset": 294,
+          "prefix_sha256": "3ea5c95ea5f4544bb7f3627d780ba2b7174abbd81fe4befed9dd49831999d017",
+          "item_payload_hex": "19 00 00 23 00 00 00 00 01 00 02 64 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              24
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 24,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 2
+          }
+        }
+      ],
+      "exact_item0_matches": [
+        {
+          "offset": 232,
+          "record_index": 3,
+          "template_index": 39,
+          "itemptr": 3,
+          "raw_hex": "03 00 03 13 01 00 20 00 04 00 00 c8 00 00 00 00"
+        }
+      ],
+      "unresolved_record_count": 4
+    },
+    {
+      "monster_id": 53,
+      "decoded_size": 124,
+      "decoded_sha256": "da6366e2e151469b2447d1177fa95c84e0a76d2af81b540b361ac840036cd93e",
+      "record_count": 2,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "115fe5f3a7be2ff14cc1039af6ed1d78cfffacf72ee8ec62df137263ba7bf2da",
+          "item_payload_hex": "09 00 0a 09 00 00 a0 00 02 00 a0 4f 01 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              8
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 8,
+                "template_value": 1,
+                "saved_value": 2
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 160
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "e556c20538cb6230727c27fd9443ef80dcedb5b55baf1bd9d567e37bc473e5cc",
+          "item_payload_hex": "15 00 18 13 01 01 a0 00 1e 00 00 60 09 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              76
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 5,
+                "template_value": 0,
+                "saved_value": 1
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 2
+    },
+    {
+      "monster_id": 54,
+      "decoded_size": 248,
+      "decoded_sha256": "08e253ee20d1c4e92a53db8647f2ff3c76daa2ddaf68cbd134d0e26021acb09d",
+      "record_count": 4,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "ddae93713f26ddecf04f6d8b5a187f6945c6b13f1c7e19ed7a21c2dbfea5d0eb",
+          "item_payload_hex": "08 04 02 13 01 00 a1 00 01 00 00 d0 07 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              41
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 161
+              }
+            ],
+            "stable_field_template_index": 41,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "dd878ff4e5988b2112835ff6e846e2d50435ba1b80898da8dbf9298f567df5d0",
+          "item_payload_hex": "18 1c 1b 13 01 01 a0 00 50 00 00 70 17 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              79
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 5,
+                "template_value": 0,
+                "saved_value": 1
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "d73a163ac0f802c1ac7248aa927a996e5ee1e029a07ebc64f69fc6a5d1782207",
+          "item_payload_hex": "06 07 06 13 01 00 a0 00 03 00 96 a4 01 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              42
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 150
+              }
+            ],
+            "stable_field_template_index": 42,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 150
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "f73a884517b8d99b66a9dc5a7a3a8296eb38ab5ba333f210cd2dc381816cf785",
+          "item_payload_hex": "21 00 10 1d 00 00 00 00 01 00 02 32 00 00 06 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              32
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 32,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 2
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 4
+    },
+    {
+      "monster_id": 55,
+      "decoded_size": 186,
+      "decoded_sha256": "5184b742c4d8a2a7c827947a80dbada0b6991f48ea984a7690545da0cc464e30",
+      "record_count": 3,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "e46eefa3634428aa6eca8af28e01a46d274610c08fb987973ee260849787d267",
+          "item_payload_hex": "0d 0d 09 14 02 00 a0 00 05 00 fa 6c 07 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              57
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 100,
+                "saved_value": 250
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 236,
+                "saved_value": 108
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 9,
+                "saved_value": 7
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 250
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "14176f2bfb87a5a5b8889c917ec59928c83c67860593b77b65d7030038e37a7f",
+          "item_payload_hex": "16 1a 19 14 02 02 a0 00 23 00 00 ec 13 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              82
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 5,
+                "template_value": 0,
+                "saved_value": 2
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 144,
+                "saved_value": 236
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 26,
+                "saved_value": 19
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "0c1c9eb158f330e00ab9d673540969ae891b157f9bb092dd54bb9e4e2f7d47e3",
+          "item_payload_hex": "23 00 10 1f 00 00 00 00 01 00 0a 32 00 00 0c 80",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              34
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 10
+              }
+            ],
+            "stable_field_template_index": 34,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 10
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 3
+    },
+    {
+      "monster_id": 57,
+      "decoded_size": 62,
+      "decoded_sha256": "37e8dfd4d89d19d5de2470788dfca366410a743da686ea823d6fbcb71fe6d9d7",
+      "record_count": 1,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "5dd29b25ed0f89c01220dbfab6b7aa79cd70b98a702d9d5930ce32ce9e23a7e0",
+          "item_payload_hex": "06 00 00 07 07 00 e0 00 01 00 fa 0c 02 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              0,
+              24,
+              25,
+              27,
+              28
+            ],
+            "nearest_byte_difference_count": 7,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 250
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 1
+    },
+    {
+      "monster_id": 58,
+      "decoded_size": 310,
+      "decoded_sha256": "1f638596b1761cdd5e0ccc8caaadd4a03508898c223a6414237f72c3bfc2344c",
+      "record_count": 5,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "b95e00d34961c6bb80bf3ecb4639871c951dcf0b965c0ad30f7dcc9ec3cb3dff",
+          "item_payload_hex": "16 00 1a 19 00 00 a0 00 23 00 00 a4 06 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              21
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 21,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "c6b6b3c679df1b13b6ede8dae451f8611c35062523aeb064669e9ee00b16d61b",
+          "item_payload_hex": "0d 0d 09 13 01 00 a0 00 05 00 64 f6 04 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              47
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 100
+              }
+            ],
+            "stable_field_template_index": 47,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 100
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "e44a1392fafc70c062a3c5c839f4771d9c4ff6c9b2ca81bc91ced2687989510e",
+          "item_payload_hex": "06 07 06 13 01 00 20 00 02 00 14 9a 01 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              42
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 8,
+                "template_value": 3,
+                "saved_value": 2
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 20
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 164,
+                "saved_value": 154
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 20
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "c2c724c3ac3cd4cf46bbdfe04fe190e592fe8bf058a09dc3faf961cb2459c99e",
+          "item_payload_hex": "21 00 10 1d 00 00 00 00 01 00 01 32 00 00 06 80",
+          "exact_template_index": 32,
+          "template_comparison": {
+            "exact_template_index": 32,
+            "nearest_template_indices": [
+              32
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 32,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 1
+          }
+        },
+        {
+          "record_index": 4,
+          "record_offset": 248,
+          "item_payload_offset": 294,
+          "prefix_sha256": "7e6733cdb5cddffa1e12c58f836e7aa754c244e9738cfc958b4e845fc15d8c54",
+          "item_payload_hex": "08 00 04 02 00 00 20 00 01 00 00 e8 03 00 00 00",
+          "exact_template_index": 7,
+          "template_comparison": {
+            "exact_template_index": 7,
+            "nearest_template_indices": [
+              7
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 7,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [
+        {
+          "offset": 232,
+          "record_index": 3,
+          "template_index": 32,
+          "itemptr": 33,
+          "raw_hex": "21 00 10 1d 00 00 00 00 01 00 01 32 00 00 06 80"
+        },
+        {
+          "offset": 294,
+          "record_index": 4,
+          "template_index": 7,
+          "itemptr": 8,
+          "raw_hex": "08 00 04 02 00 00 20 00 01 00 00 e8 03 00 00 00"
+        }
+      ],
+      "unresolved_record_count": 3
+    },
+    {
+      "monster_id": 59,
+      "decoded_size": 248,
+      "decoded_sha256": "49586c2904eda59801e8718dfa8ad447b5c04d33f9ae46c499d4cb617e37c5fa",
+      "record_count": 4,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "008c843492321747074812437427aafb17a17b9523b0e580c06738d4f92f75db",
+          "item_payload_hex": "16 00 1a 19 00 00 a0 00 23 00 00 a4 06 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              21
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 21,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "d2e4a27e2124db5df1c33683d0c08621d2383df4b3c372f3b669b1afffbbed4c",
+          "item_payload_hex": "0a 00 0a 0b 00 00 a0 00 03 00 0a 90 01 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              9
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 9,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 10
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "6ea48a2560813a3c93e54f62ca32074b447df9c271e43e668f1121d670953bf7",
+          "item_payload_hex": "02 00 01 02 00 00 20 00 01 00 00 c8 00 00 00 00",
+          "exact_template_index": 1,
+          "template_comparison": {
+            "exact_template_index": 1,
+            "nearest_template_indices": [
+              1
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 1,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "item_payload_offset": 232,
+          "prefix_sha256": "2d492af30aeb4a2b5f4f861e9a863a78ecfea85f65c07bea3965b74e62f43b32",
+          "item_payload_hex": "07 00 07 08 00 00 20 00 02 00 0a d2 00 00 00 00",
+          "exact_template_index": 6,
+          "template_comparison": {
+            "exact_template_index": 6,
+            "nearest_template_indices": [
+              6
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 6,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 10
+          }
+        }
+      ],
+      "exact_item0_matches": [
+        {
+          "offset": 170,
+          "record_index": 2,
+          "template_index": 1,
+          "itemptr": 2,
+          "raw_hex": "02 00 01 02 00 00 20 00 01 00 00 c8 00 00 00 00"
+        },
+        {
+          "offset": 232,
+          "record_index": 3,
+          "template_index": 6,
+          "itemptr": 7,
+          "raw_hex": "07 00 07 08 00 00 20 00 02 00 0a d2 00 00 00 00"
+        }
+      ],
+      "unresolved_record_count": 2
+    },
+    {
+      "monster_id": 60,
+      "decoded_size": 186,
+      "decoded_sha256": "a8a4acee54d25701710d8d78e2f1fd09f0df4d7864045a12bd934b8287409c52",
+      "record_count": 3,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "e6ef674cfef1c3968561f76ea689c93a765dcf3afa6526ee531f5159686d628e",
+          "item_payload_hex": "05 00 00 05 00 00 a0 00 04 00 fa 6e 00 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              4
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 250
+              }
+            ],
+            "stable_field_template_index": 4,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 250
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "502f9e9526e55c8a4d7b02a33f0471ef51ca7232e5a2e3aed6c36f6ddb1b86d3",
+          "item_payload_hex": "16 00 1a 19 00 00 a0 00 23 00 00 a4 06 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              21
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 21,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "0a302a07d4588b2181e300f8ebbc77afa7f473a2bebb44327b1218cb1e3299dc",
+          "item_payload_hex": "08 00 04 02 00 00 20 00 01 00 00 e8 03 00 00 00",
+          "exact_template_index": 7,
+          "template_comparison": {
+            "exact_template_index": 7,
+            "nearest_template_indices": [
+              7
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 7,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [
+        {
+          "offset": 170,
+          "record_index": 2,
+          "template_index": 7,
+          "itemptr": 8,
+          "raw_hex": "08 00 04 02 00 00 20 00 01 00 00 e8 03 00 00 00"
+        }
+      ],
+      "unresolved_record_count": 2
+    },
+    {
+      "monster_id": 61,
+      "decoded_size": 186,
+      "decoded_sha256": "aecfc6f9286e52205acda405be824d229d86659d89fecf5c179cc263ae17b39c",
+      "record_count": 3,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "a39f140bd144a06c00398d588113a6972474b226773c7e5b87d2dba50f2f85a0",
+          "item_payload_hex": "13 00 2b 14 02 00 a0 00 04 00 00 68 01 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              62
+            ],
+            "nearest_byte_difference_count": 5,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 3,
+                "template_value": 21,
+                "saved_value": 20
+              },
+              {
+                "payload_offset": 4,
+                "template_value": 3,
+                "saved_value": 2
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 192,
+                "saved_value": 104
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 3,
+                "saved_value": 1
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "49343f84eeb4ea9fd214fad872bec0d896b4025cc8eca9774bdddb5236a81912",
+          "item_payload_hex": "0d 0d 09 14 02 00 20 00 05 00 0f 6c 07 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              57
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 100,
+                "saved_value": 15
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 236,
+                "saved_value": 108
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 9,
+                "saved_value": 7
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 15
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "0fbaf9e673ee720965785334f1066f336b6348b903bdc55b00321cb83f5036bf",
+          "item_payload_hex": "16 1a 19 14 02 02 a0 00 23 00 00 ec 13 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              82
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 5,
+                "template_value": 0,
+                "saved_value": 2
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 144,
+                "saved_value": 236
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 26,
+                "saved_value": 19
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 3
+    },
+    {
+      "monster_id": 62,
+      "decoded_size": 186,
+      "decoded_sha256": "a30744ef1b67f57ec108162323a9769d3d1db0f221825b07b508e5b43d24fb88",
+      "record_count": 3,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "item_payload_offset": 46,
+          "prefix_sha256": "09581c86fd04d8d4aee4868c6dab2e691a57c5b8afa77f532bd38383c393d246",
+          "item_payload_hex": "13 00 2b 14 02 00 a0 00 04 00 00 68 01 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              62
+            ],
+            "nearest_byte_difference_count": 5,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 3,
+                "template_value": 21,
+                "saved_value": 20
+              },
+              {
+                "payload_offset": 4,
+                "template_value": 3,
+                "saved_value": 2
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 192,
+                "saved_value": 104
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 3,
+                "saved_value": 1
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "item_payload_offset": 108,
+          "prefix_sha256": "7030c7b8d46e4afb5e7d12fa99dd0fdfd2a0fb99a97db451c6c607ca209f5c1c",
+          "item_payload_hex": "0d 0d 09 14 02 00 20 00 05 00 0f 6c 07 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              57
+            ],
+            "nearest_byte_difference_count": 3,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 100,
+                "saved_value": 15
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 236,
+                "saved_value": 108
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 9,
+                "saved_value": 7
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": false,
+            "quantity": 15
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "item_payload_offset": 170,
+          "prefix_sha256": "1bf08ca44d691b6bfebd0e943292f269443d6abe3737622529ea4d1e52f451df",
+          "item_payload_hex": "16 1a 19 14 02 02 a0 00 23 00 00 ec 13 00 00 00",
+          "exact_template_index": null,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              82
+            ],
+            "nearest_byte_difference_count": 4,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 5,
+                "template_value": 0,
+                "saved_value": 2
+              },
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 11,
+                "template_value": 144,
+                "saved_value": 236
+              },
+              {
+                "payload_offset": 12,
+                "template_value": 26,
+                "saved_value": 19
+              }
+            ],
+            "stable_field_template_index": null,
+            "stable_field_match_count": 0,
+            "equipped": true,
+            "quantity": 0
+          }
+        }
+      ],
+      "exact_item0_matches": [],
+      "unresolved_record_count": 3
+    }
+  ],
+  "saved_stf_files": [
+    {
+      "name": "CHRDATA1.STF",
+      "size": 992,
+      "sha256": "843d908a747afdf049a69c051097f907d15279de93f8c1c2bfd50557d7086a13",
+      "record_count": 16,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "prefix_hex": "0a 53 70 61 63 65 73 75 69 74 20 65 73 75 69 74 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a2 59",
+          "item_payload_hex": "14 00 00 17 00 00 a0 00 19 00 00 f4 01 00 00 00",
+          "itemptr": 20,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              19
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 19,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "prefix_hex": "0e 42 6f 6c 74 20 47 75 6e 20 28 31 30 30 29 20 28 31 30 30 29 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ea 5c",
+          "item_payload_hex": "07 00 07 08 00 00 a0 00 02 00 64 d2 00 00 00 00",
+          "itemptr": 7,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              6
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 100
+              }
+            ],
+            "stable_field_template_index": 6,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 100
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "prefix_hex": "15 20 4e 6f 20 20 20 32 20 53 74 75 6e 20 47 72 65 6e 61 64 65 73 00 00 00 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 e6 5c",
+          "item_payload_hex": "23 00 10 1f 00 00 00 00 01 00 02 32 00 00 0c 80",
+          "itemptr": 35,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              34
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 2
+              }
+            ],
+            "stable_field_template_index": 34,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 2
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "prefix_hex": "18 20 4e 6f 20 20 20 52 6f 63 6b 65 74 20 50 69 73 74 6f 6c 20 28 31 30 29 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 e2 5c",
+          "item_payload_hex": "0a 00 0a 0b 00 00 20 00 03 00 0a 90 01 00 00 00",
+          "itemptr": 10,
+          "template_comparison": {
+            "exact_template_index": 9,
+            "nearest_template_indices": [
+              9
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 9,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 10
+          }
+        },
+        {
+          "record_index": 4,
+          "record_offset": 248,
+          "prefix_hex": "18 20 4e 6f 20 20 20 52 6f 63 6b 65 74 20 50 69 73 74 6f 6c 20 28 31 30 29 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 de 5c",
+          "item_payload_hex": "0a 00 0a 0b 00 00 20 00 03 00 0a 90 01 00 00 00",
+          "itemptr": 10,
+          "template_comparison": {
+            "exact_template_index": 9,
+            "nearest_template_indices": [
+              9
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 9,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 10
+          }
+        },
+        {
+          "record_index": 5,
+          "record_offset": 310,
+          "prefix_hex": "18 20 4e 6f 20 20 20 52 6f 63 6b 65 74 20 4c 6e 63 68 72 2e 20 28 31 30 29 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 da 5c",
+          "item_payload_hex": "12 00 11 0b 00 00 20 00 32 00 0a d0 07 00 0b 80",
+          "itemptr": 18,
+          "template_comparison": {
+            "exact_template_index": 17,
+            "nearest_template_indices": [
+              17
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 17,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 10
+          }
+        },
+        {
+          "record_index": 6,
+          "record_offset": 372,
+          "prefix_hex": "15 20 4e 6f 20 20 20 4e 65 65 64 6c 65 20 47 75 6e 20 28 31 30 29 00 00 00 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 d6 5c",
+          "item_payload_hex": "06 00 07 06 00 00 20 00 03 00 0a d2 00 00 00 00",
+          "itemptr": 6,
+          "template_comparison": {
+            "exact_template_index": 5,
+            "nearest_template_indices": [
+              5
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 5,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 10
+          }
+        },
+        {
+          "record_index": 7,
+          "record_offset": 434,
+          "prefix_hex": "15 20 4e 6f 20 20 20 4e 65 65 64 6c 65 20 47 75 6e 20 28 31 30 29 00 00 00 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 d2 5c",
+          "item_payload_hex": "06 00 07 06 00 00 20 00 03 00 0a d2 00 00 00 00",
+          "itemptr": 6,
+          "template_comparison": {
+            "exact_template_index": 5,
+            "nearest_template_indices": [
+              5
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 5,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 10
+          }
+        },
+        {
+          "record_index": 8,
+          "record_offset": 496,
+          "prefix_hex": "15 20 4e 6f 20 20 20 4e 65 65 64 6c 65 20 47 75 6e 20 28 31 30 29 00 00 00 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 ce 5c",
+          "item_payload_hex": "06 00 07 06 00 00 20 00 03 00 0a d2 00 00 00 00",
+          "itemptr": 6,
+          "template_comparison": {
+            "exact_template_index": 5,
+            "nearest_template_indices": [
+              5
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 5,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 10
+          }
+        },
+        {
+          "record_index": 9,
+          "record_offset": 558,
+          "prefix_hex": "18 20 4e 6f 20 20 20 53 6f 6e 69 63 20 53 74 75 6e 6e 65 72 20 28 31 30 29 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 ca 5c",
+          "item_payload_hex": "0f 00 00 0f 00 00 20 00 02 00 0a 7c 01 00 11 80",
+          "itemptr": 15,
+          "template_comparison": {
+            "exact_template_index": 14,
+            "nearest_template_indices": [
+              14
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 14,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 10
+          }
+        },
+        {
+          "record_index": 10,
+          "record_offset": 620,
+          "prefix_hex": "11 20 4e 6f 20 20 20 4d 6f 6e 6f 20 53 77 6f 72 64 20 00 15 39 00 00 00 00 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 c6 5c",
+          "item_payload_hex": "08 00 04 02 00 00 20 00 01 00 00 e8 03 00 00 00",
+          "itemptr": 8,
+          "template_comparison": {
+            "exact_template_index": 7,
+            "nearest_template_indices": [
+              7
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 7,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 11,
+          "record_offset": 682,
+          "prefix_hex": "11 20 4e 6f 20 20 20 4d 6f 6e 6f 20 53 77 6f 72 64 20 00 15 39 00 00 00 00 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 ba 5c",
+          "item_payload_hex": "08 00 04 02 00 00 20 00 01 00 00 e8 03 00 00 00",
+          "itemptr": 8,
+          "template_comparison": {
+            "exact_template_index": 7,
+            "nearest_template_indices": [
+              7
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 7,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 12,
+          "record_offset": 744,
+          "prefix_hex": "1a 20 4e 6f 20 20 20 33 20 45 78 70 6c 6f 73 69 76 65 20 47 72 65 6e 61 64 65 73 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 b6 5c",
+          "item_payload_hex": "21 00 10 1d 00 00 00 00 01 00 03 32 00 00 06 80",
+          "itemptr": 33,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              32
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 10,
+                "template_value": 1,
+                "saved_value": 3
+              }
+            ],
+            "stable_field_template_index": 32,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 3
+          }
+        },
+        {
+          "record_index": 13,
+          "record_offset": 806,
+          "prefix_hex": "13 20 4e 6f 20 20 20 42 61 74 74 6c 65 20 61 72 6d 6f 72 20 39 00 00 00 00 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 b2 5c",
+          "item_payload_hex": "17 00 00 1b 00 00 20 00 4b 00 00 c4 09 00 00 00",
+          "itemptr": 23,
+          "template_comparison": {
+            "exact_template_index": 22,
+            "nearest_template_indices": [
+              22
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 22,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 14,
+          "record_offset": 868,
+          "prefix_hex": "13 20 4e 6f 20 20 20 42 61 74 74 6c 65 20 61 72 6d 6f 72 20 39 00 00 00 00 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 ae 5c",
+          "item_payload_hex": "17 00 00 1b 00 00 20 00 4b 00 00 c4 09 00 00 00",
+          "itemptr": 23,
+          "template_comparison": {
+            "exact_template_index": 22,
+            "nearest_template_indices": [
+              22
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 22,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 15,
+          "record_offset": 930,
+          "prefix_hex": "17 20 4e 6f 20 20 20 48 65 61 76 79 20 42 6f 64 79 20 41 72 6d 6f 72 20 00 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 00 00",
+          "item_payload_hex": "16 00 1a 19 00 00 20 00 23 00 00 a4 06 00 00 00",
+          "itemptr": 22,
+          "template_comparison": {
+            "exact_template_index": 21,
+            "nearest_template_indices": [
+              21
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 21,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CHRDATA2.STF",
+      "size": 310,
+      "sha256": "dde967b164309b71de1749274cf3a2e5459e6aaf29c6cf15e517cfe2c7aea6a3",
+      "record_count": 5,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "prefix_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 73 5a",
+          "item_payload_hex": "14 00 00 17 00 00 a0 00 19 00 00 f4 01 00 00 00",
+          "itemptr": 20,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              19
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 19,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "prefix_hex": "00 00 00 00 00 00 12 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 aa 5c",
+          "item_payload_hex": "07 00 07 08 00 00 a0 00 02 00 64 d2 00 00 00 00",
+          "itemptr": 7,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              6
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 100
+              }
+            ],
+            "stable_field_template_index": 6,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 100
+          }
+        },
+        {
+          "record_index": 2,
+          "record_offset": 124,
+          "prefix_hex": "11 48 65 61 76 79 20 42 6f 64 79 20 41 72 6d 6f 72 20 00 15 39 00 00 00 00 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 a6 5c",
+          "item_payload_hex": "16 00 1a 19 00 00 20 00 23 00 00 a4 06 00 00 00",
+          "itemptr": 22,
+          "template_comparison": {
+            "exact_template_index": 21,
+            "nearest_template_indices": [
+              21
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 21,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 3,
+          "record_offset": 186,
+          "prefix_hex": "11 48 65 61 76 79 20 42 6f 64 79 20 41 72 6d 6f 72 20 00 15 39 00 00 00 00 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 a2 5c",
+          "item_payload_hex": "16 00 1a 19 00 00 20 00 23 00 00 a4 06 00 00 00",
+          "itemptr": 22,
+          "template_comparison": {
+            "exact_template_index": 21,
+            "nearest_template_indices": [
+              21
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 21,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 4,
+          "record_offset": 248,
+          "prefix_hex": "11 48 65 61 76 79 20 42 6f 64 79 20 41 72 6d 6f 72 20 00 15 39 00 00 00 00 00 03 a2 3f e1 10 a4 07 00 00 18 00 27 00 18 00 00 00 00 00 00",
+          "item_payload_hex": "16 00 1a 19 00 00 20 00 23 00 00 a4 06 00 00 00",
+          "itemptr": 22,
+          "template_comparison": {
+            "exact_template_index": 21,
+            "nearest_template_indices": [
+              21
+            ],
+            "nearest_byte_difference_count": 0,
+            "unique_nearest_differences": [],
+            "stable_field_template_index": 21,
+            "stable_field_match_count": 1,
+            "equipped": false,
+            "quantity": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CHRDATA3.STF",
+      "size": 124,
+      "sha256": "1d48cd771587d0ac813f40771736329b73ef1264ce86d0fc4146a6ac78baa144",
+      "record_count": 2,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "prefix_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 08 00 ea 5a",
+          "item_payload_hex": "14 00 00 17 00 00 a0 00 19 00 00 f4 01 00 00 00",
+          "itemptr": 20,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              19
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 19,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "prefix_hex": "00 00 00 00 00 00 12 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+          "item_payload_hex": "07 00 07 08 00 00 a0 00 02 00 64 d2 00 00 00 00",
+          "itemptr": 7,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              6
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 100
+              }
+            ],
+            "stable_field_template_index": 6,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 100
+          }
+        }
+      ]
+    },
+    {
+      "name": "CHRDATA4.STF",
+      "size": 124,
+      "sha256": "56fc3c96e1661d634fd359b552296f4cd737d9cd6050a5ad553980ce928a2873",
+      "record_count": 2,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "prefix_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 08 00 c7 5b",
+          "item_payload_hex": "14 00 00 17 00 00 a0 00 19 00 00 f4 01 00 00 00",
+          "itemptr": 20,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              19
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 19,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "prefix_hex": "00 00 00 00 00 00 12 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+          "item_payload_hex": "07 00 07 08 00 00 a0 00 02 00 64 d2 00 00 00 00",
+          "itemptr": 7,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              6
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 100
+              }
+            ],
+            "stable_field_template_index": 6,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 100
+          }
+        }
+      ]
+    },
+    {
+      "name": "CHRDATA5.STF",
+      "size": 124,
+      "sha256": "59bca5c997153c9c4032b4fdf38bb13dc156fbbe0151c17ae3de665cad24cc00",
+      "record_count": 2,
+      "records": [
+        {
+          "record_index": 0,
+          "record_offset": 0,
+          "prefix_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3f 5c",
+          "item_payload_hex": "14 00 00 17 00 00 a0 00 19 00 00 f4 01 00 00 00",
+          "itemptr": 20,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              19
+            ],
+            "nearest_byte_difference_count": 1,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              }
+            ],
+            "stable_field_template_index": 19,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 0
+          }
+        },
+        {
+          "record_index": 1,
+          "record_offset": 62,
+          "prefix_hex": "00 00 00 00 00 00 12 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+          "item_payload_hex": "07 00 07 08 00 00 a0 00 02 00 64 d2 00 00 00 00",
+          "itemptr": 7,
+          "template_comparison": {
+            "exact_template_index": null,
+            "nearest_template_indices": [
+              6
+            ],
+            "nearest_byte_difference_count": 2,
+            "unique_nearest_differences": [
+              {
+                "payload_offset": 6,
+                "template_value": 32,
+                "saved_value": 160
+              },
+              {
+                "payload_offset": 10,
+                "template_value": 10,
+                "saved_value": 100
+              }
+            ],
+            "stable_field_template_index": 6,
+            "stable_field_match_count": 1,
+            "equipped": true,
+            "quantity": 100
+          }
+        }
+      ]
+    }
+  ],
+  "boundary": "Every decoded MON0ITM block is divisible into 62-byte records. The trailing 16 bytes at record offset 46 have ITEM0-shaped values, and only byte-for-byte ITEM0 matches at that structural offset are promoted. The first 46 bytes and non-exact trailing payloads remain unresolved; absence of an exact match does not mean a monster has no inventory. Supplied STF saves use the same 62-byte record boundary and trailing payload position. Original GAME.OVR proves record offset 0x34 bit 0x80 as the equipped flag and record offset 0x38 as a stack quantity; these are payload offsets 6 and 10. A unique ITEM0 match across every other payload byte is therefore promoted, while records differing in any other byte remain unresolved."
+}
