@@ -44,6 +44,7 @@ import data.dungeon.DungeonMap.Direction;
 import engine.character.CharacterSheetImpl;
 import engine.script.EclArgument;
 import engine.script.EclString;
+import engine.time.GameClock;
 import shared.GoldboxString;
 import shared.ViewDungeonPosition;
 import shared.ViewGlobalData;
@@ -56,6 +57,9 @@ public class VirtualMemory implements ViewDungeonPosition, ViewSpacePosition, Vi
 	public static final int MEMLOC_SPACE_X = 0x4BBE;
 	public static final int MEMLOC_SPACE_Y = 0x4BBF;
 	public static final int MEMLOC_SPACE_DIR = 0x4BC0;
+	/** COAB ECL clock word id base: ovr021.step_game_time reads ids 0x4BC6..0x4BCC. */
+	public static final int MEMLOC_CLOCK_START = 0x4BC6;
+	private static final int COAB_AREA_WORD_BASE = 0x6A00;
 	private final int MEMLOC_OVERLAND_DIR;
 	private final int MEMLOC_OVERLAND_X;
 	private final int MEMLOC_OVERLAND_Y;
@@ -245,6 +249,35 @@ public class VirtualMemory implements ViewDungeonPosition, ViewSpacePosition, Vi
 		mem.put(MEMLOC_AREA_DECO_START, (byte) id0);
 		mem.put(MEMLOC_AREA_DECO_START + 1, (byte) id1);
 		mem.put(MEMLOC_AREA_DECO_START + 2, (byte) id2);
+	}
+
+	public int getClockSlot(int slot) {
+		checkClockSlot(slot);
+		return mem.getUnsignedShort(clockBackingAddress(slot));
+	}
+
+	public void setClockSlot(int slot, int value) {
+		checkClockSlot(slot);
+		mem.putShort(clockBackingAddress(slot), (short) value);
+	}
+
+	/**
+	 * COAB {@code ovr021.step_game_time}: load seven ECL clock words, step the
+	 * selected slot through {@link GameClock}, then write all seven words back.
+	 * Affect timeout and party-aging hooks are intentionally outside
+	 * {@link VirtualMemory}; the standalone clock service exposes those hooks
+	 * for a later effect/party integration pass.
+	 */
+	public void stepClock(int slot, int amount) {
+		checkClockSlot(slot);
+		GameClock clock = new GameClock();
+		for (int i = 0; i < GameClock.SLOT_COUNT; i++) {
+			clock.set(i, getClockSlot(i));
+		}
+		clock.stepGameTime(slot, amount & 0xFF);
+		for (int i = 0; i < GameClock.SLOT_COUNT; i++) {
+			setClockSlot(i, clock.get(i));
+		}
 	}
 
 	@Override
@@ -714,6 +747,20 @@ public class VirtualMemory implements ViewDungeonPosition, ViewSpacePosition, Vi
 		return MEMLOC_SEL_PC_START <= address && address < (MEMLOC_SEL_PC_START + 0x1FF);
 	}
 
+	private boolean isClockAddress(int address) {
+		return MEMLOC_CLOCK_START <= address && address < MEMLOC_CLOCK_START + GameClock.SLOT_COUNT;
+	}
+
+	private int clockBackingAddress(int slot) {
+		return (COAB_AREA_WORD_BASE + ((MEMLOC_CLOCK_START + slot) * 2)) & 0xFFFF;
+	}
+
+	private void checkClockSlot(int slot) {
+		if (slot < 0 || slot >= GameClock.SLOT_COUNT) {
+			throw new IllegalArgumentException("Clock slot outside COAB range 0..6: " + slot);
+		}
+	}
+
 	public int readMemInt(EclArgument a) {
 		if (!a.isMemAddress()) {
 			return 0;
@@ -731,6 +778,9 @@ public class VirtualMemory implements ViewDungeonPosition, ViewSpacePosition, Vi
 	private int readMemInt(int address, boolean isShort) {
 		if (isCharacterAddress(address)) {
 			return members.get(getLoadedCharacter()).getCharacter().readValue(address - MEMLOC_SEL_PC_START, isShort);
+		}
+		if (isClockAddress(address)) {
+			return getClockSlot(address - MEMLOC_CLOCK_START);
 		}
 		return isShort ? mem.getUnsignedShort(address) : mem.getUnsigned(address);
 	}
@@ -759,6 +809,8 @@ public class VirtualMemory implements ViewDungeonPosition, ViewSpacePosition, Vi
 	public void writeMemInt(int address, int value, boolean isShort) {
 		if (isCharacterAddress(address)) {
 			members.get(getLoadedCharacter()).getCharacter().writeValue(address - MEMLOC_SEL_PC_START, value, isShort);
+		} else if (isClockAddress(address)) {
+			setClockSlot(address - MEMLOC_CLOCK_START, value);
 		} else if (isShort) {
 			mem.putShort(address, (short) value);
 		} else {

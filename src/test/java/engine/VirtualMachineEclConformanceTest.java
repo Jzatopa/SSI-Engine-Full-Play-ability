@@ -13,6 +13,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import character.ClassSelection;
+import common.FileMap;
 import common.ByteBufferWrapper;
 import data.ContentFile;
 import data.ContentType;
@@ -22,6 +23,7 @@ import data.character.CharacterBuckRogers;
 import data.script.EclProgram;
 import engine.script.EclInstruction;
 import engine.script.EclOpCode;
+import engine.time.GameClock;
 import io.vavr.collection.HashMap;
 
 public class VirtualMachineEclConformanceTest {
@@ -76,7 +78,56 @@ public class VirtualMachineEclConformanceTest {
 		assertEquals(11, instruction.getArgument(2).valueAsInt());
 	}
 
+	@Test
+	public void clock2OpcodeStepsCoabBackedClockWords() throws Exception {
+		EngineConfiguration cfg = localMatrixConfig();
+		VirtualMemory memory = new VirtualMemory(cfg);
+		memory.setClockSlot(GameClock.SLOT_MINUTES_ONES, 8);
+		memory.writeMemInt(VirtualMemory.MEMLOC_CLOCK_START + GameClock.SLOT_MINUTES_ONES, 9, false);
+		assertEquals(9, memory.getClockSlot(GameClock.SLOT_MINUTES_ONES));
+		assertEquals(9, memory.readMemInt(new engine.script.EclArgument(1, 3,
+			VirtualMemory.MEMLOC_CLOCK_START + GameClock.SLOT_MINUTES_ONES)));
+		memory.setClockSlot(GameClock.SLOT_MINUTES_ONES, 8);
+
+		EclInstruction.configOpCodes(HashMap.of(0x00, EclOpCode.EXIT, 0x01, EclOpCode.GOTO,
+			0x34, EclOpCode.CLOCK2));
+		VirtualMachine vm = new VirtualMachine(null, memory, cfg.getCodeBase());
+		vm.newEcl(clock2Program(cfg.getCodeBase(), 5, GameClock.SLOT_MINUTES_ONES));
+
+		vm.startInit();
+
+		assertEquals(3, memory.getClockSlot(GameClock.SLOT_MINUTES_ONES));
+		assertEquals(1, memory.getClockSlot(GameClock.SLOT_MINUTES_TENS));
+	}
+
 	private VirtualMachine vm() {
 		return new VirtualMachine(null, null, 0, id -> Resource.of(monster));
+	}
+
+	private static EngineConfiguration localMatrixConfig() throws Exception {
+		String gameDir = System.getenv("MATRIX_CUBED_GAME_DIR");
+		Assume.assumeTrue("MATRIX_CUBED_GAME_DIR must point at a local Matrix Cubed install",
+			gameDir != null && new File(gameDir, "TITLE.DAX").isFile());
+		return new EngineConfiguration(new FileMap(gameDir));
+	}
+
+	private static EclProgram clock2Program(int codeBase, int timeStep, int timeSlot) {
+		ByteBufferWrapper code = ByteBufferWrapper.allocateLE(17);
+		int bodyAddress = codeBase + 8;
+		code.put(new byte[] {
+			(byte) 0x88, 0x13, // EclProgram header id 5000, stripped by constructor
+			0x00, // onMove: EXIT
+			0x00, // onSearchLocation: EXIT
+			0x00, // onRest: EXIT
+			0x00, // onRestInterruption: EXIT
+			0x01, 0x01, (byte) (bodyAddress & 0xFF), (byte) ((bodyAddress >> 8) & 0xFF), // onInit: GOTO body
+			0x34, // body: CLOCK2
+			0x00, (byte) timeStep,
+			0x00, (byte) timeSlot,
+			0x00, // next instruction: EXIT
+			0x00 // padding guard
+		});
+		code.flip();
+		return new EclProgram(code, ContentType.ECL);
 	}
 }

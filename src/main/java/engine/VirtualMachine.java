@@ -689,7 +689,7 @@ public class VirtualMachine {
 
 			}), //
 			entry(EclOpCode.CLOCK2, inst -> {
-
+				memory.stepClock(intValue(inst.getArgument(1)), intValue(inst.getArgument(0)));
 			}), //
 			entry(EclOpCode.WRITE_MEM_BASE_OFF, inst -> {
 				memory.writeMemInt(inst.getArgument(1), intValue(inst.getArgument(2)), intValue(inst.getArgument(0)));
