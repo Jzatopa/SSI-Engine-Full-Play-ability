@@ -171,6 +171,46 @@ public class CombatStateTest {
 		assertTrue(state.renderSummary().contains("Ratwurst vertical slice"));
 	}
 
+	@Test
+	public void attackerSkillDrivesHitChanceThroughTheResolver() {
+		// Two attackers, thac0 10 (skilled) vs thac0 18 (weak), same defender
+		// AC 4. Through the resolver-driven CombatState.attack, the skilled
+		// attacker must hit on strictly more rolls, and each hit/miss must
+		// obey the descending Gold Box rule d20 >= thac0 - AC.
+		int defenderAc = 4;
+		int skilledHits = countHits(10, defenderAc);
+		int weakHits = countHits(18, defenderAc);
+		assertTrue("skilled thac0 should hit on more rolls: " + skilledHits + " vs " + weakHits,
+			skilledHits > weakHits);
+
+		// thac0 18 vs AC 4 needs d20 >= 14; roll 10 must miss, roll 14 must hit.
+		assertFalse(attackHitsOnRoll(18, defenderAc, 10));
+		assertTrue(attackHitsOnRoll(18, defenderAc, 14));
+		// thac0 10 vs AC 4 needs d20 >= 6; roll 10 now hits where the weak one missed.
+		assertTrue(attackHitsOnRoll(10, defenderAc, 10));
+	}
+
+	private static int countHits(int attackerThac0, int defenderAc) {
+		int hits = 0;
+		for (int roll = 2; roll <= 19; roll++) {
+			if (attackHitsOnRoll(attackerThac0, defenderAc, roll)) {
+				hits++;
+			}
+		}
+		return hits;
+	}
+
+	private static boolean attackHitsOnRoll(int attackerThac0, int defenderAc, int roll) {
+		GeneratedBattlefield generated = new RecoveredBattlefieldGenerator().generate(new Options());
+		Combatant hero = new Combatant(1, "HERO", Side.PARTY, 200, 4, attackerThac0, 1, 2, 6, CombatPosition.of(10, 10), "test");
+		Combatant monster = new Combatant(2, "MONSTER", Side.MONSTER, 200, defenderAc, 20, 1, 1, 4, CombatPosition.of(11, 10), "test");
+		CombatState state = CombatState.fromRecoveredBattlefield(generated, List.of(hero), List.of(monster));
+		if (state.current().side() != Side.PARTY) {
+			state.endTurn();
+		}
+		return state.attack(state.livingMonsters().get(0), roll).hit();
+	}
+
 	private static CombatPosition adjacentFreeCell(CombatState state, Combatant active) {
 		int[][] steps = { { 1, 0 }, { -1, 0 }, { 0, 1 }, { 0, -1 } };
 		for (int[] step : steps) {

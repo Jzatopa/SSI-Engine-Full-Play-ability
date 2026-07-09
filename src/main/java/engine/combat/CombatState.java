@@ -8,6 +8,11 @@ import java.util.Optional;
 import engine.combat.Combatant.Side;
 import engine.combat.RecoveredBattlefieldGenerator.GeneratedBattlefield;
 import engine.combat.RecoveredBattlefieldGenerator.Options;
+import engine.combat.attack.AttackOutcome;
+import engine.combat.attack.AttackResolver;
+import engine.combat.attack.CombatantAttackerView;
+import engine.combat.attack.CombatantDefenderView;
+import engine.combat.attack.NeutralAttackRuleset;
 
 /**
  * First stateful Java combat runtime layer for Matrix Cubed.
@@ -270,6 +275,29 @@ public final class CombatState {
 		updatePhase();
 	}
 
+	/**
+	 * Resolves one attack via the ported COAB {@code engine.combat.attack}
+	 * package ({@link AttackResolver#resolveSwing}) instead of the earlier
+	 * scaffold hit/damage formula. {@link CombatantAttackerView} /
+	 * {@link CombatantDefenderView} bridge {@link Combatant}'s decoded
+	 * fields (thac0, armorClass, damage range) onto the resolver's richer
+	 * view interfaces, returning the documented neutral value for every
+	 * field Combatant does not genuinely supply (ability scores, magic
+	 * bonuses, ranged/backstab data, facing, ...). {@link
+	 * NeutralAttackRuleset} is used deliberately -- Matrix Cubed's own
+	 * ability-score-to-combat-bonus formulas are not evidence-backed, so no
+	 * AD&D flavor is applied.
+	 *
+	 * <p>Both the to-hit roll and the single damage die are driven by the
+	 * one {@code roll} parameter this API accepts (clamped to 1..20): the
+	 * to-hit check feeds it to the resolver's injected d20 supplier as-is,
+	 * and the damage die reuses the same value ({@code ((roll - 1) % dieSize) + 1})
+	 * against the resolver's returned dice shape, since {@link
+	 * CombatantAttackerView} always synthesizes a single die sized to the
+	 * combatant's damage range. This keeps the existing single-roll,
+	 * seed-deterministic test contract; a future multi-swing/ranged wire
+	 * would need a separate damage-roll supplier.</p>
+	 */
 	public AttackResult attack(Combatant defender, int roll) {
 		Combatant attacker = current();
 		if (attacker == null || defender == null) {
@@ -285,11 +313,22 @@ public final class CombatState {
 			throw new IllegalArgumentException("Cannot attack friendly target.");
 		}
 		int boundedRoll = Math.max(1, Math.min(20, roll));
-		int needed = Math.max(1, attacker.thac0() - defender.armorClass());
-		boolean hit = boundedRoll >= needed;
+
+		CombatantAttackerView attackerView = new CombatantAttackerView(attacker);
+		CombatantDefenderView defenderView = new CombatantDefenderView(defender);
+		AttackOutcome outcome = AttackResolver.resolveSwing(
+			attackerView, defenderView, NeutralAttackRuleset.INSTANCE, false, () -> boundedRoll);
+
+		boolean hit = outcome.hit();
+		int flatBonus = outcome.totalToHitValue() - outcome.correctedAttackRoll();
+		int needed = Math.max(1, outcome.targetArmorClass() - flatBonus);
+
 		int damage = 0;
 		if (hit) {
-			damage = attacker.damageMin() + Math.max(0, boundedRoll - needed) % (attacker.damageMax() - attacker.damageMin() + 1);
+			int dieSize = Math.max(1, outcome.damageDiceSize());
+			int dieValue = ((boundedRoll - 1) % dieSize) + 1;
+			int perDie = outcome.damageDiceCount() * dieValue;
+			damage = Math.max(0, perDie + outcome.damageBonus()) * outcome.backstabDamageMultiplier();
 			defender.applyDamage(damage);
 		}
 		attacker.markActed();
