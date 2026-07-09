@@ -28,6 +28,11 @@ user-provided installs through paths such as `MATRIX_CUBED_GAME_DIR`.
   are validated against local original files or runtime behavior.
 - Licensing and attribution cleanup is required before any public release.
 
+## Reference Projects
+
+- Java SSI engine upstream: https://gitlab.com/farmboy0/ssi-engine
+- COAB reconstruction reference: https://github.com/simeonpilgrim/coab
+
 ## Current Findings
 
 - `START.EXE` is an MS-DOS MZ executable.
